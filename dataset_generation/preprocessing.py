@@ -133,9 +133,9 @@ def check_coverage(dataset):
 
 def parse_args():
     parser = argparse.ArgumentParser(prog='preprocessing data')
-    parser.add_argument('--data_path', type=str, default='data/tuples', help='location of the raw data (default: data)')
-    parser.add_argument('--output_dir', type=str, default='preprocessed_data', help='location of the preprocessed data (default: preprocessed_data)')
-    parser.add_argument('--dataset_name', type=str, default='all', help='name of the dataset (with extension, i.e., json) to be processed (default: all)')
+    parser.add_argument('--data_path', type=str, default='triplets', help='location of the raw data')
+    parser.add_argument('--output_dir', type=str, default='preprocessed_data', help='location of the preprocessed data')
+    parser.add_argument('--dataset_name', type=str, default='all', help='name of the dataset (with extension, i.e., json) to be processed')
     return parser.parse_args()
 
 

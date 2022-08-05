@@ -1,163 +1,227 @@
 import sys
-sys.path.append('../')
-
-import argparse
-from configs import configs
-import os
 import json
-from csv import DictWriter
+import os
 
+os.system("mkdir bug_ids")
+counter = 0
+triplets = {}
+pr = 'projects'
+type_ = sys.argv[1]
+project_names = ["Chart", "Cli", "Closure", "Codec", "Collections", "Compress", "Csv", 
+                 "Gson", "JacksonCore", "JacksonDatabind", "JacksonXml", "Jsoup", "JxPath", 
+                 "Lang", "Math", "Mockito", "Time"]
 
-def generate_triplets(args):
-    config = configs()
-    projects = config['projects']
+os.makedirs("./triplets/{}".format(type_), exist_ok=True)
 
-    if args.project_name != 'all':
-        projects = [args.project_name]
-
-    os.system("mkdir data bug_ids")
-    os.system("mkdir data/tuples data/triplets")
-
-    export_stats('PROJECT', 'BUG_ID', 'TOTAL TUPLES (with empty Cs)', 'EMPTY RATE', 
-                 'TOTAL TUPLES (without empty Cs)', 'TOTAL TEST SUIT SIZE',
-                 'PASSING TESTS FC', 'FAILING TESTS FC', 'PASSING TESTS BC', 'FAILING TESTS BC', 'TOTAL TRIGGERING')
-
-    for project in projects:
-        bug_ids = export_project_bugs(project)
-        export_tuples_triplets(project, bug_ids)
-
-
-def export_project_bugs(project):
+def get_bug_ids(project):
     out_path = "./bug_ids/" + project + ".txt"
     command = "defects4j query -p " + project + " -q bug.id > " + out_path
     os.system(command)
-
+ 
     with open(out_path) as f:
         bug_ids = f.readlines()
         bug_ids = list(map(lambda x: x.strip(), bug_ids))
 
     return bug_ids
 
+def find_fp(project, bug_id):
+    buggy_results_location = "./{}/{}/{}/buggy_test_results.txt".format(pr, project, bug_id)
+    fixed_results_location = "./{}/{}/{}/fixed_test_results.txt".format(pr, project, bug_id)
 
-def export_tuples_triplets(project, bug_ids):
-    counter = 0
-    project_tuples = {}
-    project_triplets = {}
-
-    for bug_id in bug_ids:
-        directory = "./projects/{}/{}/output/".format(project, bug_id)
-        directory_files = os.listdir(directory)
-        local_tuples = [f for f in os.listdir("./projects/{}/{}/output/".format(project, bug_id)) if os.path.isfile(directory + f)]
-
-        temp = {}
-        for loc_tuple in local_tuples: 
-            local_tuples_loc = "./projects/{}/{}/output/{}".format(project, bug_id, loc_tuple)
-            with open(local_tuples_loc, "r", encoding="ISO-8859-1", errors='ignore') as f:
-                temp = json.load(f)
-        
-            found_methods_loc = "./projects/{}/{}/output/modified_classes/{}/foundMethods.txt".format(project, bug_id, loc_tuple.split("_")[0])
-            try:
-                with open(found_methods_loc, "r", encoding="ISO-8859-1", errors='ignore') as f:
-                    found_methods = f.readlines()
-                    found_methods = list(map(lambda x: x.strip(), found_methods))
-            except:
-                continue
-
-            temp, empty_rate, total_tuples_wo_c, total_test_suit, pt_fc, ft_fc, pt_bc, ft_bc, total_triggering = process_tuples(temp, found_methods)
-            export_stats(project, bug_id, len(temp), empty_rate, total_tuples_wo_c, total_test_suit, pt_fc, ft_fc, pt_bc, ft_bc, total_triggering)
-
-            for tuple_id in temp:
-                project_tuples[counter] = temp[tuple_id]
-                project_triplets[counter] = {'code': temp[tuple_id]['code'], 
-                                            'test_code': temp[tuple_id]['test_code'],
-                                            'label': temp[tuple_id]['label']}
-                counter += 1
-
-    global_tuples = json.dumps(project_tuples, indent = 4)
-    global_triplets = json.dumps(project_triplets, indent = 4)
-
-    with open("./data/tuples/{}.json".format(project), "w") as out_f:
-        out_f.write(global_tuples)
-
-    with open("./data/triplets/{}.json".format(project), "w") as out_f:
-        out_f.write(global_triplets)
-
-
-def process_tuples(tuples, found_methods):
-    stats = {}
-    duplicate_ids = []
-    total_empty = 0
-    pt_bc, pt_fc, ft_bc, ft_fc, total_triggering = 0, 0, 0, 0, 0
-
-    for _id in tuples:
-        method_name = ""
-        stats.setdefault(tuples[_id]['test_name'], {})
-        stats[tuples[_id]['test_name']].setdefault(tuples[_id]['code'], [])
-        if len(stats[tuples[_id]['test_name']][tuples[_id]['code']]) > 0:
-            duplicate_ids.append(_id)
-            continue
-        stats[tuples[_id]['test_name']][tuples[_id]['code']].append(_id)
-        
-        test_code = tuples[_id]['test_code']
-        if test_code:
-            if any(method in test_code for method in found_methods):
-                total_triggering+=1
-
-        if tuples[_id]['code'] == '':
-            total_empty += 1
-
-        if tuples[_id]['type'] == 'FC' and tuples[_id]['label'] == 'P':
-            pt_fc += 1
-        elif tuples[_id]['type'] == 'FC' and tuples[_id]['label'] == 'F':
-            ft_fc += 1
-        elif tuples[_id]['type'] == 'BC' and tuples[_id]['label'] == 'P':
-            pt_bc += 1
-        elif tuples[_id]['type'] == 'BC' and tuples[_id]['label'] == 'F':
-            ft_bc += 1
-
-    for _id in duplicate_ids:
-        tuples.pop(_id)
+    buggy_tests = []
+    fixed_tests = []
 
     try:
-        empty_rate = total_empty / len(tuples)
-    except ZeroDivisionError:
-        empty_rate = 0
+        with open(buggy_results_location, "r", encoding="ISO-8859-1", errors='ignore') as f:
+            buggy_tests = f.readlines()
+            buggy_tests = list(map(lambda x: x.strip(), buggy_tests))[1:]
 
-    total_tuples_wo_c = (1 - empty_rate) * len(tuples)
-    total_test_suit = len(stats)
+        with open(fixed_results_location, "r", encoding="ISO-8859-1", errors='ignore') as f:
+            fixed_tests = f.readlines()
+            fixed_tests = list(map(lambda x: x.strip(), fixed_tests))[1:]
+    except FileNotFoundError:
+        print(bug_id)
 
-    return tuples, empty_rate, total_tuples_wo_c, total_test_suit, pt_fc, ft_fc, pt_bc, ft_bc, total_triggering
+    passing_for_fc = list()
+    for test in buggy_tests:
+        if test not in fixed_tests:
+            passing_for_fc.append(test.split('.')[-1].split('::')[-1])
+
+    return passing_for_fc
+
+def get_modified_classes(project_names, bug_id):
+    class_location = "./{}/{}/{}/output/modified_classes/modified.txt".format(pr, project, bug_id)
+    modified_classes = []
+
+    try:
+        with open(class_location, "r", encoding="ISO-8859-1", errors='ignore') as f:
+            modified_classes = f.readlines()
+            modified_classes = list(map(lambda x: x.strip().split('.')[-1], modified_classes))
+    except FileNotFoundError:
+        pass
+    return modified_classes
+
+def get_test_bodies(project, bug_id, passing_for_fc):
+    test_bodies = list()
+    try:
+        for test in passing_for_fc:
+            txt_location = "./{}/{}/{}/output/failed_BC/{}.txt".format(pr, project, bug_id, test)
+
+            with open(txt_location, "r", encoding="ISO-8859-1", errors='ignore') as f:
+                test_body = f.readlines()
+                test_body = " ".join(test_body)
+                test_bodies.append(test_body)
+    except FileNotFoundError:
+        pass
+    return test_bodies
+
+def get_modified_method_bodies(project, bug_id, modified_class):
+    buggy_methods = list()
+    fixed_methods = list()
+
+    try:
+        folder_location = "./{}/{}/{}/output/modified_classes/{}/".format(pr, project, bug_id, modified_class)
+        modified_number = len(os.listdir(folder_location)) // 2
+
+        for i in range(modified_number):
+            buggy = folder_location + str(i) + ".txt"
+            fixed = folder_location + str(i) + str(i) + ".txt"
+
+            with open(buggy, "r", encoding="ISO-8859-1", errors='ignore') as f:
+                buggy_code = f.readlines()
+                buggy_code = " ".join(buggy_code)
+                buggy_methods.append(buggy_code)
+            
+            with open(fixed, "r", encoding="ISO-8859-1", errors='ignore') as f:
+                fixed_code = f.readlines()
+                fixed_code = " ".join(fixed_code)
+                fixed_methods.append(fixed_code)
+    except FileNotFoundError:
+        print(bug_id)
+
+    return buggy_methods, fixed_methods
 
 
-def export_stats(project, bug_id, total_tuples, empty_rate, total_tuples_wo_c, total_test_suit, pt_fc, ft_fc, pt_bc, ft_bc, total_triggering):
-    field_names = [ 'PROJECT-BUG_ID', 'TOTAL TUPLES (with empty Cs)', 'EMPTY RATE', 
-                    'TOTAL TUPLES (without empty Cs)', 'TOTAL TEST SUIT SIZE', 
-                    'PASSING TESTS FC', 'FAILING TESTS FC', 'PASSING TESTS BC', 'FAILING TESTS BC', 'TOTAL TRIGGERING']
+def add_triplets(project, bug_id):
+    global counter
+    global triplets
 
-    dct = { 'PROJECT-BUG_ID': '{} - {}'.format(project, bug_id), 
-            'TOTAL TUPLES (with empty Cs)': total_tuples, 
-            'EMPTY RATE': empty_rate,
-            'TOTAL TUPLES (without empty Cs)': total_tuples_wo_c,
-            'TOTAL TEST SUIT SIZE': total_test_suit,
-            'PASSING TESTS FC': pt_fc,
-            'FAILING TESTS FC': ft_fc,
-            'PASSING TESTS BC': pt_bc,
-            'FAILING TESTS BC': ft_bc,
-            'TOTAL TRIGGERING' : total_triggering
-        }
+    passing_for_fc = find_fp(project, bug_id) #get names of failing test for bc, passing test for fc as a list
+    test_bodies = get_test_bodies(project, bug_id, passing_for_fc) # get all test bodies through a list of strings
+    modified_classes = get_modified_classes(project, bug_id) # get modified class names as a list
 
-    with open('./data/stats.csv', 'a') as f_object:
-        dictwriter_object = DictWriter(f_object, fieldnames=field_names)    
-        dictwriter_object.writerow(dct)
-        f_object.close()
+    for test in test_bodies:
+        for modified_class in modified_classes:
+            buggy_method_bodies, fixed_method_bodies = get_modified_method_bodies(project, bug_id, modified_class)
+
+            for i in range(len(buggy_method_bodies)):
+                buggy_code = buggy_method_bodies[i]
+                fixed_code = fixed_method_bodies[i]
+
+                if buggy_code == '' or fixed_code == '':
+                    continue
+
+                fixed_code = fixed_code.split('\n')
+                fixed_code = list(map(lambda x: x.strip(), fixed_code))
+                fixed_code = "\n".join(fixed_code)
+
+                buggy_code = buggy_code.split('\n')
+                buggy_code = list(map(lambda x: x.strip(), buggy_code))
+                buggy_code = "\n".join(buggy_code)
+
+                with open('fixed_code.txt', 'w') as g:
+                    g.write(fixed_code)
+
+                with open('buggy_code.txt', 'w') as h:
+                    h.write(buggy_code)
+
+                # process diff
+                os.system("diff fixed_code.txt buggy_code.txt > diff.txt")
+                # < comes from fixed_code
+                # > comes from buggy_code
+                with open("diff.txt", "r", encoding="ISO-8859-1", errors='ignore') as f:
+                    diff = f.readlines()
+                    diff = list(map(lambda x: x.strip(), diff))
+
+                cp_diff, cm_diff = list(), list()
+
+                index = 0
+                while index < len(diff):
+                    line = diff[index]
+                    #if there is change
+                    curr_cp_diff, curr_cm_diff = str(), str()
+                    if line.find('c') != -1:
+                        index+=1
+
+                        while index < len(diff):
+                            line = diff[index]
+                            if line[0] == '<':
+                                curr_cp_diff+= line[1:].strip() + " "
+                                index+=1
+
+                            elif line[0] == '>':
+                                curr_cm_diff+= line[1:].strip() + " "
+                                index+=1
+
+                            elif line[0] == '-':
+                                index+=1
+                            else:
+                                break
+                        
+
+                    elif line.find('a') != -1:
+                        index+=1
+
+                        while index < len(diff):
+                            line = diff[index]
+                            if line[0] == '>':
+                                curr_cm_diff+= line[1:].strip() + " "
+                                index+=1
+                            else:
+                                break
+                        
+                    elif line.find('d') != -1:
+                        index+=1
+
+                        while index < len(diff):
+                            line = diff[index]
+                            if line[0] == '<':
+                                curr_cp_diff+= line[1:].strip() + " "
+                                index+=1
+                            else:
+                                break
+                    else:
+                        index+=1
+
+                    if (curr_cp_diff == '' and curr_cm_diff == '') or ("".join(curr_cp_diff.split()) == "".join(curr_cm_diff.split())):
+                        continue
+
+                    cp_diff.append(curr_cp_diff)
+                    cm_diff.append(curr_cm_diff)
+                
+                triplets[counter] = dict()
+                triplets[counter]['bug_id'] = bug_id
+                triplets[counter]['T'] = test
+                triplets[counter]['C+'] = fixed_code
+                triplets[counter]['C-'] = buggy_code
+                triplets[counter]['diff_C+'] = cp_diff
+                triplets[counter]['diff_C-'] = cm_diff 
+                triplets[counter]['project'] = project
+                triplets[counter]['dataset'] = 'Real Faults' if type_ in ['fcbc_dev', 'fcbc_randoop'] else 'Syntactic Faults'
+                counter+=1
+
+                os.system("rm diff.txt buggy_code.txt fixed_code.txt")
 
 
-def parse_args():
-    parser = argparse.ArgumentParser(prog='generating data triplets')
-    parser.add_argument('--project_name', type=str, default='all', help='project you want to produce the triplets for')
-    return parser.parse_args()
+for project in project_names:
+    triplets = dict()
+    counter = 0
+    bug_ids = get_bug_ids(project)
+    for bug_id in bug_ids:
+        add_triplets(project, bug_id)
 
+    triplets = json.dumps(triplets, indent = 3)
+    with open("./triplets/{}/{}_{}.json".format(type_, project, type_), "w") as out_f:
+        out_f.write(triplets)
 
-if __name__ == '__main__':
-    args = parse_args()
-    generate_triplets(args)
+os.system("rm -rf bug_ids")
