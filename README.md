@@ -1,7 +1,7 @@
 # Perfect Is the Enemy of Test Oracle
 
 [![Install](https://img.shields.io/badge/Install-Instructions-blue)](INSTALL.md)
-[![Dependencies](https://img.shields.io/badge/-dependencies-green)](REQUIREMENTS.md)
+[![Dependencies](https://img.shields.io/badge/install-dependencies-green)](REQUIREMENTS.md)
 [![GitHub](https://img.shields.io/github/license/Intelligent-CAT-Lab/SEER)](LICENSE)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6969272.svg)](https://doi.org/10.5281/zenodo.6969272)
 
