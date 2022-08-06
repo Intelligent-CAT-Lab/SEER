@@ -1,13 +1,10 @@
-import os
 import sys
+sys.path.append('../')
 
 import torch
 import torch.nn as nn
 
-from modules import SequenceEncoder
-
-parentPath = os.path.abspath("..")
-sys.path.insert(0, parentPath)
+from learning.modules import SequenceEncoder
 
 class CodeTestEmbedder(nn.Module):
     def __init__(self, config):

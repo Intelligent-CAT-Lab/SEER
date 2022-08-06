@@ -1,3 +1,6 @@
+import sys
+sys.path.append('../')
+
 import argparse
 import json
 import torch
@@ -8,14 +11,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib
 import os
-import sys
-
-parent_dir = os.path.abspath(os.path.join(os.getcwd(), os.pardir))
-sys.path.insert(0, parent_dir)
 
 torch.multiprocessing.set_sharing_strategy('file_system')
 import configs, models
-from data_loader_phase1 import TestOracleDatasetPhase1
+from learning.data_loader_phase1 import TestOracleDatasetPhase1
 
 
 def load_dict(filename):

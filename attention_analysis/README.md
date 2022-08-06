@@ -19,6 +19,6 @@ python3 attention_analysis.py --model JointEmbedder --dataset TestOracleInferenc
 Please execute `python3 attention_analysis.py --help` for more help.
 
 ## How to analyze the attention weights?
-Please extract the attention weights for all input code sequences and place them inside a directory called "TNs_attn_weights". We have prepared a sample directory which contains the attention weights of all True Negatives (TNs) for you. You may download it, extract it, and analyze the attention weights. Please download the `attention_analysis.zip` file from Zenodo.
+Please extract the attention weights for all input code sequences and place them inside a directory called `TNs_attn_weights`. We have prepared a sample directory which contains the attention weights of all True Negatives (TNs) for you. You may download it, extract it, and analyze the attention weights. Please download the `attention_analysis.zip` file from Zenodo.
 
 Please compile and execute `src/main.java` for attention analysis.

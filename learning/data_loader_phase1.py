@@ -1,3 +1,6 @@
+import sys
+sys.path.append('../')
+
 import torch 
 import torch.utils.data as data
 import tables as tb

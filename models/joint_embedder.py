@@ -1,12 +1,10 @@
-import os
 import sys
+sys.path.append('../')
+
 import torch
 import torch.nn as nn
 
-from modules import SequenceEncoder
-
-parent_path = os.path.abspath("..")
-sys.path.insert(0, parent_path)
+from learning.modules import SequenceEncoder
 
 class JointEmbedder(nn.Module):
     def __init__(self, config):
