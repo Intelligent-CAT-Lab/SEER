@@ -8,6 +8,7 @@ In order to produce a heatmap for the attention weights of a specific code seque
 - `epoch_<reload_from>_fold_<fold_number>.h5`: the pretrained model which you would like to use for generating the heatmap. \<reload_from\> and \<fold_number\> correspond to command line arguments. Please download the file `attention_analysis.zip` from Zenodo and use the pretrained model from there.
 - `sample_code.txt`: the code sequence you wish to produce its attention weights.
 - `vocab_phase2.json`: the vocabulary which was used for training the model. This file is provided by the authors. Please download the file `attention_analysis.zip` from Zenodo and use the vocabulary from there.
+- `main.java`: this file is used to analyze attention weights.
 
 Please change your working directory to this folder (attention_analysis) and execute the script as shown below:  
 If the type of model is **JointEmbedder**, the dataset name is **TestOracleInferencePhase2**, the GPU ID is **0**, the fold number of the pretrained model is **1**, and the epoch number of the pretrained_model is **29**:
