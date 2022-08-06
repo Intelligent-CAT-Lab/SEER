@@ -1,12 +1,14 @@
 # Perfect Is the Enemy of Test Oracle
 
-[![Install](https://img.shields.io/badge/Install-Instructions-blue)](INSTALL.md)
-[![Dependencies](https://img.shields.io/badge/install-dependencies-green)](REQUIREMENTS.md)
-[![GitHub](https://img.shields.io/github/license/Intelligent-CAT-Lab/SEER)](LICENSE)
+[![Install](https://img.shields.io/badge/install-instructions-blue)](INSTALL.md)
+[![Dependencies](https://img.shields.io/badge/install-dependencies-blue)](REQUIREMENTS.md)
+[![GitHub](https://img.shields.io/github/license/Intelligent-CAT-Lab/SEER?color=blue)](LICENSE)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6969272.svg)](https://doi.org/10.5281/zenodo.6969272)
 
 Artifact repository for the paper _Perfect Is the Enemy of Test Oracle_, accepted at _ESEC/FSE 2022_.
 Authors are [Ali Reza Ibrahimzada][ali], [Yiğit Varlı][yigit], [Dilara Tekinoğlu][dilara], and [Reyhaneh Jabbarvand][reyhaneh].
+
+The artifact mainly consists of Python scripts which were used for automating dataset generation, mutation testing, and deep learning model implementation. We have split each distinct component of SEER into a separate directory in this repository. Please refer to each directory for a detailed explanation of the component.
 
 [ali]: https://alibrahimzada.github.io/
 [yigit]: https://github.com/yigitv4rli
