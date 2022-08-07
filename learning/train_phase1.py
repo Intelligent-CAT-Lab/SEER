@@ -12,8 +12,6 @@ import numpy as np
 os.environ['NUMEXPR_MAX_THREADS'] = '32' #Number of maximum threads can be used
 import argparse
 random.seed(42)
-from tqdm import tqdm
-from sklearn.metrics import f1_score, accuracy_score, precision_score, recall_score
 
 import logging
 logger = logging.getLogger(__name__)
@@ -166,7 +164,7 @@ def parse_args():
     parser.add_argument('--fold_number', type=int, default=1, help='fold to reload from')
     parser.add_argument('--timestamp', type=int, default=1, help='timestamp to load from')
     parser.add_argument('--fold', type=int, default=1, help='fold to train on')   
-    parser.add_argument('-g', '--gpu_id', type=int, default=0, help='GPU ID')
+    parser.add_argument('--gpu_id', type=int, default=0, help='GPU ID')
     parser.add_argument('--seed', type=int, default=1111, help='random seed')
     
     return parser.parse_args()

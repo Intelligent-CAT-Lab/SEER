@@ -180,7 +180,7 @@ def validate(data_loader, model, device, criterion):
 
 
 def parse_args():
-    parser = argparse.ArgumentParser("Train and Validate The Test Oracle Inference (Embedding) Model")
+    parser = argparse.ArgumentParser("Train and Validate The Test Oracle Inference (Decision) Model")
     parser.add_argument('--data_path', type=str, default='./phase2_dataset_final/', help='location of the data corpus')
     parser.add_argument('--model', type=str, default='JointEmbedder', help='model name: JointEmbeder, CodeTestEmbedder')
     parser.add_argument('--dataset', type=str, default='TestOracleInferencePhase2', help='name of dataset.java, python')
@@ -190,8 +190,7 @@ def parse_args():
     parser.add_argument('--timestamp', type=int, default=1, help='timestamp to load from')
     parser.add_argument('--weight', type=bool, default=False, help='weight for classes in NLLLoss')
     parser.add_argument('--fold', type=int, default=1, help='fold to train on')
-   
-    parser.add_argument('-g', '--gpu_id', type=int, default=0, help='GPU ID')
+    parser.add_argument('--gpu_id', type=int, default=0, help='GPU ID')
     parser.add_argument('--seed', type=int, default=1111, help='random seed')
     
     return parser.parse_args()

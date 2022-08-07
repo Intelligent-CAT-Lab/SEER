@@ -1,5 +1,5 @@
 # Model Training and Evaluation
-In this directory, we introduce all python modules which have been used for model training and evaluation purposes.
+In this directory, we introduce all python modules which have been used for model training and evaluation purposes. Please download the datasets and a pretrained model (if you want to continue from a specific epoch) from Zenodo.
 
 ## Implementation Details
 Please check the following descriptions related to each .py file in this directory:

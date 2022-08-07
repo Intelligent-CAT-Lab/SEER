@@ -5,14 +5,10 @@ import warnings
 warnings.filterwarnings("ignore")
 
 import sys
-import os
 import json
 import torch
 import argparse
 import matplotlib.pyplot as plt
-
-parent_dir = os.path.abspath(os.path.join(os.getcwd(), os.pardir))
-sys.path.insert(0, parent_dir)
 
 import configs, models
 from utils import sent2indexes

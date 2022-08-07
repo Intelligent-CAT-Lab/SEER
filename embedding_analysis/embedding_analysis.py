@@ -10,7 +10,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib
-import os
 
 torch.multiprocessing.set_sharing_strategy('file_system')
 import configs, models
