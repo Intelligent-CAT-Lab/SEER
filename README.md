@@ -1,5 +1,8 @@
 # Perfect Is the Enemy of Test Oracle
 
+[<img padding="10" align="right" src="https://www.acm.org/binaries/content/gallery/acm/publications/artifact-review-v1_1-badges/artifacts_evaluated_functional_v1_1.png" alt="ACM Artifacts Evaluated - Functional v1.1" width="114" height="113"/>][paper]
+[<img padding="10" align="right" src="https://www.acm.org/binaries/content/gallery/acm/publications/artifact-review-v1_1-badges/artifacts_available_v1_1.png" alt="ACM Artifacts Available v1.1" width="114" height="113"/>][paper]
+
 [![Install](https://img.shields.io/badge/install-instructions-blue)](INSTALL.md)
 [![Dependencies](https://img.shields.io/badge/install-dependencies-blue)](REQUIREMENTS.md)
 [![GitHub](https://img.shields.io/github/license/Intelligent-CAT-Lab/SEER?color=blue)](LICENSE)
@@ -16,6 +19,8 @@ The artifact mainly consists of Python scripts which were used for automating da
 [yigit]: https://github.com/yigitv4rli
 [dilara]: https://dtekinoglu.github.io/
 [reyhaneh]: https://reyhaneh.cs.illinois.edu/index.htm
+
+[paper]: https://doi.org/10.1145/3540250.3549086
 
 ## Data Archive
 Please find the model checkpoints and final datasets for both phase-1 and phase-2 of model training on [Zenodo](https://doi.org/10.5281/zenodo.6970062). Below is a description for each file of our data archive on Zenodo.
