@@ -8,7 +8,7 @@
 [![GitHub](https://img.shields.io/github/license/Intelligent-CAT-Lab/SEER?color=blue)](LICENSE)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6970062.svg)](https://doi.org/10.5281/zenodo.6970062)
 
-Artifact repository for the paper _Perfect Is the Enemy of Test Oracle_, accepted at _ESEC/FSE 2022_.
+Artifact repository for the paper [_Perfect Is the Enemy of Test Oracle_](https://doi.org/10.1145/3540250.3549086), accepted at _ESEC/FSE 2022_.
 Authors are [Ali Reza Ibrahimzada][ali], [Yiğit Varlı][yigit], [Dilara Tekinoğlu][dilara], and [Reyhaneh Jabbarvand][reyhaneh].
 
 The artifact mainly consists of Python scripts which were used for automating dataset generation, mutation testing, and deep learning model implementation. We have split each distinct component of SEER into a separate directory in this repository. Please refer to each directory for a detailed explanation of the component.
@@ -71,6 +71,26 @@ The directory structure of SEER is as follows. Please read the corresponding REA
            |
            |--- mutation_operators:   A directory which contains all mutation operators used in Major
 
+## Please Cite as
+```
+@inproceedings{10.1145/3540250.3549086,
+    author = {Ibrahimzada, Ali Reza and Varli, Yigit and Tekinoglu, Dilara and Jabbarvand, Reyhaneh},
+    title = {Perfect is the Enemy of Test Oracle},
+    year = {2022},
+    isbn = {9781450394130},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3540250.3549086},
+    doi = {10.1145/3540250.3549086},
+    abstract = {Automation of test oracles is one of the most challenging facets of software testing, but remains comparatively less addressed compared to automated test input generation. Test oracles rely on a ground-truth that can distinguish between the correct and buggy behavior to determine whether a test fails (detects a bug) or passes. What makes the oracle problem challenging and undecidable is the assumption that the ground-truth should know the exact expected, correct, or buggy behavior. However, we argue that one can still build an accurate oracle without knowing the exact correct or buggy behavior, but how these two might differ. This paper presents , a learning-based approach that in the absence of test assertions or other types of oracle, can determine whether a unit test passes or fails on a given method under test (MUT). To build the ground-truth, jointly embeds unit tests and the implementation of MUTs into a unified vector space, in such a way that the neural representation of tests are similar to that of MUTs they pass on them, but dissimilar to MUTs they fail on them. The classifier built on top of this vector representation serves as the oracle to generate “fail” labels, when test inputs detect a bug in MUT or “pass” labels, otherwise. Our extensive experiments on applying to more than 5K unit tests from a diverse set of open-source Java projects show that the produced oracle is (1) effective in predicting the fail or pass labels, achieving an overall accuracy, precision, recall, and F1 measure of 93%, 86%, 94%, and 90%, (2) generalizable, predicting the labels for the unit test of projects that were not in training or validation set with negligible performance drop, and (3) efficient, detecting the existence of bugs in only 6.5 milliseconds on average. Moreover, by interpreting the neural model and looking at it beyond a closed-box solution, we confirm that the oracle is valid, i.e., it predicts the labels through learning relevant features.},
+    booktitle = {Proceedings of the 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+    pages = {70–81},
+    numpages = {12},
+    keywords = {Test Oracle, Software Testing, Test Automation, Deep Learning},
+    location = {Singapore, Singapore},
+    series = {ESEC/FSE 2022}
+}
+```
 ## Contact
 
 Please don't hesitate to open issues or pull-requests, or to contact us directly (alirezai@illinois.edu). We are thankful for any questions, constructive criticism, or interest. :blush:
