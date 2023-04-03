@@ -6,11 +6,12 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=kl5sq@virginia.edu
 #
-#SBATCH --job-name="reproduce Job"
+#SBATCH --job-name="reproduce_embedding"
 #SBATCH --error="reproduce.err"
 #SBATCH --output="reproduce.output"
 # --- specify the partition (queue) name
 #SBATCH --partition="gpu"
+#SBATCH --gres=gpu:4
 #source /etc/profile.d/modules.sh
 #module load python3
 #source seer/bin/activate
