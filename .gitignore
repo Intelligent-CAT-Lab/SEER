@@ -1,1 +1,4 @@
 *.h5
+datasets/
+*.h5.1
+attention_analysis/TNs_attn_weights/
