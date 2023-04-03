@@ -19,6 +19,11 @@ cd ../scripts
 wget https://zenodo.org/record/6970062/files/data.zip
 unzip data.zip
 
-cd ..
+cd ../embedding_analysis
 wget https://zenodo.org/record/6970062/files/epoch_21_fold_1.h5
 
+cd ../learning
+mkdir -p output/JointEmbedder/TestOracleInferencePhase2/202203201945/models
+cp ../attention_analysis/epoch_29_fold_1.h5 output/JointEmbedder/TestOracleInferencePhase2/202203201945/models/
+
+echo "Setup Complete"
