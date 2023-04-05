@@ -12,6 +12,7 @@
 # --- specify the partition (queue) name
 #SBATCH --partition="gpu"
 #SBATCH --gres=gpu:4
+#SBATCH --nodelist=adriatic[01-06]
 #source /etc/profile.d/modules.sh
 #module load python3
 #source seer/bin/activate

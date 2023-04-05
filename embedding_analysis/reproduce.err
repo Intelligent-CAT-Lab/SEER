@@ -1,16 +1,2 @@
-Traceback (most recent call last):
-  File "embedding_analysis.py", line 149, in <module>
-    main(args)
-  File "embedding_analysis.py", line 27, in main
-    apply_lda(bc_embedding, fc_embedding)
-  File "embedding_analysis.py", line 79, in apply_lda
-    embs = clf.fit_transform(all_embs, y)
-  File "/u/kl5sq/.conda/envs/seer/lib/python3.6/site-packages/sklearn/base.py", line 702, in fit_transform
-    return self.fit(X, y, **fit_params).transform(X)
-  File "/u/kl5sq/.conda/envs/seer/lib/python3.6/site-packages/sklearn/discriminant_analysis.py", line 553, in fit
-    self._solve_svd(X, y)
-  File "/u/kl5sq/.conda/envs/seer/lib/python3.6/site-packages/sklearn/discriminant_analysis.py", line 454, in _solve_svd
-    Xc = np.concatenate(Xc, axis=0)
-  File "<__array_function__ internals>", line 6, in concatenate
-numpy.core._exceptions.MemoryError: Unable to allocate 45.4 GiB for an array with shape (18736, 325000) and data type float64
-Closing remaining open files:../datasets/phase1_dataset_final/fold1/codeposdiff_train.h5...done../datasets/phase1_dataset_final/fold1/codepos_train.h5...done../datasets/phase1_dataset_final/fold1/codenegdiff_train.h5...done../datasets/phase1_dataset_final/fold1/codeneg_train.h5...done../datasets/phase1_dataset_final/fold1/test_train.h5...done
+findfont: Font family ['arial'] not found. Falling back to DejaVu Sans.
+Closing remaining open files:../datasets/phase1_dataset_final/fold1/codepos_train.h5...done../datasets/phase1_dataset_final/fold1/codenegdiff_train.h5...done../datasets/phase1_dataset_final/fold1/codeneg_train.h5...done../datasets/phase1_dataset_final/fold1/test_train.h5...done../datasets/phase1_dataset_final/fold1/codeposdiff_train.h5...done
