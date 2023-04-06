@@ -202,10 +202,10 @@ def json_to_h5(type, fold, model):
         the logic stays the same for phase 2 as well with a few changes.
     """
     code_pos_h5 = tb.open_file(f"./datasets/phase3_dataset/fold{fold}/codepos_{type}.h5", mode="w")
-    code_pos_diff_h5 = tb.open_file(f"./data/fold{fold}/codeposdiff_{type}.h5", mode="w")
-    code_neg_h5 = tb.open_file(f"./data/fold{fold}/codeneg_{type}.h5", mode="w")
-    code_neg_diff_h5 = tb.open_file(f"./data/fold{fold}/codenegdiff_{type}.h5", mode="w")
-    test_h5 = tb.open_file(f"./data/fold{fold}/test_{type}.h5", mode="w")
+    code_pos_diff_h5 = tb.open_file(f"./datasets/phase3_dataset/fold{fold}/codeposdiff_{type}.h5", mode="w")
+    code_neg_h5 = tb.open_file(f"./datasets/phase3_dataset/fold{fold}/codeneg_{type}.h5", mode="w")
+    code_neg_diff_h5 = tb.open_file(f"./datasets/phase3_dataset/fold{fold}/codenegdiff_{type}.h5", mode="w")
+    test_h5 = tb.open_file(f"./datasets/phase3_dataset/fold{fold}/test_{type}.h5", mode="w")
     # label_h5 = tb.open_file(f"./phase2_dataset_final/fold{fold}/label_{type}.h5", mode="w")
 
     code_pos_table = code_pos_h5.create_table(code_pos_h5.root, 'indices', Particle, 'a table of indices and lengths')
