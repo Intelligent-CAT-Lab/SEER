@@ -201,7 +201,7 @@ def json_to_h5(type, fold, model):
         this function converts json file to h5 file for phase 1 of model training.
         the logic stays the same for phase 2 as well with a few changes.
     """
-    code_pos_h5 = tb.open_file(f"./data/fold{fold}/codepos_{type}.h5", mode="w")
+    code_pos_h5 = tb.open_file(f"./datasets/phase3_dataset/fold{fold}/codepos_{type}.h5", mode="w")
     code_pos_diff_h5 = tb.open_file(f"./data/fold{fold}/codeposdiff_{type}.h5", mode="w")
     code_neg_h5 = tb.open_file(f"./data/fold{fold}/codeneg_{type}.h5", mode="w")
     code_neg_diff_h5 = tb.open_file(f"./data/fold{fold}/codenegdiff_{type}.h5", mode="w")
@@ -424,7 +424,7 @@ def train_valid_test_split(dataset_dir, test_rate, valid_rate):
     """
 
     triplets = {}
-    with open(dataset_dir + '/phase2.json', "r", encoding="ISO-8859-1", errors='ignore') as f:
+    with open(dataset_dir + '/phase3.json', "r", encoding="ISO-8859-1", errors='ignore') as f:
         triplets = json.load(f)
 
     # counter = len(dataset)
@@ -531,7 +531,7 @@ def filter_asserts():
 if __name__ == '__main__':
 
     if sys.argv[1] == 'create_vocabulary':
-        create_vocabulary('./phase2_dataset_final/', sys.argv[2])
+        create_vocabulary('./datasets/phase3_dataset/', sys.argv[2])
 
     elif sys.argv[1] == 'json_to_h5':
         json_to_h5(sys.argv[2], sys.argv[3], sys.argv[4])

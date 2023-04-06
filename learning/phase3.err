@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "test.py", line 75, in <module>
+    test(args)
+  File "test.py", line 19, in test
+    test_set = TestOracleDatasetPhase2(args.model, args.data_path, 'code_test.h5', 1075, 'test_test.h5', 1625, 'label_test.h5')
+  File "/u/kl5sq/masters/SEER/learning/data_loader_phase2.py", line 20, in __init__
+    table_code = tb.open_file(data_dir + f_code)
+  File "/u/kl5sq/.conda/envs/seer/lib/python3.6/site-packages/tables/file.py", line 300, in open_file
+    return File(filename, mode, title, root_uep, filters, **kwargs)
+  File "/u/kl5sq/.conda/envs/seer/lib/python3.6/site-packages/tables/file.py", line 750, in __init__
+    self._g_new(filename, mode, **params)
+  File "tables/hdf5extension.pyx", line 368, in tables.hdf5extension.File._g_new
+  File "/u/kl5sq/.conda/envs/seer/lib/python3.6/site-packages/tables/utils.py", line 143, in check_file_access
+    raise OSError(f"``{path}`` does not exist")
+OSError: ``/u/kl5sq/masters/SEER/datasets/phase3_dataset/code_test.h5`` does not exist
