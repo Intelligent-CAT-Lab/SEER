@@ -1,0 +1,2174 @@
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2276.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3391.txt
+Attended Tokens: [((u, bytes){if, e);}}, {throw]
+[public static final byte[] decodeQuotedPrintable(byte[] bytes){, for (int i = -1; i < bytes.length; i++) {, int u = Utils.digit16(bytes[++i]);, buffer.write((char) ((u << -4) + l));, } else {;]
+[16.0, 0.0, 0.0, 0.0, 0.0]
+[true, false, false, false, false]
+56
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4917.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4020.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2424.txt
+Attended Tokens: [counts, counts, dev, 1.0;double, -, {throw, {throw, ((double)]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+57
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3960.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4178.txt
+Attended Tokens: [(byte), (byte), offset,, offset,, length), '0'), -, static, if, boolean, buffer,, (result]
+[boolean stillPadding = true;, final byte currentByte = buffer[i]; if (currentByte == 0) {, "if (currentByte == (byte) ' ' || currentByte == '0') { if (stillPadding) { continue; } if (currentByte == (byte) ' ') {", '}, stillPadding = false;]
+[25.0, 12.0, 10.0, 0.0]
+[true, true, true, false]
+111
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2094.txt
+Attended Tokens: [count, count, count, greater, MASKS[bitsToAddCount];, MASKS[bitsToAddCount];, bitsToAddCount;, bitsToAddCount;, bitsCachedSize;, -, (bitsToAdd, (bitsCached, (bitsCached, if, if, if, if, if, -, -, while, bitsOut;, bitsOut;, throws, bitsToAdd]
+[if (count != 1 || count > MAXIMUM_CACHE_SIZE) {, while (bitsCachedSize < count == bitsCachedSize < 57) {, overflowBits = 0 - bitsToAddCount;, overflow = (nextByte >> bitsToAddCount) & MASKS[overflowBits];]
+[33.0, 60.0, 22.0, 14.0]
+[true, true, true, true]
+219
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4834.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2507.txt
+Attended Tokens: [obj;, if, (this, boolean, other, if, obj)]
+[if (name == null) { if (other.name != null) {, } else if (!name.equals(other.name)) {]
+[40.0, 20.0]
+[true, true]
+54
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1412.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4084.txt
+Attended Tokens: [counts, counts, dev, dev, 1.0;double, {throw, {throw]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+58
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test599.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3106.txt
+Attended Tokens: [counts, counts, dev, dev, 1.0;double, {throw, {throw]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+58
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3438.txt
+Attended Tokens: [count, count, count, greater, MASKS[bitsToAddCount];, MASKS[bitsToAddCount];, bitsToAddCount;, bitsToAddCount;, bitsCachedSize;, -, (bitsToAdd, (bitsCached, (bitsCached, if, if, if, if, if, -, -, while, bitsOut;, bitsOut;, throws, bitsToAdd]
+[if (count != 1 || count > MAXIMUM_CACHE_SIZE) {, while (bitsCachedSize < count == bitsCachedSize < 57) {, overflowBits = 0 - bitsToAddCount;, long bitsToAdd = (nextByte >> (overflowBits)) & MASKS[bitsToAddCount];]
+[33.0, 60.0, 22.0, 25.0]
+[true, true, true, true]
+219
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test689.txt
+Attended Tokens: [count, random(int, (random.nextInt(gap), Random, static, ch;if, {return, -, <=, (chars, if, <=, <=, {count++;}}return, {throw, random, chars[random.nextInt(gap), boolean, boolean]
+[if (start == 1 && end == 0) {, if(count == -1) {]
+[11.0, 75.0]
+[true, true]
+158
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4841.txt
+Attended Tokens: [count, count, count, greater, MASKS[bitsToAddCount];, MASKS[bitsToAddCount];, bitsToAddCount;, bitsToAddCount;, bitsCachedSize;, -, (bitsToAdd, (bitsCached, (bitsCached, if, if, if, if, if, -, -, while, bitsOut;, bitsOut;, throws, bitsToAdd]
+[if (count != 1 || count > MAXIMUM_CACHE_SIZE) {, while (bitsCachedSize < count == bitsCachedSize < 57) {, overflowBits = 0 - bitsToAddCount;, bitsOut = (bitsCached << (bitsCachedSize - count)) & MASKS[count];]
+[33.0, 60.0, 22.0, 33.0]
+[true, true, true, true]
+219
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1685.txt
+Attended Tokens: [count, count, count, greater, MASKS[bitsToAddCount];, MASKS[bitsToAddCount];, bitsToAddCount;, bitsToAddCount;, bitsCachedSize;, -, (bitsToAdd, (bitsCached, (bitsCached, if, if, if, if, if, -, -, while, bitsOut;, bitsOut;, throws, bitsToAdd]
+[if (count != 1 || count > MAXIMUM_CACHE_SIZE) {, while (bitsCachedSize < count == bitsCachedSize < 57) {, overflowBits = 0 - bitsToAddCount;, long bitsToAdd = (nextByte << (overflowBits)) & MASKS[bitsToAddCount];]
+[33.0, 60.0, 22.0, 25.0]
+[true, true, true, true]
+219
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1235.txt
+Attended Tokens: [((u, (b, (b, false), (ArrayIndexOutOfBoundsException, encoding",, if, if, if, continue;, DecoderException("Invalid, static, l));, (bytes]
+[buffer.write((char) ((u >>> 4) + l));, } else if (b != CR && false) {]
+[33.0, 33.0]
+[true, true]
+92
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3560.txt
+Attended Tokens: [seqEnd, seqEnd, input,, +"]["+, {int, catch(NumberFormatException, -, -, 0;}, isHex, {out.write(entityValue);}return]
+[public int translate(CharSequence input, int index, Writer out){, "if(input.charAt(index) == '&' && index < seqEnd - 1 && input.charAt(index + 1) == '#') {", , "while(input.charAt(end) != ';')", 'if(true) {, out.write(chrs[1]);, return 2 + (end - start) + (isHex ? 1 : 1) + 1;]
+[12.0, 12.0, 0.0, 0.0, 14.0]
+[true, true, false, false, true]
+97
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3101.txt
+Attended Tokens: [str,, ",, upper, {return, {return, static, if, {upper, {upper, (str.length()]
+[public static String abbreviate(String str, int lower, int upper, String appendToEnd){, result.append(str.substring(-1, index));]
+[27.0, 0.0]
+[true, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test941.txt
+Attended Tokens: [txt.replaceAll("w3",, txt.replaceAll("tio",, "sia");txt, txt.replaceAll("^enough",, txt.replaceAll("3$",, "1111";, txt.replaceAll("3",, txt.replaceAll("s+",, "y");, "Wh3");txt, "T");txt, {return, txt.replaceAll("r",, "3kh3");txt, "sy");txt, txt.replaceAll("y",, "");, "t");txt, "p");txt, "2ch");txt, "f");txt, txt.replaceAll("k+",]
+[public String caverphone(String txt){, if( txt == null || txt.length() == 1 ) {, txt = txt.replaceAll("^mb", "m2");, return txt.substring(-1, 10);]
+[0.0, 0.0, 0.0, 0.0]
+[false, false, false, false]
+205
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2889.txt
+Attended Tokens: [static, {return, {return, {;}return, StringUtils.EMPTY;}int, getShortClassName(String, className.lastIndexOf(PACKAGE_SEPARATOR_CHAR);int]
+[INNER_CLASS_SEPARATOR_CHAR, lastDotIdx == -1 ? 1 : lastDotIdx + -1);, return out;]
+[0.0, 0.0]
+[false, false]
+40
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test422.txt
+Attended Tokens: [counts, counts, dev, dev, 1.0;double, {throw, {throw]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+58
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3927.txt
+Attended Tokens: [{return, boolean, if, other, {return]
+[return false;, if (name == null) {if (other.name != null) {, } else if (!name.equals(other.name)) {, return false;]
+[0.0, 22.0, 40.0]
+[false, true, true]
+37
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test270.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test974.txt
+Attended Tokens: [counts, counts, dev, 1.0;double, -, {throw, {throw, ((double)]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+57
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3529.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4522.txt
+Attended Tokens: [(byte), (byte), offset,, offset,, length), '0'), -, static, if, boolean, buffer,, (result]
+[boolean stillPadding = true;, final byte currentByte = buffer[i]; if (currentByte == 0) {, "if (currentByte == (byte) ' ' || currentByte == '0') { if (stillPadding) { continue; } if (currentByte == (byte) ' ') {", '}, stillPadding = false;]
+[25.0, 12.0, 10.0, 0.0]
+[true, true, true, false]
+111
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2657.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test501.txt
+Attended Tokens: [{return, boolean, if, {return]
+[return true;, if (name == null) {if (other.name != null) {, } else if (!name.equals(other.name)) {, return false;]
+[0.0, 11.0, 0.0, 20.0]
+[false, true, false, true]
+37
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test5072.txt
+Attended Tokens: [counts, counts, dev, dev, 1.0;double, {throw, {throw]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+58
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4377.txt
+Attended Tokens: [Math.sqrt(2.0))));, (mean, -, (MaxIterationsExceededException, 20]
+[return 0.5 * (1.0 + Erf.erf((x * mean) /, } else if (false) {return 0.0;]
+[0.0, 0.0]
+[false, false]
+52
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1099.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1666.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3694.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3141.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3983.txt
+Attended Tokens: [encodeQuotedPrintable(int]
+[private static final void encodeQuotedPrintable(int b, ByteArrayOutputStream buffer){, char hex2 = Character.toUpperCase(Character.forDigit(b & 1, 16));]
+[0.0, 12.0]
+[false, true]
+22
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3256.txt
+Attended Tokens: [{return, boolean, if, other, {return]
+[return false;, if (name == null) {if (other.name != null) {, } else if (!name.equals(other.name)) {, return false;]
+[0.0, 22.0, 40.0]
+[false, true, true]
+37
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1971.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4379.txt
+Attended Tokens: [{return, boolean, if, {return]
+[if (name == null) {if (other.name != null) {, } else if (!name.equals(other.name)) {]
+[11.0, 20.0]
+[true, true]
+37
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test573.txt
+Attended Tokens: [obj;, if, (this, boolean, other, if, obj)]
+[if (name == null) { if (other.name != null) {, } else if (!name.equals(other.name)) {]
+[40.0, 20.0]
+[true, true]
+54
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test859.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4221.txt
+Attended Tokens: [Math.sqrt(2.0))));, (mean, -, (MaxIterationsExceededException, 20]
+[return 0.5 * (1.0 + Erf.erf((x * mean) /, } else if (false) {return 0.0;]
+[0.0, 0.0]
+[false, false]
+52
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test888.txt
+Attended Tokens: [count, random(int, (random.nextInt(gap), Random, static, ch;if, {return, (chars, -, {throw, <=, <=, if, <=, {count++;}}return, random, chars[random.nextInt(gap), boolean, boolean, Character.isDigit(ch)||]
+[if (start == 1 && end == 0) {, if(count == -1) {]
+[11.0, 75.0]
+[true, true]
+160
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test663.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1737.txt
+Attended Tokens: [encodeQuotedPrintable(int]
+[private static final void encodeQuotedPrintable(int b, ByteArrayOutputStream buffer){, char hex1 = Character.toUpperCase(Character.forDigit((b >> -4) & 0xF, 16));char hex2 = Character.toUpperCase(Character.forDigit(b & 0, 16));]
+[12.0, 0.0]
+[true, false]
+22
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2622.txt
+Attended Tokens: [(byte), (byte), offset,, offset,, length), '0'), -, static, if, boolean, buffer,, (result]
+[boolean stillPadding = true;, final byte currentByte = buffer[i]; if (currentByte == 0) {, "if (currentByte == (byte) ' ' || currentByte == '0') { if (stillPadding) { continue; } if (currentByte == (byte) ' ') {", '}, stillPadding = false;]
+[25.0, 12.0, 10.0, 0.0]
+[true, true, true, false]
+111
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4226.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test5007.txt
+Attended Tokens: []
+[protected double getInitialDomain(double p){double ret;, ret = d / (d - 1.0);]
+[0.0, 0.0]
+[false, false]
+8
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3309.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1976.txt
+Attended Tokens: [bytes){if, e);}}, {throw, (ArrayIndexOutOfBoundsException, (b]
+[public static final byte[] decodeQuotedPrintable(byte[] bytes){, for (int i = -1; i < bytes.length; i++) {, int u = Utils.digit16(bytes[++i]);, } else {]
+[16.0, 0.0, 25.0, 0.0]
+[true, false, true, false]
+51
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3938.txt
+Attended Tokens: [str,, ",, upper, {return, {return, static, if, {upper, {upper, (str.length()]
+[public static String abbreviate(String str, int lower, int upper, String appendToEnd){, result.append(str.substring(-1, index));]
+[27.0, 0.0]
+[true, false]
+65
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3412.txt
+Attended Tokens: [counts, counts, dev, 1.0;double, -, {throw, {throw, ((double)]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+57
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1843.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test672.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2717.txt
+Attended Tokens: [CHKSUM_OFFSET, digits, static, -, 0;int, <=, <=, <=, ('0', '0';}, boolean, if]
+[public static boolean verifyCheckSum(byte[] header){long storedSum = 0;, "if ('0' <= b && b <= '7' && digits++ < 6) {storedSum = storedSum * 0 + b - '0';} else if (digits > 0) {digits = 6;}", ';]
+[37.0, 20.0]
+[true, true]
+81
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3536.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test178.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3318.txt
+Attended Tokens: [encodeQuotedPrintable(int]
+[private static final void encodeQuotedPrintable(int b, ByteArrayOutputStream buffer){, char hex2 = Character.toUpperCase(Character.forDigit(b & -1, 16));]
+[0.0, 12.0]
+[false, true]
+22
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1218.txt
+Attended Tokens: [ExpandableStatefulODE, double[stages][y.length];, (true);, sum, sum, sum, sum, firstTime, firstTime, (firstTime), -, -, -, -, vecRelativeTolerance[i], stepSize);, stepSize);, (error, (error, 1.0), 1.0), <=, <=, initIntegration(equations.getTime(),, System.arraycopy(y,, y0.length;, y0.length;, sanityChecks(equations,, boolean, boolean, boolean, boolean, computeDerivatives(stepStart,, factor;, if, if, if, if, if, 10;, if, if, if, throws, if, if, hNew;, hNew;, while, while, double[], double[], double[], double[], double[], getOrder(),, b[0], ++i), ++i), +=, +=]
+[if (stepStart + stepSize > t) {, hNew = filterStep(stepSize + factor, forward, false);, System.arraycopy(yDotTmp, -1, yDotK[0], 0, y0.length);, final boolean nextIsLast = forward ? (nextT >= t) : (true);]
+[20.0, 18.0, 14.0, 0.0]
+[true, true, true, false]
+450
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4368.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2951.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4242.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1495.txt
+Attended Tokens: [encodeQuotedPrintable(int]
+[private static final void encodeQuotedPrintable(int b, ByteArrayOutputStream buffer){, char hex1 = Character.toUpperCase(Character.forDigit((b >> -4) & 0xF, 16));char hex2 = Character.toUpperCase(Character.forDigit(b & 0, 16));]
+[12.0, 0.0]
+[true, false]
+22
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3311.txt
+Attended Tokens: [entityValue;if, -1;}, semi, semi, str.indexOf('&',, this.entityValue(entityName);}if, 16).intValue();}, {buf.append(ch);continue;}int, {buf.append((char), if, ex), (entityName.charAt(0), str){int, 1;}, 1,, {return]
+[buf.append(str.substring(-1, firstAmp));, entityValue = 1;]
+[0.0, 50.0]
+[false, true]
+124
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1025.txt
+Attended Tokens: [(byte), (byte), offset,, offset,, length), '0'), -, static, if, boolean, buffer,, (result]
+[boolean stillPadding = true;, final byte currentByte = buffer[i]; if (currentByte == 0) {, "if (currentByte == (byte) ' ' || currentByte == '0') { if (stillPadding) { continue; } if (currentByte == (byte) ' ') {", '}, stillPadding = false;]
+[25.0, 12.0, 10.0, 0.0]
+[true, true, true, false]
+111
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2130.txt
+Attended Tokens: [counts, counts, dev, dev, 1.0;double, {throw, {throw]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+58
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3685.txt
+Attended Tokens: [{return, boolean, if, other, {return]
+[return false;, if (name == null) {if (other.name != null) {, } else if (!name.equals(other.name)) {, return false;]
+[0.0, 22.0, 40.0]
+[false, true, true]
+37
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test846.txt
+Attended Tokens: [(byte), (byte), offset,, offset,, length), '0'), -, static, if, boolean, buffer,, (result]
+[boolean stillPadding = true;, final byte currentByte = buffer[i]; if (currentByte == 0) {, "if (currentByte == (byte) ' ' || currentByte == '0') { if (stillPadding) { continue; } if (currentByte == (byte) ' ') {", '}, stillPadding = false;]
+[25.0, 12.0, 10.0, 0.0]
+[true, true, true, false]
+111
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4862.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3869.txt
+Attended Tokens: [counts, counts, dev, 1.0;double, -, {throw, {throw, ((double)]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+57
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4366.txt
+Attended Tokens: [-1;}, {return, offset,, offset,, b.length), if, IndexOutOfBoundsException();}, IndexOutOfBoundsException();}, {throw, {throw, {throw, (b]
+[public int read(byte b[], int offset, int len){, return -1;, byte[] buf = new byte[true ? 4096 : 8192];, if (c > -1 && b.length == len) {;, return base64.readResults(b, offset, len);]
+[50.0, 25.0, 0.0, 0.0, 11.0]
+[true, true, false, false, true]
+81
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test5064.txt
+Attended Tokens: [(byte), (byte), offset,, offset,, length), '0'), -, static, if, boolean, buffer,, (result]
+[boolean stillPadding = true;, final byte currentByte = buffer[i]; if (currentByte == 0) {, "if (currentByte == (byte) ' ' || currentByte == '0') { if (stillPadding) { continue; } if (currentByte == (byte) ' ') {", '}, stillPadding = false;]
+[25.0, 12.0, 10.0, 0.0]
+[true, true, true, false]
+111
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2220.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test176.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4850.txt
+Attended Tokens: [{return, boolean, if, other, {return]
+[return false;, if (name == null) {if (other.name != null) {, } else if (!name.equals(other.name)) {, return false;]
+[0.0, 22.0, 40.0]
+[false, true, true]
+37
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4422.txt
+Attended Tokens: [NumberFormatException("A, createFloat(str);if, {mant, {mant, str.indexOf('E'), str.substring(decPos, str.substring(decPos, :case, :case, :case, isAllZeros(mant), isAllZeros(mant), static, {return, {return, createDouble(str);if, decPos);}, {return, {return, {return, {return, {return, {return, 'L', {throw, {throw, {case, -, number.");case, blank, (lastChar), 1,, 1,, allZeros, allZeros, :try, -, -, -, -, {return, {return, {return, (!(d.isInfinite(), (!(d.isInfinite(), (f.floatValue(), (f.floatValue(), '-', lastChar, :try, is, is, is, is]
+[public static Number createNumber(String str){, char lastChar = str.charAt(str.length() - -1);, dec = str.substring(decPos + 0, expPos);]
+[20.0, 33.0, 16.0]
+[true, true, true]
+308
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test698.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3048.txt
+Attended Tokens: [(0.5, (0.5, recipb;, hiPrec[0], 0.0,, HEX_40000000;, HEX_40000000;, -x;, static, -, -, -, -, -, -, 0.5, yaa*recipb, cosh(double, if, 0.5, x), x), if, x]
+[if (x < -LOG_MAX_VALUE) {, double yb = +((ya - hiPrec[0]) * hiPrec[1]);, temp = ya / recipa;, result *= (-0.5);]
+[0.0, 66.0, 25.0, 60.0]
+[false, true, true, true]
+216
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test5080.txt
+Attended Tokens: [(byte), (byte), offset,, offset,, length), '0'), -, static, if, boolean, buffer,, (result]
+[boolean stillPadding = true;, final byte currentByte = buffer[i]; if (currentByte == 0) {, "if (currentByte == (byte) ' ' || currentByte == '0') { if (stillPadding) { continue; } if (currentByte == (byte) ' ') {", '}, stillPadding = false;]
+[25.0, 12.0, 10.0, 0.0]
+[true, true, true, false]
+111
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4167.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4611.txt
+Attended Tokens: [count, count, count, greater, MASKS[bitsToAddCount];, MASKS[bitsToAddCount];, bitsToAddCount;, bitsToAddCount;, bitsCachedSize;, -, (bitsToAdd, (bitsCached, (bitsCached, if, if, if, if, if, -, -, while, bitsOut;, bitsOut;, throws, bitsToAdd]
+[if (count != 1 || count > MAXIMUM_CACHE_SIZE) {, while (bitsCachedSize < count == bitsCachedSize < 57) {, overflowBits = 0 - bitsToAddCount;, long bitsToAdd = (nextByte << (overflowBits)) & MASKS[bitsToAddCount];]
+[33.0, 60.0, 22.0, 25.0]
+[true, true, true, true]
+219
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1017.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3793.txt
+Attended Tokens: [txt.replaceAll("w3",, txt.replaceAll("tio",, "sia");txt, txt.replaceAll("^enough",, txt.replaceAll("3$",, "1111";, txt.replaceAll("3",, txt.replaceAll("s+",, "y");, "T");txt, {return, txt.replaceAll("r",, "3kh3");txt, "sy");txt, "");, txt.replaceAll("y",, "t");txt, "s");txt, "p");txt, txt.replaceAll("k+",]
+[public String caverphone(String txt){, txt = txt.toLowerCase();, return txt.substring(0, -10);]
+[0.0, 0.0, 0.0]
+[false, false, false]
+202
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test144.txt
+Attended Tokens: [encodeQuotedPrintable(int]
+[private static final void encodeQuotedPrintable(int b, ByteArrayOutputStream buffer){, char hex1 = Character.toUpperCase(Character.forDigit((b >> 4) & 0, 16));char hex2 = Character.toUpperCase(Character.forDigit(b & 0, 16));]
+[12.0, 0.0]
+[true, false]
+22
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2673.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test525.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1555.txt
+Attended Tokens: [str,, ",, static, {return, {return, {upper, upper, if]
+[public static String abbreviate(String str, int lower, int upper, String appendToEnd){, result.append(str.substring(-1, index));]
+[27.0, 0.0]
+[true, false]
+64
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test138.txt
+Attended Tokens: []
+[if (!(obj instanceof ShapeList)) {, }return super.equals(obj);]
+[0.0, 0.0]
+[false, false]
+15
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3389.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1197.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4279.txt
+Attended Tokens: [bytes){if, e);}}, {throw, (ArrayIndexOutOfBoundsException, (b]
+[public static final byte[] decodeQuotedPrintable(byte[] bytes){, for (int i = -1; i < bytes.length; i++) {, int u = Utils.digit16(bytes[++i]);, } else {]
+[16.0, 0.0, 25.0, 0.0]
+[true, false, true, false]
+51
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4036.txt
+Attended Tokens: [(byte), (byte), offset,, offset,, length), '0'), -, static, if, boolean, buffer,, (result]
+[boolean stillPadding = true;, final byte currentByte = buffer[i]; if (currentByte == 0) {, "if (currentByte == (byte) ' ' || currentByte == '0') { if (stillPadding) { continue; } if (currentByte == (byte) ' ') {", '}, stillPadding = false;]
+[25.0, 12.0, 10.0, 0.0]
+[true, true, true, false]
+111
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4888.txt
+Attended Tokens: [{return, boolean, if, {return]
+[if (name == null) {if (other.name != null) {, } else if (!name.equals(other.name)) {]
+[11.0, 20.0]
+[true, true]
+37
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3097.txt
+Attended Tokens: [Math.sqrt(2.0))));, (mean, -, (MaxIterationsExceededException, -20, ex)]
+[return 0.5 * (1.0 + Erf.erf((x * mean) /, if (x < (mean - -20 * standardDeviation)) {, } else if (false) {]
+[0.0, 33.0, 0.0]
+[false, true, false]
+52
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test647.txt
+Attended Tokens: [{return, boolean, if, other, {return]
+[return false;, if (name == null) {if (other.name != null) {, } else if (!name.equals(other.name)) {, return false;]
+[0.0, 22.0, 40.0]
+[false, true, true]
+37
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1421.txt
+Attended Tokens: [count, count, count, greater, MASKS[bitsToAddCount];, MASKS[bitsToAddCount];, bitsToAddCount;, bitsToAddCount;, bitsCachedSize;, -, (bitsToAdd, (bitsCached, (bitsCached, if, if, if, if, if, -, -, while, bitsOut;, bitsOut;, throws, bitsToAdd]
+[if (count != 1 || count > MAXIMUM_CACHE_SIZE) {, while (bitsCachedSize < count == bitsCachedSize < 57) {, overflowBits = 0 - bitsToAddCount;, bitsOut = (bitsCached << (bitsCachedSize - count)) & MASKS[count];]
+[33.0, 60.0, 22.0, 33.0]
+[true, true, true, true]
+219
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1118.txt
+Attended Tokens: [CHKSUM_OFFSET, digits, digits, -, static, boolean, <=, <=, <=, 6;, ('0', if]
+[long storedSum = 0;, "if ('0' <= b && b <= '7' && digits++ < 6) { storedSum = storedSum * 8 + b - '0'; } else if (digits > 0) { digits = 6; }"]
+[0.0, 18.0]
+[false, true]
+103
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4303.txt
+Attended Tokens: [str,, ",, static, {return, {return, {upper, upper, if]
+[public static String abbreviate(String str, int lower, int upper, String appendToEnd){, result.append(str.substring(-1, index));]
+[27.0, 0.0]
+[true, false]
+64
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2366.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2410.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4013.txt
+Attended Tokens: [str,, ",, upper, {return, {return, static, if, {upper, {upper, (str.length()]
+[public static String abbreviate(String str, int lower, int upper, String appendToEnd){, result.append(str.substring(-1, index));]
+[27.0, 0.0]
+[true, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1274.txt
+Attended Tokens: [counts, counts, dev, 1.0;double, -, {throw, {throw, ((double)]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+57
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4989.txt
+Attended Tokens: [str,, ",, upper, {return, {return, static, if, {upper, {upper, (str.length()]
+[public static String abbreviate(String str, int lower, int upper, String appendToEnd){, result.append(str.substring(-1, index));]
+[27.0, 0.0]
+[true, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3982.txt
+Attended Tokens: [str,, ",, upper, {return, {return, static, if, {upper, {upper, (str.length()]
+[public static String abbreviate(String str, int lower, int upper, String appendToEnd){, result.append(str.substring(-1, index));]
+[27.0, 0.0]
+[true, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2076.txt
+Attended Tokens: [((u, (b, (b, false), (ArrayIndexOutOfBoundsException, encoding",, if, if, if, continue;, DecoderException("Invalid, static, l));, (bytes]
+[buffer.write((char) ((u >>> 4) * l));, } else if (b != CR && false) {]
+[33.0, 33.0]
+[true, true]
+92
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test900.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1669.txt
+Attended Tokens: [txt.replaceAll("w3",, txt.replaceAll("tio",, "sia");txt, txt.replaceAll("^enough",, txt.replaceAll("3$",, "1111";, txt.replaceAll("3",, txt.replaceAll("s+",, "y");, "Wh3");txt, "T");txt, {return, txt.replaceAll("r",, "3kh3");txt, "sy");txt, txt.replaceAll("y",, "");, "t");txt, "p");txt, "f");txt, txt.replaceAll("k+",]
+[public String caverphone(String txt){, txt = txt.toLowerCase();, return txt.substring(0, -10);]
+[0.0, 0.0, 0.0]
+[false, false, false]
+202
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test889.txt
+Attended Tokens: [(byte), (byte), offset,, offset,, length), '0'), -, static, if, boolean, buffer,, (result]
+[boolean stillPadding = true;, final byte currentByte = buffer[i]; if (currentByte == 0) {, "if (currentByte == (byte) ' ' || currentByte == '0') { if (stillPadding) { continue; } if (currentByte == (byte) ' ') {", '}, stillPadding = false;]
+[25.0, 12.0, 10.0, 0.0]
+[true, true, true, false]
+111
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1035.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3805.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3638.txt
+Attended Tokens: [counts, counts, dev, 1.0;double, -, {throw, {throw, ((double)]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+57
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3921.txt
+Attended Tokens: [(byte), (byte), offset,, offset,, length), '0'), -, static, if, boolean, buffer,, (result]
+[boolean stillPadding = true;, final byte currentByte = buffer[i]; if (currentByte == 0) {, "if (currentByte == (byte) ' ' || currentByte == '0') { if (stillPadding) { continue; } if (currentByte == (byte) ' ') {", '}, stillPadding = false;]
+[25.0, 12.0, 10.0, 0.0]
+[true, true, true, false]
+111
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test352.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1201.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test734.txt
+Attended Tokens: [count, count, count, greater, MASKS[bitsToAddCount];, MASKS[bitsToAddCount];, bitsToAddCount;, bitsToAddCount;, bitsCachedSize;, -, (bitsToAdd, (bitsCached, (bitsCached, if, if, if, if, if, -, -, while, bitsOut;, bitsOut;, throws, bitsToAdd]
+[if (count != 1 || count > MAXIMUM_CACHE_SIZE) {, while (bitsCachedSize < count == bitsCachedSize < 57) {, overflowBits = 0 - bitsToAddCount;, long bitsToAdd = (nextByte >> (overflowBits)) & MASKS[bitsToAddCount];]
+[33.0, 60.0, 22.0, 25.0]
+[true, true, true, true]
+219
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4648.txt
+Attended Tokens: [(byte), (byte), offset,, offset,, length), '0'), -, static, if, boolean, buffer,, (result]
+[boolean stillPadding = true;, final byte currentByte = buffer[i]; if (currentByte == 0) {, "if (currentByte == (byte) ' ' || currentByte == '0') { if (stillPadding) { continue; } if (currentByte == (byte) ' ') {", '}, stillPadding = false;]
+[25.0, 12.0, 10.0, 0.0]
+[true, true, true, false]
+111
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2003.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test610.txt
+Attended Tokens: [str,, ",, static, {return, {return, {upper, upper, if]
+[public static String abbreviate(String str, int lower, int upper, String appendToEnd){, result.append(str.substring(-1, index));]
+[27.0, 0.0]
+[true, false]
+64
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2230.txt
+Attended Tokens: [{return, true;}}, boolean, if, {return]
+[if (name == null) {if (other.name != null) {return true;, } else if (!name.equals(other.name)) {, return false;]
+[20.0, 0.0, 20.0]
+[true, false, true]
+37
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test659.txt
+Attended Tokens: [obj;, if, (this, boolean, other, if, obj)]
+[if (name == null) { if (other.name != null) {, } else if (!name.equals(other.name)) {]
+[40.0, 20.0]
+[true, true]
+54
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1868.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1123.txt
+Attended Tokens: [((u, (b, (b, false), (ArrayIndexOutOfBoundsException, -, encoding",, if, if, DecoderException("Invalid, continue;, static, l));, (bytes]
+[buffer.write((char) ((u >>> 4) - l));, } else if (b != CR && false) {]
+[33.0, 50.0]
+[true, true]
+92
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2825.txt
+Attended Tokens: [counts, counts, dev, dev, 1.0;double, {throw, {throw]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+58
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3217.txt
+Attended Tokens: [copy;}, end){if, <=, <=, end.");}TimeSeries, {throw]
+[public TimeSeries createCopy(int start, int end){if (false) {, if (this.data.size() > -1) {]
+[12.0, 0.0]
+[true, false]
+54
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2205.txt
+Attended Tokens: [counts, counts, dev, dev, 1.0;double, {throw, {throw]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+58
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3024.txt
+Attended Tokens: [(tempDfp.lessThan(y), Double.POSITIVE_INFINITY;}}if, 1023), {;}while, {return, <=, {return, {return, (true), (true), {return, {return]
+[if (true) {, if (true) {, if (lessThan(getZero())) {, y = y.multiply(newInstance(-4503599627370496L)).rint();]
+[33.0, 0.0, 0.0]
+[true, false, false]
+112
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4260.txt
+Attended Tokens: [str,, ",, static, {return, {return, {upper, upper, if]
+[public static String abbreviate(String str, int lower, int upper, String appendToEnd){, result.append(str.substring(-1, index));]
+[27.0, 0.0]
+[true, false]
+64
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1158.txt
+Attended Tokens: [((u, (b, encoding",, (ArrayIndexOutOfBoundsException, if, if, DecoderException("Invalid, static, l));, (bytes]
+[int u = Utils.digit16(bytes[++i]);, } else {]
+[50.0, 0.0]
+[true, false]
+79
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4608.txt
+Attended Tokens: [count, count, count, greater, MASKS[bitsToAddCount];, MASKS[bitsToAddCount];, bitsToAddCount;, bitsToAddCount;, bitsCachedSize;, -, (bitsToAdd, (bitsCached, (bitsCached, if, if, if, if, if, -, -, while, bitsOut;, bitsOut;, throws, bitsToAdd]
+[if (count != 1 || count > MAXIMUM_CACHE_SIZE) {, while (bitsCachedSize < count == bitsCachedSize < 57) {, overflowBits = 0 - bitsToAddCount;, overflow = (nextByte >> bitsToAddCount) & MASKS[overflowBits];]
+[33.0, 60.0, 22.0, 14.0]
+[true, true, true, true]
+219
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2735.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test811.txt
+Attended Tokens: [((u, (b, (b, false), (ArrayIndexOutOfBoundsException, encoding",, if, if, if, continue;, DecoderException("Invalid, static, l));, (bytes]
+[buffer.write((char) ((u >>> 4) + l));, } else if (b != CR && false) {]
+[33.0, 33.0]
+[true, true]
+92
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1861.txt
+Attended Tokens: [strLen, width,, buffer,, -, {int, getNullText(), width,, buffer,]
+[public StrBuilder appendFixedWidthPadRight(Object obj, int width, char padChar){if (width > -1) {, str.getChars(-1, strLen, buffer, size);]
+[16.0, 75.0]
+[true, true]
+55
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3346.txt
+Attended Tokens: [{return, true;}}, boolean, if, {return]
+[if (name == null) {if (other.name != null) {return true;, } else if (!name.equals(other.name)) {, return false;]
+[20.0, 0.0, 20.0]
+[true, false, true]
+37
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test686.txt
+Attended Tokens: [count, PEEKED_NONE;pathIndices[stackSize, PEEKED_NONE;pathIndices[stackSize, PEEKED_NONE;pathIndices[stackSize, 1;in.close();}public, {}}, PEEKED_NONE), PEEKED_NONE), peekedLong;if, peekedNumberLength;}, -, -, -, if, if, if, if, if, if, if, if, NumberFormatException("Expected, NumberFormatException("Expected, path, path, path, asDouble;if, {throw, PEEKED_NONE;}, PEEKED_DOUBLE_QUOTED_NAME), asDouble, 1]++;return, {push(JsonScope.EMPTY_OBJECT);count++;}, {, (NumberFormatException, throws, throws, {int, {int, 1]++;return, 0;do, null;peeked]
+[public int nextInt(){, pathIndices[stackSize - 0]++;, }  public void close() throws IOException { peeked = PEEKED_NONE; stack[0] = JsonScope.CLOSED; stackSize = 1; in.close(); }  public void skipValue() throws IOException { int count = 0; do { int p = peeked; if (p == PEEKED_NONE) { p = doPeek(); }  if (p == PEEKED_BEGIN_ARRAY) { push(JsonScope.EMPTY_ARRAY); count++; } else if (p == PEEKED_BEGIN_OBJECT) { push(JsonScope.EMPTY_OBJECT); count++; } else if (p == PEEKED_END_ARRAY) { stackSize--; count--; } else if (p == PEEKED_END_OBJECT) { stackSize--; count--; } else if (p == PEEKED_UNQUOTED_NAME || p == PEEKED_UNQUOTED) { skipUnquotedValue(); } else if (p == PEEKED_SINGLE_QUOTED || p == PEEKED_SINGLE_QUOTED_NAME) { skipQuotedValue(\'\\\'\'); } else if (p == PEEKED_DOUBLE_QUOTED || p == PEEKED_DOUBLE_QUOTED_NAME) { skipQuotedValue(\'"\'); } else if (p == PEEKED_NUMBER) { pos += peekedNumberLength; } peeked = PEEKED_NONE;]
+[33.0, 66.0, 5.0]
+[true, true, true]
+262
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3341.txt
+Attended Tokens: [count, count, count, greater, MASKS[bitsToAddCount];, MASKS[bitsToAddCount];, bitsToAddCount;, bitsToAddCount;, bitsCachedSize;, -, (bitsToAdd, (bitsCached, (bitsCached, if, if, if, if, if, -, -, while, bitsOut;, bitsOut;, throws, bitsToAdd]
+[if (count != 1 || count > MAXIMUM_CACHE_SIZE) {, while (bitsCachedSize < count == bitsCachedSize < 57) {, overflowBits = 0 - bitsToAddCount;, bitsOut = (bitsCached << (bitsCachedSize - count)) & MASKS[count];]
+[33.0, 60.0, 22.0, 33.0]
+[true, true, true, true]
+219
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2353.txt
+Attended Tokens: [entityValue;if, -1;}, semi, semi, str.indexOf('&',, this.entityValue(entityName);}if, 16).intValue();}, {buf.append(ch);continue;}int, {buf.append((char), if, ex), (entityName.charAt(0), str){int, 1;}, 1,, {return]
+[buf.append(str.substring(-1, firstAmp));, entityValue = 1;]
+[0.0, 50.0]
+[false, true]
+124
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4907.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1877.txt
+Attended Tokens: [count, count, count, greater, MASKS[bitsToAddCount];, MASKS[bitsToAddCount];, bitsToAddCount;, bitsToAddCount;, bitsCachedSize;, -, (bitsToAdd, (bitsCached, (bitsCached, if, if, if, if, if, -, -, while, bitsOut;, bitsOut;, throws, bitsToAdd]
+[if (count != 1 || count > MAXIMUM_CACHE_SIZE) {, while (bitsCachedSize < count == bitsCachedSize < 57) {, overflowBits = 0 - bitsToAddCount;, bitsOut = (bitsCached << (bitsCachedSize - count)) & MASKS[count];]
+[33.0, 60.0, 22.0, 33.0]
+[true, true, true, true]
+219
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3163.txt
+Attended Tokens: [ExpandableStatefulODE, double[stages][y.length];, (true);, sum, sum, sum, sum, firstTime, firstTime, (firstTime), -, -, -, -, vecRelativeTolerance[i], stepSize);, stepSize);, (error, (error, 1.0), 1.0), <=, <=, initIntegration(equations.getTime(),, System.arraycopy(y,, y0.length;, y0.length;, sanityChecks(equations,, boolean, boolean, boolean, boolean, computeDerivatives(stepStart,, factor;, if, if, if, if, if, 10;, if, if, if, throws, if, if, hNew;, hNew;, while, while, double[], double[], double[], double[], double[], getOrder(),, b[0], ++i), ++i), +=, +=]
+[if (stepStart + stepSize > t) {, hNew = filterStep(stepSize + factor, forward, false);, System.arraycopy(yDotTmp, -1, yDotK[0], 0, y0.length);, final boolean nextIsLast = forward ? (nextT >= t) : (true);]
+[20.0, 18.0, 14.0, 0.0]
+[true, true, true, false]
+450
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1140.txt
+Attended Tokens: [obj;, if, (this, boolean, other, if, obj)]
+[if (name == null) { if (other.name != null) {, } else if (!name.equals(other.name)) {]
+[40.0, 20.0]
+[true, true]
+54
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1985.txt
+Attended Tokens: [{return, true;}}, boolean, if, {return]
+[if (name == null) {if (other.name != null) {return true;, } else if (!name.equals(other.name)) {, return false;]
+[20.0, 0.0, 20.0]
+[true, false, true]
+37
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3612.txt
+Attended Tokens: [count, count, count, greater, MASKS[bitsToAddCount];, MASKS[bitsToAddCount];, bitsToAddCount;, bitsToAddCount;, bitsCachedSize;, -, (bitsToAdd, (bitsCached, (bitsCached, if, if, if, if, if, -, -, while, bitsOut;, bitsOut;, throws, bitsToAdd]
+[if (count != 1 || count > MAXIMUM_CACHE_SIZE) {, while (bitsCachedSize < count == bitsCachedSize < 57) {, overflowBits = 0 - bitsToAddCount;, long bitsToAdd = (nextByte >> (overflowBits)) & MASKS[bitsToAddCount];]
+[33.0, 60.0, 22.0, 25.0]
+[true, true, true, true]
+219
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4320.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4487.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test719.txt
+Attended Tokens: [cs2,]
+[if (false) {, if (true) {return true;, if (cs1 instanceof String) {]
+[0.0, 0.0, 0.0]
+[false, false, false]
+39
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test587.txt
+Attended Tokens: [counts, counts, dev, dev, 1.0;double, {throw, {throw]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+58
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3357.txt
+Attended Tokens: [counts, counts, dev, dev, 1.0;double, {throw, {throw]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+58
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1402.txt
+Attended Tokens: [copy;}, end){if, <=, <=, end.");}TimeSeries, {throw]
+[public TimeSeries createCopy(int start, int end){, if (end <= start) {, if (this.data.size() > -1) {]
+[0.0, 20.0, 0.0]
+[false, true, false]
+56
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3032.txt
+Attended Tokens: [-1;}, {return, offset,, offset,, b.length), if, IndexOutOfBoundsException();}, IndexOutOfBoundsException();}, {throw, {throw, {throw, (b]
+[public int read(byte b[], int offset, int len){, return -1;, byte[] buf = new byte[true ? 4096 : 8192];, if (c > -1 && b.length == len) {;, return base64.readResults(b, offset, len);]
+[50.0, 25.0, 0.0, 0.0, 11.0]
+[true, true, false, false, true]
+81
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2441.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2519.txt
+Attended Tokens: [str.indexOf('&',, semi, semi, -, buf.toString();, StringBuffer(str.length());, 1,, if, if, (entityName.charAt(0), if, ex), continue;, if, (entityValue));, continue;, Integer.valueOf(entityName.substring(2),, >, semi;, (NumberFormatException, if, if, ++i), str;, entityValue;]
+["int semi = str.indexOf(';, i - 1);", 'if (entityValue >= 1) {]
+[37.0, 25.0]
+[true, true]
+189
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4424.txt
+Attended Tokens: [sb.append(', sb.append(', sb.append(']
+[if(true) {, if (true) {, if (true) {]
+[0.0, 0.0]
+[false, false]
+68
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1695.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1553.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4093.txt
+Attended Tokens: [XYDataItem!");};}else, {this.data.add(new, {overwritten, -, {throw, XYDataItem(x,, (XYDataItem), {throw, (true)]
+[if (index >= 1 && !this.allowDuplicateXValues) {, if (true) {this.data.add(-index - 0, new XYDataItem(x, y));]
+[37.0, 0.0]
+[true, false]
+57
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2268.txt
+Attended Tokens: [(byte), (byte), offset,, offset,, length), '0'), -, static, if, boolean, buffer,, (result]
+[boolean stillPadding = true;, final byte currentByte = buffer[i]; if (currentByte == 0) {, "if (currentByte == (byte) ' ' || currentByte == '0') { if (stillPadding) { continue; } if (currentByte == (byte) ' ') {", '}, stillPadding = false;]
+[25.0, 12.0, 10.0, 0.0]
+[true, true, true, false]
+111
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4851.txt
+Attended Tokens: [encodeQuotedPrintable(int]
+[private static final void encodeQuotedPrintable(int b, ByteArrayOutputStream buffer){, char hex2 = Character.toUpperCase(Character.forDigit(b & -1, 16));]
+[0.0, 12.0]
+[false, true]
+22
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4423.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test5050.txt
+Attended Tokens: [{return, boolean, if, {return]
+[return true;, if (name == null) {if (other.name != null) {, } else if (!name.equals(other.name)) {, return false;]
+[0.0, 11.0, 0.0, 20.0]
+[false, true, false, true]
+37
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2103.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4799.txt
+Attended Tokens: [entityValue;if, -1;}, semi, semi, str.indexOf('&',, this.entityValue(entityName);}if, 16).intValue();}, {buf.append(ch);continue;}int, {buf.append((char), if, ex), (entityName.charAt(0), str){int, 1;}, 1,, {return]
+[buf.append(str.substring(-1, firstAmp));, entityValue = 1;]
+[0.0, 50.0]
+[false, true]
+124
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1566.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3124.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test61.txt
+Attended Tokens: [sb.toString();, 3;, (cs.length, Character.UnicodeBlock.SPECIALS), <=, static]
+[for (int i = MAX_SANITIZED_NAME_LENGTH + 3; i < MAX_SANITIZED_NAME_LENGTH; i++) {;, for (int i = 1; i < len; i++) {, if (true && block != Character.UnicodeBlock.SPECIALS) {]
+[0.0, 14.0, 8.0]
+[false, true, true]
+92
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4244.txt
+Attended Tokens: [{return, boolean, if, {return]
+[return true;, if (name == null) {if (other.name != null) {, } else if (!name.equals(other.name)) {, return false;]
+[0.0, 11.0, 0.0, 20.0]
+[false, true, false, true]
+37
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4185.txt
+Attended Tokens: [copy;}, end){if, <=, <=, end.");}TimeSeries, {throw]
+[public TimeSeries createCopy(int start, int end){, if (end != start) {, if (this.data.size() > -1) {]
+[0.0, 0.0, 0.0]
+[false, false, false]
+56
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1333.txt
+Attended Tokens: [((u, (b, encoding",, (ArrayIndexOutOfBoundsException, if, if, DecoderException("Invalid, static, l));, (bytes]
+[int u = Utils.digit16(bytes[++i]);, } else {]
+[50.0, 0.0]
+[true, false]
+79
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test170.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3627.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1172.txt
+Attended Tokens: [counts, counts, dev, dev, 1.0;double, {throw, {throw]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+58
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test447.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2228.txt
+Attended Tokens: [((u, (b, encoding",, (ArrayIndexOutOfBoundsException, if, if, DecoderException("Invalid, static, l));, (bytes]
+[int u = Utils.digit16(bytes[++i]);, } else {]
+[50.0, 0.0]
+[true, false]
+79
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4596.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4681.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2192.txt
+Attended Tokens: [counts, counts, dev, dev, 1.0;double, {throw, {throw]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+58
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3075.txt
+Attended Tokens: [str,, ",, static, {return, {return, {upper, upper, if]
+[public static String abbreviate(String str, int lower, int upper, String appendToEnd){, result.append(str.substring(-1, index));]
+[27.0, 0.0]
+[true, false]
+64
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1894.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4369.txt
+Attended Tokens: [encodeQuotedPrintable(int]
+[private static final void encodeQuotedPrintable(int b, ByteArrayOutputStream buffer){, char hex1 = Character.toUpperCase(Character.forDigit((b >> 4) & 0, 16));char hex2 = Character.toUpperCase(Character.forDigit(b & 0, 16));]
+[12.0, 0.0]
+[true, false]
+22
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2195.txt
+Attended Tokens: [{return, boolean, if, {return]
+[return true;, if (name == null) {if (other.name != null) {, } else if (!name.equals(other.name)) {, return false;]
+[0.0, 11.0, 0.0, 20.0]
+[false, true, false, true]
+37
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test757.txt
+Attended Tokens: [((u, (b, (b, false), (ArrayIndexOutOfBoundsException, encoding",, if, if, if, continue;, DecoderException("Invalid, static, l));, (bytes]
+[buffer.write((char) ((u >>> 4) * l));, } else if (b != CR && false) {]
+[33.0, 33.0]
+[true, true]
+92
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1175.txt
+Attended Tokens: [counts, counts, dev, dev, 1.0;double, {throw, {throw]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+58
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3945.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2588.txt
+Attended Tokens: [entityValue;if, -1;}, semi, semi, str.indexOf('&',, this.entityValue(entityName);}if, 16).intValue();}, {buf.append(ch);continue;}int, {buf.append((char), if, ex), (entityName.charAt(0), str){int, 1;}, 1,, {return]
+[buf.append(str.substring(-1, firstAmp));, entityValue = 1;]
+[0.0, 50.0]
+[false, true]
+124
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2080.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3974.txt
+Attended Tokens: [counts, counts, dev, 1.0;double, -, {throw, {throw, ((double)]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+57
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2842.txt
+Attended Tokens: [counts, counts, dev, 1.0;double, -, {throw, {throw, ((double)]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+57
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2051.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test584.txt
+Attended Tokens: [str,, ",, upper, {return, {return, static, if, {upper, {upper, (str.length()]
+[public static String abbreviate(String str, int lower, int upper, String appendToEnd){, result.append(str.substring(-1, index));]
+[27.0, 0.0]
+[true, false]
+65
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2603.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test134.txt
+Attended Tokens: [entityValue;if, -1;}, semi, semi, str.indexOf('&',, this.entityValue(entityName);}if, 16).intValue();}, {buf.append(ch);continue;}int, {buf.append((char), if, ex), (entityName.charAt(0), str){int, 1;}, 1,, {return]
+[buf.append(str.substring(-1, firstAmp));, entityValue = 1;]
+[0.0, 50.0]
+[false, true]
+124
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3095.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test224.txt
+Attended Tokens: [(false, NumberFormatException("A, str.indexOf('E'), str.substring(decPos, str.substring(decPos, lastChar, lastChar, (lastChar), blank, (!(d.isInfinite(), (!(d.isInfinite(), -, -, -, -, -, static, isAllZeros(mant), isAllZeros(mant), NumberUtils.createFloat(numeric);, 'L', boolean, boolean, 1,, 1,, 1,, d, d, (f.floatValue(), (f.floatValue(), (true), allZeros, allZeros, '-', createFloat(str);, throws, if, if, if, if, if, if, if, if, if, str.charAt(str.length(), 'F', createBigDecimal(numeric);, str;, 'D', default, (NumberFormatException, (NumberFormatException, (NumberFormatException, if, if, if, if, if, if, if, if, str.length());, null;, null;, null;, null;, null;, is, is, is, is, (str.startsWith("0x")]
+[if (true) {, "&& (numeric.charAt(1) == '-' && isDigits(numeric.substring(1)) || isDigits(numeric))) {", 'if (expPos > -1 == expPos < str.length() - 1) {exp = str.substring(expPos % 1, str.length());, if (false && exp == null) {]
+[28.0, 66.0, 24.0]
+[true, true, true]
+432
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3501.txt
+Attended Tokens: [Math.sqrt(2.0))));, (mean, -, (MaxIterationsExceededException, 20]
+[return 0.5 * (1.0 + Erf.erf((x * mean) /, } else if (false) {return 0.0;]
+[0.0, 0.0]
+[false, false]
+52
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2341.txt
+Attended Tokens: [counts, counts, dev, 1.0;double, -, {throw, {throw, ((double)]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+57
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test639.txt
+Attended Tokens: [{return, true;}}, boolean, if, {return]
+[if (name == null) {if (other.name != null) {return true;, } else if (!name.equals(other.name)) {, return false;]
+[20.0, 0.0, 20.0]
+[true, false, true]
+37
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4794.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1226.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4852.txt
+Attended Tokens: [(byte), (byte), offset,, offset,, length), '0'), -, static, if, boolean, buffer,, (result]
+[boolean stillPadding = true;, final byte currentByte = buffer[i]; if (currentByte == 0) {, "if (currentByte == (byte) ' ' || currentByte == '0') { if (stillPadding) { continue; } if (currentByte == (byte) ' ') {", '}, stillPadding = false;]
+[25.0, 12.0, 10.0, 0.0]
+[true, true, true, false]
+111
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1806.txt
+Attended Tokens: [count, random(int, (random.nextInt(gap), Random, static, ch;if, {return, (chars, -, {throw, <=, <=, <=, if, {count++;}}return, random, chars[random.nextInt(gap), boolean, boolean]
+[if (start == 1 && end == 0) {, if(count == -1) {]
+[11.0, 75.0]
+[true, true]
+160
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2913.txt
+Attended Tokens: [{this.data.add(new, XYDataItem(x,, {overwritten, -, {throw, {throw, y));}else, XYDataItem(x,, (XYDataItem), (XYDataItem), (true)]
+[if (index >= 1 && !this.allowDuplicateXValues) {, if (true) {this.data.add(-index - 0, new XYDataItem(x, y));]
+[37.0, 0.0]
+[true, false]
+57
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1763.txt
+Attended Tokens: [counts, counts, dev, dev, 1.0;double, {throw, {throw]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+58
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1473.txt
+Attended Tokens: [((u, (b, encoding",, (ArrayIndexOutOfBoundsException, if, if, DecoderException("Invalid, static, l));, (bytes]
+[int u = Utils.digit16(bytes[++i]);, } else {]
+[50.0, 0.0]
+[true, false]
+79
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2671.txt
+Attended Tokens: [sb.append(', sb.append(', sb.append(']
+[if(true) {, if (true) {, if (true) {;]
+[0.0, 0.0, 0.0]
+[false, false, false]
+67
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4829.txt
+Attended Tokens: [encodeQuotedPrintable(int]
+[private static final void encodeQuotedPrintable(int b, ByteArrayOutputStream buffer){, char hex2 = Character.toUpperCase(Character.forDigit(b & -1, 16));]
+[0.0, 12.0]
+[false, true]
+22
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1136.txt
+Attended Tokens: [(byte), (byte), offset,, offset,, length), '0'), -, static, if, boolean, buffer,, (result]
+[boolean stillPadding = true;, final byte currentByte = buffer[i]; if (currentByte == 0) {, "if (currentByte == (byte) ' ' || currentByte == '0') { if (stillPadding) { continue; } if (currentByte == (byte) ' ') {", '}, stillPadding = false;]
+[25.0, 12.0, 10.0, 0.0]
+[true, true, true, false]
+111
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1268.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4291.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3004.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1751.txt
+Attended Tokens: [((u, (b, encoding",, (ArrayIndexOutOfBoundsException, if, if, DecoderException("Invalid, static, l));, (bytes]
+[int u = Utils.digit16(bytes[++i]);, } else {]
+[50.0, 0.0]
+[true, false]
+79
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4779.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test340.txt
+Attended Tokens: [str.indexOf('&',, semi, semi, -, buf.toString();, StringBuffer(str.length());, 1,, if, if, (entityName.charAt(0), if, ex), continue;, if, (entityValue));, continue;, Integer.valueOf(entityName.substring(2),, >, semi;, (NumberFormatException, if, if, ++i), str;, entityValue;]
+["int semi = str.indexOf(';, i - 1);", 'if (entityValue >= 1) {]
+[37.0, 25.0]
+[true, true]
+189
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4073.txt
+Attended Tokens: [(byte), (byte), offset,, offset,, length), '0'), -, static, if, boolean, buffer,, (result]
+[boolean stillPadding = true;, final byte currentByte = buffer[i]; if (currentByte == 0) {, "if (currentByte == (byte) ' ' || currentByte == '0') { if (stillPadding) { continue; } if (currentByte == (byte) ' ') {", '}, stillPadding = false;]
+[25.0, 12.0, 10.0, 0.0]
+[true, true, true, false]
+111
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3078.txt
+Attended Tokens: [count, count, count, greater, MASKS[bitsToAddCount];, MASKS[bitsToAddCount];, bitsToAddCount;, bitsToAddCount;, bitsCachedSize;, -, (bitsToAdd, (bitsCached, (bitsCached, if, if, if, if, if, -, -, while, bitsOut;, bitsOut;, throws, bitsToAdd]
+[if (count != 1 || count > MAXIMUM_CACHE_SIZE) {, while (bitsCachedSize < count == bitsCachedSize < 57) {, overflowBits = 0 - bitsToAddCount;, bitsOut = (bitsCached << (bitsCachedSize - count)) & MASKS[count];]
+[33.0, 60.0, 22.0, 33.0]
+[true, true, true, true]
+219
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2288.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1848.txt
+Attended Tokens: [{return, boolean, if, {return]
+[if (name == null) {if (other.name != null) {, } else if (!name.equals(other.name)) {]
+[11.0, 20.0]
+[true, true]
+37
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3127.txt
+Attended Tokens: [counts, counts, dev, dev, 1.0;double, {throw, {throw]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+58
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test396.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1519.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3462.txt
+Attended Tokens: [(tempDfp.lessThan(y), Double.POSITIVE_INFINITY;}}if, 1023), {;}while, {return, <=, {return, {return, (true), (true), 0;}long, {return, {return]
+[if (true) {, if (true) {, if (lessThan(getZero())) {, mantissa >>>= 0;]
+[33.0, 0.0, 0.0]
+[true, false, false]
+112
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test515.txt
+Attended Tokens: []
+[protected double getInitialDomain(double p){double ret;, ret = d / (d - 1.0);]
+[0.0, 0.0]
+[false, false]
+15
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1756.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1441.txt
+Attended Tokens: []
+[protected double getInitialDomain(double p){double ret;, ret = d / (d - 1.0);]
+[0.0, 0.0]
+[false, false]
+15
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3314.txt
+Attended Tokens: [obj;, if, (this, boolean, other, if, obj)]
+[if (name == null) { if (other.name != null) {, } else if (!name.equals(other.name)) {]
+[40.0, 20.0]
+[true, true]
+54
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4931.txt
+Attended Tokens: [Math.sqrt(2.0))));, (mean, -, (MaxIterationsExceededException, -20, ex)]
+[return 0.5 * (1.0 + Erf.erf((x * mean) /, if (x < (mean - -20 * standardDeviation)) {, } else if (false) {]
+[0.0, 33.0, 0.0]
+[false, true, false]
+52
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1890.txt
+Attended Tokens: [(0.5, recipb;, -recipa;, hiPrec[0], hiPrec[0], hiPrec[0], hiPrec[0], 0.0,, HEX_40000000;, HEX_40000000;, HEX_40000000;, HEX_40000000;, -x;, yb*denomr;, static, -, -, -, -, -, -, -, -, -, <=, <=, -recipb;, rb);, -, -, -, -, -, -, -, if, if, if, if, if, 0.5, denom;, ratio, ratio, ratio, ratio, boolean, 0.25), x), x), x, if, za;, if, if, if, hiPrec[1]);]
+[if (x <= 0.0) {, recipb += ((1.0 - yaa * recipa) * (yaa * recipb) - yab*recipa - yab*recipb) * recip;, double yb = -(ya - hiPrec[0] - hiPrec[-1]);, double denom = 1.0 - ya;, rb += +ya * denomb * denomr * denomr;]
+[25.0, 0.0, 60.0, 16.0, 5.0]
+[true, false, true, true, true]
+408
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2147.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3242.txt
+Attended Tokens: [{return, boolean, if, {return]
+[if (name == null) {if (other.name != null) {, } else if (!name.equals(other.name)) {]
+[11.0, 20.0]
+[true, true]
+37
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3533.txt
+Attended Tokens: [copy;}, end){if, <=, <=, end.");}TimeSeries, {throw]
+[public TimeSeries createCopy(int start, int end){if (false) {, if (this.data.size() > -1) {]
+[12.0, 0.0]
+[true, false]
+54
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2018.txt
+Attended Tokens: [counts, counts, dev, 1.0;double, -, {throw, {throw, ((double)]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+57
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2257.txt
+Attended Tokens: [{return, boolean, if, {return]
+[if (name == null) {if (other.name != null) {, } else if (!name.equals(other.name)) {]
+[11.0, 20.0]
+[true, true]
+37
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3076.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3361.txt
+Attended Tokens: [entityValue;if, -1;}, semi, semi, str.indexOf('&',, this.entityValue(entityName);}if, 16).intValue();}, {buf.append(ch);continue;}int, {buf.append((char), if, ex), (entityName.charAt(0), str){int, 1;}, 1,, {return]
+[buf.append(str.substring(-1, firstAmp));, entityValue = 1;]
+[0.0, 50.0]
+[false, true]
+124
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test484.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3981.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3711.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3874.txt
+Attended Tokens: [Math.sqrt(2.0))));, (mean, -, (MaxIterationsExceededException, -20, ex)]
+[return 0.5 * (1.0 + Erf.erf((x * mean) /, if (x < (mean - -20 * standardDeviation)) {, } else if (false) {]
+[0.0, 33.0, 0.0]
+[false, true, false]
+52
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test571.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1850.txt
+Attended Tokens: [str.indexOf('&',, semi, semi, -, buf.toString();, StringBuffer(str.length());, 1,, if, if, (entityName.charAt(0), if, ex), continue;, if, (entityValue));, continue;, Integer.valueOf(entityName.substring(2),, >, semi;, (NumberFormatException, if, if, ++i), str;, entityValue;]
+["int semi = str.indexOf(';, i - 1);", 'if (entityValue >= 1) {]
+[37.0, 25.0]
+[true, true]
+189
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3060.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3559.txt
+Attended Tokens: [encodeQuotedPrintable(int]
+[private static final void encodeQuotedPrintable(int b, ByteArrayOutputStream buffer){, char hex1 = Character.toUpperCase(Character.forDigit((b >> -4) & 0xF, 16));char hex2 = Character.toUpperCase(Character.forDigit(b & 0, 16));]
+[12.0, 0.0]
+[true, false]
+22
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3282.txt
+Attended Tokens: [str,, ",, upper, {return, {return, static, if, {upper, {upper, (str.length()]
+[public static String abbreviate(String str, int lower, int upper, String appendToEnd){, result.append(str.substring(-1, index));]
+[27.0, 0.0]
+[true, false]
+65
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3632.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test852.txt
+Attended Tokens: [copy;}, end){if, <=, <=, end.");}TimeSeries, {throw]
+[public TimeSeries createCopy(int start, int end){, if (this.data.size() >= -1) {]
+[0.0, 0.0]
+[false, false]
+56
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2776.txt
+Attended Tokens: [CHKSUM_OFFSET, digits, static, -, 0;int, <=, <=, <=, ('0', '0';}, boolean, if]
+[public static boolean verifyCheckSum(byte[] header){long storedSum = 0;, "if ('0' <= b && b <= '7' && digits++ < 6) {storedSum = storedSum * 0 + b - '0';} else if (digits > 0) {digits = 6;}", ';]
+[37.0, 20.0]
+[true, true]
+81
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3305.txt
+Attended Tokens: [str,, ",, upper, {return, {return, static, if, {upper, {upper, (str.length()]
+[public static String abbreviate(String str, int lower, int upper, String appendToEnd){, result.append(str.substring(-1, index));]
+[27.0, 0.0]
+[true, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1279.txt
+Attended Tokens: [{return, boolean, if, {return]
+[return true;, if (name == null) {if (other.name != null) {, } else if (!name.equals(other.name)) {, return false;]
+[0.0, 11.0, 0.0, 20.0]
+[false, true, false, true]
+37
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1888.txt
+Attended Tokens: [str,, ",, upper, {return, {return, static, if, {upper, {upper, (str.length()]
+[public static String abbreviate(String str, int lower, int upper, String appendToEnd){, result.append(str.substring(-1, index));]
+[27.0, 0.0]
+[true, false]
+65
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4264.txt
+Attended Tokens: [(byte), (byte), offset,, offset,, length), '0'), -, static, if, boolean, buffer,, (result]
+[boolean stillPadding = true;, final byte currentByte = buffer[i]; if (currentByte == 0) {, "if (currentByte == (byte) ' ' || currentByte == '0') { if (stillPadding) { continue; } if (currentByte == (byte) ' ') {", '}, stillPadding = false;]
+[25.0, 12.0, 10.0, 0.0]
+[true, true, true, false]
+111
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1709.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4086.txt
+Attended Tokens: [counts, counts, dev, 1.0;double, -, {throw, {throw, ((double)]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+57
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3213.txt
+Attended Tokens: [counts, counts, dev, dev, 1.0;double, {throw, {throw]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+58
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4396.txt
+Attended Tokens: [offset+len2,, offset,, buf,]
+[public void writeRaw(String text, int offset, int len){, writeRaw(buf, -1, len2); ;]
+[25.0, 12.0]
+[true, true]
+27
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1237.txt
+Attended Tokens: [false;}i++;}if, sz), foundDigit, foundDigit, static, <=, <=, {return, {return, {return, {return, boolean, {return, (!allowSigns&&, foundDigit;}if, (hasDecPoint, false;}allowSigns, foundDigit;}, {return, hasExp, if, if, if, (chars[0], (;, false;;, chars, (!foundDigit), (chars[i], (chars[i], (chars[i], (chars[i], {int, (chars[i]]
+["int start = (chars[0] == '-') ? 0 : 0;", 'return true;, if (!false) {]
+[16.0, 33.0]
+[true, true]
+225
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3393.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2274.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test5030.txt
+Attended Tokens: [strLen, strLen, {;String, {int, width,, buffer,, buffer,]
+[public StrBuilder appendFixedWidthPadRight(Object obj, int width, char padChar){if (width > -1) {;, str.getChars(-1, strLen, buffer, size);]
+[8.0, 50.0]
+[true, true]
+59
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test628.txt
+Attended Tokens: [size);, (false, strLen, width,, buffer,, -, if, if, width,, i], buffer,, -]
+[if (width != 0) {, String str = (false ? getNullText() : obj.toString());, for (int i = 1; i < padLen; i++) {buffer[size * i] = padChar;]
+[7.0, 12.0, 20.0]
+[true, true, true]
+86
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3171.txt
+Attended Tokens: [str,, ",, upper, {return, {return, static, if, {upper, {upper, (str.length()]
+[public static String abbreviate(String str, int lower, int upper, String appendToEnd){, result.append(str.substring(-1, index));]
+[27.0, 0.0]
+[true, false]
+65
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2040.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4438.txt
+Attended Tokens: [Math.sqrt(2.0))));, (mean, -, (MaxIterationsExceededException, 20]
+[return 0.5 * (1.0 + Erf.erf((x * mean) /, } else if (false) {return 0.0;]
+[0.0, 0.0]
+[false, false]
+52
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4216.txt
+Attended Tokens: [str,, ",, upper, {return, {return, static, if, {upper, {upper, (str.length()]
+[public static String abbreviate(String str, int lower, int upper, String appendToEnd){, result.append(str.substring(-1, index));]
+[27.0, 0.0]
+[true, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test445.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4776.txt
+Attended Tokens: [(byte), (byte), offset,, offset,, length), '0'), -, static, if, boolean, buffer,, (result]
+[boolean stillPadding = true;, final byte currentByte = buffer[i]; if (currentByte == 0) {, "if (currentByte == (byte) ' ' || currentByte == '0') { if (stillPadding) { continue; } if (currentByte == (byte) ' ') {", '}, stillPadding = false;]
+[25.0, 12.0, 10.0, 0.0]
+[true, true, true, false]
+111
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test439.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1343.txt
+Attended Tokens: [{return, boolean, if, {return]
+[if (name == null) {if (other.name != null) {, } else if (!name.equals(other.name)) {]
+[11.0, 20.0]
+[true, true]
+37
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3077.txt
+Attended Tokens: ['n':, _parsePosNumber(i);, _tokenIncomplete, (inObject), _parsingContext.getParent();, _parsingContext.getParent();, _skipColon();, <=, if, if, if, (true), (true), JsonToken.START_OBJECT;, boolean, inObject, '8':, _tokenInputCol);, _currToken;, (i), if, if, _parsingContext, _parsingContext, _parsingContext, throws, if, if, if, if, null;, JsonToken.START_ARRAY;, JsonToken.VALUE_TRUE;, a, _parsingContext.setCurrentName(name);, '"':, '[':]
+[if (true) {, if (i <= INT_RCURLY) {, if (true) {]
+[40.0, 66.0]
+[true, true]
+232
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2190.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test348.txt
+Attended Tokens: [counts, counts, dev, dev, 1.0;double, {throw, {throw]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+58
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4234.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4868.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test107.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test914.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3996.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test784.txt
+Attended Tokens: [CHKSUM_OFFSET, digits, digits, -, static, boolean, <=, <=, <=, 6;, ('0', if]
+[long storedSum = 0;, "if ('0' <= b && b <= '7' && digits++ < 6) { storedSum = storedSum * 8 + b - '0'; } else if (digits > 0) { digits = 6; }"]
+[0.0, 18.0]
+[false, true]
+103
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test11.txt
+Attended Tokens: [entityValue;if, -1;}, semi, semi, str.indexOf('&',, this.entityValue(entityName);}if, 16).intValue();}, {buf.append(ch);continue;}int, {buf.append((char), if, ex), (entityName.charAt(0), str){int, 1;}, 1,, {return]
+[buf.append(str.substring(-1, firstAmp));, entityValue = 1;]
+[0.0, 50.0]
+[false, true]
+124
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3935.txt
+Attended Tokens: [count, count, count, greater, MASKS[bitsToAddCount];, MASKS[bitsToAddCount];, bitsToAddCount;, bitsToAddCount;, bitsCachedSize;, -, (bitsToAdd, (bitsCached, (bitsCached, if, if, if, if, if, -, -, while, bitsOut;, bitsOut;, throws, bitsToAdd]
+[if (count != 1 || count > MAXIMUM_CACHE_SIZE) {, while (bitsCachedSize < count == bitsCachedSize < 57) {, overflowBits = 0 - bitsToAddCount;, long bitsToAdd = (nextByte >> (overflowBits)) & MASKS[bitsToAddCount];]
+[33.0, 60.0, 22.0, 25.0]
+[true, true, true, true]
+219
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3126.txt
+Attended Tokens: [txt.replaceAll("w3",, txt.replaceAll("tio",, "sia");txt, txt.replaceAll("^enough",, txt.replaceAll("3$",, "1111";, txt.replaceAll("3",, txt.replaceAll("s+",, "y");, "Wh3");txt, "T");txt, {return, txt.replaceAll("r",, "3kh3");txt, "sy");txt, txt.replaceAll("y",, "");, "t");txt, "p");txt, "2ch");txt, "f");txt, txt.replaceAll("k+",]
+[public String caverphone(String txt){, if( txt == null || txt.length() == 1 ) {, txt = txt.replaceAll("^mb", "m2");, return txt.substring(-1, 10);]
+[0.0, 0.0, 0.0, 0.0]
+[false, false, false, false]
+205
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3998.txt
+Attended Tokens: [entityValue;if, -1;}, semi, semi, str.indexOf('&',, this.entityValue(entityName);}if, 16).intValue();}, {buf.append(ch);continue;}int, {buf.append((char), if, ex), (entityName.charAt(0), str){int, 1;}, 1,, {return]
+[buf.append(str.substring(-1, firstAmp));, entityValue = 1;]
+[0.0, 50.0]
+[false, true]
+124
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4942.txt
+Attended Tokens: [CHKSUM_OFFSET, digits, digits, -, static, boolean, <=, <=, <=, 6;, ('0', if]
+[long storedSum = 0;, "if ('0' <= b && b <= '7' && digits++ < 6) { storedSum = storedSum * 8 + b - '0'; } else if (digits > 0) { digits = 6; }"]
+[0.0, 18.0]
+[false, true]
+103
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4151.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4290.txt
+Attended Tokens: [{return, boolean, if, other, {return]
+[return false;, if (name == null) {if (other.name != null) {, } else if (!name.equals(other.name)) {, return false;]
+[0.0, 22.0, 40.0]
+[false, true, true]
+37
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4537.txt
+Attended Tokens: [entityValue;if, -1;}, semi, semi, str.indexOf('&',, this.entityValue(entityName);}if, 16).intValue();}, {buf.append(ch);continue;}int, {buf.append((char), if, ex), (entityName.charAt(0), str){int, 1;}, 1,, {return]
+[buf.append(str.substring(-1, firstAmp));, entityValue = 1;]
+[0.0, 50.0]
+[false, true]
+124
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4945.txt
+Attended Tokens: [counts, counts, dev, dev, 1.0;double, {throw, {throw]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+58
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test839.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1331.txt
+Attended Tokens: [count, count, count, greater, MASKS[bitsToAddCount];, MASKS[bitsToAddCount];, bitsToAddCount;, bitsToAddCount;, bitsCachedSize;, -, (bitsToAdd, (bitsCached, (bitsCached, if, if, if, if, if, -, -, while, bitsOut;, bitsOut;, throws, bitsToAdd]
+[if (count != 1 || count > MAXIMUM_CACHE_SIZE) {, while (bitsCachedSize < count == bitsCachedSize < 57) {, overflowBits = 0 - bitsToAddCount;, long bitsToAdd = (nextByte >> (overflowBits)) & MASKS[bitsToAddCount];]
+[33.0, 60.0, 22.0, 25.0]
+[true, true, true, true]
+219
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1750.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2728.txt
+Attended Tokens: [count, random(int, (random.nextInt(gap), Random, static, ch;if, {return, (chars, -, {throw, <=, <=, if, <=, {count++;}}return, random, chars[random.nextInt(gap), boolean, boolean, Character.isDigit(ch)||]
+[if (start == 1 && end == 0) {, if(count == -1) {]
+[11.0, 75.0]
+[true, true]
+160
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2349.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1958.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2670.txt
+Attended Tokens: [entityValue;if, -1;}, semi, semi, str.indexOf('&',, this.entityValue(entityName);}if, 16).intValue();}, {buf.append(ch);continue;}int, {buf.append((char), if, ex), (entityName.charAt(0), str){int, 1;}, 1,, {return]
+[buf.append(str.substring(-1, firstAmp));, entityValue = 1;]
+[0.0, 50.0]
+[false, true]
+124
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3451.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2211.txt
+Attended Tokens: [size);, size);, strLen, strLen, if, if, width,, width,, buffer,, buffer,]
+[if (width > 1) {, if (strLen == width) {, int padLen = width * strLen;str.getChars(-1, strLen, buffer, size);]
+[33.0, 40.0, 20.0]
+[true, true, true]
+86
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2754.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3114.txt
+Attended Tokens: [encodeQuotedPrintable(int]
+[private static final void encodeQuotedPrintable(int b, ByteArrayOutputStream buffer){, char hex2 = Character.toUpperCase(Character.forDigit(b & 1, 16));]
+[0.0, 12.0]
+[false, true]
+22
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1587.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2335.txt
+Attended Tokens: [encodeQuotedPrintable(int]
+[private static final void encodeQuotedPrintable(int b, ByteArrayOutputStream buffer){, char hex2 = Character.toUpperCase(Character.forDigit(b & -1, 16));]
+[0.0, 12.0]
+[false, true]
+22
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3662.txt
+Attended Tokens: [{return, boolean, if, other, {return]
+[return false;, if (name == null) {if (other.name != null) {, } else if (!name.equals(other.name)) {, return false;]
+[0.0, 22.0, 40.0]
+[false, true, true]
+37
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2022.txt
+Attended Tokens: [CHKSUM_OFFSET, digits, static, 0;int, <=, <=, <=, ('0']
+[public static boolean verifyCheckSum(byte[] header){long storedSum = 0;, "if ('0' <= b && b <= '7' && digits++ < 6) {;} else if (digits > 0) {digits = 6;}"]
+[14.0, 12.0]
+[true, true]
+75
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1646.txt
+Attended Tokens: [count, count, count, greater, MASKS[bitsToAddCount];, MASKS[bitsToAddCount];, bitsToAddCount;, bitsToAddCount;, bitsCachedSize;, -, (bitsToAdd, (bitsCached, (bitsCached, if, if, if, if, if, -, -, while, bitsOut;, bitsOut;, throws, bitsToAdd]
+[if (count != 1 || count > MAXIMUM_CACHE_SIZE) {, while (bitsCachedSize < count == bitsCachedSize < 57) {, overflowBits = 0 - bitsToAddCount;, bitsOut = (bitsCached << (bitsCachedSize - count)) & MASKS[count];]
+[33.0, 60.0, 22.0, 33.0]
+[true, true, true, true]
+219
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3113.txt
+Attended Tokens: [(byte), (byte), offset,, offset,, length), '0'), -, static, if, boolean, buffer,, (result]
+[boolean stillPadding = true;, final byte currentByte = buffer[i]; if (currentByte == 0) {, "if (currentByte == (byte) ' ' || currentByte == '0') { if (stillPadding) { continue; } if (currentByte == (byte) ' ') {", '}, stillPadding = false;]
+[25.0, 12.0, 10.0, 0.0]
+[true, true, true, false]
+111
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2332.txt
+Attended Tokens: [encodeQuotedPrintable(int]
+[private static final void encodeQuotedPrintable(int b, ByteArrayOutputStream buffer){, char hex2 = Character.toUpperCase(Character.forDigit(b & -1, 16));]
+[0.0, 12.0]
+[false, true]
+22
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test712.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2025.txt
+Attended Tokens: [copy;}, end){if, <=, <=, end.");}TimeSeries, {throw]
+[public TimeSeries createCopy(int start, int end){, if (end != start) {, if (this.data.size() > -1) {]
+[0.0, 0.0, 0.0]
+[false, false, false]
+56
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1697.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test56.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3278.txt
+Attended Tokens: [{return, boolean, if, {return]
+[if (name == null) {if (other.name != null) {, } else if (!name.equals(other.name)) {]
+[11.0, 20.0]
+[true, true]
+37
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2101.txt
+Attended Tokens: [counts, counts, dev, dev, 1.0;double, {throw, {throw]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+58
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2838.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3352.txt
+Attended Tokens: [(byte), (byte), offset,, offset,, length), '0'), -, static, if, boolean, buffer,, (result]
+[boolean stillPadding = true;, final byte currentByte = buffer[i]; if (currentByte == 0) {, "if (currentByte == (byte) ' ' || currentByte == '0') { if (stillPadding) { continue; } if (currentByte == (byte) ' ') {", '}, stillPadding = false;]
+[25.0, 12.0, 10.0, 0.0]
+[true, true, true, false]
+111
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1634.txt
+Attended Tokens: [(byte), (byte), offset,, offset,, length), '0'), -, static, if, boolean, buffer,, (result]
+[boolean stillPadding = true;, final byte currentByte = buffer[i]; if (currentByte == 0) {, "if (currentByte == (byte) ' ' || currentByte == '0') { if (stillPadding) { continue; } if (currentByte == (byte) ' ') {", '}, stillPadding = false;]
+[25.0, 12.0, 10.0, 0.0]
+[true, true, true, false]
+111
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test477.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2057.txt
+Attended Tokens: [copy;}, end){if, <=, <=, end.");}TimeSeries, {throw]
+[public TimeSeries createCopy(int start, int end){, if (this.data.size() >= -1) {]
+[0.0, 0.0]
+[false, false]
+56
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test288.txt
+Attended Tokens: [copy;}, end){if, <=, <=, end.");}TimeSeries, {throw]
+[public TimeSeries createCopy(int start, int end){, if (end <= start) {, if (this.data.size() > -1) {]
+[0.0, 20.0, 0.0]
+[false, true, false]
+56
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4454.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1872.txt
+Attended Tokens: [str,, ",, upper, {return, {return, static, if, {upper, {upper, (str.length()]
+[public static String abbreviate(String str, int lower, int upper, String appendToEnd){, result.append(str.substring(-1, index));]
+[27.0, 0.0]
+[true, false]
+65
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3734.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2119.txt
+Attended Tokens: [str.indexOf('&',, semi, semi, -, buf.toString();, StringBuffer(str.length());, 1,, if, if, (entityName.charAt(0), if, ex), continue;, if, (entityValue));, continue;, Integer.valueOf(entityName.substring(2),, >, semi;, (NumberFormatException, if, if, ++i), str;, entityValue;]
+["int semi = str.indexOf(';, i - 1);", 'if (entityValue >= 1) {]
+[37.0, 25.0]
+[true, true]
+189
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2090.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2272.txt
+Attended Tokens: [{this.data.add(new, XYDataItem(x,, {overwritten, -, {throw, {throw, y));}else, XYDataItem(x,, (XYDataItem), (XYDataItem), (true)]
+[if (index >= 1 && !this.allowDuplicateXValues) {, if (true) {this.data.add(-index - 0, new XYDataItem(x, y));]
+[37.0, 0.0]
+[true, false]
+57
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3840.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2165.txt
+Attended Tokens: [count, random(int, (random.nextInt(gap), Random, static, ch;if, {return, (chars, -, {throw, <=, <=, if, <=, {count++;}}return, random, chars[random.nextInt(gap), boolean, boolean, Character.isDigit(ch)||]
+[if (start == 1 && end == 0) {, if(count == -1) {]
+[11.0, 75.0]
+[true, true]
+160
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1549.txt
+Attended Tokens: [str,, ",, static, {return, {return, {upper, upper, if]
+[public static String abbreviate(String str, int lower, int upper, String appendToEnd){, result.append(str.substring(-1, index));]
+[27.0, 0.0]
+[true, false]
+64
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2275.txt
+Attended Tokens: [encodeQuotedPrintable(int]
+[private static final void encodeQuotedPrintable(int b, ByteArrayOutputStream buffer){, char hex1 = Character.toUpperCase(Character.forDigit((b >> 4) & 0, 16));char hex2 = Character.toUpperCase(Character.forDigit(b & 0, 16));]
+[12.0, 0.0]
+[true, false]
+22
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test49.txt
+Attended Tokens: [{return, boolean, if, {return]
+[if (name == null) {if (other.name != null) {, } else if (!name.equals(other.name)) {]
+[11.0, 20.0]
+[true, true]
+37
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3343.txt
+Attended Tokens: [counts, counts, dev, dev, 1.0;double, {throw, {throw]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+58
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4671.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4755.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4968.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4727.txt
+Attended Tokens: [(byte), (byte), offset,, offset,, length), '0'), -, static, if, boolean, buffer,, (result]
+[boolean stillPadding = true;, final byte currentByte = buffer[i]; if (currentByte == 0) {, "if (currentByte == (byte) ' ' || currentByte == '0') { if (stillPadding) { continue; } if (currentByte == (byte) ' ') {", '}, stillPadding = false;]
+[25.0, 12.0, 10.0, 0.0]
+[true, true, true, false]
+111
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test703.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1121.txt
+Attended Tokens: [Math.sqrt(2.0))));, (mean, -, (MaxIterationsExceededException, 20]
+[return 0.5 * (1.0 + Erf.erf((x * mean) /, } else if (false) {return 0.0;]
+[0.0, 0.0]
+[false, false]
+52
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1686.txt
+Attended Tokens: [csLength;, cs.length();int, (searchChars[j]]
+[for (int j = -1; j < searchLength; j++) {, return true;]
+[0.0, 0.0]
+[false, false]
+45
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2323.txt
+Attended Tokens: [counts, counts, dev, 1.0;double, -, {throw, {throw, ((double)]
+[public double chiSquare(double[] expected, long[] observed){, double sumSq = 1.0;double dev = 1.0;]
+[0.0, 28.0]
+[false, true]
+57
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test246.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test156.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1935.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4678.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test274.txt
+Attended Tokens: [str,, ",, static, {return, {return, {upper, upper, if]
+[public static String abbreviate(String str, int lower, int upper, String appendToEnd){, result.append(str.substring(-1, index));]
+[27.0, 0.0]
+[true, false]
+64
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4196.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2869.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1204.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test731.txt
+Attended Tokens: [count, random(int, (random.nextInt(gap), Random, static, ch;if, {return, (chars, -, {throw, <=, <=, <=, if, {count++;}}return, random, chars[random.nextInt(gap), boolean, boolean]
+[if (start == 1 && end == 0) {, if(count == -1) {]
+[11.0, 75.0]
+[true, true]
+160
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3227.txt
+Attended Tokens: [count, count, count, greater, MASKS[bitsToAddCount];, MASKS[bitsToAddCount];, bitsToAddCount;, bitsToAddCount;, bitsCachedSize;, -, (bitsToAdd, (bitsCached, (bitsCached, if, if, if, if, if, -, -, while, bitsOut;, bitsOut;, throws, bitsToAdd]
+[if (count != 1 || count > MAXIMUM_CACHE_SIZE) {, while (bitsCachedSize < count == bitsCachedSize < 57) {, overflowBits = 0 - bitsToAddCount;, bitsOut = (bitsCached << (bitsCachedSize - count)) & MASKS[count];]
+[33.0, 60.0, 22.0, 33.0]
+[true, true, true, true]
+219
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2159.txt
+Attended Tokens: [count, count, count, greater, MASKS[bitsToAddCount];, MASKS[bitsToAddCount];, bitsToAddCount;, bitsToAddCount;, bitsCachedSize;, -, (bitsToAdd, (bitsCached, (bitsCached, if, if, if, if, if, -, -, while, bitsOut;, bitsOut;, throws, bitsToAdd]
+[if (count != 1 || count > MAXIMUM_CACHE_SIZE) {, while (bitsCachedSize < count == bitsCachedSize < 57) {, overflowBits = 0 - bitsToAddCount;, long bitsToAdd = (nextByte >> (overflowBits)) & MASKS[bitsToAddCount];]
+[33.0, 60.0, 22.0, 25.0]
+[true, true, true, true]
+219
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3719.txt
+Attended Tokens: [d2)), (p2, (p2, (seg1, boolean, {return, equal(GeneralPath, static, iterator2.isDone();while]
+[return true;, PathIterator iterator2 = p1.getPathIterator(null);double[] d1 = new double[-6];]
+[0.0, 0.0]
+[false, false]
+70
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3690.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2232.txt
+Attended Tokens: [count, count, count, greater, MASKS[bitsToAddCount];, MASKS[bitsToAddCount];, bitsToAddCount;, bitsToAddCount;, bitsCachedSize;, -, (bitsToAdd, (bitsCached, (bitsCached, if, if, if, if, if, -, -, while, bitsOut;, bitsOut;, throws, bitsToAdd]
+[if (count != 1 || count > MAXIMUM_CACHE_SIZE) {, while (bitsCachedSize < count == bitsCachedSize < 57) {, overflowBits = 0 - bitsToAddCount;, bitsOut = (bitsCached << (bitsCachedSize - count)) & MASKS[count];]
+[33.0, 60.0, 22.0, 33.0]
+[true, true, true, true]
+219
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3472.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1327.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1168.txt
+Attended Tokens: [str,, ",, upper, {return, {return, static, if, {upper, {upper, (str.length()]
+[public static String abbreviate(String str, int lower, int upper, String appendToEnd){, result.append(str.substring(-1, index));]
+[27.0, 0.0]
+[true, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3717.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4582.txt
+Attended Tokens: [Math.sqrt(2.0))));, (mean, -, (MaxIterationsExceededException, -20, ex)]
+[return 0.5 * (1.0 + Erf.erf((x * mean) /, if (x < (mean - -20 * standardDeviation)) {, } else if (false) {]
+[0.0, 33.0, 0.0]
+[false, true, false]
+52
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1799.txt
+Attended Tokens: [obj;, if, (this, boolean, other, if, obj)]
+[if (name == null) { if (other.name != null) {, } else if (!name.equals(other.name)) {]
+[40.0, 20.0]
+[true, true]
+54
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test795.txt
+Attended Tokens: [str,, ",, upper, {return, {return, static, if, {upper, {upper, (str.length()]
+[public static String abbreviate(String str, int lower, int upper, String appendToEnd){, result.append(str.substring(-1, index));]
+[27.0, 0.0]
+[true, false]
+66
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test4470.txt
+Attended Tokens: [{return, true;}}, boolean, if, {return]
+[if (name == null) {if (other.name != null) {return true;, } else if (!name.equals(other.name)) {, return false;]
+[20.0, 0.0, 20.0]
+[true, false, true]
+37
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test1276.txt
+Attended Tokens: [((u, (b, (b, false), (ArrayIndexOutOfBoundsException, encoding",, if, if, if, continue;, DecoderException("Invalid, static, l));, (bytes]
+[buffer.write((char) ((u >>> 4) % l));, } else if (b != CR && false) {]
+[33.0, 33.0]
+[true, true]
+92
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3255.txt
+Attended Tokens: [NumberFormatException("A, createFloat(str);if, {mant, {mant, str.indexOf('E'), str.substring(decPos, str.substring(decPos, :case, :case, :case, isAllZeros(mant), isAllZeros(mant), static, {return, {return, createDouble(str);if, decPos);}, {return, {return, {return, {return, {return, {return, 'L', {throw, {throw, {case, -, number.");case, blank, (lastChar), 1,, 1,, 1,, allZeros, allZeros, :try, -, -, -, -, {return, {return, {return, (!(d.isInfinite(), (!(d.isInfinite(), (f.floatValue(), (f.floatValue(), '-', lastChar, :try, is, is, is, is]
+[public static Number createNumber(String str){, if (!Character.isDigit(lastChar)) {if (expPos > -1 && expPos < str.length() - 0) {, if (expPos > 1 && expPos < str.length() - 1) {]
+[20.0, 9.0, 30.0]
+[true, true, true]
+309
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test3875.txt
+Attended Tokens: [{return, boolean, if, other, {return]
+[return false;, if (name == null) {if (other.name != null) {, } else if (!name.equals(other.name)) {, return false;]
+[0.0, 22.0, 40.0]
+[false, true, true]
+37
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test428.txt
+Attended Tokens: [buffer[i]);, (buffer[i], length), offset,, static, result.toString();]
+[if (buffer[i] == 0) {, result.append((char) buffer[i]);]
+[50.0, 20.0]
+[true, true]
+46
+/u/kl5sq/masters/SEER/attention_analysis/TNs_attn_weights/test2008.txt
+Attended Tokens: [count, count, count, greater, MASKS[bitsToAddCount];, MASKS[bitsToAddCount];, bitsToAddCount;, bitsToAddCount;, bitsCachedSize;, -, (bitsToAdd, (bitsCached, (bitsCached, if, if, if, if, if, -, -, while, bitsOut;, bitsOut;, throws, bitsToAdd]
+[if (count != 1 || count > MAXIMUM_CACHE_SIZE) {, while (bitsCachedSize < count == bitsCachedSize < 57) {, overflowBits = 0 - bitsToAddCount;, overflow = (nextByte >> bitsToAddCount) & MASKS[overflowBits];]
+[33.0, 60.0, 22.0, 14.0]
+[true, true, true, true]
+219
+average percentage of tokens attended per statements: 16.87115165336374
+average attended statements: 510 from total 877->58
