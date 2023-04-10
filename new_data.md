@@ -9,5 +9,5 @@ Note that some of these do not work properly.
 
 `python3 utils.py json_to_h5 test 1 JointEmbedder`
 
-## Error [here](https://github.com/anrath/SEER/blob/main/learning/phase3.err.)
+## Error [here](https://github.com/anrath/SEER/blob/main/learning/phase3.err)
 Based on execution of [rlurm.slurm](https://github.com/anrath/SEER/blob/main/learning/rlurm.slurm).
