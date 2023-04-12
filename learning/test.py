@@ -24,7 +24,8 @@ def test(args):
 
     model = getattr(models, args.model)(config)
     if args.reload_from>0:
-        ckpt_path = f'./output/{args.model}/{args.dataset}/{args.timestamp}/models/epoch_{args.reload_from}_fold_{args.fold}.h5'
+        # ckpt_path = f'./output/{args.model}/{args.dataset}/{args.timestamp}/models/epoch_{args.reload_from}_fold_{args.fold}.h5'
+        ckpt_path = f'./output/epoch_{args.reload_from}_fold_{args.fold}.h5'
         model.load_state_dict(torch.load(ckpt_path, map_location=device))
         print('reloaded model')
     
@@ -47,6 +48,13 @@ def test(args):
         elapsed_time = time.time() - start_time
         elapsed_times.append(elapsed_time)
         start_time = time.time()
+    now = time.strftime("%Y-%m-%d-%H_%M_%S",time.localtime(time.time()))
+    with open(f'./{args.data_path}/{now}test_stats.csv', 'w') as f_object:
+        dictwriter_object = DictWriter(f_object, fieldnames=['Predicted Label', 'Actual Label'])
+        dictwriter_object.writerow({'Predicted Label': 'Predicted Label', 'Actual Label': 'Actual Label'})
+        for i in range(len(predictions)):
+            dictwriter_object.writerow({'Predicted Label': predictions[i], 'Actual Label': actuals[i]})
+        f_object.close()
 
     with open(f'./{args.data_path}/test_stats.csv', 'w') as f_object:
         dictwriter_object = DictWriter(f_object, fieldnames=['Predicted Label', 'Actual Label'])
@@ -60,13 +68,13 @@ def test(args):
 
 def parse_args():
     parser = argparse.ArgumentParser("Test the model on test dataset")
-    parser.add_argument('--data_path', type=str, default='./phase2_dataset_final/', help='location of the data corpus')
+    parser.add_argument('--data_path', type=str, default='real_data_gen/fold0/', help='location of the data corpus')
     parser.add_argument('--model', type=str, default='JointEmbedder', help='model name')
     parser.add_argument('-d', '--dataset', type=str, default='TestOracleInferencePhase2', help='dataset')
-    parser.add_argument('-t', '--timestamp', type=str, help='time stamp')
+    parser.add_argument('-t', '--timestamp', type=str,default='2023', help='time stamp')
     parser.add_argument('-g', '--gpu_id', type=int, default=0, help='GPU ID')
     parser.add_argument('--fold', type=int, default=1, help='fold to test from')
-    parser.add_argument('--reload_from', type=int, default=-1, help='step to reload from')
+    parser.add_argument('--reload_from', type=int, default=29, help='step to reload from')
     return parser.parse_args()
 
 
