@@ -17,7 +17,7 @@ def load_dict(filename):
 
 
 def test(args):
-    test_set = TestOracleDatasetPhase2(args.model, args.data_path, 'code_test.h5', 1075, 'test_test.h5', 1625, 'label_test.h5')
+    test_set = TestOracleDatasetPhase2(args.model, args.data_path, 'code_test.h5', 13532, 'test_test.h5', 6637, 'label_test.h5')
     data_loader = torch.utils.data.DataLoader(dataset=test_set, batch_size=1, shuffle=False, num_workers=1)
 
     device = torch.device(f"cuda:{args.gpu_id}" if torch.cuda.is_available() else "cpu")
