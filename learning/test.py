@@ -1,5 +1,7 @@
 import sys
-sys.path.append('../')
+sys.path.append('/u/kl5sq/masters/SEER')
+import os
+os.environ['CUDA_LAUNCH_BLOCKING'] = "1"
 
 import json
 import time
@@ -9,7 +11,6 @@ from data_loader_phase2 import TestOracleDatasetPhase2
 import configs, models
 from tqdm import tqdm
 from csv import DictWriter
-
 
 def load_dict(filename):
     return json.load(open(filename, "r"))
