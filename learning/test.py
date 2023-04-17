@@ -47,7 +47,12 @@ def test(args):
                 predictions.append(int(y_pred[0]))
             except:
                 predictions.append(-1)
-                print(batch, code, test)
+                temp_dict = {
+                    'batch': batch,
+                    'code': code,
+                    'test': test
+                }
+                print(temp_dict)
             
             predictions.append(int(y_pred[0]))
             actuals.append(int(y_true[0]))
