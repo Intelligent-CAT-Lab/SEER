@@ -39,10 +39,16 @@ def test(args):
         code, test, y_true = [tensor.to(device) for tensor in batch]
         y_true = y_true.float().cpu()
         with torch.no_grad():
-            out = model(code, test, "", phase=2)
-            out = torch.squeeze(out, 1)
-            y_pred = torch.argmax(out, dim=1)
-            y_pred = y_pred.cpu()
+            try:
+                out = model(code, test, "", phase=2)
+                out = torch.squeeze(out, 1)
+                y_pred = torch.argmax(out, dim=1)
+                y_pred = y_pred.cpu()
+                predictions.append(int(y_pred[0]))
+            except:
+                predictions.append(-1)
+                print(batch, code, test)
+            
             predictions.append(int(y_pred[0]))
             actuals.append(int(y_true[0]))
 
