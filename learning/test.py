@@ -46,13 +46,14 @@ def test(args):
                 y_pred = y_pred.cpu()
                 predictions.append(int(y_pred[0]))
             except:
-                predictions.append(-1)
-                temp_dict = {
-                    'batch': batch,
-                    'code': code,
-                    'test': test
-                }
-                print(temp_dict)
+                pass
+                # predictions.append(-1)
+                # temp_dict = {
+                #     'batch': batch,
+                #     'code': code,
+                #     'test': test
+                # }
+                # print(temp_dict)
             
             predictions.append(int(y_pred[0]))
             actuals.append(int(y_true[0]))
