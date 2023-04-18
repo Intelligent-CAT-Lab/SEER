@@ -38,16 +38,16 @@ def test(args):
         start_time = time.time()
         code, test, y_true = [tensor.to(device) for tensor in batch]
         y_true = y_true.float().cpu()
-        with torch.no_grad():
-            try:
+        actuals.append(int(y_true[0]))
+        try:
+            with torch.no_grad():
                 out = model(code, test, "", phase=2)
                 out = torch.squeeze(out, 1)
                 y_pred = torch.argmax(out, dim=1)
                 y_pred = y_pred.cpu()
                 predictions.append(int(y_pred[0]))
-            except:
-                pass
-                # predictions.append(-1)
+        except:
+            predictions.append(-1)
                 # temp_dict = {
                 #     'batch': batch,
                 #     'code': code,
@@ -55,8 +55,6 @@ def test(args):
                 # }
                 # print(temp_dict)
             
-            predictions.append(int(y_pred[0]))
-            actuals.append(int(y_true[0]))
 
         elapsed_time = time.time() - start_time
         elapsed_times.append(elapsed_time)
