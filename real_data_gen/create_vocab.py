@@ -22,9 +22,9 @@ def export_vocabulary(triplets, filtered_data, vocabulary, vocab_type):
     """
     triplets = json.load(open(f'{filtered_data}/{triplets}', 'r'))
     print(f'length of triplets: {len(triplets.keys())}')
-    for i in range(len(triplets.keys())):
-        source_code_pos = triplets[str(i)]['C'].split()
-        test_code_tokens = triplets[str(i)]['T'].split()
+    for key in triplets.keys():
+        source_code_pos = triplets[key]['C'].split()
+        test_code_tokens = triplets[key]['T'].split()
 
         if vocab_type == 'code':                
             vocabulary = insert_to_vocabulary(source_code_pos, vocabulary)
