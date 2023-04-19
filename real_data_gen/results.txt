@@ -1,12 +1,19 @@
 num_rows: 169099
-out_of_vocab: 17028
-tp: 129257
-fp: 12473
-tn: 714
-fn: 9627
-Percent Out of Vocab: 17028/169099 = 0.1007
-accuracy: 129971/169099 = 0.7686
-precision: 129257/141730 = 0.912
-recall: 129257/138884 = 0.9307
+out_of_vocab: 17028 (1859 fail = 0.1092, 15169 pass = 0.8908)
+Percent Out of Vocab: 0.1007
+
+Number in Pass Class: 138884, 0.9133
+tp: 129257, 0.85
+fp: 9627, 0.0633
+pass accuracy: 129257/138884 = 0.9307
+
+Number in Fail Class: 13187, 0.0867
+tn: 714, 0.0047
+fn: 12473, 0.082
+fail accuracy: 714/13187 = 0.0541
+
+accuracy: 129971/152071 = 0.8547
+precision: 129257/138884 = 0.9307
+recall: 129257/141730 = 0.912
 f1: 258514/280614 = 0.9212
 

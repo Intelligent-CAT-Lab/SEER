@@ -1,7 +1,7 @@
 import sys
 sys.path.append('/u/kl5sq/masters/SEER')
-import os
-os.environ['CUDA_LAUNCH_BLOCKING'] = "1"
+# import os
+# os.environ['CUDA_LAUNCH_BLOCKING'] = "1"
 
 import json
 import time
@@ -17,11 +17,15 @@ def load_dict(filename):
 
 
 def test(args):
-    test_set = TestOracleDatasetPhase2(args.model, args.data_path, 'code_test.h5', 1624, 'test_test.h5', 1624, 'label_test.h5')
+    if args.project == '':
+        data_path = args.data_path
+    else:
+        data_path = args.data_path + args.project + '/'
+    test_set = TestOracleDatasetPhase2(args.model, data_path, 'code_test.h5', 1624, 'test_test.h5', 1624, 'label_test.h5')
     data_loader = torch.utils.data.DataLoader(dataset=test_set, batch_size=1, shuffle=False, num_workers=1)
 
-    device = torch.device(f"cuda:{args.gpu_id}" if torch.cuda.is_available() else "cpu")
-    # device = torch.device("cpu")
+    # device = torch.device(f"cuda:{args.gpu_id}" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cpu")
     config=getattr(configs, 'configs')()
 
     model = getattr(models, args.model)(config)
@@ -35,6 +39,8 @@ def test(args):
     model.eval()
     predictions, actuals = [], []
     elapsed_times = []
+    failing_tensor_dict = {}
+    k = 0
     for batch in data_loader:
         start_time = time.time()
         code, test, y_true = [tensor.to(device) for tensor in batch]
@@ -53,19 +59,25 @@ def test(args):
                 'C': code,
                 'T': test
             }
-            print(temp_dict)
+            failing_tensor_dict[k] = temp_dict
+            k += 1
+
+    json_object = json.dumps(failing_tensor_dict, indent=4)
+
+    with open(f"failing_tensors{args.project}.json", "w") as outfile:
+        outfile.write(json_object)
             
 
         elapsed_time = time.time() - start_time
         elapsed_times.append(elapsed_time)
         start_time = time.time()
-    now = time.strftime("%Y-%m-%d-%H_%M_%S",time.localtime(time.time()))
-    with open(f'./{args.data_path}/{now}test_stats.csv', 'w') as f_object:
-        dictwriter_object = DictWriter(f_object, fieldnames=['Predicted Label', 'Actual Label'])
-        dictwriter_object.writerow({'Predicted Label': 'Predicted Label', 'Actual Label': 'Actual Label'})
-        for i in range(len(predictions)):
-            dictwriter_object.writerow({'Predicted Label': predictions[i], 'Actual Label': actuals[i]})
-        f_object.close()
+    # now = time.strftime("%Y-%m-%d-%H_%M_%S",time.localtime(time.time()))
+    # with open(f'./{args.data_path}/{now}test_stats.csv', 'w') as f_object:
+    #     dictwriter_object = DictWriter(f_object, fieldnames=['Predicted Label', 'Actual Label'])
+    #     dictwriter_object.writerow({'Predicted Label': 'Predicted Label', 'Actual Label': 'Actual Label'})
+    #     for i in range(len(predictions)):
+    #         dictwriter_object.writerow({'Predicted Label': predictions[i], 'Actual Label': actuals[i]})
+    #     f_object.close()
 
     with open(f'./{args.data_path}/test_stats.csv', 'w') as f_object:
         dictwriter_object = DictWriter(f_object, fieldnames=['Predicted Label', 'Actual Label'])
@@ -86,6 +98,7 @@ def parse_args():
     parser.add_argument('-g', '--gpu_id', type=int, default=0, help='GPU ID')
     parser.add_argument('--fold', type=int, default=1, help='fold to test from')
     parser.add_argument('--reload_from', type=int, default=29, help='step to reload from')
+    parser.add_argument('--project', type=str, default='', help='project name')
     return parser.parse_args()
 
 

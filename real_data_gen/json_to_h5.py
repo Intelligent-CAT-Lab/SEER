@@ -2,6 +2,7 @@ import json
 import tables as tb
 import numpy as np
 from tqdm import tqdm
+import sys
 
 
 class Particle(tb.IsDescription):
@@ -9,24 +10,29 @@ class Particle(tb.IsDescription):
     pos = tb.UInt32Col(shape=(), dflt=0, pos=1)
 
 
-def json_to_h5(type, fold, model):
+def json_to_h5(type, fold, model, project=''):
     """
         this function converts json file to h5 file for phase 1 of model training.
         the logic stays the same for phase 2 as well with a few changes.
     """
+    if (project == ''):
+        fold_path = f'./real_data_gen/fold{fold}'
+    else:
+        fold_path = f'./real_data_gen/fold{fold}/{project}'
+
     try:
-        f = open(f"./real_data_gen/fold{fold}/code_{type}.h5", "x")
+        f = open(f"{fold_path}/code_{type}.h5", "x")
         f.close()
-        f = open(f"./real_data_gen/fold{fold}/test_{type}.h5", "x")
+        f = open(f"{fold_path}/test_{type}.h5", "x")
         f.close()
-        f = open(f"./real_data_gen/fold{fold}/label_{type}.h5", "x")
+        f = open(f"{fold_path}/label_{type}.h5", "x")
         f.close()
     except:
         pass
 
-    code_h5 = tb.open_file(f"./real_data_gen/fold{fold}/code_{type}.h5", mode="w")
-    test_h5 = tb.open_file(f"./real_data_gen/fold{fold}/test_{type}.h5", mode="w")
-    label_h5 = tb.open_file(f"./real_data_gen/fold{fold}/label_{type}.h5", mode="w")
+    code_h5 = tb.open_file(f"{fold_path}/code_{type}.h5", mode="w")
+    test_h5 = tb.open_file(f"{fold_path}/test_{type}.h5", mode="w")
+    label_h5 = tb.open_file(f"{fold_path}/label_{type}.h5", mode="w")
 
     code_table = code_h5.create_table(code_h5.root, 'indices', Particle, 'a table of indices and lengths')
     code_e_array = code_h5.create_earray(code_h5.root, 'phrases', tb.Int64Atom(), (0,))
@@ -39,21 +45,23 @@ def json_to_h5(type, fold, model):
     label_e_array = label_h5.create_earray(label_h5.root, 'labels', tb.Int8Atom(), (0,))
 
     if model == 'JointEmbedder':
-        with open('./real_data_gen/vocab_real_data.json') as fr:
+        vocab_path = './real_data_gen/vocab_real_data.json' if project == '' else f'./real_data_gen/vocab_{project}.json'
+        with open(vocab_path) as fr:
             vocab_code = json.load(fr)
             vocab_test = vocab_code
     else:
-        with open('./real_data_gen/vocab_code.json') as fr:
+        with open(vocab_path) as fr:
             vocab_code = json.load(fr)
 
-        with open('./real_data_gen/vocab_test.json') as fr:
+        with open(vocab_path) as fr:
             vocab_test = json.load(fr)
 
     if type == 'test':
-        with open(f'./real_data_gen/triplets.json', "r", encoding="ISO-8859-1", errors='ignore') as fr:
+        triplets_path = './real_data_gen/triplets.json' if project == '' else f'./real_data_gen/triplets_{project}.json'
+        with open(triplets_path, "r", encoding="ISO-8859-1", errors='ignore') as fr:
             tuples = json.load(fr)
     else:
-        with open(f'./real_data_gen/fold{fold}/{type}{fold}.json', "r", encoding="ISO-8859-1", errors='ignore') as fr:
+        with open(f'{fold_path}/{type}{fold}.json', "r", encoding="ISO-8859-1", errors='ignore') as fr:
             tuples = json.load(fr)
 
     codeitive_curr_pos = 0
@@ -104,4 +112,4 @@ def json_to_h5(type, fold, model):
     test_table.close()
 
 if __name__ == '__main__':
-    json_to_h5('test', 0, 'JointEmbedder')
+    json_to_h5('test', 0, 'JointEmbedder') if len(sys.argv) == 1 else json_to_h5('test', 0, 'JointEmbedder', sys.argv[1])

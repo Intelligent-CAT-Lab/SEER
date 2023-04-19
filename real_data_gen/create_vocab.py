@@ -1,4 +1,5 @@
 import json
+import sys
 
 
 def create_vocabulary(filtered_data, vocab_type):
@@ -6,7 +7,7 @@ def create_vocabulary(filtered_data, vocab_type):
         this function creates vocabulary from the given data
     """
     vocabulary = {"<pad>": 0, "<s>": 1, "</s>": 2, "<unk>": 3}
-    filtered_triplets = 'triplets.json'
+    filtered_triplets = 'triplets.json' if vocab_type == 'real_data' else f'triplets_{vocab_type}.json'
 
     vocabulary = export_vocabulary(filtered_triplets, filtered_data, vocabulary, vocab_type)
 
@@ -50,5 +51,5 @@ def insert_to_vocabulary(tokens, vocabulary):
 
 if __name__ == "__main__":
     filtered_data = './real_data_gen/'
-    vocab_type = 'real_data'
+    vocab_type = 'real_data' if len(sys.argv) < 2 else sys.argv[1]
     create_vocabulary(filtered_data, vocab_type)
