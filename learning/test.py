@@ -64,7 +64,7 @@ def test(args):
 
     json_object = json.dumps(failing_tensor_dict, indent=4)
 
-    with open(f"failing_tensors{args.project}.json", "w") as outfile:
+    with open(f"{data_path}failing_tensors{args.project}.json", "w") as outfile:
         outfile.write(json_object)
             
 
