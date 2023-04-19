@@ -48,12 +48,11 @@ def test(args):
                 predictions.append(int(y_pred[0]))
         except:
             predictions.append(-1)
-                # temp_dict = {
-                #     'batch': batch,
-                #     'code': code,
-                #     'test': test
-                # }
-                # print(temp_dict)
+            temp_dict = {
+                'C': code,
+                'T': test
+            }
+            print(temp_dict)
             
 
         elapsed_time = time.time() - start_time
