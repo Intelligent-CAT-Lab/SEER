@@ -1,0 +1,10 @@
+16827
+Test: public void testSubtypeRelation() throws Exception { EnumElementType typeA = registry.createEnumType( "typeA", null, NUMBER_TYPE).getElementsType(); EnumElementType typeB = registry.createEnumType( "typeB", null, NUMBER_TYPE).getElementsType(); }
+Code: public boolean isSubtype(JSType other) { if (!(other instanceof ArrowType)) { return false; } ArrowType that = (ArrowType) other; if (!this.returnType.isSubtype(that.returnType)) { return false; } Node thisParam = parameters.getFirstChild(); Node thatParam = that.parameters.getFirstChild(); while (thisParam != null && thatParam != null) { JSType thisParamType = thisParam.getJSType(); JSType thatParamType = thatParam.getJSType(); if (thisParamType != null) { if (thatParamType == null || !thatParamType.isSubtype(thisParamType)) { return false; } } boolean thisIsVarArgs = thisParam.isVarArgs(); boolean thatIsVarArgs = thatParam.isVarArgs(); boolean thisIsOptional = thisIsVarArgs || thisParam.isOptionalArg(); boolean thatIsOptional = thatIsVarArgs || thatParam.isOptionalArg(); if (!thisIsOptional && thatIsOptional) { boolean isTopFunction = thatIsVarArgs && (thatParamType == null || thatParamType.isUnknownType() || thatParamType.isNoType()); if (!isTopFunction) { return false; } } if (!thisIsVarArgs) { thisParam = thisParam.getNext(); } if (!thatIsVarArgs) { thatParam = thatParam.getNext(); } if (thisIsVarArgs && thatIsVarArgs) { thisParam = null; thatParam = null; } } if (thisParam != null && !thisParam.isOptionalArg() && !thisParam.isVarArgs() && thatParam == null) { return false; } return true; }
+tensor([[0.0045, 0.0107, 0.0040,  ..., 0.0051, 0.0031, 0.0020],
+        [0.0030, 0.0153, 0.0024,  ..., 0.0051, 0.0026, 0.0015],
+        [0.0034, 0.0129, 0.0033,  ..., 0.0048, 0.0032, 0.0015],
+        ...,
+        [0.0028, 0.0128, 0.0037,  ..., 0.0040, 0.0022, 0.0017],
+        [0.0035, 0.0167, 0.0032,  ..., 0.0047, 0.0034, 0.0015],
+        [0.0032, 0.0111, 0.0034,  ..., 0.0069, 0.0043, 0.0017]])

@@ -1,0 +1,25 @@
+15919
+Test: public void test13425() throws Exception { Options options = new Options(); Option oldpass = OptionBuilder.withLongOpt( "old-password" ) .withDescription( "Use this option to specify the old password" ) .hasArg() .create( 'o' ); Option newpass = OptionBuilder.withLongOpt( "new-password" ) .withDescription( "Use this option to specify the new password" ) .hasArg() .create( 'n' ); String[] args = { "-o", "-n", "newpassword" }; options.addOption( oldpass ); options.addOption( newpass ); Parser parser = new PosixParser(); try { parser.parse( options, args ); } catch( Exception exp ) { return; } fail( "MissingArgumentException not caught." ); }
+Code: public static Option create(String opt){Option option = new Option(opt, description);;option.setRequired(required);option.setOptionalArg(optionalArg);option.setArgs(numberOfArgs);;option.setValueSeparator(valuesep);option.setArgName(argName);OptionBuilder.reset();return option;}
+tensor([[0.0453, 0.1583, 0.1416, 0.0973, 0.3232, 0.0799, 0.0293, 0.0220, 0.0515,
+         0.0205, 0.0313],
+        [0.0524, 0.1549, 0.1399, 0.1007, 0.3128, 0.0922, 0.0340, 0.0233, 0.0440,
+         0.0209, 0.0249],
+        [0.0380, 0.1690, 0.1170, 0.1153, 0.3449, 0.0676, 0.0334, 0.0179, 0.0524,
+         0.0176, 0.0268],
+        [0.0342, 0.1651, 0.1368, 0.0953, 0.3303, 0.0897, 0.0258, 0.0203, 0.0546,
+         0.0171, 0.0308],
+        [0.0445, 0.1447, 0.1403, 0.0791, 0.3495, 0.0626, 0.0428, 0.0255, 0.0582,
+         0.0205, 0.0323],
+        [0.0308, 0.1453, 0.0915, 0.1184, 0.4203, 0.0646, 0.0259, 0.0197, 0.0447,
+         0.0137, 0.0251],
+        [0.0622, 0.1456, 0.1410, 0.1228, 0.2258, 0.0882, 0.0506, 0.0291, 0.0518,
+         0.0330, 0.0499],
+        [0.0417, 0.1352, 0.1231, 0.0848, 0.3895, 0.0757, 0.0317, 0.0248, 0.0465,
+         0.0195, 0.0276],
+        [0.0601, 0.1433, 0.1323, 0.0778, 0.3111, 0.0900, 0.0402, 0.0245, 0.0607,
+         0.0291, 0.0308],
+        [0.0340, 0.1730, 0.1449, 0.0945, 0.3826, 0.0637, 0.0246, 0.0159, 0.0338,
+         0.0120, 0.0209],
+        [0.0419, 0.1467, 0.1241, 0.0905, 0.3332, 0.0850, 0.0378, 0.0326, 0.0539,
+         0.0205, 0.0338]])

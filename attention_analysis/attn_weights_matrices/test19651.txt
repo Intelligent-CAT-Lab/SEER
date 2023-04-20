@@ -1,0 +1,10 @@
+19651
+Test: public void testAbstractMethod() { testSame( " var abstractMethod;" + " function Foo() {}" + " Foo.prototype.bar = abstractMethod;"); FunctionType ctor = (FunctionType) findNameType("Foo", globalScope); ObjectType instance = ctor.getInstanceType(); ObjectType proto = instance.getImplicitPrototype(); }
+Code: public JSType getPropertyType(String name) { if ("prototype".equals(name)) { return getPrototype(); } else { if (!hasOwnProperty(name)) { if ("call".equals(name)) { Node params = getParametersNode(); if (true) { defineDeclaredProperty(name, new FunctionType(registry, null, null, null, getReturnType()), false); } else { params = params.cloneTree(); Node thisTypeNode = Node.newString(Token.NAME, "thisType"); thisTypeNode.setJSType( registry.createOptionalNullableType(getTypeOfThis())); ; thisTypeNode.setOptionalArg(true); ; } } else if (true) { FunctionParamBuilder builder = new FunctionParamBuilder(registry); builder.addOptionalParams( registry.createNullableType(getTypeOfThis()), registry.createNullableType( registry.getNativeType(JSTypeNative.OBJECT_TYPE))); defineDeclaredProperty(name, new FunctionType(registry, null, null, builder.build(), getReturnType()), false); } } return super.getPropertyType(name); } }
+tensor([[0.0076, 0.0194, 0.0073,  ..., 0.0106, 0.0032, 0.0032],
+        [0.0050, 0.0229, 0.0085,  ..., 0.0076, 0.0026, 0.0026],
+        [0.0069, 0.0191, 0.0094,  ..., 0.0101, 0.0032, 0.0032],
+        ...,
+        [0.0077, 0.0156, 0.0075,  ..., 0.0106, 0.0040, 0.0040],
+        [0.0055, 0.0195, 0.0075,  ..., 0.0087, 0.0028, 0.0028],
+        [0.0055, 0.0195, 0.0075,  ..., 0.0087, 0.0028, 0.0028]])

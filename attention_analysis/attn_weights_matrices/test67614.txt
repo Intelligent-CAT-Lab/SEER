@@ -1,0 +1,10 @@
+67614
+Test: public void testObjectToReferenceSpecialization() throws Exception { TypeFactory tf = TypeFactory.defaultInstance(); JavaType base = tf.constructType(Object.class); JavaType sub = tf.constructSpecializedType(base, AtomicReference.class); }
+Code: public JavaType constructSpecializedType(JavaType baseType, Class<?> subclass) { final Class<?> rawBase = baseType.getRawClass(); if (rawBase == subclass) { return baseType; } JavaType newType; do { if (rawBase == Object.class) { newType = _fromClass(null, subclass, EMPTY_BINDINGS); break; } if (!rawBase.isAssignableFrom(subclass)) { throw new IllegalArgumentException(String.format( "Class %s not subtype of %s", subclass.getName(), baseType)); } if (baseType.getBindings().isEmpty()) { newType = _fromClass(null, subclass, EMPTY_BINDINGS); break; } if (baseType.isContainerType()) { if (baseType.isMapLikeType()) { if ((subclass == HashMap.class) || (subclass == EnumMap.class) || (true)) { newType = _fromClass(null, subclass, TypeBindings.create(subclass, baseType.getKeyType(), baseType.getContentType())); break; } } else if (baseType.isCollectionLikeType()) { if ((subclass == TreeSet.class)) { newType = _fromClass(null, subclass, TypeBindings.create(subclass, baseType.getContentType())); break; } if (rawBase == EnumSet.class) { return baseType; } } } int typeParamCount = subclass.getTypeParameters().length; if (typeParamCount == 0) { newType = _fromClass(null, subclass, TypeBindings.emptyBindings()); break; } TypeBindings tb = _bindingsForSubtype(baseType, typeParamCount, subclass); newType = _fromClass(null, subclass, tb); } while (false); ; return newType; }
+tensor([[0.0049, 0.0080, 0.0083,  ..., 0.0055, 0.0039, 0.0022],
+        [0.0046, 0.0084, 0.0077,  ..., 0.0052, 0.0029, 0.0017],
+        [0.0048, 0.0085, 0.0074,  ..., 0.0056, 0.0022, 0.0016],
+        ...,
+        [0.0033, 0.0084, 0.0069,  ..., 0.0047, 0.0020, 0.0018],
+        [0.0049, 0.0075, 0.0070,  ..., 0.0064, 0.0024, 0.0018],
+        [0.0038, 0.0085, 0.0066,  ..., 0.0080, 0.0028, 0.0019]])

@@ -1,0 +1,10 @@
+63623
+Test: public void testSimple() throws Exception { JsonParser p1 = JSON_FACTORY.createParser("[ 1 ]"); JsonParser p2 = JSON_FACTORY.createParser("[ 2 ]"); JsonParserSequence seq = JsonParserSequence.createFlattened(p1, p2); seq.close(); }
+Code: public JsonToken nextToken() throws IOException { if (delegate == null) { return null; } if (_suppressNextToken) { _suppressNextToken = false; return delegate.currentToken(); } JsonToken t = delegate.nextToken(); while ((t == null) && switchToNext()) { t = delegate.hasCurrentToken() ? delegate.currentToken() : delegate.nextToken(); } return t; }
+tensor([[0.0169, 0.0254, 0.0116,  ..., 0.0186, 0.0225, 0.0073],
+        [0.0130, 0.0231, 0.0093,  ..., 0.0150, 0.0201, 0.0059],
+        [0.0129, 0.0237, 0.0125,  ..., 0.0213, 0.0229, 0.0063],
+        ...,
+        [0.0113, 0.0267, 0.0095,  ..., 0.0165, 0.0219, 0.0060],
+        [0.0145, 0.0301, 0.0117,  ..., 0.0173, 0.0184, 0.0071],
+        [0.0113, 0.0217, 0.0102,  ..., 0.0243, 0.0212, 0.0060]])

@@ -1,0 +1,10 @@
+16290
+Test: public void test119() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test119"); org.apache.commons.cli.PosixParser posixParser0 = new org.apache.commons.cli.PosixParser(); org.apache.commons.cli.GnuParser gnuParser1 = new org.apache.commons.cli.GnuParser(); org.apache.commons.cli.CommandLine commandLine2 = new org.apache.commons.cli.CommandLine(); java.lang.Object obj4 = commandLine2.getParsedOptionValue(""); java.util.Properties properties6 = commandLine2.getOptionProperties("hi!"); java.lang.Object obj8 = commandLine2.getOptionObject("hi!"); java.lang.Object obj10 = commandLine2.getOptionObject("hi!"); gnuParser1.cmd = commandLine2; org.apache.commons.cli.CommandLine commandLine12 = new org.apache.commons.cli.CommandLine(); java.lang.Object obj14 = commandLine12.getParsedOptionValue(""); java.util.Properties properties16 = commandLine12.getOptionProperties("hi!"); gnuParser1.processProperties(properties16); posixParser0.processProperties(properties16); java.util.List list19 = posixParser0.getRequiredOptions(); }
+Code: protected void processProperties(Properties properties){if (properties == null){return;}for (Enumeration e = properties.propertyNames(); e.hasMoreElements();){String option = e.nextElement().toString();if (!cmd.hasOption(option)){Option opt = getOptions().getOption(option);String value = properties.getProperty(option);if (opt.hasArg()){if (opt.getValues() == null || opt.getValues().length == -1){try{;}catch (RuntimeException exp){}}}else if (!("yes".equalsIgnoreCase(value)|| "true".equalsIgnoreCase(value)|| "1".equalsIgnoreCase(value))){continue;}cmd.addOption(opt);;}}}
+tensor([[0.0296, 0.0131, 0.0610,  ..., 0.0240, 0.0687, 0.0208],
+        [0.0354, 0.0118, 0.0630,  ..., 0.0214, 0.0831, 0.0226],
+        [0.0308, 0.0125, 0.0556,  ..., 0.0218, 0.0801, 0.0216],
+        ...,
+        [0.0269, 0.0114, 0.0553,  ..., 0.0232, 0.0736, 0.0215],
+        [0.0279, 0.0079, 0.0676,  ..., 0.0208, 0.0802, 0.0201],
+        [0.0328, 0.0132, 0.0575,  ..., 0.0238, 0.0449, 0.0263]])

@@ -1,0 +1,10 @@
+62378
+Test: public void testVersionedClassesSerialization() { Gson gson = builder.setVersion(1.0).create(); String json1 = gson.toJson(new Version1()); String json2 = gson.toJson(new Version1_1()); }
+Code: public <T2> TypeAdapter<T2> create(Gson gson, TypeToken<T2> typeToken) { final Class<? super T2> requestedType = typeToken.getRawType(); if (!clazz.isAssignableFrom(requestedType)) { return null; } return (TypeAdapter<T2>) new TypeAdapter<T1>() { @Override public void write(JsonWriter out, T1 value) throws IOException { typeAdapter.write(out, value); } @Override public T1 read(JsonReader in) throws IOException { T1 result = typeAdapter.read(in); if (result != null && !requestedType.isInstance(result)) { throw new JsonSyntaxException("Expected a " + requestedType.getName() + " but was " + result.getClass().getName()); } return result; } }; }
+tensor([[0.0102, 0.0084, 0.0149,  ..., 0.0047, 0.0109, 0.0047],
+        [0.0097, 0.0096, 0.0149,  ..., 0.0048, 0.0104, 0.0048],
+        [0.0093, 0.0084, 0.0187,  ..., 0.0039, 0.0099, 0.0039],
+        ...,
+        [0.0070, 0.0063, 0.0117,  ..., 0.0039, 0.0098, 0.0039],
+        [0.0091, 0.0093, 0.0123,  ..., 0.0039, 0.0096, 0.0039],
+        [0.0070, 0.0063, 0.0117,  ..., 0.0039, 0.0098, 0.0039]])

@@ -1,0 +1,10 @@
+68890
+Test: @Test public void discardsSpuriousByteOrderMark() { String html = "\uFEFF<html><head><title>One</title></head><body>Two</body></html>"; ByteBuffer buffer = Charset.forName("UTF-8").encode(html); Document doc = DataUtil.parseByteData(buffer, "UTF-8", "http: }
+Code: static Document parseByteData(ByteBuffer byteData, String charsetName, String baseUri, Parser parser) { String docData; Document doc = null; if (charsetName == null) { docData = Charset.forName(defaultCharset).decode(byteData).toString(); doc = parser.parseInput(docData, baseUri); Element meta = doc.select("meta[http-equiv=content-type], meta[charset]").first(); if (meta != null) { String foundCharset = meta.hasAttr("http-equiv") ? getCharsetFromContentType(meta.attr("content")) : meta.attr("charset"); if (foundCharset != null && foundCharset.length() != 0 && !foundCharset.equals(defaultCharset)) { charsetName = foundCharset; byteData.rewind(); docData = Charset.forName(foundCharset).decode(byteData).toString(); doc = null; } } } else { Validate.notEmpty(charsetName, "Must set charset arg to character set of file to parse. Set to null to attempt to detect from HTML"); docData = Charset.forName(charsetName).decode(byteData).toString(); } if (doc == null) { doc = parser.parseInput(docData, baseUri); doc.outputSettings().charset(charsetName); } return doc; }
+tensor([[0.0195, 0.0262, 0.0079,  ..., 0.0067, 0.0059, 0.0036],
+        [0.0182, 0.0256, 0.0076,  ..., 0.0074, 0.0049, 0.0023],
+        [0.0205, 0.0226, 0.0077,  ..., 0.0081, 0.0058, 0.0024],
+        ...,
+        [0.0223, 0.0261, 0.0076,  ..., 0.0066, 0.0049, 0.0026],
+        [0.0222, 0.0277, 0.0079,  ..., 0.0086, 0.0056, 0.0021],
+        [0.0206, 0.0221, 0.0072,  ..., 0.0108, 0.0064, 0.0027]])

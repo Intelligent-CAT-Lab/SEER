@@ -1,0 +1,10 @@
+65084
+Test: public void testDateISO8601() throws IOException { ObjectMapper mapper = new ObjectMapper(); mapper.configure(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS, false); serialize( mapper, judate(1970, 1, 1, 02, 00, 00, 0, "GMT+2"), "1970-01-01T00:00:00.000+0000"); serialize( mapper, judate(1970, 1, 1, 00, 00, 00, 0, "UTC"), "1970-01-01T00:00:00.000+0000"); }
+Code: public final void serialize(JsonGenerator gen, SerializerProvider ctxt) throws IOException { if (_value == null) { ctxt.defaultSerializeNull(gen); } else if (_value instanceof JsonSerializable) { ((JsonSerializable) _value).serialize(gen, ctxt); } else { ctxt.defaultSerializeValue(_value, gen); } }
+tensor([[0.0235, 0.0191, 0.0193,  ..., 0.0396, 0.0104, 0.0104],
+        [0.0213, 0.0142, 0.0158,  ..., 0.0325, 0.0070, 0.0070],
+        [0.0180, 0.0157, 0.0157,  ..., 0.0351, 0.0095, 0.0095],
+        ...,
+        [0.0175, 0.0158, 0.0132,  ..., 0.0363, 0.0066, 0.0066],
+        [0.0158, 0.0141, 0.0144,  ..., 0.0352, 0.0084, 0.0084],
+        [0.0158, 0.0141, 0.0144,  ..., 0.0352, 0.0084, 0.0084]])

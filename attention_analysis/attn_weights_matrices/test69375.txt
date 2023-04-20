@@ -1,0 +1,10 @@
+69375
+Test: public void test0021() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test0021"); org.jsoup.nodes.Document document2 = org.jsoup.Jsoup.parseBodyFragment("", "hi!"); java.lang.String str3 = document2.title(); java.util.List<org.jsoup.nodes.Node> nodeList4 = document2.childNodes(); org.jsoup.nodes.Document document5 = document2.normalise(); try { org.jsoup.nodes.Element element7 = document2.wrap(""); } catch (java.lang.IllegalArgumentException e) { } }
+Code: public Document normalise() { Element htmlEl = findFirstElementByTagName("html", this); if (htmlEl == null) htmlEl = appendElement("html"); if (head() == null) htmlEl.prependElement("head"); if (body() == null) htmlEl.appendElement("body"); normaliseTextNodes(head()); normaliseTextNodes(htmlEl); normaliseTextNodes(this); normaliseStructure("head", htmlEl); normaliseStructure("body", htmlEl); return this; }
+tensor([[0.0157, 0.0549, 0.0667,  ..., 0.0179, 0.0152, 0.0078],
+        [0.0131, 0.0497, 0.0714,  ..., 0.0162, 0.0119, 0.0055],
+        [0.0132, 0.0463, 0.0640,  ..., 0.0180, 0.0155, 0.0078],
+        ...,
+        [0.0103, 0.0499, 0.0634,  ..., 0.0142, 0.0102, 0.0065],
+        [0.0194, 0.0567, 0.0587,  ..., 0.0231, 0.0127, 0.0088],
+        [0.0115, 0.0521, 0.0902,  ..., 0.0258, 0.0113, 0.0067]])

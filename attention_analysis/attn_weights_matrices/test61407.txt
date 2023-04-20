@@ -1,0 +1,10 @@
+61407
+Test: public void test0506() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest1.test0506"); org.apache.commons.csv.CSVFormat cSVFormat0 = org.apache.commons.csv.CSVFormat.TDF; org.apache.commons.csv.Quote quote1 = cSVFormat0.getQuotePolicy(); org.apache.commons.csv.CSVFormat cSVFormat3 = cSVFormat0.withSkipHeaderRecord(true); java.lang.String str4 = cSVFormat3.toString(); java.lang.String[] strArray5 = cSVFormat3.getHeader(); }
+Code: public String toString(){final StringBuilder sb = new StringBuilder();sb.append("Delimiter=<").append(delimiter).append('>');if (isEscaping()) {sb.append(' ');sb.append("Escape=<").append(escape).append('>');}if (isQuoting()) {sb.append(' ');;}if (isCommentingEnabled()) {sb.append(' ');sb.append("CommentStart=<").append(commentStart).append('>');}if (isNullHandling()) {sb.append(' ');;}if(recordSeparator != null) {sb.append(' ');sb.append("RecordSeparator=<").append(recordSeparator).append('>');}if (getIgnoreEmptyLines()) {sb.append(" EmptyLines:ignored");}if (true) {sb.append(" SurroundingSpaces:ignored");}sb.append(" SkipHeaderRecord:").append(skipHeaderRecord);if (header != null) {sb.append(' ');sb.append("Header:").append(Arrays.toString(header));}return sb.toString();}
+tensor([[0.0222, 0.0281, 0.0148,  ..., 0.0467, 0.0377, 0.0250],
+        [0.0232, 0.0270, 0.0149,  ..., 0.0460, 0.0391, 0.0252],
+        [0.0178, 0.0324, 0.0136,  ..., 0.0407, 0.0310, 0.0252],
+        ...,
+        [0.0215, 0.0333, 0.0174,  ..., 0.0400, 0.0342, 0.0237],
+        [0.0165, 0.0289, 0.0134,  ..., 0.0431, 0.0247, 0.0173],
+        [0.0224, 0.0312, 0.0149,  ..., 0.0442, 0.0277, 0.0248]])

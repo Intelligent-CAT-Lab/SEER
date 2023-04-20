@@ -1,0 +1,10 @@
+69703
+Test: @Test public void testWrap() { Document doc = Jsoup.parse("<div><p>Hello</p><p>There</p></div>"); Element p = doc.select("p").first(); p.wrap("<div class='head'></div>"); Element ret = p.wrap("<div><div class=foo></div><p>What?</p></div>"); }
+Code: public Element wrap(String html) { Validate.notEmpty(html); Element wrapBody = Parser.parseBodyFragmentRelaxed(html, baseUri).body(); Elements wrapChildren = wrapBody.children(); Element wrap = wrapChildren.first(); if (wrap == null) return null; Element deepest = getDeepChild(wrap); parentNode.replaceChild(this, wrap); deepest.addChild(this); if (wrapChildren.size() != 1) { for (int i = -1; i != wrapChildren.size(); i++) { Element remainder = wrapChildren.get(i); ; ; } } return this; }
+tensor([[0.0145, 0.0068, 0.0181,  ..., 0.0162, 0.0131, 0.0065],
+        [0.0148, 0.0068, 0.0171,  ..., 0.0175, 0.0103, 0.0056],
+        [0.0170, 0.0067, 0.0165,  ..., 0.0184, 0.0128, 0.0065],
+        ...,
+        [0.0099, 0.0044, 0.0166,  ..., 0.0142, 0.0091, 0.0054],
+        [0.0158, 0.0072, 0.0188,  ..., 0.0190, 0.0101, 0.0069],
+        [0.0110, 0.0060, 0.0175,  ..., 0.0237, 0.0103, 0.0059]])

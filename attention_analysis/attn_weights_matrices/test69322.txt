@@ -1,0 +1,10 @@
+69322
+Test: public void test151() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test151"); org.jsoup.parser.CharacterReader characterReader0 = null; org.jsoup.parser.ParseErrorList parseErrorList2 = org.jsoup.parser.ParseErrorList.tracking((int) (byte) 1); boolean boolean3 = parseErrorList2.canAddError(); org.jsoup.parser.Tokeniser tokeniser4 = new org.jsoup.parser.Tokeniser(characterReader0, parseErrorList2); org.jsoup.parser.Token.Comment comment5 = null; tokeniser4.commentPending = comment5; org.jsoup.parser.TokeniserState tokeniserState7 = org.jsoup.parser.TokeniserState.ScriptDataEscapedLessthanSign; tokeniser4.transition(tokeniserState7); org.jsoup.parser.Token.EndTag endTag9 = new org.jsoup.parser.Token.EndTag(); endTag9.normalName = "hi!"; org.jsoup.parser.Token.Tag tag12 = endTag9.reset(); tag12.newAttribute(); boolean boolean14 = tag12.isCharacter(); tag12.selfClosing = true; try { tokeniser4.emit((org.jsoup.parser.Token) tag12); } catch (java.lang.NullPointerException e) { } }
+Code: final void newAttribute() { if (attributes == null) attributes = new Attributes(); if (pendingAttributeName != null) { pendingAttributeName = pendingAttributeName.trim(); Attribute attribute; if (hasPendingAttributeValue) attribute = new Attribute(pendingAttributeName, pendingAttributeValue.length() > 0 ? pendingAttributeValue.toString() : pendingAttributeValueS); else if (hasEmptyAttributeValue) attribute = new Attribute(pendingAttributeName, ""); else attribute = new BooleanAttribute(pendingAttributeName); attributes.put(attribute); } pendingAttributeName = null; hasEmptyAttributeValue = false; hasPendingAttributeValue = false; reset(pendingAttributeValue); pendingAttributeValueS = null; }
+tensor([[0.0073, 0.0082, 0.0145,  ..., 0.0083, 0.0211, 0.0038],
+        [0.0079, 0.0079, 0.0135,  ..., 0.0073, 0.0270, 0.0051],
+        [0.0085, 0.0062, 0.0159,  ..., 0.0072, 0.0255, 0.0048],
+        ...,
+        [0.0115, 0.0113, 0.0165,  ..., 0.0115, 0.0223, 0.0068],
+        [0.0104, 0.0078, 0.0194,  ..., 0.0072, 0.0219, 0.0056],
+        [0.0072, 0.0075, 0.0148,  ..., 0.0073, 0.0280, 0.0046]])

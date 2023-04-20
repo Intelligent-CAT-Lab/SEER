@@ -1,0 +1,10 @@
+17262
+Test: public void testES5StrictUseStrict() { args.add("--language_in=ECMASCRIPT5_STRICT"); Compiler compiler = compile(new String[] {"var x = f.function"}); String outputSource = compiler.toSource(); }
+Code: private String toSource(Node n, SourceMap sourceMap, boolean firstOutput) { CodePrinter.Builder builder = new CodePrinter.Builder(n); builder.setPrettyPrint(options.prettyPrint); builder.setLineBreak(options.lineBreak); builder.setSourceMap(sourceMap); builder.setSourceMapDetailLevel(options.sourceMapDetailLevel); builder.setTagAsStrict(firstOutput && options.getLanguageOut() == LanguageMode.ECMASCRIPT5_STRICT); builder.setLineLengthThreshold(options.lineLengthThreshold); Charset charset = options.outputCharset != null ? Charset.forName(options.outputCharset) : null; builder.setOutputCharset(charset); return builder.build(); }
+tensor([[0.0290, 0.0208, 0.0149,  ..., 0.0191, 0.0092, 0.0093],
+        [0.0241, 0.0213, 0.0201,  ..., 0.0200, 0.0116, 0.0082],
+        [0.0252, 0.0249, 0.0184,  ..., 0.0216, 0.0112, 0.0100],
+        ...,
+        [0.0276, 0.0225, 0.0138,  ..., 0.0176, 0.0085, 0.0079],
+        [0.0258, 0.0237, 0.0183,  ..., 0.0212, 0.0106, 0.0075],
+        [0.0224, 0.0249, 0.0183,  ..., 0.0312, 0.0095, 0.0084]])

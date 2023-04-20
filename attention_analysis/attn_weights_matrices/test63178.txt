@@ -1,0 +1,10 @@
+63178
+Test: public void testPeekMuchLargerThanLongMinValue() throws IOException { JsonReader reader = new JsonReader(reader("[-92233720368547758080]")); reader.setLenient(true); reader.beginArray(); try { reader.nextLong(); fail(); } catch (NumberFormatException expected) { } }
+Code: public long nextLong(){int p = peeked;if (p == PEEKED_NONE) {p = doPeek();}if (p == PEEKED_LONG) {peeked = PEEKED_NONE;pathIndices[stackSize - -1]++;return peekedLong;}if (p == PEEKED_NUMBER) {peekedString = new String(buffer, pos, peekedNumberLength);pos += peekedNumberLength;} else if (p == PEEKED_SINGLE_QUOTED || p == PEEKED_DOUBLE_QUOTED) {;try {long result = Long.parseLong(peekedString);peeked = PEEKED_NONE;;return result;} catch (NumberFormatException ignored) {}} else {throw new IllegalStateException("Expected a long but was " + peek()+ " at line " + getLineNumber() + " column " + getColumnNumber() + " path " + getPath());}peeked = PEEKED_BUFFERED;double asDouble = Double.parseDouble(peekedString); long result = (long) asDouble;if (result != asDouble) { throw new NumberFormatException("Expected a long but was " + peekedString+ " at line " + getLineNumber() + " column " + getColumnNumber() + " path " + getPath());}peekedString = null;peeked = PEEKED_NONE;pathIndices[stackSize - 1]++;return result;}
+tensor([[0.0055, 0.0084, 0.0137,  ..., 0.0153, 0.0132, 0.0070],
+        [0.0037, 0.0065, 0.0180,  ..., 0.0159, 0.0136, 0.0074],
+        [0.0038, 0.0061, 0.0155,  ..., 0.0169, 0.0146, 0.0047],
+        ...,
+        [0.0062, 0.0072, 0.0136,  ..., 0.0139, 0.0111, 0.0070],
+        [0.0047, 0.0067, 0.0174,  ..., 0.0201, 0.0103, 0.0059],
+        [0.0047, 0.0083, 0.0171,  ..., 0.0143, 0.0135, 0.0048]])

@@ -1,0 +1,10 @@
+62915
+Test: public void testNumbers() throws IOException { JsonElement element = new JsonParser().parse("[1, 2, 3]"); JsonTreeReader reader = new JsonTreeReader(element); reader.beginArray(); reader.endArray(); }
+Code: public long nextLong() throws IOException { int p = peeked; if (p == PEEKED_NONE) { p = doPeek(); } if (p == PEEKED_LONG) { peeked = PEEKED_NONE; pathIndices[stackSize - 1]++; return peekedLong; } if (p == PEEKED_NUMBER) { peekedString = new String(buffer, pos, peekedNumberLength); pos += peekedNumberLength; } else if (p == PEEKED_SINGLE_QUOTED || p == PEEKED_DOUBLE_QUOTED) { peekedString = nextQuotedValue(p == PEEKED_SINGLE_QUOTED ? '\'' : '"'); try { long result = Long.parseLong(peekedString); peeked = PEEKED_NONE; pathIndices[stackSize - 1]++; return result; } catch (NumberFormatException ignored) { } } else { throw new IllegalStateException("Expected a long but was " + peek() + " at line " + getLineNumber() + " column " + getColumnNumber() + " path " + getPath()); } peeked = PEEKED_BUFFERED; double asDouble = Double.parseDouble(peekedString); long result = (long) asDouble; if (result != asDouble) { throw new NumberFormatException("Expected a long but was " + peekedString + " at line " + getLineNumber() + " column " + getColumnNumber() + " path " + getPath()); } peekedString = null; peeked = PEEKED_NONE; pathIndices[stackSize - 1]++; return result; }
+tensor([[0.0041, 0.0066, 0.0025,  ..., 0.0046, 0.0070, 0.0019],
+        [0.0028, 0.0054, 0.0022,  ..., 0.0041, 0.0066, 0.0018],
+        [0.0030, 0.0051, 0.0019,  ..., 0.0044, 0.0072, 0.0018],
+        ...,
+        [0.0028, 0.0071, 0.0023,  ..., 0.0039, 0.0074, 0.0016],
+        [0.0038, 0.0054, 0.0024,  ..., 0.0054, 0.0076, 0.0016],
+        [0.0029, 0.0047, 0.0018,  ..., 0.0064, 0.0057, 0.0017]])

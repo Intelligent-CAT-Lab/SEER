@@ -1,0 +1,10 @@
+67465
+Test: public void testCustomEnumKeySerializerWithPolymorphic() throws IOException { SimpleModule simpleModule = new SimpleModule(); simpleModule.addDeserializer(SuperTypeEnum.class, new JsonDeserializer<SuperTypeEnum>() { @Override public SuperTypeEnum deserialize(JsonParser p, DeserializationContext deserializationContext) throws IOException { return SuperTypeEnum.valueOf(p.getText()); } }); ObjectMapper mapper = new ObjectMapper() .registerModule(simpleModule); SuperType superType = mapper.readValue("{\"someMap\": {\"FOO\": \"bar\"}}", SuperType.class); }
+Code: public T deserialize(JsonParser p, DeserializationContext ctxt){String text = p.getValueAsString();if (text != null) { if (text.length() == 0 || (text = text.trim()).length() == 0) {return _deserializeFromEmptyString();}Exception cause = null;try {if (_deserialize(text, ctxt) != null) {return _deserialize(text, ctxt);}} catch (IllegalArgumentException iae) {cause = iae;} catch (MalformedURLException me) {cause = me;}String msg = "not a valid textual representation";if (cause != null) {String m2 = cause.getMessage();if (m2 != null) {;}}JsonMappingException e = ctxt.weirdStringException(text, _valueClass, msg);if (cause != null) {e.initCause(cause);}throw e;}JsonToken t = p.getCurrentToken();if (t == JsonToken.START_ARRAY) {return _deserializeFromArray(p, ctxt);}if (t == JsonToken.VALUE_EMBEDDED_OBJECT) {Object ob = p.getEmbeddedObject();if (ob == null) {return null;}if (_valueClass.isAssignableFrom(ob.getClass())) {return (T) ob;}return _deserializeEmbedded(ob, ctxt);}return (T) ctxt.handleUnexpectedToken(_valueClass, p);}
+tensor([[0.0066, 0.0043, 0.0115,  ..., 0.0070, 0.0097, 0.0111],
+        [0.0061, 0.0035, 0.0149,  ..., 0.0070, 0.0088, 0.0084],
+        [0.0045, 0.0025, 0.0126,  ..., 0.0045, 0.0097, 0.0078],
+        ...,
+        [0.0069, 0.0035, 0.0107,  ..., 0.0066, 0.0094, 0.0104],
+        [0.0064, 0.0034, 0.0138,  ..., 0.0078, 0.0115, 0.0097],
+        [0.0050, 0.0029, 0.0149,  ..., 0.0069, 0.0096, 0.0088]])

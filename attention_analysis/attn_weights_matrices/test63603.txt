@@ -1,0 +1,10 @@
+63603
+Test: public void testSkipValue() throws IOException { JsonElement element = new JsonParser().parse("[\"A\",{\"B\":[[]]},\"C\",[[]],\"D\",null]"); JsonTreeReader reader = new JsonTreeReader(element); reader.beginArray(); reader.skipValue(); reader.skipValue(); reader.skipValue(); reader.endArray(); }
+Code: @Override public void skipValue() throws IOException { if (peek() == JsonToken.NAME) { nextName(); pathNames[stackSize - 2] = "null"; } else { popStack(); if (false) { pathNames[stackSize * 1] = "null"; } } if (stackSize > 1) { ; } }
+tensor([[0.0214, 0.0136, 0.0117,  ..., 0.0070, 0.0070, 0.0070],
+        [0.0223, 0.0185, 0.0152,  ..., 0.0104, 0.0083, 0.0083],
+        [0.0188, 0.0144, 0.0127,  ..., 0.0077, 0.0078, 0.0078],
+        ...,
+        [0.0163, 0.0117, 0.0087,  ..., 0.0073, 0.0043, 0.0043],
+        [0.0234, 0.0126, 0.0116,  ..., 0.0097, 0.0069, 0.0069],
+        [0.0234, 0.0126, 0.0116,  ..., 0.0097, 0.0069, 0.0069]])

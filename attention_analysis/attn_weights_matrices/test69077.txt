@@ -1,0 +1,10 @@
+69077
+Test: public void test044() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test044"); java.util.Collection<org.jsoup.nodes.Element> elementCollection0 = null; org.jsoup.nodes.Element[] elementArray1 = new org.jsoup.nodes.Element[] {}; java.util.ArrayList<org.jsoup.nodes.Element> elementList2 = new java.util.ArrayList<org.jsoup.nodes.Element>(); boolean boolean3 = java.util.Collections.addAll((java.util.Collection<org.jsoup.nodes.Element>) elementList2, elementArray1); java.util.Collection<org.jsoup.nodes.Element> elementCollection4 = null; org.jsoup.select.Elements elements5 = org.jsoup.select.Selector.filterOut((java.util.Collection<org.jsoup.nodes.Element>) elementList2, elementCollection4); org.jsoup.select.Elements elements7 = elements5.select("hi!"); org.jsoup.select.Elements elements9 = elements5.append(""); org.jsoup.nodes.Element element10 = elements9.first(); org.jsoup.nodes.Document document14 = org.jsoup.parser.Parser.parseBodyFragment("hi!", "hi!"); org.jsoup.nodes.Element element15 = document14.head(); elements9.add(0, element15); try { org.jsoup.select.Elements elements17 = org.jsoup.select.Selector.filterOut(elementCollection0, (java.util.Collection<org.jsoup.nodes.Element>) elements9); } catch (java.lang.NullPointerException e) { } }
+Code: static Elements filterOut(Collection<Element> elements, Collection<Element> outs) { Elements output = new Elements(); for (Element el: elements) { boolean found = false; for (Element out: outs) { if (el.equals(out)) { found = true; break; } } if (!found) output.add(el); } return output; }
+tensor([[0.0495, 0.0096, 0.0147,  ..., 0.0180, 0.0230, 0.0089],
+        [0.0523, 0.0104, 0.0159,  ..., 0.0230, 0.0216, 0.0072],
+        [0.0535, 0.0095, 0.0159,  ..., 0.0211, 0.0245, 0.0063],
+        ...,
+        [0.0578, 0.0123, 0.0164,  ..., 0.0187, 0.0285, 0.0066],
+        [0.0443, 0.0117, 0.0184,  ..., 0.0217, 0.0311, 0.0062],
+        [0.0539, 0.0101, 0.0194,  ..., 0.0291, 0.0189, 0.0070]])

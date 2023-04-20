@@ -1,0 +1,10 @@
+62299
+Test: public void testNullSafe() { TypeAdapter<Person> typeAdapter = new TypeAdapter<Person>() { @Override public Person read(JsonReader in) throws IOException { String[] values = in.nextString().split(","); return new Person(values[0], Integer.parseInt(values[1])); } public void write(JsonWriter out, Person person) throws IOException { out.value(person.name + "," + person.age); } }; Gson gson = new GsonBuilder().registerTypeAdapter( Person.class, typeAdapter).create(); Truck truck = new Truck(); truck.horsePower = 1.0D; truck.passengers = new ArrayList<Person>(); truck.passengers.add(null); truck.passengers.add(new Person("jesse", 30)); try { gson.toJson(truck, Truck.class); fail(); } catch (NullPointerException expected) {} String json = "{horsePower:1.0,passengers:[null,'jesse,30']}"; try { gson.fromJson(json, Truck.class); fail(); } catch (JsonSyntaxException expected) {} gson = new GsonBuilder().registerTypeAdapter(Person.class, typeAdapter.nullSafe()).create(); truck = gson.fromJson(json, Truck.class); }
+Code: public <T2> TypeAdapter<T2> create(Gson gson, TypeToken<T2> typeToken) { final Class<? super T2> requestedType = typeToken.getRawType(); if (!clazz.isAssignableFrom(requestedType)) { return null; } return (TypeAdapter<T2>) new TypeAdapter<T1>() { @Override public void write(JsonWriter out, T1 value) throws IOException { typeAdapter.write(out, value); } @Override public T1 read(JsonReader in) throws IOException { T1 result = typeAdapter.read(in); if (result != null && !requestedType.isInstance(result)) { throw new JsonSyntaxException("Expected a " + requestedType.getName() + " but was " + result.getClass().getName()); } return result; } }; }
+tensor([[0.0102, 0.0084, 0.0149,  ..., 0.0047, 0.0109, 0.0047],
+        [0.0097, 0.0096, 0.0149,  ..., 0.0048, 0.0104, 0.0048],
+        [0.0093, 0.0084, 0.0187,  ..., 0.0039, 0.0099, 0.0039],
+        ...,
+        [0.0070, 0.0063, 0.0117,  ..., 0.0039, 0.0098, 0.0039],
+        [0.0091, 0.0093, 0.0123,  ..., 0.0039, 0.0096, 0.0039],
+        [0.0070, 0.0063, 0.0117,  ..., 0.0039, 0.0098, 0.0039]])

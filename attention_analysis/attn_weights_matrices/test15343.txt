@@ -1,0 +1,10 @@
+15343
+Test: public void test087() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test087"); org.apache.commons.cli.PosixParser posixParser0 = new org.apache.commons.cli.PosixParser(); org.apache.commons.cli.PosixParser posixParser1 = new org.apache.commons.cli.PosixParser(); org.apache.commons.cli.Options options2 = new org.apache.commons.cli.Options(); java.lang.String[] strArray7 = new java.lang.String[] { "hi!", "[ option: +ARG :: ]", "hi!", "hi!" }; java.util.Properties properties8 = null; org.apache.commons.cli.CommandLine commandLine9 = posixParser1.parse(options2, strArray7, properties8); java.lang.String[] strArray11 = new java.lang.String[] { "" }; java.util.Properties properties12 = null; org.apache.commons.cli.CommandLine commandLine14 = posixParser0.parse(options2, strArray11, properties12, true); java.lang.Object obj16 = commandLine14.getOptionObject(' '); java.lang.String[] strArray17 = commandLine14.getArgs(); org.apache.commons.cli.Option option19 = org.apache.commons.cli.OptionBuilder.create(""); option19.setLongOpt("hi!"); option19.setOptionalArg(true); commandLine14.addOption(option19); option19.setDescription("arg"); java.lang.String str27 = option19.getArgName(); }
+Code: public Object getOptionObject(String opt) { String res = getOptionValue(opt); Option option = resolveOption(opt); if (option == null) { return null; } Object type = option.getType(); return (res == null) ? null : TypeHandler.createValue(res, type); }
+tensor([[0.0216, 0.0167, 0.0383,  ..., 0.0083, 0.0143, 0.0096],
+        [0.0206, 0.0144, 0.0300,  ..., 0.0072, 0.0127, 0.0080],
+        [0.0140, 0.0161, 0.0387,  ..., 0.0051, 0.0158, 0.0062],
+        ...,
+        [0.0187, 0.0148, 0.0326,  ..., 0.0068, 0.0151, 0.0085],
+        [0.0209, 0.0133, 0.0317,  ..., 0.0084, 0.0140, 0.0093],
+        [0.0164, 0.0162, 0.0353,  ..., 0.0078, 0.0114, 0.0084]])

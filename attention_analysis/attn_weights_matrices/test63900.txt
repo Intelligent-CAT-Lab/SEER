@@ -1,0 +1,10 @@
+63900
+Test: public void testTooBigBigDecimal() throws Exception { JsonFactory f = new JsonFactory(); f.enable(JsonGenerator.Feature.WRITE_BIGDECIMAL_AS_PLAIN); BigDecimal BIG = new BigDecimal("1E+9999"); BigDecimal TOO_BIG = new BigDecimal("1E+10000"); BigDecimal SMALL = new BigDecimal("1E-9999"); BigDecimal TOO_SMALL = new BigDecimal("1E-10000"); for (boolean useBytes : new boolean[] { false, true } ) { for (boolean asString : new boolean[] { false, true } ) { JsonGenerator g; if (useBytes) { g = f.createGenerator(new ByteArrayOutputStream()); } else { g = f.createGenerator(new StringWriter()); } if (asString) { g.enable(JsonGenerator.Feature.WRITE_NUMBERS_AS_STRINGS); } g.writeStartArray(); g.writeNumber(BIG); g.writeNumber(SMALL); g.writeEndArray(); g.close(); for (BigDecimal input : new BigDecimal[] { TOO_BIG, TOO_SMALL }) { if (useBytes) { g = f.createGenerator(new ByteArrayOutputStream()); } else { g = f.createGenerator(new StringWriter()); } if (asString) { g.enable(JsonGenerator.Feature.WRITE_NUMBERS_AS_STRINGS); } try { g.writeNumber(input); fail("Should not have written without exception: "+input); } catch (JsonGenerationException e) { verifyException(e, "Attempt to write plain `java.math.BigDecimal`"); verifyException(e, "illegal scale"); } g.close(); } } } }
+Code: public void writeNumber(BigDecimal value) throws IOException { _verifyValueWrite(WRITE_NUMBER); if (value == null) { _writeNull(); } else if (_cfgNumbersAsStrings) { String raw = isEnabled(Feature.WRITE_BIGDECIMAL_AS_PLAIN) ? value.toPlainString() : value.toString(); _writeQuotedRaw(raw); } else if (isEnabled(Feature.WRITE_BIGDECIMAL_AS_PLAIN)) { writeRaw(value.toPlainString()); } else { writeRaw(_asString(value)); } }
+tensor([[0.0184, 0.0151, 0.0101,  ..., 0.0103, 0.0082, 0.0082],
+        [0.0148, 0.0130, 0.0082,  ..., 0.0091, 0.0080, 0.0080],
+        [0.0116, 0.0124, 0.0091,  ..., 0.0091, 0.0071, 0.0071],
+        ...,
+        [0.0138, 0.0132, 0.0088,  ..., 0.0093, 0.0076, 0.0076],
+        [0.0129, 0.0118, 0.0083,  ..., 0.0089, 0.0069, 0.0069],
+        [0.0129, 0.0118, 0.0083,  ..., 0.0089, 0.0069, 0.0069]])

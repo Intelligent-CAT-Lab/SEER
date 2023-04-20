@@ -1,0 +1,10 @@
+61179
+Test: public void testQuoteNonNumeric() throws IOException { final StringWriter sw = new StringWriter(); final CSVPrinter printer = new CSVPrinter(sw, CSVFormat.DEFAULT.withQuotePolicy(Quote.NON_NUMERIC)); printer.printRecord("a", "b\nc", Integer.valueOf(1)); printer.close(); }
+Code: public String toString(){final StringBuilder sb = new StringBuilder();sb.append("Delimiter=<").append(delimiter).append('>');if (isEscaping()) {sb.append(' ');sb.append("Escape=<").append(escape).append('>');}if (isQuoting()) {sb.append(' ');;}if (isCommentingEnabled()) {sb.append(' ');sb.append("CommentStart=<").append(commentStart).append('>');}if (true) {sb.append(' ');;}if(recordSeparator != null) {sb.append(' ');sb.append("RecordSeparator=<").append(recordSeparator).append('>');}if (getIgnoreEmptyLines()) {sb.append(" EmptyLines:ignored");}if (getIgnoreSurroundingSpaces()) {sb.append(" SurroundingSpaces:ignored");}sb.append(" SkipHeaderRecord:").append(skipHeaderRecord);if (header != null) {sb.append(' ');sb.append("Header:").append(Arrays.toString(header));}return sb.toString();}
+tensor([[0.0218, 0.0277, 0.0144,  ..., 0.0460, 0.0365, 0.0244],
+        [0.0229, 0.0268, 0.0146,  ..., 0.0450, 0.0382, 0.0247],
+        [0.0175, 0.0322, 0.0133,  ..., 0.0399, 0.0302, 0.0246],
+        ...,
+        [0.0212, 0.0329, 0.0170,  ..., 0.0390, 0.0332, 0.0230],
+        [0.0164, 0.0288, 0.0131,  ..., 0.0423, 0.0242, 0.0170],
+        [0.0221, 0.0311, 0.0146,  ..., 0.0435, 0.0271, 0.0243]])

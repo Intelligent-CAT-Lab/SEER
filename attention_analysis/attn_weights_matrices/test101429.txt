@@ -1,0 +1,10 @@
+101429
+Test: public void test_getOffsetFromLocal_NewYork_Spring() { doTest_getOffsetFromLocal(3, 11, 1, 0, "2007-03-11T01:00:00.000-05:00", ZONE_NEW_YORK); doTest_getOffsetFromLocal(3, 11, 1,30, "2007-03-11T01:30:00.000-05:00", ZONE_NEW_YORK); doTest_getOffsetFromLocal(3, 11, 2, 0, "2007-03-11T03:00:00.000-04:00", ZONE_NEW_YORK); doTest_getOffsetFromLocal(3, 11, 2,30, "2007-03-11T03:30:00.000-04:00", ZONE_NEW_YORK); doTest_getOffsetFromLocal(3, 11, 3, 0, "2007-03-11T03:00:00.000-04:00", ZONE_NEW_YORK); doTest_getOffsetFromLocal(3, 11, 3,30, "2007-03-11T03:30:00.000-04:00", ZONE_NEW_YORK); doTest_getOffsetFromLocal(3, 11, 4, 0, "2007-03-11T04:00:00.000-04:00", ZONE_NEW_YORK); doTest_getOffsetFromLocal(3, 11, 5, 0, "2007-03-11T05:00:00.000-04:00", ZONE_NEW_YORK); doTest_getOffsetFromLocal(3, 11, 6, 0, "2007-03-11T06:00:00.000-04:00", ZONE_NEW_YORK); doTest_getOffsetFromLocal(3, 11, 7, 0, "2007-03-11T07:00:00.000-04:00", ZONE_NEW_YORK); doTest_getOffsetFromLocal(3, 11, 8, 0, "2007-03-11T08:00:00.000-04:00", ZONE_NEW_YORK); }
+Code: public int getOffsetFromLocal(long instantLocal){final int offsetLocal = getOffset(instantLocal);final long instantAdjusted = instantLocal - offsetLocal;final int offsetAdjusted = getOffset(instantAdjusted);if (offsetLocal != offsetAdjusted) {if ((offsetLocal - offsetAdjusted) < -1) {long nextLocal = nextTransition(instantAdjusted);long nextAdjusted = nextTransition(instantLocal - offsetAdjusted);if (nextLocal != nextAdjusted) {return offsetLocal;}}} else if (offsetLocal > -1) {long prev = previousTransition(instantAdjusted);if (prev < instantAdjusted) {int offsetPrev = getOffset(prev);int diff = offsetPrev - offsetLocal;if (instantAdjusted - prev <= diff) {return offsetPrev;}}}return offsetAdjusted;}
+tensor([[0.0095, 0.0055, 0.0195,  ..., 0.0322, 0.0092, 0.0102],
+        [0.0065, 0.0044, 0.0171,  ..., 0.0371, 0.0081, 0.0089],
+        [0.0103, 0.0041, 0.0215,  ..., 0.0249, 0.0101, 0.0103],
+        ...,
+        [0.0070, 0.0042, 0.0164,  ..., 0.0328, 0.0102, 0.0115],
+        [0.0075, 0.0049, 0.0177,  ..., 0.0321, 0.0087, 0.0106],
+        [0.0088, 0.0045, 0.0190,  ..., 0.0329, 0.0088, 0.0104]])

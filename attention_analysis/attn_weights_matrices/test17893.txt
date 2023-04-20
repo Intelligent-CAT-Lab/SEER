@@ -1,0 +1,10 @@
+17893
+Test: public void testUnnormalizeNodeTypes() throws Exception { otherPass = new CompilerPass() { @Override public void process(Node externs, Node root) { getLastCompiler().reportCodeChange(); root.addChildToBack(new Node(Token.EXPR_VOID, Node.newNumber(0))); } }; boolean exceptionCaught = false; try { test("var x = 3;", "var x=3;0;0"); } catch (IllegalStateException e) { exceptionCaught = true; } }
+Code: public void process(Node externs, Node root) { NodeTraversal.traverse(compiler, root, this); if (MAKE_LOCAL_NAMES_UNIQUE) { MakeDeclaredNamesUnique renamer = new MakeDeclaredNamesUnique(); NodeTraversal t = new NodeTraversal(compiler, renamer); t.traverseRoots(externs, root); } removeDuplicateDeclarations(root); new PropogateConstantAnnotations(compiler, assertOnChange) .process(externs, root); }
+tensor([[0.0268, 0.0217, 0.0226,  ..., 0.0399, 0.0146, 0.0115],
+        [0.0220, 0.0188, 0.0193,  ..., 0.0449, 0.0120, 0.0112],
+        [0.0210, 0.0197, 0.0209,  ..., 0.0489, 0.0138, 0.0074],
+        ...,
+        [0.0209, 0.0161, 0.0235,  ..., 0.0413, 0.0109, 0.0067],
+        [0.0185, 0.0163, 0.0188,  ..., 0.0453, 0.0135, 0.0077],
+        [0.0188, 0.0171, 0.0261,  ..., 0.0371, 0.0133, 0.0099]])

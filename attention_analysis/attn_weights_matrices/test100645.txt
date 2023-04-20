@@ -1,0 +1,10 @@
+100645
+Test: public void testPropertyRoundCeilingHourOfDay() { MutableDateTime test = new MutableDateTime(2004, 6, 9, 13, 30, 0, 0); test.hourOfDay().roundCeiling(); }
+Code: public long roundCeiling(long instant) { if (iTimeField) { int offset = getOffsetToAdd(instant); instant = iField.roundCeiling(instant + offset); return instant - offset; } else { long localInstant = iZone.convertUTCToLocal(instant); localInstant = iField.roundCeiling(localInstant); return iZone.convertLocalToUTC(localInstant, false); } }
+tensor([[0.0214, 0.0345, 0.0321,  ..., 0.0416, 0.0098, 0.0098],
+        [0.0146, 0.0287, 0.0258,  ..., 0.0401, 0.0090, 0.0090],
+        [0.0183, 0.0323, 0.0262,  ..., 0.0424, 0.0083, 0.0083],
+        ...,
+        [0.0192, 0.0291, 0.0243,  ..., 0.0454, 0.0092, 0.0092],
+        [0.0155, 0.0251, 0.0383,  ..., 0.0377, 0.0087, 0.0087],
+        [0.0155, 0.0251, 0.0383,  ..., 0.0377, 0.0087, 0.0087]])

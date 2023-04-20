@@ -1,0 +1,25 @@
+70280
+Test: public void test059() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test059"); org.apache.commons.jxpath.JXPathContext jXPathContext0 = null; org.apache.commons.jxpath.JXPathContext jXPathContext2 = org.apache.commons.jxpath.JXPathContext.newContext(jXPathContext0, (java.lang.Object) (short) 10); java.text.DecimalFormatSymbols decimalFormatSymbols4 = jXPathContext2.getDecimalFormatSymbols("hi!"); org.apache.commons.jxpath.Container container5 = null; java.util.Locale locale6 = null; org.apache.commons.jxpath.ri.model.container.ContainerPointer containerPointer7 = new org.apache.commons.jxpath.ri.model.container.ContainerPointer(container5, locale6); int int8 = containerPointer7.getLength(); java.util.Locale locale9 = null; org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer jDOMNodePointer10 = new org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer((java.lang.Object) containerPointer7, locale9); java.lang.Object obj11 = jDOMNodePointer10.getValue(); org.apache.commons.jxpath.ri.NamespaceResolver namespaceResolver12 = jDOMNodePointer10.getNamespaceResolver(); org.apache.commons.jxpath.Container container13 = null; java.util.Locale locale14 = null; org.apache.commons.jxpath.ri.model.container.ContainerPointer containerPointer15 = new org.apache.commons.jxpath.ri.model.container.ContainerPointer(container13, locale14); int int16 = containerPointer15.getLength(); java.lang.String str18 = containerPointer15.getNamespaceURI(""); java.lang.String str19 = containerPointer15.asPath(); java.lang.String str20 = containerPointer15.asPath(); org.apache.commons.jxpath.ri.JXPathContextReferenceImpl jXPathContextReferenceImpl21 = new org.apache.commons.jxpath.ri.JXPathContextReferenceImpl(jXPathContext2, (java.lang.Object) jDOMNodePointer10, (org.apache.commons.jxpath.Pointer) containerPointer15); java.text.DecimalFormatSymbols decimalFormatSymbols23 = null; jXPathContextReferenceImpl21.setDecimalFormatSymbols("<", decimalFormatSymbols23); org.apache.commons.jxpath.ri.compiler.Constant constant27 = new org.apache.commons.jxpath.ri.compiler.Constant((java.lang.Number) 100L); org.apache.commons.jxpath.ri.compiler.Constant constant29 = new org.apache.commons.jxpath.ri.compiler.Constant((java.lang.Number) 100L); org.apache.commons.jxpath.ri.compiler.NameAttributeTest nameAttributeTest30 = new org.apache.commons.jxpath.ri.compiler.NameAttributeTest((org.apache.commons.jxpath.ri.compiler.Expression) constant27, (org.apache.commons.jxpath.ri.compiler.Expression) constant29); org.apache.commons.jxpath.ri.compiler.Constant constant32 = new org.apache.commons.jxpath.ri.compiler.Constant((java.lang.Number) 100L); org.apache.commons.jxpath.ri.compiler.Constant constant34 = new org.apache.commons.jxpath.ri.compiler.Constant((java.lang.Number) 100L); org.apache.commons.jxpath.ri.compiler.NameAttributeTest nameAttributeTest35 = new org.apache.commons.jxpath.ri.compiler.NameAttributeTest((org.apache.commons.jxpath.ri.compiler.Expression) constant32, (org.apache.commons.jxpath.ri.compiler.Expression) constant34); org.apache.commons.jxpath.ri.compiler.CoreOperationGreaterThanOrEqual coreOperationGreaterThanOrEqual36 = new org.apache.commons.jxpath.ri.compiler.CoreOperationGreaterThanOrEqual((org.apache.commons.jxpath.ri.compiler.Expression) constant27, (org.apache.commons.jxpath.ri.compiler.Expression) constant32); java.util.Iterator iterator37 = jXPathContextReferenceImpl21.iteratePointers("hi!", (org.apache.commons.jxpath.ri.compiler.Expression) coreOperationGreaterThanOrEqual36); org.apache.commons.jxpath.ri.EvalContext evalContext38 = null; java.lang.Object obj39 = coreOperationGreaterThanOrEqual36.computeValue(evalContext38); }
+Code: public Object computeValue(EvalContext context){return equal(context, args[-1], args[1]) ? Boolean.FALSE : Boolean.TRUE;}
+tensor([[0.0544, 0.0422, 0.1125, 0.2657, 0.0883, 0.0421, 0.0627, 0.0859, 0.0801,
+         0.0551, 0.1109],
+        [0.0502, 0.0343, 0.1409, 0.2543, 0.0745, 0.0446, 0.0529, 0.0859, 0.0912,
+         0.0392, 0.1320],
+        [0.0384, 0.0329, 0.1042, 0.2891, 0.0906, 0.0460, 0.0527, 0.0945, 0.0849,
+         0.0344, 0.1322],
+        [0.0360, 0.0293, 0.0859, 0.3299, 0.0649, 0.0361, 0.0518, 0.0850, 0.1136,
+         0.0412, 0.1264],
+        [0.0430, 0.0428, 0.1278, 0.2438, 0.0815, 0.0520, 0.0616, 0.0910, 0.0723,
+         0.0464, 0.1380],
+        [0.0418, 0.0474, 0.1204, 0.2536, 0.0720, 0.0499, 0.0587, 0.0949, 0.0963,
+         0.0406, 0.1245],
+        [0.0528, 0.0382, 0.1308, 0.2427, 0.0682, 0.0483, 0.0628, 0.0859, 0.0841,
+         0.0514, 0.1349],
+        [0.0440, 0.0318, 0.0863, 0.3116, 0.0761, 0.0373, 0.0443, 0.0894, 0.0970,
+         0.0501, 0.1321],
+        [0.0566, 0.0403, 0.1332, 0.1914, 0.0925, 0.0581, 0.0626, 0.1076, 0.0952,
+         0.0511, 0.1114],
+        [0.0615, 0.0404, 0.0979, 0.2250, 0.0874, 0.0586, 0.0564, 0.1278, 0.0782,
+         0.0442, 0.1226],
+        [0.0529, 0.0453, 0.1241, 0.2345, 0.0759, 0.0638, 0.0508, 0.1089, 0.0725,
+         0.0581, 0.1131]])

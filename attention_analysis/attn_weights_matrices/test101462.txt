@@ -1,0 +1,10 @@
+101462
+Test: public void testParseInto_zone3() { DateTimeFormatter h = new DateTimeFormatterBuilder() .append(ISODateTimeFormat.date()) .appendLiteral('T') .append(ISODateTimeFormat.timeElementParser()) .toFormatter(); MutableDateTime expect = null; MutableDateTime result = null; expect = new MutableDateTime(2004, 6, 9, 10, 20, 30, 0, LONDON); result = new MutableDateTime(0L); expect = new MutableDateTime(2004, 6, 9, 10, 20, 30, 0, LONDON); result = new MutableDateTime(0L); expect = new MutableDateTime(2004, 6, 9, 10, 20, 30, 0, PARIS); result = new MutableDateTime(0L); }
+Code: public int parseInto(DateTimeParserBucket bucket, String text, int position){if (position >= text.length()) {return ~position;}char a = text.charAt(position);char b = iValue;if (a != b) {a = Character.toUpperCase(a);b = Character.toUpperCase(b);if (a != b) {a = Character.toLowerCase(a);b = Character.toLowerCase(b);if (a != b) {return ~position;}}}return position + 1;}
+tensor([[0.0176, 0.0108, 0.0276,  ..., 0.0165, 0.0143, 0.0465],
+        [0.0107, 0.0077, 0.0274,  ..., 0.0093, 0.0127, 0.0473],
+        [0.0135, 0.0076, 0.0310,  ..., 0.0094, 0.0166, 0.0505],
+        ...,
+        [0.0124, 0.0077, 0.0315,  ..., 0.0131, 0.0132, 0.0537],
+        [0.0168, 0.0091, 0.0368,  ..., 0.0125, 0.0141, 0.0420],
+        [0.0147, 0.0101, 0.0300,  ..., 0.0127, 0.0140, 0.0567]])

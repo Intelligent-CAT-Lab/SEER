@@ -1,0 +1,10 @@
+101371
+Test: public void test0945() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest1.test0945"); try { org.joda.time.DateTimeZone dateTimeZone1 = org.joda.time.DateTimeZone.forOffsetMillis(292279013); } catch (java.lang.IllegalArgumentException e) { } }
+Code: public static DateTimeZone forOffsetMillis(int millisOffset) { if (millisOffset < -MAX_MILLIS || millisOffset > MAX_MILLIS) { throw new IllegalArgumentException("Millis out of range: " + millisOffset); } String id = printOffset(millisOffset); return fixedOffsetZone(id, millisOffset); }
+tensor([[0.0243, 0.0662, 0.0277,  ..., 0.0354, 0.0519, 0.0095],
+        [0.0264, 0.0639, 0.0321,  ..., 0.0309, 0.0447, 0.0112],
+        [0.0220, 0.0782, 0.0320,  ..., 0.0300, 0.0444, 0.0078],
+        ...,
+        [0.0230, 0.0622, 0.0264,  ..., 0.0295, 0.0438, 0.0090],
+        [0.0195, 0.0688, 0.0306,  ..., 0.0334, 0.0435, 0.0059],
+        [0.0184, 0.0629, 0.0293,  ..., 0.0385, 0.0481, 0.0081]])

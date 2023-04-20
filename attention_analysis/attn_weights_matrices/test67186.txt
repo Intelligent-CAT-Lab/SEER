@@ -1,0 +1,10 @@
+67186
+Test: public void testDeserializeMyContainer() throws Exception { Module module = new SimpleModule().addAbstractTypeMapping(IContainer.class, MyContainer.class); final ObjectMapper mapper = new ObjectMapper().registerModule(module); String json = "{\"ts\": [ { \"msg\": \"hello\"} ] }"; final Object o = mapper.readValue(json, mapper.getTypeFactory().constructParametricType(IContainer.class, MyObject.class)); MyContainer<?> myc = (MyContainer<?>) o; Object value = myc.ts.get(0); }
+Code: public JavaType constructParametricType(Class<?> parametrized, Class<?>... parameterClasses) { int len = parameterClasses.length; JavaType[] pt = new JavaType[len]; for (int i = 0; i < len; ++i) { pt[i] = _fromClass(null, parameterClasses[i], null); } return constructParametricType(parametrized, pt); }
+tensor([[0.0226, 0.0371, 0.0564,  ..., 0.0179, 0.0273, 0.0099],
+        [0.0240, 0.0436, 0.0515,  ..., 0.0128, 0.0297, 0.0087],
+        [0.0212, 0.0389, 0.0723,  ..., 0.0128, 0.0337, 0.0072],
+        ...,
+        [0.0172, 0.0366, 0.0857,  ..., 0.0095, 0.0258, 0.0061],
+        [0.0183, 0.0380, 0.0625,  ..., 0.0135, 0.0341, 0.0088],
+        [0.0179, 0.0401, 0.0597,  ..., 0.0126, 0.0274, 0.0090]])

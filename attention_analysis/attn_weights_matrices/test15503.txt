@@ -1,0 +1,10 @@
+15503
+Test: public void test0900() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest1.test0900"); org.apache.commons.cli.Option option4 = new org.apache.commons.cli.Option("", "hi!", false, "hi!"); option4.setRequired(false); option4.setOptionalArg(true); boolean boolean9 = option4.hasLongOpt(); char char10 = option4.getValueSeparator(); option4.setOptionalArg(false); boolean boolean14 = option4.equals((java.lang.Object) 100); org.apache.commons.cli.Option option16 = org.apache.commons.cli.OptionBuilder.create('\000'); org.apache.commons.cli.OptionBuilder optionBuilder17 = org.apache.commons.cli.OptionBuilder.withType((java.lang.Object) option16); boolean boolean18 = option4.equals((java.lang.Object) option16); boolean boolean19 = option16.hasOptionalArg(); char char20 = option16.getValueSeparator(); java.lang.Object obj21 = option16.getType(); boolean boolean22 = option16.hasArg(); java.lang.String str23 = option16.getArgName(); java.lang.String str24 = option16.getKey(); java.lang.Class<?> wildcardClass25 = option16.getClass(); }
+Code: public static Option create(String opt) throws IllegalArgumentException { Option option = null; try { option = new Option(opt, description); option.setLongOpt(longopt); option.setRequired(required); option.setOptionalArg(optionalArg); option.setArgs(numberOfArgs); option.setType(type); option.setValueSeparator(valuesep); option.setArgName(argName); } finally { OptionBuilder.reset(); } return option; }
+tensor([[0.0173, 0.0538, 0.0483,  ..., 0.0192, 0.0336, 0.0076],
+        [0.0186, 0.0490, 0.0420,  ..., 0.0176, 0.0368, 0.0088],
+        [0.0150, 0.0578, 0.0388,  ..., 0.0218, 0.0288, 0.0064],
+        ...,
+        [0.0114, 0.0535, 0.0516,  ..., 0.0164, 0.0313, 0.0062],
+        [0.0175, 0.0506, 0.0489,  ..., 0.0204, 0.0313, 0.0058],
+        [0.0126, 0.0506, 0.0360,  ..., 0.0269, 0.0303, 0.0066]])

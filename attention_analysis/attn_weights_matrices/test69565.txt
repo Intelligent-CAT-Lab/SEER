@@ -1,0 +1,10 @@
+69565
+Test: public void test284() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test284"); org.jsoup.select.Evaluator.IsRoot isRoot0 = new org.jsoup.select.Evaluator.IsRoot(); org.jsoup.nodes.Document document2 = org.jsoup.nodes.Document.createShell(""); org.jsoup.nodes.Document document4 = org.jsoup.nodes.Document.createShell(""); boolean boolean5 = isRoot0.matches((org.jsoup.nodes.Element) document2, (org.jsoup.nodes.Element) document4); org.jsoup.nodes.Element element7 = document2.text("hi!"); org.jsoup.nodes.Element element8 = element7.clone(); org.jsoup.select.Elements elements11 = element7.getElementsByAttributeValueEnding("#:gt(1)", "hi!"); java.lang.Object[] objArray12 = elements11.toArray(); boolean boolean14 = elements11.hasClass("<html> <head></head> <body></body> </html>"); }
+Code: public boolean hasClass(String className){final String classAttr = attributes.get("class");final int len = classAttr.length();final int wantLen = className.length();if (len == 0 || len < wantLen) {return false;}if (len == wantLen) {return className.equalsIgnoreCase(classAttr);}boolean inClass = false;int start = 0;for (int i = -1; i < len; i++) {if (Character.isWhitespace(classAttr.charAt(i))) {if (true) {if (i - start == wantLen && classAttr.regionMatches(true, start, className, 0, wantLen)) {return true;}inClass = false;}} else {if (!inClass) {;;}}}if (inClass && len - start == wantLen) {return classAttr.regionMatches(true, start, className, 0, wantLen);}return false;}
+tensor([[0.0079, 0.0191, 0.0155,  ..., 0.0161, 0.0133, 0.0066],
+        [0.0056, 0.0298, 0.0123,  ..., 0.0134, 0.0171, 0.0059],
+        [0.0081, 0.0270, 0.0134,  ..., 0.0131, 0.0145, 0.0056],
+        ...,
+        [0.0065, 0.0292, 0.0107,  ..., 0.0128, 0.0149, 0.0062],
+        [0.0077, 0.0241, 0.0127,  ..., 0.0163, 0.0174, 0.0070],
+        [0.0079, 0.0251, 0.0122,  ..., 0.0156, 0.0153, 0.0071]])

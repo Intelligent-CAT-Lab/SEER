@@ -1,0 +1,11 @@
+60751
+Test: public void testRemoveAndAddColumns() throws IOException { try (final CSVPrinter printer = new CSVPrinter(new StringBuilder(), CSVFormat.DEFAULT)) { final Map<String, String> map = recordWithHeader.toMap(); map.remove("OldColumn"); map.put("ZColumn", "NewValue"); final ArrayList<String> list = new ArrayList<>(map.values()); Collections.sort(list); printer.printRecord(list); } }
+Code: public void remove() { throw new UnsupportedOperationException(); }
+tensor([[0.1428, 0.1141, 0.1611, 0.1791, 0.1448, 0.0728, 0.1268, 0.0584],
+        [0.1436, 0.1106, 0.1969, 0.1825, 0.1563, 0.0629, 0.0889, 0.0583],
+        [0.1207, 0.0744, 0.2247, 0.2477, 0.1430, 0.0645, 0.0895, 0.0355],
+        [0.1319, 0.1129, 0.2009, 0.1866, 0.1194, 0.0773, 0.1012, 0.0699],
+        [0.1204, 0.0922, 0.1955, 0.2431, 0.1403, 0.0676, 0.0955, 0.0454],
+        [0.1250, 0.1045, 0.1948, 0.1894, 0.1475, 0.0855, 0.0955, 0.0576],
+        [0.1330, 0.0891, 0.2018, 0.1872, 0.1530, 0.0776, 0.1127, 0.0456],
+        [0.1180, 0.1021, 0.1837, 0.2295, 0.1454, 0.0657, 0.1025, 0.0529]])

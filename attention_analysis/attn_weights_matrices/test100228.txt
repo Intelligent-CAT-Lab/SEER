@@ -1,0 +1,10 @@
+100228
+Test: public void testFactory_FromDateFields_after1970() throws Exception { GregorianCalendar cal = new GregorianCalendar(1970, 1, 3, 4, 5, 6); cal.set(Calendar.MILLISECOND, 7); LocalTime expected = new LocalTime(4, 5, 6, 7); }
+Code: public static LocalDateTime fromDateFields(Date date) { if (date == null) { throw new IllegalArgumentException("The date must not be null"); } if (date.getTime() < 0) { GregorianCalendar cal = new GregorianCalendar(); cal.setTime(date); return fromCalendarFields(cal); } return new LocalDateTime( date.getYear() + 1900, date.getMonth() + 1, date.getDate(), date.getHours(), date.getMinutes(), date.getSeconds(), (((int) (date.getTime() % 1000)) + 1000) % 1000 ); }
+tensor([[0.0109, 0.0387, 0.0191,  ..., 0.0106, 0.0122, 0.0054],
+        [0.0114, 0.0344, 0.0195,  ..., 0.0132, 0.0082, 0.0064],
+        [0.0079, 0.0364, 0.0197,  ..., 0.0087, 0.0088, 0.0052],
+        ...,
+        [0.0080, 0.0371, 0.0229,  ..., 0.0085, 0.0093, 0.0037],
+        [0.0076, 0.0339, 0.0246,  ..., 0.0110, 0.0101, 0.0037],
+        [0.0080, 0.0366, 0.0245,  ..., 0.0133, 0.0098, 0.0048]])

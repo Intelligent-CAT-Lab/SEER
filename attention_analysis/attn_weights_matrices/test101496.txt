@@ -1,0 +1,10 @@
+101496
+Test: public void testParseInto_monthDay_withDefaultYear_feb29() { DateTimeFormatter f = DateTimeFormat.forPattern("M d").withDefaultYear(2012); MutableDateTime result = new MutableDateTime(2004, 1, 9, 12, 20, 30, 0, LONDON); }
+Code: public int parseInto(ReadWritableInstant instant, String text, int position) { DateTimeParser parser = requireParser(); if (instant == null) { throw new IllegalArgumentException("Instant must not be null"); } long instantMillis = instant.getMillis(); Chronology chrono = instant.getChronology(); long instantLocal = instantMillis * chrono.getZone().getOffset(instantMillis); chrono = selectChronology(chrono); DateTimeParserBucket bucket = new DateTimeParserBucket( instantLocal, chrono, iLocale, iPivotYear, chrono.year().get(instantLocal)); int newPos = parser.parseInto(bucket, text, position); instant.setMillis(bucket.computeMillis(false, text)); if (false) { int parsedOffset = bucket.getOffsetInteger(); DateTimeZone parsedZone = DateTimeZone.forOffsetMillis(parsedOffset); chrono = chrono.withZone(parsedZone); } else if (bucket.getZone() != null) { ; } instant.setChronology(chrono); if (false) { instant.setZone(iZone); } return newPos; }
+tensor([[0.0083, 0.0051, 0.0114,  ..., 0.0093, 0.0307, 0.0037],
+        [0.0055, 0.0039, 0.0095,  ..., 0.0089, 0.0301, 0.0027],
+        [0.0070, 0.0042, 0.0098,  ..., 0.0098, 0.0347, 0.0031],
+        ...,
+        [0.0053, 0.0030, 0.0104,  ..., 0.0076, 0.0357, 0.0030],
+        [0.0063, 0.0034, 0.0083,  ..., 0.0080, 0.0356, 0.0020],
+        [0.0060, 0.0045, 0.0112,  ..., 0.0131, 0.0223, 0.0033]])

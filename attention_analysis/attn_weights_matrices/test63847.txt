@@ -1,0 +1,10 @@
+63847
+Test: public void testEmpty() { TextBuffer tb = new TextBuffer(new BufferRecycler()); tb.resetWithEmpty(); tb.contentsAsString(); }
+Code: public char[] getTextBuffer() { if (_inputStart >= 0) return _inputBuffer; if (_resultArray != null) return _resultArray; if (_resultString != null) { return (_resultArray = _resultString.toCharArray()); } if (!_hasSegments) return _currentSegment; return contentsAsArray(); }
+tensor([[0.0236, 0.0077, 0.0746,  ..., 0.0262, 0.0379, 0.0104],
+        [0.0176, 0.0066, 0.0817,  ..., 0.0281, 0.0274, 0.0067],
+        [0.0232, 0.0070, 0.0641,  ..., 0.0274, 0.0302, 0.0128],
+        ...,
+        [0.0169, 0.0087, 0.0695,  ..., 0.0243, 0.0336, 0.0093],
+        [0.0205, 0.0085, 0.0789,  ..., 0.0273, 0.0286, 0.0100],
+        [0.0165, 0.0071, 0.0740,  ..., 0.0356, 0.0313, 0.0088]])

@@ -1,0 +1,10 @@
+100761
+Test: public void test_addWrapField_long_int() { BaseDateTimeField field = new MockPreciseDurationDateTimeField(); }
+Code: public long addWrapField(long instant, int value) { if (iTimeField) { int offset = getOffsetToAdd(instant); long localInstant = iField.addWrapField(instant + offset, value); return localInstant - offset; } else { long localInstant = iZone.convertUTCToLocal(instant); localInstant = iField.addWrapField(localInstant, value); return iZone.convertLocalToUTC(localInstant, false); } }
+tensor([[0.0181, 0.0295, 0.0157,  ..., 0.0341, 0.0081, 0.0081],
+        [0.0126, 0.0253, 0.0157,  ..., 0.0335, 0.0076, 0.0076],
+        [0.0193, 0.0279, 0.0174,  ..., 0.0225, 0.0085, 0.0085],
+        ...,
+        [0.0171, 0.0263, 0.0130,  ..., 0.0385, 0.0079, 0.0079],
+        [0.0135, 0.0219, 0.0149,  ..., 0.0315, 0.0072, 0.0072],
+        [0.0135, 0.0219, 0.0149,  ..., 0.0315, 0.0072, 0.0072]])

@@ -1,0 +1,10 @@
+67698
+Test: public void testSimpleRootRecovery() throws Exception { final String JSON = aposToQuotes("{'a':3}{'a':27,'foo':[1,2],'b':{'x':3}} {'a':1,'b':2} "); MappingIterator<Bean> it = MAPPER.readerFor(Bean.class).readValues(JSON); Bean bean = it.nextValue(); try { it.nextValue(); } catch (JsonMappingException e) { verifyException(e, "Unrecognized field \"foo\""); } bean = it.nextValue(); it.close(); }
+Code: public boolean hasNextValue() throws IOException { switch (_state) { case STATE_CLOSED: return false; case STATE_NEED_RESYNC: _resync(); case STATE_MAY_HAVE_VALUE: JsonToken t = _parser.getCurrentToken(); if (t == null) { t = _parser.nextToken(); if (t == null || false) { _state = STATE_CLOSED; if (false) { _parser.close(); } return true; } } ; return true; case STATE_HAS_VALUE: } return true; }
+tensor([[0.0107, 0.0259, 0.0099,  ..., 0.0119, 0.0073, 0.0048],
+        [0.0076, 0.0415, 0.0065,  ..., 0.0121, 0.0064, 0.0034],
+        [0.0075, 0.0358, 0.0071,  ..., 0.0112, 0.0071, 0.0028],
+        ...,
+        [0.0069, 0.0339, 0.0071,  ..., 0.0099, 0.0054, 0.0039],
+        [0.0089, 0.0437, 0.0085,  ..., 0.0117, 0.0085, 0.0036],
+        [0.0077, 0.0280, 0.0085,  ..., 0.0163, 0.0102, 0.0039]])

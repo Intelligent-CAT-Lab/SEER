@@ -1,0 +1,10 @@
+63063
+Test: public void test251() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test251"); com.google.gson.DefaultDateTypeAdapter defaultDateTypeAdapter2 = new com.google.gson.DefaultDateTypeAdapter((int) (byte) 1, (int) (byte) 0); java.util.Date date3 = null; java.lang.String str4 = defaultDateTypeAdapter2.toJson(date3); java.util.Date date5 = null; java.lang.String str6 = defaultDateTypeAdapter2.toJson(date5); com.google.gson.internal.bind.JsonTreeWriter jsonTreeWriter7 = new com.google.gson.internal.bind.JsonTreeWriter(); com.google.gson.stream.JsonWriter jsonWriter9 = jsonTreeWriter7.value(false); com.google.gson.stream.JsonWriter jsonWriter10 = jsonTreeWriter7.nullValue(); com.google.gson.stream.JsonWriter jsonWriter12 = jsonTreeWriter7.value(false); com.google.gson.JsonElement jsonElement13 = jsonTreeWriter7.get(); com.google.gson.internal.bind.JsonTreeReader jsonTreeReader14 = new com.google.gson.internal.bind.JsonTreeReader(jsonElement13); jsonTreeReader14.setLenient(false); try { java.util.Date date17 = defaultDateTypeAdapter2.read((com.google.gson.stream.JsonReader) jsonTreeReader14); } catch (java.lang.IllegalStateException e) { } }
+Code: public Date read(JsonReader in) throws IOException { if (in.peek() == JsonToken.NULL) { in.nextNull(); return null; } Date date = deserializeToDate(in.nextString()); if (dateType == Date.class) { return date; } else if (dateType == Timestamp.class) { return new Timestamp(date.getTime()); } else if (dateType == java.sql.Date.class) { return new java.sql.Date(date.getTime()); } else { throw new AssertionError(); } }
+tensor([[0.0138, 0.0069, 0.0180,  ..., 0.0157, 0.0061, 0.0061],
+        [0.0115, 0.0062, 0.0173,  ..., 0.0173, 0.0043, 0.0043],
+        [0.0090, 0.0048, 0.0146,  ..., 0.0165, 0.0047, 0.0047],
+        ...,
+        [0.0136, 0.0067, 0.0221,  ..., 0.0177, 0.0079, 0.0079],
+        [0.0093, 0.0042, 0.0209,  ..., 0.0147, 0.0049, 0.0049],
+        [0.0093, 0.0042, 0.0209,  ..., 0.0147, 0.0049, 0.0049]])

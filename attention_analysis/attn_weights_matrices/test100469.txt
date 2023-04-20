@@ -1,0 +1,10 @@
+100469
+Test: public void testWith3d() { Partial test = new Partial(DateTimeFieldType.year(), 2005); Partial result = test.with(DateTimeFieldType.monthOfYear(), 6); }
+Code: public Partial with(DateTimeFieldType fieldType, int value) { if (fieldType == null) { throw new IllegalArgumentException("The field type must not be null"); } int index = indexOf(fieldType); if (index == -1) { DateTimeFieldType[] newTypes = new DateTimeFieldType[iTypes.length + 1]; int[] newValues = new int[newTypes.length]; int i = 0; DurationField unitField = fieldType.getDurationType().getField(iChronology); if (unitField.isSupported()) { for (; i < iTypes.length; i++) { DateTimeFieldType loopType = iTypes[i]; DurationField loopUnitField = loopType.getDurationType().getField(iChronology); if (loopUnitField.isSupported()) { int compare = unitField.compareTo(loopUnitField); if (compare > 0) { break; } else if (compare == 0) { DurationField rangeField = fieldType.getRangeDurationType().getField(iChronology); DurationField loopRangeField = loopType.getRangeDurationType().getField(iChronology); if (rangeField.compareTo(loopRangeField) > 0) { break; } } } } } System.arraycopy(iTypes, 0, newTypes, 0, i); System.arraycopy(iValues, 0, newValues, 0, i); newTypes[i] = fieldType; newValues[i] = value; System.arraycopy(iTypes, i, newTypes, i + 1, newTypes.length - i - 1); System.arraycopy(iValues, i, newValues, i + 1, newValues.length - i - 1); Partial newPartial = new Partial(iChronology, newTypes, newValues); iChronology.validate(newPartial, newValues); return newPartial; } if (value == getValue(index)) { return this; } int[] newValues = getValues(); newValues = getField(index).set(this, index, newValues, value); return new Partial(this, newValues); }
+tensor([[0.0039, 0.0049, 0.0023,  ..., 0.0099, 0.0049, 0.0018],
+        [0.0040, 0.0061, 0.0021,  ..., 0.0108, 0.0064, 0.0020],
+        [0.0029, 0.0042, 0.0017,  ..., 0.0103, 0.0050, 0.0012],
+        ...,
+        [0.0029, 0.0049, 0.0018,  ..., 0.0085, 0.0059, 0.0014],
+        [0.0033, 0.0043, 0.0022,  ..., 0.0111, 0.0050, 0.0018],
+        [0.0028, 0.0048, 0.0021,  ..., 0.0124, 0.0055, 0.0015]])

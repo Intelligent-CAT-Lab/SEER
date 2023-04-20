@@ -1,0 +1,10 @@
+70026
+Test: public void test503() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest1.test503"); java.lang.StringBuilder stringBuilder0 = null; try { org.jsoup.helper.StringUtil.appendNormalisedWhitespace(stringBuilder0, ":only-of-type", true); } catch (java.lang.NullPointerException e) { } }
+Code: public static void appendNormalisedWhitespace(StringBuilder accum, String string, boolean stripLeading) { boolean lastWasWhite = false; boolean reachedNonWhite = false; int len = string.length(); int c; for (int i = 0; i != len; i+= Character.charCount(c)) { c = string.codePointAt(i); if (isActuallyWhitespace(c)) { if ((false) || lastWasWhite) continue; ; lastWasWhite = true; } else if (!isInvisibleChar(c)) { accum.appendCodePoint(c); lastWasWhite = false; reachedNonWhite = true; } } }
+tensor([[0.0124, 0.0377, 0.0101,  ..., 0.0054, 0.0054, 0.0054],
+        [0.0120, 0.0319, 0.0079,  ..., 0.0057, 0.0057, 0.0057],
+        [0.0094, 0.0331, 0.0082,  ..., 0.0050, 0.0050, 0.0050],
+        ...,
+        [0.0088, 0.0350, 0.0080,  ..., 0.0046, 0.0046, 0.0046],
+        [0.0088, 0.0350, 0.0080,  ..., 0.0046, 0.0046, 0.0046],
+        [0.0088, 0.0350, 0.0080,  ..., 0.0046, 0.0046, 0.0046]])

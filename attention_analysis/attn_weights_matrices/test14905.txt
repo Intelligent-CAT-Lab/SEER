@@ -1,0 +1,10 @@
+14905
+Test: public void testValidate_Children() throws OptionException { final Parent option = buildKParent(); final WriteableCommandLine commandLine = commandLine(option, list()); option.validate(commandLine); commandLine.addOption(option); try { option.validate(commandLine); fail("Missing a command"); } catch (OptionException moe) { } }
+Code: public void addOption(Option option) { options.add(option); nameToOption.put(option.getPreferredName(), option); for (Iterator i = option.getTriggers().iterator(); i.hasNext();) { nameToOption.put(i.next(), option); } Option parent = option.getParent(); while (parent != null && !options.contains(parent)) { options.add(parent); parent = parent.getParent(); } }
+tensor([[0.0206, 0.0166, 0.0663,  ..., 0.0497, 0.0087, 0.0087],
+        [0.0151, 0.0131, 0.0968,  ..., 0.0666, 0.0079, 0.0079],
+        [0.0145, 0.0144, 0.0798,  ..., 0.0517, 0.0077, 0.0077],
+        ...,
+        [0.0193, 0.0157, 0.0691,  ..., 0.0520, 0.0083, 0.0083],
+        [0.0141, 0.0128, 0.0646,  ..., 0.0448, 0.0074, 0.0074],
+        [0.0141, 0.0128, 0.0646,  ..., 0.0448, 0.0074, 0.0074]])

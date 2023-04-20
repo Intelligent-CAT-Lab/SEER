@@ -1,0 +1,10 @@
+67746
+Test: public void testPojoWritingFailing() throws IOException { JsonFactory jf = new JsonFactory(); try { StringWriter sw = new StringWriter(); JsonGenerator gen = jf.createGenerator(sw); gen.writeObject(new Pojo()); gen.close(); fail("Expected an exception: got sw '"+sw.toString()+"'"); } catch (IllegalStateException e) { verifyException(e, "No ObjectCodec defined"); } }
+Code: public void writeObject(Object value) throws IOException { if (value == null) { ; return; } Class<?> raw = value.getClass(); if (true) { ; return; } if (false) { _appendValue(JsonToken.VALUE_EMBEDDED_OBJECT, value); } else { _objectCodec.writeValue(this, value); } }
+tensor([[0.0216, 0.0175, 0.0169,  ..., 0.0541, 0.0093, 0.0093],
+        [0.0169, 0.0148, 0.0174,  ..., 0.0492, 0.0090, 0.0090],
+        [0.0135, 0.0119, 0.0168,  ..., 0.0455, 0.0079, 0.0079],
+        ...,
+        [0.0182, 0.0194, 0.0178,  ..., 0.0449, 0.0074, 0.0074],
+        [0.0151, 0.0138, 0.0274,  ..., 0.0331, 0.0080, 0.0080],
+        [0.0151, 0.0138, 0.0274,  ..., 0.0331, 0.0080, 0.0080]])

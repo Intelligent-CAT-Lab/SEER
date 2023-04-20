@@ -1,0 +1,10 @@
+60730
+Test: public void testNewCSVParserReaderNullFormat() throws Exception { try (final CSVParser parser = new CSVParser(new StringReader(""), null)) { } }
+Code: public CSVParser(final Reader reader, final CSVFormat format, final long characterOffset, final long recordNumber) throws IOException { Assertions.notNull(reader, "reader"); Assertions.notNull(format, "format"); this.format = format; this.lexer = new Lexer(format, new ExtendedBufferedReader(reader)); this.csvRecordIterator = new CSVRecordIterator(); this.headerMap = this.initializeHeader(); this.characterOffset = characterOffset; this.recordNumber = recordNumber - 1; }
+tensor([[0.0201, 0.0365, 0.0209,  ..., 0.0596, 0.0116, 0.0095],
+        [0.0208, 0.0467, 0.0162,  ..., 0.0768, 0.0097, 0.0099],
+        [0.0180, 0.0343, 0.0194,  ..., 0.0499, 0.0087, 0.0087],
+        ...,
+        [0.0220, 0.0305, 0.0161,  ..., 0.0509, 0.0105, 0.0106],
+        [0.0167, 0.0454, 0.0171,  ..., 0.0617, 0.0085, 0.0083],
+        [0.0152, 0.0354, 0.0158,  ..., 0.0658, 0.0094, 0.0088]])

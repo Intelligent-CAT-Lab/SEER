@@ -1,0 +1,11 @@
+63872
+Test: public void testInvalidSubClass() throws Exception { DefaultPrettyPrinter pp = new MyPrettyPrinter(); try { pp.createInstance(); fail("Should not pass"); } catch (IllegalStateException e) { verifyException(e, "does not override"); } }
+Code: public DefaultPrettyPrinter createInstance() { return new DefaultPrettyPrinter(this); }
+tensor([[0.1248, 0.1605, 0.1520, 0.1491, 0.1352, 0.0641, 0.1649, 0.0494],
+        [0.0994, 0.1123, 0.1645, 0.1961, 0.1294, 0.0566, 0.2004, 0.0413],
+        [0.1019, 0.1874, 0.1358, 0.1733, 0.1287, 0.0514, 0.1775, 0.0440],
+        [0.1133, 0.1318, 0.1596, 0.1704, 0.1319, 0.0649, 0.1661, 0.0620],
+        [0.0862, 0.1493, 0.1564, 0.1506, 0.1282, 0.0523, 0.2348, 0.0422],
+        [0.0982, 0.1548, 0.1762, 0.1611, 0.1377, 0.0658, 0.1582, 0.0480],
+        [0.0971, 0.1180, 0.1628, 0.1497, 0.1501, 0.0604, 0.2165, 0.0453],
+        [0.0874, 0.1103, 0.1559, 0.1947, 0.1823, 0.0489, 0.1771, 0.0434]])

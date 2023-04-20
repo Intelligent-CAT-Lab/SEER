@@ -1,0 +1,10 @@
+65078
+Test: public void testCustomEnumValueAndKeyViaModifier() throws IOException { SimpleModule module = new SimpleModule(); module.setDeserializerModifier(new BeanDeserializerModifier() { @Override public JsonDeserializer<Enum> modifyEnumDeserializer(DeserializationConfig config, final JavaType type, BeanDescription beanDesc, final JsonDeserializer<?> deserializer) { return new JsonDeserializer<Enum>() { @Override public Enum deserialize(JsonParser p, DeserializationContext ctxt) throws IOException { Class<? extends Enum> rawClass = (Class<Enum<?>>) type.getRawClass(); final String str = p.getValueAsString().toLowerCase(); return KeyEnum.valueOf(rawClass, str); } }; } @Override public KeyDeserializer modifyKeyDeserializer(DeserializationConfig config, final JavaType type, KeyDeserializer deserializer) { if (!type.isEnumType()) { return deserializer; } return new KeyDeserializer() { @Override public Object deserializeKey(String key, DeserializationContext ctxt) throws IOException { Class<? extends Enum> rawClass = (Class<Enum<?>>) type.getRawClass(); return Enum.valueOf(rawClass, key.toLowerCase()); } }; } }); ObjectMapper mapper = new ObjectMapper() .registerModule(module); KeyEnum key = mapper.readValue(quote(KeyEnum.replacements.name().toUpperCase()), KeyEnum.class); EnumMap<KeyEnum,String> map = mapper.readValue( aposToQuotes("{'REPlaceMENTS':'foobar'}"), new TypeReference<EnumMap<KeyEnum,String>>() { }); }
+Code: public final void serialize(JsonGenerator gen, SerializerProvider ctxt) throws IOException { if (_value == null) { ctxt.defaultSerializeNull(gen); } else if (_value instanceof JsonSerializable) { ((JsonSerializable) _value).serialize(gen, ctxt); } else { ctxt.defaultSerializeValue(_value, gen); } }
+tensor([[0.0235, 0.0191, 0.0193,  ..., 0.0396, 0.0104, 0.0104],
+        [0.0213, 0.0142, 0.0158,  ..., 0.0325, 0.0070, 0.0070],
+        [0.0180, 0.0157, 0.0157,  ..., 0.0351, 0.0095, 0.0095],
+        ...,
+        [0.0175, 0.0158, 0.0132,  ..., 0.0363, 0.0066, 0.0066],
+        [0.0158, 0.0141, 0.0144,  ..., 0.0352, 0.0084, 0.0084],
+        [0.0158, 0.0141, 0.0144,  ..., 0.0352, 0.0084, 0.0084]])

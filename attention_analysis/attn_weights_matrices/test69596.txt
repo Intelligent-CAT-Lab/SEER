@@ -1,0 +1,8 @@
+69596
+Test: @Test public void testHtmlAppendable() { String htmlContent = "<html><head><title>Hello</title></head><body><p>One</p><p>Two</p></body></html>"; Document document = Jsoup.parse(htmlContent); OutputSettings outputSettings = new OutputSettings(); outputSettings.prettyPrint(false); document.outputSettings(outputSettings); }
+Code: public String toString(){return String.format("%s", tagName);}
+tensor([[0.1411, 0.1846, 0.2236, 0.2617, 0.1890],
+        [0.1647, 0.1970, 0.2167, 0.2795, 0.1421],
+        [0.1488, 0.2102, 0.2314, 0.2410, 0.1686],
+        [0.1319, 0.2068, 0.2213, 0.2761, 0.1640],
+        [0.0855, 0.2336, 0.2637, 0.3184, 0.0988]])

@@ -1,0 +1,10 @@
+64018
+Test: public void test003() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test003"); com.fasterxml.jackson.core.io.IOContext iOContext0 = null; com.fasterxml.jackson.core.io.IOContext iOContext2 = null; java.io.InputStream inputStream3 = null; com.fasterxml.jackson.core.io.IOContext iOContext4 = null; java.io.InputStream inputStream5 = null; byte[] byteArray7 = new byte[] { (byte) 100 }; com.fasterxml.jackson.core.io.UTF32Reader uTF32Reader11 = new com.fasterxml.jackson.core.io.UTF32Reader(iOContext4, inputStream5, byteArray7, (int) (short) 100, 2000, true); com.fasterxml.jackson.core.io.MergedStream mergedStream14 = new com.fasterxml.jackson.core.io.MergedStream(iOContext2, inputStream3, byteArray7, 10, (int) ' '); com.fasterxml.jackson.core.ObjectCodec objectCodec15 = null; com.fasterxml.jackson.core.sym.BytesToNameCanonicalizer bytesToNameCanonicalizer16 = null; byte[] byteArray17 = null; try { com.fasterxml.jackson.core.json.UTF8StreamJsonParser uTF8StreamJsonParser21 = new com.fasterxml.jackson.core.json.UTF8StreamJsonParser(iOContext0, (int) (short) 10, (java.io.InputStream) mergedStream14, objectCodec15, bytesToNameCanonicalizer16, byteArray17, (int) 'a', 2000, false); } catch (java.lang.NullPointerException e) { } }
+Code: public UTF8StreamJsonParser(IOContext ctxt, int features, InputStream in, ObjectCodec codec, BytesToNameCanonicalizer sym, byte[] inputBuffer, int start, int end, boolean bufferRecyclable) { super(ctxt, features); _inputStream = in; _objectCodec = codec; _symbols = sym; _inputBuffer = inputBuffer; _inputPtr = start; _inputEnd = end; _bufferRecyclable = bufferRecyclable; }
+tensor([[0.0179, 0.0281, 0.0176,  ..., 0.0115, 0.0603, 0.0083],
+        [0.0130, 0.0449, 0.0204,  ..., 0.0102, 0.0593, 0.0067],
+        [0.0125, 0.0381, 0.0161,  ..., 0.0105, 0.0573, 0.0058],
+        ...,
+        [0.0200, 0.0279, 0.0232,  ..., 0.0167, 0.0429, 0.0099],
+        [0.0140, 0.0369, 0.0190,  ..., 0.0142, 0.0441, 0.0085],
+        [0.0131, 0.0334, 0.0173,  ..., 0.0120, 0.0579, 0.0075]])

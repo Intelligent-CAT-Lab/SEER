@@ -1,0 +1,10 @@
+62867
+Test: public void testSubSupertype() { }
+Code: public static WildcardType supertypeOf(Type bound) { Type[] lowerBounds; if (bound instanceof WildcardType) { lowerBounds = ((WildcardType) bound).getLowerBounds(); } else { lowerBounds = new Type[] { bound }; } return new WildcardTypeImpl(new Type[] { Object.class }, lowerBounds); }
+tensor([[0.0226, 0.0632, 0.0883,  ..., 0.0352, 0.0218, 0.0091],
+        [0.0228, 0.0561, 0.0890,  ..., 0.0313, 0.0280, 0.0098],
+        [0.0150, 0.0586, 0.0952,  ..., 0.0334, 0.0209, 0.0082],
+        ...,
+        [0.0187, 0.0636, 0.1055,  ..., 0.0311, 0.0255, 0.0091],
+        [0.0169, 0.0567, 0.1253,  ..., 0.0334, 0.0209, 0.0061],
+        [0.0159, 0.0578, 0.0748,  ..., 0.0452, 0.0167, 0.0075]])

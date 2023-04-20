@@ -1,0 +1,10 @@
+15586
+Test: public void test0371() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test0371"); org.apache.commons.cli.HelpFormatter helpFormatter0 = new org.apache.commons.cli.HelpFormatter(); helpFormatter0.defaultLeftPad = (short) 1; int int3 = helpFormatter0.defaultDescPad; java.lang.String str4 = helpFormatter0.getNewLine(); java.lang.StringBuffer stringBuffer5 = null; try { java.lang.StringBuffer stringBuffer9 = helpFormatter0.renderWrappedText(stringBuffer5, 3, 0, "[ option: usage: [ARG] :: ]"); } catch (java.lang.NullPointerException e) { } }
+Code: protected StringBuffer renderWrappedText(StringBuffer sb, int width, int nextLineTabStop, String text) { int pos = findWrapPos(text, width, 0); if (pos == -1) { sb.append(rtrim(text)); return sb; } sb.append(rtrim(text.substring(0, pos))).append(defaultNewLine); if (nextLineTabStop >= width) { nextLineTabStop = width - 1; } final String padding = createPadding(nextLineTabStop); while (true) { text = padding + text.substring(pos).trim(); pos = findWrapPos(text, width, 0); if (pos == -1) { sb.append(text); return sb; } if ( (text.length() > width) && (pos == nextLineTabStop - 1) ) { pos = width; } sb.append(rtrim(text.substring(0, pos))).append(defaultNewLine); } }
+tensor([[0.0113, 0.0048, 0.0018,  ..., 0.0113, 0.0029, 0.0029],
+        [0.0113, 0.0064, 0.0020,  ..., 0.0098, 0.0034, 0.0034],
+        [0.0124, 0.0054, 0.0018,  ..., 0.0117, 0.0029, 0.0029],
+        ...,
+        [0.0102, 0.0043, 0.0013,  ..., 0.0119, 0.0038, 0.0038],
+        [0.0119, 0.0066, 0.0018,  ..., 0.0096, 0.0034, 0.0034],
+        [0.0119, 0.0066, 0.0018,  ..., 0.0096, 0.0034, 0.0034]])

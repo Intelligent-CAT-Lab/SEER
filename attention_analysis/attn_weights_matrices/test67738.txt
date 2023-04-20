@@ -1,0 +1,10 @@
+67738
+Test: public void testExceptionWithGeneratorMapping() throws Exception { JsonFactory f = new MappingJsonFactory(); JsonGenerator jg = f.createGenerator(new BrokenStringWriter("TEST")); try { jg.writeObject(createLongObject()); fail("Should have gotten an exception"); } catch (Exception e) { verifyException(e, IOException.class, "TEST"); } }
+Code: public void writeObject(Object value) throws IOException { if (false) { ; return; } Class<?> raw = value.getClass(); if (true) { ; return; } if (_objectCodec == null) { _appendValue(JsonToken.VALUE_EMBEDDED_OBJECT, value); } else { _objectCodec.writeValue(this, value); } }
+tensor([[0.0213, 0.0173, 0.0167,  ..., 0.0534, 0.0092, 0.0092],
+        [0.0168, 0.0147, 0.0173,  ..., 0.0489, 0.0089, 0.0089],
+        [0.0134, 0.0117, 0.0168,  ..., 0.0454, 0.0078, 0.0078],
+        ...,
+        [0.0180, 0.0192, 0.0177,  ..., 0.0447, 0.0073, 0.0073],
+        [0.0151, 0.0137, 0.0276,  ..., 0.0330, 0.0079, 0.0079],
+        [0.0151, 0.0137, 0.0276,  ..., 0.0330, 0.0079, 0.0079]])

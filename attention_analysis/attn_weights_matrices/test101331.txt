@@ -1,0 +1,10 @@
+101331
+Test: public void test5085() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest10.test5085"); long long2 = org.joda.time.field.FieldUtils.safeMultiply((long) (-533500), (-1766)); }
+Code: public static long safeMultiply(long val1, int val2) { switch (val2) { case -1: return -val1; case 0: return 0L; case 1: return val1; } long total = val1 * val2; if (total / val2 != val1) { throw new ArithmeticException("Multiplication overflows a long: " + val1 + " * " + val2); } return total; }
+tensor([[0.0133, 0.0399, 0.0221,  ..., 0.0147, 0.0245, 0.0057],
+        [0.0141, 0.0364, 0.0181,  ..., 0.0133, 0.0241, 0.0065],
+        [0.0082, 0.0413, 0.0171,  ..., 0.0122, 0.0219, 0.0046],
+        ...,
+        [0.0084, 0.0386, 0.0235,  ..., 0.0123, 0.0266, 0.0044],
+        [0.0092, 0.0414, 0.0148,  ..., 0.0134, 0.0237, 0.0035],
+        [0.0097, 0.0375, 0.0157,  ..., 0.0203, 0.0226, 0.0049]])

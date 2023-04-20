@@ -1,0 +1,10 @@
+62607
+Test: public void testFieldAnnotationTakesPrecedenceOverRegisteredTypeAdapter() { Gson gson = new GsonBuilder() .registerTypeAdapter(Part.class, new TypeAdapter<Part>() { @Override public void write(JsonWriter out, Part part) throws IOException { throw new } @Override public Part read(JsonReader in) throws IOException { throw new } }).create(); String json = gson.toJson(new Gadget(new Part("screen"))); Gadget gadget = gson.fromJson("{'part':'screen'}", Gadget.class); }
+Code: public Number read(JsonReader in) throws IOException { JsonToken jsonToken = in.peek(); switch (jsonToken) { case NULL: in.nextNull(); return null; case NUMBER: return new LazilyParsedNumber(in.nextString()); default: throw new JsonSyntaxException("Expecting number, got: " + jsonToken); } }
+tensor([[0.0210, 0.0161, 0.0265,  ..., 0.0218, 0.0089, 0.0089],
+        [0.0201, 0.0124, 0.0253,  ..., 0.0236, 0.0075, 0.0075],
+        [0.0150, 0.0105, 0.0238,  ..., 0.0202, 0.0076, 0.0076],
+        ...,
+        [0.0162, 0.0123, 0.0263,  ..., 0.0153, 0.0068, 0.0068],
+        [0.0144, 0.0091, 0.0306,  ..., 0.0212, 0.0073, 0.0073],
+        [0.0144, 0.0091, 0.0306,  ..., 0.0212, 0.0073, 0.0073]])

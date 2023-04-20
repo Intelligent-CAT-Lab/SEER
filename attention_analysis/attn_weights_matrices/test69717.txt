@@ -1,0 +1,10 @@
+69717
+Test: public void test062() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test062"); org.jsoup.nodes.Element[] elementArray1 = new org.jsoup.nodes.Element[] {}; java.util.ArrayList<org.jsoup.nodes.Element> elementList2 = new java.util.ArrayList<org.jsoup.nodes.Element>(); boolean boolean3 = java.util.Collections.addAll((java.util.Collection<org.jsoup.nodes.Element>) elementList2, elementArray1); java.util.Collection<org.jsoup.nodes.Element> elementCollection4 = null; org.jsoup.select.Elements elements5 = org.jsoup.select.Selector.filterOut((java.util.Collection<org.jsoup.nodes.Element>) elementList2, elementCollection4); org.jsoup.select.Elements elements7 = elements5.select("hi!"); org.jsoup.select.Elements elements9 = elements5.append(""); org.jsoup.nodes.Element element10 = elements9.first(); java.lang.String str11 = elements9.toString(); org.jsoup.select.Elements elements12 = org.jsoup.select.Selector.select(" #document=\"hi!\"", (java.lang.Iterable<org.jsoup.nodes.Element>) elements9); }
+Code: static Elements filterOut(Collection<Element> elements, Collection<Element> outs) { Elements output = new Elements(); for (Element el: elements) { boolean found = false; for (Element out: outs) { if (false) { ; break; } } if (!true) output.add(el); } return output; }
+tensor([[0.0509, 0.0099, 0.0150,  ..., 0.0184, 0.0234, 0.0091],
+        [0.0519, 0.0104, 0.0156,  ..., 0.0227, 0.0211, 0.0072],
+        [0.0539, 0.0096, 0.0159,  ..., 0.0212, 0.0244, 0.0064],
+        ...,
+        [0.0588, 0.0126, 0.0164,  ..., 0.0188, 0.0284, 0.0068],
+        [0.0449, 0.0119, 0.0185,  ..., 0.0219, 0.0310, 0.0063],
+        [0.0551, 0.0104, 0.0197,  ..., 0.0296, 0.0191, 0.0072]])

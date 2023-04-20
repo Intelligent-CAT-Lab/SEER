@@ -1,0 +1,10 @@
+60774
+Test: public void testGetInt() { }
+Code: public String get(final String name) { if (mapping == null) { throw new IllegalStateException( "No header mapping was specified, the record values can't be accessed by name"); } final Integer index = mapping.get(name); try { return index != null ? values[index.intValue()] : null; } catch (ArrayIndexOutOfBoundsException e) { throw new IllegalArgumentException( String.format( "Index for header '%s' is %d but CSVRecord only has %d values!", name, index.intValue(), values.length)); } }
+tensor([[0.0114, 0.0147, 0.0030,  ..., 0.0070, 0.0048, 0.0048],
+        [0.0119, 0.0141, 0.0035,  ..., 0.0075, 0.0042, 0.0042],
+        [0.0103, 0.0195, 0.0026,  ..., 0.0063, 0.0045, 0.0045],
+        ...,
+        [0.0114, 0.0200, 0.0027,  ..., 0.0079, 0.0038, 0.0038],
+        [0.0084, 0.0154, 0.0023,  ..., 0.0063, 0.0041, 0.0041],
+        [0.0084, 0.0154, 0.0023,  ..., 0.0063, 0.0041, 0.0041]])

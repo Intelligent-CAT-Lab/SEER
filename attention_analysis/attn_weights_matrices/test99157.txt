@@ -1,0 +1,10 @@
+99157
+Test: public void testGetInvocations() { List<String> methodsInvoked = new ArrayList<String>() {{ add("add"); add("remove"); add("clear"); }}; List<String> mockedList = (List<String>) mock(List.class); mockedList.add("one"); mockedList.remove(0); mockedList.clear(); MockingDetails mockingDetails = new MockitoCore().mockingDetails(mockedList); Collection<Invocation> invocations = mockingDetails.getInvocations(); for (Invocation method : invocations) { if (method.getMethod().getName().equals("add")) { } } }
+Code: public boolean equals(Object o) { if (this == o) { return true; } if (o instanceof DelegatingMethod) { DelegatingMethod that = (DelegatingMethod) o; return method.equals(that.method); } else { return method.equals(o); } }
+tensor([[0.0238, 0.0561, 0.0477,  ..., 0.0381, 0.0109, 0.0109],
+        [0.0165, 0.0847, 0.0316,  ..., 0.0377, 0.0078, 0.0078],
+        [0.0227, 0.0615, 0.0415,  ..., 0.0437, 0.0075, 0.0075],
+        ...,
+        [0.0191, 0.0523, 0.0397,  ..., 0.0377, 0.0124, 0.0124],
+        [0.0164, 0.0570, 0.0346,  ..., 0.0393, 0.0092, 0.0092],
+        [0.0164, 0.0570, 0.0346,  ..., 0.0393, 0.0092, 0.0092]])

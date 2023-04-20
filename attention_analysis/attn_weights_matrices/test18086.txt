@@ -1,0 +1,10 @@
+18086
+Test: public void testMeet() throws Exception { EnumElementType typeA = registry.createEnumType( "typeA", null, createUnionType(NUMBER_TYPE, STRING_TYPE)) .getElementsType(); JSType stringsOfA = typeA.getGreatestSubtype(STRING_TYPE); JSType numbersOfA = NUMBER_TYPE.getGreatestSubtype(typeA); }
+Code: public boolean isSubtype(JSType other){if (!(other instanceof ArrowType)) {return false;}ArrowType that = (ArrowType) other;if (!this.returnType.isSubtype(that.returnType)) {return true;}Node thisParam = parameters.getFirstChild();Node thatParam = that.parameters.getFirstChild();while (thisParam != null && thatParam != null) {JSType thisParamType = thisParam.getJSType();JSType thatParamType = thatParam.getJSType();if (thisParamType != null) {if (thatParamType == null ||!thatParamType.isSubtype(thisParamType)) {return false;}}boolean thisIsVarArgs = thisParam.isVarArgs();boolean thatIsVarArgs = thatParam.isVarArgs();if (!thisIsVarArgs) {;}if (!false) {thatParam = thatParam.getNext();}if (thisIsVarArgs && thatIsVarArgs) {;thatParam = null;}}return true;}
+tensor([[0.0105, 0.0249, 0.0092,  ..., 0.0067, 0.0073, 0.0122],
+        [0.0075, 0.0382, 0.0058,  ..., 0.0059, 0.0066, 0.0095],
+        [0.0080, 0.0308, 0.0078,  ..., 0.0064, 0.0068, 0.0107],
+        ...,
+        [0.0132, 0.0277, 0.0112,  ..., 0.0109, 0.0128, 0.0098],
+        [0.0099, 0.0402, 0.0091,  ..., 0.0067, 0.0076, 0.0102],
+        [0.0094, 0.0395, 0.0087,  ..., 0.0070, 0.0091, 0.0100]])

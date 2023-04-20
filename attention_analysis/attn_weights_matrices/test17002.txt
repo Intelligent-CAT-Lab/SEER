@@ -1,0 +1,10 @@
+17002
+Test: public void testTwoRuns() { addOneTimePass("x"); optimizer.process(null, null); try { optimizer.process(null, null); fail(); } catch (IllegalStateException e) { } }
+Code: public void process(Node externs, Node root) { new NodeTraversal( compiler, new NormalizeStatements(compiler, assertOnChange)) .traverse(root); if (MAKE_LOCAL_NAMES_UNIQUE) { MakeDeclaredNamesUnique renamer = new MakeDeclaredNamesUnique(); NodeTraversal t = new NodeTraversal(compiler, renamer); t.traverseRoots(externs, root); } removeDuplicateDeclarations(externs, root); new PropagateConstantAnnotationsOverVars(compiler, assertOnChange) .process(externs, root); if (!compiler.getLifeCycleStage().isNormalized()) { compiler.setLifeCycleStage(LifeCycleStage.NORMALIZED); } }
+tensor([[0.0209, 0.0171, 0.0174,  ..., 0.0116, 0.0092, 0.0092],
+        [0.0175, 0.0151, 0.0152,  ..., 0.0066, 0.0091, 0.0091],
+        [0.0164, 0.0154, 0.0163,  ..., 0.0120, 0.0058, 0.0058],
+        ...,
+        [0.0189, 0.0148, 0.0186,  ..., 0.0103, 0.0077, 0.0077],
+        [0.0149, 0.0136, 0.0207,  ..., 0.0093, 0.0079, 0.0079],
+        [0.0149, 0.0136, 0.0207,  ..., 0.0093, 0.0079, 0.0079]])

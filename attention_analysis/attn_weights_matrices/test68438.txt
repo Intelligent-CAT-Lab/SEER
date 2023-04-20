@@ -1,0 +1,10 @@
+68438
+Test: public void testIteratorUpdateable() { Attributes a = new Attributes(); a.put("Tot", "a&p"); a.put("Hello", "There"); Iterator<Attribute> iterator = a.iterator(); Attribute attr = iterator.next(); attr.setKey("Foo"); attr = iterator.next(); attr.setKey("Bar"); attr.setValue("Qux"); }
+Code: public String setValue(String val) { String oldVal = this.val; if (parent != null) { oldVal = parent.get(this.key); int i = parent.indexOfKey(this.key); if (i != Attributes.NotFound) parent.vals[i] = val; } this.val = val; return Attributes.checkNotNull(oldVal); }
+tensor([[0.0255, 0.0328, 0.0500,  ..., 0.0279, 0.0273, 0.0106],
+        [0.0251, 0.0292, 0.0381,  ..., 0.0253, 0.0260, 0.0092],
+        [0.0188, 0.0305, 0.0551,  ..., 0.0295, 0.0247, 0.0087],
+        ...,
+        [0.0174, 0.0414, 0.0413,  ..., 0.0256, 0.0278, 0.0088],
+        [0.0239, 0.0385, 0.0403,  ..., 0.0321, 0.0296, 0.0082],
+        [0.0185, 0.0339, 0.0359,  ..., 0.0382, 0.0260, 0.0090]])

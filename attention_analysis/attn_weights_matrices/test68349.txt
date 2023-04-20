@@ -1,0 +1,10 @@
+68349
+Test: @Test public void testAddNewHtml() { Document doc = Jsoup.parse("<div id=1><p>Hello</p></div>"); Element div = doc.getElementById("1"); div.append("<p>there</p><p>now</p>"); Elements ps = doc.select("p"); for (int i = 0; i < ps.size(); i++) { } }
+Code: private Elements select() { tq.consumeWhitespace(); if (tq.matchesAny(combinators)) { elements.add(root); combinator(tq.consume().toString()); } else if (tq.matches(":has(")) { elements.addAll(root.getAllElements()); } else { addElements(findElements()); } while (!tq.isEmpty()) { boolean seenWhite = tq.consumeWhitespace(); if (tq.matchChomp(",")) { while (!tq.isEmpty()) { String subQuery = tq.chompTo(","); elements.addAll(select(subQuery, root)); } } else if (tq.matchesAny(combinators)) { combinator(tq.consume().toString()); } else if (seenWhite) { combinator(" "); } else { Elements candidates = findElements(); intersectElements(filterForSelf(elements, candidates)); } } return new Elements(elements); }
+tensor([[0.0145, 0.0068, 0.0114,  ..., 0.0053, 0.0176, 0.0045],
+        [0.0130, 0.0060, 0.0121,  ..., 0.0050, 0.0149, 0.0040],
+        [0.0096, 0.0066, 0.0127,  ..., 0.0045, 0.0219, 0.0035],
+        ...,
+        [0.0130, 0.0064, 0.0110,  ..., 0.0055, 0.0170, 0.0047],
+        [0.0118, 0.0066, 0.0131,  ..., 0.0045, 0.0156, 0.0039],
+        [0.0114, 0.0059, 0.0122,  ..., 0.0041, 0.0161, 0.0040]])

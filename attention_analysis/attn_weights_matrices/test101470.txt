@@ -1,0 +1,10 @@
+101470
+Test: public void test17() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test17"); org.joda.time.format.DateTimeFormatter dateTimeFormatter0 = org.joda.time.format.DateTimeFormat.shortTime(); org.joda.time.format.DateTimeFormatter dateTimeFormatter1 = dateTimeFormatter0.withZoneUTC(); org.joda.time.DateTimeZone dateTimeZone2 = null; org.joda.time.DateTime dateTime3 = new org.joda.time.DateTime(dateTimeZone2); org.joda.time.DateTime.Property property4 = dateTime3.secondOfMinute(); org.joda.time.ReadablePeriod readablePeriod5 = null; org.joda.time.DateTime dateTime6 = dateTime3.plus(readablePeriod5); org.joda.time.MutableDateTime mutableDateTime7 = dateTime3.toMutableDateTimeISO(); int int10 = dateTimeFormatter1.parseInto((org.joda.time.ReadWritableInstant) mutableDateTime7, "438", 100); }
+Code: public int parseInto(DateTimeParserBucket bucket, String text, int position){if (position >= text.length()) {return ~position;}char a = text.charAt(position);char b = iValue;if (a != b) {a = Character.toUpperCase(a);b = Character.toUpperCase(b);if (a != b) {a = Character.toLowerCase(a);b = Character.toLowerCase(b);if (a != b) {return ~position;}}}return position + 1;}
+tensor([[0.0176, 0.0108, 0.0276,  ..., 0.0165, 0.0143, 0.0465],
+        [0.0107, 0.0077, 0.0274,  ..., 0.0093, 0.0127, 0.0473],
+        [0.0135, 0.0076, 0.0310,  ..., 0.0094, 0.0166, 0.0505],
+        ...,
+        [0.0124, 0.0077, 0.0315,  ..., 0.0131, 0.0132, 0.0537],
+        [0.0168, 0.0091, 0.0368,  ..., 0.0125, 0.0141, 0.0420],
+        [0.0147, 0.0101, 0.0300,  ..., 0.0127, 0.0140, 0.0567]])

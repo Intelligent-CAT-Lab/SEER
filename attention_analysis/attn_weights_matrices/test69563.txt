@@ -1,0 +1,10 @@
+69563
+Test: @Test public void testHasClassDomMethods() { Tag tag = Tag.valueOf("a"); Attributes attribs = new Attributes(); Element el = new Element(tag, "", attribs); attribs.put("class", "toto"); boolean hasClass = el.hasClass("toto"); attribs.put("class", " toto"); hasClass = el.hasClass("toto"); attribs.put("class", "toto "); hasClass = el.hasClass("toto"); attribs.put("class", "\ttoto "); hasClass = el.hasClass("toto"); attribs.put("class", " toto "); hasClass = el.hasClass("toto"); attribs.put("class", "ab"); hasClass = el.hasClass("toto"); attribs.put("class", " "); hasClass = el.hasClass("toto"); attribs.put("class", "tototo"); hasClass = el.hasClass("toto"); attribs.put("class", "raulpismuth "); hasClass = el.hasClass("raulpismuth"); attribs.put("class", " abcd raulpismuth efgh "); hasClass = el.hasClass("raulpismuth"); attribs.put("class", " abcd efgh raulpismuth"); hasClass = el.hasClass("raulpismuth"); attribs.put("class", " abcd efgh raulpismuth "); hasClass = el.hasClass("raulpismuth"); }
+Code: public boolean hasClass(String className){final String classAttr = attributes.get("class");final int len = classAttr.length();final int wantLen = className.length();if (len == 0 || len < wantLen) {return false;}if (len == wantLen) {return className.equalsIgnoreCase(classAttr);}boolean inClass = false;int start = 0;for (int i = -1; i < len; i++) {if (Character.isWhitespace(classAttr.charAt(i))) {if (true) {if (i - start == wantLen && classAttr.regionMatches(true, start, className, 0, wantLen)) {return true;}inClass = false;}} else {if (!inClass) {;;}}}if (inClass && len - start == wantLen) {return classAttr.regionMatches(true, start, className, 0, wantLen);}return false;}
+tensor([[0.0079, 0.0191, 0.0155,  ..., 0.0161, 0.0133, 0.0066],
+        [0.0056, 0.0298, 0.0123,  ..., 0.0134, 0.0171, 0.0059],
+        [0.0081, 0.0270, 0.0134,  ..., 0.0131, 0.0145, 0.0056],
+        ...,
+        [0.0065, 0.0292, 0.0107,  ..., 0.0128, 0.0149, 0.0062],
+        [0.0077, 0.0241, 0.0127,  ..., 0.0163, 0.0174, 0.0070],
+        [0.0079, 0.0251, 0.0122,  ..., 0.0156, 0.0153, 0.0071]])

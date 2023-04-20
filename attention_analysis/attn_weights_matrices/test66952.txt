@@ -1,0 +1,10 @@
+66952
+Test: public void testCustomLists() throws Exception { ObjectMapper mapper = new ObjectMapper(); SimpleModule module = new SimpleModule("test", Version.unknownVersion()); JsonSerializer<?> ser = new CollectionSerializer(null, false, null, null, null); final JsonSerializer<Object> collectionSerializer = (JsonSerializer<Object>) ser; module.addSerializer(Collection.class, new JsonSerializer<Collection>() { @Override public void serialize(Collection value, JsonGenerator jgen, SerializerProvider provider) throws IOException, JsonProcessingException { if (value.size() != 0) { collectionSerializer.serialize(value, jgen, provider); } else { jgen.writeNull(); } } }); mapper.registerModule(module); }
+Code: public void serialize(Object value, JsonGenerator gen, SerializerProvider provider) throws IOException { Object delegateValue = convertValue(value); if (delegateValue == null) { provider.defaultSerializeNull(gen); return; } JsonSerializer<Object> ser = _delegateSerializer; if (ser == null) { ser = _findSerializer(delegateValue, provider); } ser.serialize(delegateValue, gen, provider); }
+tensor([[0.0189, 0.0156, 0.0423,  ..., 0.0162, 0.0133, 0.0086],
+        [0.0140, 0.0129, 0.0352,  ..., 0.0119, 0.0099, 0.0083],
+        [0.0212, 0.0159, 0.0399,  ..., 0.0121, 0.0158, 0.0100],
+        ...,
+        [0.0125, 0.0121, 0.0483,  ..., 0.0139, 0.0150, 0.0071],
+        [0.0132, 0.0123, 0.0372,  ..., 0.0100, 0.0073, 0.0053],
+        [0.0129, 0.0121, 0.0434,  ..., 0.0143, 0.0151, 0.0073]])

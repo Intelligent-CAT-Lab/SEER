@@ -1,0 +1,10 @@
+29894
+Test: public void testCollatedIterator() { try { IteratorUtils.collatedIterator(null, collectionOdd.iterator(), null); fail("expecting NullPointerException"); } catch (NullPointerException npe) { } try { IteratorUtils.collatedIterator(null, null, collectionEven.iterator()); fail("expecting NullPointerException"); } catch (NullPointerException npe) { } Iterator<Integer> it = IteratorUtils.collatedIterator(null, collectionOdd.iterator(), collectionEven.iterator()); List<Integer> result = IteratorUtils.toList(it); List<Integer> combinedList = new ArrayList<Integer>(); combinedList.addAll(collectionOdd); combinedList.addAll(collectionEven); Collections.sort(combinedList); it = IteratorUtils.collatedIterator(null, collectionOdd.iterator(), emptyCollection.iterator()); result = IteratorUtils.toList(it); final Comparator<Integer> reverseComparator = ComparatorUtils.reversedComparator(ComparatorUtils.<Integer>naturalComparator()); Collections.reverse((List<Integer>) collectionOdd); Collections.reverse((List<Integer>) collectionEven); Collections.reverse(combinedList); it = IteratorUtils.collatedIterator(reverseComparator, collectionOdd.iterator(), collectionEven.iterator()); result = IteratorUtils.toList(it); }
+Code: public static <E> Iterator<E> collatedIterator(final Comparator<? super E> comparator, final Iterator<? extends E> iterator1, final Iterator<? extends E> iterator2) { @SuppressWarnings("unchecked") final Comparator<E> comp = comparator == null ? ComparatorUtils.NATURAL_COMPARATOR : comparator; return new CollatingIterator<E>(comp, iterator1, iterator2); }
+tensor([[0.0195, 0.0604, 0.0227,  ..., 0.0257, 0.0099, 0.0086],
+        [0.0203, 0.0546, 0.0221,  ..., 0.0320, 0.0117, 0.0099],
+        [0.0157, 0.0554, 0.0215,  ..., 0.0235, 0.0106, 0.0065],
+        ...,
+        [0.0184, 0.0667, 0.0185,  ..., 0.0291, 0.0099, 0.0069],
+        [0.0132, 0.0496, 0.0217,  ..., 0.0243, 0.0105, 0.0079],
+        [0.0144, 0.0591, 0.0197,  ..., 0.0275, 0.0115, 0.0077]])

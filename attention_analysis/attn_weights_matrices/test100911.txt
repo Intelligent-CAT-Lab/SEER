@@ -1,0 +1,10 @@
+100911
+Test: public void testAdd_RInterval1() { MutablePeriod test = new MutablePeriod(100L); test.add(new Interval(100L, 200L)); }
+Code: public int[] add(ReadablePartial partial, int fieldIndex, int[] values, int valueToAdd) { if (valueToAdd == 0) { return values; } if (DateTimeUtils.isContiguous(partial)) { long instant = 0L; for (int i = 0, isize = partial.size(); i < isize; i++) { instant = partial.getFieldType(i).getField(iChronology).set(instant, values[i]); } instant = add(instant, valueToAdd); return iChronology.get(partial, instant); } else { return super.add(partial, fieldIndex, values, valueToAdd); } }
+tensor([[0.0101, 0.0378, 0.0264,  ..., 0.0146, 0.0047, 0.0047],
+        [0.0113, 0.0336, 0.0219,  ..., 0.0197, 0.0045, 0.0045],
+        [0.0076, 0.0436, 0.0194,  ..., 0.0176, 0.0046, 0.0046],
+        ...,
+        [0.0081, 0.0470, 0.0251,  ..., 0.0150, 0.0040, 0.0040],
+        [0.0076, 0.0356, 0.0253,  ..., 0.0164, 0.0040, 0.0040],
+        [0.0076, 0.0356, 0.0253,  ..., 0.0164, 0.0040, 0.0040]])

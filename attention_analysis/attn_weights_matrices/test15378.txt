@@ -1,0 +1,10 @@
+15378
+Test: public void test107() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test107"); java.lang.Number number1 = org.apache.commons.cli.TypeHandler.createNumber("[ option: :: null :: org.apache.commons.cli.MissingOptionException: arg ]"); }
+Code: public static Number createNumber(String str) { try { if( str != null ) { if( str.indexOf('.') != -1 ) { return Double.valueOf(str); } else { return Long.valueOf(str); } } } catch (NumberFormatException nfe) { System.err.println(nfe.getMessage()); } return null; }
+tensor([[0.0219, 0.0591, 0.0149,  ..., 0.0236, 0.0464, 0.0085],
+        [0.0227, 0.0539, 0.0126,  ..., 0.0210, 0.0547, 0.0093],
+        [0.0209, 0.0471, 0.0113,  ..., 0.0289, 0.0423, 0.0071],
+        ...,
+        [0.0154, 0.0649, 0.0120,  ..., 0.0230, 0.0600, 0.0073],
+        [0.0220, 0.0474, 0.0125,  ..., 0.0252, 0.0411, 0.0088],
+        [0.0152, 0.0540, 0.0086,  ..., 0.0307, 0.0506, 0.0070]])

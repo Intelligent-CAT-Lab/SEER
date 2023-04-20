@@ -1,0 +1,10 @@
+60708
+Test: public void testGetOneLineOneParser() throws IOException { final CSVFormat format = CSVFormat.DEFAULT; try (final PipedWriter writer = new PipedWriter(); final CSVParser parser = new CSVParser(new PipedReader(writer), format)) { writer.append(CSV_INPUT_1); writer.append(format.getRecordSeparator()); final CSVRecord record1 = parser.nextRecord(); writer.append(CSV_INPUT_2); writer.append(format.getRecordSeparator()); final CSVRecord record2 = parser.nextRecord(); } }
+Code: public CSVParser(final Reader reader, final CSVFormat format, final long characterOffset, final long recordNumber) throws IOException { Assertions.notNull(reader, "reader"); Assertions.notNull(format, "format"); this.format = format; this.lexer = new Lexer(format, new ExtendedBufferedReader(reader)); this.headerMap = this.initializeHeader(); this.characterOffset = characterOffset; this.recordNumber = recordNumber - 1; }
+tensor([[0.0220, 0.0402, 0.0230,  ..., 0.0655, 0.0127, 0.0104],
+        [0.0228, 0.0511, 0.0177,  ..., 0.0841, 0.0106, 0.0109],
+        [0.0202, 0.0384, 0.0217,  ..., 0.0558, 0.0096, 0.0096],
+        ...,
+        [0.0247, 0.0343, 0.0180,  ..., 0.0572, 0.0117, 0.0118],
+        [0.0187, 0.0509, 0.0191,  ..., 0.0689, 0.0094, 0.0092],
+        [0.0169, 0.0393, 0.0176,  ..., 0.0731, 0.0105, 0.0099]])

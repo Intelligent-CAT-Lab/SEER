@@ -1,0 +1,23 @@
+65121
+Test: public void testPOJOBean() throws IOException { ObjectMapper mapper = new ObjectMapper(); ObjectNode n = mapper.getNodeFactory().objectNode(); n.set("pojo", mapper.getNodeFactory().pojoNode(new Bean())); StringWriter sw = new StringWriter(); JsonGenerator jg = mapper.getFactory().createGenerator(sw); mapper.writeTree(jg, n); Map<String,Object> result = (Map<String,Object>) mapper.readValue(sw.toString(), Map.class); Map<String,Object> bean = (Map<String,Object>) result.get("pojo"); jg.close(); }
+Code: public void writeTree(TreeNode node) throws IOException { _append(JsonToken.VALUE_EMBEDDED_OBJECT, node); }
+tensor([[0.0869, 0.0714, 0.1684, 0.1148, 0.1994, 0.0472, 0.1248, 0.0610, 0.0870,
+         0.0390],
+        [0.0703, 0.0622, 0.1810, 0.1135, 0.2485, 0.0403, 0.1263, 0.0349, 0.0846,
+         0.0383],
+        [0.0808, 0.0610, 0.1655, 0.1269, 0.2359, 0.0447, 0.1211, 0.0465, 0.0784,
+         0.0392],
+        [0.0805, 0.0670, 0.1846, 0.0992, 0.2238, 0.0482, 0.1438, 0.0455, 0.0787,
+         0.0287],
+        [0.0579, 0.0563, 0.1883, 0.1014, 0.2800, 0.0373, 0.1419, 0.0340, 0.0752,
+         0.0276],
+        [0.0722, 0.0572, 0.1495, 0.1085, 0.2784, 0.0407, 0.1286, 0.0490, 0.0886,
+         0.0274],
+        [0.0941, 0.0808, 0.1356, 0.1153, 0.1698, 0.0607, 0.1361, 0.0592, 0.0979,
+         0.0504],
+        [0.0647, 0.0531, 0.1960, 0.0797, 0.2527, 0.0511, 0.1413, 0.0484, 0.0806,
+         0.0323],
+        [0.0753, 0.0716, 0.1755, 0.1062, 0.2096, 0.0528, 0.1167, 0.0573, 0.0944,
+         0.0407],
+        [0.0649, 0.0592, 0.1360, 0.0901, 0.2743, 0.0500, 0.1562, 0.0506, 0.0847,
+         0.0341]])

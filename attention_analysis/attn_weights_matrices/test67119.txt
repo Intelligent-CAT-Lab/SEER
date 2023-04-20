@@ -1,0 +1,10 @@
+67119
+Test: public void testEnumWithJsonValue() throws Exception { final Set<String> values = new TreeSet<String>(); MAPPER.acceptJsonFormatVisitor(TestEnumWithJsonValue.class, new JsonFormatVisitorWrapper.Base() { @Override public JsonStringFormatVisitor expectStringFormat(JavaType type) { return new JsonStringFormatVisitor() { @Override public void enumTypes(Set<String> enums) { values.addAll(enums); } @Override public void format(JsonValueFormat format) { } }; } }); TreeSet<String> exp = new TreeSet<String>(Arrays.asList( "value-A", "value-B", "value-C" )); }
+Code: public static void addAll(Map<String, JsonSerializer<?>> allDeserializers) { final JsonSerializer<?> intS = new IntegerSerializer(); allDeserializers.put(Integer.class.getName(), intS); allDeserializers.put(Integer.TYPE.getName(), intS); allDeserializers.put(Long.class.getName(), LongSerializer.instance); allDeserializers.put(Long.TYPE.getName(), LongSerializer.instance); allDeserializers.put(Byte.class.getName(), IntLikeSerializer.instance); allDeserializers.put(Byte.TYPE.getName(), IntLikeSerializer.instance); allDeserializers.put(Short.class.getName(), ShortSerializer.instance); allDeserializers.put(Short.TYPE.getName(), ShortSerializer.instance); allDeserializers.put(Float.class.getName(), FloatSerializer.instance); allDeserializers.put(Float.TYPE.getName(), FloatSerializer.instance); allDeserializers.put(Double.class.getName(), DoubleSerializer.instance); allDeserializers.put(Double.TYPE.getName(), DoubleSerializer.instance); }
+tensor([[0.0167, 0.0554, 0.0139,  ..., 0.0170, 0.0288, 0.0078],
+        [0.0180, 0.0516, 0.0127,  ..., 0.0161, 0.0414, 0.0095],
+        [0.0130, 0.0494, 0.0118,  ..., 0.0185, 0.0383, 0.0075],
+        ...,
+        [0.0133, 0.0646, 0.0092,  ..., 0.0152, 0.0358, 0.0052],
+        [0.0148, 0.0606, 0.0095,  ..., 0.0178, 0.0309, 0.0057],
+        [0.0126, 0.0533, 0.0117,  ..., 0.0151, 0.0362, 0.0070]])

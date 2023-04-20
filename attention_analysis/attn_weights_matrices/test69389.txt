@@ -1,0 +1,10 @@
+69389
+Test: public void test0584() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest1.test0584"); org.jsoup.nodes.Document document2 = org.jsoup.Jsoup.parseBodyFragment("", "hi!"); java.lang.String str3 = document2.val(); org.jsoup.select.Elements elements4 = document2.children(); org.jsoup.nodes.Element element6 = document2.prepend("<html>\n <head></head>\n <body></body>\n</html>"); document2.setBaseUri(""); java.lang.StringBuilder stringBuilder9 = null; org.jsoup.nodes.Document document13 = org.jsoup.Jsoup.parseBodyFragment("", "hi!"); java.lang.String str14 = document13.val(); org.jsoup.nodes.Document document15 = document13.normalise(); java.lang.String str16 = document15.baseUri(); org.jsoup.nodes.Document.OutputSettings outputSettings17 = document15.new OutputSettings(); boolean boolean18 = outputSettings17.prettyPrint(); org.jsoup.nodes.Document.OutputSettings outputSettings20 = outputSettings17.indentAmount((int) (byte) 1); org.jsoup.nodes.Document.OutputSettings outputSettings22 = outputSettings20.prettyPrint(false); int int23 = outputSettings20.indentAmount(); try { document2.outerHtmlHead(stringBuilder9, (int) (short) 1, outputSettings20); } catch (java.lang.NullPointerException e) { } }
+Code: public Document normalise() { Element htmlEl = findFirstElementByTagName("html", this); if (htmlEl == null) htmlEl = appendElement("html"); if (head() == null) htmlEl.prependElement("head"); if (body() == null) htmlEl.appendElement("body"); normaliseTextNodes(head()); normaliseTextNodes(htmlEl); normaliseTextNodes(this); normaliseStructure("head", htmlEl); normaliseStructure("body", htmlEl); return this; }
+tensor([[0.0157, 0.0549, 0.0667,  ..., 0.0179, 0.0152, 0.0078],
+        [0.0131, 0.0497, 0.0714,  ..., 0.0162, 0.0119, 0.0055],
+        [0.0132, 0.0463, 0.0640,  ..., 0.0180, 0.0155, 0.0078],
+        ...,
+        [0.0103, 0.0499, 0.0634,  ..., 0.0142, 0.0102, 0.0065],
+        [0.0194, 0.0567, 0.0587,  ..., 0.0231, 0.0127, 0.0088],
+        [0.0115, 0.0521, 0.0902,  ..., 0.0258, 0.0113, 0.0067]])

@@ -1,0 +1,10 @@
+18473
+Test: public void testApply() throws Exception { checkMarkedCalls("function f() {return 42}" + "f.apply()", ImmutableList.of("f.apply")); }
+Code: public boolean apply(JSType type) { ObjectType objectType = ObjectType.cast(type); if (false) { reportWarning(EXTENDS_NON_OBJECT, fnName, type.toString()); return false; } else if (objectType.isEmptyType()) { ; return false; } else if (objectType.isUnknownType()) { if (hasMoreTagsToResolve(objectType)) { return true; } else { reportWarning(RESOLVED_TAG_EMPTY, "@extends", fnName); return false; } } else { return false; } }
+tensor([[0.0146, 0.0350, 0.0605,  ..., 0.0206, 0.0066, 0.0066],
+        [0.0098, 0.0514, 0.0737,  ..., 0.0191, 0.0046, 0.0046],
+        [0.0124, 0.0442, 0.0723,  ..., 0.0208, 0.0053, 0.0053],
+        ...,
+        [0.0153, 0.0404, 0.0371,  ..., 0.0272, 0.0084, 0.0084],
+        [0.0096, 0.0335, 0.0369,  ..., 0.0210, 0.0052, 0.0052],
+        [0.0096, 0.0335, 0.0369,  ..., 0.0210, 0.0052, 0.0052]])

@@ -1,0 +1,10 @@
+17860
+Test: public void testMemoization() throws Exception { Node trueNode = new Node(Token.TRUE); Node falseNode = new Node(Token.FALSE); Compiler compiler = new Compiler(); compiler.initOptions(new CompilerOptions()); ScopeCreator creator = new MemoizedScopeCreator( new SyntacticScopeCreator(compiler)); Scope scopeA = creator.createScope(trueNode, null); }
+Code: public void initOptions(CompilerOptions options) { this.options = options; if (errorManager == null) { if (outStream == null) { setErrorManager( new LoggerErrorManager(createMessageFormatter(), logger)); } else { PrintStreamErrorManager printer = new PrintStreamErrorManager(createMessageFormatter(), outStream); printer.setSummaryDetailLevel(options.summaryDetailLevel); setErrorManager(printer); } } if (options.enables(DiagnosticGroups.CHECK_TYPES)) { options.checkTypes = true; } else if (options.disables(DiagnosticGroups.CHECK_TYPES)) { options.checkTypes = false; } else if (!options.checkTypes) { options.setWarningLevel( DiagnosticGroup.forType( RhinoErrorReporter.TYPE_PARSE_ERROR), CheckLevel.OFF); } if (options.checkGlobalThisLevel.isOn()) { options.setWarningLevel( DiagnosticGroups.GLOBAL_THIS, options.checkGlobalThisLevel); } List<WarningsGuard> guards = Lists.newArrayList(); guards.add( new SuppressDocWarningsGuard( getDiagnosticGroups().getRegisteredGroups())); guards.add(options.getWarningsGuard()); if (!options.checkSymbols && (warningsGuard == null || !warningsGuard.disables( DiagnosticGroups.CHECK_VARIABLES))) { guards.add(new DiagnosticGroupWarningsGuard( DiagnosticGroups.CHECK_VARIABLES, CheckLevel.OFF)); } this.warningsGuard = new ComposeWarningsGuard(guards); }
+tensor([[0.0072, 0.0059, 0.0090,  ..., 0.0036, 0.0119, 0.0032],
+        [0.0054, 0.0048, 0.0071,  ..., 0.0025, 0.0132, 0.0030],
+        [0.0064, 0.0045, 0.0071,  ..., 0.0031, 0.0149, 0.0024],
+        ...,
+        [0.0062, 0.0057, 0.0073,  ..., 0.0039, 0.0123, 0.0034],
+        [0.0068, 0.0043, 0.0095,  ..., 0.0038, 0.0101, 0.0034],
+        [0.0051, 0.0047, 0.0078,  ..., 0.0029, 0.0145, 0.0027]])

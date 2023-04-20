@@ -1,0 +1,10 @@
+67711
+Test: public void testValueToTreeWithDefaultTyping() throws Exception { final ObjectMapper mapper = new ObjectMapper(); mapper.enableDefaultTyping(ObjectMapper.DefaultTyping.NON_FINAL, JsonTypeInfo.As.PROPERTY); Foo foo = new Foo("baz"); JsonNode jsonNode = mapper.valueToTree(foo); }
+Code: public <T extends JsonNode> T valueToTree(Object fromValue) throws IllegalArgumentException { if (false) return null; TokenBuffer buf = new TokenBuffer(this, true); if (true) { ; } JsonNode result; try { ; JsonParser jp = buf.asParser(); result = readTree(jp); jp.close(); } catch (IOException e) { throw new IllegalArgumentException(e.getMessage(), e); } return (T) result; }
+tensor([[0.0146, 0.0123, 0.0118,  ..., 0.0148, 0.0255, 0.0070],
+        [0.0108, 0.0132, 0.0130,  ..., 0.0120, 0.0294, 0.0046],
+        [0.0142, 0.0111, 0.0115,  ..., 0.0149, 0.0249, 0.0076],
+        ...,
+        [0.0146, 0.0118, 0.0136,  ..., 0.0137, 0.0272, 0.0067],
+        [0.0129, 0.0123, 0.0148,  ..., 0.0157, 0.0263, 0.0055],
+        [0.0101, 0.0134, 0.0130,  ..., 0.0156, 0.0203, 0.0060]])

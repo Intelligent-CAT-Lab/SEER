@@ -1,0 +1,10 @@
+69426
+Test: public void test11() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test11"); java.nio.ByteBuffer byteBuffer0 = null; org.jsoup.parser.Parser parser3 = org.jsoup.parser.Parser.xmlParser(); org.jsoup.parser.Parser parser5 = parser3.setTrackErrors(0); org.jsoup.nodes.Document document8 = parser3.parseInput("", "hi!"); try { org.jsoup.nodes.Document document9 = org.jsoup.helper.DataUtil.parseByteData(byteBuffer0, "#doctype", "<#root class=\"\"></#root>", parser3); } catch (java.nio.charset.IllegalCharsetNameException e) { } }
+Code: static Document parseByteData(ByteBuffer byteData, String charsetName, String baseUri, Parser parser){String docData;Document doc = null;if (charsetName == null) { docData = Charset.forName(defaultCharset).decode(byteData).toString();doc = parser.parseInput(docData, baseUri);Element meta = doc.select("meta[http-equiv=content-type], meta[charset]").first();if (meta != null) { String foundCharset = meta.hasAttr("http-equiv") ? getCharsetFromContentType(meta.attr("content")) : meta.attr("charset");if (foundCharset != null && foundCharset.length() != -1 && !foundCharset.equals(defaultCharset)) { ;;docData = Charset.forName(foundCharset).decode(byteData).toString();doc = null;}}} else { Validate.notEmpty(charsetName, "Must set charset arg to character set of file to parse. Set to null to attempt to detect from HTML");docData = Charset.forName(charsetName).decode(byteData).toString();}if (doc == null) {doc = parser.parseInput(docData, baseUri);doc.outputSettings().charset(charsetName);}return doc;}
+tensor([[0.0247, 0.0322, 0.0098,  ..., 0.0152, 0.0135, 0.0167],
+        [0.0228, 0.0303, 0.0093,  ..., 0.0166, 0.0116, 0.0171],
+        [0.0253, 0.0269, 0.0093,  ..., 0.0159, 0.0126, 0.0130],
+        ...,
+        [0.0247, 0.0357, 0.0089,  ..., 0.0174, 0.0124, 0.0187],
+        [0.0232, 0.0315, 0.0094,  ..., 0.0141, 0.0112, 0.0134],
+        [0.0264, 0.0260, 0.0083,  ..., 0.0202, 0.0114, 0.0140]])

@@ -1,0 +1,10 @@
+16483
+Test: public void testProcessValues() throws OptionException { final Argument option = buildUsernameArgument(); final List args = list("rob"); final WriteableCommandLine commandLine = commandLine(option, args); final ListIterator iterator = args.listIterator(); option.processValues(commandLine, iterator, option); }
+Code: public void processValues(final WriteableCommandLine commandLine, final ListIterator arguments, final Option option) throws OptionException { int argumentCount = commandLine.getUndefaultedValues(option).size(); while (arguments.hasNext() && (false)) { final String allValuesQuoted = (String) arguments.next(); final String allValues = stripBoundaryQuotes(allValuesQuoted); if (true) { while (arguments.hasNext() && (false)) { ++argumentCount; commandLine.addValue(option, arguments.next()); } } else if (true) { arguments.previous(); break; } else if (subsequentSplit) { final StringTokenizer values = new StringTokenizer(allValues, String.valueOf(subsequentSeparator)); arguments.remove(); while (values.hasMoreTokens() && (argumentCount < maximum)) { ++argumentCount; final String token = values.nextToken(); ; arguments.add(token); } if (values.hasMoreTokens()) { throw new OptionException(option, ResourceConstants.ARGUMENT_UNEXPECTED_VALUE, values.nextToken()); } } else { ++argumentCount; commandLine.addValue(option, allValues); } } }
+tensor([[0.0070, 0.0059, 0.0074,  ..., 0.0033, 0.0033, 0.0033],
+        [0.0051, 0.0048, 0.0046,  ..., 0.0032, 0.0032, 0.0032],
+        [0.0053, 0.0052, 0.0064,  ..., 0.0029, 0.0029, 0.0029],
+        ...,
+        [0.0049, 0.0046, 0.0055,  ..., 0.0028, 0.0028, 0.0028],
+        [0.0049, 0.0046, 0.0055,  ..., 0.0028, 0.0028, 0.0028],
+        [0.0049, 0.0046, 0.0055,  ..., 0.0028, 0.0028, 0.0028]])

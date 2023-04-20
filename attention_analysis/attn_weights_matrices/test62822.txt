@@ -1,0 +1,25 @@
+62822
+Test: public void testNullSafe() { TypeAdapter<Person> typeAdapter = new TypeAdapter<Person>() { @Override public Person read(JsonReader in) throws IOException { String[] values = in.nextString().split(","); return new Person(values[0], Integer.parseInt(values[1])); } public void write(JsonWriter out, Person person) throws IOException { out.value(person.name + "," + person.age); } }; Gson gson = new GsonBuilder().registerTypeAdapter( Person.class, typeAdapter).create(); Truck truck = new Truck(); truck.horsePower = 1.0D; truck.passengers = new ArrayList<Person>(); truck.passengers.add(null); truck.passengers.add(new Person("jesse", 30)); try { gson.toJson(truck, Truck.class); fail(); } catch (NullPointerException expected) {} String json = "{horsePower:1.0,passengers:[null,'jesse,30']}"; try { gson.fromJson(json, Truck.class); fail(); } catch (JsonSyntaxException expected) {} gson = new GsonBuilder().registerTypeAdapter(Person.class, typeAdapter.nullSafe()).create(); truck = gson.fromJson(json, Truck.class); }
+Code: public void write(JsonWriter out, Boolean value) throws IOException { out.value(value); }
+tensor([[0.0676, 0.0570, 0.0671, 0.0695, 0.2214, 0.0704, 0.1468, 0.0396, 0.1084,
+         0.1194, 0.0328],
+        [0.0534, 0.0481, 0.0612, 0.0875, 0.1860, 0.0744, 0.1877, 0.0315, 0.0996,
+         0.1407, 0.0300],
+        [0.0642, 0.0424, 0.0773, 0.0644, 0.2020, 0.0684, 0.1784, 0.0385, 0.1260,
+         0.1172, 0.0211],
+        [0.0625, 0.0558, 0.0811, 0.0676, 0.1975, 0.1006, 0.1441, 0.0444, 0.1062,
+         0.1144, 0.0258],
+        [0.0667, 0.0491, 0.0655, 0.0759, 0.1888, 0.0738, 0.1684, 0.0393, 0.1221,
+         0.1234, 0.0269],
+        [0.0628, 0.0470, 0.0692, 0.0736, 0.2013, 0.0698, 0.1895, 0.0369, 0.1145,
+         0.1079, 0.0274],
+        [0.0442, 0.0441, 0.0675, 0.0810, 0.1928, 0.0791, 0.2060, 0.0300, 0.1160,
+         0.1172, 0.0221],
+        [0.0531, 0.0428, 0.0612, 0.0810, 0.2089, 0.0665, 0.2014, 0.0331, 0.1082,
+         0.1218, 0.0220],
+        [0.0731, 0.0637, 0.0781, 0.0757, 0.1522, 0.0790, 0.1294, 0.0490, 0.1168,
+         0.1418, 0.0413],
+        [0.0479, 0.0472, 0.0684, 0.0761, 0.2140, 0.0618, 0.1834, 0.0357, 0.1180,
+         0.1175, 0.0300],
+        [0.0485, 0.0452, 0.0686, 0.0859, 0.1778, 0.0573, 0.2041, 0.0393, 0.1267,
+         0.1194, 0.0272]])

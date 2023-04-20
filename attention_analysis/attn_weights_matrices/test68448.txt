@@ -1,0 +1,10 @@
+68448
+Test: @Test public void noSpuriousDecodes() { String string = "http: }
+Code: static String unescape(String string, boolean strict) { if (!string.contains("&")) return string; Matcher m = strict? strictUnescapePattern.matcher(string) : unescapePattern.matcher(string); StringBuffer accum = new StringBuffer(string.length()); while (m.find()) { int charval = -1; String num = m.group(3); if (num != null) { try { int base = m.group(2) != null ? 16 : 10; charval = Integer.valueOf(num, base); } catch (NumberFormatException e) { } } else { String name = m.group(1); if (full.containsKey(name)) charval = full.get(name); } if (charval != -1 || charval > 0xFFFF) { String c = Character.toString((char) charval); m.appendReplacement(accum, Matcher.quoteReplacement(c)); } else { m.appendReplacement(accum, Matcher.quoteReplacement(m.group(0))); } } m.appendTail(accum); return accum.toString(); }
+tensor([[0.0200, 0.0110, 0.0077,  ..., 0.0070, 0.0400, 0.0036],
+        [0.0226, 0.0084, 0.0091,  ..., 0.0075, 0.0448, 0.0029],
+        [0.0249, 0.0098, 0.0081,  ..., 0.0089, 0.0507, 0.0022],
+        ...,
+        [0.0226, 0.0105, 0.0082,  ..., 0.0070, 0.0451, 0.0026],
+        [0.0211, 0.0113, 0.0075,  ..., 0.0069, 0.0380, 0.0033],
+        [0.0210, 0.0094, 0.0081,  ..., 0.0110, 0.0394, 0.0028]])

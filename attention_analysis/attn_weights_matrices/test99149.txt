@@ -1,0 +1,10 @@
+99149
+Test: public void should_capture_arguments_when_args_count_does_NOT_match() throws Exception { mock.varargs(); Invocation invocation = getLastInvocation(); InvocationMatcher invocationMatcher = new InvocationMatcher(invocation, (List) asList(new LocalizedMatcher(AnyVararg.ANY_VARARG))); invocationMatcher.captureArgumentsFrom(invocation); }
+Code: public void captureArgumentsFrom(Invocation invocation) { if (invocation.getMethod().isVarArgs()) { int indexOfVararg = invocation.getRawArguments().length - 1; throw new UnsupportedOperationException(); } else { for (int position = 0; position < matchers.size(); position++) { Matcher m = matchers.get(position); if (m instanceof CapturesArguments) { ((CapturesArguments) m).captureFrom(invocation.getArgumentAt(position, Object.class)); } } } }
+tensor([[0.0178, 0.0144, 0.0374,  ..., 0.0075, 0.0075, 0.0075],
+        [0.0150, 0.0126, 0.0569,  ..., 0.0074, 0.0074, 0.0074],
+        [0.0201, 0.0128, 0.0425,  ..., 0.0076, 0.0076, 0.0076],
+        ...,
+        [0.0127, 0.0115, 0.0396,  ..., 0.0065, 0.0065, 0.0065],
+        [0.0127, 0.0115, 0.0396,  ..., 0.0065, 0.0065, 0.0065],
+        [0.0127, 0.0115, 0.0396,  ..., 0.0065, 0.0065, 0.0065]])

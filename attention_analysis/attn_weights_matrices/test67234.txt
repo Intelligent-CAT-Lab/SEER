@@ -1,0 +1,10 @@
+67234
+Test: public void test45() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test45"); com.fasterxml.jackson.core.ObjectCodec objectCodec0 = null; com.fasterxml.jackson.databind.util.TokenBuffer tokenBuffer2 = new com.fasterxml.jackson.databind.util.TokenBuffer(objectCodec0, false); boolean boolean3 = tokenBuffer2._hasNativeTypeIds; com.fasterxml.jackson.databind.node.NullNode nullNode4 = com.fasterxml.jackson.databind.node.NullNode.instance; com.fasterxml.jackson.core.JsonToken jsonToken5 = nullNode4.asToken(); com.fasterxml.jackson.databind.node.ShortNode shortNode7 = com.fasterxml.jackson.databind.node.ShortNode.valueOf((short) (byte) 100); tokenBuffer2._append(jsonToken5, (java.lang.Object) shortNode7); java.math.BigDecimal bigDecimal9 = null; tokenBuffer2.writeNumber(bigDecimal9); tokenBuffer2.writeEndObject(); com.fasterxml.jackson.core.ObjectCodec objectCodec12 = null; com.fasterxml.jackson.core.JsonGenerator jsonGenerator13 = tokenBuffer2.setCodec(objectCodec12); }
+Code: public TokenBuffer(JsonParser p, DeserializationContext ctxt) { _objectCodec = p.getCodec(); _generatorFeatures = DEFAULT_GENERATOR_FEATURES; _writeContext = JsonWriteContext.createRootContext(null); _first = _last = new Segment(); _appendAt = 0; _hasNativeTypeIds = p.canReadTypeId(); _hasNativeObjectIds = p.canReadObjectId(); _mayHaveNativeIds = _hasNativeTypeIds | _hasNativeObjectIds; }
+tensor([[0.0227, 0.0212, 0.0319,  ..., 0.0179, 0.0234, 0.0100],
+        [0.0187, 0.0221, 0.0393,  ..., 0.0127, 0.0250, 0.0083],
+        [0.0168, 0.0222, 0.0301,  ..., 0.0119, 0.0225, 0.0092],
+        ...,
+        [0.0190, 0.0257, 0.0408,  ..., 0.0144, 0.0212, 0.0092],
+        [0.0181, 0.0183, 0.0389,  ..., 0.0106, 0.0231, 0.0081],
+        [0.0156, 0.0180, 0.0344,  ..., 0.0119, 0.0262, 0.0083]])

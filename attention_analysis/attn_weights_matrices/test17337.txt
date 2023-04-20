@@ -1,0 +1,10 @@
+17337
+Test: public void testInlineWithThis7() { assumeStrictThis = true; test("function f(a){a=1;this} f.call();", "{var a$$inline_1=void 0; a$$inline_1=1; void 0;}"); test("function f(a){a=1;this} f.call(x, x);", "{var a$$inline_1=x; a$$inline_1=1; x;}"); }
+Code: public Void call() throws Exception { if (options.printInputDelimiter) { if ((cb.getLength() > 0) && !cb.endsWith("\n")) { cb.append("\n"); } Preconditions.checkState(root.getType() == Token.SCRIPT); String delimiter = options.inputDelimiter; String sourceName = (String)root.getProp(Node.SOURCENAME_PROP); Preconditions.checkState(sourceName != null); Preconditions.checkState(!sourceName.isEmpty()); delimiter = delimiter.replaceAll("%name%", sourceName) .replaceAll("%num%", String.valueOf(inputSeqNum)); cb.append(delimiter) .append("\n"); } if (root.getJSDocInfo() != null && root.getJSDocInfo().getLicense() != null) { cb.append("\n"); } if (options.sourceMapOutputPath != null) { sourceMap.setStartingPosition( cb.getLineIndex(), cb.getColumnIndex()); } String code = toSource(root, sourceMap); if (!code.isEmpty()) { cb.append(code); int length = code.length(); char lastChar = code.charAt(length - 1); char secondLastChar = length >= 2 ? code.charAt(length - 2) : '\0'; boolean hasSemiColon = lastChar == ';' || (lastChar == '\n' && secondLastChar == ';'); if (!hasSemiColon) { cb.append(";"); } } return null; }
+tensor([[0.0057, 0.0062, 0.0139,  ..., 0.0064, 0.0120, 0.0026],
+        [0.0046, 0.0055, 0.0132,  ..., 0.0049, 0.0142, 0.0024],
+        [0.0054, 0.0072, 0.0129,  ..., 0.0080, 0.0149, 0.0026],
+        ...,
+        [0.0037, 0.0054, 0.0145,  ..., 0.0053, 0.0130, 0.0021],
+        [0.0054, 0.0058, 0.0130,  ..., 0.0067, 0.0106, 0.0026],
+        [0.0041, 0.0076, 0.0126,  ..., 0.0087, 0.0140, 0.0022]])

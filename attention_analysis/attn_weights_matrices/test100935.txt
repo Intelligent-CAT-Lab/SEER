@@ -1,0 +1,10 @@
+100935
+Test: public void testBug3192457_adjustOffset() { final DateTimeZone zone = DateTimeZone.forID("Europe/Paris"); DateTime base = new DateTime(2007, 10, 28, 3, 15, zone); DateTime baseBefore = base.minusHours(2); DateTime baseAfter = base.minusHours(1); }
+Code: public long adjustOffset(long instant, boolean earlierOrLater) { long instantBefore = convertUTCToLocal(instant - 3 * DateTimeConstants.MILLIS_PER_HOUR); long instantAfter = convertUTCToLocal(instant + 3 * DateTimeConstants.MILLIS_PER_HOUR); if (instantBefore == instantAfter) { return instant; } long local = convertUTCToLocal(instant); return convertLocalToUTC(local, false, earlierOrLater ? instantAfter : instantBefore); }
+tensor([[0.0183, 0.0297, 0.0339,  ..., 0.0177, 0.0477, 0.0082],
+        [0.0127, 0.0254, 0.0383,  ..., 0.0147, 0.0853, 0.0077],
+        [0.0170, 0.0259, 0.0407,  ..., 0.0159, 0.0757, 0.0064],
+        ...,
+        [0.0181, 0.0251, 0.0320,  ..., 0.0126, 0.0488, 0.0098],
+        [0.0195, 0.0236, 0.0308,  ..., 0.0148, 0.0422, 0.0080],
+        [0.0133, 0.0216, 0.0375,  ..., 0.0126, 0.0560, 0.0074]])

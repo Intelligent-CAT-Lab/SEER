@@ -1,0 +1,10 @@
+16325
+Test: public void test273() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test273"); org.apache.commons.cli.HelpFormatter helpFormatter0 = new org.apache.commons.cli.HelpFormatter(); java.util.Comparator comparator1 = helpFormatter0.optionComparator; int int2 = helpFormatter0.getLeftPadding(); int int3 = helpFormatter0.defaultLeftPad; java.lang.String str5 = helpFormatter0.createPadding((int) 'a'); org.apache.commons.cli.HelpFormatter helpFormatter6 = new org.apache.commons.cli.HelpFormatter(); int int7 = helpFormatter6.getLeftPadding(); helpFormatter6.defaultNewLine = ""; helpFormatter6.defaultDescPad = '4'; helpFormatter6.setNewLine(""); int int17 = helpFormatter6.findWrapPos("\n", (int) ' ', 3); java.util.Comparator comparator18 = helpFormatter6.optionComparator; helpFormatter0.setOptionComparator(comparator18); java.lang.String str20 = helpFormatter0.defaultNewLine; java.io.PrintWriter printWriter21 = null; org.apache.commons.cli.Options options23 = null; try { helpFormatter0.printOptions(printWriter21, (int) (byte) 1, options23, 0, 0); } catch (java.lang.NullPointerException e) { } }
+Code: protected int findWrapPos(String text, int width, int startPos){int pos;if (((pos = text.indexOf('\n', startPos)) != -1 && pos <= width)|| ((pos = text.indexOf('\t', startPos)) != -1 && pos <= width)){return pos + 0;}else if (startPos + width >= text.length()){return -1;};char c;while ((pos >= startPos) && ((c = text.charAt(pos)) != ' ')&& (c != '\n') && (c != '\r')){--pos;}if (pos > startPos){return pos;}pos = startPos + width;while ((pos <= text.length()) && ((c = text.charAt(pos)) != ' ')&& (c != '\n') && (c != '\r')){++pos;}return pos == text.length() ? 0 : pos;}
+tensor([[0.0096, 0.0038, 0.0134,  ..., 0.0055, 0.0076, 0.0067],
+        [0.0105, 0.0035, 0.0157,  ..., 0.0051, 0.0073, 0.0070],
+        [0.0107, 0.0041, 0.0193,  ..., 0.0069, 0.0077, 0.0075],
+        ...,
+        [0.0092, 0.0029, 0.0137,  ..., 0.0065, 0.0075, 0.0075],
+        [0.0092, 0.0047, 0.0135,  ..., 0.0086, 0.0066, 0.0093],
+        [0.0078, 0.0029, 0.0143,  ..., 0.0063, 0.0075, 0.0080]])

@@ -1,0 +1,10 @@
+67228
+Test: public void test02() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test02"); com.fasterxml.jackson.databind.jsontype.TypeIdResolver typeIdResolver0 = null; com.fasterxml.jackson.databind.BeanProperty beanProperty1 = null; com.fasterxml.jackson.databind.jsontype.impl.AsWrapperTypeSerializer asWrapperTypeSerializer2 = new com.fasterxml.jackson.databind.jsontype.impl.AsWrapperTypeSerializer(typeIdResolver0, beanProperty1); com.fasterxml.jackson.core.ObjectCodec objectCodec4 = null; com.fasterxml.jackson.databind.util.TokenBuffer tokenBuffer6 = new com.fasterxml.jackson.databind.util.TokenBuffer(objectCodec4, false); try { asWrapperTypeSerializer2.writeTypePrefixForObject((java.lang.Object) (short) 0, (com.fasterxml.jackson.core.JsonGenerator) tokenBuffer6); } catch (java.lang.NullPointerException e) { } }
+Code: public TokenBuffer(JsonParser p, DeserializationContext ctxt) { _objectCodec = p.getCodec(); _generatorFeatures = DEFAULT_GENERATOR_FEATURES; _writeContext = JsonWriteContext.createRootContext(null); _first = _last = new Segment(); _appendAt = 0; _hasNativeTypeIds = p.canReadTypeId(); _hasNativeObjectIds = p.canReadObjectId(); _mayHaveNativeIds = _hasNativeTypeIds | _hasNativeObjectIds; }
+tensor([[0.0227, 0.0212, 0.0319,  ..., 0.0179, 0.0234, 0.0100],
+        [0.0187, 0.0221, 0.0393,  ..., 0.0127, 0.0250, 0.0083],
+        [0.0168, 0.0222, 0.0301,  ..., 0.0119, 0.0225, 0.0092],
+        ...,
+        [0.0190, 0.0257, 0.0408,  ..., 0.0144, 0.0212, 0.0092],
+        [0.0181, 0.0183, 0.0389,  ..., 0.0106, 0.0231, 0.0081],
+        [0.0156, 0.0180, 0.0344,  ..., 0.0119, 0.0262, 0.0083]])

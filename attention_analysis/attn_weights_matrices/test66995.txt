@@ -1,0 +1,10 @@
+66995
+Test: public void testHandlingOfUnrecognized() throws Exception { UnrecognizedPropertyException exc = null; try { new ObjectMapper().readValue("{\"bar\":3}", Bean.class); } catch (UnrecognizedPropertyException e) { exc = e; } if (exc == null) { fail("Should have failed binding"); } verifyException(exc, "propX"); }
+Code: public String getPropertyName() { return _typeSerializer.getPropertyName(); }
+tensor([[0.1370, 0.1810, 0.0785, 0.1471, 0.1464, 0.2593, 0.0506],
+        [0.1499, 0.1831, 0.0881, 0.1644, 0.1448, 0.2242, 0.0454],
+        [0.1279, 0.2294, 0.0655, 0.1657, 0.1462, 0.2228, 0.0424],
+        [0.1275, 0.2069, 0.0895, 0.1719, 0.1511, 0.1871, 0.0659],
+        [0.0990, 0.2621, 0.0731, 0.1568, 0.1500, 0.2140, 0.0448],
+        [0.1030, 0.2540, 0.1138, 0.1368, 0.1451, 0.2097, 0.0376],
+        [0.1035, 0.1903, 0.0863, 0.1601, 0.1954, 0.2248, 0.0396]])

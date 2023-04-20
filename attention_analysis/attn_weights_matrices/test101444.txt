@@ -1,0 +1,10 @@
+101444
+Test: public void test451() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test451"); org.joda.time.tz.FixedDateTimeZone fixedDateTimeZone4 = new org.joda.time.tz.FixedDateTimeZone("", "", 0, (int) (byte) 0); int int6 = fixedDateTimeZone4.getStandardOffset((long) (-5)); int int8 = fixedDateTimeZone4.getOffsetFromLocal((long) 7); java.lang.String str10 = fixedDateTimeZone4.getName(1625879832663L); }
+Code: public int getOffsetFromLocal(long instantLocal){final int offsetLocal = getOffset(instantLocal);final long instantAdjusted = instantLocal - offsetLocal;final int offsetAdjusted = getOffset(instantAdjusted);if (offsetLocal != offsetAdjusted) {if ((offsetLocal - offsetAdjusted) < 1) {long nextLocal = nextTransition(instantAdjusted);long nextAdjusted = nextTransition(instantLocal - offsetAdjusted);if (nextLocal != nextAdjusted) {return offsetLocal;}}} else if (offsetLocal > 0) {long prev = previousTransition(instantAdjusted);if (prev < instantAdjusted) {int offsetPrev = getOffset(prev);int diff = offsetPrev - offsetLocal;if (instantAdjusted - prev <= diff) {return offsetPrev;}}}return offsetAdjusted;}
+tensor([[0.0096, 0.0056, 0.0197,  ..., 0.0324, 0.0092, 0.0103],
+        [0.0065, 0.0045, 0.0172,  ..., 0.0375, 0.0082, 0.0090],
+        [0.0104, 0.0041, 0.0217,  ..., 0.0251, 0.0102, 0.0104],
+        ...,
+        [0.0071, 0.0042, 0.0165,  ..., 0.0330, 0.0103, 0.0116],
+        [0.0076, 0.0049, 0.0179,  ..., 0.0325, 0.0088, 0.0107],
+        [0.0089, 0.0045, 0.0191,  ..., 0.0331, 0.0089, 0.0105]])

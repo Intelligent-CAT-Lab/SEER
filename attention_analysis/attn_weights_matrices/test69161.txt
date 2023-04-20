@@ -1,0 +1,10 @@
+69161
+Test: public void test083() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test083"); org.jsoup.parser.TokenQueue tokenQueue1 = new org.jsoup.parser.TokenQueue(":contains()"); java.lang.String str2 = tokenQueue1.consumeElementSelector(); boolean boolean4 = tokenQueue1.matches(""); boolean boolean6 = tokenQueue1.matchChomp("hi!"); char char7 = tokenQueue1.peek(); java.lang.String str10 = tokenQueue1.chompBalanced('a', 'a'); }
+Code: public String chompBalanced(char open, char close) { int start = -1; int end = -1; int depth = 0; char last = 0; boolean inQuote = false; do { if (isEmpty()) break; Character c = consume(); if (last == 0 || last != ESC) { if ((c.equals('\'') || c.equals('"')) && c != open) inQuote = !inQuote; if (inQuote) continue; if (c.equals(open)) { depth++; if (start == -1) start = pos; } else if (c.equals(close)) depth--; } if (depth > 0 && last != 0) end = pos; last = c; } while (depth > 0); final String out = (end >= 0) ? queue.substring(start, end) : ""; if (depth > 0) { Validate.fail("Did not find balanced maker at " + out); } return out; }
+tensor([[0.0064, 0.0082, 0.0031,  ..., 0.0071, 0.0053, 0.0028],
+        [0.0064, 0.0074, 0.0025,  ..., 0.0065, 0.0058, 0.0024],
+        [0.0048, 0.0099, 0.0025,  ..., 0.0083, 0.0053, 0.0024],
+        ...,
+        [0.0044, 0.0099, 0.0026,  ..., 0.0064, 0.0044, 0.0024],
+        [0.0064, 0.0088, 0.0033,  ..., 0.0075, 0.0049, 0.0029],
+        [0.0045, 0.0083, 0.0026,  ..., 0.0097, 0.0043, 0.0024]])

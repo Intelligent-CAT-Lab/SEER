@@ -1,0 +1,10 @@
+99197
+Test: public void test58() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test58"); org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues returnsEmptyValues0 = new org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues(); org.mockito.MockitoAnnotations.initMocks((java.lang.Object) returnsEmptyValues0); org.mockito.internal.util.MockUtil mockUtil2 = returnsEmptyValues0.mockUtil; org.mockito.internal.util.ObjectMethodsGuru objectMethodsGuru3 = returnsEmptyValues0.methodsGuru; org.mockito.invocation.InvocationOnMock invocationOnMock4 = null; try { java.lang.Object obj5 = returnsEmptyValues0.answer(invocationOnMock4); } catch (java.lang.NullPointerException e) { } }
+Code: public Object answer(InvocationOnMock invocation) { if (methodsGuru.isToString(invocation.getMethod())) { Object mock = invocation.getMock(); MockName name = mockUtil.getMockName(mock); if (name.isDefault()) { return "Mock for " + mockUtil.getMockSettings(mock).getTypeToMock().getSimpleName() + ", hashCode: " + mock.hashCode(); } else { return name.toString(); } } else if (methodsGuru.isCompareToMethod(invocation.getMethod())) { return invocation.getMock() == invocation.getArguments()[0] ? 0 : 1; } Class<?> returnType = invocation.getMethod().getReturnType(); return returnValueFor(returnType); }
+tensor([[0.0133, 0.0103, 0.0441,  ..., 0.0149, 0.0073, 0.0062],
+        [0.0118, 0.0081, 0.0594,  ..., 0.0144, 0.0072, 0.0048],
+        [0.0143, 0.0102, 0.0521,  ..., 0.0147, 0.0080, 0.0081],
+        ...,
+        [0.0087, 0.0082, 0.0567,  ..., 0.0123, 0.0049, 0.0050],
+        [0.0133, 0.0091, 0.0504,  ..., 0.0163, 0.0072, 0.0037],
+        [0.0092, 0.0095, 0.0455,  ..., 0.0204, 0.0070, 0.0052]])

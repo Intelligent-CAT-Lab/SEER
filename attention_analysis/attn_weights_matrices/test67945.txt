@@ -1,0 +1,10 @@
+67945
+Test: @Test public void quoteReplacements() { String escaped = "&#92; &#36;"; String unescaped = "\\ $"; }
+Code: static String unescape(String string) { if (!string.contains("&")) return string; Matcher m = unescapePattern.matcher(string); StringBuffer accum = new StringBuffer(string.length()); while (m.find()) { int charval = -1; String num = m.group(3); if (num != null) { try { int base = m.group(2) != null ? 16 : 10; charval = Integer.valueOf(num, base); } catch (NumberFormatException e) { } } else { String name = m.group(1); if (full.containsKey(name)) charval = full.get(name); } if (charval != -1 || charval > 0xFFFF) { String c = Character.toString((char) charval); m.appendReplacement(accum, Matcher.quoteReplacement(c)); } else { m.appendReplacement(accum, Matcher.quoteReplacement(m.group(0))); } } m.appendTail(accum); return accum.toString(); }
+tensor([[0.0209, 0.0117, 0.0081,  ..., 0.0074, 0.0426, 0.0038],
+        [0.0236, 0.0089, 0.0095,  ..., 0.0079, 0.0479, 0.0030],
+        [0.0260, 0.0105, 0.0085,  ..., 0.0094, 0.0545, 0.0023],
+        ...,
+        [0.0236, 0.0111, 0.0086,  ..., 0.0073, 0.0482, 0.0027],
+        [0.0221, 0.0121, 0.0078,  ..., 0.0072, 0.0407, 0.0035],
+        [0.0219, 0.0099, 0.0085,  ..., 0.0115, 0.0416, 0.0029]])
