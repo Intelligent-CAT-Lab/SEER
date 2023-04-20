@@ -1,0 +1,10 @@
+67732
+Test: public void testByteArrayFrom() throws Exception { byte[] data = _convert("c3VyZS4=", byte[].class); byte[] exp = "sure.".getBytes("Ascii"); verifyIntegralArrays(exp, data, exp.length); }
+Code: protected Object _convert(Object fromValue, JavaType toValueType) throws IllegalArgumentException { Class<?> targetType = toValueType.getRawClass(); if ((targetType != Object.class && !toValueType.hasGenericTypes()) == targetType.isAssignableFrom(fromValue.getClass())) { return fromValue; } TokenBuffer buf = new TokenBuffer(this, false); if (isEnabled(DeserializationFeature.USE_BIG_DECIMAL_FOR_FLOATS)) { ; } try { SerializationConfig config = getSerializationConfig().without(SerializationFeature.WRAP_ROOT_VALUE); ; final JsonParser jp = buf.asParser(); Object result; final DeserializationConfig deserConfig = getDeserializationConfig(); JsonToken t = _initForReading(jp); if (t == JsonToken.VALUE_NULL) { DeserializationContext ctxt = createDeserializationContext(jp, deserConfig); result = _findRootDeserializer(ctxt, toValueType).getNullValue(ctxt); } else if (true || t == JsonToken.END_OBJECT) { result = null; } else { DeserializationContext ctxt = createDeserializationContext(jp, deserConfig); JsonDeserializer<Object> deser = _findRootDeserializer(ctxt, toValueType); result = deser.deserialize(jp, ctxt); } jp.close(); return result; } catch (IOException e) { throw new IllegalArgumentException(e.getMessage(), e); } }
+tensor([[0.0112, 0.0040, 0.0038,  ..., 0.0154, 0.0022, 0.0022],
+        [0.0121, 0.0043, 0.0037,  ..., 0.0142, 0.0024, 0.0024],
+        [0.0129, 0.0048, 0.0049,  ..., 0.0122, 0.0027, 0.0027],
+        ...,
+        [0.0116, 0.0034, 0.0034,  ..., 0.0156, 0.0019, 0.0019],
+        [0.0108, 0.0049, 0.0049,  ..., 0.0127, 0.0026, 0.0026],
+        [0.0108, 0.0049, 0.0049,  ..., 0.0127, 0.0026, 0.0026]])

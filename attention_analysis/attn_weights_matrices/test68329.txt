@@ -1,0 +1,10 @@
+68329
+Test: @Test public void testWrapWithRemainder() { Document doc = Jsoup.parse("<div><p>Hello</p></div>"); Element p = doc.select("p").first(); p.wrap("<div class='head'></div><p>There!</p>"); }
+Code: private Elements select() { tq.consumeWhitespace(); if (tq.matchesAny(combinators)) { elements.add(root); combinator(tq.consume().toString()); } else { addElements(findElements()); } while (!tq.isEmpty()) { boolean seenWhite = tq.consumeWhitespace(); if (tq.matchChomp(",")) { while (!tq.isEmpty()) { String subQuery = tq.chompTo(","); elements.addAll(select(subQuery, root)); } } else if (tq.matchesAny(combinators)) { combinator(tq.consume().toString()); } else if (seenWhite) { combinator(" "); } else { Elements candidates = findElements(); intersectElements(filterForSelf(elements, candidates)); } } return new Elements(elements); }
+tensor([[0.0161, 0.0075, 0.0126,  ..., 0.0058, 0.0194, 0.0050],
+        [0.0142, 0.0066, 0.0131,  ..., 0.0054, 0.0163, 0.0044],
+        [0.0105, 0.0072, 0.0138,  ..., 0.0049, 0.0238, 0.0038],
+        ...,
+        [0.0143, 0.0071, 0.0120,  ..., 0.0060, 0.0185, 0.0052],
+        [0.0128, 0.0073, 0.0142,  ..., 0.0049, 0.0169, 0.0042],
+        [0.0125, 0.0065, 0.0134,  ..., 0.0045, 0.0177, 0.0044]])

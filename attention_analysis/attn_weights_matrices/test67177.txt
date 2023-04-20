@@ -1,0 +1,10 @@
+67177
+Test: public void testBinary() throws Exception { ObjectMapper mapper = new ObjectMapper(); final int LENGTH = 13045; byte[] data = new byte[LENGTH]; for (int i = 0; i < LENGTH; ++i) { data[i] = (byte) i; } StringWriter sw = new StringWriter(); mapper.writeValue(sw, BinaryNode.valueOf(data)); JsonParser p = new JsonFactory().createParser(sw.toString()); p.close(); }
+Code: public byte[] getBinaryValue(Base64Variant b64variant) throws IOException, JsonParseException { JsonNode n = currentNode(); if (n != null) { if (n instanceof TextNode) { return ((TextNode) n).getBinaryValue(b64variant); } return n.binaryValue(); } return null; }
+tensor([[0.0273, 0.0409, 0.0140,  ..., 0.0297, 0.0579, 0.0109],
+        [0.0256, 0.0334, 0.0163,  ..., 0.0345, 0.0592, 0.0089],
+        [0.0185, 0.0360, 0.0147,  ..., 0.0268, 0.0791, 0.0112],
+        ...,
+        [0.0185, 0.0354, 0.0114,  ..., 0.0279, 0.0732, 0.0085],
+        [0.0272, 0.0435, 0.0110,  ..., 0.0310, 0.0507, 0.0108],
+        [0.0197, 0.0246, 0.0129,  ..., 0.0398, 0.0657, 0.0090]])

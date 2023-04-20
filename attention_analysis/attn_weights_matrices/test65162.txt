@@ -1,0 +1,10 @@
+65162
+Test: public void testExplicitCollectionType() throws Exception { JavaType elem = SimpleType.construct(Point.class); JavaType t = CollectionType.construct(List.class, elem); final String json = aposToQuotes("[ {'x':1,'y':2}, {'x':3,'y':6 }]"); List<Point> l = MAPPER.readValue(json, t); Object ob = l.get(0); Point p = (Point) ob; }
+Code: public static SimpleType construct(Class<?> cls) { if (Map.class.isAssignableFrom(cls)) { throw new IllegalArgumentException("Can not construct SimpleType for a Map (class: "+cls.getName()+")"); } if (Collection.class.isAssignableFrom(cls)) { throw new IllegalArgumentException("Can not construct SimpleType for a Collection (class: "+cls.getName()+")"); } if (cls.isArray()) { throw new IllegalArgumentException("Can not construct SimpleType for an array (class: "+cls.getName()+")"); } return new SimpleType(cls, TypeBindings.emptyBindings(), _bogusSuperClass(cls), null, null, null, false); }
+tensor([[0.0134, 0.0364, 0.0086,  ..., 0.0379, 0.0210, 0.0053],
+        [0.0144, 0.0341, 0.0074,  ..., 0.0360, 0.0225, 0.0059],
+        [0.0085, 0.0362, 0.0062,  ..., 0.0403, 0.0213, 0.0038],
+        ...,
+        [0.0110, 0.0314, 0.0064,  ..., 0.0423, 0.0240, 0.0045],
+        [0.0139, 0.0280, 0.0071,  ..., 0.0415, 0.0223, 0.0048],
+        [0.0105, 0.0365, 0.0078,  ..., 0.0332, 0.0203, 0.0047]])

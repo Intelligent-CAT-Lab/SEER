@@ -1,0 +1,10 @@
+100382
+Test: public void testForOffsetHoursMinutes_int_int() { try { DateTimeZone.forOffsetHoursMinutes(2, -15); fail(); } catch (IllegalArgumentException ex) {} try { DateTimeZone.forOffsetHoursMinutes(2, 60); fail(); } catch (IllegalArgumentException ex) {} try { DateTimeZone.forOffsetHoursMinutes(-2, 60); fail(); } catch (IllegalArgumentException ex) {} try { DateTimeZone.forOffsetHoursMinutes(24, 0); fail(); } catch (IllegalArgumentException ex) {} try { DateTimeZone.forOffsetHoursMinutes(-24, 0); fail(); } catch (IllegalArgumentException ex) {} }
+Code: public static DateTimeZone forOffsetHoursMinutes(int hoursOffset, int minutesOffset) throws IllegalArgumentException { if (hoursOffset == 0 && minutesOffset == 0) { return DateTimeZone.UTC; } if (hoursOffset < -23 || hoursOffset > 23) { throw new IllegalArgumentException("Hours out of range: " + hoursOffset); } if (minutesOffset < 0 || minutesOffset > 59) { throw new IllegalArgumentException("Minutes out of range: " + minutesOffset); } int offset = 0; try { int hoursInMinutes = hoursOffset * 60; if (hoursInMinutes < 0) { minutesOffset = hoursInMinutes - minutesOffset; } else { minutesOffset = hoursInMinutes + minutesOffset; } offset = FieldUtils.safeMultiply(minutesOffset, DateTimeConstants.MILLIS_PER_MINUTE); } catch (ArithmeticException ex) { throw new IllegalArgumentException("Offset is too large"); } return forOffsetMillis(offset); }
+tensor([[0.0070, 0.0217, 0.0078,  ..., 0.0078, 0.0112, 0.0031],
+        [0.0072, 0.0193, 0.0085,  ..., 0.0069, 0.0106, 0.0035],
+        [0.0062, 0.0247, 0.0086,  ..., 0.0078, 0.0089, 0.0025],
+        ...,
+        [0.0049, 0.0227, 0.0073,  ..., 0.0072, 0.0092, 0.0026],
+        [0.0059, 0.0227, 0.0075,  ..., 0.0081, 0.0130, 0.0029],
+        [0.0050, 0.0197, 0.0079,  ..., 0.0106, 0.0093, 0.0026]])

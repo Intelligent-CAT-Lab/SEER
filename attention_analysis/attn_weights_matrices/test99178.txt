@@ -1,0 +1,10 @@
+99178
+Test: public void shouldFailWhenCallingRealMethodOnIterface() throws Throwable { Invocation inovcationOnIterface = new InvocationBuilder().method("simpleMethod").toInvocation(); try { validator.validate(new CallsRealMethods(), inovcationOnIterface); fail(); } catch (MockitoException e) {} }
+Code: public void validate(Answer<?> answer, Invocation invocation) { if (answer instanceof ThrowsException) { validateException((ThrowsException) answer, invocation); } if (answer instanceof Returns) { validateReturnValue((Returns) answer, invocation); } if (answer instanceof DoesNothing) { validateDoNothing((DoesNothing) answer, invocation); } if (answer instanceof CallsRealMethods) { validateMockingConcreteClass((CallsRealMethods) answer, invocation); } }
+tensor([[0.0159, 0.0132, 0.0273,  ..., 0.0336, 0.0074, 0.0074],
+        [0.0118, 0.0111, 0.0242,  ..., 0.0502, 0.0072, 0.0072],
+        [0.0115, 0.0092, 0.0282,  ..., 0.0365, 0.0049, 0.0049],
+        ...,
+        [0.0138, 0.0124, 0.0281,  ..., 0.0433, 0.0055, 0.0055],
+        [0.0117, 0.0109, 0.0288,  ..., 0.0306, 0.0065, 0.0065],
+        [0.0117, 0.0109, 0.0288,  ..., 0.0306, 0.0065, 0.0065]])

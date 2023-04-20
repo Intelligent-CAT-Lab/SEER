@@ -1,0 +1,10 @@
+17884
+Test: public void testSymbolTableWrongRoot() throws Exception { otherPass = new CompilerPass() { @Override public void process(Node externs, Node root) { SymbolTable st = getLastCompiler().acquireSymbolTable(); st.createScope(root, null); st.release(); } }; try { testSame("var x;"); } catch (IllegalArgumentException e) { } }
+Code: public void process(Node externs, Node root) { NodeTraversal.traverse(compiler, root, new NormalizeStatements(compiler, assertOnChange)); removeDuplicateDeclarations(root); if (MAKE_LOCAL_NAMES_UNIQUE) { MakeDeclaredNamesUnique renamer = new MakeDeclaredNamesUnique(); NodeTraversal t = new NodeTraversal(compiler, renamer); t.traverseRoots(externs, root); } new PropogateConstantAnnotations(compiler, assertOnChange) .process(externs, root); }
+tensor([[0.0267, 0.0217, 0.0223,  ..., 0.0395, 0.0146, 0.0116],
+        [0.0226, 0.0192, 0.0199,  ..., 0.0462, 0.0122, 0.0114],
+        [0.0212, 0.0200, 0.0209,  ..., 0.0492, 0.0140, 0.0075],
+        ...,
+        [0.0215, 0.0166, 0.0242,  ..., 0.0426, 0.0113, 0.0069],
+        [0.0186, 0.0164, 0.0190,  ..., 0.0456, 0.0136, 0.0078],
+        [0.0194, 0.0176, 0.0272,  ..., 0.0382, 0.0136, 0.0101]])

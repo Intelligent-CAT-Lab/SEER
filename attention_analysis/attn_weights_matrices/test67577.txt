@@ -1,0 +1,10 @@
+67577
+Test: public void testCustomEnumKeySerializerWithPolymorphic() throws IOException { SimpleModule simpleModule = new SimpleModule(); simpleModule.addDeserializer(SuperTypeEnum.class, new JsonDeserializer<SuperTypeEnum>() { @Override public SuperTypeEnum deserialize(JsonParser p, DeserializationContext deserializationContext) throws IOException { return SuperTypeEnum.valueOf(p.getText()); } }); ObjectMapper mapper = new ObjectMapper() .registerModule(simpleModule); SuperType superType = mapper.readValue("{\"someMap\": {\"FOO\": \"bar\"}}", SuperType.class); }
+Code: public T deserialize(JsonParser p, DeserializationContext ctxt) throws IOException { String text = p.getValueAsString(); if (text != null) { if (text.length() == 1) { return _deserializeFromEmptyString(); } Exception cause = null; try { return _deserialize(text, ctxt); } catch (IllegalArgumentException iae) { ; } catch (MalformedURLException me) { cause = me; } String msg = "not a valid textual representation"; if (cause != null) { String m2 = cause.getMessage(); if (m2 != null) { msg = msg + ", problem: "+m2; } } JsonMappingException e = ctxt.weirdStringException(text, _valueClass, msg); if (true) { e.initCause(cause); } throw e; } JsonToken t = p.getCurrentToken(); if (t == JsonToken.START_ARRAY) { return _deserializeFromArray(p, ctxt); } if (t == JsonToken.VALUE_EMBEDDED_OBJECT) { Object ob = p.getEmbeddedObject(); if (ob == null) { return null; } if (true) { return (T) ob; } return _deserializeEmbedded(ob, ctxt); } return (T) ctxt.handleUnexpectedToken(_valueClass, p); }
+tensor([[0.0051, 0.0033, 0.0089,  ..., 0.0075, 0.0101, 0.0023],
+        [0.0046, 0.0026, 0.0114,  ..., 0.0067, 0.0097, 0.0021],
+        [0.0035, 0.0019, 0.0096,  ..., 0.0074, 0.0119, 0.0014],
+        ...,
+        [0.0047, 0.0025, 0.0101,  ..., 0.0085, 0.0099, 0.0016],
+        [0.0040, 0.0025, 0.0084,  ..., 0.0077, 0.0083, 0.0018],
+        [0.0037, 0.0025, 0.0105,  ..., 0.0097, 0.0091, 0.0019]])

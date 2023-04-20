@@ -1,0 +1,10 @@
+66559
+Test: public void testSimpleEnum() throws Exception { final Set<String> values = new TreeSet<String>(); ObjectWriter w = MAPPER.writer(SerializationFeature.WRITE_ENUMS_USING_TO_STRING); w.acceptJsonFormatVisitor(TestEnum.class, new JsonFormatVisitorWrapper.Base() { @Override public JsonStringFormatVisitor expectStringFormat(JavaType type) { return new JsonStringFormatVisitor() { @Override public void enumTypes(Set<String> enums) { values.addAll(enums); } @Override public void format(JsonValueFormat format) { } }; } }); TreeSet<String> exp = new TreeSet<String>(Arrays.asList( "ToString:A", "ToString:B", "ToString:C" )); }
+Code: public void acceptJsonFormatVisitor(JsonFormatVisitorWrapper visitor, JavaType typeHint) throws JsonMappingException { if (_isInt) { visitIntFormat(visitor, typeHint, JsonParser.NumberType.BIG_INTEGER); } else { Class<?> h = handledType(); if (h == BigDecimal.class) { visitFloatFormat(visitor, typeHint, JsonParser.NumberType.BIG_DECIMAL); } else { visitor.expectNumberFormat(typeHint); } } }
+tensor([[0.0210, 0.0167, 0.0232,  ..., 0.0084, 0.0084, 0.0084],
+        [0.0172, 0.0137, 0.0225,  ..., 0.0075, 0.0075, 0.0075],
+        [0.0160, 0.0132, 0.0258,  ..., 0.0057, 0.0057, 0.0057],
+        ...,
+        [0.0153, 0.0133, 0.0159,  ..., 0.0070, 0.0070, 0.0070],
+        [0.0153, 0.0133, 0.0159,  ..., 0.0070, 0.0070, 0.0070],
+        [0.0153, 0.0133, 0.0159,  ..., 0.0070, 0.0070, 0.0070]])

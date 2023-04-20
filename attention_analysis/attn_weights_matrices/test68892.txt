@@ -1,0 +1,10 @@
+68892
+Test: public void testCharset() { }
+Code: static String getCharsetFromContentType(String contentType) { if (contentType == null) return null; Matcher m = charsetPattern.matcher(contentType); if (m.find()) { String charset = m.group(1).trim(); charset = charset.replace("charset=", ""); if (charset.isEmpty()) return null; try { if (Charset.isSupported(charset)) return charset; charset = charset.toUpperCase(Locale.ENGLISH); if (Charset.isSupported(charset)) return charset; } catch (IllegalCharsetNameException e) { return null; } } return null; }
+tensor([[0.0287, 0.0166, 0.0257,  ..., 0.0103, 0.0267, 0.0051],
+        [0.0318, 0.0127, 0.0295,  ..., 0.0110, 0.0224, 0.0040],
+        [0.0316, 0.0143, 0.0243,  ..., 0.0121, 0.0226, 0.0048],
+        ...,
+        [0.0337, 0.0161, 0.0267,  ..., 0.0105, 0.0264, 0.0039],
+        [0.0250, 0.0175, 0.0244,  ..., 0.0127, 0.0203, 0.0048],
+        [0.0294, 0.0143, 0.0217,  ..., 0.0162, 0.0265, 0.0038]])

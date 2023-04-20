@@ -1,0 +1,10 @@
+64097
+Test: public void test073() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test073"); com.fasterxml.jackson.core.util.BufferRecycler bufferRecycler0 = new com.fasterxml.jackson.core.util.BufferRecycler(); com.fasterxml.jackson.core.io.IOContext iOContext3 = new com.fasterxml.jackson.core.io.IOContext(bufferRecycler0, (java.lang.Object) (byte) 10, true); com.fasterxml.jackson.core.ObjectCodec objectCodec5 = null; java.io.OutputStream outputStream6 = null; com.fasterxml.jackson.core.json.UTF8JsonGenerator uTF8JsonGenerator7 = new com.fasterxml.jackson.core.json.UTF8JsonGenerator(iOContext3, (int) (byte) 1, objectCodec5, outputStream6); uTF8JsonGenerator7.writeBoolean(true); int[] intArray10 = uTF8JsonGenerator7._outputEscapes; com.fasterxml.jackson.core.Version version11 = uTF8JsonGenerator7.version(); com.fasterxml.jackson.core.JsonStreamContext jsonStreamContext12 = uTF8JsonGenerator7.getOutputContext(); com.fasterxml.jackson.core.JsonGenerator jsonGenerator14 = uTF8JsonGenerator7.setHighestNonEscapedChar(57343); uTF8JsonGenerator7.writeRaw("com.fasterxml.jackson.core.JsonParseException: hi!"); com.fasterxml.jackson.core.SerializableString serializableString17 = null; try { uTF8JsonGenerator7.writeFieldName(serializableString17); } catch (java.lang.NullPointerException e) { } }
+Code: public void writeRaw(String text, int offset, int len) throws IOException { final char[] buf = _charBuffer; while (len > 0) { int len2 = Math.min(buf.length, len); text.getChars(offset, offset+len2, buf, 0); writeRaw(buf, 0, len2); offset += len2; len -= len2; } }
+tensor([[0.0175, 0.0144, 0.0112,  ..., 0.0263, 0.0079, 0.0079],
+        [0.0135, 0.0125, 0.0123,  ..., 0.0227, 0.0081, 0.0081],
+        [0.0137, 0.0104, 0.0127,  ..., 0.0226, 0.0055, 0.0055],
+        ...,
+        [0.0140, 0.0125, 0.0128,  ..., 0.0232, 0.0085, 0.0085],
+        [0.0126, 0.0119, 0.0156,  ..., 0.0248, 0.0072, 0.0072],
+        [0.0126, 0.0119, 0.0156,  ..., 0.0248, 0.0072, 0.0072]])

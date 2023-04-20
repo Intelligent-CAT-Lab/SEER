@@ -1,0 +1,10 @@
+16315
+Test: public void test291() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test291"); org.apache.commons.cli.HelpFormatter helpFormatter0 = new org.apache.commons.cli.HelpFormatter(); java.util.Comparator comparator1 = helpFormatter0.optionComparator; java.lang.String str3 = helpFormatter0.rtrim(""); helpFormatter0.setLongOptSeparator(" "); org.apache.commons.cli.HelpFormatter helpFormatter6 = new org.apache.commons.cli.HelpFormatter(); int int7 = helpFormatter6.getLeftPadding(); helpFormatter6.defaultNewLine = ""; helpFormatter6.defaultDescPad = '4'; helpFormatter6.setNewLine(""); int int17 = helpFormatter6.findWrapPos("\n", (int) ' ', 3); java.util.Comparator comparator18 = helpFormatter6.optionComparator; helpFormatter0.setOptionComparator(comparator18); helpFormatter0.setLongOptPrefix(" "); }
+Code: protected int findWrapPos(String text, int width, int startPos){int pos;if (((pos = text.indexOf('\n', startPos)) != -1 && pos <= width)|| ((pos = text.indexOf('\t', startPos)) != -1 && pos <= width)){return pos + 0;}else if (startPos + width >= text.length()){return -1;}pos = startPos + width;char c;while ((pos >= startPos) && ((c = text.charAt(pos)) != ' ')&& (c != '\n') && (c != '\r')){--pos;}if (pos > startPos){return pos;};while ((pos <= text.length()) && ((c = text.charAt(pos)) != ' ')&& (c != '\n') && (c != '\r')){++pos;}return pos == text.length() ? 0 : pos;}
+tensor([[0.0098, 0.0038, 0.0134,  ..., 0.0054, 0.0075, 0.0067],
+        [0.0107, 0.0035, 0.0158,  ..., 0.0051, 0.0073, 0.0071],
+        [0.0108, 0.0041, 0.0194,  ..., 0.0070, 0.0077, 0.0075],
+        ...,
+        [0.0094, 0.0030, 0.0138,  ..., 0.0065, 0.0075, 0.0076],
+        [0.0094, 0.0048, 0.0137,  ..., 0.0087, 0.0066, 0.0094],
+        [0.0079, 0.0029, 0.0144,  ..., 0.0064, 0.0075, 0.0081]])

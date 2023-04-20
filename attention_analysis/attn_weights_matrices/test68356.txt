@@ -1,0 +1,10 @@
+68356
+Test: @Test public void usesOnForCheckboxValueIfNoValueSet() { Document doc = Jsoup.parse("<form><input type=checkbox checked name=foo></form>"); FormElement form = (FormElement) doc.select("form").first(); List<Connection.KeyVal> data = form.formData(); }
+Code: public List<Connection.KeyVal> formData() { ArrayList<Connection.KeyVal> data = new ArrayList<Connection.KeyVal>(); for (Element el: elements) { if (!el.tag().isFormSubmittable()) continue; if (el.hasAttr("disabled")) continue; String name = el.attr("name"); if (name.length() == 0) continue; String type = el.attr("type"); if ("select".equals(el.tagName())) { Elements options = el.select("option[selected]"); boolean set = false; for (Element option: options) { data.add(HttpConnection.KeyVal.create(name, option.val())); set = true; } if (!set) { Element option = el.select("option").first(); if (option != null) data.add(HttpConnection.KeyVal.create(name, option.val())); } } else if ("checkbox".equalsIgnoreCase(type) || "radio".equalsIgnoreCase(type)) { if (el.hasAttr("checked")) { final String val = el.val().length() > 0 ? el.val() : "on"; data.add(HttpConnection.KeyVal.create(name, val)); } } else { data.add(HttpConnection.KeyVal.create(name, el.val())); } } return data; }
+tensor([[0.0074, 0.0032, 0.0154,  ..., 0.0082, 0.0424, 0.0032],
+        [0.0060, 0.0033, 0.0152,  ..., 0.0074, 0.0523, 0.0031],
+        [0.0049, 0.0030, 0.0176,  ..., 0.0086, 0.0611, 0.0019],
+        ...,
+        [0.0048, 0.0031, 0.0134,  ..., 0.0070, 0.0664, 0.0026],
+        [0.0069, 0.0031, 0.0113,  ..., 0.0070, 0.0609, 0.0022],
+        [0.0052, 0.0030, 0.0172,  ..., 0.0113, 0.0380, 0.0028]])

@@ -1,0 +1,10 @@
+100233
+Test: public void testFactory_FromDateFields_null() throws Exception { try { LocalTime.fromDateFields((Date) null); fail(); } catch (IllegalArgumentException ex) {} }
+Code: public static LocalDateTime fromDateFields(Date date) { if (date == null) { throw new IllegalArgumentException("The date must not be null"); } return new LocalDateTime( date.getYear() + 1900, date.getMonth() + 1, date.getDate(), date.getHours(), date.getMinutes(), date.getSeconds(), (((int) (date.getTime() % 1000)) + 1000) % 1000 ); }
+tensor([[0.0179, 0.0554, 0.0314,  ..., 0.0189, 0.0236, 0.0079],
+        [0.0193, 0.0518, 0.0318,  ..., 0.0244, 0.0151, 0.0094],
+        [0.0145, 0.0548, 0.0329,  ..., 0.0196, 0.0229, 0.0075],
+        ...,
+        [0.0143, 0.0550, 0.0382,  ..., 0.0181, 0.0223, 0.0054],
+        [0.0131, 0.0521, 0.0392,  ..., 0.0210, 0.0207, 0.0055],
+        [0.0130, 0.0538, 0.0383,  ..., 0.0224, 0.0174, 0.0070]])

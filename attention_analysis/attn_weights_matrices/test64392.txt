@@ -1,0 +1,10 @@
+64392
+Test: public void testUtf8RawStrings() throws Exception { List<byte[]> strings = generateStrings(new Random(28), 750000, false); ByteArrayOutputStream out = new ByteArrayOutputStream(16000); JsonFactory jf = new JsonFactory(); JsonGenerator jgen = jf.createGenerator(out, JsonEncoding.UTF8); jgen.writeStartArray(); for (byte[] str : strings) { jgen.writeRawUTF8String(str, 0, str.length); } jgen.writeEndArray(); jgen.close(); byte[] json = out.toByteArray(); JsonParser jp = jf.createParser(json); for (byte[] inputBytes : strings) { String string = jp.getText(); byte[] outputBytes = string.getBytes("UTF-8"); } jp.close(); }
+Code: public final JsonToken nextToken(){if (_currToken == JsonToken.FIELD_NAME) {return _nextAfterName();}_numTypesValid = NR_UNKNOWN;if (_tokenIncomplete) {_skipString(); }int i = _skipWSOrEnd();if (i < 0) { close();return (_currToken = null);}_binaryValue = null;if (i == INT_RBRACKET) {;if (!_parsingContext.inArray()) {_reportMismatchedEndMarker(i, '}');}_parsingContext = _parsingContext.getParent();return (_currToken = JsonToken.END_ARRAY);}
+tensor([[0.0219, 0.0175, 0.0325,  ..., 0.0213, 0.0138, 0.0274],
+        [0.0210, 0.0137, 0.0328,  ..., 0.0202, 0.0163, 0.0282],
+        [0.0186, 0.0139, 0.0315,  ..., 0.0219, 0.0128, 0.0275],
+        ...,
+        [0.0212, 0.0155, 0.0362,  ..., 0.0224, 0.0113, 0.0236],
+        [0.0248, 0.0208, 0.0342,  ..., 0.0205, 0.0202, 0.0261],
+        [0.0214, 0.0198, 0.0369,  ..., 0.0205, 0.0150, 0.0244]])

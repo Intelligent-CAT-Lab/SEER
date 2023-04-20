@@ -1,0 +1,10 @@
+62605
+Test: public void testNullSafe() { TypeAdapter<Person> typeAdapter = new TypeAdapter<Person>() { @Override public Person read(JsonReader in) throws IOException { String[] values = in.nextString().split(","); return new Person(values[0], Integer.parseInt(values[1])); } public void write(JsonWriter out, Person person) throws IOException { out.value(person.name + "," + person.age); } }; Gson gson = new GsonBuilder().registerTypeAdapter( Person.class, typeAdapter).create(); Truck truck = new Truck(); truck.horsePower = 1.0D; truck.passengers = new ArrayList<Person>(); truck.passengers.add(null); truck.passengers.add(new Person("jesse", 30)); try { gson.toJson(truck, Truck.class); fail(); } catch (NullPointerException expected) {} String json = "{horsePower:1.0,passengers:[null,'jesse,30']}"; try { gson.fromJson(json, Truck.class); fail(); } catch (JsonSyntaxException expected) {} gson = new GsonBuilder().registerTypeAdapter(Person.class, typeAdapter.nullSafe()).create(); truck = gson.fromJson(json, Truck.class); }
+Code: public Number read(JsonReader in) throws IOException { JsonToken jsonToken = in.peek(); switch (jsonToken) { case NULL: in.nextNull(); return null; case NUMBER: return new LazilyParsedNumber(in.nextString()); default: throw new JsonSyntaxException("Expecting number, got: " + jsonToken); } }
+tensor([[0.0210, 0.0161, 0.0265,  ..., 0.0218, 0.0089, 0.0089],
+        [0.0201, 0.0124, 0.0253,  ..., 0.0236, 0.0075, 0.0075],
+        [0.0150, 0.0105, 0.0238,  ..., 0.0202, 0.0076, 0.0076],
+        ...,
+        [0.0162, 0.0123, 0.0263,  ..., 0.0153, 0.0068, 0.0068],
+        [0.0144, 0.0091, 0.0306,  ..., 0.0212, 0.0073, 0.0073],
+        [0.0144, 0.0091, 0.0306,  ..., 0.0212, 0.0073, 0.0073]])

@@ -1,0 +1,10 @@
+60871
+Test: public void testJiraCsv154_withHeaderComments() throws IOException { final String comment = "This is a header comment"; final CSVFormat format = CSVFormat.EXCEL.withHeader("H1", "H2").withHeaderComments(comment).withCommentMarker('#'); final StringBuilder out = new StringBuilder(); final CSVPrinter printer = format.print(out); printer.print("A"); printer.print("B"); printer.close(); final String s = out.toString(); }
+Code: private void print(final Object object, final CharSequence value, final int offset, final int len) throws IOException { if (!newRecord) { out.append(format.getDelimiter()); } if (format.isQuoteCharacterSet()) { printAndQuote(object, value, offset, len); } else if (format.isEscapeCharacterSet()) { printAndEscape(value, offset, len); } else { out.append(value, offset, offset + len); } newRecord = false; }
+tensor([[0.0207, 0.0108, 0.0428,  ..., 0.0083, 0.0181, 0.0065],
+        [0.0153, 0.0099, 0.0383,  ..., 0.0091, 0.0182, 0.0065],
+        [0.0180, 0.0098, 0.0279,  ..., 0.0103, 0.0200, 0.0056],
+        ...,
+        [0.0207, 0.0136, 0.0294,  ..., 0.0139, 0.0221, 0.0083],
+        [0.0177, 0.0129, 0.0393,  ..., 0.0125, 0.0253, 0.0082],
+        [0.0145, 0.0085, 0.0282,  ..., 0.0083, 0.0203, 0.0053]])

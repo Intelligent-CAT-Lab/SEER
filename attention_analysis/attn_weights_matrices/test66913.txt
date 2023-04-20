@@ -1,0 +1,10 @@
+66913
+Test: public void testRawValues() throws Exception { final String RAW = "{\"a\":1}"; TokenBuffer buf = new TokenBuffer(null, false); buf.writeRawValue(RAW); JsonParser p = buf.asParser(); p.close(); buf.close(); ObjectMapper mapper = objectMapper(); }
+Code: public TokenBuffer(JsonParser p, DeserializationContext ctxt) { _objectCodec = p.getCodec(); _generatorFeatures = DEFAULT_GENERATOR_FEATURES; _writeContext = JsonWriteContext.createRootContext(null); _first = _last = new Segment(); _appendAt = 0; _hasNativeTypeIds = p.canReadTypeId(); _hasNativeObjectIds = p.canReadObjectId(); _mayHaveNativeIds = _hasNativeTypeIds | _hasNativeObjectIds; }
+tensor([[0.0227, 0.0212, 0.0319,  ..., 0.0179, 0.0234, 0.0100],
+        [0.0187, 0.0221, 0.0393,  ..., 0.0127, 0.0250, 0.0083],
+        [0.0168, 0.0222, 0.0301,  ..., 0.0119, 0.0225, 0.0092],
+        ...,
+        [0.0190, 0.0257, 0.0408,  ..., 0.0144, 0.0212, 0.0092],
+        [0.0181, 0.0183, 0.0389,  ..., 0.0106, 0.0231, 0.0081],
+        [0.0156, 0.0180, 0.0344,  ..., 0.0119, 0.0262, 0.0083]])

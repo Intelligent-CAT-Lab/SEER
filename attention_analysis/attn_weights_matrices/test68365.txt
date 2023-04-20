@@ -1,0 +1,10 @@
+68365
+Test: @Test public void testPrependRowToTable() { Document doc = Jsoup.parse("<table><tr><td>1</td></tr></table>"); Element table = doc.select("table").first(); table.prepend("<tr><td>2</td></tr>"); }
+Code: public Element prepend(String html) { Validate.notNull(html); Element fragment = Parser.parseBodyFragment(html, baseUri).body(); List<Node> nodes = fragment.childNodes(); for (int i = nodes.size() - 1; i >= 0; i--) { Node node = nodes.get(i); node.parentNode = null; prependChild(node); } return this; }
+tensor([[0.0186, 0.0082, 0.0624,  ..., 0.0210, 0.0175, 0.0089],
+        [0.0178, 0.0072, 0.0759,  ..., 0.0219, 0.0130, 0.0076],
+        [0.0161, 0.0069, 0.0634,  ..., 0.0190, 0.0188, 0.0095],
+        ...,
+        [0.0123, 0.0049, 0.0663,  ..., 0.0172, 0.0120, 0.0075],
+        [0.0202, 0.0082, 0.0834,  ..., 0.0239, 0.0134, 0.0093],
+        [0.0127, 0.0065, 0.0664,  ..., 0.0287, 0.0126, 0.0076]])

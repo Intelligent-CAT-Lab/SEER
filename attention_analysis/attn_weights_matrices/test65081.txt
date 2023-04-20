@@ -1,0 +1,10 @@
+65081
+Test: public void testSmallNumbers() throws Exception { ObjectMapper mapper = new ObjectMapper(); ArrayNode root = mapper.createArrayNode(); for (int i = -20; i <= 20; ++i) { JsonNode n = root.numberNode(i); root.add(n); } for (int type = 0; type < 2; ++type) { StringWriter sw = new StringWriter(); if (type == 0) { JsonGenerator gen = new JsonFactory().createGenerator(sw); root.serialize(gen, null); gen.close(); } else { mapper.writeValue(sw, root); } String doc = sw.toString(); JsonParser p = new JsonFactory().createParser(new StringReader(doc)); for (int i = -20; i <= 20; ++i) { } p.close(); } }
+Code: public final void serialize(JsonGenerator gen, SerializerProvider ctxt) throws IOException { if (_value == null) { ctxt.defaultSerializeNull(gen); } else if (_value instanceof JsonSerializable) { ((JsonSerializable) _value).serialize(gen, ctxt); } else { gen.writeObject(_value); } }
+tensor([[0.0226, 0.0186, 0.0187,  ..., 0.0934, 0.0105, 0.0105],
+        [0.0198, 0.0135, 0.0150,  ..., 0.1372, 0.0069, 0.0069],
+        [0.0159, 0.0148, 0.0148,  ..., 0.1522, 0.0096, 0.0096],
+        ...,
+        [0.0166, 0.0146, 0.0144,  ..., 0.1288, 0.0069, 0.0069],
+        [0.0148, 0.0136, 0.0139,  ..., 0.0941, 0.0085, 0.0085],
+        [0.0148, 0.0136, 0.0139,  ..., 0.0941, 0.0085, 0.0085]])

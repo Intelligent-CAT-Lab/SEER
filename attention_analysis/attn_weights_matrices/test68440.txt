@@ -1,0 +1,10 @@
+68440
+Test: @Test public void settersOnOrphanAttribute() { Attribute attr = new Attribute("one", "two"); attr.setKey("three"); String oldVal = attr.setValue("four"); }
+Code: public String setValue(String val) { String oldVal = parent.get(this.key); if (parent != null) { int i = parent.indexOfKey(this.key); if (i != Attributes.NotFound) parent.vals[i] = val; } this.val = val; return Attributes.checkNotNull(oldVal); }
+tensor([[0.0279, 0.0360, 0.0547,  ..., 0.0305, 0.0300, 0.0116],
+        [0.0273, 0.0317, 0.0412,  ..., 0.0274, 0.0282, 0.0100],
+        [0.0205, 0.0334, 0.0603,  ..., 0.0322, 0.0271, 0.0095],
+        ...,
+        [0.0191, 0.0458, 0.0455,  ..., 0.0283, 0.0306, 0.0096],
+        [0.0261, 0.0420, 0.0440,  ..., 0.0351, 0.0323, 0.0090],
+        [0.0203, 0.0372, 0.0393,  ..., 0.0418, 0.0286, 0.0098]])

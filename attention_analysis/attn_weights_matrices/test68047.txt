@@ -1,0 +1,10 @@
+68047
+Test: @Test public void testSetHtmlTitle() { Document doc = Jsoup.parse("<html><head id=2><title id=1></title></head></html>"); Element title = doc.getElementById("1"); title.html("good"); title.html("<i>bad</i>"); Element head = doc.getElementById("2"); head.html("<title><i>bad</i></title>"); }
+Code: final void html(final Appendable accum, final Document.OutputSettings out) throws IOException { final int sz = size; for (int i = 0; i < sz; i++) { final String key = keys[i]; final String val = vals[i]; accum.append(' ').append(key); if (!(out.syntax() == Document.OutputSettings.Syntax.html && (val == null || val.equals(key) && Attribute.isBooleanAttribute(key)))) { accum.append("=\""); Entities.escape(accum, val == null ? EmptyString : val, out, true, false, false); accum.append('"'); } } }
+tensor([[0.0078, 0.0087, 0.0179,  ..., 0.0037, 0.0037, 0.0037],
+        [0.0088, 0.0089, 0.0173,  ..., 0.0051, 0.0051, 0.0051],
+        [0.0079, 0.0071, 0.0155,  ..., 0.0038, 0.0038, 0.0038],
+        ...,
+        [0.0081, 0.0082, 0.0181,  ..., 0.0046, 0.0046, 0.0046],
+        [0.0081, 0.0082, 0.0181,  ..., 0.0046, 0.0046, 0.0046],
+        [0.0081, 0.0082, 0.0181,  ..., 0.0046, 0.0046, 0.0046]])

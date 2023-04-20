@@ -1,0 +1,10 @@
+63932
+Test: public void testAsEmbedded() throws Exception { JsonGenerator g; StringWriter sw = new StringWriter(); g = JSON_F.createGenerator(sw); g.writeEmbeddedObject(null); g.close(); ByteArrayOutputStream bytes = new ByteArrayOutputStream(100); g = JSON_F.createGenerator(bytes); g.writeEmbeddedObject(null); g.close(); try { g = JSON_F.createGenerator(bytes); g.writeEmbeddedObject(getClass()); fail("Expected an exception"); g.close(); } catch (JsonGenerationException e) { verifyException(e, "No native support for"); } }
+Code: public void writeEmbeddedObject(Object object) throws IOException { if (object == null) { writeNull(); return; } if (object instanceof byte[]) { writeBinary((byte[]) object); return; } throw new JsonGenerationException("No native support for writing embedded objects of type " +object.getClass().getName(), this); }
+tensor([[0.0207, 0.0169, 0.0281,  ..., 0.0138, 0.0620, 0.0091],
+        [0.0163, 0.0143, 0.0286,  ..., 0.0152, 0.0753, 0.0087],
+        [0.0167, 0.0148, 0.0299,  ..., 0.0115, 0.0662, 0.0081],
+        ...,
+        [0.0195, 0.0186, 0.0276,  ..., 0.0114, 0.0472, 0.0086],
+        [0.0182, 0.0112, 0.0272,  ..., 0.0202, 0.0641, 0.0075],
+        [0.0143, 0.0132, 0.0250,  ..., 0.0121, 0.0653, 0.0077]])

@@ -1,0 +1,10 @@
+67049
+Test: public void testDeserialize() throws IOException { PropertySheet input = MAPPER.readValue(JSON, PropertySheet.class); }
+Code: public void serialize(Object value, JsonGenerator jgen, SerializerProvider provider) throws IOException { String str; Class<?> cls = value.getClass(); if (cls == String.class) { str = (String) value; } else if (Date.class.isAssignableFrom(cls)) { provider.defaultSerializeDateKey((Date) value, jgen); return; } else if (cls == Class.class) { str = ((Class<?>) value).getName(); } else { str = value.toString(); } jgen.writeFieldName(str); }
+tensor([[0.0147, 0.0121, 0.0330,  ..., 0.0067, 0.0305, 0.0067],
+        [0.0114, 0.0105, 0.0287,  ..., 0.0067, 0.0320, 0.0067],
+        [0.0161, 0.0122, 0.0306,  ..., 0.0078, 0.0420, 0.0078],
+        ...,
+        [0.0098, 0.0093, 0.0342,  ..., 0.0058, 0.0326, 0.0058],
+        [0.0117, 0.0086, 0.0361,  ..., 0.0046, 0.0358, 0.0046],
+        [0.0098, 0.0093, 0.0342,  ..., 0.0058, 0.0326, 0.0058]])

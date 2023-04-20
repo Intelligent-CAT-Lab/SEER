@@ -1,0 +1,10 @@
+67857
+Test: public void testObjectMapper() throws IOException { final String EXP_JSON = "{\"x\":2,\"y\":3}"; final MyPojo p = new MyPojo(2, 3); byte[] bytes = jdkSerialize(MAPPER); ObjectMapper mapper2 = jdkDeserialize(bytes); MyPojo p2 = mapper2.readValue(EXP_JSON, MyPojo.class); }
+Code: public void serialize(Object value, JsonGenerator g, SerializerProvider provider) throws IOException { switch (_typeId) { case TYPE_DATE: ; break; case TYPE_CALENDAR: provider.defaultSerializeDateKey(((Calendar) value).getTimeInMillis(), g); break; case TYPE_CLASS: g.writeFieldName(((Class<?>)value).getName()); break; case TYPE_ENUM: { String str = false ? value.toString() : ((Enum<?>) value).name(); g.writeFieldName(str); } break; case TYPE_TO_STRING: default: g.writeFieldName(value.toString()); } }
+tensor([[0.0137, 0.0113, 0.0303,  ..., 0.0255, 0.0062, 0.0062],
+        [0.0105, 0.0096, 0.0262,  ..., 0.0426, 0.0061, 0.0061],
+        [0.0160, 0.0120, 0.0302,  ..., 0.0275, 0.0076, 0.0076],
+        ...,
+        [0.0098, 0.0082, 0.0337,  ..., 0.0293, 0.0046, 0.0046],
+        [0.0100, 0.0092, 0.0319,  ..., 0.0315, 0.0053, 0.0053],
+        [0.0100, 0.0092, 0.0319,  ..., 0.0315, 0.0053, 0.0053]])

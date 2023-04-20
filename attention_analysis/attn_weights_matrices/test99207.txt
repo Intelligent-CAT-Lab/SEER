@@ -1,0 +1,10 @@
+99207
+Test: public void testParseInto_simple_precedence() { MutableDateTime expect = null; MutableDateTime result = null; expect = new MutableDateTime(2004, 6, 7, 11, 20, 30, 0, LONDON); result = new MutableDateTime(0L); }
+Code: public int parseInto(ReadWritableInstant instant, String text, int position) { DateTimeParser parser = requireParser(); if (instant == null) { throw new IllegalArgumentException("Instant must not be null"); } long instantMillis = instant.getMillis(); Chronology chrono = instant.getChronology(); long instantLocal = instantMillis + chrono.getZone().getOffset(instantMillis); chrono = selectChronology(chrono); DateTimeParserBucket bucket = new DateTimeParserBucket( instantLocal, chrono, iLocale, iPivotYear, iDefaultYear); int newPos = parser.parseInto(bucket, text, position); instant.setMillis(bucket.computeMillis(false, text)); if (iOffsetParsed && bucket.getOffsetInteger() != null) { int parsedOffset = bucket.getOffsetInteger(); DateTimeZone parsedZone = DateTimeZone.forOffsetMillis(parsedOffset); chrono = chrono.withZone(parsedZone); } else if (bucket.getZone() != null) { chrono = chrono.withZone(bucket.getZone()); } instant.setChronology(chrono); if (iZone != null) { instant.setZone(iZone); } return newPos; }
+tensor([[0.0077, 0.0047, 0.0106,  ..., 0.0087, 0.0282, 0.0035],
+        [0.0052, 0.0037, 0.0090,  ..., 0.0084, 0.0281, 0.0026],
+        [0.0066, 0.0039, 0.0091,  ..., 0.0092, 0.0321, 0.0030],
+        ...,
+        [0.0050, 0.0028, 0.0097,  ..., 0.0071, 0.0331, 0.0029],
+        [0.0059, 0.0031, 0.0077,  ..., 0.0075, 0.0321, 0.0019],
+        [0.0056, 0.0042, 0.0105,  ..., 0.0123, 0.0209, 0.0032]])

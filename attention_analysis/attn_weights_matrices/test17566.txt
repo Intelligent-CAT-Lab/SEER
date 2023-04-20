@@ -1,0 +1,10 @@
+17566
+Test: public void testGetScopeRoot() { Compiler compiler = new Compiler(); NodeTraversal t = new NodeTraversal(compiler, new NodeTraversal.ScopedCallback() { @Override public void enterScope(NodeTraversal t) { Node root1 = t.getScopeRoot(); Node root2 = t.getScope().getRootNode(); } @Override public void exitScope(NodeTraversal t) { } @Override public boolean shouldTraverse(NodeTraversal t, Node n, Node parent) { return true; } @Override public void visit(NodeTraversal t, Node n, Node parent) { } } ); String code = "" + "var a; " + "function foo() {" + " var b" + "}"; Node tree = parse(compiler, code); t.traverse(tree); }
+Code: @Override public void visit(NodeTraversal t, Node n, Node parent) { if (t.inGlobalScope()) { return; } if (n.isReturn() && n.getFirstChild() != null) { data.get(t.getScopeRoot()).recordNonEmptyReturn(); } if (t.getScopeDepth() <= 2) { return; } if (n.isName() && NodeUtil.isLValue(n) && !NodeUtil.isBleedingFunctionName(n)) { String name = n.getString(); Scope scope = t.getScope(); Var var = scope.getVar(name); if (var != null) { Scope ownerScope = var.getScope(); if (ownerScope.isLocal()) { data.get(ownerScope.getRootNode()).recordAssignedName(name); } if (scope != ownerScope && ownerScope.isLocal()) { data.get(ownerScope.getRootNode()).recordEscapedVarName(name); } } } else if (n.isGetProp() && n.isUnscopedQualifiedName() && NodeUtil.isLValue(n)) { String name = NodeUtil.getRootOfQualifiedName(n).getString(); Scope scope = t.getScope(); Var var = scope.getVar(name); if (var != null) { Scope ownerScope = var.getScope(); if (scope != ownerScope && ownerScope.isLocal()) { data.get(ownerScope.getRootNode()) .recordEscapedQualifiedName(n.getQualifiedName()); } } } }
+tensor([[0.0079, 0.0047, 0.0039,  ..., 0.0022, 0.0022, 0.0022],
+        [0.0083, 0.0064, 0.0051,  ..., 0.0026, 0.0026, 0.0026],
+        [0.0063, 0.0046, 0.0040,  ..., 0.0024, 0.0024, 0.0024],
+        ...,
+        [0.0084, 0.0043, 0.0038,  ..., 0.0021, 0.0021, 0.0021],
+        [0.0084, 0.0043, 0.0038,  ..., 0.0021, 0.0021, 0.0021],
+        [0.0084, 0.0043, 0.0038,  ..., 0.0021, 0.0021, 0.0021]])

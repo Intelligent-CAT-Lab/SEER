@@ -1,0 +1,10 @@
+16677
+Test: public void testUnexpectedException() { final String TEST_EXCEPTION = "test me"; NodeTraversal.Callback cb = new NodeTraversal.AbstractPostOrderCallback() { @Override public void visit(NodeTraversal t, Node n, Node parent) { throw new RuntimeException(TEST_EXCEPTION); } }; Compiler compiler = new Compiler(); NodeTraversal t = new NodeTraversal(compiler, cb); String code = "function foo() {}"; Node tree = parse(compiler, code); try { t.traverse(tree); fail("Expected RuntimeException"); } catch (RuntimeException e) { } }
+Code: public void visit(NodeTraversal t, Node n, Node parent) { inputId = t.getInputId(); attachLiteralTypes(t, n); switch (n.getType()) { case Token.CALL: checkForClassDefiningCalls(t, n, parent); checkForCallingConventionDefiningCalls(n, delegateCallingConventions); break; case Token.FUNCTION: if (t.getInput() == null || !t.getInput().isExtern()) { nonExternFunctions.add(n); } if (!NodeUtil.isHoistedFunctionDeclaration(n)) { defineFunctionLiteral(n, parent); } break; case Token.ASSIGN: Node firstChild = n.getFirstChild(); if (firstChild.isGetProp() && firstChild.isQualifiedName()) { maybeDeclareQualifiedName(t, n.getJSDocInfo(), firstChild, n, firstChild.getNext()); } break; case Token.CATCH: defineCatch(n, parent); break; case Token.VAR: defineVar(n, parent); break; case Token.GETPROP: if (parent.isExprResult() && n.isQualifiedName()) { maybeDeclareQualifiedName(t, n.getJSDocInfo(), n, parent, null); } break; } }
+tensor([[0.0084, 0.0068, 0.0041,  ..., 0.0109, 0.0036, 0.0036],
+        [0.0066, 0.0057, 0.0024,  ..., 0.0095, 0.0035, 0.0035],
+        [0.0063, 0.0045, 0.0029,  ..., 0.0094, 0.0019, 0.0019],
+        ...,
+        [0.0072, 0.0057, 0.0036,  ..., 0.0078, 0.0031, 0.0031],
+        [0.0061, 0.0054, 0.0034,  ..., 0.0084, 0.0030, 0.0030],
+        [0.0061, 0.0054, 0.0034,  ..., 0.0084, 0.0030, 0.0030]])

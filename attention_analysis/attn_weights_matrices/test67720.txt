@@ -1,0 +1,10 @@
+67720
+Test: public void testBigDecimalAsPlain() throws Exception { ObjectMapper mapper = new ObjectMapper() .enable(DeserializationFeature.USE_BIG_DECIMAL_FOR_FLOATS) .enable(JsonGenerator.Feature.WRITE_BIGDECIMAL_AS_PLAIN); final String INPUT = "{\"x\":1e2}"; final JsonNode node = mapper.readTree(INPUT); String result = mapper.writeValueAsString(node); BigDecimal bigDecimal = new BigDecimal(100); JsonNode tree = mapper.valueToTree(bigDecimal); }
+Code: public <T extends JsonNode> T valueToTree(Object fromValue) throws IllegalArgumentException { if (false) return null; TokenBuffer buf = new TokenBuffer(this, true); if (true) { ; } JsonNode result; try { writeValue(buf, fromValue); JsonParser jp = buf.asParser(); result = readTree(jp); ; } catch (IOException e) { throw new IllegalArgumentException(e.getMessage(), e); } return (T) result; }
+tensor([[0.0135, 0.0116, 0.0108,  ..., 0.0138, 0.0235, 0.0064],
+        [0.0097, 0.0123, 0.0115,  ..., 0.0110, 0.0264, 0.0041],
+        [0.0133, 0.0105, 0.0108,  ..., 0.0140, 0.0234, 0.0072],
+        ...,
+        [0.0136, 0.0112, 0.0124,  ..., 0.0129, 0.0251, 0.0062],
+        [0.0121, 0.0116, 0.0138,  ..., 0.0147, 0.0246, 0.0051],
+        [0.0094, 0.0126, 0.0118,  ..., 0.0146, 0.0186, 0.0054]])

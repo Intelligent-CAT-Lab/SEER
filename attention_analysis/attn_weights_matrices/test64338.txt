@@ -1,0 +1,10 @@
+64338
+Test: public void testSimpleDouble() throws Exception { final String[] INPUTS = new String[] { "1234.00", "2.1101567E-16", "1.0e5", "0.0", "1.0", "-1.0", "-0.5", "-12.9", "-999.0", "2.5e+5", "9e4", "-12e-3", "0.25", }; for (int input = 0; input < 2; ++input) { for (int i = 0; i < INPUTS.length; ++i) { String STR = INPUTS[i]; double EXP_D = Double.parseDouble(STR); String DOC = "["+STR+"]"; JsonParser jp; if (input == 0) { jp = createParserUsingStream(DOC, "UTF-8"); } else { jp = FACTORY.createParser(DOC); } jp.close(); if (input == 0) { jp = createParserUsingStream(STR, "UTF-8"); } else { jp = FACTORY.createParser(STR); } JsonToken t = null; try { t = jp.nextToken(); } catch (Exception e) { throw new Exception("Failed to parse input '"+STR+"' (parser of type "+jp.getClass().getSimpleName()+")", e); } jp.close(); } } }
+Code: public final JsonToken nextToken(){if (_currToken == JsonToken.FIELD_NAME) {return _nextAfterName();}_numTypesValid = NR_UNKNOWN;if (_tokenIncomplete) {_skipString(); }int i = _skipWSOrEnd();if (i < 0) { close();return (_currToken = null);}_binaryValue = null;if (i == INT_RBRACKET) {;if (!_parsingContext.inArray()) {_reportMismatchedEndMarker(i, '}');}_parsingContext = _parsingContext.getParent();return (_currToken = JsonToken.END_ARRAY);}
+tensor([[0.0219, 0.0175, 0.0325,  ..., 0.0213, 0.0138, 0.0274],
+        [0.0210, 0.0137, 0.0328,  ..., 0.0202, 0.0163, 0.0282],
+        [0.0186, 0.0139, 0.0315,  ..., 0.0219, 0.0128, 0.0275],
+        ...,
+        [0.0212, 0.0155, 0.0362,  ..., 0.0224, 0.0113, 0.0236],
+        [0.0248, 0.0208, 0.0342,  ..., 0.0205, 0.0202, 0.0261],
+        [0.0214, 0.0198, 0.0369,  ..., 0.0205, 0.0150, 0.0244]])

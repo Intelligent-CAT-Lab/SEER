@@ -1,0 +1,10 @@
+100390
+Test: public void testPrint_bufferMethods() throws Exception { Period p = new Period(1, 2, 3, 4, 5, 6, 7, 8); StringBuffer buf = new StringBuffer(); f.printTo(buf, p); buf = new StringBuffer(); try { f.printTo(buf, null); fail(); } catch (IllegalArgumentException ex) {} }
+Code: public void printTo(StringBuffer buf, ReadablePeriod period, Locale locale) { long valueLong = getFieldValue(period); if (valueLong == Long.MAX_VALUE) { return; } int value = (int) valueLong; if (iFieldType >= SECONDS_MILLIS) { value = (int) (valueLong / DateTimeConstants.MILLIS_PER_SECOND); } if (iPrefix != null) { iPrefix.printTo(buf, value); } int bufLen = buf.length(); int minDigits = iMinPrintedDigits; if (minDigits <= 1) { FormatUtils.appendUnpaddedInteger(buf, value); } else { FormatUtils.appendPaddedInteger(buf, value, minDigits); } if (iFieldType >= SECONDS_MILLIS) { int dp = (int) (Math.abs(valueLong) % DateTimeConstants.MILLIS_PER_SECOND); if (iFieldType == SECONDS_MILLIS || dp > 0) { if (valueLong < 0 && valueLong > -DateTimeConstants.MILLIS_PER_SECOND) { buf.insert(bufLen, '-'); } buf.append('.'); FormatUtils.appendPaddedInteger(buf, dp, 3); } } if (iSuffix != null) { iSuffix.printTo(buf, value); } }
+tensor([[0.0060, 0.0049, 0.0104,  ..., 0.0150, 0.0027, 0.0027],
+        [0.0044, 0.0040, 0.0098,  ..., 0.0124, 0.0026, 0.0026],
+        [0.0054, 0.0042, 0.0098,  ..., 0.0125, 0.0032, 0.0032],
+        ...,
+        [0.0053, 0.0057, 0.0113,  ..., 0.0130, 0.0022, 0.0022],
+        [0.0043, 0.0039, 0.0104,  ..., 0.0094, 0.0023, 0.0023],
+        [0.0043, 0.0039, 0.0104,  ..., 0.0094, 0.0023, 0.0023]])

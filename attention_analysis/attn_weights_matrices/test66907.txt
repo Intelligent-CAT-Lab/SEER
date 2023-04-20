@@ -1,0 +1,10 @@
+66907
+Test: public void testWithUUID() throws IOException { ObjectMapper mapper = new ObjectMapper(); for (String value : new String[] { "00000007-0000-0000-0000-000000000000", "76e6d183-5f68-4afa-b94a-922c1fdb83f8", "540a88d1-e2d8-4fb1-9396-9212280d0a7f", "2c9e441d-1cd0-472d-9bab-69838f877574", "591b2869-146e-41d7-8048-e8131f1fdec5", "82994ac2-7b23-49f2-8cc5-e24cf6ed77be", }) { TokenBuffer buf = new TokenBuffer(mapper, false); UUID uuid = UUID.fromString(value); mapper.writeValue(buf, uuid); buf.close(); UUID out = mapper.readValue(buf.asParser(), UUID.class); JsonParser jp = buf.asParser(); String str = jp.getText(); jp.close(); } }
+Code: public TokenBuffer(JsonParser p, DeserializationContext ctxt) { _objectCodec = p.getCodec(); _generatorFeatures = DEFAULT_GENERATOR_FEATURES; _writeContext = JsonWriteContext.createRootContext(null); _first = _last = new Segment(); _appendAt = 0; _hasNativeTypeIds = p.canReadTypeId(); _hasNativeObjectIds = p.canReadObjectId(); _mayHaveNativeIds = _hasNativeTypeIds | _hasNativeObjectIds; }
+tensor([[0.0227, 0.0212, 0.0319,  ..., 0.0179, 0.0234, 0.0100],
+        [0.0187, 0.0221, 0.0393,  ..., 0.0127, 0.0250, 0.0083],
+        [0.0168, 0.0222, 0.0301,  ..., 0.0119, 0.0225, 0.0092],
+        ...,
+        [0.0190, 0.0257, 0.0408,  ..., 0.0144, 0.0212, 0.0092],
+        [0.0181, 0.0183, 0.0389,  ..., 0.0106, 0.0231, 0.0081],
+        [0.0156, 0.0180, 0.0344,  ..., 0.0119, 0.0262, 0.0083]])

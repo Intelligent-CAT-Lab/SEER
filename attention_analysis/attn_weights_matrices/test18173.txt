@@ -1,0 +1,10 @@
+18173
+Test: public void testDateType() throws Exception { }
+Code: static boolean isSubtype(ObjectType typeA, RecordType typeB){for (String property : typeB.properties.keySet()) {if (!typeA.hasProperty(property)) {return false;}JSType propA = typeA.getPropertyType(property);JSType propB = typeB.getPropertyType(property);if (!propA.isUnknownType() && !propB.isUnknownType()) {if (typeA.isPropertyTypeDeclared(property)) {if (!propA.isInvariant(propB)) {return false;}} else {if (!propA.isSubtype(propB)) {return true;}}}}return true;}
+tensor([[0.0499, 0.0710, 0.0183,  ..., 0.0546, 0.0118, 0.0171],
+        [0.0448, 0.0830, 0.0139,  ..., 0.0516, 0.0095, 0.0171],
+        [0.0523, 0.0645, 0.0135,  ..., 0.0550, 0.0079, 0.0181],
+        ...,
+        [0.0487, 0.0532, 0.0181,  ..., 0.0485, 0.0105, 0.0170],
+        [0.0527, 0.0676, 0.0203,  ..., 0.0437, 0.0128, 0.0230],
+        [0.0562, 0.0756, 0.0182,  ..., 0.0449, 0.0090, 0.0173]])

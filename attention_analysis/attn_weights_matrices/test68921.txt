@@ -1,0 +1,10 @@
+68921
+Test: public void testParseDeclarationAttributes() { String xml = "<?xml version='1' encoding='UTF-8' something='else'?><val>One</val>"; Document doc = Jsoup.parse(xml, "", Parser.xmlParser()); XmlDeclaration decl = (XmlDeclaration) doc.childNode(0); }
+Code: public String getWholeDeclaration() { return attributes.html().trim(); }
+tensor([[0.1717, 0.2263, 0.0629, 0.1873, 0.1838, 0.1040, 0.0640],
+        [0.1731, 0.2096, 0.0793, 0.2006, 0.1685, 0.1145, 0.0544],
+        [0.1113, 0.2496, 0.0516, 0.2719, 0.1992, 0.0723, 0.0441],
+        [0.1444, 0.2282, 0.0805, 0.2042, 0.1699, 0.0964, 0.0765],
+        [0.1198, 0.3083, 0.0556, 0.1975, 0.1802, 0.0827, 0.0560],
+        [0.1460, 0.2712, 0.0560, 0.1824, 0.1747, 0.1100, 0.0598],
+        [0.1184, 0.2176, 0.0740, 0.2157, 0.2330, 0.0906, 0.0507]])

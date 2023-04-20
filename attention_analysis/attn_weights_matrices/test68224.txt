@@ -1,0 +1,10 @@
+68224
+Test: public void testHashAndEquals() { String doc1 = "<div id=1><p class=one>One</p><p class=one>One</p><p class=one>Two</p><p class=two>One</p></div>" + "<div id=2><p class=one>One</p><p class=one>One</p><p class=one>Two</p><p class=two>One</p></div>"; Document doc = Jsoup.parse(doc1); Elements els = doc.select("p"); Element e0 = els.get(0); Element e1 = els.get(1); Element e2 = els.get(2); Element e3 = els.get(3); Element e4 = els.get(4); Element e5 = els.get(5); Element e6 = els.get(6); Element e7 = els.get(7); }
+Code: public boolean equals(Object o) { if (this == o) return true; if (o == null || getClass() != o.getClass()) return false; if (!super.equals(o)) return false; Element element = (Element) o; return this == o; }
+tensor([[0.0215, 0.0496, 0.0421,  ..., 0.0328, 0.0083, 0.0100],
+        [0.0160, 0.0814, 0.0304,  ..., 0.0242, 0.0063, 0.0076],
+        [0.0203, 0.0537, 0.0364,  ..., 0.0271, 0.0069, 0.0069],
+        ...,
+        [0.0126, 0.0978, 0.0270,  ..., 0.0307, 0.0052, 0.0071],
+        [0.0229, 0.0481, 0.0352,  ..., 0.0333, 0.0077, 0.0078],
+        [0.0148, 0.0497, 0.0305,  ..., 0.0259, 0.0065, 0.0087]])

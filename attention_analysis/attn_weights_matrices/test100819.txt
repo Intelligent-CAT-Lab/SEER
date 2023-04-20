@@ -1,0 +1,10 @@
+100819
+Test: public void testFactory_between_RInstant() { DateTime start = new DateTime(2006, 6, 9, 12, 0, 0, 0, PARIS); DateTime end1 = new DateTime(2006, 6, 12, 12, 0, 0, 0, PARIS); DateTime end2 = new DateTime(2006, 6, 15, 18, 0, 0, 0, PARIS); try { Single.between(start, (ReadableInstant) null, DurationFieldType.days()); fail(); } catch (IllegalArgumentException ex) { } try { Single.between((ReadableInstant) null, end1, DurationFieldType.days()); fail(); } catch (IllegalArgumentException ex) { } try { Single.between((ReadableInstant) null, (ReadableInstant) null, DurationFieldType.days()); fail(); } catch (IllegalArgumentException ex) { } }
+Code: protected static int between(ReadablePartial start, ReadablePartial end, ReadablePeriod zeroInstance) { if (start == null || end == null) { throw new IllegalArgumentException("ReadablePartial objects must not be null"); } if (start.size() != end.size()) { throw new IllegalArgumentException("ReadablePartial objects must have the same set of fields"); } for (int i = 0, isize = start.size(); i < isize; i++) { if (start.getFieldType(i) != end.getFieldType(i)) { throw new IllegalArgumentException("ReadablePartial objects must have the same set of fields"); } } if (DateTimeUtils.isContiguous(start) == false) { throw new IllegalArgumentException("ReadablePartial objects must be contiguous"); } Chronology chrono = DateTimeUtils.getChronology(start.getChronology()).withUTC(); int[] values = chrono.get(zeroInstance, chrono.set(start, 0L), chrono.set(end, 0L)); return values[0]; }
+tensor([[0.0111, 0.0196, 0.0035,  ..., 0.0079, 0.0113, 0.0025],
+        [0.0118, 0.0201, 0.0037,  ..., 0.0069, 0.0091, 0.0037],
+        [0.0107, 0.0290, 0.0031,  ..., 0.0072, 0.0109, 0.0022],
+        ...,
+        [0.0115, 0.0224, 0.0026,  ..., 0.0066, 0.0141, 0.0026],
+        [0.0095, 0.0227, 0.0031,  ..., 0.0084, 0.0141, 0.0033],
+        [0.0108, 0.0211, 0.0037,  ..., 0.0109, 0.0108, 0.0028]])

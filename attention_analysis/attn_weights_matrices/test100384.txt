@@ -1,0 +1,10 @@
+100384
+Test: public void testWithMinuteOfHourInDstChange_mockZone() { DateTime cutover = new DateTime(2010, 10, 31, 1, 15, DateTimeZone.forOffsetHoursMinutes(0, 30)); DateTimeZone halfHourZone = new MockZone(cutover.getMillis(), 3600000, -1800); DateTime pre = new DateTime(2010, 10, 31, 1, 0, halfHourZone); DateTime post = new DateTime(2010, 10, 31, 1, 59, halfHourZone); DateTime testPre1 = pre.withMinuteOfHour(30); DateTime testPre2 = pre.withMinuteOfHour(50); DateTime testPost1 = post.withMinuteOfHour(30); DateTime testPost2 = post.withMinuteOfHour(10); }
+Code: public static DateTimeZone forOffsetHoursMinutes(int hoursOffset, int minutesOffset) throws IllegalArgumentException { if (hoursOffset == 0 && minutesOffset == 0) { return DateTimeZone.UTC; } if (hoursOffset < -23 || hoursOffset > 23) { throw new IllegalArgumentException("Hours out of range: " + hoursOffset); } if (minutesOffset < -59 || minutesOffset > 59) { throw new IllegalArgumentException("Minutes out of range: " + minutesOffset); } if (hoursOffset > 0 && minutesOffset < 0) { throw new IllegalArgumentException("Positive hours must not have negative minutes: " + minutesOffset); } int offset = 0; try { int hoursInMinutes = hoursOffset * 60; if (hoursInMinutes < 0) { minutesOffset = hoursInMinutes - Math.abs(minutesOffset); } else { minutesOffset = hoursInMinutes + minutesOffset; } offset = FieldUtils.safeMultiply(minutesOffset, DateTimeConstants.MILLIS_PER_MINUTE); } catch (ArithmeticException ex) { throw new IllegalArgumentException("Offset is too large"); } return forOffsetMillis(offset); }
+tensor([[0.0058, 0.0178, 0.0064,  ..., 0.0064, 0.0092, 0.0025],
+        [0.0059, 0.0157, 0.0070,  ..., 0.0056, 0.0087, 0.0028],
+        [0.0050, 0.0197, 0.0069,  ..., 0.0062, 0.0072, 0.0020],
+        ...,
+        [0.0040, 0.0184, 0.0059,  ..., 0.0058, 0.0075, 0.0021],
+        [0.0048, 0.0185, 0.0061,  ..., 0.0066, 0.0107, 0.0024],
+        [0.0041, 0.0160, 0.0064,  ..., 0.0086, 0.0075, 0.0021]])

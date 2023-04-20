@@ -1,0 +1,10 @@
+69146
+Test: public void test1514() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest3.test1514"); org.jsoup.nodes.Attributes attributes2 = new org.jsoup.nodes.Attributes(); org.jsoup.nodes.Attributes attributes5 = attributes2.put("hi!", false); int int7 = attributes5.indexOfKey("hi!"); org.jsoup.nodes.Attributes attributes10 = attributes5.put("hi!", "hi!=\"\""); org.jsoup.nodes.Attributes attributes13 = attributes5.put("data-", true); boolean boolean15 = attributes13.hasKeyIgnoreCase(""); org.jsoup.nodes.Attributes attributes16 = attributes13.clone(); org.jsoup.nodes.Attribute attribute17 = new org.jsoup.nodes.Attribute(" hi!=\"\"", "hi!=\"data-=&quot;&quot;\"", attributes16); java.lang.String str19 = attribute17.setValue("data-=\" hi!=&quot;hi!=&amp;quot;&amp;quot;&quot; data-\"=\"\""); }
+Code: public String setValue(String val) { String oldVal = parent.get(this.key); if (parent != null) { int i = parent.indexOfKey(this.key); if (i != Attributes.NotFound) parent.vals[i] = val; } this.val = val; return Attributes.checkNotNull(oldVal); }
+tensor([[0.0279, 0.0360, 0.0547,  ..., 0.0305, 0.0300, 0.0116],
+        [0.0273, 0.0317, 0.0412,  ..., 0.0274, 0.0282, 0.0100],
+        [0.0205, 0.0334, 0.0603,  ..., 0.0322, 0.0271, 0.0095],
+        ...,
+        [0.0191, 0.0458, 0.0455,  ..., 0.0283, 0.0306, 0.0096],
+        [0.0261, 0.0420, 0.0440,  ..., 0.0351, 0.0323, 0.0090],
+        [0.0203, 0.0372, 0.0393,  ..., 0.0418, 0.0286, 0.0098]])

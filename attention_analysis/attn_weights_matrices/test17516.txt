@@ -1,0 +1,10 @@
+17516
+Test: public void testNull() throws Exception { }
+Code: private String format(JSError error, boolean warning) { SourceExcerptProvider source = getSource(); String sourceExcerpt = source == null ? null : excerpt.get( source, error.sourceName, error.lineNumber, excerptFormatter); StringBuilder b = new StringBuilder(); if (error.sourceName != null) { b.append(error.sourceName); if (error.lineNumber > 0) { b.append(':'); b.append(error.lineNumber); } b.append(": "); } b.append(getLevelName(warning ? CheckLevel.WARNING : CheckLevel.ERROR)); b.append(" - "); b.append(error.description); b.append('\n'); if (sourceExcerpt != null) { b.append(sourceExcerpt); b.append('\n'); int charno = error.getCharno(); if (excerpt.equals(LINE) && 0 <= charno && charno <= sourceExcerpt.length()) { for (int i = 0; i < charno; i++) { char c = sourceExcerpt.charAt(i); if (Character.isWhitespace(c)) { b.append(c); } else { b.append(' '); } } b.append("^\n"); } } return b.toString(); }
+tensor([[0.0095, 0.0074, 0.0051,  ..., 0.0065, 0.0162, 0.0030],
+        [0.0076, 0.0068, 0.0048,  ..., 0.0063, 0.0120, 0.0026],
+        [0.0082, 0.0068, 0.0033,  ..., 0.0055, 0.0138, 0.0019],
+        ...,
+        [0.0085, 0.0073, 0.0034,  ..., 0.0055, 0.0151, 0.0024],
+        [0.0089, 0.0079, 0.0032,  ..., 0.0063, 0.0133, 0.0018],
+        [0.0071, 0.0080, 0.0041,  ..., 0.0099, 0.0160, 0.0026]])

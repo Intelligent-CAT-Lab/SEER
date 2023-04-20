@@ -1,0 +1,10 @@
+15168
+Test: public void testPropertyValues() { CommandLine cmdline = createCommandLine(); }
+Code: public List getValues(final Option option, List defaultValues) { List valueList = (List) values.get(option); if (defaultValues == null || defaultValues.isEmpty()) { defaultValues = (List) this.defaultValues.get(option); } if (defaultValues != null && !defaultValues.isEmpty()) { if (valueList == null || valueList.isEmpty()) { valueList = defaultValues; } else { if (defaultValues.size() > valueList.size()) { valueList = new ArrayList(valueList); for (int i=valueList.size(); i<defaultValues.size(); i++) { valueList.add(defaultValues.get(i)); } } } } return valueList == null ? Collections.EMPTY_LIST : valueList; }
+tensor([[0.0090, 0.0117, 0.0205,  ..., 0.0090, 0.0143, 0.0042],
+        [0.0062, 0.0092, 0.0201,  ..., 0.0063, 0.0113, 0.0032],
+        [0.0068, 0.0114, 0.0176,  ..., 0.0070, 0.0091, 0.0031],
+        ...,
+        [0.0093, 0.0128, 0.0206,  ..., 0.0067, 0.0113, 0.0052],
+        [0.0058, 0.0081, 0.0174,  ..., 0.0054, 0.0110, 0.0032],
+        [0.0060, 0.0101, 0.0190,  ..., 0.0061, 0.0110, 0.0037]])

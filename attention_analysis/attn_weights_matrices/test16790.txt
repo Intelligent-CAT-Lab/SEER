@@ -1,0 +1,10 @@
+16790
+Test: public void testSubtypingUnionTypes() throws Exception { }
+Code: static boolean isSubtype(ObjectType typeA, RecordType typeB) { for (String property : typeB.properties.keySet()) { if (!typeA.hasProperty(property)) { return false; } JSType propA = typeA.getPropertyType(property); JSType propB = typeB.getPropertyType(property); if (typeA.isPropertyTypeDeclared(property)) { if (!propA.isInvariant(propB)) { return false; } } else { if (!propA.isSubtype(propB)) { return false; } } } return true; }
+tensor([[0.0340, 0.0425, 0.0115,  ..., 0.0126, 0.0096, 0.0060],
+        [0.0308, 0.0516, 0.0089,  ..., 0.0138, 0.0074, 0.0038],
+        [0.0404, 0.0424, 0.0093,  ..., 0.0109, 0.0072, 0.0035],
+        ...,
+        [0.0369, 0.0434, 0.0107,  ..., 0.0118, 0.0064, 0.0043],
+        [0.0315, 0.0571, 0.0126,  ..., 0.0140, 0.0101, 0.0041],
+        [0.0346, 0.0343, 0.0096,  ..., 0.0191, 0.0121, 0.0045]])

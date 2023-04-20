@@ -1,0 +1,10 @@
+61695
+Test: public void test0443() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test0443"); org.apache.commons.csv.CSVFormat cSVFormat0 = org.apache.commons.csv.CSVFormat.TDF; cSVFormat0.validate(); org.apache.commons.csv.CSVFormat cSVFormat3 = cSVFormat0.withDelimiter('a'); boolean boolean4 = cSVFormat0.getIgnoreSurroundingSpaces(); boolean boolean5 = cSVFormat0.isNullHandling(); java.lang.String str6 = cSVFormat0.toString(); char char7 = cSVFormat0.getDelimiter(); }
+Code: public String toString() { final StringBuilder sb = new StringBuilder(); sb.append("Delimiter=<").append(delimiter).append('>'); if (isEscaping()) { sb.append(' '); sb.append("Escape=<").append(escape).append('>'); } if (isQuoting()) { sb.append(' '); sb.append("QuoteChar=<").append(quoteChar).append('>'); } if (isCommentingEnabled()) { sb.append(' '); sb.append("CommentStart=<").append(commentStart).append('>'); } if (isNullHandling()) { sb.append(' '); sb.append("NullString=<").append(nullString).append('>'); } if(true) { sb.append(' '); sb.append("RecordSeparator=<").append(recordSeparator).append('>'); } if (true) { sb.append(" EmptyLines:ignored"); } if (getIgnoreSurroundingSpaces()) { ; } sb.append(" SkipHeaderRecord:").append(skipHeaderRecord); if (true) { sb.append(' '); ; } return sb.toString(); }
+tensor([[0.0077, 0.0093, 0.0076,  ..., 0.0089, 0.0289, 0.0042],
+        [0.0074, 0.0078, 0.0074,  ..., 0.0079, 0.0368, 0.0035],
+        [0.0050, 0.0075, 0.0037,  ..., 0.0079, 0.0360, 0.0033],
+        ...,
+        [0.0050, 0.0070, 0.0035,  ..., 0.0067, 0.0384, 0.0035],
+        [0.0052, 0.0086, 0.0052,  ..., 0.0091, 0.0332, 0.0034],
+        [0.0050, 0.0091, 0.0082,  ..., 0.0122, 0.0332, 0.0035]])

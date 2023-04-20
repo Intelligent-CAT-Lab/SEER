@@ -1,0 +1,10 @@
+100618
+Test: public void testPropertyAddWrapFieldDayOfYear() { MutableDateTime test = new MutableDateTime(2004, 6, 9, 0, 0, 0, 0); test.dayOfYear().addWrapField(206); }
+Code: public long addWrapField(long instant, int value) { if (iTimeField) { int offset = getOffsetToAdd(instant); long localInstant = iField.addWrapField(instant + offset, value); return localInstant - offset; } else { long localInstant = iZone.convertUTCToLocal(instant); localInstant = iField.addWrapField(localInstant, value); return iZone.convertLocalToUTC(localInstant, false, instant); } }
+tensor([[0.0180, 0.0291, 0.0159,  ..., 0.0208, 0.0083, 0.0083],
+        [0.0127, 0.0251, 0.0161,  ..., 0.0207, 0.0078, 0.0078],
+        [0.0190, 0.0272, 0.0173,  ..., 0.0228, 0.0085, 0.0085],
+        ...,
+        [0.0142, 0.0223, 0.0130,  ..., 0.0181, 0.0056, 0.0056],
+        [0.0133, 0.0216, 0.0151,  ..., 0.0186, 0.0073, 0.0073],
+        [0.0133, 0.0216, 0.0151,  ..., 0.0186, 0.0073, 0.0073]])

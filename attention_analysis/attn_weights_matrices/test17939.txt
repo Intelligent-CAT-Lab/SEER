@@ -1,0 +1,10 @@
+17939
+Test: public void testUnexpectedException() { final String TEST_EXCEPTION = "test me"; NodeTraversal.Callback cb = new NodeTraversal.AbstractPostOrderCallback() { @Override public void visit(NodeTraversal t, Node n, Node parent) { throw new RuntimeException(TEST_EXCEPTION); } }; Compiler compiler = new Compiler(); NodeTraversal t = new NodeTraversal(compiler, cb); String code = "function foo() {}"; Node tree = parse(compiler, code); try { t.traverse(tree); fail("Expected RuntimeException"); } catch (RuntimeException e) { } }
+Code: public void visit(NodeTraversal t, Node n, Node parent) { switch (n.getType()) { case Token.GETPROP: case Token.GETELEM: Node dest = n.getFirstChild().getNext(); if (dest.getType() == Token.STRING) { String s = dest.getString(); if (s.equals("prototype")) { processPrototypeParent(parent, t.getInput()); } else { markPropertyAccessCandidate(dest, t.getInput()); } } break; case Token.OBJECTLIT: if (!prototypeObjLits.contains(n)) { for (Node child = n.getFirstChild(); child != null; child = child.getNext()) { if (child.getType() != Token.NUMBER) { markObjLitPropertyCandidate(child, t.getInput()); } } } break; } }
+tensor([[0.0113, 0.0090, 0.0058,  ..., 0.0157, 0.0046, 0.0046],
+        [0.0088, 0.0072, 0.0033,  ..., 0.0138, 0.0042, 0.0042],
+        [0.0081, 0.0057, 0.0039,  ..., 0.0129, 0.0024, 0.0024],
+        ...,
+        [0.0092, 0.0072, 0.0047,  ..., 0.0104, 0.0038, 0.0038],
+        [0.0078, 0.0068, 0.0045,  ..., 0.0111, 0.0037, 0.0037],
+        [0.0078, 0.0068, 0.0045,  ..., 0.0111, 0.0037, 0.0037]])

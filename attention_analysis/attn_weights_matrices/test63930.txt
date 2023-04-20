@@ -1,0 +1,10 @@
+63930
+Test: public void testNoAutoCloseGenerator() throws Exception { JsonFactory f = new JsonFactory(); f.disable(JsonGenerator.Feature.AUTO_CLOSE_TARGET); @SuppressWarnings("resource") MyWriter output = new MyWriter(); JsonGenerator jg = f.createGenerator(output); jg.writeNumber(39); jg.close(); }
+Code: public void writeNumber(BigDecimal value) throws IOException { _verifyValueWrite(WRITE_NUMBER); if (value == null) { _writeNull(); } else if (_cfgNumbersAsStrings) { String raw = Feature.WRITE_BIGDECIMAL_AS_PLAIN.enabledIn(_features) ? value.toPlainString() : value.toString(); _writeQuotedRaw(raw); } else if (Feature.WRITE_BIGDECIMAL_AS_PLAIN.enabledIn(_features)) { writeRaw(value.toPlainString()); } else { writeRaw(_asString(value)); } }
+tensor([[0.0189, 0.0154, 0.0103,  ..., 0.0105, 0.0083, 0.0083],
+        [0.0152, 0.0132, 0.0083,  ..., 0.0092, 0.0080, 0.0080],
+        [0.0118, 0.0126, 0.0092,  ..., 0.0093, 0.0072, 0.0072],
+        ...,
+        [0.0141, 0.0135, 0.0090,  ..., 0.0096, 0.0076, 0.0076],
+        [0.0133, 0.0121, 0.0084,  ..., 0.0092, 0.0070, 0.0070],
+        [0.0133, 0.0121, 0.0084,  ..., 0.0092, 0.0070, 0.0070]])

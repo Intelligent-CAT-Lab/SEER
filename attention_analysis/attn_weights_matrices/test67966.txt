@@ -1,0 +1,10 @@
+67966
+Test: @Test public void testInnerHtml() { Document doc = Jsoup.parse("<div>\n <p>Hello</p> </div>"); }
+Code: final void html(final Appendable accum, final Document.OutputSettings out) throws IOException { final int sz = size; for (int i = 0; i < sz; i++) { final String key = keys[i]; final String val = vals[i]; accum.append(' ').append(key); if (!Attribute.shouldCollapseAttribute(key, val, out)) { accum.append("=\""); Entities.escape(accum, val == null ? EmptyString : val, out, true, false, false); accum.append('"'); } } }
+tensor([[0.0091, 0.0100, 0.0210,  ..., 0.0043, 0.0043, 0.0043],
+        [0.0102, 0.0103, 0.0209,  ..., 0.0057, 0.0057, 0.0057],
+        [0.0095, 0.0085, 0.0189,  ..., 0.0043, 0.0043, 0.0043],
+        ...,
+        [0.0094, 0.0096, 0.0214,  ..., 0.0053, 0.0053, 0.0053],
+        [0.0094, 0.0096, 0.0214,  ..., 0.0053, 0.0053, 0.0053],
+        [0.0094, 0.0096, 0.0214,  ..., 0.0053, 0.0053, 0.0053]])

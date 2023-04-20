@@ -1,0 +1,10 @@
+63998
+Test: public void test324() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test324"); com.fasterxml.jackson.core.util.BufferRecycler bufferRecycler0 = null; com.fasterxml.jackson.core.util.TextBuffer textBuffer1 = new com.fasterxml.jackson.core.util.TextBuffer(bufferRecycler0); java.lang.String str2 = textBuffer1.toString(); textBuffer1.resetWithEmpty(); try { java.math.BigDecimal bigDecimal4 = textBuffer1.contentsAsDecimal(); } catch (java.lang.NumberFormatException e) { } }
+Code: public BigDecimal contentsAsDecimal() throws NumberFormatException { if (_resultArray != null) { return NumberInput.parseBigDecimal(_resultArray); } if ((_inputStart >= 0) && (_inputBuffer != null)) { return NumberInput.parseBigDecimal(_inputBuffer, _inputStart, _inputLen); } if ((_segmentSize == 0) && (_currentSegment != null)) { return NumberInput.parseBigDecimal(_currentSegment, 0, _currentSize); } return NumberInput.parseBigDecimal(contentsAsArray()); }
+tensor([[0.0172, 0.0410, 0.0087,  ..., 0.0189, 0.0190, 0.0073],
+        [0.0164, 0.0353, 0.0078,  ..., 0.0213, 0.0166, 0.0065],
+        [0.0146, 0.0366, 0.0148,  ..., 0.0201, 0.0189, 0.0089],
+        ...,
+        [0.0113, 0.0369, 0.0065,  ..., 0.0164, 0.0212, 0.0059],
+        [0.0155, 0.0340, 0.0078,  ..., 0.0182, 0.0153, 0.0060],
+        [0.0122, 0.0412, 0.0083,  ..., 0.0255, 0.0128, 0.0061]])

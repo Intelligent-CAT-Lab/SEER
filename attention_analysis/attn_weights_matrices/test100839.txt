@@ -1,0 +1,10 @@
+100839
+Test: public void testConstructor_RI_RP2() throws Throwable { Instant dt = new Instant(new DateTime(TEST_TIME_NOW)); Period dur = new Period(0, 6, 0, 3, 1, 0, 0, 0); long result = TEST_TIME_NOW; result = ISOChronology.getInstanceUTC().months().add(result, 6); result = ISOChronology.getInstanceUTC().days().add(result, 3); result = ISOChronology.getInstanceUTC().hours().add(result, 1); MutableInterval test = new MutableInterval(dt, dur); }
+Code: public int[] add(ReadablePartial partial, int fieldIndex, int[] values, int valueToAdd) { if (valueToAdd == 0) { return values; } if (DateTimeUtils.isContiguous(partial)) { long instant = 0L; for (int i = 0, isize = partial.size(); i < isize; i++) { instant = partial.getFieldType(i).getField(iChronology).set(instant, values[i]); } instant = add(instant, valueToAdd); return iChronology.get(partial, instant); } else { return super.add(partial, fieldIndex, values, valueToAdd); } }
+tensor([[0.0101, 0.0378, 0.0264,  ..., 0.0146, 0.0047, 0.0047],
+        [0.0113, 0.0336, 0.0219,  ..., 0.0197, 0.0045, 0.0045],
+        [0.0076, 0.0436, 0.0194,  ..., 0.0176, 0.0046, 0.0046],
+        ...,
+        [0.0081, 0.0470, 0.0251,  ..., 0.0150, 0.0040, 0.0040],
+        [0.0076, 0.0356, 0.0253,  ..., 0.0164, 0.0040, 0.0040],
+        [0.0076, 0.0356, 0.0253,  ..., 0.0164, 0.0040, 0.0040]])

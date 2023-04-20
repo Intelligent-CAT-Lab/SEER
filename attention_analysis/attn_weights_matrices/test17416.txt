@@ -1,0 +1,11 @@
+17416
+Test: public void testIssue724() { CompilerOptions options = createCompilerOptions(); CompilationLevel.ADVANCED_OPTIMIZATIONS .setOptionsForCompilationLevel(options); String code = "isFunction = function(functionToCheck) {" + " var getType = {};" + " return functionToCheck && " + " getType.toString.apply(functionToCheck) === " + " '[object Function]';" + "};"; String result = "isFunction=function(a){var b={};" + "return a&&\"[object Function]\"===b.b.a(a)}"; test(options, code, result); }
+Code: public boolean apply(TemplateType key) { return keys.contains(key); }
+tensor([[0.0975, 0.2351, 0.1398, 0.1141, 0.1379, 0.1082, 0.1241, 0.0433],
+        [0.0630, 0.3189, 0.1287, 0.1014, 0.1630, 0.1056, 0.0892, 0.0303],
+        [0.1052, 0.2606, 0.1298, 0.1179, 0.1123, 0.1311, 0.1110, 0.0320],
+        [0.0771, 0.2092, 0.1551, 0.1262, 0.1750, 0.1077, 0.1065, 0.0432],
+        [0.0993, 0.2211, 0.1355, 0.1064, 0.1577, 0.1145, 0.1097, 0.0559],
+        [0.0649, 0.3106, 0.1345, 0.1224, 0.1356, 0.0928, 0.1026, 0.0367],
+        [0.0717, 0.3125, 0.1102, 0.0904, 0.1754, 0.0951, 0.1111, 0.0336],
+        [0.0658, 0.2339, 0.1513, 0.1044, 0.1612, 0.1414, 0.1068, 0.0351]])

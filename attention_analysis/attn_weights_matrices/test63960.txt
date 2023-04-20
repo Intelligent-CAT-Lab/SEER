@@ -1,0 +1,10 @@
+63960
+Test: public void testSimpleDocWithMinimal() throws Exception { StringWriter sw = new StringWriter(); JsonGenerator gen = new JsonFactory().createGenerator(sw); gen.setPrettyPrinter(new MinimalPrettyPrinter()); String docStr = _verifyPrettyPrinter(gen, sw); gen = new JsonFactory().createGenerator(sw); gen.setPrettyPrinter(new MinimalPrettyPrinter() { @Override public void beforeArrayValues(JsonGenerator jg) throws IOException, JsonGenerationException { jg.writeRaw("\t"); } }); docStr = _verifyPrettyPrinter(gen, sw); gen.close(); }
+Code: public void writeRaw(String text, int offset, int len) throws IOException { final char[] buf = _charBuffer; while (len > 0) { int len2 = Math.min(buf.length, len); text.getChars(offset, offset+len2, buf, 0); writeRaw(buf, 0, len2); offset += len2; len -= len2; } }
+tensor([[0.0175, 0.0144, 0.0112,  ..., 0.0263, 0.0079, 0.0079],
+        [0.0135, 0.0125, 0.0123,  ..., 0.0227, 0.0081, 0.0081],
+        [0.0137, 0.0104, 0.0127,  ..., 0.0226, 0.0055, 0.0055],
+        ...,
+        [0.0140, 0.0125, 0.0128,  ..., 0.0232, 0.0085, 0.0085],
+        [0.0126, 0.0119, 0.0156,  ..., 0.0248, 0.0072, 0.0072],
+        [0.0126, 0.0119, 0.0156,  ..., 0.0248, 0.0072, 0.0072]])

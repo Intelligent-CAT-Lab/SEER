@@ -1,0 +1,10 @@
+66524
+Test: public void testSerializeAsExternalizable() throws Exception { ByteArrayOutputStream bytes = new ByteArrayOutputStream(); ObjectOutputStream obs = new ObjectOutputStream(bytes); final MyPojo input = new MyPojo(13, "Foobar", new int[] { 1, 2, 3 } ); obs.writeObject(input); obs.close(); byte[] ser = bytes.toByteArray(); byte[] json = MapperHolder.mapper().writeValueAsBytes(input); int ix = indexOf(ser, json); if (ix < 0) { fail("Serialization ("+ser.length+") does NOT contain JSON (of "+json.length+")"); } if (false) { bytes = new ByteArrayOutputStream(); obs = new ObjectOutputStream(bytes); MyPojoNative p = new MyPojoNative(13, "Foobar", new int[] { 1, 2, 3 } ); obs.writeObject(p); obs.close(); System.out.println("Native size: "+bytes.size()+", vs JSON: "+ser.length); } ObjectInputStream ins = new ObjectInputStream(new ByteArrayInputStream(ser)); MyPojo output = (MyPojo) ins.readObject(); ins.close(); }
+Code: public void writeObject(Object value) throws IOException { if (value == null) { writeNull(); return; } Class<?> raw = value.getClass(); if (raw == byte[].class || (value instanceof RawValue)) { _append(JsonToken.VALUE_EMBEDDED_OBJECT, value); return; } if (_objectCodec == null) { _append(JsonToken.VALUE_EMBEDDED_OBJECT, value); } else { _objectCodec.writeValue(this, value); } }
+tensor([[0.0175, 0.0142, 0.0137,  ..., 0.0439, 0.0076, 0.0076],
+        [0.0148, 0.0128, 0.0155,  ..., 0.0436, 0.0077, 0.0077],
+        [0.0116, 0.0102, 0.0147,  ..., 0.0396, 0.0067, 0.0067],
+        ...,
+        [0.0152, 0.0161, 0.0150,  ..., 0.0376, 0.0061, 0.0061],
+        [0.0130, 0.0118, 0.0237,  ..., 0.0283, 0.0067, 0.0067],
+        [0.0130, 0.0118, 0.0237,  ..., 0.0283, 0.0067, 0.0067]])

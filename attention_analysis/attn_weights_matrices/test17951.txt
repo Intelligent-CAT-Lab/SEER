@@ -1,0 +1,10 @@
+17951
+Test: public void testForwardPropertyReference() throws Exception { testTypes(" var Foo = function() { this.init(); };" + "" + "Foo.prototype.getString = function() {" + " return this.number_;" + "};" + "Foo.prototype.init = function() {" + " " + " this.number_ = 3;" + "};", "inconsistent return type\n" + "found : number\n" + "required: string"); }
+Code: public void init(JSSourceFile[] externs, JSModule[] modules, CompilerOptions options) { initOptions(options); checkFirstModule(modules); this.externs = makeCompilerInput(externs, true); this.modules = modules; try { this.moduleGraph = new JSModuleGraph(modules); } catch (JSModuleGraph.ModuleDependenceException e) { report(JSError.make(MODULE_DEPENDENCY_ERROR, e.getModule().getName(), e.getDependentModule().getName())); return; } this.inputs = getAllInputsFromModules(); initBasedOnOptions(); initInputsByNameMap(); }
+tensor([[0.0238, 0.0194, 0.0541,  ..., 0.0388, 0.0280, 0.0103],
+        [0.0203, 0.0170, 0.0583,  ..., 0.0444, 0.0332, 0.0099],
+        [0.0191, 0.0157, 0.0520,  ..., 0.0410, 0.0299, 0.0076],
+        ...,
+        [0.0238, 0.0174, 0.0621,  ..., 0.0374, 0.0295, 0.0081],
+        [0.0179, 0.0134, 0.0683,  ..., 0.0343, 0.0365, 0.0081],
+        [0.0184, 0.0166, 0.0638,  ..., 0.0430, 0.0279, 0.0093]])

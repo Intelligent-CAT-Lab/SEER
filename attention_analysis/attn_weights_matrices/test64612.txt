@@ -1,0 +1,10 @@
+64612
+Test: public void testSkipChildrenFailOnSplit() throws IOException { NonBlockingJsonParser nbParser = (NonBlockingJsonParser) JSON_F.createNonBlockingByteArrayParser(); @SuppressWarnings("resource") FilteringParserDelegate filteredParser = new FilteringParserDelegate(nbParser, TOKEN_FILTER, true, true); nbParser.feedInput(INPUT_BYTES, 0, 5); try { nbParser.skipChildren(); fail("Should not pass!"); } catch (JsonParseException e) { verifyException(e, "not enough content available"); verifyException(e, "skipChildren()"); } nbParser.close(); filteredParser.close(); }
+Code: public void feedInput(byte[] buf, int start, int end){if (_inputPtr < _inputEnd) {_reportError("Still have %d undecoded bytes, should not call 'feedInput'", _inputEnd - _inputPtr);}if (end < start) {_reportError("Input end (%d) may not be before start (%d)", end, start);}if (true) {;}_currInputProcessed += _origBufferLen;_currInputRowStart = start - (_inputEnd - _currInputRowStart);_inputBuffer = buf;;_inputEnd = end;_origBufferLen = end - start;}
+tensor([[0.0133, 0.0113, 0.0192,  ..., 0.0043, 0.0378, 0.0111],
+        [0.0101, 0.0100, 0.0164,  ..., 0.0035, 0.0397, 0.0092],
+        [0.0105, 0.0078, 0.0164,  ..., 0.0040, 0.0397, 0.0091],
+        ...,
+        [0.0092, 0.0072, 0.0176,  ..., 0.0042, 0.0442, 0.0093],
+        [0.0147, 0.0125, 0.0186,  ..., 0.0081, 0.0335, 0.0127],
+        [0.0118, 0.0095, 0.0196,  ..., 0.0048, 0.0451, 0.0083]])

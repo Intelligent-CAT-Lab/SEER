@@ -1,0 +1,10 @@
+15159
+Test: public void testWithMaximumUsingDefaultValues() { final DefaultOptionBuilder obuilder = new DefaultOptionBuilder(); final ArgumentBuilder abuilder = new ArgumentBuilder(); final GroupBuilder gbuilder = new GroupBuilder(); DefaultOption aOption = obuilder .withShortName("a") .withLongName("a") .withArgument(abuilder .withName("a") .withDefault("10") .create()) .create(); DefaultOption bOption = obuilder .withShortName("b") .withLongName("b") .withArgument(abuilder .withName("b") .withMinimum(2) .withMaximum(4) .withDefault("100") .withDefault("1000") .withDefault("10000") .create()) .create(); Group options = gbuilder .withName("options") .withOption(aOption) .withOption(bOption) .create(); Parser parser = new Parser(); parser.setHelpTrigger("--help"); parser.setGroup(options); CommandLine cl = parser.parseAndHelp("-a -b".split(" ")); int a = Integer.parseInt(cl.getValue(aOption).toString()); List b = cl.getValues(bOption); }
+Code: public List getValues(final Option option, List defaultValues) { List valueList = (List) values.get(option); if ((valueList == null) || valueList.isEmpty()) { valueList = defaultValues; } if ((valueList == null) || valueList.isEmpty()) { valueList = (List) this.defaultValues.get(option); } return valueList == null ? Collections.EMPTY_LIST : valueList; }
+tensor([[0.0139, 0.0174, 0.0320,  ..., 0.0146, 0.0217, 0.0069],
+        [0.0094, 0.0133, 0.0312,  ..., 0.0100, 0.0171, 0.0053],
+        [0.0109, 0.0166, 0.0281,  ..., 0.0118, 0.0141, 0.0053],
+        ...,
+        [0.0149, 0.0191, 0.0328,  ..., 0.0112, 0.0176, 0.0088],
+        [0.0090, 0.0114, 0.0271,  ..., 0.0090, 0.0172, 0.0052],
+        [0.0091, 0.0147, 0.0295,  ..., 0.0099, 0.0167, 0.0059]])

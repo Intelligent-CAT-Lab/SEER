@@ -1,0 +1,23 @@
+63283
+Test: public void testNullSafe() { TypeAdapter<Person> typeAdapter = new TypeAdapter<Person>() { @Override public Person read(JsonReader in) throws IOException { String[] values = in.nextString().split(","); return new Person(values[0], Integer.parseInt(values[1])); } public void write(JsonWriter out, Person person) throws IOException { out.value(person.name + "," + person.age); } }; Gson gson = new GsonBuilder().registerTypeAdapter( Person.class, typeAdapter).create(); Truck truck = new Truck(); truck.horsePower = 1.0D; truck.passengers = new ArrayList<Person>(); truck.passengers.add(null); truck.passengers.add(new Person("jesse", 30)); try { gson.toJson(truck, Truck.class); fail(); } catch (NullPointerException expected) {} String json = "{horsePower:1.0,passengers:[null,'jesse,30']}"; try { gson.fromJson(json, Truck.class); fail(); } catch (JsonSyntaxException expected) {} gson = new GsonBuilder().registerTypeAdapter(Person.class, typeAdapter.nullSafe()).create(); truck = gson.fromJson(json, Truck.class); }
+Code: public void write(JsonWriter out, Boolean value){if (value == null) {;return;}out.value(value);}
+tensor([[0.0794, 0.0694, 0.0725, 0.0832, 0.2398, 0.0619, 0.0647, 0.1135, 0.0371,
+         0.1784],
+        [0.0634, 0.0645, 0.0682, 0.1231, 0.2055, 0.0516, 0.0622, 0.0854, 0.0317,
+         0.2444],
+        [0.0849, 0.0585, 0.0898, 0.0913, 0.2328, 0.0552, 0.0680, 0.0871, 0.0299,
+         0.2026],
+        [0.0686, 0.0691, 0.0848, 0.0825, 0.2160, 0.0607, 0.0775, 0.1047, 0.0438,
+         0.1921],
+        [0.0823, 0.0626, 0.0746, 0.1037, 0.2151, 0.0543, 0.0696, 0.1050, 0.0395,
+         0.1933],
+        [0.0712, 0.0567, 0.0725, 0.1056, 0.2515, 0.0544, 0.0679, 0.0935, 0.0366,
+         0.1901],
+        [0.0734, 0.0641, 0.0805, 0.0972, 0.2132, 0.0527, 0.0787, 0.1145, 0.0354,
+         0.1903],
+        [0.0489, 0.0634, 0.0597, 0.0734, 0.2580, 0.0424, 0.0742, 0.1122, 0.0310,
+         0.2369],
+        [0.0656, 0.0499, 0.0685, 0.0895, 0.2562, 0.0499, 0.0715, 0.1128, 0.0362,
+         0.2000],
+        [0.0775, 0.0755, 0.0785, 0.0940, 0.1933, 0.0575, 0.0823, 0.0931, 0.0389,
+         0.2094]])

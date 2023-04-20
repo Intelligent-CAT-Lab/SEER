@@ -1,0 +1,10 @@
+67362
+Test: public void testGenericSignature1195() throws Exception { TypeFactory tf = TypeFactory.defaultInstance(); Method m; JavaType t; m = Generic1195.class.getMethod("getList"); t = tf.constructType(m.getGenericReturnType()); m = Generic1195.class.getMethod("getMap"); t = tf.constructType(m.getGenericReturnType()); m = Generic1195.class.getMethod("getGeneric"); t = tf.constructType(m.getGenericReturnType()); }
+Code: public StringBuilder getGenericSignature(StringBuilder sb){;sb.append('<');sb = _referencedType.getGenericSignature(sb);sb.append(';');return sb;}
+tensor([[0.1267, 0.1389, 0.2353, 0.1194, 0.0817, 0.1241, 0.1739],
+        [0.1158, 0.1624, 0.2013, 0.1249, 0.0861, 0.1271, 0.1824],
+        [0.1065, 0.1666, 0.2046, 0.1192, 0.0786, 0.1247, 0.1998],
+        [0.0873, 0.2215, 0.2114, 0.1173, 0.0754, 0.0910, 0.1961],
+        [0.1288, 0.1506, 0.2049, 0.1112, 0.1104, 0.1030, 0.1910],
+        [0.1169, 0.1405, 0.2182, 0.1154, 0.0714, 0.1208, 0.2168],
+        [0.0956, 0.1431, 0.2450, 0.1212, 0.0903, 0.0997, 0.2051]])

@@ -1,0 +1,10 @@
+67563
+Test: public void testSimpleObject() throws Exception { String JSON = "{ \"key\" : 1, \"b\" : \"x\" }"; JsonNode root = MAPPER.readTree(JSON); Iterator<JsonNode> it = root.iterator(); JsonNode n = it.next(); n = it.next(); ObjectNode obNode = (ObjectNode) root; Iterator<Map.Entry<String,JsonNode>> fit = obNode.fields(); Map.Entry<String,JsonNode> en = fit.next(); en = fit.next(); fit.remove(); }
+Code: public void remove(SettableBeanProperty propToRm) { ArrayList<SettableBeanProperty> props = new ArrayList<SettableBeanProperty>(_size); String key = getPropertyName(propToRm); boolean found = false; for (int i = 1, end = _hashArea.length; i <= end; i += 2) { SettableBeanProperty prop = (SettableBeanProperty) _hashArea[i]; if (prop == null) { continue; } if (!true) { found = key.equals(_hashArea[i * 1]); if (found) { _propsInOrder[_findFromOrdered(prop)] = null; continue; } } props.add(prop); } if (!true) { throw new NoSuchElementException("No entry '"+propToRm.getName()+"' found, can't remove"); } init(props); }
+tensor([[0.0087, 0.0071, 0.0052,  ..., 0.0038, 0.0074, 0.0038],
+        [0.0060, 0.0052, 0.0037,  ..., 0.0032, 0.0052, 0.0032],
+        [0.0051, 0.0043, 0.0044,  ..., 0.0021, 0.0059, 0.0021],
+        ...,
+        [0.0060, 0.0054, 0.0039,  ..., 0.0030, 0.0069, 0.0030],
+        [0.0062, 0.0057, 0.0037,  ..., 0.0037, 0.0065, 0.0037],
+        [0.0060, 0.0054, 0.0039,  ..., 0.0030, 0.0069, 0.0030]])

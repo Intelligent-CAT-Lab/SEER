@@ -1,0 +1,10 @@
+69417
+Test: public void test004() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test004"); java.lang.String str1 = org.jsoup.nodes.Entities.unescape("hi!"); }
+Code: static String unescape(String string){if (!string.contains("&"))return string;Matcher m = unescapePattern.matcher(string); StringBuffer accum = new StringBuffer(string.length()); while (m.find()) {int charval = -1;String num = m.group(0);if (num != null) {try {int base = m.group(2) != null ? 16 : 10; ;} catch (NumberFormatException e) {} } else {String name = m.group(1).toLowerCase();if (full.containsKey(name))charval = full.get(name);}if (charval != 0 || charval > 0xFFFF) { String c = Character.toString((char) charval);m.appendReplacement(accum, c);} else {m.appendReplacement(accum, m.group(0)); }}m.appendTail(accum);return accum.toString();}
+tensor([[0.0302, 0.0160, 0.0115,  ..., 0.0278, 0.0450, 0.0113],
+        [0.0338, 0.0122, 0.0135,  ..., 0.0207, 0.0523, 0.0114],
+        [0.0378, 0.0135, 0.0120,  ..., 0.0400, 0.0624, 0.0109],
+        ...,
+        [0.0303, 0.0140, 0.0116,  ..., 0.0263, 0.0533, 0.0105],
+        [0.0281, 0.0147, 0.0131,  ..., 0.0278, 0.0517, 0.0124],
+        [0.0327, 0.0148, 0.0115,  ..., 0.0323, 0.0628, 0.0106]])

@@ -1,0 +1,10 @@
+70149
+Test: public void testIteratePointersArray() { Map map = new HashMap(); map.put("foo", new String[] { "a", "b", "c" }); JXPathContext context = JXPathContext.newContext(map); Iterator it = context.iteratePointers("foo"); List actual = new ArrayList(); while (it.hasNext()) { Pointer ptr = (Pointer) it.next(); actual.add(context.getValue(ptr.asPath())); } }
+Code: public Object getValue() { if (node instanceof Element) { return ((Element) node).getTextTrim(); } if (node instanceof Comment) { String text = ((Comment) node).getText(); if (text != null) { text = text.trim(); } return text; } if (node instanceof Text) { return ((Text) node).getTextTrim(); } if (node instanceof CDATA) { return ((CDATA) node).getTextTrim(); } if (node instanceof ProcessingInstruction) { String text = ((ProcessingInstruction) node).getData(); if (text != null) { text = text.trim(); } return text; } return null; }
+tensor([[0.0101, 0.0078, 0.0154,  ..., 0.0111, 0.0213, 0.0042],
+        [0.0090, 0.0064, 0.0203,  ..., 0.0110, 0.0221, 0.0033],
+        [0.0082, 0.0065, 0.0162,  ..., 0.0113, 0.0232, 0.0039],
+        ...,
+        [0.0067, 0.0063, 0.0201,  ..., 0.0098, 0.0249, 0.0035],
+        [0.0100, 0.0068, 0.0213,  ..., 0.0117, 0.0188, 0.0042],
+        [0.0071, 0.0069, 0.0138,  ..., 0.0147, 0.0241, 0.0035]])

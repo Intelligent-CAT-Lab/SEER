@@ -1,0 +1,10 @@
+16959
+Test: public void testRemoveTryChild2() { Node actual = parse("try {foo()} catch(e) {} finally {}"); Node tryNode = actual.getFirstChild(); Node tryBlock = tryNode.getFirstChild(); NodeUtil.removeChild(tryNode, tryBlock); String expected = "try {} catch(e) {} finally {}"; String difference = parse(expected).checkTreeEquals(actual); if (difference != null) { } }
+Code: private void parse(AbstractCompiler compiler) { int startErrorCount = compiler.getErrorManager().getErrorCount(); try { ParserRunner.ParseResult result = ParserRunner.parse(sourceFile, sourceFile.getCode(), compiler.getParserConfig(), compiler.getDefaultErrorReporter(), logger_); root = result.ast; compiler.setOldParseTree(sourceFile.getName(), result.oldAst); } catch (IOException e) { compiler.report( JSError.make(AbstractCompiler.READ_ERROR, sourceFile.getName())); } if (root == null || (compiler.getErrorManager().getErrorCount() > startErrorCount && !compiler.isIdeMode())) { root = IR.script(); } else { compiler.prepareAst(root); } root.setStaticSourceFile(sourceFile); }
+tensor([[0.0203, 0.0108, 0.0211,  ..., 0.0062, 0.0145, 0.0062],
+        [0.0153, 0.0099, 0.0158,  ..., 0.0061, 0.0128, 0.0061],
+        [0.0167, 0.0102, 0.0231,  ..., 0.0055, 0.0166, 0.0055],
+        ...,
+        [0.0158, 0.0093, 0.0223,  ..., 0.0053, 0.0168, 0.0053],
+        [0.0186, 0.0113, 0.0283,  ..., 0.0062, 0.0160, 0.0062],
+        [0.0158, 0.0093, 0.0223,  ..., 0.0053, 0.0168, 0.0053]])

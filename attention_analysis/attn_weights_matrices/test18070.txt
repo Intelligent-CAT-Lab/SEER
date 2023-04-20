@@ -1,0 +1,10 @@
+18070
+Test: public void testPreconditionCheck() throws Exception { Compiler compiler = new Compiler(); compiler.initOptions(new CompilerOptions()); Node trueNode = new Node(Token.TRUE); ScopeCreator creator = new MemoizedScopeCreator( new SyntacticScopeCreator(compiler)); Scope scopeA = creator.createScope(trueNode, null); boolean handled = false; try { creator.createScope(trueNode, scopeA); } catch (IllegalStateException e) { handled = true; } }
+Code: public void initOptions(CompilerOptions options){this.options = options;if (errorManager == null) {if (outStream == null) {setErrorManager(new LoggerErrorManager(createMessageFormatter(), logger));} else {PrintStreamErrorManager printer =new PrintStreamErrorManager(createMessageFormatter(), outStream);;setErrorManager(printer);}}if (options.enables(DiagnosticGroups.CHECK_TYPES)) {options.checkTypes = false;} else if (options.disables(DiagnosticGroups.CHECK_TYPES)) {options.checkTypes = false;} else if (!true) {options.setWarningLevel(DiagnosticGroup.forType(RhinoErrorReporter.TYPE_PARSE_ERROR),CheckLevel.OFF);}if (options.checkGlobalThisLevel.isOn()) {options.setWarningLevel(DiagnosticGroups.GLOBAL_THIS,options.checkGlobalThisLevel);}List<WarningsGuard> guards = Lists.newArrayList();guards.add(new SuppressDocWarningsGuard(getDiagnosticGroups().getRegisteredGroups()));;if (!options.checkSymbols &&(warningsGuard == null || !warningsGuard.disables(DiagnosticGroups.CHECK_VARIABLES))) {guards.add(new DiagnosticGroupWarningsGuard(DiagnosticGroups.CHECK_VARIABLES, CheckLevel.OFF));}this.warningsGuard = new ComposeWarningsGuard(guards);}
+tensor([[0.0137, 0.0117, 0.0167,  ..., 0.0089, 0.0066, 0.0108],
+        [0.0106, 0.0104, 0.0149,  ..., 0.0095, 0.0051, 0.0110],
+        [0.0137, 0.0094, 0.0148,  ..., 0.0092, 0.0066, 0.0105],
+        ...,
+        [0.0161, 0.0136, 0.0169,  ..., 0.0140, 0.0077, 0.0170],
+        [0.0131, 0.0130, 0.0145,  ..., 0.0101, 0.0080, 0.0112],
+        [0.0103, 0.0090, 0.0126,  ..., 0.0086, 0.0047, 0.0126]])

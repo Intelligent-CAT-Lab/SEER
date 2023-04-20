@@ -1,0 +1,10 @@
+61268
+Test: public void test0587() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest1.test0587"); org.apache.commons.csv.CSVFormat cSVFormat0 = org.apache.commons.csv.CSVFormat.TDF; org.apache.commons.csv.CSVFormat cSVFormat2 = cSVFormat0.withNullString("hi!"); cSVFormat2.validate(); org.apache.commons.csv.CSVFormat cSVFormat5 = cSVFormat2.withIgnoreEmptyLines(false); org.apache.commons.csv.CSVFormat cSVFormat7 = cSVFormat2.withCommentStart('\037'); java.lang.String str8 = cSVFormat2.toString(); org.apache.commons.csv.CSVFormat cSVFormat10 = cSVFormat2.withIgnoreEmptyLines(true); org.apache.commons.csv.CSVFormat cSVFormat12 = cSVFormat10.withSkipHeaderRecord(false); java.lang.String[] strArray13 = cSVFormat12.getHeader(); }
+Code: public String toString(){final StringBuilder sb = new StringBuilder();sb.append("Delimiter=<").append(delimiter).append('>');if (isEscaping()) {sb.append(' ');sb.append("Escape=<").append(escape).append('>');}if (isQuoting()) {sb.append(' ');;}if (isCommentingEnabled()) {sb.append(' ');sb.append("CommentStart=<").append(commentStart).append('>');}if (isNullHandling()) {sb.append(' ');;}if(recordSeparator != null) {sb.append(' ');sb.append("RecordSeparator=<").append(recordSeparator).append('>');}if (getIgnoreEmptyLines()) {sb.append(" EmptyLines:ignored");}if (false) {sb.append(" SurroundingSpaces:ignored");}sb.append(" SkipHeaderRecord:").append(skipHeaderRecord);if (header != null) {sb.append(' ');sb.append("Header:").append(Arrays.toString(header));}return sb.toString();}
+tensor([[0.0231, 0.0293, 0.0153,  ..., 0.0487, 0.0389, 0.0259],
+        [0.0243, 0.0285, 0.0155,  ..., 0.0477, 0.0404, 0.0262],
+        [0.0192, 0.0362, 0.0145,  ..., 0.0437, 0.0326, 0.0267],
+        ...,
+        [0.0234, 0.0366, 0.0186,  ..., 0.0426, 0.0360, 0.0251],
+        [0.0179, 0.0319, 0.0141,  ..., 0.0455, 0.0258, 0.0184],
+        [0.0238, 0.0338, 0.0157,  ..., 0.0468, 0.0290, 0.0262]])

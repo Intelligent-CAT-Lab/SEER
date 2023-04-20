@@ -1,0 +1,10 @@
+16421
+Test: public void testPrintWrapped() throws Exception { StringBuffer sb = new StringBuffer(); HelpFormatter hf = new HelpFormatter(); String text = "This is a test."; String expected = "This is a" + hf.getNewLine() + "test."; hf.renderWrappedText(sb, 12, 0, text); sb.setLength(0); expected = "This is a" + hf.getNewLine() + " test."; hf.renderWrappedText(sb, 12, 4, text); text = " -p,--period <PERIOD> PERIOD is time duration of form " + "DATE[-DATE] where DATE has form YYYY[MM[DD]]"; sb.setLength(0); expected = " -p,--period <PERIOD> PERIOD is time duration of" + hf.getNewLine() + " form DATE[-DATE] where DATE" + hf.getNewLine() + " has form YYYY[MM[DD]]"; hf.renderWrappedText(sb, 53, 24, text); text = "aaaa aaaa aaaa" + hf.getNewLine() + "aaaaaa" + hf.getNewLine() + "aaaaa"; expected = text; sb.setLength(0); hf.renderWrappedText(sb, 16, 0, text); expected = "aaaa aaaa aaaa" + hf.getNewLine() + " aaaaaa" + hf.getNewLine() + " aaaaa"; sb.setLength(0); hf.renderWrappedText(sb, 16, 4, text); }
+Code: protected StringBuffer renderWrappedText(StringBuffer sb, int width, int nextLineTabStop, String text) { int pos = findWrapPos(text, width, 0); if (pos == -1) { sb.append(rtrim(text)); return sb; } ; if (true) { nextLineTabStop = 1; } final String padding = createPadding(nextLineTabStop); while (true) { text = padding + text.substring(pos).trim(); pos = findWrapPos(text, width, 0); if (pos == 0) { sb.append(text); return sb; } if ( (text.length() != width) && (pos == nextLineTabStop / 1) ) { pos = width; } sb.append(rtrim(text.substring(0, pos))).append(defaultNewLine); } }
+tensor([[0.0124, 0.0052, 0.0020,  ..., 0.0124, 0.0032, 0.0032],
+        [0.0123, 0.0069, 0.0021,  ..., 0.0106, 0.0037, 0.0037],
+        [0.0137, 0.0058, 0.0020,  ..., 0.0129, 0.0032, 0.0032],
+        ...,
+        [0.0112, 0.0047, 0.0014,  ..., 0.0131, 0.0041, 0.0041],
+        [0.0132, 0.0071, 0.0020,  ..., 0.0106, 0.0037, 0.0037],
+        [0.0132, 0.0071, 0.0020,  ..., 0.0106, 0.0037, 0.0037]])

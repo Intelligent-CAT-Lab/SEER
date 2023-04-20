@@ -1,0 +1,10 @@
+64057
+Test: public void test424() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test424"); com.fasterxml.jackson.core.JsonFactory jsonFactory0 = new com.fasterxml.jackson.core.JsonFactory(); com.fasterxml.jackson.core.ObjectCodec objectCodec1 = jsonFactory0.getCodec(); java.io.OutputStream outputStream2 = null; com.fasterxml.jackson.core.JsonEncoding jsonEncoding3 = com.fasterxml.jackson.core.JsonEncoding.UTF8; com.fasterxml.jackson.core.JsonGenerator jsonGenerator4 = jsonFactory0.createJsonGenerator(outputStream2, jsonEncoding3); byte[] byteArray10 = new byte[] { (byte) -1, (byte) -1, (byte) 0, (byte) 1, (byte) 100 }; jsonGenerator4.writeBinary(byteArray10, 1, 0); com.fasterxml.jackson.core.io.CharacterEscapes characterEscapes14 = jsonGenerator4.getCharacterEscapes(); boolean boolean15 = jsonGenerator4.isClosed(); jsonGenerator4.writeArrayFieldStart("ROOT"); com.fasterxml.jackson.core.FormatSchema formatSchema18 = null; boolean boolean19 = jsonGenerator4.canUseSchema(formatSchema18); int int20 = jsonGenerator4.getHighestEscapedChar(); jsonGenerator4.writeNumber(31); }
+Code: public void writeNumber(BigDecimal value) throws IOException { _verifyValueWrite(WRITE_NUMBER); if (value == null) { _writeNull(); } else if (_cfgNumbersAsStrings) { String raw = Feature.WRITE_BIGDECIMAL_AS_PLAIN.enabledIn(_features) ? value.toPlainString() : value.toString(); _writeQuotedRaw(raw); } else if (Feature.WRITE_BIGDECIMAL_AS_PLAIN.enabledIn(_features)) { writeRaw(value.toPlainString()); } else { writeRaw(_asString(value)); } }
+tensor([[0.0189, 0.0154, 0.0103,  ..., 0.0105, 0.0083, 0.0083],
+        [0.0152, 0.0132, 0.0083,  ..., 0.0092, 0.0080, 0.0080],
+        [0.0118, 0.0126, 0.0092,  ..., 0.0093, 0.0072, 0.0072],
+        ...,
+        [0.0141, 0.0135, 0.0090,  ..., 0.0096, 0.0076, 0.0076],
+        [0.0133, 0.0121, 0.0084,  ..., 0.0092, 0.0070, 0.0070],
+        [0.0133, 0.0121, 0.0084,  ..., 0.0092, 0.0070, 0.0070]])

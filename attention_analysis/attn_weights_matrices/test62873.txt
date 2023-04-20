@@ -1,0 +1,10 @@
+62873
+Test: public void testNullSafe() { TypeAdapter<Person> typeAdapter = new TypeAdapter<Person>() { @Override public Person read(JsonReader in) throws IOException { String[] values = in.nextString().split(","); return new Person(values[0], Integer.parseInt(values[1])); } public void write(JsonWriter out, Person person) throws IOException { out.value(person.name + "," + person.age); } }; Gson gson = new GsonBuilder().registerTypeAdapter( Person.class, typeAdapter).create(); Truck truck = new Truck(); truck.horsePower = 1.0D; truck.passengers = new ArrayList<Person>(); truck.passengers.add(null); truck.passengers.add(new Person("jesse", 30)); try { gson.toJson(truck, Truck.class); fail(); } catch (NullPointerException expected) {} String json = "{horsePower:1.0,passengers:[null,'jesse,30']}"; try { gson.fromJson(json, Truck.class); fail(); } catch (JsonSyntaxException expected) {} gson = new GsonBuilder().registerTypeAdapter(Person.class, typeAdapter.nullSafe()).create(); truck = gson.fromJson(json, Truck.class); }
+Code: public Date read(JsonReader in) throws IOException { if (in.peek() != JsonToken.STRING) { throw new JsonParseException("The date should be a string value"); } Date date = deserializeToDate(in.nextString()); if (dateType == Date.class) { return date; } else if (dateType == Timestamp.class) { return new Timestamp(date.getTime()); } else if (dateType == java.sql.Date.class) { return new java.sql.Date(date.getTime()); } else { throw new AssertionError(); } }
+tensor([[0.0125, 0.0063, 0.0167,  ..., 0.0147, 0.0057, 0.0057],
+        [0.0106, 0.0058, 0.0163,  ..., 0.0164, 0.0040, 0.0040],
+        [0.0084, 0.0045, 0.0139,  ..., 0.0158, 0.0044, 0.0044],
+        ...,
+        [0.0122, 0.0061, 0.0202,  ..., 0.0162, 0.0072, 0.0072],
+        [0.0084, 0.0039, 0.0201,  ..., 0.0141, 0.0047, 0.0047],
+        [0.0084, 0.0039, 0.0201,  ..., 0.0141, 0.0047, 0.0047]])

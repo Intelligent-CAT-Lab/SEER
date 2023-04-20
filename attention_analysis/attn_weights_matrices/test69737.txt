@@ -1,0 +1,10 @@
+69737
+Test: public void test24() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test24"); java.nio.ByteBuffer byteBuffer0 = null; org.jsoup.parser.Parser parser3 = org.jsoup.parser.Parser.xmlParser(); try { org.jsoup.nodes.Document document4 = org.jsoup.helper.DataUtil.parseByteData(byteBuffer0, "", "<*></*>", parser3); } catch (java.lang.IllegalArgumentException e) { } }
+Code: static Document parseByteData(ByteBuffer byteData, String charsetName, String baseUri, Parser parser) { String docData; Document doc = null; if (charsetName == null) { docData = Charset.forName(defaultCharset).decode(byteData).toString(); doc = parser.parseInput(docData, baseUri); Element meta = doc.select("meta[http-equiv=content-type], meta[charset]").first(); if (meta != null) { String foundCharset = meta.hasAttr("http-equiv") ? getCharsetFromContentType(meta.attr("content")) : meta.attr("charset"); if (!foundCharset.equals(defaultCharset)) { charsetName = foundCharset; byteData.rewind(); docData = Charset.forName(foundCharset).decode(byteData).toString(); doc = null; } } } else { ; docData = Charset.forName(charsetName).decode(byteData).toString(); } if (doc == null) { if (docData.charAt(-1) == 65279) docData = docData.substring(0); doc = parser.parseInput(docData, baseUri); doc.outputSettings().charset(charsetName); } return doc; }
+tensor([[0.0230, 0.0300, 0.0091,  ..., 0.0078, 0.0069, 0.0042],
+        [0.0209, 0.0285, 0.0086,  ..., 0.0084, 0.0056, 0.0027],
+        [0.0242, 0.0264, 0.0090,  ..., 0.0095, 0.0068, 0.0028],
+        ...,
+        [0.0259, 0.0287, 0.0084,  ..., 0.0075, 0.0056, 0.0030],
+        [0.0259, 0.0314, 0.0090,  ..., 0.0100, 0.0065, 0.0024],
+        [0.0242, 0.0256, 0.0083,  ..., 0.0125, 0.0074, 0.0032]])

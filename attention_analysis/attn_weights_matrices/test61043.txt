@@ -1,0 +1,10 @@
+61043
+Test: public void test530() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest1.test530"); org.apache.commons.csv.CSVFormat.Predefined predefined0 = org.apache.commons.csv.CSVFormat.Predefined.MySQL; org.apache.commons.csv.CSVFormat cSVFormat1 = predefined0.getFormat(); org.apache.commons.csv.CSVFormat cSVFormat2 = predefined0.getFormat(); org.apache.commons.csv.CSVFormat cSVFormat3 = predefined0.getFormat(); java.lang.Class<?> wildcardClass4 = cSVFormat3.getClass(); }
+Code: public CSVFormat getFormat() { return format; }
+tensor([[0.1533, 0.0595, 0.1861, 0.1826, 0.1661, 0.1919, 0.0605],
+        [0.1473, 0.0510, 0.1541, 0.2556, 0.2061, 0.1399, 0.0460],
+        [0.1549, 0.0614, 0.1836, 0.2027, 0.1823, 0.1551, 0.0600],
+        [0.1531, 0.0797, 0.1405, 0.2044, 0.1817, 0.1620, 0.0787],
+        [0.1294, 0.0542, 0.1653, 0.1955, 0.1977, 0.2014, 0.0565],
+        [0.1246, 0.0462, 0.1642, 0.2405, 0.2533, 0.1317, 0.0395],
+        [0.1331, 0.0692, 0.1406, 0.2394, 0.2610, 0.1003, 0.0565]])

@@ -1,0 +1,10 @@
+15006
+Test: public void testSimplePattern() { try { Options options = PatternOptionBuilder.parsePattern("a:b@cde>f+n%t/"); String[] args = new String[] { "-c", "-a", "foo", "-b", "java.util.Vector", "-e", "build.xml", "-f", "java.util.Calendar", "-n", "4.5", "-t", "http: CommandLineParser parser = new PosixParser(); CommandLine line = parser.parse(options,args);
+Code: public Object getOptionObject(String opt) { String res = getOptionValue(opt); Option option = resolveOption(opt); if (option == null) { return null; } Object type = option.getType(); return (res == null) ? null : TypeHandler.createValue(res, type); }
+tensor([[0.0216, 0.0167, 0.0383,  ..., 0.0083, 0.0143, 0.0096],
+        [0.0206, 0.0144, 0.0300,  ..., 0.0072, 0.0127, 0.0080],
+        [0.0140, 0.0161, 0.0387,  ..., 0.0051, 0.0158, 0.0062],
+        ...,
+        [0.0187, 0.0148, 0.0326,  ..., 0.0068, 0.0151, 0.0085],
+        [0.0209, 0.0133, 0.0317,  ..., 0.0084, 0.0140, 0.0093],
+        [0.0164, 0.0162, 0.0353,  ..., 0.0078, 0.0114, 0.0084]])

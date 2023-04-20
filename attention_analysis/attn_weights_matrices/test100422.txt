@@ -1,0 +1,10 @@
+100422
+Test: public void testFormatPrefixPlural2() { PeriodFormatter f = builder.appendPrefix("Hour:", "Hours:").appendHours().toFormatter(); Period p = new Period(0, 0, 0, 0, 0, 0, 0, 0); }
+Code: public int calculatePrintedLength(ReadablePeriod period, Locale locale) { long valueLong = getFieldValue(period); if (valueLong == Long.MAX_VALUE) { return 0; } int sum = Math.max(FormatUtils.calculateDigitCount(valueLong), iMinPrintedDigits); if (iFieldType >= SECONDS_MILLIS) { sum = (valueLong < 0 ? Math.max(sum, 5) : Math.max(sum, 4)); sum++; if (iFieldType == SECONDS_OPTIONAL_MILLIS && (Math.abs(valueLong) % DateTimeConstants.MILLIS_PER_SECOND) == 0) { sum -= 4; } valueLong = valueLong / DateTimeConstants.MILLIS_PER_SECOND; } int value = (int) valueLong; if (iPrefix != null) { sum += iPrefix.calculatePrintedLength(value); } if (iSuffix != null) { sum += iSuffix.calculatePrintedLength(value); } return sum; }
+tensor([[0.0077, 0.0044, 0.0237,  ..., 0.0087, 0.0046, 0.0038],
+        [0.0050, 0.0032, 0.0229,  ..., 0.0082, 0.0035, 0.0026],
+        [0.0054, 0.0025, 0.0173,  ..., 0.0065, 0.0032, 0.0032],
+        ...,
+        [0.0052, 0.0027, 0.0187,  ..., 0.0072, 0.0032, 0.0033],
+        [0.0060, 0.0031, 0.0141,  ..., 0.0084, 0.0043, 0.0024],
+        [0.0056, 0.0042, 0.0183,  ..., 0.0127, 0.0060, 0.0034]])

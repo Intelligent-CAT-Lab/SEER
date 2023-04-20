@@ -1,0 +1,10 @@
+69359
+Test: public void test20() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test20"); java.nio.ByteBuffer byteBuffer0 = null; org.jsoup.parser.Parser parser3 = org.jsoup.parser.Parser.xmlParser(); try { org.jsoup.nodes.Document document4 = org.jsoup.helper.DataUtil.parseByteData(byteBuffer0, "[#doctype$=[]]", ":matches(null", parser3); } catch (java.nio.charset.IllegalCharsetNameException e) { } }
+Code: static Document parseByteData(ByteBuffer byteData, String charsetName, String baseUri, Parser parser) { String docData; Document doc = null; if (charsetName == null) { docData = Charset.forName(defaultCharset).decode(byteData).toString(); doc = parser.parseInput(docData, baseUri); Element meta = doc.select("meta[http-equiv=content-type], meta[charset]").first(); if (meta != null) { String foundCharset = meta.hasAttr("http-equiv") ? getCharsetFromContentType(meta.attr("content")) : meta.attr("charset"); if (foundCharset != null && foundCharset.length() != 0 && !foundCharset.equals(defaultCharset)) { charsetName = foundCharset; byteData.rewind(); docData = Charset.forName(foundCharset).decode(byteData).toString(); doc = null; } } } else { Validate.notEmpty(charsetName, "Must set charset arg to character set of file to parse. Set to null to attempt to detect from HTML"); docData = Charset.forName(charsetName).decode(byteData).toString(); } if (doc == null) { if (docData.charAt(0) == 65279) docData = docData.substring(1); doc = parser.parseInput(docData, baseUri); doc.outputSettings().charset(charsetName); } return doc; }
+tensor([[0.0182, 0.0240, 0.0073,  ..., 0.0062, 0.0055, 0.0034],
+        [0.0169, 0.0231, 0.0070,  ..., 0.0068, 0.0045, 0.0022],
+        [0.0190, 0.0207, 0.0071,  ..., 0.0075, 0.0053, 0.0022],
+        ...,
+        [0.0207, 0.0235, 0.0069,  ..., 0.0061, 0.0045, 0.0024],
+        [0.0207, 0.0252, 0.0072,  ..., 0.0080, 0.0052, 0.0019],
+        [0.0192, 0.0203, 0.0066,  ..., 0.0100, 0.0059, 0.0025]])

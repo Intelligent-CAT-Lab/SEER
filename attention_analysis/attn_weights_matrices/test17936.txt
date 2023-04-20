@@ -1,0 +1,10 @@
+17936
+Test: private static void testScopes(String js, int errorCount) { Compiler compiler = new Compiler(); Node root = compiler.parseTestCode(js); NodeTraversal.traverse( compiler, root, new NodeTraversal.AbstractPostOrderCallback() { @Override public void visit(NodeTraversal t, Node n, Node parent) { t.getScope(); } }); }
+Code: public void visit(NodeTraversal t, Node n, Node parent) { switch (n.getType()) { case Token.GETPROP: case Token.GETELEM: Node dest = n.getFirstChild().getNext(); if (dest.getType() == Token.STRING) { String s = dest.getString(); if (s.equals("prototype")) { processPrototypeParent(parent, t.getInput()); } else { markPropertyAccessCandidate(dest, t.getInput()); } } break; case Token.OBJECTLIT: if (!prototypeObjLits.contains(n)) { for (Node child = n.getFirstChild(); child != null; child = child.getNext()) { if (TokenStream.isJSIdentifier(child.getString())) { markObjLitPropertyCandidate(child, t.getInput()); } } } break; } }
+tensor([[0.0115, 0.0091, 0.0059,  ..., 0.0159, 0.0047, 0.0047],
+        [0.0089, 0.0074, 0.0033,  ..., 0.0139, 0.0042, 0.0042],
+        [0.0082, 0.0058, 0.0039,  ..., 0.0130, 0.0024, 0.0024],
+        ...,
+        [0.0093, 0.0073, 0.0048,  ..., 0.0105, 0.0038, 0.0038],
+        [0.0079, 0.0069, 0.0045,  ..., 0.0113, 0.0037, 0.0037],
+        [0.0079, 0.0069, 0.0045,  ..., 0.0113, 0.0037, 0.0037]])

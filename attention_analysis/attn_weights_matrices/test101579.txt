@@ -1,0 +1,10 @@
+101579
+Test: public void testParseInto_simple_precedence() { MutableDateTime expect = null; MutableDateTime result = null; expect = new MutableDateTime(2004, 6, 7, 11, 20, 30, 0, LONDON); result = new MutableDateTime(0L); }
+Code: public int parseInto(DateTimeParserBucket bucket, String text, int position) { if (position >= text.length()) { return ~position; } char a = text.charAt(position); char b = iValue; if (a != b) { a = Character.toUpperCase(a); b = Character.toUpperCase(b); if (a != b) { a = Character.toLowerCase(a); b = Character.toLowerCase(b); if (a != b) { return ~position; } } } return position + 1; }
+tensor([[0.0127, 0.0077, 0.0198,  ..., 0.0104, 0.0071, 0.0058],
+        [0.0075, 0.0052, 0.0189,  ..., 0.0088, 0.0040, 0.0038],
+        [0.0093, 0.0052, 0.0210,  ..., 0.0116, 0.0043, 0.0047],
+        ...,
+        [0.0117, 0.0063, 0.0255,  ..., 0.0099, 0.0053, 0.0057],
+        [0.0101, 0.0063, 0.0204,  ..., 0.0115, 0.0051, 0.0049],
+        [0.0088, 0.0066, 0.0225,  ..., 0.0096, 0.0053, 0.0049]])

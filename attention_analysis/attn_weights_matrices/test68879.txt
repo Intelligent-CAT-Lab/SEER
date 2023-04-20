@@ -1,0 +1,10 @@
+68879
+Test: @Test public void testHasClassDomMethods() { Tag tag = Tag.valueOf("a"); Attributes attribs = new Attributes(); Element el = new Element(tag, "", attribs); attribs.put("class", "toto"); boolean hasClass = el.hasClass("toto"); attribs.put("class", " toto"); hasClass = el.hasClass("toto"); attribs.put("class", "toto "); hasClass = el.hasClass("toto"); attribs.put("class", "\ttoto "); hasClass = el.hasClass("toto"); attribs.put("class", " toto "); hasClass = el.hasClass("toto"); attribs.put("class", "ab"); hasClass = el.hasClass("toto"); attribs.put("class", " "); hasClass = el.hasClass("toto"); attribs.put("class", "tototo"); hasClass = el.hasClass("toto"); attribs.put("class", "raulpismuth "); hasClass = el.hasClass("raulpismuth"); attribs.put("class", " abcd raulpismuth efgh "); hasClass = el.hasClass("raulpismuth"); attribs.put("class", " abcd efgh raulpismuth"); hasClass = el.hasClass("raulpismuth"); attribs.put("class", " abcd efgh raulpismuth "); hasClass = el.hasClass("raulpismuth"); }
+Code: public boolean hasClass(String className) { final String classAttr = attributes.get("class"); final int len = classAttr.length(); final int wantLen = className.length(); if (len == 0 || len < wantLen) { return false; } if (len == wantLen) { return className.equalsIgnoreCase(classAttr); } boolean inClass = false; int start = 0; for (int i = 0; i < len; i++) { if (Character.isWhitespace(classAttr.charAt(i))) { if (inClass) { if (i - start == wantLen && classAttr.regionMatches(true, start, className, 0, wantLen)) { return true; } inClass = false; } } else { if (!inClass) { inClass = true; start = i; } } } if (inClass && len - start == wantLen) { return classAttr.regionMatches(true, start, className, 0, wantLen); } return false; }
+tensor([[0.0061, 0.0149, 0.0120,  ..., 0.0067, 0.0085, 0.0026],
+        [0.0044, 0.0252, 0.0099,  ..., 0.0068, 0.0083, 0.0018],
+        [0.0060, 0.0210, 0.0101,  ..., 0.0060, 0.0066, 0.0016],
+        ...,
+        [0.0040, 0.0212, 0.0084,  ..., 0.0058, 0.0088, 0.0021],
+        [0.0062, 0.0164, 0.0097,  ..., 0.0071, 0.0109, 0.0033],
+        [0.0044, 0.0160, 0.0082,  ..., 0.0091, 0.0092, 0.0022]])

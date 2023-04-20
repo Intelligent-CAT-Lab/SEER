@@ -1,0 +1,10 @@
+17569
+Test: public void testSourceMapMerging() throws Exception { final String INPUT1 = "file1"; final String INPUT2 = "file2"; LinkedHashMap<String, String> inputs = Maps.newLinkedHashMap(); inputs.put(INPUT1, "var __FOO__ = 1;"); inputs.put(INPUT2, "var __BAR__ = 2;"); RunResult result1 = compile(inputs.get(INPUT1), INPUT1); RunResult result2 = compile(inputs.get(INPUT2), INPUT2); StringBuilder output = new StringBuilder(); FilePosition offset = appendAndCount(output, result1.generatedSource); output.append(result2.generatedSource); SourceMapGeneratorV3 generator = new SourceMapGeneratorV3(); generator.mergeMapSection(0, 0, result1.sourceMapFileContent); generator.mergeMapSection(offset.getLine(), offset.getColumn(), result2.sourceMapFileContent); StringBuilder mapContents = new StringBuilder(); generator.appendTo(mapContents, "out.js"); check(inputs, output.toString(), mapContents.toString()); }
+Code: public String getLine(int lineNumber) { String js = ""; try { js = getCode(); } catch (IOException e) { return null; } int pos = 0; int startLine = 1; if (lineNumber >= lastLine) { pos = lastOffset; startLine = lastLine; } for (int n = startLine; n < lineNumber; n++) { int nextpos = js.indexOf('\n', pos); if (nextpos == -1) { return null; } pos = nextpos + 1; } lastOffset = pos; lastLine = lineNumber; if (js.indexOf('\n', pos) == -1) { if (pos >= js.length()) { return null; } else { return js.substring(pos, js.length()); } } else { return js.substring(pos, js.indexOf('\n', pos)); } }
+tensor([[0.0070, 0.0088, 0.0157,  ..., 0.0488, 0.0033, 0.0033],
+        [0.0069, 0.0078, 0.0198,  ..., 0.0462, 0.0028, 0.0028],
+        [0.0069, 0.0115, 0.0169,  ..., 0.0386, 0.0034, 0.0034],
+        ...,
+        [0.0071, 0.0112, 0.0193,  ..., 0.0444, 0.0028, 0.0028],
+        [0.0049, 0.0090, 0.0178,  ..., 0.0434, 0.0027, 0.0027],
+        [0.0049, 0.0090, 0.0178,  ..., 0.0434, 0.0027, 0.0027]])

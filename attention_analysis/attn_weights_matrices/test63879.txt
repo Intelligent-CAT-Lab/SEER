@@ -1,0 +1,10 @@
+63879
+Test: public void testGeneratorDelegate() throws IOException { final String TOKEN ="foo"; StringWriter sw = new StringWriter(); JsonGenerator g0 = JSON_F.createGenerator(sw); JsonGeneratorDelegate del = new JsonGeneratorDelegate(g0); del.writeStartArray(); del.writeNumber(13); del.writeNull(); del.writeBoolean(false); del.writeString("foo"); del.setCurrentValue(TOKEN); del.writeStartObject(); del.writeEndObject(); del.writeStartArray(0); del.writeEndArray(); del.writeEndArray(); del.flush(); del.close(); g0.close(); }
+Code: public void writeNumber(BigDecimal value) throws IOException { _verifyValueWrite(WRITE_NUMBER); if (value == null) { _writeNull(); } else if (_cfgNumbersAsStrings) { String raw = isEnabled(Feature.WRITE_BIGDECIMAL_AS_PLAIN) ? value.toPlainString() : value.toString(); _writeQuotedRaw(raw); } else if (isEnabled(Feature.WRITE_BIGDECIMAL_AS_PLAIN)) { writeRaw(value.toPlainString()); } else { writeRaw(_asString(value)); } }
+tensor([[0.0184, 0.0151, 0.0101,  ..., 0.0103, 0.0082, 0.0082],
+        [0.0148, 0.0130, 0.0082,  ..., 0.0091, 0.0080, 0.0080],
+        [0.0116, 0.0124, 0.0091,  ..., 0.0091, 0.0071, 0.0071],
+        ...,
+        [0.0138, 0.0132, 0.0088,  ..., 0.0093, 0.0076, 0.0076],
+        [0.0129, 0.0118, 0.0083,  ..., 0.0089, 0.0069, 0.0069],
+        [0.0129, 0.0118, 0.0083,  ..., 0.0089, 0.0069, 0.0069]])

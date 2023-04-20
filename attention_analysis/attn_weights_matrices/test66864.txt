@@ -1,0 +1,10 @@
+66864
+Test: public void testValueToTreeWithDefaultTyping() throws Exception { final ObjectMapper mapper = new ObjectMapper(); mapper.enableDefaultTyping(ObjectMapper.DefaultTyping.NON_FINAL, JsonTypeInfo.As.PROPERTY); Foo foo = new Foo("baz"); JsonNode jsonNode = mapper.valueToTree(foo); }
+Code: public <T extends JsonNode> T valueToTree(Object fromValue) throws IllegalArgumentException { if (fromValue == null) return null; TokenBuffer buf = new TokenBuffer(this, false); if (isEnabled(DeserializationFeature.USE_BIG_DECIMAL_FOR_FLOATS)) { buf = buf.forceUseOfBigDecimal(true); } JsonNode result; try { writeValue(buf, fromValue); JsonParser jp = buf.asParser(); result = readTree(jp); jp.close(); } catch (IOException e) { throw new IllegalArgumentException(e.getMessage(), e); } return (T) result; }
+tensor([[0.0130, 0.0114, 0.0101,  ..., 0.0134, 0.0223, 0.0060],
+        [0.0096, 0.0130, 0.0107,  ..., 0.0112, 0.0254, 0.0039],
+        [0.0130, 0.0104, 0.0101,  ..., 0.0137, 0.0224, 0.0067],
+        ...,
+        [0.0132, 0.0111, 0.0116,  ..., 0.0126, 0.0239, 0.0058],
+        [0.0118, 0.0116, 0.0130,  ..., 0.0146, 0.0237, 0.0049],
+        [0.0093, 0.0128, 0.0113,  ..., 0.0146, 0.0181, 0.0052]])

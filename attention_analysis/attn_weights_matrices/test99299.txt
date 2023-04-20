@@ -1,0 +1,10 @@
+99299
+Test: public void testListMillis() { List sl = new ArrayList(); long base = 12345L * 1000L; sl.add( new DateTime( base + 999L, DateTimeZone.UTC ) ); sl.add( new DateTime( base + 222L, DateTimeZone.UTC ) ); sl.add( new DateTime( base + 456L, DateTimeZone.UTC ) ); sl.add( new DateTime( base + 888L, DateTimeZone.UTC ) ); sl.add( new DateTime( base + 123L, DateTimeZone.UTC ) ); sl.add( new DateTime( base + 000L, DateTimeZone.UTC ) ); boolean isSorted1 = isListSorted( sl ); Collections.sort( sl, cMillis ); boolean isSorted2 = isListSorted( sl ); }
+Code: public long add(long instant, int value) { if (instant >= iCutover) { instant = iGregorianField.add(instant, value); if (instant < iCutover) { if (instant + iGapDuration < iCutover) { instant = gregorianToJulian(instant); } } } else { instant = iJulianField.add(instant, value); if (instant >= iCutover) { if (instant - iGapDuration >= iCutover) { instant = julianToGregorian(instant); } } } return instant; }
+tensor([[0.0123, 0.0201, 0.0151,  ..., 0.0137, 0.0126, 0.0055],
+        [0.0082, 0.0163, 0.0198,  ..., 0.0120, 0.0118, 0.0049],
+        [0.0095, 0.0154, 0.0148,  ..., 0.0158, 0.0115, 0.0037],
+        ...,
+        [0.0082, 0.0217, 0.0175,  ..., 0.0117, 0.0139, 0.0045],
+        [0.0101, 0.0171, 0.0141,  ..., 0.0148, 0.0134, 0.0036],
+        [0.0091, 0.0148, 0.0133,  ..., 0.0197, 0.0141, 0.0049]])

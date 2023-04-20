@@ -1,0 +1,10 @@
+18269
+Test: public void testOptimizationOrder() { final List<String> visitationLog = Lists.newArrayList(); AbstractPeepholeOptimization note1Applied = new AbstractPeepholeOptimization() { @Override public Node optimizeSubtree(Node node) { if (node.isName()) { visitationLog.add(node.getString() + "1"); } return node; } }; AbstractPeepholeOptimization note2Applied = new AbstractPeepholeOptimization() { @Override public Node optimizeSubtree(Node node) { if (node.isName()) { visitationLog.add(node.getString() + "2"); } return node; } }; currentPeepholePasses = ImmutableList.< AbstractPeepholeOptimization>of(note1Applied, note2Applied); test("var x; var y", "var x; var y"); }
+Code: public Node optimizeSubtree(Node node){switch(node.getType()) {case Token.TRUE:case Token.FALSE:return reduceTrueFalse(node);case Token.NEW:node = tryFoldStandardConstructors(node);if (!node.isCall()) {return node;}case Token.CALL:Node result = tryFoldLiteralConstructor(node);if (result == node) {;if (result == node) {;}}return result;case Token.RETURN:return tryReduceReturn(node);case Token.COMMA:return trySplitComma(node);case Token.NAME:return tryReplaceUndefined(node);case Token.ARRAYLIT:return tryMinimizeArrayLiteral(node);default:return node; }}
+tensor([[0.0172, 0.0346, 0.0106,  ..., 0.0191, 0.0232, 0.0596],
+        [0.0127, 0.0384, 0.0107,  ..., 0.0159, 0.0208, 0.0562],
+        [0.0146, 0.0308, 0.0083,  ..., 0.0186, 0.0231, 0.0638],
+        ...,
+        [0.0139, 0.0309, 0.0106,  ..., 0.0177, 0.0238, 0.0551],
+        [0.0108, 0.0357, 0.0072,  ..., 0.0115, 0.0185, 0.0655],
+        [0.0218, 0.0312, 0.0134,  ..., 0.0247, 0.0198, 0.0544]])

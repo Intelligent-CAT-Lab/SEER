@@ -1,0 +1,10 @@
+70124
+Test: public void testDoPredicateName() { }
+Code: public Object getValue() { if (node instanceof Element) { StringBuffer buf = new StringBuffer(); for (NodeIterator children = childIterator(null, false, null); children.setPosition(children.getPosition() + 1);) { NodePointer ptr = children.getNodePointer(); if (ptr.getImmediateNode() instanceof Element || ptr.getImmediateNode() instanceof Text) { buf.append(ptr.getValue()); } } return buf.toString(); } if (node instanceof Comment) { String text = ((Comment) node).getText(); if (text != null) { text = text.trim(); } return text; } String result = null; if (node instanceof Text) { result = ((Text) node).getText(); } if (node instanceof ProcessingInstruction) { result = ((ProcessingInstruction) node).getData(); } boolean trim = !"preserve".equals(findEnclosingAttribute(node, "space", Namespace.XML_NAMESPACE)); return result != null && trim ? result.trim() : result; }
+tensor([[0.0070, 0.0054, 0.0101,  ..., 0.0068, 0.0117, 0.0031],
+        [0.0062, 0.0043, 0.0126,  ..., 0.0047, 0.0094, 0.0025],
+        [0.0057, 0.0046, 0.0108,  ..., 0.0055, 0.0125, 0.0029],
+        ...,
+        [0.0072, 0.0047, 0.0103,  ..., 0.0051, 0.0122, 0.0039],
+        [0.0063, 0.0041, 0.0131,  ..., 0.0063, 0.0125, 0.0026],
+        [0.0051, 0.0051, 0.0095,  ..., 0.0047, 0.0096, 0.0028]])

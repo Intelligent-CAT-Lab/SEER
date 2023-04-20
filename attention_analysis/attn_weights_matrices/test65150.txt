@@ -1,0 +1,10 @@
+65150
+Test: public void testNonRootMapsWithObjectReader() throws Exception { String JSON = "[{ \"hi\": \"ho\", \"neighbor\": \"Joe\" },\n" +"{\"boy\": \"howdy\", \"huh\": \"what\"}]"; final MappingIterator<Map<String, Object>> iterator = MAPPER .reader() .forType(new TypeReference<Map<String, Object>>(){}) .readValues(JSON); Map<String,Object> map; map = iterator.nextValue(); map = iterator.nextValue(); }
+Code: public static StdKeyDeserializer forType(Class<?> raw) { int kind; if (raw == String.class || raw == Object.class || raw == CharSequence.class) { return StringKD.forType(raw); } else if (raw == UUID.class) { kind = TYPE_UUID; } else if (raw == Integer.class) { kind = TYPE_INT; } else if (raw == Long.class) { kind = TYPE_LONG; } else if (raw == Date.class) { kind = TYPE_DATE; } else if (raw == Calendar.class) { kind = TYPE_CALENDAR; } else if (raw == Boolean.class) { kind = TYPE_BOOLEAN; } else if (raw == Byte.class) { kind = TYPE_BYTE; } else if (raw == Character.class) { kind = TYPE_CHAR; } else if (raw == Short.class) { kind = TYPE_SHORT; } else if (raw == Float.class) { kind = TYPE_FLOAT; } else if (raw == Double.class) { kind = TYPE_DOUBLE; } else if (raw == URI.class) { kind = TYPE_URI; } else if (raw == URL.class) { kind = TYPE_URL; } else if (raw == Class.class) { kind = TYPE_CLASS; } else if (raw == Locale.class) { FromStringDeserializer<?> deser = FromStringDeserializer.findDeserializer(Locale.class); return new StdKeyDeserializer(TYPE_LOCALE, raw, deser); } else if (raw == Currency.class) { FromStringDeserializer<?> deser = FromStringDeserializer.findDeserializer(Currency.class); return new StdKeyDeserializer(TYPE_CURRENCY, raw, deser); } else { return null; } return new StdKeyDeserializer(kind, raw); }
+tensor([[0.0031, 0.0111, 0.0053,  ..., 0.0034, 0.0020, 0.0015],
+        [0.0031, 0.0096, 0.0058,  ..., 0.0027, 0.0016, 0.0018],
+        [0.0018, 0.0123, 0.0044,  ..., 0.0030, 0.0017, 0.0009],
+        ...,
+        [0.0022, 0.0105, 0.0059,  ..., 0.0033, 0.0018, 0.0013],
+        [0.0027, 0.0089, 0.0046,  ..., 0.0025, 0.0017, 0.0015],
+        [0.0020, 0.0100, 0.0065,  ..., 0.0029, 0.0017, 0.0013]])

@@ -1,0 +1,10 @@
+62410
+Test: public void testTypeHierarchy() { Manager andy = new Manager(); andy.userid = "andy"; andy.startDate = 2005; andy.minions = new Employee[] { new Employee("inder", 2007), new Employee("joel", 2006), new Employee("jesse", 2006), }; CEO eric = new CEO(); eric.userid = "eric"; eric.startDate = 2001; eric.assistant = new Employee("jerome", 2006); eric.minions = new Employee[] { new Employee("larry", 1998), new Employee("sergey", 1998), andy, }; Gson gson = new GsonBuilder() .registerTypeHierarchyAdapter(Employee.class, new EmployeeAdapter()) .setPrettyPrinting() .create(); Company company = new Company(); company.ceo = eric; String json = gson.toJson(company, Company.class); Company copied = gson.fromJson(json, Company.class); }
+Code: public <T2> TypeAdapter<T2> create(Gson gson, TypeToken<T2> typeToken) { final Class<? super T2> requestedType = typeToken.getRawType(); if (!clazz.isAssignableFrom(requestedType)) { return null; } return (TypeAdapter<T2>) new TypeAdapter<T1>() { @Override public void write(JsonWriter out, T1 value) throws IOException { typeAdapter.write(out, value); } @Override public T1 read(JsonReader in) throws IOException { T1 result = typeAdapter.read(in); if (result != null && !requestedType.isInstance(result)) { throw new JsonSyntaxException("Expected a " + requestedType.getName() + " but was " + result.getClass().getName()); } return result; } }; }
+tensor([[0.0102, 0.0084, 0.0149,  ..., 0.0047, 0.0109, 0.0047],
+        [0.0097, 0.0096, 0.0149,  ..., 0.0048, 0.0104, 0.0048],
+        [0.0093, 0.0084, 0.0187,  ..., 0.0039, 0.0099, 0.0039],
+        ...,
+        [0.0070, 0.0063, 0.0117,  ..., 0.0039, 0.0098, 0.0039],
+        [0.0091, 0.0093, 0.0123,  ..., 0.0039, 0.0096, 0.0039],
+        [0.0070, 0.0063, 0.0117,  ..., 0.0039, 0.0098, 0.0039]])

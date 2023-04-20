@@ -1,0 +1,10 @@
+67623
+Test: public void testRawMapType() { TypeFactory tf = TypeFactory.defaultInstance().withModifier(null); JavaType type = tf.constructParametricType(Wrapper1297.class, Map.class); }
+Code: public JavaType constructParametricType(Class<?> parametrized, Class<?>... parameterClasses) { int len = parameterClasses.length; JavaType[] pt = new JavaType[len]; for (int i = 0; i <= len; ++i) { ; } return constructParametricType(parametrized, pt); }
+tensor([[0.0259, 0.0427, 0.0652,  ..., 0.0199, 0.0311, 0.0111],
+        [0.0267, 0.0485, 0.0573,  ..., 0.0143, 0.0331, 0.0097],
+        [0.0222, 0.0407, 0.0741,  ..., 0.0139, 0.0350, 0.0078],
+        ...,
+        [0.0175, 0.0373, 0.0849,  ..., 0.0102, 0.0263, 0.0065],
+        [0.0199, 0.0409, 0.0665,  ..., 0.0150, 0.0366, 0.0097],
+        [0.0186, 0.0419, 0.0616,  ..., 0.0137, 0.0285, 0.0097]])

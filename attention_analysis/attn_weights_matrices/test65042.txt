@@ -1,0 +1,10 @@
+65042
+Test: public void testArgumentChecking() throws Exception { final ObjectWriter w = MAPPER.writer(); try { w.acceptJsonFormatVisitor((JavaType) null, null); fail("Should not pass"); } catch (IllegalArgumentException e) { verifyException(e, "type must be provided"); } }
+Code: public void acceptJsonFormatVisitor(JsonFormatVisitorWrapper visitor, JavaType typeHint) throws JsonMappingException { if (_isInt) { visitIntFormat(visitor, typeHint, JsonParser.NumberType.BIG_INTEGER); } else { if (((Class<?>) handledType()) == BigDecimal.class) { visitFloatFormat(visitor, typeHint, JsonParser.NumberType.BIG_DECIMAL); } else { visitor.expectNumberFormat(typeHint); } } }
+tensor([[0.0234, 0.0186, 0.0260,  ..., 0.0094, 0.0094, 0.0094],
+        [0.0193, 0.0154, 0.0253,  ..., 0.0084, 0.0084, 0.0084],
+        [0.0181, 0.0149, 0.0293,  ..., 0.0064, 0.0064, 0.0064],
+        ...,
+        [0.0168, 0.0147, 0.0175,  ..., 0.0077, 0.0077, 0.0077],
+        [0.0168, 0.0147, 0.0175,  ..., 0.0077, 0.0077, 0.0077],
+        [0.0168, 0.0147, 0.0175,  ..., 0.0077, 0.0077, 0.0077]])

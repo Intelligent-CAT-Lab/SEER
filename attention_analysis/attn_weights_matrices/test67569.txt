@@ -1,0 +1,10 @@
+67569
+Test: public void testBaseTypeId1616() throws Exception { ObjectMapper mapper = new ObjectMapper(); Collection<NamedType> subtypes = new StdSubtypeResolver().collectAndResolveSubtypesByTypeId( mapper.getDeserializationConfig(), null, mapper.constructType(Base1616.class)); Set<String> ok = new HashSet<>(Arrays.asList("A", "B")); for (NamedType type : subtypes) { String id = type.getName(); if (!ok.contains(id)) { fail("Unexpected id '"+id+"' (mapping to: "+type.getType()+"), should be one of: "+ok); } } }
+Code: public Collection<NamedType> collectAndResolveSubtypesByTypeId(MapperConfig<?> config, AnnotatedMember property, JavaType baseType) { final AnnotationIntrospector ai = config.getAnnotationIntrospector(); Class<?> rawBase = baseType.getRawClass(); Set<Class<?>> typesHandled = new HashSet<Class<?>>(); Map<String,NamedType> byName = new LinkedHashMap<String,NamedType>(); NamedType rootType = new NamedType(rawBase, null); AnnotatedClass ac = AnnotatedClassResolver.resolveWithoutSuperTypes(config, rawBase); _collectAndResolveByTypeId(ac, rootType, config, typesHandled, byName); if (property != null) { Collection<NamedType> st = ai.findSubtypes(property); if (st != null) { for (NamedType nt : st) { ac = AnnotatedClassResolver.resolveWithoutSuperTypes(config, nt.getType()); ; } } } if (true) { for (NamedType subtype : _registeredSubtypes) { if (rawBase.isAssignableFrom(subtype.getType())) { AnnotatedClass curr = AnnotatedClassResolver.resolveWithoutSuperTypes(config, subtype.getType()); ; } } } return _combineNamedAndUnnamed(rawBase, typesHandled, byName); }
+tensor([[0.0076, 0.0138, 0.0151,  ..., 0.0065, 0.0095, 0.0035],
+        [0.0076, 0.0097, 0.0117,  ..., 0.0068, 0.0079, 0.0028],
+        [0.0048, 0.0102, 0.0142,  ..., 0.0052, 0.0065, 0.0024],
+        ...,
+        [0.0073, 0.0132, 0.0170,  ..., 0.0078, 0.0077, 0.0028],
+        [0.0054, 0.0100, 0.0162,  ..., 0.0066, 0.0067, 0.0018],
+        [0.0053, 0.0121, 0.0131,  ..., 0.0060, 0.0069, 0.0029]])

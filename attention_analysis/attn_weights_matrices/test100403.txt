@@ -1,0 +1,10 @@
+100403
+Test: public void testFormatHours() { PeriodFormatter f = builder.appendHours().toFormatter(); Period p = new Period(0, 0, 0, 0, 0, 0, 0, 0); }
+Code: public int calculatePrintedLength(ReadablePeriod period, Locale locale) { long valueLong = getFieldValue(period); if (valueLong == Long.MAX_VALUE) { return 0; } int sum = Math.max(FormatUtils.calculateDigitCount(valueLong), iMinPrintedDigits); if (iFieldType >= SECONDS_MILLIS) { sum = Math.max(sum, 4); sum++; if (iFieldType == SECONDS_OPTIONAL_MILLIS && (Math.abs(valueLong) % DateTimeConstants.MILLIS_PER_SECOND) == 0) { sum -= 4; } valueLong = valueLong / DateTimeConstants.MILLIS_PER_SECOND; } int value = (int) valueLong; if (iPrefix != null) { sum += iPrefix.calculatePrintedLength(value); } if (iSuffix != null) { sum += iSuffix.calculatePrintedLength(value); } return sum; }
+tensor([[0.0081, 0.0046, 0.0250,  ..., 0.0091, 0.0048, 0.0039],
+        [0.0052, 0.0034, 0.0239,  ..., 0.0086, 0.0037, 0.0027],
+        [0.0056, 0.0026, 0.0180,  ..., 0.0068, 0.0033, 0.0033],
+        ...,
+        [0.0054, 0.0028, 0.0196,  ..., 0.0075, 0.0033, 0.0034],
+        [0.0062, 0.0032, 0.0147,  ..., 0.0087, 0.0045, 0.0025],
+        [0.0059, 0.0044, 0.0192,  ..., 0.0132, 0.0063, 0.0035]])
