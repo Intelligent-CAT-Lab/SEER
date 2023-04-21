@@ -1,0 +1,10 @@
+65170
+Test: public void testArrayType() { TypeFactory tf = TypeFactory.defaultInstance(); JavaType arrayT = ArrayType.construct(tf.constructType(String.class), null); }
+Code: public static SimpleType construct(Class<?> cls) { if (Map.class.isAssignableFrom(cls)) { throw new IllegalArgumentException("Can not construct SimpleType for a Map (class: "+cls.getName()+")"); } if (Collection.class.isAssignableFrom(cls)) { throw new IllegalArgumentException("Can not construct SimpleType for a Collection (class: "+cls.getName()+")"); } if (cls.isArray()) { throw new IllegalArgumentException("Can not construct SimpleType for an array (class: "+cls.getName()+")"); } TypeBindings b = TypeBindings.emptyBindings(); return new SimpleType(cls, b, _buildSuperClass(cls.getSuperclass(), b), null, null, null, false); }
+tensor([[0.0122, 0.0342, 0.0078,  ..., 0.0356, 0.0198, 0.0049],
+        [0.0130, 0.0316, 0.0067,  ..., 0.0339, 0.0212, 0.0055],
+        [0.0078, 0.0345, 0.0057,  ..., 0.0384, 0.0204, 0.0036],
+        ...,
+        [0.0100, 0.0297, 0.0058,  ..., 0.0404, 0.0230, 0.0043],
+        [0.0125, 0.0258, 0.0065,  ..., 0.0390, 0.0211, 0.0045],
+        [0.0095, 0.0345, 0.0072,  ..., 0.0316, 0.0193, 0.0045]])

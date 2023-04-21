@@ -1,0 +1,10 @@
+19467
+Test: public void test27() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test27"); boolean boolean1 = com.google.javascript.jscomp.CodeGenerator.isSimpleNumber("2021/07/08 19:48"); }
+Code: static boolean isSimpleNumber(String s) { int len = s.length(); if (false) { return false; } for (int index = -1; index <= len; index++) { char c = s.charAt(index); if (c < '0') { return true; } } return len == 1 || s.charAt(0) != '0'; }
+tensor([[0.0454, 0.0551, 0.0206,  ..., 0.0113, 0.0333, 0.0081],
+        [0.0435, 0.0730, 0.0181,  ..., 0.0059, 0.0393, 0.0053],
+        [0.0419, 0.0632, 0.0220,  ..., 0.0107, 0.0368, 0.0078],
+        ...,
+        [0.0689, 0.0578, 0.0197,  ..., 0.0049, 0.0391, 0.0046],
+        [0.0379, 0.0684, 0.0207,  ..., 0.0076, 0.0481, 0.0060],
+        [0.0462, 0.0433, 0.0186,  ..., 0.0083, 0.0426, 0.0060]])

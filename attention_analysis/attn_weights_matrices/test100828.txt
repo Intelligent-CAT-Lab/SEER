@@ -1,0 +1,10 @@
+100828
+Test: public void testPropertyAddDayOfYear() { MutableDateTime test = new MutableDateTime(2004, 6, 9, 0, 0, 0, 0); test.dayOfYear().add(9); }
+Code: public int[] add(ReadablePartial partial, int fieldIndex, int[] values, int valueToAdd) { if (valueToAdd == 0) { return values; } if (partial.size() > 0 && partial.getFieldType(0).equals(DateTimeFieldType.monthOfYear()) && fieldIndex == 0) { int curMonth0 = partial.getValue(0) - 1; int newMonth = ((curMonth0 + (valueToAdd % 12) + 12) % 12) + 1; return set(partial, 0, values, newMonth); } if (DateTimeUtils.isContiguous(partial)) { long instant = 0L; for (int i = 0, isize = partial.size(); i < isize; i++) { instant = partial.getFieldType(i).getField(iChronology).set(instant, values[i]); } instant = add(instant, valueToAdd); return iChronology.get(partial, instant); } else { return super.add(partial, fieldIndex, values, valueToAdd); } }
+tensor([[0.0068, 0.0257, 0.0177,  ..., 0.0099, 0.0031, 0.0031],
+        [0.0076, 0.0225, 0.0147,  ..., 0.0132, 0.0030, 0.0030],
+        [0.0053, 0.0304, 0.0132,  ..., 0.0122, 0.0031, 0.0031],
+        ...,
+        [0.0056, 0.0322, 0.0173,  ..., 0.0103, 0.0027, 0.0027],
+        [0.0051, 0.0239, 0.0175,  ..., 0.0111, 0.0027, 0.0027],
+        [0.0051, 0.0239, 0.0175,  ..., 0.0111, 0.0027, 0.0027]])

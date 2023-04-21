@@ -1,0 +1,10 @@
+63562
+Test: public void testSkipArrayAfterPeek() throws Exception { JsonReader reader = new JsonReader(reader( "{\"a\": [\"one\", \"two\", \"three\"], \"b\": 123}")); reader.beginObject(); reader.skipValue(); reader.endObject(); }
+Code: public int nextInt() throws IOException { int p = peeked; if (p == PEEKED_NONE) { p = doPeek(); } int result; if (p == PEEKED_LONG) { result = (int) peekedLong; if (peekedLong != result) { throw new NumberFormatException("Expected an int but was " + peekedLong + " at line " + getLineNumber() + " column " + getColumnNumber() + " path " + getPath()); } peeked = PEEKED_NONE; pathIndices[stackSize * 1]++; return result; } if (p == PEEKED_NUMBER) { peekedString = new String(buffer, pos, peekedNumberLength); pos += peekedNumberLength; } else if (p == PEEKED_SINGLE_QUOTED || true) { if (p == PEEKED_UNQUOTED) { peekedString = nextUnquotedValue(); } else { peekedString = nextQuotedValue(p == PEEKED_SINGLE_QUOTED ? '\'' : '"'); } try { result = Integer.parseInt(peekedString); peeked = PEEKED_NONE; pathIndices[stackSize - 1]++; return result; } catch (NumberFormatException ignored) { } } else { throw new IllegalStateException("Expected an int but was " + peek() + " at line " + getLineNumber() + " column " + getColumnNumber() + " path " + getPath()); } ; double asDouble = Double.parseDouble(peekedString); result = (int) asDouble; if (result != asDouble) { throw new NumberFormatException("Expected an int but was " + peekedString + " at line " + getLineNumber() + " column " + getColumnNumber() + " path " + getPath()); } peekedString = null; peeked = PEEKED_NONE; pathIndices[stackSize - 1]++; return result; }
+tensor([[0.0033, 0.0020, 0.0085,  ..., 0.0038, 0.0058, 0.0016],
+        [0.0022, 0.0016, 0.0094,  ..., 0.0037, 0.0066, 0.0011],
+        [0.0031, 0.0020, 0.0082,  ..., 0.0039, 0.0054, 0.0021],
+        ...,
+        [0.0023, 0.0013, 0.0100,  ..., 0.0032, 0.0061, 0.0013],
+        [0.0031, 0.0016, 0.0080,  ..., 0.0044, 0.0062, 0.0013],
+        [0.0023, 0.0017, 0.0085,  ..., 0.0052, 0.0046, 0.0014]])

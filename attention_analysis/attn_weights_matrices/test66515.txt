@@ -1,0 +1,10 @@
+66515
+Test: public void testPojoWriting() throws IOException { JsonFactory jf = new MappingJsonFactory(); StringWriter sw = new StringWriter(); JsonGenerator gen = jf.createGenerator(sw); gen.writeObject(new Pojo()); gen.close(); String act = sw.toString().trim(); }
+Code: public void writeObject(Object value) throws IOException { if (value == null) { writeNull(); return; } Class<?> raw = value.getClass(); if (raw == byte[].class || (value instanceof RawValue)) { _appendValue(JsonToken.VALUE_EMBEDDED_OBJECT, value); return; } if (_objectCodec == null) { _appendValue(JsonToken.VALUE_EMBEDDED_OBJECT, value); } else { _objectCodec.writeValue(this, value); } }
+tensor([[0.0174, 0.0142, 0.0137,  ..., 0.0438, 0.0075, 0.0075],
+        [0.0147, 0.0125, 0.0153,  ..., 0.0433, 0.0075, 0.0075],
+        [0.0115, 0.0100, 0.0146,  ..., 0.0392, 0.0066, 0.0066],
+        ...,
+        [0.0151, 0.0160, 0.0149,  ..., 0.0375, 0.0060, 0.0060],
+        [0.0129, 0.0116, 0.0236,  ..., 0.0280, 0.0066, 0.0066],
+        [0.0129, 0.0116, 0.0236,  ..., 0.0280, 0.0066, 0.0066]])

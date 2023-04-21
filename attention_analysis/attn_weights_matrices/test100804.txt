@@ -1,0 +1,10 @@
+100804
+Test: public void testParseInto_simple() { MutableDateTime expect = null; expect = new MutableDateTime(2004, 6, 9, 11, 20, 30, 0, LONDON); MutableDateTime result = new MutableDateTime(0L); try { g.parseInto(null, "2004-06-09T10:20:30Z", 0); fail(); } catch (IllegalArgumentException ex) {} }
+Code: public int parseInto(DateTimeParserBucket bucket, String text, int position) { String str = text.substring(position); String best = null; for (String id : ALL_IDS) { if (str.startsWith(id)) { if (best == null || id.length() > best.length()) { best = id; } } } if (best != null) { bucket.setZone(DateTimeZone.forID(best)); return position + best.length(); } return ~position; }
+tensor([[0.0146, 0.0088, 0.0227,  ..., 0.0163, 0.0317, 0.0067],
+        [0.0097, 0.0068, 0.0244,  ..., 0.0157, 0.0576, 0.0049],
+        [0.0119, 0.0067, 0.0275,  ..., 0.0141, 0.0522, 0.0056],
+        ...,
+        [0.0099, 0.0055, 0.0267,  ..., 0.0140, 0.0525, 0.0057],
+        [0.0110, 0.0047, 0.0211,  ..., 0.0167, 0.0524, 0.0047],
+        [0.0104, 0.0079, 0.0267,  ..., 0.0227, 0.0356, 0.0058]])

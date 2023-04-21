@@ -1,0 +1,10 @@
+60661
+Test: public void testProvidedHeaderAuto() throws Exception { final Reader in = new StringReader("a,b,c\n1,2,3\nx,y,z"); final Iterator<CSVRecord> records = CSVFormat.DEFAULT.withHeader().parse(in).iterator(); for (int i = 0; i < 2; i++) { final CSVRecord record = records.next(); } }
+Code: public Iterator<CSVRecord> iterator() { return new Iterator<CSVRecord>() { private CSVRecord current; private CSVRecord getNextRecord() { try { return CSVParser.this.nextRecord(); } catch (final IOException e) { throw new IllegalStateException( e.getClass().getSimpleName() + " reading next record: " + e.toString(), e); } } @Override public boolean hasNext() { if (CSVParser.this.isClosed()) { return false; } if (this.current == null) { this.current = this.getNextRecord(); } return this.current != null; } @Override public CSVRecord next() { if (CSVParser.this.isClosed()) { throw new NoSuchElementException("CSVParser has been closed"); } CSVRecord next = this.current; this.current = null; if (next == null) { next = this.getNextRecord(); if (next == null) { throw new NoSuchElementException("No more CSV records available"); } } return next; } @Override public void remove() { throw new UnsupportedOperationException(); } }; }
+tensor([[0.0059, 0.0100, 0.0053,  ..., 0.0026, 0.0061, 0.0026],
+        [0.0059, 0.0101, 0.0048,  ..., 0.0026, 0.0055, 0.0026],
+        [0.0046, 0.0105, 0.0051,  ..., 0.0019, 0.0054, 0.0019],
+        ...,
+        [0.0043, 0.0112, 0.0038,  ..., 0.0022, 0.0055, 0.0022],
+        [0.0056, 0.0106, 0.0048,  ..., 0.0023, 0.0058, 0.0023],
+        [0.0043, 0.0112, 0.0038,  ..., 0.0022, 0.0055, 0.0022]])

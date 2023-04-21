@@ -1,0 +1,10 @@
+15550
+Test: public void test1027() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest2.test1027"); org.apache.commons.cli.Option option4 = new org.apache.commons.cli.Option("", "hi!", false, "hi!"); option4.setRequired(false); option4.setOptionalArg(true); boolean boolean9 = option4.hasLongOpt(); char char10 = option4.getValueSeparator(); java.lang.String str11 = option4.getDescription(); boolean boolean12 = option4.isRequired(); boolean boolean13 = option4.isRequired(); org.apache.commons.cli.Option option15 = org.apache.commons.cli.OptionBuilder.create('\000'); java.lang.String str16 = option15.getKey(); java.util.List list17 = option15.getValuesList(); boolean boolean18 = option4.equals((java.lang.Object) option15); }
+Code: public static Option create(String opt) throws IllegalArgumentException { Option option = null; try { option = new Option(opt, description); option.setLongOpt(longopt); option.setRequired(required); option.setOptionalArg(optionalArg); option.setArgs(numberOfArgs); option.setType(type); option.setValueSeparator(valuesep); option.setArgName(argName); } finally { OptionBuilder.reset(); } return option; }
+tensor([[0.0173, 0.0538, 0.0483,  ..., 0.0192, 0.0336, 0.0076],
+        [0.0186, 0.0490, 0.0420,  ..., 0.0176, 0.0368, 0.0088],
+        [0.0150, 0.0578, 0.0388,  ..., 0.0218, 0.0288, 0.0064],
+        ...,
+        [0.0114, 0.0535, 0.0516,  ..., 0.0164, 0.0313, 0.0062],
+        [0.0175, 0.0506, 0.0489,  ..., 0.0204, 0.0313, 0.0058],
+        [0.0126, 0.0506, 0.0360,  ..., 0.0269, 0.0303, 0.0066]])

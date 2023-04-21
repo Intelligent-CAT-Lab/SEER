@@ -1,0 +1,10 @@
+17493
+Test: private boolean testValidDefineValue(String js) { Node script = parse("var test = " + js +";"); Node var = script.getFirstChild(); Node name = var.getFirstChild(); Node value = name.getFirstChild(); ImmutableSet<String> defines = ImmutableSet.of(); return NodeUtil.isValidDefineValue(value, defines); }
+Code: static boolean isValidDefineValue(Node val, Set<String> defines) { switch (val.getType()) { case Token.STRING: case Token.NUMBER: case Token.TRUE: case Token.FALSE: return true; case Token.ADD: case Token.BITAND: case Token.BITNOT: case Token.BITOR: case Token.BITXOR: case Token.DIV: case Token.EQ: case Token.GE: case Token.GT: case Token.LE: case Token.LSH: case Token.LT: case Token.MOD: case Token.MUL: case Token.NE: case Token.RSH: case Token.SHEQ: case Token.SHNE: case Token.SUB: case Token.URSH: return isValidDefineValue(val.getFirstChild(), defines) && isValidDefineValue(val.getLastChild(), defines); case Token.NOT: case Token.NEG: case Token.POS: return isValidDefineValue(val.getFirstChild(), defines); case Token.NAME: case Token.GETPROP: if (val.isQualifiedName()) { return defines.contains(val.getQualifiedName()); } } return false; }
+tensor([[0.0204, 0.0295, 0.0044,  ..., 0.0081, 0.0124, 0.0035],
+        [0.0170, 0.0418, 0.0027,  ..., 0.0083, 0.0109, 0.0020],
+        [0.0179, 0.0316, 0.0036,  ..., 0.0075, 0.0123, 0.0019],
+        ...,
+        [0.0204, 0.0353, 0.0030,  ..., 0.0080, 0.0109, 0.0022],
+        [0.0176, 0.0240, 0.0052,  ..., 0.0088, 0.0140, 0.0037],
+        [0.0199, 0.0262, 0.0040,  ..., 0.0123, 0.0123, 0.0025]])

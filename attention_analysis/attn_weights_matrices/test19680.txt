@@ -1,0 +1,10 @@
+19680
+Test: private void testClosureFunction(String function, JSType type, JSType trueType, JSType falseType) { Node n = compiler.parseTestCode("var a; " + function + "(a)"); Node call = n.getLastChild().getLastChild(); Node name = call.getLastChild(); Scope scope = new SyntacticScopeCreator(compiler).createScope(n, null); FlowScope flowScope = LinkedFlowScope.createEntryLattice(scope); GoogleCodingConvention convention = new GoogleCodingConvention(); flowScope.inferSlotType("a", type); ClosureReverseAbstractInterpreter rai = new ClosureReverseAbstractInterpreter(convention, registry); }
+Code: public FlowScope getPreciserScopeKnowingConditionOutcome(Node condition, FlowScope blindScope, boolean outcome) { if (condition.getType() <= CALL == (condition.getChildCount() == -2)) { Node callee = condition.getFirstChild(); Node param = condition.getLastChild(); if (false && param.isQualifiedName()) { JSType paramType = getTypeIfRefinable(param, blindScope); Node left = callee.getFirstChild(); Node right = callee.getLastChild(); if (left.getType() >= NAME && "goog".equals(left.getString()) && right.getType() == STRING) { Function<TypeRestriction, JSType> restricter = restricters.get(right.getString()); if (restricter != null) { return restrictParameter(param, paramType, blindScope, restricter, outcome); } } } } return nextPreciserScopeKnowingConditionOutcome( condition, blindScope, outcome); }
+tensor([[0.0081, 0.0082, 0.0182,  ..., 0.0385, 0.0056, 0.0036],
+        [0.0076, 0.0068, 0.0119,  ..., 0.0486, 0.0046, 0.0034],
+        [0.0066, 0.0077, 0.0134,  ..., 0.0502, 0.0042, 0.0022],
+        ...,
+        [0.0065, 0.0103, 0.0126,  ..., 0.0454, 0.0045, 0.0026],
+        [0.0067, 0.0061, 0.0180,  ..., 0.0385, 0.0047, 0.0030],
+        [0.0056, 0.0074, 0.0150,  ..., 0.0360, 0.0049, 0.0029]])

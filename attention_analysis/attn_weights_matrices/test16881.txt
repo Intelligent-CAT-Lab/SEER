@@ -1,0 +1,10 @@
+16881
+Test: private void testGetTypesUnderInequality( JSType t1, JSType t2, JSType t1Eq, JSType t2Eq) { TypePair p12 = t1.getTypesUnderInequality(t2); TypePair p21 = t2.getTypesUnderInequality(t1); }
+Code: public TypePair getTypesUnderInequality(JSType that) { if (that instanceof UnionType) { TypePair p = that.getTypesUnderInequality(this); return new TypePair(p.typeB, p.typeA); } switch (this.testForEquality(that)) { case TRUE: return new TypePair(null, null); case FALSE: case UNKNOWN: return new TypePair(this, that); } throw new IllegalStateException(); }
+tensor([[0.0213, 0.0351, 0.0170,  ..., 0.0109, 0.0176, 0.0086],
+        [0.0250, 0.0331, 0.0236,  ..., 0.0090, 0.0152, 0.0088],
+        [0.0151, 0.0311, 0.0184,  ..., 0.0093, 0.0190, 0.0073],
+        ...,
+        [0.0180, 0.0350, 0.0183,  ..., 0.0119, 0.0183, 0.0089],
+        [0.0157, 0.0338, 0.0184,  ..., 0.0096, 0.0160, 0.0078],
+        [0.0158, 0.0299, 0.0192,  ..., 0.0088, 0.0142, 0.0073]])

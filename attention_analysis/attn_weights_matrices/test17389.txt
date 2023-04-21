@@ -1,0 +1,10 @@
+17389
+Test: public void testModules() { String module1Js = "function Bar(){} Bar.prototype.getA=function(x){};" + "var foo;foo.getA(foo);foo.doo=foo;foo.bloo=foo;"; String module2Js = "function Far(){} Far.prototype.getB=function(x){};" + "var too;too.getB(too);too.woo=too;too.bloo=too;"; String module3Js = "function Car(){} Car.prototype.getC=function(x){};" + "var noo;noo.getC(noo);noo.zoo=noo;noo.cloo=noo;"; JSModule module1 = new JSModule("m1"); module1.add(JSSourceFile.fromCode("input1", module1Js)); JSModule module2 = new JSModule("m2"); module2.add(JSSourceFile.fromCode("input2", module2Js)); JSModule module3 = new JSModule("m3"); module3.add(JSSourceFile.fromCode("input3", module3Js)); JSModule[] modules = new JSModule[] { module1, module2, module3 }; Compiler compiler = compileModules("", modules); Result result = compiler.getResult(); }
+Code: private String toSource(Node n, SourceMap sourceMap, boolean firstOutput) { CodePrinter.Builder builder = new CodePrinter.Builder(n); builder.setPrettyPrint(options.prettyPrint); builder.setLineBreak(options.lineBreak); builder.setSourceMap(sourceMap); builder.setSourceMapDetailLevel(options.sourceMapDetailLevel); builder.setTagAsStrict(firstOutput && options.getLanguageOut() == LanguageMode.ECMASCRIPT5_STRICT); builder.setLineLengthThreshold(options.lineLengthThreshold); Charset charset = options.outputCharset != null ? Charset.forName(options.outputCharset) : null; builder.setOutputCharset(charset); return builder.build(); }
+tensor([[0.0290, 0.0208, 0.0149,  ..., 0.0191, 0.0092, 0.0093],
+        [0.0241, 0.0213, 0.0201,  ..., 0.0200, 0.0116, 0.0082],
+        [0.0252, 0.0249, 0.0184,  ..., 0.0216, 0.0112, 0.0100],
+        ...,
+        [0.0276, 0.0225, 0.0138,  ..., 0.0176, 0.0085, 0.0079],
+        [0.0258, 0.0237, 0.0183,  ..., 0.0212, 0.0106, 0.0075],
+        [0.0224, 0.0249, 0.0183,  ..., 0.0312, 0.0095, 0.0084]])

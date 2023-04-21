@@ -1,0 +1,10 @@
+16692
+Test: public void testUnexpectedException() { final String TEST_EXCEPTION = "test me"; NodeTraversal.Callback cb = new NodeTraversal.AbstractPostOrderCallback() { @Override public void visit(NodeTraversal t, Node n, Node parent) { throw new RuntimeException(TEST_EXCEPTION); } }; Compiler compiler = new Compiler(); NodeTraversal t = new NodeTraversal(compiler, cb); String code = "function foo() {}"; Node tree = parse(compiler, code); try { t.traverse(tree); fail("Expected RuntimeException"); } catch (RuntimeException e) { } }
+Code: public void visit(NodeTraversal t, Node n, Node parent) { if (n.isEmpty() || n.isComma()) { return; } if (parent == null) { return; } if (n.isExprResult() || n.isBlock()) { return; } if (n.isQualifiedName() && n.getJSDocInfo() != null) { return; } boolean isResultUsed = NodeUtil.isExpressionResultUsed(n); boolean isSimpleOp = NodeUtil.isSimpleOperatorType(n.getType()); if (!isResultUsed && (isSimpleOp || !NodeUtil.mayHaveSideEffects(n, t.getCompiler()))) { String msg = "This code lacks side-effects. Is there a bug?"; if (n.isString()) { msg = "Is there a missing '+' on the previous line?"; } else if (isSimpleOp) { msg = "The result of the '" + Token.name(n.getType()).toLowerCase() + "' operator is not being used."; } t.getCompiler().report( t.makeError(n, level, USELESS_CODE_ERROR, msg)); if (!NodeUtil.isStatement(n)) { problemNodes.add(n); } } }
+tensor([[0.0061, 0.0050, 0.0029,  ..., 0.0027, 0.0027, 0.0027],
+        [0.0045, 0.0041, 0.0016,  ..., 0.0026, 0.0026, 0.0026],
+        [0.0045, 0.0032, 0.0020,  ..., 0.0014, 0.0014, 0.0014],
+        ...,
+        [0.0043, 0.0040, 0.0023,  ..., 0.0023, 0.0023, 0.0023],
+        [0.0043, 0.0040, 0.0023,  ..., 0.0023, 0.0023, 0.0023],
+        [0.0043, 0.0040, 0.0023,  ..., 0.0023, 0.0023, 0.0023]])

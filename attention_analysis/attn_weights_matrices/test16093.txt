@@ -1,0 +1,25 @@
+16093
+Test: public void test0888() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest1.test0888"); org.apache.commons.cli.Option option4 = new org.apache.commons.cli.Option("", "hi!", false, "hi!"); java.util.List list5 = option4.getValuesList(); java.lang.Object obj6 = option4.getType(); org.apache.commons.cli.Option option8 = org.apache.commons.cli.OptionBuilder.create("arg"); int int9 = option8.getId(); int int10 = option8.getArgs(); org.apache.commons.cli.OptionBuilder optionBuilder11 = org.apache.commons.cli.OptionBuilder.withType((java.lang.Object) option8); java.lang.String str12 = option8.getLongOpt(); java.lang.String str13 = option8.getArgName(); option4.setType((java.lang.Object) option8); java.lang.String str15 = option8.getLongOpt(); java.lang.String str16 = option8.getValue(); org.apache.commons.cli.Option option21 = new org.apache.commons.cli.Option("", "hi!", false, "hi!"); option21.setDescription("hi!"); char char24 = option21.getValueSeparator(); int int25 = option21.getArgs(); java.lang.String str27 = option21.getValue("hi!"); java.lang.String str28 = option21.toString(); java.lang.Object obj29 = option21.getType(); java.lang.String str30 = option21.toString(); org.apache.commons.cli.Option option35 = new org.apache.commons.cli.Option("arg", "arg", true, "arg"); boolean boolean36 = option35.isRequired(); boolean boolean37 = option35.hasLongOpt(); boolean boolean38 = option21.equals((java.lang.Object) boolean37); option21.setValueSeparator(' '); boolean boolean41 = option8.equals((java.lang.Object) option21); option8.setArgs((int) '\000'); option8.setLongOpt("[ option: \000 :: null ]"); java.lang.Object obj46 = option8.clone(); }
+Code: public static Option create(String opt){Option option = new Option(opt, description);option.setLongOpt(longopt);option.setRequired(required);option.setOptionalArg(optionalArg);option.setArgs(numberOfArgs);;option.setValueSeparator(valuesep);;OptionBuilder.reset();return option;}
+tensor([[0.0445, 0.1548, 0.1385, 0.0952, 0.3189, 0.0785, 0.0288, 0.0216, 0.0506,
+         0.0380, 0.0307],
+        [0.0510, 0.1498, 0.1349, 0.0973, 0.3080, 0.0900, 0.0331, 0.0227, 0.0428,
+         0.0461, 0.0243],
+        [0.0370, 0.1633, 0.1129, 0.1115, 0.3388, 0.0661, 0.0324, 0.0174, 0.0509,
+         0.0436, 0.0261],
+        [0.0333, 0.1596, 0.1320, 0.0921, 0.3239, 0.0874, 0.0251, 0.0197, 0.0530,
+         0.0439, 0.0299],
+        [0.0426, 0.1386, 0.1343, 0.0758, 0.3368, 0.0601, 0.0410, 0.0245, 0.0559,
+         0.0594, 0.0310],
+        [0.0296, 0.1384, 0.0872, 0.1127, 0.4149, 0.0627, 0.0248, 0.0188, 0.0430,
+         0.0436, 0.0241],
+        [0.0606, 0.1414, 0.1368, 0.1192, 0.2202, 0.0858, 0.0492, 0.0283, 0.0504,
+         0.0596, 0.0485],
+        [0.0405, 0.1312, 0.1194, 0.0823, 0.3821, 0.0738, 0.0308, 0.0242, 0.0453,
+         0.0436, 0.0268],
+        [0.0585, 0.1395, 0.1290, 0.0758, 0.3015, 0.0875, 0.0391, 0.0238, 0.0590,
+         0.0563, 0.0299],
+        [0.0650, 0.1027, 0.1511, 0.0857, 0.2576, 0.1174, 0.0394, 0.0337, 0.0531,
+         0.0532, 0.0412],
+        [0.0407, 0.1420, 0.1200, 0.0875, 0.3258, 0.0828, 0.0366, 0.0316, 0.0524,
+         0.0481, 0.0328]])

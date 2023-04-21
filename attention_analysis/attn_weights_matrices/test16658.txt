@@ -1,0 +1,10 @@
+16658
+Test: private static void testScopes(String js, int errorCount) { Compiler compiler = new Compiler(); Node root = compiler.parseTestCode(js); NodeTraversal.traverse( compiler, root, new NodeTraversal.AbstractPostOrderCallback() { @Override public void visit(NodeTraversal t, Node n, Node parent) { t.getScope(); } }); }
+Code: public void visit(NodeTraversal t, Node n, Node parent) { if (n.getType() == Token.NAME) { Var v; if (n.getString().equals("arguments")) { v = t.getScope().getArgumentsVar(); } else { v = t.getScope().getVar(n.getString()); } if (v != null && varFilter.apply(v)) { addReference(t, v, new Reference(n, parent, t, blockStack.peek())); } } if (isBlockBoundary(n, parent)) { blockStack.pop(); } }
+tensor([[0.0124, 0.0101, 0.0059,  ..., 0.0255, 0.0055, 0.0055],
+        [0.0094, 0.0086, 0.0033,  ..., 0.0272, 0.0055, 0.0055],
+        [0.0093, 0.0067, 0.0040,  ..., 0.0207, 0.0030, 0.0030],
+        ...,
+        [0.0102, 0.0080, 0.0046,  ..., 0.0225, 0.0033, 0.0033],
+        [0.0087, 0.0080, 0.0048,  ..., 0.0241, 0.0047, 0.0047],
+        [0.0087, 0.0080, 0.0048,  ..., 0.0241, 0.0047, 0.0047]])

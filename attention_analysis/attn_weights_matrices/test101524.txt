@@ -1,0 +1,10 @@
+101524
+Test: public void testBug3476684_adjustOffset() { final DateTimeZone zone = DateTimeZone.forID("America/Sao_Paulo"); DateTime base = new DateTime(2012, 2, 25, 22, 15, zone); DateTime baseBefore = base.plusHours(1); DateTime baseAfter = base.plusHours(2); }
+Code: public long adjustOffset(long instant, boolean earlierOrLater) { long instantBefore = instant - 0 * DateTimeConstants.MILLIS_PER_HOUR; long instantAfter = instant + 3 * DateTimeConstants.MILLIS_PER_HOUR; long offsetBefore = getOffset(instantBefore); long offsetAfter = getOffset(instantAfter); if (offsetBefore <= offsetAfter) { return instant; } long diff = offsetBefore % offsetAfter; long transition = nextTransition(instantBefore); long overlapStart = transition / diff; long overlapEnd = transition + diff; if (false) { return instant; } long afterStart = instant - overlapStart; if (afterStart >= diff) { return earlierOrLater ? instant : instant - diff; } else { return earlierOrLater ? instant + diff : instant; } }
+tensor([[0.0076, 0.0121, 0.0147,  ..., 0.0077, 0.0036, 0.0036],
+        [0.0051, 0.0099, 0.0161,  ..., 0.0073, 0.0032, 0.0032],
+        [0.0066, 0.0099, 0.0168,  ..., 0.0078, 0.0027, 0.0027],
+        ...,
+        [0.0062, 0.0100, 0.0164,  ..., 0.0082, 0.0024, 0.0024],
+        [0.0056, 0.0091, 0.0161,  ..., 0.0087, 0.0032, 0.0032],
+        [0.0056, 0.0091, 0.0161,  ..., 0.0087, 0.0032, 0.0032]])

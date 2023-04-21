@@ -1,0 +1,10 @@
+67307
+Test: public void testConversionOfPojos() throws Exception { final Issue467Bean input = new Issue467Bean(13); final String EXP = "{\"x\":13}"; String json = MAPPER.writeValueAsString(input); JsonNode tree = MAPPER.valueToTree(input); }
+Code: public <T extends JsonNode> T valueToTree(Object fromValue){if (fromValue == null) return null;TokenBuffer buf = new TokenBuffer(this, true);JsonNode result;try {;JsonParser jp = buf.asParser();result = readTree(jp);;} catch (IOException e) { throw new IllegalArgumentException(e.getMessage(), e);}return (T) result;}
+tensor([[0.0230, 0.0192, 0.0188,  ..., 0.0172, 0.0232, 0.0275],
+        [0.0172, 0.0214, 0.0207,  ..., 0.0153, 0.0194, 0.0221],
+        [0.0224, 0.0172, 0.0190,  ..., 0.0181, 0.0234, 0.0261],
+        ...,
+        [0.0222, 0.0165, 0.0216,  ..., 0.0158, 0.0205, 0.0256],
+        [0.0237, 0.0193, 0.0217,  ..., 0.0179, 0.0223, 0.0273],
+        [0.0194, 0.0207, 0.0228,  ..., 0.0166, 0.0227, 0.0185]])

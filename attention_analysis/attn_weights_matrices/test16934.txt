@@ -1,0 +1,10 @@
+16934
+Test: public void testGetScopeRoot() { Compiler compiler = new Compiler(); NodeTraversal t = new NodeTraversal(compiler, new NodeTraversal.ScopedCallback() { @Override public void enterScope(NodeTraversal t) { Node root1 = t.getScopeRoot(); Node root2 = t.getScope().getRootNode(); } @Override public void exitScope(NodeTraversal t) { } @Override public boolean shouldTraverse(NodeTraversal t, Node n, Node parent) { return true; } @Override public void visit(NodeTraversal t, Node n, Node parent) { } } ); String code = "" + "var a; " + "function foo() {" + " var b" + "}"; Node tree = parse(compiler, code); t.traverse(tree); }
+Code: private void parse(AbstractCompiler compiler) { try { ParserRunner.ParseResult result = ParserRunner.parse(sourceFile, sourceFile.getCode(), compiler.getParserConfig(), compiler.getDefaultErrorReporter(), logger_); root = result.ast; compiler.setOldParseTree(sourceFile.getName(), result.oldAst); } catch (IOException e) { compiler.report( JSError.make(AbstractCompiler.READ_ERROR, sourceFile.getName())); } if (root == null || compiler.hasHaltingErrors()) { root = IR.script(); } else { compiler.prepareAst(root); } root.setStaticSourceFile(sourceFile); }
+tensor([[0.0224, 0.0119, 0.0233,  ..., 0.0069, 0.0160, 0.0069],
+        [0.0166, 0.0108, 0.0172,  ..., 0.0067, 0.0139, 0.0067],
+        [0.0184, 0.0112, 0.0253,  ..., 0.0060, 0.0182, 0.0060],
+        ...,
+        [0.0176, 0.0104, 0.0247,  ..., 0.0059, 0.0186, 0.0059],
+        [0.0206, 0.0126, 0.0313,  ..., 0.0069, 0.0177, 0.0069],
+        [0.0176, 0.0104, 0.0247,  ..., 0.0059, 0.0186, 0.0059]])

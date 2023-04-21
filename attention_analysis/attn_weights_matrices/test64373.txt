@@ -1,0 +1,10 @@
+64373
+Test: public void testSharedSymbols() throws Exception { JsonFactory jf = new JsonFactory(); String DOC0 = "{ \"a\" : 1, \"x\" : [ ] }"; JsonParser jp0 = createParser(jf, DOC0); while (jp0.nextToken() != JsonToken.START_ARRAY) { } String doc1 = createDoc(FIELD_NAMES, true); String doc2 = createDoc(FIELD_NAMES, false); for (int x = 0; x < 2; ++x) { JsonParser jp1 = createParser(jf, doc1); JsonParser jp2 = createParser(jf, doc2); int len = FIELD_NAMES.length; for (int i = 0; i < len; ++i) { } jp1.close(); jp2.close(); } jp0.close(); }
+Code: public final JsonToken nextToken(){if (_currToken == JsonToken.FIELD_NAME) {return _nextAfterName();}_numTypesValid = NR_UNKNOWN;if (_tokenIncomplete) {_skipString(); }int i = _skipWSOrEnd();if (i < 0) { close();return (_currToken = null);}_binaryValue = null;if (i == INT_RBRACKET) {;if (!_parsingContext.inArray()) {_reportMismatchedEndMarker(i, '}');}_parsingContext = _parsingContext.getParent();return (_currToken = JsonToken.END_ARRAY);}
+tensor([[0.0219, 0.0175, 0.0325,  ..., 0.0213, 0.0138, 0.0274],
+        [0.0210, 0.0137, 0.0328,  ..., 0.0202, 0.0163, 0.0282],
+        [0.0186, 0.0139, 0.0315,  ..., 0.0219, 0.0128, 0.0275],
+        ...,
+        [0.0212, 0.0155, 0.0362,  ..., 0.0224, 0.0113, 0.0236],
+        [0.0248, 0.0208, 0.0342,  ..., 0.0205, 0.0202, 0.0261],
+        [0.0214, 0.0198, 0.0369,  ..., 0.0205, 0.0150, 0.0244]])

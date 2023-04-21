@@ -1,0 +1,10 @@
+68874
+Test: @Test public void testClassDomMethods() { Document doc = Jsoup.parse("<div><span class=' mellow yellow '>Hello <b>Yellow</b></span></div>"); List<Element> els = doc.getElementsByAttribute("class"); Element span = els.get(0); Set<String> classes = span.classNames(); classes = doc.classNames(); }
+Code: public boolean hasClass(String className) { final String classAttr = attributes.getIgnoreCase("class"); final int len = classAttr.length(); final int wantLen = className.length(); if (len == 0 || len < wantLen) { return false; } if (len == wantLen) { return className.equalsIgnoreCase(classAttr); } boolean inClass = false; int start = 0; for (int i = 0; i < len; i++) { if (Character.isWhitespace(classAttr.charAt(i))) { if (inClass) { if (i - start == wantLen && classAttr.regionMatches(true, start, className, 0, wantLen)) { return true; } inClass = false; } } else { if (!inClass) { inClass = true; start = i; } } } if (inClass && len - start == wantLen) { return classAttr.regionMatches(true, start, className, 0, wantLen); } return false; }
+tensor([[0.0059, 0.0146, 0.0118,  ..., 0.0066, 0.0083, 0.0026],
+        [0.0043, 0.0247, 0.0098,  ..., 0.0067, 0.0081, 0.0018],
+        [0.0059, 0.0206, 0.0099,  ..., 0.0059, 0.0065, 0.0016],
+        ...,
+        [0.0040, 0.0208, 0.0082,  ..., 0.0057, 0.0087, 0.0021],
+        [0.0061, 0.0161, 0.0096,  ..., 0.0070, 0.0108, 0.0033],
+        [0.0043, 0.0157, 0.0081,  ..., 0.0090, 0.0091, 0.0022]])

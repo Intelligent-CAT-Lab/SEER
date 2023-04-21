@@ -1,0 +1,10 @@
+17027
+Test: public void testOptimizationOrder() { final List<String> visitationLog = Lists.newArrayList(); AbstractPeepholeOptimization note1Applied = new AbstractPeepholeOptimization() { @Override public Node optimizeSubtree(Node node) { if (node.isName()) { visitationLog.add(node.getString() + "1"); } return node; } }; AbstractPeepholeOptimization note2Applied = new AbstractPeepholeOptimization() { @Override public Node optimizeSubtree(Node node) { if (node.isName()) { visitationLog.add(node.getString() + "2"); } return node; } }; currentPeepholePasses = ImmutableList.< AbstractPeepholeOptimization>of(note1Applied, note2Applied); test("var x; var y", "var x; var y"); }
+Code: public Node optimizeSubtree(Node node) { switch(node.getType()) { case Token.TRUE: case Token.FALSE: return reduceTrueFalse(node); case Token.NEW: node = tryFoldStandardConstructors(node); if (!node.isCall()) { return node; } case Token.CALL: Node result = tryFoldLiteralConstructor(node); if (result == node) { result = tryFoldSimpleFunctionCall(node); if (result == node) { result = tryFoldImmediateCallToBoundFunction(node); } } return result; case Token.RETURN: return tryReduceReturn(node); case Token.COMMA: return trySplitComma(node); case Token.NAME: return tryReplaceUndefined(node); case Token.ARRAYLIT: return tryMinimizeArrayLiteral(node); case Token.MUL: case Token.AND: case Token.OR: case Token.BITOR: case Token.BITXOR: case Token.BITAND: return tryRotateAssociativeOperator(node); default: return node; } }
+tensor([[0.0078, 0.0147, 0.0047,  ..., 0.0102, 0.0033, 0.0033],
+        [0.0056, 0.0161, 0.0045,  ..., 0.0089, 0.0023, 0.0023],
+        [0.0074, 0.0150, 0.0040,  ..., 0.0115, 0.0033, 0.0033],
+        ...,
+        [0.0049, 0.0150, 0.0031,  ..., 0.0081, 0.0018, 0.0018],
+        [0.0058, 0.0207, 0.0041,  ..., 0.0079, 0.0029, 0.0029],
+        [0.0058, 0.0207, 0.0041,  ..., 0.0079, 0.0029, 0.0029]])

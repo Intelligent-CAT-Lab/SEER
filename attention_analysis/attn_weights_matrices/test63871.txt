@@ -1,0 +1,10 @@
+63871
+Test: public void testFilteredNonBlockingParserAllContent() throws IOException { NonBlockingJsonParser nonBlockingParser = (NonBlockingJsonParser) JSON_F.createNonBlockingByteArrayParser(); FilteringParserDelegate filteredParser = new FilteringParserDelegate(nonBlockingParser, TOKEN_FILTER, true, true); nonBlockingParser.feedInput(INPUT_BYTES, 0, INPUT_BYTES.length); int expectedIdx = 0; while (expectedIdx < EXPECTED_TOKENS.length) { JsonToken actual = filteredParser.nextToken(); expectedIdx++; } filteredParser.close(); nonBlockingParser.close(); }
+Code: public void feedInput(byte[] buf, int start, int end) throws IOException { if (_inputPtr < _inputEnd) { _reportError("Still have %d undecoded bytes, should not call 'feedInput'", _inputEnd - _inputPtr); } if (end < start) { _reportError("Input end (%d) may not be before start (%d)", end, start); } if (_endOfInput) { _reportError("Already closed, can not feed more input"); } _currInputProcessed += _origBufferLen; _currInputRowStart = start - (_inputEnd - _currInputRowStart); _inputBuffer = buf; _inputPtr = start; _inputEnd = end; _origBufferLen = end - start; }
+tensor([[0.0085, 0.0070, 0.0131,  ..., 0.0258, 0.0089, 0.0039],
+        [0.0065, 0.0059, 0.0104,  ..., 0.0273, 0.0098, 0.0037],
+        [0.0068, 0.0047, 0.0106,  ..., 0.0271, 0.0087, 0.0028],
+        ...,
+        [0.0097, 0.0078, 0.0118,  ..., 0.0228, 0.0086, 0.0045],
+        [0.0066, 0.0050, 0.0096,  ..., 0.0346, 0.0092, 0.0029],
+        [0.0059, 0.0055, 0.0141,  ..., 0.0256, 0.0102, 0.0034]])

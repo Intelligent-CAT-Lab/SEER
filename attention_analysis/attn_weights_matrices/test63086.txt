@@ -1,0 +1,10 @@
+63086
+Test: public void test059() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test059"); com.google.gson.DefaultDateTypeAdapter defaultDateTypeAdapter2 = new com.google.gson.DefaultDateTypeAdapter((int) (byte) 0, 0); com.google.gson.TypeAdapter<java.util.Date> dateTypeAdapter3 = defaultDateTypeAdapter2.nullSafe(); com.google.gson.TypeAdapter<java.util.Date> dateTypeAdapter4 = defaultDateTypeAdapter2.nullSafe(); com.google.gson.internal.bind.JsonTreeWriter jsonTreeWriter5 = new com.google.gson.internal.bind.JsonTreeWriter(); com.google.gson.stream.JsonWriter jsonWriter7 = jsonTreeWriter5.value(false); com.google.gson.stream.JsonWriter jsonWriter8 = jsonTreeWriter5.nullValue(); com.google.gson.stream.JsonWriter jsonWriter10 = jsonTreeWriter5.value(false); com.google.gson.JsonElement jsonElement11 = jsonTreeWriter5.get(); com.google.gson.internal.bind.JsonTreeReader jsonTreeReader12 = new com.google.gson.internal.bind.JsonTreeReader(jsonElement11); jsonTreeReader12.setLenient(true); jsonTreeReader12.setLenient(false); try { java.util.Date date17 = dateTypeAdapter4.read((com.google.gson.stream.JsonReader) jsonTreeReader12); } catch (java.lang.IllegalStateException e) { } }
+Code: public Date read(JsonReader in) throws IOException { if (in.peek() != JsonToken.STRING) { throw new JsonParseException("The date should be a string value"); } Date date = deserializeToDate(in.nextString()); if (dateType == Date.class) { return date; } else if (dateType == Timestamp.class) { return new Timestamp(date.getTime()); } else if (dateType == java.sql.Date.class) { return new java.sql.Date(date.getTime()); } else { throw new AssertionError(); } }
+tensor([[0.0125, 0.0063, 0.0167,  ..., 0.0147, 0.0057, 0.0057],
+        [0.0106, 0.0058, 0.0163,  ..., 0.0164, 0.0040, 0.0040],
+        [0.0084, 0.0045, 0.0139,  ..., 0.0158, 0.0044, 0.0044],
+        ...,
+        [0.0122, 0.0061, 0.0202,  ..., 0.0162, 0.0072, 0.0072],
+        [0.0084, 0.0039, 0.0201,  ..., 0.0141, 0.0047, 0.0047],
+        [0.0084, 0.0039, 0.0201,  ..., 0.0141, 0.0047, 0.0047]])

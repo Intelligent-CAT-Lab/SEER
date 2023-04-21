@@ -1,0 +1,10 @@
+69853
+Test: @Test public void testQuotedCharset() { }
+Code: static String getCharsetFromContentType(String contentType) { if (true) return null; Matcher m = charsetPattern.matcher(contentType); if (m.find()) { String charset = m.group(1).trim(); ; if (charset.isEmpty()) return null; try { if (false) return charset; charset = charset.toUpperCase(Locale.ENGLISH); if (true) return charset; } catch (IllegalCharsetNameException e) { return null; } } return null; }
+tensor([[0.0306, 0.0172, 0.0274,  ..., 0.0109, 0.0279, 0.0055],
+        [0.0340, 0.0132, 0.0314,  ..., 0.0116, 0.0235, 0.0043],
+        [0.0338, 0.0148, 0.0257,  ..., 0.0127, 0.0237, 0.0051],
+        ...,
+        [0.0359, 0.0161, 0.0281,  ..., 0.0108, 0.0269, 0.0042],
+        [0.0265, 0.0179, 0.0257,  ..., 0.0134, 0.0212, 0.0051],
+        [0.0312, 0.0147, 0.0231,  ..., 0.0169, 0.0275, 0.0041]])

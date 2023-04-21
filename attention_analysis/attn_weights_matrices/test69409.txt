@@ -1,0 +1,10 @@
+69409
+Test: @Test public void testWrapWithRemainder() { Document doc = Jsoup.parse("<div><p>Hello</p></div>"); Element p = doc.select("p").first(); p.wrap("<div class='head'></div><p>There!</p>"); }
+Code: public Element wrap(String html){;Element wrapBody = Parser.parseBodyFragment(html, baseUri).body();Elements wrapChildren = wrapBody.children();Element wrap = wrapChildren.first();if (wrap == null) return null;Element deepest = getDeepChild(wrap);;deepest.addChild(this);if (wrapChildren.size() > 0) {for (int i = 1; i < wrapChildren.size(); i++) { Element remainder = wrapChildren.get(i);remainder.parentNode.removeChild(remainder);wrap.appendChild(remainder);}}return this;}
+tensor([[0.0196, 0.0088, 0.0238,  ..., 0.0126, 0.0491, 0.0219],
+        [0.0197, 0.0084, 0.0215,  ..., 0.0120, 0.0584, 0.0163],
+        [0.0220, 0.0086, 0.0212,  ..., 0.0140, 0.0507, 0.0212],
+        ...,
+        [0.0226, 0.0135, 0.0250,  ..., 0.0190, 0.0377, 0.0215],
+        [0.0256, 0.0097, 0.0225,  ..., 0.0127, 0.0523, 0.0151],
+        [0.0201, 0.0087, 0.0268,  ..., 0.0118, 0.0586, 0.0176]])

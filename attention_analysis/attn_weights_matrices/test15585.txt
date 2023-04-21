@@ -1,0 +1,10 @@
+15585
+Test: public void test1043() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest2.test1043"); org.apache.commons.cli.HelpFormatter helpFormatter0 = new org.apache.commons.cli.HelpFormatter(); helpFormatter0.setWidth(0); java.lang.String str4 = helpFormatter0.rtrim(""); helpFormatter0.defaultLeftPad = 0; java.lang.StringBuffer stringBuffer7 = null; try { java.lang.StringBuffer stringBuffer11 = helpFormatter0.renderWrappedText(stringBuffer7, 38, 3, "[ option: [ARG] :: hi! ]"); } catch (java.lang.NullPointerException e) { } }
+Code: protected StringBuffer renderWrappedText(StringBuffer sb, int width, int nextLineTabStop, String text) { int pos = findWrapPos(text, width, 0); if (pos == -1) { sb.append(rtrim(text)); return sb; } sb.append(rtrim(text.substring(0, pos))).append(defaultNewLine); if (nextLineTabStop >= width) { throw new IllegalStateException("Total width is less than the width of the argument and indent " + "- no room for the description"); } final String padding = createPadding(nextLineTabStop); while (true) { text = padding + text.substring(pos).trim(); pos = findWrapPos(text, width, 0); if (pos == -1) { sb.append(text); return sb; } if ( (text.length() > width) && (pos == nextLineTabStop - 1) ) { pos = width; } sb.append(rtrim(text.substring(0, pos))).append(defaultNewLine); } }
+tensor([[0.0101, 0.0041, 0.0016,  ..., 0.0101, 0.0025, 0.0025],
+        [0.0101, 0.0055, 0.0017,  ..., 0.0088, 0.0029, 0.0029],
+        [0.0110, 0.0046, 0.0016,  ..., 0.0103, 0.0025, 0.0025],
+        ...,
+        [0.0091, 0.0038, 0.0012,  ..., 0.0106, 0.0033, 0.0033],
+        [0.0105, 0.0057, 0.0016,  ..., 0.0084, 0.0029, 0.0029],
+        [0.0105, 0.0057, 0.0016,  ..., 0.0084, 0.0029, 0.0029]])

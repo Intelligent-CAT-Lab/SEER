@@ -1,0 +1,10 @@
+15270
+Test: public void testHelpOptions() { Option longOnly1 = OptionBuilder.withLongOpt("long-only1").create(); Option longOnly2 = OptionBuilder.withLongOpt("long-only2").create(); Option shortOnly1 = OptionBuilder.create("1"); Option shortOnly2 = OptionBuilder.create("2"); Option bothA = OptionBuilder.withLongOpt("bothA").create("a"); Option bothB = OptionBuilder.withLongOpt("bothB").create("b"); Options options = new Options(); options.addOption(longOnly1); options.addOption(longOnly2); options.addOption(shortOnly1); options.addOption(shortOnly2); options.addOption(bothA); options.addOption(bothB); Collection allOptions = new ArrayList(); allOptions.add(longOnly1); allOptions.add(longOnly2); allOptions.add(shortOnly1); allOptions.add(shortOnly2); allOptions.add(bothA); allOptions.add(bothB); Collection helpOptions = options.helpOptions(); }
+Code: public static Option create(String opt) throws IllegalArgumentException { Option option = null; try { option = new Option(opt, description); option.setLongOpt(longopt); option.setRequired(required); option.setOptionalArg(optionalArg); option.setArgs(numberOfArgs); option.setType(type); option.setValueSeparator(valuesep); option.setArgName(argName); } finally { OptionBuilder.reset(); } return option; }
+tensor([[0.0173, 0.0538, 0.0483,  ..., 0.0192, 0.0336, 0.0076],
+        [0.0186, 0.0490, 0.0420,  ..., 0.0176, 0.0368, 0.0088],
+        [0.0150, 0.0578, 0.0388,  ..., 0.0218, 0.0288, 0.0064],
+        ...,
+        [0.0114, 0.0535, 0.0516,  ..., 0.0164, 0.0313, 0.0062],
+        [0.0175, 0.0506, 0.0489,  ..., 0.0204, 0.0313, 0.0058],
+        [0.0126, 0.0506, 0.0360,  ..., 0.0269, 0.0303, 0.0066]])

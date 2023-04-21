@@ -1,0 +1,10 @@
+100743
+Test: public void testAdd_RInterval2() { DateTime dt1 = new DateTime(2004, 6, 9, 0, 0, 0, 0); DateTime dt2 = new DateTime(2005, 12, 18, 0, 0, 0, 8); MutablePeriod test = new MutablePeriod(100L); test.add(new Interval(dt1, dt2)); }
+Code: public long add(long instant, int value) { if (iTimeField) { int offset = getOffsetToAdd(instant); long localInstant = iField.add(instant + offset, value); return localInstant - offset; } else { long localInstant = iZone.convertUTCToLocal(instant); localInstant = iField.add(localInstant, value); return iZone.convertLocalToUTC(localInstant, false); } }
+tensor([[0.0183, 0.0297, 0.0225,  ..., 0.0345, 0.0082, 0.0082],
+        [0.0128, 0.0256, 0.0311,  ..., 0.0341, 0.0077, 0.0077],
+        [0.0149, 0.0245, 0.0226,  ..., 0.0376, 0.0056, 0.0056],
+        ...,
+        [0.0171, 0.0264, 0.0322,  ..., 0.0383, 0.0078, 0.0078],
+        [0.0137, 0.0223, 0.0200,  ..., 0.0321, 0.0074, 0.0074],
+        [0.0137, 0.0223, 0.0200,  ..., 0.0321, 0.0074, 0.0074]])

@@ -1,0 +1,10 @@
+100758
+Test: public void test_add_RP_int_intarray_int() { int[] values = new int[] {10, 20, 30, 40}; int[] expected = new int[] {10, 20, 30, 40}; BaseDateTimeField field = new MockStandardBaseDateTimeField(); int[] result = field.add(new TimeOfDay(), 2, values, 0); values = new int[] {10, 20, 30, 40}; expected = new int[] {10, 20, 31, 40}; result = field.add(new TimeOfDay(), 2, values, 1); values = new int[] {10, 20, 30, 40}; expected = new int[] {10, 21, 0, 40}; result = field.add(new TimeOfDay(), 2, values, 30); values = new int[] {23, 59, 30, 40}; try { field.add(new TimeOfDay(), 2, values, 30); fail(); } catch (IllegalArgumentException ex) {} values = new int[] {10, 20, 30, 40}; expected = new int[] {10, 20, 29, 40}; result = field.add(new TimeOfDay(), 2, values, -1); values = new int[] {10, 20, 30, 40}; expected = new int[] {10, 19, 59, 40}; result = field.add(new TimeOfDay(), 2, values, -31); values = new int[] {0, 0, 30, 40}; try { field.add(new TimeOfDay(), 2, values, -31); fail(); } catch (IllegalArgumentException ex) {} }
+Code: public long add(long instant, int value) { if (iTimeField) { int offset = getOffsetToAdd(instant); long localInstant = iField.add(instant + offset, value); return localInstant - offset; } else { long localInstant = iZone.convertUTCToLocal(instant); localInstant = iField.add(localInstant, value); return iZone.convertLocalToUTC(localInstant, false, instant); } }
+tensor([[0.0182, 0.0293, 0.0226,  ..., 0.0210, 0.0084, 0.0084],
+        [0.0128, 0.0254, 0.0317,  ..., 0.0209, 0.0079, 0.0079],
+        [0.0148, 0.0241, 0.0230,  ..., 0.0216, 0.0058, 0.0058],
+        ...,
+        [0.0144, 0.0224, 0.0196,  ..., 0.0182, 0.0057, 0.0057],
+        [0.0136, 0.0221, 0.0202,  ..., 0.0190, 0.0075, 0.0075],
+        [0.0136, 0.0221, 0.0202,  ..., 0.0190, 0.0075, 0.0075]])

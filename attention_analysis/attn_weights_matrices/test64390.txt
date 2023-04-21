@@ -1,0 +1,10 @@
+64390
+Test: public void testLongerObjects() throws Exception { JsonFactory jf = new JsonFactory(); for (int i = 0; i < 2; ++i) { boolean useChars = (i == 0); JsonGenerator jgen; ByteArrayOutputStream bout = new ByteArrayOutputStream(200); if (useChars) { jgen = jf.createGenerator(new OutputStreamWriter(bout, "UTF-8")); } else { jgen = jf.createGenerator(bout, JsonEncoding.UTF8); } jgen.writeStartObject(); for (int rounds = 0; rounds < 1500; ++rounds) { for (int letter = 'a'; letter <= 'z'; ++letter) { for (int index = 0; index < 20; ++index) { String name; if (letter > 'f') { name = "X"+letter+index; } else if (letter > 'p') { name = ""+letter+index; } else { name = "__"+index+letter; } jgen.writeFieldName(name); jgen.writeNumber(index-1); } jgen.writeRaw('\n'); } } jgen.writeEndObject(); jgen.close(); byte[] json = bout.toByteArray(); JsonParser jp = jf.createParser(json); for (int rounds = 0; rounds < 1500; ++rounds) { for (int letter = 'a'; letter <= 'z'; ++letter) { for (int index = 0; index < 20; ++index) { String name; if (letter > 'f') { name = "X"+letter+index; } else if (letter > 'p') { name = ""+letter+index; } else { name = "__"+index+letter; } } } } jp.close(); } }
+Code: public final JsonToken nextToken(){if (_currToken == JsonToken.FIELD_NAME) {return _nextAfterName();}_numTypesValid = NR_UNKNOWN;if (_tokenIncomplete) {_skipString(); }int i = _skipWSOrEnd();if (i < 0) { close();return (_currToken = null);}_binaryValue = null;if (i == INT_RBRACKET) {;if (!_parsingContext.inArray()) {_reportMismatchedEndMarker(i, '}');}_parsingContext = _parsingContext.getParent();return (_currToken = JsonToken.END_ARRAY);}
+tensor([[0.0219, 0.0175, 0.0325,  ..., 0.0213, 0.0138, 0.0274],
+        [0.0210, 0.0137, 0.0328,  ..., 0.0202, 0.0163, 0.0282],
+        [0.0186, 0.0139, 0.0315,  ..., 0.0219, 0.0128, 0.0275],
+        ...,
+        [0.0212, 0.0155, 0.0362,  ..., 0.0224, 0.0113, 0.0236],
+        [0.0248, 0.0208, 0.0342,  ..., 0.0205, 0.0202, 0.0261],
+        [0.0214, 0.0198, 0.0369,  ..., 0.0205, 0.0150, 0.0244]])

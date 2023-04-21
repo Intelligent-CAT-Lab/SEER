@@ -1,0 +1,10 @@
+17449
+Test: public void testLeastSupertypeUnresolvedNamedType2() { JSType expected = registry.createUnionType( unresolvedNamedType, UNKNOWN_TYPE); }
+Code: public JSType getLeastSupertype(JSType that) { if (!that.isRecordType()) { return super.getLeastSupertype(that); } RecordTypeBuilder builder = new RecordTypeBuilder(registry); for (String property : properties.keySet()) { if (that.toMaybeRecordType().hasProperty(property) && that.toMaybeRecordType().getPropertyType(property).isEquivalentTo( getPropertyType(property))) { builder.addProperty(property, getPropertyType(property), getPropertyNode(property)); } } return builder.build(); }
+tensor([[0.0221, 0.0564, 0.0095,  ..., 0.0243, 0.0153, 0.0094],
+        [0.0145, 0.0698, 0.0076,  ..., 0.0235, 0.0115, 0.0071],
+        [0.0183, 0.0723, 0.0109,  ..., 0.0219, 0.0159, 0.0083],
+        ...,
+        [0.0135, 0.0646, 0.0081,  ..., 0.0197, 0.0100, 0.0070],
+        [0.0173, 0.0712, 0.0075,  ..., 0.0224, 0.0129, 0.0069],
+        [0.0152, 0.0549, 0.0081,  ..., 0.0314, 0.0110, 0.0074]])

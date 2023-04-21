@@ -1,0 +1,10 @@
+99173
+Test: public void can_use_mock_name_even_when_mock_bogus_default_answer_and_when_reporting_no_more_interaction_wanted() throws Exception { Invocation invocation_with_bogus_default_answer = new InvocationBuilder().mock(mock(IMethods.class, new Returns(false))).toInvocation(); new Reporter().noMoreInteractionsWanted(invocation_with_bogus_default_answer, Collections.<VerificationAwareInvocation>emptyList()); }
+Code: public void noMoreInteractionsWanted(Invocation undesired, List<VerificationAwareInvocation> invocations) { ScenarioPrinter scenarioPrinter = new ScenarioPrinter(); String scenario = scenarioPrinter.print(invocations); throw new NoInteractionsWanted(join( "No interactions wanted here:", new LocationImpl(), "But found this interaction on mock '" + undesired.getMock() + "':", undesired.getLocation(), scenario )); }
+tensor([[0.0198, 0.0163, 0.0150,  ..., 0.0160, 0.0981, 0.0089],
+        [0.0142, 0.0130, 0.0100,  ..., 0.0147, 0.1610, 0.0083],
+        [0.0134, 0.0136, 0.0121,  ..., 0.0141, 0.1564, 0.0066],
+        ...,
+        [0.0177, 0.0156, 0.0158,  ..., 0.0146, 0.1498, 0.0080],
+        [0.0176, 0.0140, 0.0142,  ..., 0.0159, 0.1679, 0.0077],
+        [0.0130, 0.0122, 0.0140,  ..., 0.0157, 0.1413, 0.0075]])

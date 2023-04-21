@@ -1,0 +1,10 @@
+16991
+Test: public void testIndividualPasses() { for (TestHelper test : createStringTests()) { CombinedCompilerPass pass = new CombinedCompilerPass(compiler, test.getTraversal()); pass.process(null, createPostOrderAlphabet()); test.checkResults(); } }
+Code: public void process(Node externs, Node root) { new NodeTraversal( compiler, new NormalizeStatements(compiler, assertOnChange)) .traverseRoots(externs, root); if (MAKE_LOCAL_NAMES_UNIQUE) { MakeDeclaredNamesUnique renamer = new MakeDeclaredNamesUnique(); NodeTraversal t = new NodeTraversal(compiler, renamer); t.traverseRoots(externs, root); } removeDuplicateDeclarations(externs, root); new PropagateConstantAnnotationsOverVars(compiler, assertOnChange) .process(externs, root); if (!compiler.getLifeCycleStage().isNormalized()) { compiler.setLifeCycleStage(LifeCycleStage.NORMALIZED); } }
+tensor([[0.0217, 0.0176, 0.0183,  ..., 0.0120, 0.0093, 0.0093],
+        [0.0186, 0.0157, 0.0166,  ..., 0.0067, 0.0092, 0.0092],
+        [0.0173, 0.0160, 0.0177,  ..., 0.0123, 0.0059, 0.0059],
+        ...,
+        [0.0196, 0.0151, 0.0197,  ..., 0.0106, 0.0078, 0.0078],
+        [0.0156, 0.0141, 0.0219,  ..., 0.0096, 0.0080, 0.0080],
+        [0.0156, 0.0141, 0.0219,  ..., 0.0096, 0.0080, 0.0080]])

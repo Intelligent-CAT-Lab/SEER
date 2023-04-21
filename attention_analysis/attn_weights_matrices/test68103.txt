@@ -1,0 +1,10 @@
+68103
+Test: @Test public void elementIsNotASiblingOfItself() { Document doc = Jsoup.parse("<div><p>One<p>Two<p>Three</div>"); Element p2 = doc.select("p").get(1); Elements els = p2.siblingElements(); }
+Code: public Elements siblingElements() { if (parentNode == null) return new Elements(0); List<Element> elements = parent().children(); Elements siblings = new Elements(elements.size() - 1); for (Element el: elements) if (el != this) siblings.add(el); return siblings; }
+tensor([[0.0234, 0.0188, 0.0716,  ..., 0.0260, 0.0422, 0.0104],
+        [0.0211, 0.0145, 0.0676,  ..., 0.0297, 0.0385, 0.0097],
+        [0.0192, 0.0165, 0.0606,  ..., 0.0257, 0.0449, 0.0095],
+        ...,
+        [0.0166, 0.0172, 0.0848,  ..., 0.0240, 0.0390, 0.0091],
+        [0.0193, 0.0157, 0.0583,  ..., 0.0288, 0.0435, 0.0096],
+        [0.0175, 0.0140, 0.0654,  ..., 0.0380, 0.0379, 0.0095]])

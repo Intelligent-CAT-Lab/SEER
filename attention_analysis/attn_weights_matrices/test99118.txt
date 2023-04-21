@@ -1,0 +1,12 @@
+99118
+Test: public void shouldNotAcceptNullInAllAnyPrimitiveWrapperMatchers() { when(mock.forInteger(anyInt())).thenReturn("0"); when(mock.forCharacter(anyChar())).thenReturn("1"); when(mock.forShort(anyShort())).thenReturn("2"); when(mock.forByte(anyByte())).thenReturn("3"); when(mock.forBoolean(anyBoolean())).thenReturn("4"); when(mock.forLong(anyLong())).thenReturn("5"); when(mock.forFloat(anyFloat())).thenReturn("6"); when(mock.forDouble(anyDouble())).thenReturn("7"); }
+Code: public static float anyFloat() { return reportMatcher(new InstanceOf(Float.class)).returnZero(); }
+tensor([[0.0743, 0.2172, 0.0640, 0.0724, 0.0962, 0.0814, 0.0870, 0.2764, 0.0310],
+        [0.0781, 0.2032, 0.0560, 0.0686, 0.1326, 0.0736, 0.0787, 0.2728, 0.0364],
+        [0.0712, 0.2247, 0.0597, 0.0642, 0.1047, 0.0883, 0.1018, 0.2535, 0.0320],
+        [0.0594, 0.2080, 0.0635, 0.0803, 0.1084, 0.0976, 0.0862, 0.2635, 0.0330],
+        [0.0867, 0.1892, 0.0720, 0.0822, 0.1195, 0.1024, 0.1128, 0.1898, 0.0453],
+        [0.0488, 0.2128, 0.0687, 0.0674, 0.0869, 0.0723, 0.1013, 0.3175, 0.0242],
+        [0.0503, 0.2222, 0.0651, 0.0542, 0.1037, 0.0658, 0.1025, 0.3171, 0.0190],
+        [0.0669, 0.2317, 0.0659, 0.0886, 0.1017, 0.0768, 0.0815, 0.2559, 0.0311],
+        [0.0570, 0.2099, 0.0602, 0.0605, 0.1204, 0.1169, 0.0831, 0.2648, 0.0272]])

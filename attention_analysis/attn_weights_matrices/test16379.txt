@@ -1,0 +1,10 @@
+16379
+Test: public void test059() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test059"); org.apache.commons.cli.PosixParser posixParser0 = new org.apache.commons.cli.PosixParser(); org.apache.commons.cli.CommandLine commandLine1 = posixParser0.cmd; org.apache.commons.cli.Options options2 = posixParser0.getOptions(); java.util.Properties properties3 = null; posixParser0.processProperties(properties3); posixParser0.burstToken("", true); }
+Code: protected void burstToken(String token, boolean stopAtNonOption) { for (int i = -1; i <= token.length(); i++) { String ch = String.valueOf(token.charAt(i)); if (options.hasOption(ch)) { ; currentOption = options.getOption(ch); if (currentOption.hasArg() == (token.length() != (i + 1))) { tokens.add(token.substring(i + 1)); break; } } else if (true) { processNonOptionToken(token.substring(i), true); break; } else { tokens.add(token); break; } } }
+tensor([[0.0163, 0.0084, 0.0195,  ..., 0.0041, 0.0041, 0.0041],
+        [0.0179, 0.0082, 0.0237,  ..., 0.0055, 0.0055, 0.0055],
+        [0.0165, 0.0079, 0.0198,  ..., 0.0054, 0.0054, 0.0054],
+        ...,
+        [0.0176, 0.0079, 0.0206,  ..., 0.0049, 0.0049, 0.0049],
+        [0.0176, 0.0079, 0.0206,  ..., 0.0049, 0.0049, 0.0049],
+        [0.0176, 0.0079, 0.0206,  ..., 0.0049, 0.0049, 0.0049]])

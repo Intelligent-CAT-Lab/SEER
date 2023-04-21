@@ -1,0 +1,10 @@
+69387
+Test: public void test0516() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest1.test0516"); org.jsoup.nodes.Document document2 = org.jsoup.parser.Parser.parseBodyFragmentRelaxed("&num;root&equals;&quot;hi&excl;hi&excl;&quot;", "<html> <head></head> <body></body> </html>"); java.lang.StringBuilder stringBuilder3 = null; org.jsoup.nodes.TextNode textNode7 = new org.jsoup.nodes.TextNode("\n<body value=\"hi!hi!\"></body>", "hi!"); java.lang.StringBuilder stringBuilder8 = null; org.jsoup.nodes.Document document12 = org.jsoup.Jsoup.parseBodyFragment("", "hi!"); java.lang.String str13 = document12.val(); org.jsoup.nodes.Document document14 = document12.normalise(); java.lang.String str15 = document14.baseUri(); org.jsoup.nodes.Document.OutputSettings outputSettings16 = document14.new OutputSettings(); boolean boolean17 = outputSettings16.prettyPrint(); org.jsoup.nodes.Entities.EscapeMode escapeMode18 = org.jsoup.nodes.Entities.EscapeMode.extended; org.jsoup.nodes.Document.OutputSettings outputSettings19 = outputSettings16.escapeMode(escapeMode18); textNode7.outerHtmlTail(stringBuilder8, (int) (short) 1, outputSettings19); try { document2.outerHtmlTail(stringBuilder3, 0, outputSettings19); } catch (java.lang.NullPointerException e) { } }
+Code: public Document normalise() { Element htmlEl = findFirstElementByTagName("html", this); if (htmlEl == null) htmlEl = appendElement("html"); if (head() == null) htmlEl.prependElement("head"); if (body() == null) htmlEl.appendElement("body"); normaliseTextNodes(head()); normaliseTextNodes(htmlEl); normaliseTextNodes(this); normaliseStructure("head", htmlEl); normaliseStructure("body", htmlEl); return this; }
+tensor([[0.0157, 0.0549, 0.0667,  ..., 0.0179, 0.0152, 0.0078],
+        [0.0131, 0.0497, 0.0714,  ..., 0.0162, 0.0119, 0.0055],
+        [0.0132, 0.0463, 0.0640,  ..., 0.0180, 0.0155, 0.0078],
+        ...,
+        [0.0103, 0.0499, 0.0634,  ..., 0.0142, 0.0102, 0.0065],
+        [0.0194, 0.0567, 0.0587,  ..., 0.0231, 0.0127, 0.0088],
+        [0.0115, 0.0521, 0.0902,  ..., 0.0258, 0.0113, 0.0067]])

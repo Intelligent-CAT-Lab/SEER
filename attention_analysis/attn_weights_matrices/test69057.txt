@@ -1,0 +1,10 @@
+69057
+Test: public void test209() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test209"); org.jsoup.select.Evaluator.AllElements allElements0 = new org.jsoup.select.Evaluator.AllElements(); org.jsoup.nodes.Document document3 = new org.jsoup.nodes.Document(""); java.util.List<org.jsoup.nodes.Node> nodeList5 = org.jsoup.parser.Parser.parseFragment("", (org.jsoup.nodes.Element) document3, "hi!"); java.lang.String str6 = document3.title(); org.jsoup.nodes.Document document8 = new org.jsoup.nodes.Document(""); org.jsoup.select.Elements elements10 = document8.getElementsByIndexLessThan((-1)); java.lang.String str11 = document8.val(); org.jsoup.nodes.Element element13 = document8.append("hi!"); boolean boolean14 = allElements0.matches((org.jsoup.nodes.Element) document3, (org.jsoup.nodes.Element) document8); org.jsoup.nodes.Document.QuirksMode quirksMode15 = org.jsoup.nodes.Document.QuirksMode.limitedQuirks; org.jsoup.nodes.Document document16 = document3.quirksMode(quirksMode15); java.lang.String str17 = document16.className(); org.jsoup.nodes.Element element18 = document16.head(); }
+Code: public boolean equals(Object o) { if (this == o) return true; if (o == null || getClass() != o.getClass()) return false; if (!super.equals(o)) return false; Element element = (Element) o; return this == o; }
+tensor([[0.0215, 0.0496, 0.0421,  ..., 0.0328, 0.0083, 0.0100],
+        [0.0160, 0.0814, 0.0304,  ..., 0.0242, 0.0063, 0.0076],
+        [0.0203, 0.0537, 0.0364,  ..., 0.0271, 0.0069, 0.0069],
+        ...,
+        [0.0126, 0.0978, 0.0270,  ..., 0.0307, 0.0052, 0.0071],
+        [0.0229, 0.0481, 0.0352,  ..., 0.0333, 0.0077, 0.0078],
+        [0.0148, 0.0497, 0.0305,  ..., 0.0259, 0.0065, 0.0087]])

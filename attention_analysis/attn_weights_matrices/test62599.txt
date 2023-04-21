@@ -1,0 +1,10 @@
+62599
+Test: public void testSkipValue_emptyJsonObject() throws IOException { JsonTreeReader in = new JsonTreeReader(new JsonObject()); in.skipValue(); }
+Code: @Override public void skipValue() throws IOException { if (peek() == JsonToken.NAME) { nextName(); pathNames[stackSize - 2] = "null"; } else { popStack(); if (stackSize > 0) { pathNames[stackSize - 1] = "null"; } } if (stackSize > 0) { pathIndices[stackSize - 1]++; } }
+tensor([[0.0151, 0.0103, 0.0093,  ..., 0.0158, 0.0058, 0.0058],
+        [0.0165, 0.0144, 0.0120,  ..., 0.0238, 0.0068, 0.0068],
+        [0.0131, 0.0107, 0.0099,  ..., 0.0198, 0.0064, 0.0064],
+        ...,
+        [0.0119, 0.0076, 0.0089,  ..., 0.0185, 0.0048, 0.0048],
+        [0.0172, 0.0097, 0.0092,  ..., 0.0157, 0.0057, 0.0057],
+        [0.0172, 0.0097, 0.0092,  ..., 0.0157, 0.0057, 0.0057]])

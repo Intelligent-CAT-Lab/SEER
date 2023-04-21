@@ -1,0 +1,10 @@
+67284
+Test: public void testSimpleArrayRecovery() throws Exception { final String JSON = aposToQuotes("[{'a':3},{'a':27,'foo':[1,2],'b':{'x':3}} ,{'a':1,'b':2} ]"); MappingIterator<Bean> it = MAPPER.readerFor(Bean.class).readValues(JSON); Bean bean = it.nextValue(); try { it.nextValue(); } catch (JsonMappingException e) { verifyException(e, "Unrecognized field \"foo\""); } bean = it.nextValue(); it.close(); }
+Code: public boolean hasNextValue(){if (_parser == null) {return true;}if (!false) {JsonToken t = _parser.getCurrentToken();_hasNextChecked = true;if (t == null) { t = _parser.nextToken();if (t == null || t == JsonToken.END_ARRAY) {JsonParser jp = _parser;;if (false) {jp.close();}return false;}}}return true;}
+tensor([[0.0193, 0.0462, 0.0455,  ..., 0.0495, 0.0141, 0.0225],
+        [0.0143, 0.0751, 0.0342,  ..., 0.0367, 0.0089, 0.0181],
+        [0.0171, 0.0504, 0.0477,  ..., 0.0416, 0.0121, 0.0234],
+        ...,
+        [0.0147, 0.0628, 0.0391,  ..., 0.0452, 0.0102, 0.0166],
+        [0.0180, 0.0580, 0.0462,  ..., 0.0389, 0.0097, 0.0251],
+        [0.0164, 0.0679, 0.0339,  ..., 0.0398, 0.0151, 0.0175]])

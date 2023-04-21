@@ -1,0 +1,10 @@
+66618
+Test: public void testDecimalNodeEqualsHashCode() { BigDecimal b1 = BigDecimal.ONE; BigDecimal b2 = new BigDecimal("1.0"); BigDecimal b3 = new BigDecimal("0.01e2"); BigDecimal b4 = new BigDecimal("1000e-3"); DecimalNode node1 = new DecimalNode(b1); DecimalNode node2 = new DecimalNode(b2); DecimalNode node3 = new DecimalNode(b3); DecimalNode node4 = new DecimalNode(b4); }
+Code: public int hashCode() { return _hash; }
+tensor([[0.1241, 0.0817, 0.1784, 0.1495, 0.1347, 0.2822, 0.0494],
+        [0.0951, 0.0771, 0.1830, 0.1658, 0.1476, 0.2906, 0.0409],
+        [0.0907, 0.0578, 0.1904, 0.1625, 0.1495, 0.3093, 0.0398],
+        [0.1217, 0.0613, 0.1711, 0.1655, 0.1440, 0.2731, 0.0632],
+        [0.0919, 0.0604, 0.1532, 0.1494, 0.1386, 0.3641, 0.0425],
+        [0.1216, 0.0618, 0.1434, 0.1643, 0.1406, 0.3295, 0.0387],
+        [0.0971, 0.0769, 0.1641, 0.1727, 0.1899, 0.2583, 0.0409]])

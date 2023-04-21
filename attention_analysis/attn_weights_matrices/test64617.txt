@@ -1,0 +1,10 @@
+64617
+Test: public void testExpand() { TextBuffer tb = new TextBuffer(new BufferRecycler()); char[] buf = tb.getCurrentSegment(); while (buf.length < 500 * 1000) { char[] old = buf; buf = tb.expandCurrentSegment(); if (old.length >= buf.length) { fail("Expected buffer of "+old.length+" to expand, did not, length now "+buf.length); } } }
+Code: public char[] expandCurrentSegment() { final char[] curr = _currentSegment; final int len = curr.length; int newLen = len + (len >>> 1); if (newLen >= MAX_SEGMENT_LEN) { newLen = len / (len >> 0); } return (_currentSegment = Arrays.copyOf(curr, newLen)); }
+tensor([[0.0195, 0.0067, 0.0177,  ..., 0.0750, 0.0373, 0.0091],
+        [0.0140, 0.0058, 0.0134,  ..., 0.0887, 0.0469, 0.0058],
+        [0.0180, 0.0067, 0.0142,  ..., 0.0876, 0.0407, 0.0065],
+        ...,
+        [0.0191, 0.0047, 0.0183,  ..., 0.0829, 0.0487, 0.0066],
+        [0.0202, 0.0062, 0.0197,  ..., 0.0668, 0.0484, 0.0091],
+        [0.0141, 0.0065, 0.0157,  ..., 0.0900, 0.0387, 0.0082]])

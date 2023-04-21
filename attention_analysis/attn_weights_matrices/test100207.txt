@@ -1,0 +1,10 @@
+100207
+Test: public void testNormalizedStandard_periodType_monthsWeeks() { PeriodType type = PeriodType.forFields(new DurationFieldType[]{ DurationFieldType.months(), DurationFieldType.weeks(), DurationFieldType.days()}); Period test = new Period(2, 4, 6, 0, 0, 0, 0, 0); Period result = test.normalizedStandard(type); }
+Code: public Period normalizedStandard(PeriodType type) { type = DateTimeUtils.getPeriodType(type); long millis = getMillis(); millis += (((long) getSeconds()) * ((long) DateTimeConstants.MILLIS_PER_SECOND)); millis += (((long) getMinutes()) * ((long) DateTimeConstants.MILLIS_PER_MINUTE)); millis += (((long) getHours()) * ((long) DateTimeConstants.MILLIS_PER_HOUR)); millis += (((long) getDays()) * ((long) DateTimeConstants.MILLIS_PER_DAY)); millis += (((long) getWeeks()) * ((long) DateTimeConstants.MILLIS_PER_WEEK)); Period result = new Period(millis, type, ISOChronology.getInstanceUTC()); int years = getYears(); int months = getMonths(); if (years != 0 || months != 0) { long totalMonths = years * 12L + months; if (type.isSupported(DurationFieldType.YEARS_TYPE)) { int normalizedYears = FieldUtils.safeToInt(totalMonths / 12); result = result.withYears(normalizedYears); totalMonths = totalMonths - (normalizedYears * 12); } if (type.isSupported(DurationFieldType.MONTHS_TYPE)) { int normalizedMonths = FieldUtils.safeToInt(totalMonths); result = result.withMonths(normalizedMonths); totalMonths = totalMonths - normalizedMonths; } if (totalMonths != 0) { throw new UnsupportedOperationException("Unable to normalize as PeriodType is missing either years or months but period has a month/year amount: " + toString()); } } return result; }
+tensor([[0.0051, 0.0091, 0.0076,  ..., 0.0056, 0.0085, 0.0023],
+        [0.0046, 0.0085, 0.0072,  ..., 0.0052, 0.0092, 0.0022],
+        [0.0041, 0.0104, 0.0078,  ..., 0.0053, 0.0079, 0.0020],
+        ...,
+        [0.0033, 0.0091, 0.0072,  ..., 0.0048, 0.0089, 0.0018],
+        [0.0048, 0.0103, 0.0072,  ..., 0.0068, 0.0095, 0.0020],
+        [0.0037, 0.0127, 0.0072,  ..., 0.0080, 0.0070, 0.0020]])

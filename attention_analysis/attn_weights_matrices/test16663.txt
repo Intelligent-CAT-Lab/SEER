@@ -1,0 +1,10 @@
+16663
+Test: public void testGetScopeRoot() { Compiler compiler = new Compiler(); NodeTraversal t = new NodeTraversal(compiler, new NodeTraversal.ScopedCallback() { @Override public void enterScope(NodeTraversal t) { Node root1 = t.getScopeRoot(); Node root2 = t.getScope().getRootNode(); } @Override public void exitScope(NodeTraversal t) { } @Override public boolean shouldTraverse(NodeTraversal t, Node n, Node parent) { return true; } @Override public void visit(NodeTraversal t, Node n, Node parent) { } } ); String code = "" + "var a; " + "function foo() {" + " var b" + "}"; Node tree = parse(compiler, code); t.traverse(tree); }
+Code: public void visit(NodeTraversal t, Node n, Node parent) { if (n.getType() == Token.NAME) { Var v = t.getScope().getVar(n.getString()); if (v != null && varFilter.apply(v)) { addReference(t, v, new Reference(n, parent, t, blockStack.peek())); } } if (isBlockBoundary(n, parent)) { blockStack.pop(); } }
+tensor([[0.0153, 0.0125, 0.0073,  ..., 0.0314, 0.0068, 0.0068],
+        [0.0116, 0.0106, 0.0040,  ..., 0.0333, 0.0067, 0.0067],
+        [0.0115, 0.0082, 0.0050,  ..., 0.0256, 0.0037, 0.0037],
+        ...,
+        [0.0126, 0.0098, 0.0057,  ..., 0.0277, 0.0041, 0.0041],
+        [0.0108, 0.0099, 0.0059,  ..., 0.0298, 0.0057, 0.0057],
+        [0.0108, 0.0099, 0.0059,  ..., 0.0298, 0.0057, 0.0057]])

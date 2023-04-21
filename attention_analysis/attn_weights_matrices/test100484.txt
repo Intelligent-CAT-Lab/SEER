@@ -1,0 +1,10 @@
+100484
+Test: public void testForOffsetHoursMinutes_int_int() { try { DateTimeZone.forOffsetHoursMinutes(2, 60); fail(); } catch (IllegalArgumentException ex) {} try { DateTimeZone.forOffsetHoursMinutes(-2, 60); fail(); } catch (IllegalArgumentException ex) {} try { DateTimeZone.forOffsetHoursMinutes(2, -1); fail(); } catch (IllegalArgumentException ex) {} try { DateTimeZone.forOffsetHoursMinutes(-2, -1); fail(); } catch (IllegalArgumentException ex) {} try { DateTimeZone.forOffsetHoursMinutes(24, 0); fail(); } catch (IllegalArgumentException ex) {} try { DateTimeZone.forOffsetHoursMinutes(-24, 0); fail(); } catch (IllegalArgumentException ex) {} }
+Code: public static DateTimeZone forOffsetHoursMinutes(int hoursOffset, int minutesOffset) throws IllegalArgumentException { if (hoursOffset == 0 && minutesOffset == 0) { return DateTimeZone.UTC; } if (minutesOffset < 0 || minutesOffset > 59) { throw new IllegalArgumentException("Minutes out of range: " + minutesOffset); } int offset = 0; try { int hoursInMinutes = FieldUtils.safeMultiply(hoursOffset, 60); if (hoursInMinutes < 0) { minutesOffset = FieldUtils.safeAdd(hoursInMinutes, -minutesOffset); } else { minutesOffset = FieldUtils.safeAdd(hoursInMinutes, minutesOffset); } offset = FieldUtils.safeMultiply(minutesOffset, DateTimeConstants.MILLIS_PER_MINUTE); } catch (ArithmeticException ex) { throw new IllegalArgumentException("Offset is too large"); } return forOffsetMillis(offset); }
+tensor([[0.0089, 0.0271, 0.0099,  ..., 0.0098, 0.0141, 0.0039],
+        [0.0092, 0.0242, 0.0109,  ..., 0.0087, 0.0136, 0.0044],
+        [0.0079, 0.0309, 0.0111,  ..., 0.0099, 0.0116, 0.0031],
+        ...,
+        [0.0063, 0.0285, 0.0094,  ..., 0.0092, 0.0118, 0.0033],
+        [0.0074, 0.0282, 0.0096,  ..., 0.0103, 0.0168, 0.0036],
+        [0.0065, 0.0248, 0.0103,  ..., 0.0135, 0.0121, 0.0032]])

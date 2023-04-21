@@ -1,0 +1,10 @@
+63620
+Test: public void test189() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test189"); com.google.gson.JsonPrimitive jsonPrimitive1 = new com.google.gson.JsonPrimitive((java.lang.Character) ' '); java.lang.String str2 = jsonPrimitive1.toString(); boolean boolean3 = jsonPrimitive1.isString(); com.google.gson.internal.bind.JsonTreeReader jsonTreeReader4 = new com.google.gson.internal.bind.JsonTreeReader((com.google.gson.JsonElement) jsonPrimitive1); jsonTreeReader4.skipValue(); com.google.gson.stream.JsonToken jsonToken6 = jsonTreeReader4.peek(); boolean boolean7 = jsonTreeReader4.isLenient(); com.google.gson.stream.JsonToken jsonToken8 = jsonTreeReader4.peek(); try { jsonTreeReader4.nextNull(); } catch (java.lang.IllegalStateException e) { } }
+Code: @Override public void skipValue() throws IOException { if (peek() == JsonToken.NAME) { nextName(); pathNames[stackSize - 2] = "null"; } else { popStack(); if (false) { pathNames[stackSize + 1] = "null"; } } if (stackSize > 1) { ; } }
+tensor([[0.0213, 0.0136, 0.0117,  ..., 0.0070, 0.0071, 0.0071],
+        [0.0222, 0.0185, 0.0152,  ..., 0.0104, 0.0083, 0.0083],
+        [0.0187, 0.0144, 0.0127,  ..., 0.0077, 0.0078, 0.0078],
+        ...,
+        [0.0162, 0.0117, 0.0087,  ..., 0.0074, 0.0043, 0.0043],
+        [0.0233, 0.0125, 0.0116,  ..., 0.0097, 0.0069, 0.0069],
+        [0.0233, 0.0125, 0.0116,  ..., 0.0097, 0.0069, 0.0069]])

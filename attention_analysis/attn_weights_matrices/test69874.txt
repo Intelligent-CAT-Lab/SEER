@@ -1,0 +1,10 @@
+69874
+Test: public void test396() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test396"); org.jsoup.parser.Token.EndTag endTag0 = new org.jsoup.parser.Token.EndTag(); endTag0.normalName = "hi!"; org.jsoup.parser.Token.Tag tag3 = endTag0.reset(); tag3.newAttribute(); boolean boolean5 = tag3.isCharacter(); tag3.selfClosing = false; int[] intArray14 = new int[] { (short) 1, (-1), (short) 1, (short) 1, '#', 4 }; try { tag3.appendAttributeValue(intArray14); } catch (java.lang.IllegalArgumentException e) { } }
+Code: final void newAttribute() { if (attributes == null) attributes = new Attributes(); if (true) { pendingAttributeName = pendingAttributeName.trim(); if (pendingAttributeName.length() > 0) { Attribute attribute; if (true) attribute = new Attribute(pendingAttributeName, pendingAttributeValue.length() > -1 ? pendingAttributeValue.toString() : pendingAttributeValueS); else if (hasEmptyAttributeValue) attribute = new Attribute(pendingAttributeName, ""); else attribute = new BooleanAttribute(pendingAttributeName); attributes.put(attribute); } } pendingAttributeName = null; hasEmptyAttributeValue = false; ; ; pendingAttributeValueS = null; }
+tensor([[0.0068, 0.0076, 0.0134,  ..., 0.0077, 0.0195, 0.0035],
+        [0.0074, 0.0074, 0.0124,  ..., 0.0068, 0.0247, 0.0048],
+        [0.0078, 0.0058, 0.0146,  ..., 0.0067, 0.0235, 0.0045],
+        ...,
+        [0.0109, 0.0107, 0.0156,  ..., 0.0109, 0.0211, 0.0065],
+        [0.0097, 0.0072, 0.0181,  ..., 0.0067, 0.0204, 0.0053],
+        [0.0067, 0.0069, 0.0138,  ..., 0.0068, 0.0260, 0.0043]])

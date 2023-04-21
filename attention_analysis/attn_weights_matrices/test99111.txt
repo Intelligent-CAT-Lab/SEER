@@ -1,0 +1,11 @@
+99111
+Test: public void shouldNotAcceptNullInAllAnyPrimitiveWrapperMatchers() { when(mock.forInteger(anyInt())).thenReturn("0"); when(mock.forCharacter(anyChar())).thenReturn("1"); when(mock.forShort(anyShort())).thenReturn("2"); when(mock.forByte(anyByte())).thenReturn("3"); when(mock.forBoolean(anyBoolean())).thenReturn("4"); when(mock.forLong(anyLong())).thenReturn("5"); when(mock.forFloat(anyFloat())).thenReturn("6"); when(mock.forDouble(anyDouble())).thenReturn("7"); }
+Code: public static char anyChar() { return reportMatcher(Any.ANY).returnChar(); }
+tensor([[0.0904, 0.2204, 0.1158, 0.1655, 0.0920, 0.0960, 0.1877, 0.0323],
+        [0.0969, 0.2193, 0.1079, 0.1343, 0.1261, 0.0886, 0.1899, 0.0372],
+        [0.0603, 0.2130, 0.1037, 0.1709, 0.0922, 0.0996, 0.2363, 0.0241],
+        [0.0778, 0.2473, 0.1125, 0.1764, 0.0823, 0.0773, 0.2013, 0.0252],
+        [0.0962, 0.1965, 0.1160, 0.1327, 0.1147, 0.1160, 0.1811, 0.0468],
+        [0.0618, 0.2392, 0.1045, 0.1971, 0.0905, 0.0950, 0.1855, 0.0263],
+        [0.0784, 0.2368, 0.1320, 0.1688, 0.1042, 0.0988, 0.1577, 0.0233],
+        [0.0648, 0.1920, 0.1161, 0.1425, 0.0967, 0.1214, 0.2423, 0.0242]])

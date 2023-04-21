@@ -1,0 +1,10 @@
+64388
+Test: public void testUtf8StringValue() throws Exception { Random r = new Random(13); int LEN = 720; StringBuilder sb = new StringBuilder(LEN + 20); while (sb.length() < LEN) { int c; if (r.nextBoolean()) { c = 32 + (r.nextInt() & 0x3F); if (c == '"' || c == '\\') { c = ' '; } } else if (r.nextBoolean()) { c = 160 + (r.nextInt() & 0x3FF); } else if (r.nextBoolean()) { c = 8000 + (r.nextInt() & 0x7FFF); } else { int value = r.nextInt() & 0x3FFFF; sb.append((char) (0xD800 + (value >> 10))); c = (0xDC00 + (value & 0x3FF)); } sb.append((char) c); } ByteArrayOutputStream bout = new ByteArrayOutputStream(LEN); OutputStreamWriter out = new OutputStreamWriter(bout, "UTF-8"); out.write("[\""); String VALUE = sb.toString(); out.write(VALUE); out.write("\"]"); out.close(); byte[] data = bout.toByteArray(); JsonParser jp = new JsonFactory().createParser(new ByteArrayInputStream(data)); String act = jp.getText(); jp.close(); }
+Code: public final JsonToken nextToken(){if (_currToken == JsonToken.FIELD_NAME) {return _nextAfterName();}_numTypesValid = NR_UNKNOWN;if (_tokenIncomplete) {_skipString(); }int i = _skipWSOrEnd();if (i < 0) { close();return (_currToken = null);}_binaryValue = null;if (i == INT_RBRACKET) {;if (!_parsingContext.inArray()) {_reportMismatchedEndMarker(i, '}');}_parsingContext = _parsingContext.getParent();return (_currToken = JsonToken.END_ARRAY);}
+tensor([[0.0219, 0.0175, 0.0325,  ..., 0.0213, 0.0138, 0.0274],
+        [0.0210, 0.0137, 0.0328,  ..., 0.0202, 0.0163, 0.0282],
+        [0.0186, 0.0139, 0.0315,  ..., 0.0219, 0.0128, 0.0275],
+        ...,
+        [0.0212, 0.0155, 0.0362,  ..., 0.0224, 0.0113, 0.0236],
+        [0.0248, 0.0208, 0.0342,  ..., 0.0205, 0.0202, 0.0261],
+        [0.0214, 0.0198, 0.0369,  ..., 0.0205, 0.0150, 0.0244]])

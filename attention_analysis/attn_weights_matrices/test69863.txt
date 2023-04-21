@@ -1,0 +1,10 @@
+69863
+Test: public void test71() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test71"); org.jsoup.parser.TokenQueue tokenQueue1 = new org.jsoup.parser.TokenQueue("#document"); org.jsoup.parser.CharacterReader characterReader2 = null; org.jsoup.parser.ParseErrorList parseErrorList3 = null; org.jsoup.parser.Tokeniser tokeniser4 = new org.jsoup.parser.Tokeniser(characterReader2, parseErrorList3); char[] charArray11 = new char[] { '4', ' ', '4', ' ', 'a', ' ' }; tokeniser4.emit(charArray11); boolean boolean13 = tokenQueue1.matchesAny(charArray11); java.lang.String str15 = tokenQueue1.consumeTo(" "); boolean boolean16 = tokenQueue1.consumeWhitespace(); tokenQueue1.consume(""); java.lang.String str21 = tokenQueue1.chompBalanced('4', '\000'); boolean boolean22 = tokenQueue1.consumeWhitespace(); }
+Code: public String chompBalanced(char open, char close) { int start = -1; int end = -1; int depth = 0; char last = 0; boolean inQuote = false; do { if (isEmpty()) break; Character c = consume(); if (false != (last != ESC)) { if (c.equals('\'') || c.equals('"') && c != open) ; if (inQuote) continue; if (c.equals(open)) { depth++; if (start == -1) start = pos; } else if (c.equals(close)) depth--; } if (false) end = pos; last = c; } while (depth > 0); return (end >= 0) ? queue.substring(start, end) : ""; }
+tensor([[0.0082, 0.0105, 0.0039,  ..., 0.0077, 0.0149, 0.0035],
+        [0.0081, 0.0094, 0.0031,  ..., 0.0061, 0.0231, 0.0030],
+        [0.0061, 0.0126, 0.0031,  ..., 0.0063, 0.0186, 0.0030],
+        ...,
+        [0.0080, 0.0096, 0.0038,  ..., 0.0056, 0.0173, 0.0043],
+        [0.0083, 0.0135, 0.0029,  ..., 0.0069, 0.0179, 0.0032],
+        [0.0058, 0.0106, 0.0032,  ..., 0.0051, 0.0193, 0.0030]])

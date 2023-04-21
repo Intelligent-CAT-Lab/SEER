@@ -1,0 +1,10 @@
+63895
+Test: public void testLongerObjects() throws Exception { JsonFactory jf = new JsonFactory(); for (int i = 0; i < 2; ++i) { boolean useChars = (i == 0); JsonGenerator jgen; ByteArrayOutputStream bout = new ByteArrayOutputStream(200); if (useChars) { jgen = jf.createGenerator(new OutputStreamWriter(bout, "UTF-8")); } else { jgen = jf.createGenerator(bout, JsonEncoding.UTF8); } jgen.writeStartObject(); for (int rounds = 0; rounds < 1500; ++rounds) { for (int letter = 'a'; letter <= 'z'; ++letter) { for (int index = 0; index < 20; ++index) { String name; if (letter > 'f') { name = "X"+letter+index; } else if (letter > 'p') { name = ""+letter+index; } else { name = "__"+index+letter; } jgen.writeFieldName(name); jgen.writeNumber(index-1); } jgen.writeRaw('\n'); } } jgen.writeEndObject(); jgen.close(); byte[] json = bout.toByteArray(); JsonParser jp = jf.createParser(json); for (int rounds = 0; rounds < 1500; ++rounds) { for (int letter = 'a'; letter <= 'z'; ++letter) { for (int index = 0; index < 20; ++index) { String name; if (letter > 'f') { name = "X"+letter+index; } else if (letter > 'p') { name = ""+letter+index; } else { name = "__"+index+letter; } } } } jp.close(); } }
+Code: public void writeNumber(BigDecimal value) throws IOException { _verifyValueWrite(WRITE_NUMBER); if (value == null) { _writeNull(); } else if (_cfgNumbersAsStrings) { String raw = isEnabled(Feature.WRITE_BIGDECIMAL_AS_PLAIN) ? value.toPlainString() : value.toString(); _writeQuotedRaw(raw); } else if (isEnabled(Feature.WRITE_BIGDECIMAL_AS_PLAIN)) { writeRaw(value.toPlainString()); } else { writeRaw(_asString(value)); } }
+tensor([[0.0184, 0.0151, 0.0101,  ..., 0.0103, 0.0082, 0.0082],
+        [0.0148, 0.0130, 0.0082,  ..., 0.0091, 0.0080, 0.0080],
+        [0.0116, 0.0124, 0.0091,  ..., 0.0091, 0.0071, 0.0071],
+        ...,
+        [0.0138, 0.0132, 0.0088,  ..., 0.0093, 0.0076, 0.0076],
+        [0.0129, 0.0118, 0.0083,  ..., 0.0089, 0.0069, 0.0069],
+        [0.0129, 0.0118, 0.0083,  ..., 0.0089, 0.0069, 0.0069]])

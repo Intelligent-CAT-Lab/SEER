@@ -1,0 +1,10 @@
+65110
+Test: public void testEmbeddedByteArray() throws Exception { TokenBuffer buf = new TokenBuffer(MAPPER, false); buf.writeObject(new byte[3]); JsonNode node = MAPPER.readTree(buf.asParser()); buf.close(); byte[] data = node.binaryValue(); }
+Code: public void writeObject(Object value) throws IOException { if (value == null) { writeNull(); return; } Class<?> raw = value.getClass(); if (raw == byte[].class) { _append(JsonToken.VALUE_EMBEDDED_OBJECT, value); return; } else if (_objectCodec == null) { _append(JsonToken.VALUE_EMBEDDED_OBJECT, value); } else { _objectCodec.writeValue(this, value); } }
+tensor([[0.0184, 0.0150, 0.0143,  ..., 0.0459, 0.0081, 0.0081],
+        [0.0154, 0.0135, 0.0159,  ..., 0.0450, 0.0083, 0.0083],
+        [0.0122, 0.0108, 0.0152,  ..., 0.0412, 0.0072, 0.0072],
+        ...,
+        [0.0160, 0.0171, 0.0156,  ..., 0.0393, 0.0065, 0.0065],
+        [0.0136, 0.0124, 0.0246,  ..., 0.0298, 0.0072, 0.0072],
+        [0.0136, 0.0124, 0.0246,  ..., 0.0298, 0.0072, 0.0072]])

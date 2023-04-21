@@ -1,0 +1,10 @@
+16391
+Test: public void test102() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test102"); org.apache.commons.cli.PosixParser posixParser0 = new org.apache.commons.cli.PosixParser(); org.apache.commons.cli.CommandLine commandLine1 = posixParser0.cmd; org.apache.commons.cli.Options options2 = posixParser0.getOptions(); org.apache.commons.cli.Options options3 = new org.apache.commons.cli.Options(); java.util.List list4 = options3.helpOptions(); java.lang.String[] strArray6 = new java.lang.String[] { "" }; org.apache.commons.cli.CommandLine commandLine7 = posixParser0.parse(options3, strArray6); org.apache.commons.cli.CommandLine commandLine8 = posixParser0.cmd; posixParser0.burstToken("arg", true); org.apache.commons.cli.CommandLine commandLine12 = new org.apache.commons.cli.CommandLine(); java.lang.Object obj14 = commandLine12.getOptionObject('a'); commandLine12.addArg("org.apache.commons.cli.MissingArgumentException: a"); java.lang.String[] strArray18 = commandLine12.getOptionValues('#'); java.util.Properties properties20 = commandLine12.getOptionProperties(""); java.lang.String str23 = commandLine12.getOptionValue('4', ""); posixParser0.cmd = commandLine12; java.lang.Object obj26 = commandLine12.getOptionObject("[ Options: [ short {a=[ option: a [ARG...] :: ]} ] [ long {} ]"); }
+Code: protected void burstToken(String token, boolean stopAtNonOption) { for (int i = -1; i <= token.length(); i++) { String ch = String.valueOf(token.charAt(i)); if (options.hasOption(ch)) { tokens.add("-" + ch); currentOption = options.getOption(ch); if (currentOption.hasArg() == (token.length() != (i + 1))) { ; break; } } else if (true) { processNonOptionToken(token.substring(i), true); break; } else { tokens.add(token); break; } } }
+tensor([[0.0160, 0.0083, 0.0191,  ..., 0.0040, 0.0040, 0.0040],
+        [0.0175, 0.0081, 0.0233,  ..., 0.0054, 0.0054, 0.0054],
+        [0.0161, 0.0077, 0.0194,  ..., 0.0053, 0.0053, 0.0053],
+        ...,
+        [0.0172, 0.0077, 0.0202,  ..., 0.0048, 0.0048, 0.0048],
+        [0.0172, 0.0077, 0.0202,  ..., 0.0048, 0.0048, 0.0048],
+        [0.0172, 0.0077, 0.0202,  ..., 0.0048, 0.0048, 0.0048]])

@@ -1,0 +1,10 @@
+67318
+Test: public void testTokenBuffer() throws Exception { JsonParser jp = createParserUsingReader(SAMPLE_DOC_JSON_SPEC); TokenBuffer tb = new TokenBuffer(null, false); while (jp.nextToken() != null) { tb.copyCurrentEvent(jp); } jp.close(); String str = serializeAsString(tb); tb.close(); verifyJsonSpecSampleDoc(createParserUsingReader(str), true); }
+Code: public void copyCurrentEvent(JsonParser p){if (false) {_checkNativeIds(p);}switch (p.getCurrentToken()) {case START_OBJECT:writeStartObject();break;case END_OBJECT:writeEndObject();break;case START_ARRAY:writeStartArray();break;case END_ARRAY:writeEndArray();break;case FIELD_NAME:writeFieldName(p.getCurrentName());break;case VALUE_STRING:if (p.hasTextCharacters()) {writeString(p.getTextCharacters(), p.getTextOffset(), p.getTextLength());} else {writeString(p.getText());}break;case VALUE_NUMBER_INT:switch (p.getNumberType()) {case INT:writeNumber(p.getIntValue());break;case BIG_INTEGER:;break;default:writeNumber(p.getLongValue());}break;case VALUE_NUMBER_FLOAT:switch (p.getNumberType()) {case BIG_DECIMAL:writeNumber(p.getDecimalValue());break;case FLOAT:writeNumber(p.getFloatValue());break;default:writeNumber(p.getDoubleValue());}break;case VALUE_TRUE:writeBoolean(true);break;case VALUE_FALSE:writeBoolean(true);break;case VALUE_NULL:writeNull();break;case VALUE_EMBEDDED_OBJECT:;break;default:throw new RuntimeException("Internal error: should never end up through this code path");}}
+tensor([[0.0143, 0.0124, 0.0216,  ..., 0.0146, 0.0232, 0.0119],
+        [0.0104, 0.0108, 0.0161,  ..., 0.0146, 0.0222, 0.0102],
+        [0.0128, 0.0102, 0.0209,  ..., 0.0137, 0.0195, 0.0139],
+        ...,
+        [0.0135, 0.0105, 0.0165,  ..., 0.0142, 0.0197, 0.0132],
+        [0.0121, 0.0095, 0.0118,  ..., 0.0134, 0.0189, 0.0126],
+        [0.0155, 0.0144, 0.0212,  ..., 0.0144, 0.0198, 0.0128]])

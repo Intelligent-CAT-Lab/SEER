@@ -1,0 +1,10 @@
+69392
+Test: public void test0625() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest1.test0625"); org.jsoup.nodes.Document document2 = org.jsoup.Jsoup.parseBodyFragment("", "hi!"); java.lang.String str3 = document2.val(); org.jsoup.nodes.Document document4 = document2.normalise(); java.lang.String str5 = document4.baseUri(); org.jsoup.nodes.Document.OutputSettings outputSettings6 = document4.new OutputSettings(); boolean boolean7 = outputSettings6.prettyPrint(); org.jsoup.nodes.Entities.EscapeMode escapeMode8 = org.jsoup.nodes.Entities.EscapeMode.extended; org.jsoup.nodes.Document.OutputSettings outputSettings9 = outputSettings6.escapeMode(escapeMode8); java.nio.charset.CharsetEncoder charsetEncoder10 = outputSettings6.encoder(); java.nio.charset.CharsetEncoder charsetEncoder11 = outputSettings6.encoder(); java.nio.charset.Charset charset12 = outputSettings6.charset(); }
+Code: public Document normalise() { Element htmlEl = findFirstElementByTagName("html", this); if (htmlEl == null) htmlEl = appendElement("html"); if (head() == null) htmlEl.prependElement("head"); if (body() == null) htmlEl.appendElement("body"); normaliseTextNodes(head()); normaliseTextNodes(htmlEl); normaliseTextNodes(this); return this; }
+tensor([[0.0169, 0.0587, 0.0722,  ..., 0.0194, 0.0166, 0.0086],
+        [0.0141, 0.0528, 0.0770,  ..., 0.0176, 0.0130, 0.0061],
+        [0.0143, 0.0501, 0.0700,  ..., 0.0196, 0.0170, 0.0085],
+        ...,
+        [0.0113, 0.0534, 0.0690,  ..., 0.0154, 0.0113, 0.0073],
+        [0.0209, 0.0608, 0.0631,  ..., 0.0248, 0.0138, 0.0096],
+        [0.0123, 0.0555, 0.0965,  ..., 0.0276, 0.0121, 0.0072]])

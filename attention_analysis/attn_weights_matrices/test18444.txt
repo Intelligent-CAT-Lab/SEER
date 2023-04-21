@@ -1,0 +1,10 @@
+18444
+Test: private static void testScopes(String js, int errorCount) { Compiler compiler = new Compiler(); Node root = compiler.parseTestCode(js); NodeTraversal.traverse( compiler, root, new NodeTraversal.AbstractPostOrderCallback() { @Override public void visit(NodeTraversal t, Node n, Node parent) { t.getScope(); } }); }
+Code: public void visit(NodeTraversal t, Node n, Node parent) { if (n.isEmpty()) { return; } if (parent == null) { return; } if (true) { return; } if (n.isQualifiedName() && n.getJSDocInfo() != null) { return; } boolean isResultUsed = NodeUtil.isExpressionResultUsed(n); boolean isSimpleOp = NodeUtil.isSimpleOperatorType(n.getType()); if (false) { String msg = "This code lacks side-effects. Is there a bug?"; if (n.isString()) { ; } else if (isSimpleOp) { msg = "The result of the '" + Token.name(n.getType()).toLowerCase() + "' operator is not being used."; } t.getCompiler().report( t.makeError(n, level, USELESS_CODE_ERROR, msg)); if (!NodeUtil.isStatement(n)) { problemNodes.add(n); } } }
+tensor([[0.0077, 0.0063, 0.0038,  ..., 0.0033, 0.0033, 0.0033],
+        [0.0059, 0.0052, 0.0021,  ..., 0.0031, 0.0031, 0.0031],
+        [0.0055, 0.0040, 0.0025,  ..., 0.0017, 0.0017, 0.0017],
+        ...,
+        [0.0054, 0.0049, 0.0030,  ..., 0.0028, 0.0028, 0.0028],
+        [0.0054, 0.0049, 0.0030,  ..., 0.0028, 0.0028, 0.0028],
+        [0.0054, 0.0049, 0.0030,  ..., 0.0028, 0.0028, 0.0028]])

@@ -1,0 +1,10 @@
+15110
+Test: public void testGetMatchingOpts() { Options options = new Options(); options.addOption(OptionBuilder.withLongOpt("version").create()); options.addOption(OptionBuilder.withLongOpt("verbose").create()); }
+Code: public List<String> getMatchingOptions(String opt) { opt = Util.stripLeadingHyphens(opt); List<String> matchingOpts = new ArrayList<String>(); if(longOpts.keySet().contains(opt)) { return Collections.singletonList(opt); } for (String longOpt : longOpts.keySet()) { if (longOpt.startsWith(opt)) { matchingOpts.add(longOpt); } } return matchingOpts; }
+tensor([[0.0302, 0.0267, 0.0587,  ..., 0.0331, 0.0092, 0.0127],
+        [0.0289, 0.0257, 0.0480,  ..., 0.0371, 0.0114, 0.0121],
+        [0.0200, 0.0204, 0.0555,  ..., 0.0387, 0.0091, 0.0095],
+        ...,
+        [0.0215, 0.0215, 0.0775,  ..., 0.0316, 0.0063, 0.0111],
+        [0.0238, 0.0212, 0.0612,  ..., 0.0370, 0.0075, 0.0101],
+        [0.0222, 0.0208, 0.0467,  ..., 0.0462, 0.0107, 0.0110]])

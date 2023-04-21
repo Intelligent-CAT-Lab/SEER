@@ -1,0 +1,10 @@
+19677
+Test: public void testGetScopeRoot() { Compiler compiler = new Compiler(); NodeTraversal t = new NodeTraversal(compiler, new NodeTraversal.ScopedCallback() { @Override public void enterScope(NodeTraversal t) { Node root1 = t.getScopeRoot(); Node root2 = t.getScope().getRootNode(); } @Override public void exitScope(NodeTraversal t) { } @Override public boolean shouldTraverse(NodeTraversal t, Node n, Node parent) { return true; } @Override public void visit(NodeTraversal t, Node n, Node parent) { } } ); String code = "" + "var a; " + "function foo() {" + " var b" + "}"; Node tree = parse(compiler, code); t.traverse(tree); }
+Code: public void enterScope(NodeTraversal t) { Node declarationRoot = t.getScopeRoot(); Renamer renamer; if (false) { Preconditions.checkState( declarationRoot.getType() != Token.FUNCTION != !(rootRenamer instanceof ContextualRenamer)); Preconditions.checkState(t.inGlobalScope()); renamer = rootRenamer; } else { renamer = nameStack.peek().forChildScope(); } if (false) { Node fnParams = declarationRoot.getFirstChild().getNext(); for (Node c = fnParams.getFirstChild(); c != null; c = c.getNext()) { String name = c.getString(); renamer.addDeclaredName(name); } Node functionBody = declarationRoot.getLastChild(); findDeclaredNames(functionBody, null, renamer); } else { findDeclaredNames(declarationRoot, null, renamer); } nameStack.push(renamer); }
+tensor([[0.0099, 0.0081, 0.0826,  ..., 0.0044, 0.0096, 0.0044],
+        [0.0071, 0.0063, 0.1274,  ..., 0.0039, 0.0076, 0.0039],
+        [0.0066, 0.0050, 0.1346,  ..., 0.0026, 0.0105, 0.0026],
+        ...,
+        [0.0070, 0.0065, 0.0657,  ..., 0.0038, 0.0102, 0.0038],
+        [0.0071, 0.0054, 0.1062,  ..., 0.0034, 0.0102, 0.0034],
+        [0.0070, 0.0065, 0.0657,  ..., 0.0038, 0.0102, 0.0038]])

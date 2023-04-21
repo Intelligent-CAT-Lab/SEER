@@ -1,0 +1,10 @@
+67184
+Test: public void testTextAsBinary() throws Exception { TextNode n = new TextNode(" APs=\n"); JsonParser p = n.traverse(); byte[] data = p.getBinaryValue(); p.close(); n = new TextNode("?!??"); p = n.traverse(); try { p.getBinaryValue(); } catch (InvalidFormatException e) { verifyException(e, "Illegal character"); } p.close(); }
+Code: public byte[] getBinaryValue(Base64Variant b64variant) throws IOException, JsonParseException { JsonNode n = currentNode(); if (n != null) { byte[] data = n.binaryValue(); if (data != null) { return data; } if (n.isPojo()) { Object ob = ((POJONode) n).getPojo(); if (ob instanceof byte[]) { return (byte[]) ob; } } } return null; }
+tensor([[0.0157, 0.0230, 0.0084,  ..., 0.0172, 0.0332, 0.0065],
+        [0.0150, 0.0192, 0.0102,  ..., 0.0206, 0.0349, 0.0054],
+        [0.0101, 0.0189, 0.0086,  ..., 0.0150, 0.0427, 0.0065],
+        ...,
+        [0.0101, 0.0182, 0.0068,  ..., 0.0149, 0.0383, 0.0051],
+        [0.0150, 0.0232, 0.0065,  ..., 0.0176, 0.0284, 0.0064],
+        [0.0112, 0.0139, 0.0075,  ..., 0.0228, 0.0375, 0.0052]])

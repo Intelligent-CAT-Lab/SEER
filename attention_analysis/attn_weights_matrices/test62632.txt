@@ -1,0 +1,10 @@
+62632
+Test: public void testNullSafe() { TypeAdapter<Person> typeAdapter = new TypeAdapter<Person>() { @Override public Person read(JsonReader in) throws IOException { String[] values = in.nextString().split(","); return new Person(values[0], Integer.parseInt(values[1])); } public void write(JsonWriter out, Person person) throws IOException { out.value(person.name + "," + person.age); } }; Gson gson = new GsonBuilder().registerTypeAdapter( Person.class, typeAdapter).create(); Truck truck = new Truck(); truck.horsePower = 1.0D; truck.passengers = new ArrayList<Person>(); truck.passengers.add(null); truck.passengers.add(new Person("jesse", 30)); try { gson.toJson(truck, Truck.class); fail(); } catch (NullPointerException expected) {} String json = "{horsePower:1.0,passengers:[null,'jesse,30']}"; try { gson.fromJson(json, Truck.class); fail(); } catch (JsonSyntaxException expected) {} gson = new GsonBuilder().registerTypeAdapter(Person.class, typeAdapter.nullSafe()).create(); truck = gson.fromJson(json, Truck.class); }
+Code: public JsonWriter value(double value) throws IOException { writeDeferredName(); if (!lenient && (Double.isNaN(value) || Double.isInfinite(value))) { throw new IllegalArgumentException("Numeric values must be finite, but was " + value); } beforeValue(); out.append(Double.toString(value)); return this; }
+tensor([[0.0199, 0.0226, 0.1575,  ..., 0.0223, 0.0184, 0.0093],
+        [0.0186, 0.0287, 0.1414,  ..., 0.0206, 0.0163, 0.0118],
+        [0.0176, 0.0235, 0.1648,  ..., 0.0190, 0.0166, 0.0088],
+        ...,
+        [0.0140, 0.0207, 0.1997,  ..., 0.0198, 0.0134, 0.0083],
+        [0.0230, 0.0281, 0.1393,  ..., 0.0275, 0.0149, 0.0103],
+        [0.0145, 0.0284, 0.1395,  ..., 0.0321, 0.0140, 0.0083]])

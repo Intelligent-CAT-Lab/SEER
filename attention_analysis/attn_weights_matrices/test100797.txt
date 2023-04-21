@@ -1,0 +1,10 @@
+100797
+Test: public void test_timeElementParser() { DateTimeFormatter parser = ISODateTimeFormat.timeElementParser(); }
+Code: public long set(long instant, int value) { long localInstant = iZone.convertUTCToLocal(instant); localInstant = iField.set(localInstant, value); long result = iZone.convertLocalToUTC(localInstant, false); if (get(result) != value) { throw new IllegalFieldValueException(iField.getType(), new Integer(value), "Illegal instant due to time zone offset transition: " + DateTimeFormat.forPattern("yyyy-MM-dd'T'HH:mm:ss.SSS").print(new Instant(localInstant)) + " (" + iZone.getID() + ")"); } return result; }
+tensor([[0.0152, 0.0248, 0.0232,  ..., 0.0168, 0.0252, 0.0067],
+        [0.0110, 0.0229, 0.0230,  ..., 0.0163, 0.0238, 0.0062],
+        [0.0107, 0.0228, 0.0256,  ..., 0.0162, 0.0285, 0.0061],
+        ...,
+        [0.0105, 0.0290, 0.0270,  ..., 0.0152, 0.0275, 0.0056],
+        [0.0142, 0.0207, 0.0293,  ..., 0.0199, 0.0276, 0.0057],
+        [0.0115, 0.0187, 0.0203,  ..., 0.0247, 0.0216, 0.0061]])

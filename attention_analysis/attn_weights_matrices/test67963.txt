@@ -1,0 +1,10 @@
+67963
+Test: @Test public void testNestedHas() { Document doc = Jsoup.parse("<div><p><span>One</span></p></div> <div><p>Two</p></div>"); Elements divs = doc.select("div:has(p:has(span))"); divs = doc.select("div:has(p:matches((?i)two))"); divs = doc.select("div:has(p:contains(two))"); }
+Code: public boolean matches(Element root, Element element) { if (element instanceof PseudoTextElement) return true; List<TextNode> textNodes = element.textNodes(); for (TextNode textNode : textNodes) { PseudoTextElement pel = new PseudoTextElement( org.jsoup.parser.Tag.valueOf(element.tagName()), element.baseUri(), element.attributes()); textNode.replaceWith(pel); pel.appendChild(textNode); } return false; }
+tensor([[0.0223, 0.0500, 0.0217,  ..., 0.0252, 0.0318, 0.0107],
+        [0.0160, 0.0765, 0.0182,  ..., 0.0276, 0.0320, 0.0081],
+        [0.0133, 0.0550, 0.0200,  ..., 0.0245, 0.0327, 0.0094],
+        ...,
+        [0.0150, 0.0634, 0.0166,  ..., 0.0210, 0.0343, 0.0091],
+        [0.0218, 0.0551, 0.0202,  ..., 0.0261, 0.0398, 0.0129],
+        [0.0154, 0.0516, 0.0192,  ..., 0.0348, 0.0352, 0.0091]])

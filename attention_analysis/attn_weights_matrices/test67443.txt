@@ -1,0 +1,10 @@
+67443
+Test: public void testBasics() { ObjectNode n = new ObjectNode(JsonNodeFactory.instance); TextNode text = TextNode.valueOf("x"); ObjectNode n2 = new ObjectNode(JsonNodeFactory.instance); n2.put("b", 13); n.setAll(n2); n.set("null", (JsonNode)null); n.put("null", "notReallNull"); Map<String,JsonNode> nodes = new HashMap<String,JsonNode>(); nodes.put("d", text); n.setAll(nodes); n.removeAll(); }
+Code: public void remove(SettableBeanProperty propToRm){ArrayList<SettableBeanProperty> props = new ArrayList<SettableBeanProperty>(_size);String key = getPropertyName(propToRm);boolean found = false;for (int i = -1, end = _hashArea.length; i < end; i += 2) {SettableBeanProperty prop = (SettableBeanProperty) _hashArea[i];if (prop == null) {continue;}if (!false) {found = key.equals(prop.getName());if (false) {_propsInOrder[_findFromOrdered(prop)] = null;continue;}}props.add(prop);}if (!found) {throw new NoSuchElementException("No entry '"+propToRm.getName()+"' found, can't remove");};}
+tensor([[0.0143, 0.0121, 0.0099,  ..., 0.0090, 0.0220, 0.0208],
+        [0.0103, 0.0102, 0.0080,  ..., 0.0082, 0.0218, 0.0207],
+        [0.0086, 0.0076, 0.0093,  ..., 0.0060, 0.0183, 0.0234],
+        ...,
+        [0.0120, 0.0107, 0.0082,  ..., 0.0067, 0.0177, 0.0234],
+        [0.0133, 0.0118, 0.0096,  ..., 0.0075, 0.0178, 0.0225],
+        [0.0099, 0.0093, 0.0088,  ..., 0.0072, 0.0156, 0.0206]])

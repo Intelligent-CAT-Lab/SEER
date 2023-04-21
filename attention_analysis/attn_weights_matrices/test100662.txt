@@ -1,0 +1,10 @@
+100662
+Test: public void testConstructor_RP_RI2() throws Throwable { Instant dt = new Instant(new DateTime(TEST_TIME_NOW)); Period dur = new Period(0, 6, 0, 3, 1, 0, 0, 0); long result = TEST_TIME_NOW; result = ISOChronology.getInstanceUTC().months().add(result, -6); result = ISOChronology.getInstanceUTC().days().add(result, -3); result = ISOChronology.getInstanceUTC().hours().add(result, -1); MutableInterval test = new MutableInterval(dur, dt); }
+Code: public long add(long instant, int value) { if (iTimeField) { int offset = getOffsetToAdd(instant); long localInstant = iField.add(instant + offset, value); return localInstant - offset; } else { long localInstant = iZone.convertUTCToLocal(instant); localInstant = iField.add(localInstant, value); return iZone.convertLocalToUTC(localInstant, false, instant); } }
+tensor([[0.0182, 0.0293, 0.0226,  ..., 0.0210, 0.0084, 0.0084],
+        [0.0128, 0.0254, 0.0317,  ..., 0.0209, 0.0079, 0.0079],
+        [0.0148, 0.0241, 0.0230,  ..., 0.0216, 0.0058, 0.0058],
+        ...,
+        [0.0144, 0.0224, 0.0196,  ..., 0.0182, 0.0057, 0.0057],
+        [0.0136, 0.0221, 0.0202,  ..., 0.0190, 0.0075, 0.0075],
+        [0.0136, 0.0221, 0.0202,  ..., 0.0190, 0.0075, 0.0075]])

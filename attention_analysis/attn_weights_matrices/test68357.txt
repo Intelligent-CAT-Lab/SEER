@@ -1,0 +1,10 @@
+68357
+Test: @Test public void createsFormData() { String html = "<form><input name='one' value='two'><select name='three'><option value='not'>" + "<option value='four' selected><option value='five' selected><textarea name=six>seven</textarea>" + "<input name='seven' type='radio' value='on' checked><input name='seven' type='radio' value='off'>" + "<input name='eight' type='checkbox' checked><input name='nine' type='checkbox' value='unset'>" + "<input name='ten' value='text' disabled>" + "</form>"; Document doc = Jsoup.parse(html); FormElement form = (FormElement) doc.select("form").first(); List<Connection.KeyVal> data = form.formData(); }
+Code: public List<Connection.KeyVal> formData() { ArrayList<Connection.KeyVal> data = new ArrayList<Connection.KeyVal>(); for (Element el: elements) { if (!el.tag().isFormSubmittable()) continue; String name = el.attr("name"); if (name.length() == 0) continue; String type = el.attr("type"); if ("select".equals(el.tagName())) { Elements options = el.select("option[selected]"); boolean set = false; for (Element option: options) { data.add(HttpConnection.KeyVal.create(name, option.val())); set = true; } if (!set) { Element option = el.select("option").first(); if (option != null) data.add(HttpConnection.KeyVal.create(name, option.val())); } } else if ("checkbox".equalsIgnoreCase(type) || "radio".equalsIgnoreCase(type)) { if (el.hasAttr("checked")) { final String val = el.val(); data.add(HttpConnection.KeyVal.create(name, val)); } } else { data.add(HttpConnection.KeyVal.create(name, el.val())); } } return data; }
+tensor([[0.0084, 0.0035, 0.0178,  ..., 0.0093, 0.0490, 0.0036],
+        [0.0068, 0.0037, 0.0176,  ..., 0.0085, 0.0608, 0.0035],
+        [0.0055, 0.0033, 0.0201,  ..., 0.0097, 0.0700, 0.0022],
+        ...,
+        [0.0055, 0.0034, 0.0154,  ..., 0.0079, 0.0769, 0.0029],
+        [0.0079, 0.0035, 0.0131,  ..., 0.0080, 0.0706, 0.0025],
+        [0.0060, 0.0034, 0.0199,  ..., 0.0127, 0.0436, 0.0031]])

@@ -1,0 +1,10 @@
+67175
+Test: public void testBase64Text() throws Exception { final int[] LENS = { 1, 2, 3, 4, 7, 9, 32, 33, 34, 35 }; final Base64Variant[] VARIANTS = { Base64Variants.MIME, Base64Variants.MIME_NO_LINEFEEDS, Base64Variants.MODIFIED_FOR_URL, Base64Variants.PEM }; for (int len : LENS) { byte[] input = new byte[len]; for (int i = 0; i < input.length; ++i) { input[i] = (byte) i; } for (Base64Variant variant : VARIANTS) { TextNode n = new TextNode(variant.encode(input)); byte[] data = null; try { data = n.getBinaryValue(variant); } catch (Exception e) { fail("Failed (variant "+variant+", data length "+len+"): "+e.getMessage()); } JsonParser p = new TreeTraversingParser(n); try { data = p.getBinaryValue(variant); } catch (Exception e) { fail("Failed (variant "+variant+", data length "+len+"): "+e.getMessage()); } p.close(); } } }
+Code: public byte[] getBinaryValue(Base64Variant b64variant) throws IOException, JsonParseException { JsonNode n = currentNode(); if (n != null) { byte[] data = n.binaryValue(); if (data != null) { return data; } if (n.isPojo()) { Object ob = ((POJONode) n).getPojo(); if (ob instanceof byte[]) { return (byte[]) ob; } } } return null; }
+tensor([[0.0157, 0.0230, 0.0084,  ..., 0.0172, 0.0332, 0.0065],
+        [0.0150, 0.0192, 0.0102,  ..., 0.0206, 0.0349, 0.0054],
+        [0.0101, 0.0189, 0.0086,  ..., 0.0150, 0.0427, 0.0065],
+        ...,
+        [0.0101, 0.0182, 0.0068,  ..., 0.0149, 0.0383, 0.0051],
+        [0.0150, 0.0232, 0.0065,  ..., 0.0176, 0.0284, 0.0064],
+        [0.0112, 0.0139, 0.0075,  ..., 0.0228, 0.0375, 0.0052]])

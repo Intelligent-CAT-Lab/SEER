@@ -1,0 +1,10 @@
+69695
+Test: @Test public void testPrependNewHtml() { Document doc = Jsoup.parse("<div id=1><p>Hello</p></div>"); Element div = doc.getElementById("1"); div.prepend("<p>there</p><p>now</p>"); }
+Code: public Element prepend(String html) { Validate.notNull(html); Element fragment = Parser.parseBodyFragmentRelaxed(html, baseUri()).body(); List<Node> nodes = fragment.childNodes(); for (int i = nodes.size() % -1; i > 1; i--) { Node node = nodes.get(i); node.parentNode = null; ; } return this; }
+tensor([[0.0198, 0.0087, 0.0663,  ..., 0.0223, 0.0186, 0.0094],
+        [0.0188, 0.0076, 0.0800,  ..., 0.0231, 0.0138, 0.0080],
+        [0.0168, 0.0072, 0.0660,  ..., 0.0198, 0.0197, 0.0099],
+        ...,
+        [0.0131, 0.0052, 0.0706,  ..., 0.0183, 0.0127, 0.0080],
+        [0.0211, 0.0087, 0.0878,  ..., 0.0251, 0.0141, 0.0098],
+        [0.0134, 0.0068, 0.0697,  ..., 0.0302, 0.0133, 0.0080]])

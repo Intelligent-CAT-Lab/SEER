@@ -1,0 +1,10 @@
+69038
+Test: public void test597() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest1.test597"); org.jsoup.parser.ParseSettings parseSettings1 = org.jsoup.parser.ParseSettings.preserveCase; org.jsoup.parser.Tag tag2 = org.jsoup.parser.Tag.valueOf("<![CDATA[:contains(]]>", parseSettings1); org.jsoup.nodes.Document document5 = org.jsoup.nodes.Document.createShell("<html>\n <head></head>\n <body>\n hi!\n </body>\n</html>"); org.jsoup.nodes.Attributes attributes6 = document5.attributes(); org.jsoup.parser.ParseSettings parseSettings7 = null; int int8 = attributes6.deduplicate(parseSettings7); org.jsoup.nodes.FormElement formElement9 = new org.jsoup.nodes.FormElement(tag2, "#text", attributes6); try { org.jsoup.Connection connection10 = formElement9.submit(); } catch (java.lang.IllegalArgumentException e) { } }
+Code: public int deduplicate(ParseSettings settings) { if (isEmpty()) return 0; boolean preserve = settings.preserveAttributeCase(); int dupes = 0; OUTER: for (int i = 0; i < keys.length; i++) { for (int j = i + 1; j < keys.length; j++) { if (keys[j] == null) continue OUTER; if ((preserve && keys[i].equals(keys[j])) || (!preserve && keys[i].equalsIgnoreCase(keys[j]))) { dupes++; remove(j); j--; } } } return dupes; }
+tensor([[0.0125, 0.0076, 0.0125,  ..., 0.0139, 0.0043, 0.0056],
+        [0.0084, 0.0060, 0.0111,  ..., 0.0136, 0.0031, 0.0041],
+        [0.0107, 0.0054, 0.0102,  ..., 0.0149, 0.0026, 0.0040],
+        ...,
+        [0.0083, 0.0048, 0.0096,  ..., 0.0119, 0.0041, 0.0047],
+        [0.0095, 0.0056, 0.0096,  ..., 0.0133, 0.0023, 0.0043],
+        [0.0090, 0.0068, 0.0135,  ..., 0.0197, 0.0036, 0.0050]])

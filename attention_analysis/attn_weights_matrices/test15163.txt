@@ -1,0 +1,10 @@
+15163
+Test: public void testSingleOptionNoArgument() throws Exception { Parser parser = createDefaultValueParser(new String[]{"100", "1000"}); String[] args = new String[]{"-b"}; CommandLine cl = parser.parse(args); CommandLine cmd = cl; List b = cmd.getValues("-b"); }
+Code: public List getValues(final Option option, List defaultValues) { List valueList = (List) values.get(option); if ((valueList == null) || valueList.isEmpty()) { valueList = defaultValues; } if ((valueList == null) || valueList.isEmpty()) { valueList = (List) this.defaultValues.get(option); } return valueList == null ? Collections.EMPTY_LIST : valueList; }
+tensor([[0.0139, 0.0174, 0.0320,  ..., 0.0146, 0.0217, 0.0069],
+        [0.0094, 0.0133, 0.0312,  ..., 0.0100, 0.0171, 0.0053],
+        [0.0109, 0.0166, 0.0281,  ..., 0.0118, 0.0141, 0.0053],
+        ...,
+        [0.0149, 0.0191, 0.0328,  ..., 0.0112, 0.0176, 0.0088],
+        [0.0090, 0.0114, 0.0271,  ..., 0.0090, 0.0172, 0.0052],
+        [0.0091, 0.0147, 0.0295,  ..., 0.0099, 0.0167, 0.0059]])

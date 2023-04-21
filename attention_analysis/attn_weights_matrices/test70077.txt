@@ -1,0 +1,10 @@
+70077
+Test: public void testIteratePointersArrayElementWithVariable() { Map map = new HashMap(); map.put("foo", new String[] { "a", "b", "c" }); JXPathContext context = JXPathContext.newContext(map); context.getVariables().declareVariable("x", new Integer(2)); Iterator it = context.iteratePointers("foo[$x]"); List actual = new ArrayList(); while (it.hasNext()) { Pointer ptr = (Pointer) it.next(); actual.add(context.getValue(ptr.asPath())); } }
+Code: public Iterator iteratePointers(EvalContext context) { Object result = compute(context); if (result == null) { return Collections.EMPTY_LIST.iterator(); } if (result instanceof EvalContext) { return (EvalContext) result; } return new PointerIterator(ValueUtils.iterate(result), new QName(null, "value"), context.getRootContext().getCurrentNodePointer().getLocale()); }
+tensor([[0.0225, 0.0689, 0.0188,  ..., 0.0244, 0.0205, 0.0099],
+        [0.0228, 0.0572, 0.0167,  ..., 0.0214, 0.0257, 0.0093],
+        [0.0205, 0.0751, 0.0148,  ..., 0.0238, 0.0214, 0.0088],
+        ...,
+        [0.0276, 0.0664, 0.0162,  ..., 0.0257, 0.0315, 0.0131],
+        [0.0218, 0.0741, 0.0181,  ..., 0.0231, 0.0216, 0.0093],
+        [0.0167, 0.0681, 0.0191,  ..., 0.0211, 0.0236, 0.0086]])

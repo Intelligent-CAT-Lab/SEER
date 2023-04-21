@@ -1,0 +1,10 @@
+99183
+Test: @Test public void should_return_zero_if_mock_is_compared_to_itself() { Date d = mock(Date.class); d.compareTo(d); Invocation compareTo = this.getLastInvocation(); Object result = values.answer(compareTo); }
+Code: public Object answer(InvocationOnMock invocation) { if (methodsGuru.isToString(invocation.getMethod())) { Object mock = invocation.getMock(); MockName name = mockUtil.getMockName(mock); if (name.isDefault()) { return "Mock for " + mockUtil.getMockSettings(mock).getTypeToMock().getSimpleName() + ", hashCode: " + mock.hashCode(); } else { return name.toString(); } } else if (methodsGuru.isCompareToMethod(invocation.getMethod())) { return 1; } Class<?> returnType = invocation.getMethod().getReturnType(); return returnValueFor(returnType); }
+tensor([[0.0146, 0.0114, 0.0487,  ..., 0.0164, 0.0081, 0.0068],
+        [0.0129, 0.0089, 0.0652,  ..., 0.0158, 0.0079, 0.0052],
+        [0.0158, 0.0112, 0.0576,  ..., 0.0162, 0.0088, 0.0089],
+        ...,
+        [0.0095, 0.0090, 0.0618,  ..., 0.0134, 0.0053, 0.0055],
+        [0.0145, 0.0100, 0.0551,  ..., 0.0178, 0.0078, 0.0041],
+        [0.0101, 0.0104, 0.0499,  ..., 0.0224, 0.0078, 0.0057]])

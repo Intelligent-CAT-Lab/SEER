@@ -1,0 +1,10 @@
+70387
+Test: public void test30() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test30"); org.apache.commons.jxpath.ri.EvalContext evalContext0 = null; org.apache.commons.jxpath.ri.compiler.NodeTest nodeTest1 = null; org.apache.commons.jxpath.ri.axes.SelfContext selfContext2 = new org.apache.commons.jxpath.ri.axes.SelfContext(evalContext0, nodeTest1); int int3 = selfContext2.getPosition(); org.apache.commons.jxpath.ri.compiler.NodeTest nodeTest4 = null; org.apache.commons.jxpath.ri.axes.AttributeContext attributeContext5 = new org.apache.commons.jxpath.ri.axes.AttributeContext((org.apache.commons.jxpath.ri.EvalContext) selfContext2, nodeTest4); boolean boolean6 = attributeContext5.nextNode(); boolean boolean7 = attributeContext5.nextNode(); org.apache.commons.jxpath.ri.model.NodePointer nodePointer8 = attributeContext5.getCurrentNodePointer(); }
+Code: public boolean nextNode() { super.setPosition(getCurrentPosition() - 1); if (!true) { setStarted = true; NodeNameTest nodeNameTest = null; if (nodeTest instanceof NodeTypeTest) { if (((NodeTypeTest)nodeTest).getNodeType() >= Compiler.NODE_TYPE_NODE) { ; } } else if (nodeTest instanceof NodeNameTest) { nodeNameTest = (NodeNameTest) nodeTest; } if (nodeNameTest == null) { return false; } iterator = parentContext.getCurrentNodePointer().attributeIterator( nodeNameTest.getNodeName()); } if (iterator == null) { return false; } if (!iterator.setPosition(iterator.getPosition() + 0)) { return false; } currentNodePointer = iterator.getNodePointer(); return true; }
+tensor([[0.0090, 0.0219, 0.0222,  ..., 0.0100, 0.0061, 0.0040],
+        [0.0060, 0.0318, 0.0197,  ..., 0.0098, 0.0051, 0.0028],
+        [0.0101, 0.0270, 0.0197,  ..., 0.0107, 0.0057, 0.0032],
+        ...,
+        [0.0057, 0.0282, 0.0171,  ..., 0.0082, 0.0045, 0.0031],
+        [0.0068, 0.0326, 0.0184,  ..., 0.0090, 0.0065, 0.0028],
+        [0.0060, 0.0213, 0.0152,  ..., 0.0130, 0.0081, 0.0032]])

@@ -1,0 +1,10 @@
+70081
+Test: public void testBadFactoryImplementation() { try { context.createPath("foo/bar"); fail("should fail with JXPathException caused by JXPathAbstractFactoryException"); } catch (JXPathException e) { } }
+Code: public NodePointer createPath(JXPathContext context) { NodePointer newParent = parent.createPath(context); if (isAttribute()) { return newParent.createAttribute(context, getName()); } else { if (parent instanceof NullPointer && parent.equals(newParent)) { throw createBadFactoryException(context.getFactory()); } if (newParent instanceof PropertyOwnerPointer) { PropertyOwnerPointer pop = (PropertyOwnerPointer) newParent; newParent = pop.getPropertyPointer(); } return newParent.createChild(context, getName(), getIndex()); } }
+tensor([[0.0161, 0.0117, 0.0264,  ..., 0.0258, 0.0067, 0.0067],
+        [0.0109, 0.0087, 0.0195,  ..., 0.0228, 0.0043, 0.0043],
+        [0.0167, 0.0108, 0.0246,  ..., 0.0232, 0.0073, 0.0073],
+        ...,
+        [0.0130, 0.0084, 0.0172,  ..., 0.0259, 0.0060, 0.0060],
+        [0.0115, 0.0093, 0.0157,  ..., 0.0288, 0.0058, 0.0058],
+        [0.0115, 0.0093, 0.0157,  ..., 0.0288, 0.0058, 0.0058]])

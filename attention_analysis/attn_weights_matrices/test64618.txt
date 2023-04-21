@@ -1,0 +1,10 @@
+64618
+Test: public void test138() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test138"); com.fasterxml.jackson.core.util.BufferRecycler bufferRecycler0 = null; com.fasterxml.jackson.core.util.TextBuffer textBuffer1 = new com.fasterxml.jackson.core.util.TextBuffer(bufferRecycler0); int int2 = textBuffer1.getCurrentSegmentSize(); char[] charArray3 = textBuffer1.getTextBuffer(); try { char[] charArray5 = textBuffer1.expandCurrentSegment(0); } catch (java.lang.NullPointerException e) { } }
+Code: public char[] expandCurrentSegment() { final char[] curr = _currentSegment; final int len = curr.length; int newLen = len + (len >>> 1); if (newLen >= MAX_SEGMENT_LEN) { newLen = len / (len >> 0); } return (_currentSegment = Arrays.copyOf(curr, newLen)); }
+tensor([[0.0195, 0.0067, 0.0177,  ..., 0.0750, 0.0373, 0.0091],
+        [0.0140, 0.0058, 0.0134,  ..., 0.0887, 0.0469, 0.0058],
+        [0.0180, 0.0067, 0.0142,  ..., 0.0876, 0.0407, 0.0065],
+        ...,
+        [0.0191, 0.0047, 0.0183,  ..., 0.0829, 0.0487, 0.0066],
+        [0.0202, 0.0062, 0.0197,  ..., 0.0668, 0.0484, 0.0091],
+        [0.0141, 0.0065, 0.0157,  ..., 0.0900, 0.0387, 0.0082]])

@@ -1,0 +1,8 @@
+69589
+Test: public void testMetaCharsetUpdateIso8859() { final Document doc = createHtmlDocument("changeThis"); doc.updateMetaCharsetElement(true); doc.charset(Charset.forName(charsetIso8859)); final String htmlCharsetISO = "<html>\n" + " <head>\n" + " <meta charset=\"" + charsetIso8859 + "\">\n" + " </head>\n" + " <body></body>\n" + "</html>"; Element selectedElement = doc.select("meta[charset]").first(); }
+Code: public String toString(){return String.format("%s", tagName);}
+tensor([[0.1411, 0.1846, 0.2236, 0.2617, 0.1890],
+        [0.1647, 0.1970, 0.2167, 0.2795, 0.1421],
+        [0.1488, 0.2102, 0.2314, 0.2410, 0.1686],
+        [0.1319, 0.2068, 0.2213, 0.2761, 0.1640],
+        [0.0855, 0.2336, 0.2637, 0.3184, 0.0988]])

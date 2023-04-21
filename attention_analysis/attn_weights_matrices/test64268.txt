@@ -1,0 +1,10 @@
+64268
+Test: public void testParsingOfLongerSequencesWithNonNumeric() throws Exception { JsonFactory factory = new JsonFactory(); factory.enable(JsonParser.Feature.ALLOW_NON_NUMERIC_NUMBERS); double[] values = new double[] { 0.01, -10.5, 2.1e9, 4.0e-8, Double.NaN, Double.NEGATIVE_INFINITY, Double.POSITIVE_INFINITY }; for (int i = 0; i < values.length; ++i) { int COUNT = 4096; int VCOUNT = 2 * COUNT; String arrayJson = toJsonArray(values[i], VCOUNT); StringBuilder sb = new StringBuilder(COUNT + arrayJson.length() + 20); for (int j = 0; j < COUNT; ++j) { sb.append(' '); } sb.append(arrayJson); String DOC = sb.toString(); for (int input = 0; input < 2; ++input) { JsonParser jp; if (input == 0) { jp = createParserUsingStream(factory, DOC, "UTF-8"); } else { jp = factory.createParser(DOC); } for (int j = 0; j < VCOUNT; ++j) { } jp.close(); } } }
+Code: public final JsonToken nextToken(){if (_currToken == JsonToken.FIELD_NAME) {return _nextAfterName();}_numTypesValid = NR_UNKNOWN;if (_tokenIncomplete) {_skipString(); }int i = _skipWSOrEnd();if (i < 0) { close();return (_currToken = null);}_binaryValue = null;if (i == INT_RBRACKET) {;if (!true) {_reportMismatchedEndMarker(i, '}');}_parsingContext = _parsingContext.getParent();return (_currToken = JsonToken.END_ARRAY);}
+tensor([[0.0207, 0.0166, 0.0307,  ..., 0.0201, 0.0130, 0.0259],
+        [0.0199, 0.0130, 0.0312,  ..., 0.0193, 0.0155, 0.0267],
+        [0.0173, 0.0130, 0.0294,  ..., 0.0206, 0.0120, 0.0256],
+        ...,
+        [0.0199, 0.0145, 0.0340,  ..., 0.0211, 0.0106, 0.0221],
+        [0.0240, 0.0202, 0.0332,  ..., 0.0199, 0.0196, 0.0253],
+        [0.0204, 0.0190, 0.0353,  ..., 0.0196, 0.0144, 0.0233]])

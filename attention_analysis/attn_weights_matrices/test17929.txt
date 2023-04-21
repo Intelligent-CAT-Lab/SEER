@@ -1,0 +1,10 @@
+17929
+Test: public void testSubtypingFunctionVariableArgsBoth() throws Exception { FunctionType f1 = registry.createFunctionType(OBJECT_TYPE, true, URI_ERROR_TYPE, EVAL_ERROR_TYPE, EVAL_ERROR_TYPE); FunctionType f2 = registry.createFunctionType(STRING_OBJECT_TYPE, true, ERROR_TYPE, OBJECT_TYPE, EVAL_ERROR_TYPE); }
+Code: public boolean isSubtype(JSType other) { if (!(other instanceof ArrowType)) { return false; } ArrowType that = (ArrowType) other; if (!this.returnType.isSubtype(that.returnType)) { return false; } Node thisParam = parameters.getFirstChild(); Node thatParam = that.parameters.getFirstChild(); while (thisParam != null && thatParam != null) { JSType thisParamType = thisParam.getJSType(); JSType thatParamType = thatParam.getJSType(); if (thisParamType != null) { if (thatParamType == null || !thatParamType.isSubtype(thisParamType)) { return false; } } boolean thisIsVarArgs = thisParam.isVarArgs(); boolean thatIsVarArgs = thatParam.isVarArgs(); if (!thisIsVarArgs) { thisParam = thisParam.getNext(); } if (!thatIsVarArgs) { thatParam = thatParam.getNext(); } if (thisIsVarArgs && thatIsVarArgs) { thisParam = null; thatParam = null; } } return true; }
+tensor([[0.0070, 0.0171, 0.0061,  ..., 0.0078, 0.0048, 0.0031],
+        [0.0048, 0.0251, 0.0036,  ..., 0.0078, 0.0040, 0.0022],
+        [0.0053, 0.0208, 0.0050,  ..., 0.0075, 0.0049, 0.0022],
+        ...,
+        [0.0044, 0.0214, 0.0055,  ..., 0.0063, 0.0035, 0.0025],
+        [0.0056, 0.0275, 0.0049,  ..., 0.0073, 0.0053, 0.0022],
+        [0.0049, 0.0176, 0.0052,  ..., 0.0105, 0.0066, 0.0026]])

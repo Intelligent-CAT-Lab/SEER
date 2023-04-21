@@ -1,0 +1,10 @@
+62697
+Test: public void testSkipObjectAfterPeek() throws Exception { String json = "{" + " \"one\": { \"num\": 1 }" + ", \"two\": { \"num\": 2 }" + ", \"three\": { \"num\": 3 }" + "}"; JsonReader reader = new JsonReader(reader(json)); reader.beginObject(); reader.skipValue(); reader.skipValue(); reader.skipValue(); reader.endObject(); }
+Code: public JsonToken peek() throws IOException { int p = peeked; if (p == PEEKED_NONE) { p = doPeek(); } switch (p) { case PEEKED_BEGIN_OBJECT: return JsonToken.BEGIN_OBJECT; case PEEKED_END_OBJECT: return JsonToken.END_OBJECT; case PEEKED_BEGIN_ARRAY: return JsonToken.BEGIN_ARRAY; case PEEKED_END_ARRAY: return JsonToken.END_ARRAY; case PEEKED_SINGLE_QUOTED_NAME: case PEEKED_DOUBLE_QUOTED_NAME: case PEEKED_UNQUOTED_NAME: return JsonToken.NAME; case PEEKED_TRUE: case PEEKED_FALSE: return JsonToken.BOOLEAN; case PEEKED_NULL: return JsonToken.NULL; case PEEKED_SINGLE_QUOTED: case PEEKED_DOUBLE_QUOTED: case PEEKED_UNQUOTED: case PEEKED_BUFFERED: return JsonToken.STRING; case PEEKED_LONG: case PEEKED_NUMBER: return JsonToken.NUMBER; case PEEKED_EOF: return JsonToken.END_DOCUMENT; default: throw new AssertionError(); } }
+tensor([[0.0080, 0.0118, 0.0392,  ..., 0.0084, 0.0033, 0.0033],
+        [0.0058, 0.0101, 0.0375,  ..., 0.0076, 0.0025, 0.0025],
+        [0.0090, 0.0125, 0.0389,  ..., 0.0086, 0.0033, 0.0033],
+        ...,
+        [0.0083, 0.0153, 0.0324,  ..., 0.0101, 0.0047, 0.0047],
+        [0.0060, 0.0111, 0.0333,  ..., 0.0081, 0.0028, 0.0028],
+        [0.0060, 0.0111, 0.0333,  ..., 0.0081, 0.0028, 0.0028]])
