@@ -9,4 +9,4 @@
 # --- specify the partition (queue) name
 #SBATCH --partition="main"
 cd /u/kl5sq/masters/SEER
-python3 ./real_data_gen/main.py
+python3 ./real_data_gen/main.py project

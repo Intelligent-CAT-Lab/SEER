@@ -33,11 +33,12 @@ if __name__ == '__main__':
         projects = list(df['project'].unique())
 
         for project in projects:
-            proj_data = df[df['project']==project]
-            proj_data.to_json(f'./real_data_gen/triplets_{project}.json', orient='index', indent=4)
+            #proj_data = df[df['project']==project]
+            #proj_data.to_json(f'./real_data_gen/triplets_{project}.json', orient='index', indent=4)
+            #os.system(f'mkdir -p ./real_data_gen/fold0/{project}')
 
-            os.system(f'python3 ./real_data_gen/create_vocab.py {project}')
-            os.system(f'python3 ./real_data_gen/json_to_h5.py {project}')
+            #os.system(f'python3 ./real_data_gen/create_vocab.py {project}')
+            #os.system(f'python3 ./real_data_gen/json_to_h5.py {project}')
             os.system(f'python3 ./learning/test.py --project {project}')
             os.system(f'python3 ./real_data_gen/analyze_results.py {project}')
         # print(metadata)
