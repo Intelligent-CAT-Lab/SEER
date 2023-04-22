@@ -18,35 +18,32 @@ recorded_rows = []
 flag = True
 for row in reader:
     num_rows += 1
-    # if num_rows <= 68:
-    #     recorded_rows.append(row)
-    # f.write(recorded_rows[0])
+
+    # row[0] is the prediction, Row[1] is the actual
     if row[0] == '-1':
         out_of_vocab += 1
         if (row[1] == '0'):
             out_of_vocab_fail += 1
         else:
-            out_of_vocab_pass += 1
+            out_of_vocab_pass += 1    
+    # predicted and actual pass
     elif row[1] == '1' and row[0] == '1':
         tp += 1
+    # predicted fail and actual pass
     elif row[1] == '1' and row[0] == '0':
         fp += 1
+    # predicted and actual fail
     elif row[1] == '0' and row[0] == '0':
         tn += 1
+    # predicted pass and actual fail
     elif row[1] == '0' and row[0] == '1':
         fn += 1
-    # index = (num_rows-1) % 68
-    # if num_rows> 68 and (row[0] != recorded_rows[index][0] or row[1] != recorded_rows[index][1]):
-    #     f.write(recorded_rows[index])
-    #     f.write(row)
-    #     flag = False
-    #     f.write(f'row {num_rows} is different')
-    #     break
+
 
 num_in_vocab = num_rows-out_of_vocab
 format_r = lambda x: round(x,4)
 # now = time.strftime("%Y-%m-%d-%H_%M_%S",time.localtime(time.time()))
-results_file = './real_data_gen/results.txt' if len(sys.argv) < 2 else f'./real_data_gen/fold0/{sys.argv[1]}/results.txt'
+results_file = './real_data_gen/fold0/results.txt' if len(sys.argv) < 2 else f'./real_data_gen/fold0/{sys.argv[1]}/results.txt'
 f = open(results_file, 'w') 
 
 # f.write(f'{sys.argv[1]}\n')
