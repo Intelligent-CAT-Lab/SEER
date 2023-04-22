@@ -4,16 +4,16 @@ Percent Out of Vocab: 0.0
 
 Number in Pass Class: 2249, 0.7634
 tp: 2005, 0.6806
-fp: 244, 0.0828
+fp: 625, 0.2122
 pass accuracy: 2005/2249 = 0.8915
 
 Number in Fail Class: 697, 0.2366
 tn: 72, 0.0244
-fn: 625, 0.2122
+fn: 244, 0.0828
 fail accuracy: 72/697 = 0.1033
 
 accuracy: 2077/2946 = 0.705
-precision: 2005/2249 = 0.8915
-recall: 2005/2630 = 0.7624
+precision: 2005/2630 = 0.7624
+recall: 2005/2249 = 0.8915
 f1: 4010/4879 = 0.8219
 

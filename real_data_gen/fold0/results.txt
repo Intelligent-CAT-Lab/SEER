@@ -4,16 +4,16 @@ Percent Out of Vocab: 0.0
 
 Number in Pass Class: 154053, 0.911
 tp: 141378, 0.8361
-fp: 12675, 0.075
+fp: 13935, 0.0824
 pass accuracy: 141378/154053 = 0.9177
 
 Number in Fail Class: 15046, 0.089
 tn: 1111, 0.0066
-fn: 13935, 0.0824
+fn: 12675, 0.075
 fail accuracy: 1111/15046 = 0.0738
 
 accuracy: 142489/169099 = 0.8426
-precision: 141378/154053 = 0.9177
-recall: 141378/155313 = 0.9103
+precision: 141378/155313 = 0.9103
+recall: 141378/154053 = 0.9177
 f1: 282756/309366 = 0.914
 

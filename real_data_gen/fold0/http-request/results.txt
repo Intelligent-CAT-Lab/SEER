@@ -4,16 +4,16 @@ Percent Out of Vocab: 0.0
 
 Number in Pass Class: 4051, 0.9956
 tp: 3419, 0.8403
-fp: 632, 0.1553
+fp: 17, 0.0042
 pass accuracy: 3419/4051 = 0.844
 
 Number in Fail Class: 18, 0.0044
 tn: 1, 0.0002
-fn: 17, 0.0042
+fn: 632, 0.1553
 fail accuracy: 1/18 = 0.0556
 
 accuracy: 3420/4069 = 0.8405
-precision: 3419/4051 = 0.844
-recall: 3419/3436 = 0.9951
+precision: 3419/3436 = 0.9951
+recall: 3419/4051 = 0.844
 f1: 6838/7487 = 0.9133
 

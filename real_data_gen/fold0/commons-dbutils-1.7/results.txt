@@ -4,16 +4,16 @@ Percent Out of Vocab: 0.0
 
 Number in Pass Class: 577, 0.7893
 tp: 561, 0.7674
-fp: 16, 0.0219
+fp: 120, 0.1642
 pass accuracy: 561/577 = 0.9723
 
 Number in Fail Class: 154, 0.2107
 tn: 34, 0.0465
-fn: 120, 0.1642
+fn: 16, 0.0219
 fail accuracy: 34/154 = 0.2208
 
 accuracy: 595/731 = 0.814
-precision: 561/577 = 0.9723
-recall: 561/681 = 0.8238
+precision: 561/681 = 0.8238
+recall: 561/577 = 0.9723
 f1: 1122/1258 = 0.8919
 

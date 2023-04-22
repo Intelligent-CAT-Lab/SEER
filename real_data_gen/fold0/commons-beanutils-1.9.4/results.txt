@@ -4,16 +4,16 @@ Percent Out of Vocab: 0.0
 
 Number in Pass Class: 1003, 0.5872
 tp: 964, 0.5644
-fp: 39, 0.0228
+fp: 641, 0.3753
 pass accuracy: 964/1003 = 0.9611
 
 Number in Fail Class: 705, 0.4128
 tn: 64, 0.0375
-fn: 641, 0.3753
+fn: 39, 0.0228
 fail accuracy: 64/705 = 0.0908
 
 accuracy: 1028/1708 = 0.6019
-precision: 964/1003 = 0.9611
-recall: 964/1605 = 0.6006
+precision: 964/1605 = 0.6006
+recall: 964/1003 = 0.9611
 f1: 1928/2608 = 0.7393
 
