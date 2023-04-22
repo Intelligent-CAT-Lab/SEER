@@ -17,10 +17,12 @@ def load_dict(filename):
 
 
 def test(args):
+    print(args.project)
     if args.project == '':
         data_path = args.data_path
     else:
         data_path = args.data_path + args.project + '/'
+        print(data_path)
     test_set = TestOracleDatasetPhase2(args.model, data_path, 'code_test.h5', 1624, 'test_test.h5', 1624, 'label_test.h5')
     data_loader = torch.utils.data.DataLoader(dataset=test_set, batch_size=1, shuffle=False, num_workers=1)
 
@@ -79,7 +81,7 @@ def test(args):
     #         dictwriter_object.writerow({'Predicted Label': predictions[i], 'Actual Label': actuals[i]})
     #     f_object.close()
 
-    with open(f'./{args.data_path}/test_stats.csv', 'w') as f_object:
+    with open(f'./{data_path}/test_stats.csv', 'w') as f_object:
         dictwriter_object = DictWriter(f_object, fieldnames=['Predicted Label', 'Actual Label'])
         dictwriter_object.writerow({'Predicted Label': 'Predicted Label', 'Actual Label': 'Actual Label'})
         for i in range(len(predictions)):

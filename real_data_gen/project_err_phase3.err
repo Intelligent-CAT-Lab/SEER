@@ -1,125 +1,125 @@
 Closing remaining open files:real_data_gen/fold0/commons-imaging-1.0-alpha3-src/code_test.h5...donereal_data_gen/fold0/commons-imaging-1.0-alpha3-src/label_test.h5...donereal_data_gen/fold0/commons-imaging-1.0-alpha3-src/test_test.h5...done
 Traceback (most recent call last):
-  File "./real_data_gen/analyze_results.py", line 8, in <module>
-    reader = csv.reader(open(result_path, 'r'))
-FileNotFoundError: [Errno 2] No such file or directory: './real_data_gen/fold0/commons-imaging-1.0-alpha3-src/test_stats.csv'
-Closing remaining open files:real_data_gen/fold0/spark/label_test.h5...donereal_data_gen/fold0/spark/code_test.h5...donereal_data_gen/fold0/spark/test_test.h5...done
+  File "./real_data_gen/analyze_results.py", line 52, in <module>
+    f.write(f'out_of_vocab: {out_of_vocab} ({out_of_vocab_fail} fail = {format_r(out_of_vocab_fail/out_of_vocab)}, {out_of_vocab_pass} pass = {format_r(out_of_vocab_pass/out_of_vocab)})\n')
+ZeroDivisionError: division by zero
+Closing remaining open files:real_data_gen/fold0/spark/code_test.h5...donereal_data_gen/fold0/spark/test_test.h5...donereal_data_gen/fold0/spark/label_test.h5...done
 Traceback (most recent call last):
-  File "./real_data_gen/analyze_results.py", line 8, in <module>
-    reader = csv.reader(open(result_path, 'r'))
-FileNotFoundError: [Errno 2] No such file or directory: './real_data_gen/fold0/spark/test_stats.csv'
-Closing remaining open files:real_data_gen/fold0/commons-lang3-3.12.0-src/code_test.h5...donereal_data_gen/fold0/commons-lang3-3.12.0-src/label_test.h5...donereal_data_gen/fold0/commons-lang3-3.12.0-src/test_test.h5...done
+  File "./real_data_gen/analyze_results.py", line 52, in <module>
+    f.write(f'out_of_vocab: {out_of_vocab} ({out_of_vocab_fail} fail = {format_r(out_of_vocab_fail/out_of_vocab)}, {out_of_vocab_pass} pass = {format_r(out_of_vocab_pass/out_of_vocab)})\n')
+ZeroDivisionError: division by zero
+Closing remaining open files:real_data_gen/fold0/commons-lang3-3.12.0-src/label_test.h5...donereal_data_gen/fold0/commons-lang3-3.12.0-src/code_test.h5...donereal_data_gen/fold0/commons-lang3-3.12.0-src/test_test.h5...done
 Traceback (most recent call last):
-  File "./real_data_gen/analyze_results.py", line 8, in <module>
-    reader = csv.reader(open(result_path, 'r'))
-FileNotFoundError: [Errno 2] No such file or directory: './real_data_gen/fold0/commons-lang3-3.12.0-src/test_stats.csv'
-Closing remaining open files:real_data_gen/fold0/http-request/code_test.h5...donereal_data_gen/fold0/http-request/label_test.h5...donereal_data_gen/fold0/http-request/test_test.h5...done
+  File "./real_data_gen/analyze_results.py", line 52, in <module>
+    f.write(f'out_of_vocab: {out_of_vocab} ({out_of_vocab_fail} fail = {format_r(out_of_vocab_fail/out_of_vocab)}, {out_of_vocab_pass} pass = {format_r(out_of_vocab_pass/out_of_vocab)})\n')
+ZeroDivisionError: division by zero
+Closing remaining open files:real_data_gen/fold0/http-request/label_test.h5...donereal_data_gen/fold0/http-request/code_test.h5...donereal_data_gen/fold0/http-request/test_test.h5...done
 Traceback (most recent call last):
-  File "./real_data_gen/analyze_results.py", line 8, in <module>
-    reader = csv.reader(open(result_path, 'r'))
-FileNotFoundError: [Errno 2] No such file or directory: './real_data_gen/fold0/http-request/test_stats.csv'
-Closing remaining open files:real_data_gen/fold0/commons-geometry-1.0-src/code_test.h5...donereal_data_gen/fold0/commons-geometry-1.0-src/label_test.h5...donereal_data_gen/fold0/commons-geometry-1.0-src/test_test.h5...done
+  File "./real_data_gen/analyze_results.py", line 52, in <module>
+    f.write(f'out_of_vocab: {out_of_vocab} ({out_of_vocab_fail} fail = {format_r(out_of_vocab_fail/out_of_vocab)}, {out_of_vocab_pass} pass = {format_r(out_of_vocab_pass/out_of_vocab)})\n')
+ZeroDivisionError: division by zero
+Closing remaining open files:real_data_gen/fold0/commons-geometry-1.0-src/label_test.h5...donereal_data_gen/fold0/commons-geometry-1.0-src/code_test.h5...donereal_data_gen/fold0/commons-geometry-1.0-src/test_test.h5...done
 Traceback (most recent call last):
-  File "./real_data_gen/analyze_results.py", line 8, in <module>
-    reader = csv.reader(open(result_path, 'r'))
-FileNotFoundError: [Errno 2] No such file or directory: './real_data_gen/fold0/commons-geometry-1.0-src/test_stats.csv'
-Closing remaining open files:real_data_gen/fold0/springside4/code_test.h5...donereal_data_gen/fold0/springside4/label_test.h5...donereal_data_gen/fold0/springside4/test_test.h5...done
+  File "./real_data_gen/analyze_results.py", line 52, in <module>
+    f.write(f'out_of_vocab: {out_of_vocab} ({out_of_vocab_fail} fail = {format_r(out_of_vocab_fail/out_of_vocab)}, {out_of_vocab_pass} pass = {format_r(out_of_vocab_pass/out_of_vocab)})\n')
+ZeroDivisionError: division by zero
+Closing remaining open files:real_data_gen/fold0/springside4/label_test.h5...donereal_data_gen/fold0/springside4/code_test.h5...donereal_data_gen/fold0/springside4/test_test.h5...done
 Traceback (most recent call last):
-  File "./real_data_gen/analyze_results.py", line 8, in <module>
-    reader = csv.reader(open(result_path, 'r'))
-FileNotFoundError: [Errno 2] No such file or directory: './real_data_gen/fold0/springside4/test_stats.csv'
-Closing remaining open files:real_data_gen/fold0/commons-jexl3-3.2.1-src/code_test.h5...donereal_data_gen/fold0/commons-jexl3-3.2.1-src/label_test.h5...donereal_data_gen/fold0/commons-jexl3-3.2.1-src/test_test.h5...done
+  File "./real_data_gen/analyze_results.py", line 52, in <module>
+    f.write(f'out_of_vocab: {out_of_vocab} ({out_of_vocab_fail} fail = {format_r(out_of_vocab_fail/out_of_vocab)}, {out_of_vocab_pass} pass = {format_r(out_of_vocab_pass/out_of_vocab)})\n')
+ZeroDivisionError: division by zero
+Closing remaining open files:real_data_gen/fold0/commons-jexl3-3.2.1-src/code_test.h5...donereal_data_gen/fold0/commons-jexl3-3.2.1-src/test_test.h5...donereal_data_gen/fold0/commons-jexl3-3.2.1-src/label_test.h5...done
 Traceback (most recent call last):
-  File "./real_data_gen/analyze_results.py", line 8, in <module>
-    reader = csv.reader(open(result_path, 'r'))
-FileNotFoundError: [Errno 2] No such file or directory: './real_data_gen/fold0/commons-jexl3-3.2.1-src/test_stats.csv'
-Closing remaining open files:real_data_gen/fold0/joda-time/label_test.h5...donereal_data_gen/fold0/joda-time/code_test.h5...donereal_data_gen/fold0/joda-time/test_test.h5...done
+  File "./real_data_gen/analyze_results.py", line 52, in <module>
+    f.write(f'out_of_vocab: {out_of_vocab} ({out_of_vocab_fail} fail = {format_r(out_of_vocab_fail/out_of_vocab)}, {out_of_vocab_pass} pass = {format_r(out_of_vocab_pass/out_of_vocab)})\n')
+ZeroDivisionError: division by zero
+Closing remaining open files:real_data_gen/fold0/joda-time/code_test.h5...donereal_data_gen/fold0/joda-time/test_test.h5...donereal_data_gen/fold0/joda-time/label_test.h5...done
 Traceback (most recent call last):
-  File "./real_data_gen/analyze_results.py", line 8, in <module>
-    reader = csv.reader(open(result_path, 'r'))
-FileNotFoundError: [Errno 2] No such file or directory: './real_data_gen/fold0/joda-time/test_stats.csv'
-Closing remaining open files:real_data_gen/fold0/async-http-client/code_test.h5...donereal_data_gen/fold0/async-http-client/label_test.h5...donereal_data_gen/fold0/async-http-client/test_test.h5...done
+  File "./real_data_gen/analyze_results.py", line 52, in <module>
+    f.write(f'out_of_vocab: {out_of_vocab} ({out_of_vocab_fail} fail = {format_r(out_of_vocab_fail/out_of_vocab)}, {out_of_vocab_pass} pass = {format_r(out_of_vocab_pass/out_of_vocab)})\n')
+ZeroDivisionError: division by zero
+Closing remaining open files:real_data_gen/fold0/async-http-client/label_test.h5...donereal_data_gen/fold0/async-http-client/code_test.h5...donereal_data_gen/fold0/async-http-client/test_test.h5...done
 Traceback (most recent call last):
-  File "./real_data_gen/analyze_results.py", line 8, in <module>
-    reader = csv.reader(open(result_path, 'r'))
-FileNotFoundError: [Errno 2] No such file or directory: './real_data_gen/fold0/async-http-client/test_stats.csv'
-Closing remaining open files:real_data_gen/fold0/JSON-java/label_test.h5...donereal_data_gen/fold0/JSON-java/code_test.h5...donereal_data_gen/fold0/JSON-java/test_test.h5...done
+  File "./real_data_gen/analyze_results.py", line 52, in <module>
+    f.write(f'out_of_vocab: {out_of_vocab} ({out_of_vocab_fail} fail = {format_r(out_of_vocab_fail/out_of_vocab)}, {out_of_vocab_pass} pass = {format_r(out_of_vocab_pass/out_of_vocab)})\n')
+ZeroDivisionError: division by zero
+Closing remaining open files:real_data_gen/fold0/JSON-java/code_test.h5...donereal_data_gen/fold0/JSON-java/test_test.h5...donereal_data_gen/fold0/JSON-java/label_test.h5...done
 Traceback (most recent call last):
-  File "./real_data_gen/analyze_results.py", line 8, in <module>
-    reader = csv.reader(open(result_path, 'r'))
-FileNotFoundError: [Errno 2] No such file or directory: './real_data_gen/fold0/JSON-java/test_stats.csv'
-Closing remaining open files:real_data_gen/fold0/bcel-6.5.0-src/code_test.h5...donereal_data_gen/fold0/bcel-6.5.0-src/label_test.h5...donereal_data_gen/fold0/bcel-6.5.0-src/test_test.h5...done
+  File "./real_data_gen/analyze_results.py", line 52, in <module>
+    f.write(f'out_of_vocab: {out_of_vocab} ({out_of_vocab_fail} fail = {format_r(out_of_vocab_fail/out_of_vocab)}, {out_of_vocab_pass} pass = {format_r(out_of_vocab_pass/out_of_vocab)})\n')
+ZeroDivisionError: division by zero
+Closing remaining open files:real_data_gen/fold0/bcel-6.5.0-src/label_test.h5...donereal_data_gen/fold0/bcel-6.5.0-src/code_test.h5...donereal_data_gen/fold0/bcel-6.5.0-src/test_test.h5...done
 Traceback (most recent call last):
-  File "./real_data_gen/analyze_results.py", line 8, in <module>
-    reader = csv.reader(open(result_path, 'r'))
-FileNotFoundError: [Errno 2] No such file or directory: './real_data_gen/fold0/bcel-6.5.0-src/test_stats.csv'
-Closing remaining open files:real_data_gen/fold0/commons-weaver-2.0-src/code_test.h5...donereal_data_gen/fold0/commons-weaver-2.0-src/label_test.h5...donereal_data_gen/fold0/commons-weaver-2.0-src/test_test.h5...done
+  File "./real_data_gen/analyze_results.py", line 52, in <module>
+    f.write(f'out_of_vocab: {out_of_vocab} ({out_of_vocab_fail} fail = {format_r(out_of_vocab_fail/out_of_vocab)}, {out_of_vocab_pass} pass = {format_r(out_of_vocab_pass/out_of_vocab)})\n')
+ZeroDivisionError: division by zero
+Closing remaining open files:real_data_gen/fold0/commons-weaver-2.0-src/code_test.h5...donereal_data_gen/fold0/commons-weaver-2.0-src/test_test.h5...donereal_data_gen/fold0/commons-weaver-2.0-src/label_test.h5...done
 Traceback (most recent call last):
-  File "./real_data_gen/analyze_results.py", line 8, in <module>
-    reader = csv.reader(open(result_path, 'r'))
-FileNotFoundError: [Errno 2] No such file or directory: './real_data_gen/fold0/commons-weaver-2.0-src/test_stats.csv'
-Closing remaining open files:real_data_gen/fold0/commons-numbers-1.0-src/code_test.h5...donereal_data_gen/fold0/commons-numbers-1.0-src/label_test.h5...donereal_data_gen/fold0/commons-numbers-1.0-src/test_test.h5...done
+  File "./real_data_gen/analyze_results.py", line 52, in <module>
+    f.write(f'out_of_vocab: {out_of_vocab} ({out_of_vocab_fail} fail = {format_r(out_of_vocab_fail/out_of_vocab)}, {out_of_vocab_pass} pass = {format_r(out_of_vocab_pass/out_of_vocab)})\n')
+ZeroDivisionError: division by zero
+Closing remaining open files:real_data_gen/fold0/commons-numbers-1.0-src/code_test.h5...donereal_data_gen/fold0/commons-numbers-1.0-src/test_test.h5...donereal_data_gen/fold0/commons-numbers-1.0-src/label_test.h5...done
 Traceback (most recent call last):
-  File "./real_data_gen/analyze_results.py", line 8, in <module>
-    reader = csv.reader(open(result_path, 'r'))
-FileNotFoundError: [Errno 2] No such file or directory: './real_data_gen/fold0/commons-numbers-1.0-src/test_stats.csv'
+  File "./real_data_gen/analyze_results.py", line 52, in <module>
+    f.write(f'out_of_vocab: {out_of_vocab} ({out_of_vocab_fail} fail = {format_r(out_of_vocab_fail/out_of_vocab)}, {out_of_vocab_pass} pass = {format_r(out_of_vocab_pass/out_of_vocab)})\n')
+ZeroDivisionError: division by zero
 Closing remaining open files:real_data_gen/fold0/commons-collections4-4.4-src/code_test.h5...donereal_data_gen/fold0/commons-collections4-4.4-src/label_test.h5...donereal_data_gen/fold0/commons-collections4-4.4-src/test_test.h5...done
 Traceback (most recent call last):
-  File "./real_data_gen/analyze_results.py", line 8, in <module>
-    reader = csv.reader(open(result_path, 'r'))
-FileNotFoundError: [Errno 2] No such file or directory: './real_data_gen/fold0/commons-collections4-4.4-src/test_stats.csv'
-Closing remaining open files:real_data_gen/fold0/jsoup/label_test.h5...donereal_data_gen/fold0/jsoup/code_test.h5...donereal_data_gen/fold0/jsoup/test_test.h5...done
+  File "./real_data_gen/analyze_results.py", line 52, in <module>
+    f.write(f'out_of_vocab: {out_of_vocab} ({out_of_vocab_fail} fail = {format_r(out_of_vocab_fail/out_of_vocab)}, {out_of_vocab_pass} pass = {format_r(out_of_vocab_pass/out_of_vocab)})\n')
+ZeroDivisionError: division by zero
+Closing remaining open files:real_data_gen/fold0/jsoup/code_test.h5...donereal_data_gen/fold0/jsoup/test_test.h5...donereal_data_gen/fold0/jsoup/label_test.h5...done
 Traceback (most recent call last):
-  File "./real_data_gen/analyze_results.py", line 8, in <module>
-    reader = csv.reader(open(result_path, 'r'))
-FileNotFoundError: [Errno 2] No such file or directory: './real_data_gen/fold0/jsoup/test_stats.csv'
-Closing remaining open files:real_data_gen/fold0/commons-jcs3-3.1-src/code_test.h5...donereal_data_gen/fold0/commons-jcs3-3.1-src/label_test.h5...donereal_data_gen/fold0/commons-jcs3-3.1-src/test_test.h5...done
+  File "./real_data_gen/analyze_results.py", line 52, in <module>
+    f.write(f'out_of_vocab: {out_of_vocab} ({out_of_vocab_fail} fail = {format_r(out_of_vocab_fail/out_of_vocab)}, {out_of_vocab_pass} pass = {format_r(out_of_vocab_pass/out_of_vocab)})\n')
+ZeroDivisionError: division by zero
+Closing remaining open files:real_data_gen/fold0/commons-jcs3-3.1-src/code_test.h5...donereal_data_gen/fold0/commons-jcs3-3.1-src/test_test.h5...donereal_data_gen/fold0/commons-jcs3-3.1-src/label_test.h5...done
 Traceback (most recent call last):
-  File "./real_data_gen/analyze_results.py", line 8, in <module>
-    reader = csv.reader(open(result_path, 'r'))
-FileNotFoundError: [Errno 2] No such file or directory: './real_data_gen/fold0/commons-jcs3-3.1-src/test_stats.csv'
-Closing remaining open files:real_data_gen/fold0/commons-validator-1.7/code_test.h5...donereal_data_gen/fold0/commons-validator-1.7/label_test.h5...donereal_data_gen/fold0/commons-validator-1.7/test_test.h5...done
+  File "./real_data_gen/analyze_results.py", line 52, in <module>
+    f.write(f'out_of_vocab: {out_of_vocab} ({out_of_vocab_fail} fail = {format_r(out_of_vocab_fail/out_of_vocab)}, {out_of_vocab_pass} pass = {format_r(out_of_vocab_pass/out_of_vocab)})\n')
+ZeroDivisionError: division by zero
+Closing remaining open files:real_data_gen/fold0/commons-validator-1.7/code_test.h5...donereal_data_gen/fold0/commons-validator-1.7/test_test.h5...donereal_data_gen/fold0/commons-validator-1.7/label_test.h5...done
 Traceback (most recent call last):
-  File "./real_data_gen/analyze_results.py", line 8, in <module>
-    reader = csv.reader(open(result_path, 'r'))
-FileNotFoundError: [Errno 2] No such file or directory: './real_data_gen/fold0/commons-validator-1.7/test_stats.csv'
-Closing remaining open files:real_data_gen/fold0/commons-net-3.8.0/code_test.h5...donereal_data_gen/fold0/commons-net-3.8.0/label_test.h5...donereal_data_gen/fold0/commons-net-3.8.0/test_test.h5...done
+  File "./real_data_gen/analyze_results.py", line 52, in <module>
+    f.write(f'out_of_vocab: {out_of_vocab} ({out_of_vocab_fail} fail = {format_r(out_of_vocab_fail/out_of_vocab)}, {out_of_vocab_pass} pass = {format_r(out_of_vocab_pass/out_of_vocab)})\n')
+ZeroDivisionError: division by zero
+Closing remaining open files:real_data_gen/fold0/commons-net-3.8.0/label_test.h5...donereal_data_gen/fold0/commons-net-3.8.0/code_test.h5...donereal_data_gen/fold0/commons-net-3.8.0/test_test.h5...done
 Traceback (most recent call last):
-  File "./real_data_gen/analyze_results.py", line 8, in <module>
-    reader = csv.reader(open(result_path, 'r'))
-FileNotFoundError: [Errno 2] No such file or directory: './real_data_gen/fold0/commons-net-3.8.0/test_stats.csv'
-Closing remaining open files:real_data_gen/fold0/commons-beanutils-1.9.4/code_test.h5...donereal_data_gen/fold0/commons-beanutils-1.9.4/label_test.h5...donereal_data_gen/fold0/commons-beanutils-1.9.4/test_test.h5...done
+  File "./real_data_gen/analyze_results.py", line 52, in <module>
+    f.write(f'out_of_vocab: {out_of_vocab} ({out_of_vocab_fail} fail = {format_r(out_of_vocab_fail/out_of_vocab)}, {out_of_vocab_pass} pass = {format_r(out_of_vocab_pass/out_of_vocab)})\n')
+ZeroDivisionError: division by zero
+Closing remaining open files:real_data_gen/fold0/commons-beanutils-1.9.4/code_test.h5...donereal_data_gen/fold0/commons-beanutils-1.9.4/test_test.h5...donereal_data_gen/fold0/commons-beanutils-1.9.4/label_test.h5...done
 Traceback (most recent call last):
-  File "./real_data_gen/analyze_results.py", line 8, in <module>
-    reader = csv.reader(open(result_path, 'r'))
-FileNotFoundError: [Errno 2] No such file or directory: './real_data_gen/fold0/commons-beanutils-1.9.4/test_stats.csv'
-Closing remaining open files:real_data_gen/fold0/commons-pool2-2.11.1-src/code_test.h5...donereal_data_gen/fold0/commons-pool2-2.11.1-src/label_test.h5...donereal_data_gen/fold0/commons-pool2-2.11.1-src/test_test.h5...done
+  File "./real_data_gen/analyze_results.py", line 52, in <module>
+    f.write(f'out_of_vocab: {out_of_vocab} ({out_of_vocab_fail} fail = {format_r(out_of_vocab_fail/out_of_vocab)}, {out_of_vocab_pass} pass = {format_r(out_of_vocab_pass/out_of_vocab)})\n')
+ZeroDivisionError: division by zero
+Closing remaining open files:real_data_gen/fold0/commons-pool2-2.11.1-src/label_test.h5...donereal_data_gen/fold0/commons-pool2-2.11.1-src/code_test.h5...donereal_data_gen/fold0/commons-pool2-2.11.1-src/test_test.h5...done
 Traceback (most recent call last):
-  File "./real_data_gen/analyze_results.py", line 8, in <module>
-    reader = csv.reader(open(result_path, 'r'))
-FileNotFoundError: [Errno 2] No such file or directory: './real_data_gen/fold0/commons-pool2-2.11.1-src/test_stats.csv'
-Closing remaining open files:real_data_gen/fold0/commons-rng-1.4-src/code_test.h5...donereal_data_gen/fold0/commons-rng-1.4-src/label_test.h5...donereal_data_gen/fold0/commons-rng-1.4-src/test_test.h5...done
+  File "./real_data_gen/analyze_results.py", line 52, in <module>
+    f.write(f'out_of_vocab: {out_of_vocab} ({out_of_vocab_fail} fail = {format_r(out_of_vocab_fail/out_of_vocab)}, {out_of_vocab_pass} pass = {format_r(out_of_vocab_pass/out_of_vocab)})\n')
+ZeroDivisionError: division by zero
+Closing remaining open files:real_data_gen/fold0/commons-rng-1.4-src/code_test.h5...donereal_data_gen/fold0/commons-rng-1.4-src/test_test.h5...donereal_data_gen/fold0/commons-rng-1.4-src/label_test.h5...done
 Traceback (most recent call last):
-  File "./real_data_gen/analyze_results.py", line 8, in <module>
-    reader = csv.reader(open(result_path, 'r'))
-FileNotFoundError: [Errno 2] No such file or directory: './real_data_gen/fold0/commons-rng-1.4-src/test_stats.csv'
-Closing remaining open files:real_data_gen/fold0/commons-configuration2-2.8.0-src/code_test.h5...donereal_data_gen/fold0/commons-configuration2-2.8.0-src/label_test.h5...donereal_data_gen/fold0/commons-configuration2-2.8.0-src/test_test.h5...done
+  File "./real_data_gen/analyze_results.py", line 52, in <module>
+    f.write(f'out_of_vocab: {out_of_vocab} ({out_of_vocab_fail} fail = {format_r(out_of_vocab_fail/out_of_vocab)}, {out_of_vocab_pass} pass = {format_r(out_of_vocab_pass/out_of_vocab)})\n')
+ZeroDivisionError: division by zero
+Closing remaining open files:real_data_gen/fold0/commons-configuration2-2.8.0-src/label_test.h5...donereal_data_gen/fold0/commons-configuration2-2.8.0-src/code_test.h5...donereal_data_gen/fold0/commons-configuration2-2.8.0-src/test_test.h5...done
 Traceback (most recent call last):
-  File "./real_data_gen/analyze_results.py", line 8, in <module>
-    reader = csv.reader(open(result_path, 'r'))
-FileNotFoundError: [Errno 2] No such file or directory: './real_data_gen/fold0/commons-configuration2-2.8.0-src/test_stats.csv'
-Closing remaining open files:real_data_gen/fold0/commons-vfs-2.9.0/code_test.h5...donereal_data_gen/fold0/commons-vfs-2.9.0/label_test.h5...donereal_data_gen/fold0/commons-vfs-2.9.0/test_test.h5...done
+  File "./real_data_gen/analyze_results.py", line 52, in <module>
+    f.write(f'out_of_vocab: {out_of_vocab} ({out_of_vocab_fail} fail = {format_r(out_of_vocab_fail/out_of_vocab)}, {out_of_vocab_pass} pass = {format_r(out_of_vocab_pass/out_of_vocab)})\n')
+ZeroDivisionError: division by zero
+Closing remaining open files:real_data_gen/fold0/commons-vfs-2.9.0/label_test.h5...donereal_data_gen/fold0/commons-vfs-2.9.0/code_test.h5...donereal_data_gen/fold0/commons-vfs-2.9.0/test_test.h5...done
 Traceback (most recent call last):
-  File "./real_data_gen/analyze_results.py", line 8, in <module>
-    reader = csv.reader(open(result_path, 'r'))
-FileNotFoundError: [Errno 2] No such file or directory: './real_data_gen/fold0/commons-vfs-2.9.0/test_stats.csv'
-Closing remaining open files:real_data_gen/fold0/scribejava/label_test.h5...donereal_data_gen/fold0/scribejava/code_test.h5...donereal_data_gen/fold0/scribejava/test_test.h5...done
+  File "./real_data_gen/analyze_results.py", line 52, in <module>
+    f.write(f'out_of_vocab: {out_of_vocab} ({out_of_vocab_fail} fail = {format_r(out_of_vocab_fail/out_of_vocab)}, {out_of_vocab_pass} pass = {format_r(out_of_vocab_pass/out_of_vocab)})\n')
+ZeroDivisionError: division by zero
+Closing remaining open files:real_data_gen/fold0/scribejava/code_test.h5...donereal_data_gen/fold0/scribejava/test_test.h5...donereal_data_gen/fold0/scribejava/label_test.h5...done
 Traceback (most recent call last):
-  File "./real_data_gen/analyze_results.py", line 8, in <module>
-    reader = csv.reader(open(result_path, 'r'))
-FileNotFoundError: [Errno 2] No such file or directory: './real_data_gen/fold0/scribejava/test_stats.csv'
-Closing remaining open files:real_data_gen/fold0/commons-dbutils-1.7/code_test.h5...donereal_data_gen/fold0/commons-dbutils-1.7/label_test.h5...donereal_data_gen/fold0/commons-dbutils-1.7/test_test.h5...done
+  File "./real_data_gen/analyze_results.py", line 52, in <module>
+    f.write(f'out_of_vocab: {out_of_vocab} ({out_of_vocab_fail} fail = {format_r(out_of_vocab_fail/out_of_vocab)}, {out_of_vocab_pass} pass = {format_r(out_of_vocab_pass/out_of_vocab)})\n')
+ZeroDivisionError: division by zero
+Closing remaining open files:real_data_gen/fold0/commons-dbutils-1.7/code_test.h5...donereal_data_gen/fold0/commons-dbutils-1.7/test_test.h5...donereal_data_gen/fold0/commons-dbutils-1.7/label_test.h5...done
 Traceback (most recent call last):
-  File "./real_data_gen/analyze_results.py", line 8, in <module>
-    reader = csv.reader(open(result_path, 'r'))
-FileNotFoundError: [Errno 2] No such file or directory: './real_data_gen/fold0/commons-dbutils-1.7/test_stats.csv'
+  File "./real_data_gen/analyze_results.py", line 52, in <module>
+    f.write(f'out_of_vocab: {out_of_vocab} ({out_of_vocab_fail} fail = {format_r(out_of_vocab_fail/out_of_vocab)}, {out_of_vocab_pass} pass = {format_r(out_of_vocab_pass/out_of_vocab)})\n')
+ZeroDivisionError: division by zero
