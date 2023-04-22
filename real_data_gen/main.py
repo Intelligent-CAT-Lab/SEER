@@ -1,14 +1,9 @@
 import os
-import csv
 import pandas as pd
 import sys
 
 if __name__ == '__main__':
-    # metadatas = extract_name()
-    # for metadata in metadatas:
-    #     os.system(f'python3 real_data_gen/read_results.py {metadata}')
     os.system('pwd')
-    # os.system(f'python3 ./real_data_gen/read_result.py {metadata}')
 
     if len(sys.argv) > 1:
         df = pd.read_json('./real_data_gen/triplets.json')
@@ -23,7 +18,7 @@ if __name__ == '__main__':
 
             #os.system(f'python3 ./real_data_gen/create_vocab.py {project}')
             #os.system(f'python3 ./real_data_gen/json_to_h5.py {project}')
-            # os.system(f'python3 ./learning/test.py --project {project}')
+            os.system(f'python3 ./learning/test.py --project {project}')
             os.system(f'python3 ./real_data_gen/analyze_results.py {project}')
         project_string = '*'.join(projects)
         os.system(f'python3 ./real_data_gen/overall_project_metrics.py {project_string}')
