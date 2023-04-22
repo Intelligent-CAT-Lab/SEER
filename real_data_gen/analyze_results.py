@@ -46,10 +46,15 @@ for row in reader:
 num_in_vocab = num_rows-out_of_vocab
 format_r = lambda x: round(x,4)
 # now = time.strftime("%Y-%m-%d-%H_%M_%S",time.localtime(time.time()))
-f = open(f'./real_data_gen/results.txt', 'w')
+results_file = './real_data_gen/results.txt' if len(sys.argv) < 2 else f'./real_data_gen/fold0/{sys.argv[1]}/results.txt'
+f = open(results_file, 'w') 
+
 # f.write(f'{sys.argv[1]}\n')
 f.write(f'num_rows: {num_rows}\n')
-f.write(f'out_of_vocab: {out_of_vocab} ({out_of_vocab_fail} fail = {format_r(out_of_vocab_fail/out_of_vocab)}, {out_of_vocab_pass} pass = {format_r(out_of_vocab_pass/out_of_vocab)})\n')
+if out_of_vocab == 0:
+    f.write(f'out_of_vocab: {out_of_vocab}\n')
+else:
+    f.write(f'out_of_vocab: {out_of_vocab} ({out_of_vocab_fail} fail = {format_r(out_of_vocab_fail/out_of_vocab)}, {out_of_vocab_pass} pass = {format_r(out_of_vocab_pass/out_of_vocab)})\n')
 f.write(f'Percent Out of Vocab: {format_r((out_of_vocab)/num_rows)}\n\n')
 
 

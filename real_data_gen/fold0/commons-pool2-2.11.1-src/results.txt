@@ -1,0 +1,19 @@
+num_rows: 11244
+out_of_vocab: 0
+Percent Out of Vocab: 0.0
+
+Number in Pass Class: 11159, 0.9924
+tp: 9403, 0.8363
+fp: 1756, 0.1562
+pass accuracy: 9403/11159 = 0.8426
+
+Number in Fail Class: 85, 0.0076
+tn: 8, 0.0007
+fn: 77, 0.0068
+fail accuracy: 8/85 = 0.0941
+
+accuracy: 9411/11244 = 0.837
+precision: 9403/11159 = 0.8426
+recall: 9403/9480 = 0.9919
+f1: 18806/20639 = 0.9112
+
