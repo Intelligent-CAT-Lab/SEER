@@ -4,6 +4,9 @@ import time
 import sys
 
 result_path = './real_data_gen/fold0/test_stats.csv' if len(sys.argv) < 2 else f'./real_data_gen/fold0/{sys.argv[1]}/test_stats.csv'
+# './scripts/data/phase2_combined.csv'
+# './real_data_gen/fold0/test_stats_coin.csv'
+# './real_data_gen/fold0/test_stats.csv' if len(sys.argv) < 2 else f'./real_data_gen/fold0/{sys.argv[1]}/test_stats.csv'
 
 reader = csv.reader(open(result_path, 'r'))
 num_rows = -1
@@ -42,8 +45,10 @@ for row in reader:
 
 num_in_vocab = num_rows-out_of_vocab
 format_r = lambda x: round(x,4)
-# now = time.strftime("%Y-%m-%d-%H_%M_%S",time.localtime(time.time()))
 results_file = './real_data_gen/fold0/results.txt' if len(sys.argv) < 2 else f'./real_data_gen/fold0/{sys.argv[1]}/results.txt'
+# './scripts/data/results_combined.txt'
+# './real_data_gen/fold0/results_coin.txt'
+# './real_data_gen/fold0/results.txt' if len(sys.argv) < 2 else f'./real_data_gen/fold0/{sys.argv[1]}/results.txt'
 f = open(results_file, 'w') 
 
 # f.write(f'{sys.argv[1]}\n')
