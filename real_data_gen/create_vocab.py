@@ -7,7 +7,7 @@ def create_vocabulary(filtered_data, vocab_type):
         this function creates vocabulary from the given data
     """
     vocabulary = {"<pad>": 0, "<s>": 1, "</s>": 2, "<unk>": 3}
-    filtered_triplets = 'triplets.json' if vocab_type == 'real_data' else f'triplets_{vocab_type}.json'
+    filtered_triplets = 'phase2.json' if vocab_type == 'real_data' else f'triplets_{vocab_type}.json'
 
     vocabulary = export_vocabulary(filtered_triplets, filtered_data, vocabulary, vocab_type)
 
