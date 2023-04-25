@@ -70,7 +70,7 @@ def json_to_h5(type, fold, model, project=''):
     pbar = tqdm(tuples)
     c = 0
     
-    # failure_cases = {}
+    failure_cases = {}
 
     for _id in pbar:
         c += 1
@@ -78,11 +78,14 @@ def json_to_h5(type, fold, model, project=''):
         code = tuples[_id]['C'].split()
         test_code = tuples[_id]['T'].split()
         label = tuples[_id]['label']
+        project = tuples[_id]['project']
 
         particle = test_table.row
         particle['length'] = len(test_code)
         particle['pos'] = test_curr_pos
         particle.append()
+
+        failure_cases[c-1] =  {"project": project,"label":label, "C_tokens_num": len(code), "T_tokens":len(test_code), "C_tokens_fail":0, "T_tokens_fail":0}
 
         # fail_bool = False
         for token in test_code:
@@ -91,7 +94,7 @@ def json_to_h5(type, fold, model, project=''):
                 test_e_array.append(np.array([vocab_test[token]]))
             except:
                 test_e_array.append(np.array([0]))
-                # failure_cases[c-1] =  {"C":code, "T":test_code, "label":label}
+                failure_cases[c-1]['T_tokens_fail'] += 1
                 # fail_bool = True
                 # continue
 
@@ -110,7 +113,7 @@ def json_to_h5(type, fold, model, project=''):
                 code_e_array.append(np.array([vocab_code[token]]))
             except:
                 code_e_array.append(np.array([0]))
-                # failure_cases[c-1] =  {"C":code, "T":test_code, "label":label}
+                failure_cases[c-1]['C_tokens_fail'] += 1
                 # fail_bool = True
                 # continue
 
@@ -131,8 +134,8 @@ def json_to_h5(type, fold, model, project=''):
     code_table.close()
     test_table.close()
     
-    # with open(f'{fold_path}/out-of-vocab.json', "w") as outfile:
-    #     outfile.write(json.dumps(failure_cases, indent=4))
+    with open(f'{fold_path}/out-of-vocab.json', "w") as outfile:
+        outfile.write(json.dumps(failure_cases, indent=4))
 
 if __name__ == '__main__':
     json_to_h5('test', 0, 'JointEmbedder') if len(sys.argv) == 1 else json_to_h5('test', 0, 'JointEmbedder', sys.argv[1])
