@@ -3,17 +3,17 @@ out_of_vocab: 0
 Percent Out of Vocab: 0.0
 
 Number in Pass Class: 39617, 0.9938
-tp: 38969, 0.9775
-fp: 246, 0.0062
-pass accuracy: 38969/39617 = 0.9836
+tp: 34420, 0.8634
+fp: 229, 0.0057
+pass accuracy: 34420/39617 = 0.8688
 
 Number in Fail Class: 249, 0.0062
-tn: 3, 0.0001
-fn: 648, 0.0163
-fail accuracy: 3/249 = 0.012
+tn: 20, 0.0005
+fn: 5197, 0.1304
+fail accuracy: 20/249 = 0.0803
 
-accuracy: 38972/39866 = 0.9776
-precision: 38969/39215 = 0.9937
-recall: 38969/39617 = 0.9836
-f1: 77938/78832 = 0.9887
+accuracy: 34440/39866 = 0.8639
+precision: 34420/34649 = 0.9934
+recall: 34420/39617 = 0.8688
+f1: 68840/74266 = 0.9269
 

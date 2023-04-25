@@ -18,7 +18,7 @@ if __name__ == '__main__':
             #os.system(f'mkdir ./real_data_gen/fold0/{project}')
 
             #os.system(f'python3 ./real_data_gen/create_vocab.py {project}')
-            #os.system(f'python3 ./real_data_gen/json_to_h5.py {project}')
+            os.system(f'python3 ./real_data_gen/json_to_h5.py {project}')
             os.system(f'python3 ./learning/test.py --project {project}')
             os.system(f'python3 ./real_data_gen/analyze_results.py {project}')
         project_string = '*'.join(projects)
@@ -26,7 +26,7 @@ if __name__ == '__main__':
         os.system(f'python3 ./real_data_gen/analyze_results.py')
         
     else:
-        os.system('python3 ./real_data_gen/create_vocab.py')
-        os.system('python3 ./real_data_gen/json_to_h5.py')
+        #os.system('python3 ./real_data_gen/create_vocab.py')
+        #os.system('python3 ./real_data_gen/json_to_h5.py')
         os.system('python3 ./learning/test.py')
         os.system('python3 ./real_data_gen/analyze_results.py')
