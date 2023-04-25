@@ -146,7 +146,7 @@ def create_vocabulary(filtered_data, vocab_type):
 
         json_f = json.dumps(vocabulary, indent = 4)
 
-        with open(f'{filtered_data}/vocab_{triplet}.json', 'w') as out_f:
+        with open(f'{filtered_data}/vocab_{triplet[9:]}', 'w') as out_f:
             out_f.write(json_f)
 
 

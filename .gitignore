@@ -4,3 +4,4 @@ datasets/*/
 attention_analysis/TNs_attn_weights/
 real_data_gen/*.json
 *.pyc
+real_data_gen/vocab/*.json
