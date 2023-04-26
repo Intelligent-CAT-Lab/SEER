@@ -5,3 +5,4 @@ attention_analysis/TNs_attn_weights/
 real_data_gen/*.json
 *.pyc
 real_data_gen/triplets/*.json
+attention_analysis/attn_weights_images/*.pdf
