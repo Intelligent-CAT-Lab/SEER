@@ -45,7 +45,7 @@ def json_to_h5(type, fold, model, project=''):
     label_e_array = label_h5.create_earray(label_h5.root, 'labels', tb.Int8Atom(), (0,))
 
     if model == 'JointEmbedder':
-        vocab_path = './real_data_gen/vocab_real_data.json'
+        vocab_path = './real_data_gen/vocab_phase2.json'
         with open(vocab_path) as fr:
             vocab_code = json.load(fr)
             vocab_test = vocab_code
@@ -57,7 +57,7 @@ def json_to_h5(type, fold, model, project=''):
             vocab_test = json.load(fr)
 
     if type == 'test':
-        triplets_path = './real_data_gen/triplets.json' if project == '' else f'./real_data_gen/triplets_{project}.json'
+        triplets_path = './real_data_gen/triplets/triplets.json' if project == '' else f'./real_data_gen/triplets/triplets_{project}.json'
         with open(triplets_path, "r", encoding="ISO-8859-1", errors='ignore') as fr:
             tuples = json.load(fr)
     else:
