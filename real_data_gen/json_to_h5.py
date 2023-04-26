@@ -45,7 +45,7 @@ def json_to_h5(type, fold, model, project=''):
     label_e_array = label_h5.create_earray(label_h5.root, 'labels', tb.Int8Atom(), (0,))
 
     if model == 'JointEmbedder':
-        vocab_path = './real_data_gen/vocab_real_data.json' if project == '' else f'./real_data_gen/vocab_{project}.json'
+        vocab_path = './real_data_gen/vocab_real_data.json'
         with open(vocab_path) as fr:
             vocab_code = json.load(fr)
             vocab_test = vocab_code
@@ -85,7 +85,7 @@ def json_to_h5(type, fold, model, project=''):
         particle['pos'] = test_curr_pos
         particle.append()
 
-        failure_cases[c-1] =  {"project": project,"label":label, "C_tokens_num": len(code), "T_tokens":len(test_code), "C_tokens_fail":0, "T_tokens_fail":0}
+        failure_cases[c-1] =  {"project": project,"label":label, "C_tokens": len(code), "T_tokens":len(test_code), "C_tokens_fail":0, "T_tokens_fail":0}
 
         # fail_bool = False
         for token in test_code:
