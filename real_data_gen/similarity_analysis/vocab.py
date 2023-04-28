@@ -19,7 +19,7 @@ def max_similar(df, b):
 
 # Reading the data; Triplets already split by project
 print("reading data...")
-all_phase2 = pd.read_json("../triplets/phase2.json").T
+all_phase2 = pd.read_json("../triplets/phase2.json", orient='index')
 
 # Project Lists
 phase2_projects = [
@@ -84,7 +84,7 @@ common_projects = {
 print("calculating similarity...")
 for project in tqdm(common_projects):
     with pd.option_context("mode.chained_assignment", None):
-        project_triplets = pd.read_json(f"../triplets/project_json/triplets_{project[1]}.json").T
+        project_triplets = pd.read_json(f"../triplets/project_json/triplets_{project[1]}.json", orient='index')
         project_phase2 = all_phase2[all_phase2["project"] == project[0]]
         project_triplets.drop_duplicates(subset=["C"], inplace=True)
         project_phase2.drop_duplicates(subset=["C"], inplace=True)

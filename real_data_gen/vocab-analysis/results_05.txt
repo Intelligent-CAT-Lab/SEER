@@ -1,0 +1,16 @@
+num_rows: 124
+Number in Pass Class: 54, 0.4355
+tp: 52, 0.4194
+fp: 69, 0.5565
+pass accuracy: 52/54 = 0.963
+
+Number in Fail Class: 70, 0.5645
+tn: 1, 0.0081
+fn: 2, 0.0161
+fail accuracy: 1/70 = 0.0143
+
+accuracy: 53/124 = 0.4274
+precision: 52/121 = 0.4298
+recall: 52/54 = 0.963
+f1: 104/175 = 0.5943
+

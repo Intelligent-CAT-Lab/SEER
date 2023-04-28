@@ -1,7 +1,4 @@
 num_rows: 4562
-out_of_vocab: 0
-Percent Out of Vocab: 0.0
-
 Number in Pass Class: 3940, 0.8637
 tp: 3231, 0.7082
 fp: 450, 0.0986
