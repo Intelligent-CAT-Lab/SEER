@@ -29,8 +29,8 @@ if __name__ == '__main__':
             #     os.system(f'python3 ./learning/test.py --project {project}')
                 generate_results(result_path=f'./real_data_gen/fold0/{project}/')
                 # os.system(f'python3 ./real_data_gen/analyze_results.py {project}')
-            # project_string = '*'.join(projects)
-            # os.system(f'python3 ./real_data_gen/overall_project_metrics.py {project_string}')
+            project_string = '*'.join(projects)
+            os.system(f'python3 ./real_data_gen/overall_project_metrics.py {project_string}')
             generate_results(result_path=f'./real_data_gen/fold0/')
         elif sys.argv[1] == 'coin':
             generate_results(result_path='./real_data_gen/fold0/', classifier_filename='test_stats_coin.csv', write_filename='results_coin.txt')    
@@ -41,3 +41,5 @@ if __name__ == '__main__':
                 generate_results(result_path='./real_data_gen/vocab-analysis/', classifier_filename=f'test_stats_{string}.csv', write_filename=f'results_{string}.txt')    
         elif sys.argv[1] == 'reproduction':
             generate_results(result_path='./scripts/data/', classifier_filename='phase2_combined.csv', write_filename='results_combined.txt')    
+        else:
+            print('Invalid argument.')
