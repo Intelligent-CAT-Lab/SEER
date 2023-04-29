@@ -19,7 +19,7 @@ def max_similar(df, b):
 
 # Reading the data; Triplets already split by project
 print("reading data...")
-all_phase2 = pd.read_json("../triplets/phase2.json", orient='index')
+all_phase2 = pd.read_json("../triplets/phase2.json", orient="index")
 
 # Project Lists
 phase2_projects = [
@@ -72,9 +72,17 @@ triplets_projects = [
 
 # Common Elements based on my eye-balling
 common_projects_df = pd.DataFrame(
-        {"phase2": ['Jsoup', 'Lang', 'Math', 'Time', 'Collections'],
-        "triplets": ['jsoup', 'commons-lang3-3.12.0-src', 'commons-numbers-1.0-src', 'joda-time', 'commons-collections4-4.4-src']}
-    )
+    {
+        "phase2": ["Jsoup", "Lang", "Math", "Time", "Collections"],
+        "triplets": [
+            "jsoup",
+            "commons-lang3-3.12.0-src",
+            "commons-numbers-1.0-src",
+            "joda-time",
+            "commons-collections4-4.4-src",
+        ],
+    }
+)
 
 # Driver Code
 print("calculating similarity...")
@@ -82,7 +90,9 @@ for i in tqdm(range(len(common_projects_df))):
     phase2_name = common_projects_df.loc[i, "phase2"]
     triplets_name = common_projects_df.loc[i, "triplets"]
     with pd.option_context("mode.chained_assignment", None):
-        triplets_df = pd.read_json(f"../triplets/project_json/triplets_{triplets_name}.json", orient='index')
+        triplets_df = pd.read_json(
+            f"../triplets/project_json/triplets_{triplets_name}.json", orient="index"
+        )
         phase2_df = all_phase2[all_phase2["project"] == phase2_name]
         triplets_df.drop_duplicates(subset=["C"], inplace=True)
         phase2_df.drop_duplicates(subset=["C"], inplace=True)
@@ -100,6 +110,8 @@ for i in tqdm(range(len(common_projects_df))):
         phase2_df.drop(columns=["similarity"], inplace=True)
         phase2_df.sort_values(by=["sim_score"], ascending=False, inplace=True)
 
-        phase2_df[["sim_score", "triplets_index"]].to_csv(f"./similarity_{phase2_name}.csv")
+        phase2_df[["sim_score", "triplets_index"]].to_csv(
+            f"./similarity_{phase2_name}.csv"
+        )
 
 common_projects_df.to_csv("./similarity_unique_mut.csv")
