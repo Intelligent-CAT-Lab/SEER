@@ -1,0 +1,6 @@
+,phase2,triplets,triplets_unique_count,phase2_unique_count
+0,Jsoup,jsoup,292.0,254.0
+1,Lang,commons-lang3-3.12.0-src,995.0,300.0
+2,Math,commons-numbers-1.0-src,213.0,439.0
+3,Time,joda-time,1479.0,105.0
+4,Collections,commons-collections4-4.4-src,185.0,3.0

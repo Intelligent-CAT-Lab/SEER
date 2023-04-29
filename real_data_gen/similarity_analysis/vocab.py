@@ -71,38 +71,35 @@ triplets_projects = [
 ]
 
 # Common Elements based on my eye-balling
-common_projects = {
-    ("Jsoup", "jsoup"): (),
-    ("Lang", "commons-lang3-3.12.0-src"): (),
-    ("Math", "commons-numbers-1.0-src"): (),
-    ("Time", "joda-time"): (),
-    ("Collections", "commons-collections4-4.4-src"): (),
-    ("Time", "joda-time"): (),
-}
+common_projects_df = pd.DataFrame(
+        {"phase2": ['Jsoup', 'Lang', 'Math', 'Time', 'Collections'],
+        "triplets": ['jsoup', 'commons-lang3-3.12.0-src', 'commons-numbers-1.0-src', 'joda-time', 'commons-collections4-4.4-src']}
+    )
 
 # Driver Code
 print("calculating similarity...")
-for project in tqdm(common_projects):
+for i in tqdm(range(len(common_projects_df))):
+    phase2_name = common_projects_df.loc[i, "phase2"]
+    triplets_name = common_projects_df.loc[i, "triplets"]
     with pd.option_context("mode.chained_assignment", None):
-        project_triplets = pd.read_json(f"../triplets/project_json/triplets_{project[1]}.json", orient='index')
-        project_phase2 = all_phase2[all_phase2["project"] == project[0]]
-        project_triplets.drop_duplicates(subset=["C"], inplace=True)
-        project_phase2.drop_duplicates(subset=["C"], inplace=True)
+        triplets_df = pd.read_json(f"../triplets/project_json/triplets_{triplets_name}.json", orient='index')
+        phase2_df = all_phase2[all_phase2["project"] == phase2_name]
+        triplets_df.drop_duplicates(subset=["C"], inplace=True)
+        phase2_df.drop_duplicates(subset=["C"], inplace=True)
 
-        project_phase2["similarity"] = project_phase2.apply(
-            lambda row: max_similar(project_triplets, row["C"]), axis=1
+        common_projects_df.loc[i, "triplets_unique_count"] = len(triplets_df)
+        common_projects_df.loc[i, "phase2_unique_count"] = len(phase2_df)
+
+        phase2_df["similarity"] = phase2_df.apply(
+            lambda row: max_similar(triplets_df, row["C"]), axis=1
         )
-        project_phase2[["sim_score", "triplets_index"]] = pd.DataFrame(
-            project_phase2["similarity"].tolist(), index=project_phase2.index
+        phase2_df[["sim_score", "triplets_index"]] = pd.DataFrame(
+            phase2_df["similarity"].tolist(), index=phase2_df.index
         )
-        project_phase2.index.rename("phase2_index", inplace=True)
-        project_phase2.drop(columns=["similarity"], inplace=True)
-        project_phase2.sort_values(by=["sim_score"], ascending=False, inplace=True)
+        phase2_df.index.rename("phase2_index", inplace=True)
+        phase2_df.drop(columns=["similarity"], inplace=True)
+        phase2_df.sort_values(by=["sim_score"], ascending=False, inplace=True)
 
-        common_projects[project] = (project_phase2, project_triplets)
+        phase2_df[["sim_score", "triplets_index"]].to_csv(f"./similarity_{phase2_name}.csv")
 
-# Saving the results
-for project in common_projects:
-    common_projects[project][0][["sim_score", "triplets_index"]].to_csv(
-        f"./similarity_{project[0]}.csv"
-    )
+common_projects_df.to_csv("./similarity_unique_mut.csv")
