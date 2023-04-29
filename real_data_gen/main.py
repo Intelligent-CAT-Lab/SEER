@@ -3,6 +3,7 @@ import pandas as pd
 import sys
 sys.path.append('./')
 from analyze_results import generate_results
+from overall_project_metrics import calculate_overall_metrics, combine_project_data
 
 if __name__ == '__main__':
     os.system('pwd')
@@ -29,8 +30,10 @@ if __name__ == '__main__':
             #     os.system(f'python3 ./learning/test.py --project {project}')
                 generate_results(result_path=f'./real_data_gen/fold0/{project}/')
                 # os.system(f'python3 ./real_data_gen/analyze_results.py {project}')
-            project_string = '*'.join(projects)
-            os.system(f'python3 ./real_data_gen/overall_project_metrics.py {project_string}')
+            # project_string = '*'.join(projects)
+            combine_project_data(projects=projects)
+            calculate_overall_metrics(projects=projects, thresholds=[.25, .10, .05])
+            # os.system(f'python3 ./real_data_gen/overall_project_metrics.py {project_string}')
             generate_results(result_path=f'./real_data_gen/fold0/')
         elif sys.argv[1] == 'coin':
             generate_results(result_path='./real_data_gen/fold0/', classifier_filename='test_stats_coin.csv', write_filename='results_coin.txt')    
