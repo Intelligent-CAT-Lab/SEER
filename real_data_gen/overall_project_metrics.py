@@ -8,12 +8,12 @@ from tqdm import tqdm
 
 projects = ['commons-imaging-1.0-alpha3-src', 'spark', 'commons-lang3-3.12.0-src', 'http-request', 'commons-geometry-1.0-src', 'springside4', 'commons-jexl3-3.2.1-src', 'joda-time', 'async-http-client', 'JSON-java', 'bcel-6.5.0-src', 'commons-weaver-2.0-src', 'commons-numbers-1.0-src', 'commons-collections4-4.4-src', 'jsoup', 'commons-jcs3-3.1-src', 'commons-validator-1.7', 'commons-net-3.8.0', 'commons-beanutils-1.9.4', 'commons-pool2-2.11.1-src', 'commons-rng-1.4-src', 'commons-configuration2-2.8.0-src', 'commons-vfs-2.9.0', 'scribejava', 'commons-dbutils-1.7']
 # Defining functions
-calc_f1 = lambda df: np.round((2*df['tp'])/(2*df['tp']+df['fp']+df['fn']), 4)
-calc_pass_accuracy = lambda df: np.round((df['tp'])/(df['tp']+df['fn']), 4)
-calc_fail_accuracy = lambda df: np.round((df['tn'])/(df['tn']+df['fp']), 4)
-calc_accuracy = lambda df: np.round((df['tp']+df['tn'])/df['N'], 4)
-calc_pass_rate = lambda df: np.round((df['tp']+df['fn'])/df['N'], 4)
-calc_fail_rate = lambda df: np.round((df['tn']+df['fp'])/df['N'], 4)
+calc_f1 = lambda df: np.round((2*df['tp'])/(2*df['tp']+df['fp']+df['fn']), 4) if (2*df['tp']+df['fp']+df['fn']) > 0 else 0
+calc_pass_accuracy = lambda df: np.round((df['tp'])/(df['tp']+df['fn']), 4) if (df['tp']+df['fn']) > 0 else 0
+calc_fail_accuracy = lambda df: np.round((df['tn'])/(df['tn']+df['fp']), 4) if (df['tn']+df['fp']) > 0 else 0
+calc_accuracy = lambda df: np.round((df['tp']+df['tn'])/df['N'], 4) if df['N'] > 0 else 0
+calc_pass_rate = lambda df: np.round((df['tp']+df['fn'])/df['N'], 4) if df['N'] > 0 else 0
+calc_fail_rate = lambda df: np.round((df['tn']+df['fp'])/df['N'], 4) if df['N'] > 0 else 0
 
 def combine_project_data(projects):
     path = './real_data_gen/fold0'
@@ -63,9 +63,10 @@ def run_coin_flip_test(project_data, pass_rate):
             # predicted pass and actual fail
             elif df.loc[i, 'Actual Label'] == 0 and df.loc[i, 'coin_simulation'] == 1:
                 coin_fp += 1
-
-        coin_accuracy.append((coin_tp+coin_tn)/num_rows)
-        coin_f1.append((2*coin_tp)/(2*coin_tp+coin_fp+coin_fn))
+        accuracy = (coin_tp+coin_tn)/num_rows if num_rows > 0 else 0
+        f1 = (2*coin_tp)/(2*coin_tp+coin_fp+coin_fn) if (2*coin_tp+coin_fp+coin_fn) > 0 else 0
+        coin_accuracy.append(accuracy)
+        coin_f1.append(f1)
 
     average_coin_accuracy = np.round(np.mean(coin_accuracy), 4)
     average_coin_f1 = np.round(np.mean(coin_f1), 4)
@@ -77,9 +78,11 @@ def run_coin_flip_test(project_data, pass_rate):
 
 def generate_vocab_data(temp, threshold, project):
     columns_vocab_summary = ['project', 'total_C_tokens', 'total_C_fail', 'out_vocab_C_ratio', 'total_T_tokens', 'total_T_fail', 'out_vocab_T_ratio', 'out_vocab_combined_ratio']
-    temp = temp[(temp['project']==project) & (temp['out_vocab_ratio'] <= threshold)]
+    temp = temp[temp['project']==project]
+    temp.reset_index(inplace=True, drop=True)
+    temp = temp[temp['out_vocab_ratio'] <= threshold]
 
-    valid_ind = temp.reset_index().index.tolist()
+    valid_ind = temp.index.tolist()
 
     total_C_tokens = np.sum(temp['C_tokens'])
     total_T_tokens = np.sum(temp['T_tokens'])
@@ -108,7 +111,7 @@ def generate_vocab_data(temp, threshold, project):
 def generate_results_data(project, path, valid_ind):
     results_project = {}
     project_data = pd.read_csv(f"{path}/{project}/test_stats.csv")
-    project_data = project_data.reindex(valid_ind)
+    project_data = project_data.reindex(valid_ind).reset_index(drop=True)
 
     num_rows = len(project_data)
     tp = 0

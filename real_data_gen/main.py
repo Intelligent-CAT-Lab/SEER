@@ -32,7 +32,7 @@ if __name__ == '__main__':
                 # os.system(f'python3 ./real_data_gen/analyze_results.py {project}')
             # project_string = '*'.join(projects)
             combine_project_data(projects=projects)
-            calculate_overall_metrics(projects=projects, thresholds=[.25, .10, .05])
+            calculate_overall_metrics(projects=projects)
             # os.system(f'python3 ./real_data_gen/overall_project_metrics.py {project_string}')
             generate_results(result_path=f'./real_data_gen/fold0/')
         elif sys.argv[1] == 'coin':
