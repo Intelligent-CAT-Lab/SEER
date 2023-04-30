@@ -7,7 +7,7 @@ from json_to_h5 import json_to_h5
 if __name__ == "__main__":
     comment_types = ["no_comments", "comments", "added_comments"]
     # Expect this to take ~15 minutes to run
-    for comment_type in comment_types:
+    for comment_type in tqdm(comment_types, desc="comment versions"):
 
         df = pd.read_json(f"./real_data_gen/triplets/{comment_type}/triplets.json", orient="index")
         projects = list(df["project"].unique())

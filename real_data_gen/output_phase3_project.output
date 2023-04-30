@@ -1,0 +1,127 @@
+/u/kl5sq/masters/SEER
+generating results for all projects...
+real_data_gen/fold0/no_comments/commons-geometry-1.0-src/
+loading data...
+5438 entries
+reloaded model
+Average time per batch (size=1): 0.043761491775512695
+real_data_gen/fold0/no_comments/commons-beanutils-1.9.4/
+loading data...
+1708 entries
+reloaded model
+Average time per batch (size=1): 0.04291486740112305
+real_data_gen/fold0/no_comments/async-http-client/
+loading data...
+163 entries
+reloaded model
+Average time per batch (size=1): 0.04364824295043945
+real_data_gen/fold0/no_comments/commons-numbers-1.0-src/
+loading data...
+39866 entries
+reloaded model
+Average time per batch (size=1): 0.04379558563232422
+real_data_gen/fold0/no_comments/commons-weaver-2.0-src/
+loading data...
+232 entries
+reloaded model
+Average time per batch (size=1): 0.04394364356994629
+real_data_gen/fold0/no_comments/commons-net-3.8.0/
+loading data...
+3369 entries
+reloaded model
+Average time per batch (size=1): 0.04313063621520996
+real_data_gen/fold0/no_comments/commons-jexl3-3.2.1-src/
+loading data...
+2946 entries
+reloaded model
+Average time per batch (size=1): 0.04245257377624512
+real_data_gen/fold0/no_comments/joda-time/
+loading data...
+27480 entries
+reloaded model
+Average time per batch (size=1): 0.04388999938964844
+real_data_gen/fold0/no_comments/commons-vfs-2.9.0/
+loading data...
+1072 entries
+reloaded model
+Average time per batch (size=1): 0.04398822784423828
+real_data_gen/fold0/no_comments/commons-jcs3-3.1-src/
+loading data...
+4562 entries
+reloaded model
+Average time per batch (size=1): 0.042656660079956055
+real_data_gen/fold0/no_comments/scribejava/
+loading data...
+182 entries
+reloaded model
+Average time per batch (size=1): 0.0438542366027832
+real_data_gen/fold0/no_comments/commons-collections4-4.4-src/
+loading data...
+1389 entries
+reloaded model
+Average time per batch (size=1): 0.04341435432434082
+real_data_gen/fold0/no_comments/commons-rng-1.4-src/
+loading data...
+1641 entries
+reloaded model
+Average time per batch (size=1): 0.04408574104309082
+real_data_gen/fold0/no_comments/jsoup/
+loading data...
+8002 entries
+reloaded model
+Average time per batch (size=1): 0.04374241828918457
+real_data_gen/fold0/no_comments/http-request/
+loading data...
+4069 entries
+reloaded model
+Average time per batch (size=1): 0.04370760917663574
+real_data_gen/fold0/no_comments/springside4/
+loading data...
+2590 entries
+reloaded model
+Average time per batch (size=1): 0.04357194900512695
+real_data_gen/fold0/no_comments/commons-imaging-1.0-alpha3-src/
+loading data...
+2858 entries
+reloaded model
+Average time per batch (size=1): 0.04255199432373047
+real_data_gen/fold0/no_comments/commons-lang3-3.12.0-src/
+loading data...
+12118 entries
+reloaded model
+Average time per batch (size=1): 0.04436993598937988
+real_data_gen/fold0/no_comments/bcel-6.5.0-src/
+loading data...
+15379 entries
+reloaded model
+Average time per batch (size=1): 0.04236412048339844
+real_data_gen/fold0/no_comments/JSON-java/
+loading data...
+12911 entries
+reloaded model
+Average time per batch (size=1): 0.043351173400878906
+real_data_gen/fold0/no_comments/commons-configuration2-2.8.0-src/
+loading data...
+1253 entries
+reloaded model
+Average time per batch (size=1): 0.04382491111755371
+real_data_gen/fold0/no_comments/commons-validator-1.7/
+loading data...
+2616 entries
+reloaded model
+Average time per batch (size=1): 0.04423069953918457
+real_data_gen/fold0/no_comments/commons-pool2-2.11.1-src/
+loading data...
+11244 entries
+reloaded model
+Average time per batch (size=1): 0.04303479194641113
+real_data_gen/fold0/no_comments/commons-dbutils-1.7/
+loading data...
+731 entries
+reloaded model
+Average time per batch (size=1): 0.04348111152648926
+real_data_gen/fold0/no_comments/spark/
+loading data...
+5280 entries
+reloaded model
+Average time per batch (size=1): 0.04342293739318848
