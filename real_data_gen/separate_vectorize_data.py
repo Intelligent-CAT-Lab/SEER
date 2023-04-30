@@ -9,6 +9,13 @@ if __name__ == "__main__":
     # Expect this to take ~15 minutes to run
     for comment_type in tqdm(comment_types, desc="comment versions"):
 
+        json_to_h5(
+            type="test",
+            fold=0,
+            model="JointEmbedder",
+            comment_type=comment_type,
+        )
+
         df = pd.read_json(f"./real_data_gen/triplets/{comment_type}/triplets.json", orient="index")
         projects = list(df["project"].unique())
 
