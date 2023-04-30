@@ -1,4 +1,4 @@
-# Note that this takes about 7.5 minutes to run on my machine
+# Note that this takes about 6.5 minutes to run on my machine
 import pandas as pd
 from difflib import SequenceMatcher
 from tqdm import tqdm
