@@ -63,9 +63,9 @@ print("Applying REGEX...")
 df_comments = apply_regex(df_comments)
 df_no_comments = apply_regex(df_no_comments)
 
-df_comments.to_json("./real_data_gen/triplets/triplets_comments.json", orient="index", indent=4)
-df_no_comments.to_json("./real_data_gen/triplets/triplets_no_comments.json", orient="index", indent=4)
+df_comments.to_json("./real_data_gen/triplets/comments/triplets.json", orient="index", indent=4)
+df_no_comments.to_json("./real_data_gen/triplets/no_comments/triplets.json", orient="index", indent=4)
 
 df_added_comments = df_no_comments.copy()
 df_added_comments['T'] = df_no_comments.apply(lambda row: row['T'][:-1] + "// Undeclared exception!" + row['T'][-1:], axis=1)
-df_added_comments.to_json("./real_data_gen/triplets/triplets_added_comments.json", orient="index", indent=4)
+df_added_comments.to_json("./real_data_gen/triplets/added_comments/triplets.json", orient="index", indent=4)

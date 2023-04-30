@@ -91,7 +91,7 @@ for i in tqdm(range(len(common_projects_df))):
     triplets_name = common_projects_df.loc[i, "triplets"]
     with pd.option_context("mode.chained_assignment", None):
         triplets_df = pd.read_json(
-            f"../triplets/project_json/triplets_{triplets_name}.json", orient="index"
+            f"../triplets/project2_json/triplets_{triplets_name}.json", orient="index"
         )
         phase2_df = all_phase2[all_phase2["project"] == phase2_name]
         triplets_df.drop_duplicates(subset=["C"], inplace=True)

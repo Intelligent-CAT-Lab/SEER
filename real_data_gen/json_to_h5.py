@@ -10,15 +10,15 @@ class Particle(tb.IsDescription):
     pos = tb.UInt32Col(shape=(), dflt=0, pos=1)
 
 
-def json_to_h5(type, fold, model, project=""):
+def json_to_h5(type, fold, model, project="", comment_type="no_comments"):
     """
     this function converts json file to h5 file for phase 1 of model training.
     the logic stays the same for phase 2 as well with a few changes.
     """
     if project == "":
-        fold_path = f"./real_data_gen/fold{fold}"
+        fold_path = f"./real_data_gen/fold{fold}/{comment_type}"
     else:
-        fold_path = f"./real_data_gen/fold{fold}/{project}"
+        fold_path = f"./real_data_gen/fold{fold}/{comment_type}/{project}"
 
     try:
         f = open(f"{fold_path}/code_{type}.h5", "x")
@@ -60,9 +60,9 @@ def json_to_h5(type, fold, model, project=""):
 
     if type == "test":
         triplets_path = (
-            "./real_data_gen/triplets/triplets.json"
+            f"./real_data_gen/triplets/{comment_type}/triplets.json"
             if project == ""
-            else f"./real_data_gen/triplets/triplets_{project}.json"
+            else f"./real_data_gen/triplets/{comment_type}/triplets_{project}.json"
         )
         with open(triplets_path, "r", encoding="ISO-8859-1", errors="ignore") as fr:
             tuples = json.load(fr)
@@ -78,7 +78,7 @@ def json_to_h5(type, fold, model, project=""):
     codeitive_curr_pos = 0
     test_curr_pos = 0
 
-    pbar = tqdm(tuples)
+    pbar = tqdm(tuples, leave=False)
     c = 0
 
     failure_cases = {}

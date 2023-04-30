@@ -1,10 +1,9 @@
-import csv
-import json
-import sys
 import numpy as np
 import pandas as pd
 import random
 from tqdm import tqdm
+
+random.seed(42)
 
 # Defining functions
 calc_f1 = (
