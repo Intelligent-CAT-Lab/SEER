@@ -2,7 +2,9 @@ import pandas as pd
 import os
 import re
 from tqdm import tqdm
+
 tqdm.pandas()
+
 
 def clean_text(df, remove_comments=True):
     for col in ["C", "T"]:
@@ -14,6 +16,7 @@ def clean_text(df, remove_comments=True):
         df[col] = df.progress_apply(lambda row: re.sub(r"\s\s*", " ", row[col].strip()), axis=1)
 
     return df
+
 
 def apply_regex(df):
     r_try = r"try\s*{"
@@ -67,5 +70,7 @@ df_comments.to_json("./real_data_gen/triplets/comments/triplets.json", orient="i
 df_no_comments.to_json("./real_data_gen/triplets/no_comments/triplets.json", orient="index", indent=4)
 
 df_added_comments = df_no_comments.copy()
-df_added_comments['T'] = df_no_comments.apply(lambda row: row['T'][:-1] + "// Undeclared exception!" + row['T'][-1:], axis=1)
+df_added_comments["T"] = df_no_comments.apply(
+    lambda row: row["T"][:-1] + "// Undeclared exception!" + row["T"][-1:], axis=1
+)
 df_added_comments.to_json("./real_data_gen/triplets/added_comments/triplets.json", orient="index", indent=4)
