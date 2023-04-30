@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/u/kl5sq/masters/SEER')
+sys.path.append('./')
 # import os
 # os.environ['CUDA_LAUNCH_BLOCKING'] = "1"
 
@@ -21,7 +21,7 @@ def test(args):
         data_path = args.data_path + args.comment_type + '/'
     else:
         data_path = args.data_path + args.comment_type + '/' + args.project + '/'
-        print(data_path)
+
     test_set = TestOracleDatasetPhase2(args.model, data_path, 'code_test.h5', 1624, 'test_test.h5', 1624, 'label_test.h5')
     data_loader = torch.utils.data.DataLoader(dataset=test_set, batch_size=1, shuffle=False, num_workers=1)
 

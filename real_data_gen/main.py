@@ -5,13 +5,11 @@ from tqdm import tqdm
 
 from analyze_results import generate_results
 from overall_project_metrics import calculate_overall_metrics, combine_project_data
-from json_to_h5 import json_to_h5
 
 if __name__ == "__main__":
     os.system("pwd")
 
     if len(sys.argv) == 1:
-        json_to_h5(type="test", fold=0, model="JointEmbedder")
         os.system("python3 ./learning/test.py")
         generate_results(result_path=f"./real_data_gen/fold0/no_comments/")
     else:
