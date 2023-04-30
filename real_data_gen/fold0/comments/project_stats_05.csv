@@ -1,0 +1,6 @@
+project,N,tp,fn,tn,fp,accuracy,f1,pass_accuracy,fail_accuracy,pass_rate,fail_rate,coin_accuracy,coin_f1,accuracy_improvement,out_vocab_C_ratio,out_vocab_T_ratio,out_vocab_combined_ratio
+joda-time,14,8,0,1,5,0.6429,0.7619,1.0,0.1667,0.5714,0.4286,0.5121,0.5634,0.1308,0.01,0.06,0.02
+commons-numbers-1.0-src,5,5,0,0,0,1.0,1.0,1.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.07,0.04
+commons-lang3-3.12.0-src,8,8,0,0,0,1.0,1.0,1.0,0.0,1.0,0.0,1.0,1.0,0.0,0.01,0.07,0.03
+jsoup,4,3,1,0,0,0.75,0.8571,0.75,0.0,1.0,0.0,1.0,1.0,-0.25,0.01,0.14,0.04
+all,31,24,1,1,5,0.8065,0.8889,0.96,0.1667,0.8065,0.1935,0.7516,0.8554,0.0549,0.01,0.08,0.03

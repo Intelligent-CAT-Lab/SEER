@@ -1,0 +1,3 @@
+project,N,accuracy,accuracy_improvement,coin_accuracy,coin_f1,f1,fail_accuracy,fail_rate,fn,fp,pass_accuracy,pass_rate,tn,tp,out_vocab_C_ratio,out_vocab_T_ratio,out_vocab_combined_ratio
+joda-time,5,0.0,-1.0,1.0,0.0,0.0,0.0,1.0,0,5,0.0,0.0,0,0,0.0,0.44,0.03
+all,5,0.0,-0.089,0.089,0.0,0.0,0.0,1.0,0,5,0.0,0.0,0,0,0.0,0.44,0.03

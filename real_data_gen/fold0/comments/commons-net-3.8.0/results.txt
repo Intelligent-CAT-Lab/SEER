@@ -1,0 +1,16 @@
+num_rows: 3369
+Number in Pass Class: 2233, 0.6628
+tp: 2172, 0.6447
+fp: 1092, 0.3241
+pass accuracy: 2172/2233 = 0.9727
+
+Number in Fail Class: 1136, 0.3372
+tn: 44, 0.0131
+fn: 61, 0.0181
+fail accuracy: 44/1136 = 0.0387
+
+accuracy: 2216/3369 = 0.6578
+precision: 2172/3264 = 0.6654
+recall: 2172/2233 = 0.9727
+f1: 4344/5497 = 0.7902
+

@@ -1,0 +1,16 @@
+num_rows: 1072
+Number in Pass Class: 780, 0.7276
+tp: 706, 0.6586
+fp: 281, 0.2621
+pass accuracy: 706/780 = 0.9051
+
+Number in Fail Class: 292, 0.2724
+tn: 11, 0.0103
+fn: 74, 0.069
+fail accuracy: 11/292 = 0.0377
+
+accuracy: 717/1072 = 0.6688
+precision: 706/987 = 0.7153
+recall: 706/780 = 0.9051
+f1: 1412/1767 = 0.7991
+

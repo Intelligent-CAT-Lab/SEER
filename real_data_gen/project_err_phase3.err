@@ -1,30 +1,373 @@
   0%|          | 0/25 [00:00<?, ?it/s]Closing remaining open files:real_data_gen/fold0/no_comments/commons-geometry-1.0-src/code_test.h5...donereal_data_gen/fold0/no_comments/commons-geometry-1.0-src/label_test.h5...donereal_data_gen/fold0/no_comments/commons-geometry-1.0-src/test_test.h5...done
-  4%|▍         | 1/25 [00:46<18:40, 46.70s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-beanutils-1.9.4/label_test.h5...donereal_data_gen/fold0/no_comments/commons-beanutils-1.9.4/code_test.h5...donereal_data_gen/fold0/no_comments/commons-beanutils-1.9.4/test_test.h5...done
-  8%|▊         | 2/25 [01:09<12:27, 32.52s/it]Closing remaining open files:real_data_gen/fold0/no_comments/async-http-client/label_test.h5...donereal_data_gen/fold0/no_comments/async-http-client/code_test.h5...donereal_data_gen/fold0/no_comments/async-http-client/test_test.h5...done
- 12%|█▏        | 3/25 [01:23<08:49, 24.08s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-numbers-1.0-src/label_test.h5...donereal_data_gen/fold0/no_comments/commons-numbers-1.0-src/code_test.h5...donereal_data_gen/fold0/no_comments/commons-numbers-1.0-src/test_test.h5...done
- 16%|█▌        | 4/25 [05:31<39:22, 112.49s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-weaver-2.0-src/label_test.h5...donereal_data_gen/fold0/no_comments/commons-weaver-2.0-src/code_test.h5...donereal_data_gen/fold0/no_comments/commons-weaver-2.0-src/test_test.h5...done
- 20%|██        | 5/25 [05:46<25:44, 77.24s/it] Closing remaining open files:real_data_gen/fold0/no_comments/commons-net-3.8.0/label_test.h5...donereal_data_gen/fold0/no_comments/commons-net-3.8.0/code_test.h5...donereal_data_gen/fold0/no_comments/commons-net-3.8.0/test_test.h5...done
- 24%|██▍       | 6/25 [06:18<19:38, 62.01s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-jexl3-3.2.1-src/label_test.h5...donereal_data_gen/fold0/no_comments/commons-jexl3-3.2.1-src/code_test.h5...donereal_data_gen/fold0/no_comments/commons-jexl3-3.2.1-src/test_test.h5...done
- 28%|██▊       | 7/25 [06:48<15:26, 51.49s/it]Closing remaining open files:real_data_gen/fold0/no_comments/joda-time/code_test.h5...donereal_data_gen/fold0/no_comments/joda-time/test_test.h5...donereal_data_gen/fold0/no_comments/joda-time/label_test.h5...done
- 32%|███▏      | 8/25 [09:43<25:44, 90.85s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-vfs-2.9.0/label_test.h5...donereal_data_gen/fold0/no_comments/commons-vfs-2.9.0/code_test.h5...donereal_data_gen/fold0/no_comments/commons-vfs-2.9.0/test_test.h5...done
- 36%|███▌      | 9/25 [10:03<18:17, 68.61s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-jcs3-3.1-src/label_test.h5...donereal_data_gen/fold0/no_comments/commons-jcs3-3.1-src/code_test.h5...donereal_data_gen/fold0/no_comments/commons-jcs3-3.1-src/test_test.h5...done
- 40%|████      | 10/25 [10:42<14:54, 59.60s/it]Closing remaining open files:real_data_gen/fold0/no_comments/scribejava/code_test.h5...donereal_data_gen/fold0/no_comments/scribejava/test_test.h5...donereal_data_gen/fold0/no_comments/scribejava/label_test.h5...done
- 44%|████▍     | 11/25 [10:56<10:37, 45.54s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-collections4-4.4-src/code_test.h5...donereal_data_gen/fold0/no_comments/commons-collections4-4.4-src/label_test.h5...donereal_data_gen/fold0/no_comments/commons-collections4-4.4-src/test_test.h5...done
- 48%|████▊     | 12/25 [11:17<08:16, 38.20s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-rng-1.4-src/label_test.h5...donereal_data_gen/fold0/no_comments/commons-rng-1.4-src/code_test.h5...donereal_data_gen/fold0/no_comments/commons-rng-1.4-src/test_test.h5...done
- 52%|█████▏    | 13/25 [11:39<06:40, 33.38s/it]Closing remaining open files:real_data_gen/fold0/no_comments/jsoup/label_test.h5...donereal_data_gen/fold0/no_comments/jsoup/code_test.h5...donereal_data_gen/fold0/no_comments/jsoup/test_test.h5...done
- 56%|█████▌    | 14/25 [12:39<07:35, 41.37s/it]Closing remaining open files:real_data_gen/fold0/no_comments/http-request/code_test.h5...donereal_data_gen/fold0/no_comments/http-request/test_test.h5...donereal_data_gen/fold0/no_comments/http-request/label_test.h5...done
- 60%|██████    | 15/25 [13:17<06:42, 40.23s/it]Closing remaining open files:real_data_gen/fold0/no_comments/springside4/code_test.h5...donereal_data_gen/fold0/no_comments/springside4/test_test.h5...donereal_data_gen/fold0/no_comments/springside4/label_test.h5...done
- 64%|██████▍   | 16/25 [13:45<05:28, 36.45s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-imaging-1.0-alpha3-src/code_test.h5...donereal_data_gen/fold0/no_comments/commons-imaging-1.0-alpha3-src/label_test.h5...donereal_data_gen/fold0/no_comments/commons-imaging-1.0-alpha3-src/test_test.h5...done
- 68%|██████▊   | 17/25 [14:14<04:35, 34.44s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-lang3-3.12.0-src/code_test.h5...donereal_data_gen/fold0/no_comments/commons-lang3-3.12.0-src/label_test.h5...donereal_data_gen/fold0/no_comments/commons-lang3-3.12.0-src/test_test.h5...done
- 72%|███████▏  | 18/25 [15:39<05:46, 49.49s/it]Closing remaining open files:real_data_gen/fold0/no_comments/bcel-6.5.0-src/code_test.h5...donereal_data_gen/fold0/no_comments/bcel-6.5.0-src/test_test.h5...donereal_data_gen/fold0/no_comments/bcel-6.5.0-src/label_test.h5...done
- 76%|███████▌  | 19/25 [17:23<06:34, 65.82s/it]Closing remaining open files:real_data_gen/fold0/no_comments/JSON-java/code_test.h5...donereal_data_gen/fold0/no_comments/JSON-java/test_test.h5...donereal_data_gen/fold0/no_comments/JSON-java/label_test.h5...done
- 80%|████████  | 20/25 [18:52<06:04, 72.95s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-configuration2-2.8.0-src/label_test.h5...donereal_data_gen/fold0/no_comments/commons-configuration2-2.8.0-src/code_test.h5...donereal_data_gen/fold0/no_comments/commons-configuration2-2.8.0-src/test_test.h5...done
- 84%|████████▍ | 21/25 [19:13<03:49, 57.30s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-validator-1.7/label_test.h5...donereal_data_gen/fold0/no_comments/commons-validator-1.7/code_test.h5...donereal_data_gen/fold0/no_comments/commons-validator-1.7/test_test.h5...done
- 88%|████████▊ | 22/25 [19:41<02:25, 48.57s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-pool2-2.11.1-src/code_test.h5...donereal_data_gen/fold0/no_comments/commons-pool2-2.11.1-src/label_test.h5...donereal_data_gen/fold0/no_comments/commons-pool2-2.11.1-src/test_test.h5...done
- 92%|█████████▏| 23/25 [21:00<01:55, 57.63s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-dbutils-1.7/label_test.h5...donereal_data_gen/fold0/no_comments/commons-dbutils-1.7/code_test.h5...donereal_data_gen/fold0/no_comments/commons-dbutils-1.7/test_test.h5...done
- 96%|█████████▌| 24/25 [21:18<00:45, 45.66s/it]Closing remaining open files:real_data_gen/fold0/no_comments/spark/label_test.h5...donereal_data_gen/fold0/no_comments/spark/code_test.h5...donereal_data_gen/fold0/no_comments/spark/test_test.h5...done
-100%|██████████| 25/25 [22:02<00:00, 45.18s/it]100%|██████████| 25/25 [22:02<00:00, 52.90s/it]
-Traceback (most recent call last):
-  File "./real_data_gen/main.py", line 27, in <module>
-    combine_project_data(projects=projects)
-TypeError: combine_project_data() missing 1 required positional argument: 'comment_type'
+  4%|▍         | 1/25 [00:46<18:37, 46.55s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-beanutils-1.9.4/label_test.h5...donereal_data_gen/fold0/no_comments/commons-beanutils-1.9.4/code_test.h5...donereal_data_gen/fold0/no_comments/commons-beanutils-1.9.4/test_test.h5...done
+  8%|▊         | 2/25 [01:09<12:26, 32.47s/it]Closing remaining open files:real_data_gen/fold0/no_comments/async-http-client/label_test.h5...donereal_data_gen/fold0/no_comments/async-http-client/code_test.h5...donereal_data_gen/fold0/no_comments/async-http-client/test_test.h5...done
+ 12%|█▏        | 3/25 [01:23<08:56, 24.38s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-numbers-1.0-src/label_test.h5...donereal_data_gen/fold0/no_comments/commons-numbers-1.0-src/code_test.h5...donereal_data_gen/fold0/no_comments/commons-numbers-1.0-src/test_test.h5...done
+ 16%|█▌        | 4/25 [05:32<39:28, 112.77s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-weaver-2.0-src/label_test.h5...donereal_data_gen/fold0/no_comments/commons-weaver-2.0-src/code_test.h5...donereal_data_gen/fold0/no_comments/commons-weaver-2.0-src/test_test.h5...done
+ 20%|██        | 5/25 [05:47<25:53, 77.68s/it] Closing remaining open files:real_data_gen/fold0/no_comments/commons-net-3.8.0/label_test.h5...donereal_data_gen/fold0/no_comments/commons-net-3.8.0/code_test.h5...donereal_data_gen/fold0/no_comments/commons-net-3.8.0/test_test.h5...done
+ 24%|██▍       | 6/25 [06:20<19:44, 62.35s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-jexl3-3.2.1-src/label_test.h5...donereal_data_gen/fold0/no_comments/commons-jexl3-3.2.1-src/code_test.h5...donereal_data_gen/fold0/no_comments/commons-jexl3-3.2.1-src/test_test.h5...done
+ 28%|██▊       | 7/25 [06:50<15:32, 51.81s/it]Closing remaining open files:real_data_gen/fold0/no_comments/joda-time/code_test.h5...donereal_data_gen/fold0/no_comments/joda-time/test_test.h5...donereal_data_gen/fold0/no_comments/joda-time/label_test.h5...done
+ 32%|███▏      | 8/25 [09:46<25:51, 91.29s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-vfs-2.9.0/label_test.h5...donereal_data_gen/fold0/no_comments/commons-vfs-2.9.0/code_test.h5...donereal_data_gen/fold0/no_comments/commons-vfs-2.9.0/test_test.h5...done
+ 36%|███▌      | 9/25 [10:06<18:23, 68.96s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-jcs3-3.1-src/label_test.h5...donereal_data_gen/fold0/no_comments/commons-jcs3-3.1-src/code_test.h5...donereal_data_gen/fold0/no_comments/commons-jcs3-3.1-src/test_test.h5...done
+ 40%|████      | 10/25 [10:45<14:58, 59.90s/it]Closing remaining open files:real_data_gen/fold0/no_comments/scribejava/code_test.h5...donereal_data_gen/fold0/no_comments/scribejava/test_test.h5...donereal_data_gen/fold0/no_comments/scribejava/label_test.h5...done
+ 44%|████▍     | 11/25 [10:59<10:41, 45.80s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-collections4-4.4-src/code_test.h5...donereal_data_gen/fold0/no_comments/commons-collections4-4.4-src/label_test.h5...donereal_data_gen/fold0/no_comments/commons-collections4-4.4-src/test_test.h5...done
+ 48%|████▊     | 12/25 [11:21<08:20, 38.53s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-rng-1.4-src/label_test.h5...donereal_data_gen/fold0/no_comments/commons-rng-1.4-src/code_test.h5...donereal_data_gen/fold0/no_comments/commons-rng-1.4-src/test_test.h5...done
+ 52%|█████▏    | 13/25 [11:43<06:43, 33.63s/it]Closing remaining open files:real_data_gen/fold0/no_comments/jsoup/label_test.h5...donereal_data_gen/fold0/no_comments/jsoup/code_test.h5...donereal_data_gen/fold0/no_comments/jsoup/test_test.h5...done
+ 56%|█████▌    | 14/25 [12:43<07:37, 41.55s/it]Closing remaining open files:real_data_gen/fold0/no_comments/http-request/code_test.h5...donereal_data_gen/fold0/no_comments/http-request/test_test.h5...donereal_data_gen/fold0/no_comments/http-request/label_test.h5...done
+ 60%|██████    | 15/25 [13:21<06:44, 40.45s/it]Closing remaining open files:real_data_gen/fold0/no_comments/springside4/code_test.h5...donereal_data_gen/fold0/no_comments/springside4/test_test.h5...donereal_data_gen/fold0/no_comments/springside4/label_test.h5...done
+ 64%|██████▍   | 16/25 [13:49<05:29, 36.61s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-imaging-1.0-alpha3-src/code_test.h5...donereal_data_gen/fold0/no_comments/commons-imaging-1.0-alpha3-src/label_test.h5...donereal_data_gen/fold0/no_comments/commons-imaging-1.0-alpha3-src/test_test.h5...done
+ 68%|██████▊   | 17/25 [14:19<04:38, 34.78s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-lang3-3.12.0-src/code_test.h5...donereal_data_gen/fold0/no_comments/commons-lang3-3.12.0-src/label_test.h5...donereal_data_gen/fold0/no_comments/commons-lang3-3.12.0-src/test_test.h5...done
+ 72%|███████▏  | 18/25 [15:43<05:47, 49.65s/it]Closing remaining open files:real_data_gen/fold0/no_comments/bcel-6.5.0-src/code_test.h5...donereal_data_gen/fold0/no_comments/bcel-6.5.0-src/test_test.h5...donereal_data_gen/fold0/no_comments/bcel-6.5.0-src/label_test.h5...done
+ 76%|███████▌  | 19/25 [17:28<06:37, 66.25s/it]Closing remaining open files:real_data_gen/fold0/no_comments/JSON-java/code_test.h5...donereal_data_gen/fold0/no_comments/JSON-java/test_test.h5...donereal_data_gen/fold0/no_comments/JSON-java/label_test.h5...done
+ 80%|████████  | 20/25 [18:58<06:06, 73.28s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-configuration2-2.8.0-src/label_test.h5...donereal_data_gen/fold0/no_comments/commons-configuration2-2.8.0-src/code_test.h5...donereal_data_gen/fold0/no_comments/commons-configuration2-2.8.0-src/test_test.h5...done
+ 84%|████████▍ | 21/25 [19:19<03:50, 57.58s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-validator-1.7/label_test.h5...donereal_data_gen/fold0/no_comments/commons-validator-1.7/code_test.h5...donereal_data_gen/fold0/no_comments/commons-validator-1.7/test_test.h5...done
+ 88%|████████▊ | 22/25 [19:47<02:26, 48.75s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-pool2-2.11.1-src/code_test.h5...donereal_data_gen/fold0/no_comments/commons-pool2-2.11.1-src/label_test.h5...donereal_data_gen/fold0/no_comments/commons-pool2-2.11.1-src/test_test.h5...done
+ 92%|█████████▏| 23/25 [21:06<01:55, 57.88s/it]Closing remaining open files:real_data_gen/fold0/no_comments/commons-dbutils-1.7/label_test.h5...donereal_data_gen/fold0/no_comments/commons-dbutils-1.7/code_test.h5...donereal_data_gen/fold0/no_comments/commons-dbutils-1.7/test_test.h5...done
+ 96%|█████████▌| 24/25 [21:25<00:45, 46.00s/it]Closing remaining open files:real_data_gen/fold0/no_comments/spark/label_test.h5...donereal_data_gen/fold0/no_comments/spark/code_test.h5...donereal_data_gen/fold0/no_comments/spark/test_test.h5...done
+100%|██████████| 25/25 [22:09<00:00, 45.48s/it]100%|██████████| 25/25 [22:09<00:00, 53.18s/it]
+  0%|          | 0/25 [00:00<?, ?it/s]Closing remaining open files:real_data_gen/fold0/comments/commons-geometry-1.0-src/code_test.h5...donereal_data_gen/fold0/comments/commons-geometry-1.0-src/label_test.h5...donereal_data_gen/fold0/comments/commons-geometry-1.0-src/test_test.h5...done
+  4%|▍         | 1/25 [00:45<18:18, 45.79s/it]Closing remaining open files:real_data_gen/fold0/comments/commons-beanutils-1.9.4/label_test.h5...donereal_data_gen/fold0/comments/commons-beanutils-1.9.4/code_test.h5...donereal_data_gen/fold0/comments/commons-beanutils-1.9.4/test_test.h5...done
+  8%|▊         | 2/25 [01:09<12:31, 32.69s/it]Closing remaining open files:real_data_gen/fold0/comments/async-http-client/code_test.h5...donereal_data_gen/fold0/comments/async-http-client/test_test.h5...donereal_data_gen/fold0/comments/async-http-client/label_test.h5...done
+ 12%|█▏        | 3/25 [01:24<09:01, 24.62s/it]Closing remaining open files:real_data_gen/fold0/comments/commons-numbers-1.0-src/label_test.h5...donereal_data_gen/fold0/comments/commons-numbers-1.0-src/code_test.h5...donereal_data_gen/fold0/comments/commons-numbers-1.0-src/test_test.h5...done
+ 16%|█▌        | 4/25 [05:33<39:36, 113.15s/it]Closing remaining open files:real_data_gen/fold0/comments/commons-weaver-2.0-src/label_test.h5...donereal_data_gen/fold0/comments/commons-weaver-2.0-src/code_test.h5...donereal_data_gen/fold0/comments/commons-weaver-2.0-src/test_test.h5...done
+ 20%|██        | 5/25 [05:48<26:00, 78.01s/it] Closing remaining open files:real_data_gen/fold0/comments/commons-net-3.8.0/code_test.h5...donereal_data_gen/fold0/comments/commons-net-3.8.0/test_test.h5...donereal_data_gen/fold0/comments/commons-net-3.8.0/label_test.h5...done
+ 24%|██▍       | 6/25 [06:21<19:50, 62.66s/it]Closing remaining open files:real_data_gen/fold0/comments/commons-jexl3-3.2.1-src/label_test.h5...donereal_data_gen/fold0/comments/commons-jexl3-3.2.1-src/code_test.h5...donereal_data_gen/fold0/comments/commons-jexl3-3.2.1-src/test_test.h5...done
+ 28%|██▊       | 7/25 [06:52<15:37, 52.08s/it]Closing remaining open files:real_data_gen/fold0/comments/joda-time/label_test.h5...donereal_data_gen/fold0/comments/joda-time/code_test.h5...donereal_data_gen/fold0/comments/joda-time/test_test.h5...done
+ 32%|███▏      | 8/25 [09:49<26:03, 91.95s/it]Closing remaining open files:real_data_gen/fold0/comments/commons-vfs-2.9.0/code_test.h5...donereal_data_gen/fold0/comments/commons-vfs-2.9.0/test_test.h5...donereal_data_gen/fold0/comments/commons-vfs-2.9.0/label_test.h5...done
+ 36%|███▌      | 9/25 [10:09<18:32, 69.52s/it]Closing remaining open files:real_data_gen/fold0/comments/commons-jcs3-3.1-src/label_test.h5...donereal_data_gen/fold0/comments/commons-jcs3-3.1-src/code_test.h5...donereal_data_gen/fold0/comments/commons-jcs3-3.1-src/test_test.h5...done
+ 40%|████      | 10/25 [10:49<15:04, 60.33s/it]Closing remaining open files:real_data_gen/fold0/comments/scribejava/code_test.h5...donereal_data_gen/fold0/comments/scribejava/test_test.h5...donereal_data_gen/fold0/comments/scribejava/label_test.h5...done
+ 44%|████▍     | 11/25 [11:03<10:46, 46.18s/it]Closing remaining open files:real_data_gen/fold0/comments/commons-collections4-4.4-src/code_test.h5...donereal_data_gen/fold0/comments/commons-collections4-4.4-src/label_test.h5...donereal_data_gen/fold0/comments/commons-collections4-4.4-src/test_test.h5...done
+ 48%|████▊     | 12/25 [11:25<08:23, 38.74s/it]Closing remaining open files:real_data_gen/fold0/comments/commons-rng-1.4-src/label_test.h5...donereal_data_gen/fold0/comments/commons-rng-1.4-src/code_test.h5...donereal_data_gen/fold0/comments/commons-rng-1.4-src/test_test.h5...done
+ 52%|█████▏    | 13/25 [11:47<06:45, 33.80s/it]Closing remaining open files:real_data_gen/fold0/comments/jsoup/label_test.h5...donereal_data_gen/fold0/comments/jsoup/code_test.h5...donereal_data_gen/fold0/comments/jsoup/test_test.h5...done
+ 56%|█████▌    | 14/25 [12:48<07:40, 41.89s/it]Closing remaining open files:real_data_gen/fold0/comments/http-request/code_test.h5...donereal_data_gen/fold0/comments/http-request/test_test.h5...donereal_data_gen/fold0/comments/http-request/label_test.h5...done
+ 60%|██████    | 15/25 [13:26<06:47, 40.72s/it]Closing remaining open files:real_data_gen/fold0/comments/springside4/code_test.h5...donereal_data_gen/fold0/comments/springside4/test_test.h5...donereal_data_gen/fold0/comments/springside4/label_test.h5...done
+ 64%|██████▍   | 16/25 [13:54<05:31, 36.86s/it]Closing remaining open files:real_data_gen/fold0/comments/commons-imaging-1.0-alpha3-src/code_test.h5...donereal_data_gen/fold0/comments/commons-imaging-1.0-alpha3-src/label_test.h5...donereal_data_gen/fold0/comments/commons-imaging-1.0-alpha3-src/test_test.h5...done
+ 68%|██████▊   | 17/25 [14:24<04:40, 35.01s/it]Closing remaining open files:real_data_gen/fold0/comments/commons-lang3-3.12.0-src/code_test.h5...donereal_data_gen/fold0/comments/commons-lang3-3.12.0-src/label_test.h5...donereal_data_gen/fold0/comments/commons-lang3-3.12.0-src/test_test.h5...done
+ 72%|███████▏  | 18/25 [15:49<05:50, 50.01s/it]Closing remaining open files:real_data_gen/fold0/comments/bcel-6.5.0-src/code_test.h5...donereal_data_gen/fold0/comments/bcel-6.5.0-src/test_test.h5...donereal_data_gen/fold0/comments/bcel-6.5.0-src/label_test.h5...done
+ 76%|███████▌  | 19/25 [17:35<06:39, 66.62s/it]Closing remaining open files:real_data_gen/fold0/comments/JSON-java/label_test.h5...donereal_data_gen/fold0/comments/JSON-java/code_test.h5...donereal_data_gen/fold0/comments/JSON-java/test_test.h5...done
+ 80%|████████  | 20/25 [19:05<06:08, 73.75s/it]Closing remaining open files:real_data_gen/fold0/comments/commons-configuration2-2.8.0-src/label_test.h5...donereal_data_gen/fold0/comments/commons-configuration2-2.8.0-src/code_test.h5...donereal_data_gen/fold0/comments/commons-configuration2-2.8.0-src/test_test.h5...done
+ 84%|████████▍ | 21/25 [19:26<03:51, 57.99s/it]Closing remaining open files:real_data_gen/fold0/comments/commons-validator-1.7/label_test.h5...donereal_data_gen/fold0/comments/commons-validator-1.7/code_test.h5...donereal_data_gen/fold0/comments/commons-validator-1.7/test_test.h5...done
+ 88%|████████▊ | 22/25 [19:54<02:27, 49.01s/it]Closing remaining open files:real_data_gen/fold0/comments/commons-pool2-2.11.1-src/code_test.h5...donereal_data_gen/fold0/comments/commons-pool2-2.11.1-src/label_test.h5...donereal_data_gen/fold0/comments/commons-pool2-2.11.1-src/test_test.h5...done
+ 92%|█████████▏| 23/25 [21:13<01:56, 58.07s/it]Closing remaining open files:real_data_gen/fold0/comments/commons-dbutils-1.7/label_test.h5...donereal_data_gen/fold0/comments/commons-dbutils-1.7/code_test.h5...donereal_data_gen/fold0/comments/commons-dbutils-1.7/test_test.h5...done
+ 96%|█████████▌| 24/25 [21:31<00:46, 46.02s/it]Closing remaining open files:real_data_gen/fold0/comments/spark/label_test.h5...donereal_data_gen/fold0/comments/spark/code_test.h5...donereal_data_gen/fold0/comments/spark/test_test.h5...done
+100%|██████████| 25/25 [22:16<00:00, 45.53s/it]100%|██████████| 25/25 [22:16<00:00, 53.45s/it]
+  0%|          | 0/25 [00:00<?, ?it/s]Closing remaining open files:real_data_gen/fold0/added_comments/commons-geometry-1.0-src/code_test.h5...donereal_data_gen/fold0/added_comments/commons-geometry-1.0-src/label_test.h5...donereal_data_gen/fold0/added_comments/commons-geometry-1.0-src/test_test.h5...done
+  4%|▍         | 1/25 [00:46<18:43, 46.79s/it]Closing remaining open files:real_data_gen/fold0/added_comments/commons-beanutils-1.9.4/label_test.h5...donereal_data_gen/fold0/added_comments/commons-beanutils-1.9.4/code_test.h5...donereal_data_gen/fold0/added_comments/commons-beanutils-1.9.4/test_test.h5...done
+  8%|▊         | 2/25 [01:09<12:31, 32.67s/it]Closing remaining open files:real_data_gen/fold0/added_comments/async-http-client/label_test.h5...donereal_data_gen/fold0/added_comments/async-http-client/code_test.h5...donereal_data_gen/fold0/added_comments/async-http-client/test_test.h5...done
+ 12%|█▏        | 3/25 [01:24<09:00, 24.57s/it]Closing remaining open files:real_data_gen/fold0/added_comments/commons-numbers-1.0-src/label_test.h5...donereal_data_gen/fold0/added_comments/commons-numbers-1.0-src/code_test.h5...donereal_data_gen/fold0/added_comments/commons-numbers-1.0-src/test_test.h5...done
+ 16%|█▌        | 4/25 [05:33<39:33, 113.03s/it]Closing remaining open files:real_data_gen/fold0/added_comments/commons-weaver-2.0-src/label_test.h5...donereal_data_gen/fold0/added_comments/commons-weaver-2.0-src/code_test.h5...donereal_data_gen/fold0/added_comments/commons-weaver-2.0-src/test_test.h5...done
+ 20%|██        | 5/25 [05:48<25:53, 77.68s/it] Closing remaining open files:real_data_gen/fold0/added_comments/commons-net-3.8.0/label_test.h5...donereal_data_gen/fold0/added_comments/commons-net-3.8.0/code_test.h5...donereal_data_gen/fold0/added_comments/commons-net-3.8.0/test_test.h5...done
+ 24%|██▍       | 6/25 [06:20<19:43, 62.30s/it]Closing remaining open files:real_data_gen/fold0/added_comments/commons-jexl3-3.2.1-src/label_test.h5...donereal_data_gen/fold0/added_comments/commons-jexl3-3.2.1-src/code_test.h5...donereal_data_gen/fold0/added_comments/commons-jexl3-3.2.1-src/test_test.h5...done
+ 28%|██▊       | 7/25 [06:51<15:34, 51.89s/it]Closing remaining open files:real_data_gen/fold0/added_comments/joda-time/code_test.h5...donereal_data_gen/fold0/added_comments/joda-time/test_test.h5...donereal_data_gen/fold0/added_comments/joda-time/label_test.h5...done
+ 32%|███▏      | 8/25 [09:47<25:53, 91.40s/it]Closing remaining open files:real_data_gen/fold0/added_comments/commons-vfs-2.9.0/label_test.h5...donereal_data_gen/fold0/added_comments/commons-vfs-2.9.0/code_test.h5...donereal_data_gen/fold0/added_comments/commons-vfs-2.9.0/test_test.h5...done
+ 36%|███▌      | 9/25 [10:07<18:25, 69.12s/it]Closing remaining open files:real_data_gen/fold0/added_comments/commons-jcs3-3.1-src/label_test.h5...donereal_data_gen/fold0/added_comments/commons-jcs3-3.1-src/code_test.h5...donereal_data_gen/fold0/added_comments/commons-jcs3-3.1-src/test_test.h5...done
+ 40%|████      | 10/25 [10:46<15:01, 60.07s/it]Closing remaining open files:real_data_gen/fold0/added_comments/scribejava/code_test.h5...donereal_data_gen/fold0/added_comments/scribejava/test_test.h5...donereal_data_gen/fold0/added_comments/scribejava/label_test.h5...done
+ 44%|████▍     | 11/25 [11:00<10:43, 45.96s/it]Closing remaining open files:real_data_gen/fold0/added_comments/commons-collections4-4.4-src/code_test.h5...donereal_data_gen/fold0/added_comments/commons-collections4-4.4-src/label_test.h5...donereal_data_gen/fold0/added_comments/commons-collections4-4.4-src/test_test.h5...done
+ 48%|████▊     | 12/25 [11:22<08:22, 38.63s/it]Closing remaining open files:real_data_gen/fold0/added_comments/commons-rng-1.4-src/label_test.h5...donereal_data_gen/fold0/added_comments/commons-rng-1.4-src/code_test.h5...donereal_data_gen/fold0/added_comments/commons-rng-1.4-src/test_test.h5...done
+ 52%|█████▏    | 13/25 [11:45<06:45, 33.77s/it]Closing remaining open files:real_data_gen/fold0/added_comments/jsoup/code_test.h5...donereal_data_gen/fold0/added_comments/jsoup/test_test.h5...donereal_data_gen/fold0/added_comments/jsoup/label_test.h5...done
+ 56%|█████▌    | 14/25 [12:45<07:39, 41.75s/it]Closing remaining open files:real_data_gen/fold0/added_comments/http-request/label_test.h5...donereal_data_gen/fold0/added_comments/http-request/code_test.h5...donereal_data_gen/fold0/added_comments/http-request/test_test.h5...done
+ 60%|██████    | 15/25 [13:23<06:46, 40.68s/it]Closing remaining open files:real_data_gen/fold0/added_comments/springside4/code_test.h5...donereal_data_gen/fold0/added_comments/springside4/test_test.h5...donereal_data_gen/fold0/added_comments/springside4/label_test.h5...done
+ 64%|██████▍   | 16/25 [13:51<05:31, 36.87s/it]Closing remaining open files:real_data_gen/fold0/added_comments/commons-imaging-1.0-alpha3-src/code_test.h5...donereal_data_gen/fold0/added_comments/commons-imaging-1.0-alpha3-src/label_test.h5...donereal_data_gen/fold0/added_comments/commons-imaging-1.0-alpha3-src/test_test.h5...done
+ 68%|██████▊   | 17/25 [14:22<04:40, 35.02s/it]Closing remaining open files:real_data_gen/fold0/added_comments/commons-lang3-3.12.0-src/code_test.h5...donereal_data_gen/fold0/added_comments/commons-lang3-3.12.0-src/label_test.h5...donereal_data_gen/fold0/added_comments/commons-lang3-3.12.0-src/test_test.h5...done
+ 72%|███████▏  | 18/25 [15:47<05:50, 50.00s/it]Closing remaining open files:real_data_gen/fold0/added_comments/bcel-6.5.0-src/label_test.h5...donereal_data_gen/fold0/added_comments/bcel-6.5.0-src/code_test.h5...donereal_data_gen/fold0/added_comments/bcel-6.5.0-src/test_test.h5...done
+ 76%|███████▌  | 19/25 [17:32<06:39, 66.55s/it]Closing remaining open files:real_data_gen/fold0/added_comments/JSON-java/code_test.h5...donereal_data_gen/fold0/added_comments/JSON-java/test_test.h5...donereal_data_gen/fold0/added_comments/JSON-java/label_test.h5...done
+ 80%|████████  | 20/25 [19:02<06:07, 73.56s/it]Closing remaining open files:real_data_gen/fold0/added_comments/commons-configuration2-2.8.0-src/label_test.h5...donereal_data_gen/fold0/added_comments/commons-configuration2-2.8.0-src/code_test.h5...donereal_data_gen/fold0/added_comments/commons-configuration2-2.8.0-src/test_test.h5...done
+ 84%|████████▍ | 21/25 [19:24<03:51, 57.99s/it]Closing remaining open files:real_data_gen/fold0/added_comments/commons-validator-1.7/label_test.h5...donereal_data_gen/fold0/added_comments/commons-validator-1.7/code_test.h5...donereal_data_gen/fold0/added_comments/commons-validator-1.7/test_test.h5...done
+ 88%|████████▊ | 22/25 [19:52<02:27, 49.02s/it]Closing remaining open files:real_data_gen/fold0/added_comments/commons-pool2-2.11.1-src/code_test.h5...donereal_data_gen/fold0/added_comments/commons-pool2-2.11.1-src/label_test.h5...donereal_data_gen/fold0/added_comments/commons-pool2-2.11.1-src/test_test.h5...done
+ 92%|█████████▏| 23/25 [21:11<01:56, 58.17s/it]Closing remaining open files:real_data_gen/fold0/added_comments/commons-dbutils-1.7/label_test.h5...donereal_data_gen/fold0/added_comments/commons-dbutils-1.7/code_test.h5...donereal_data_gen/fold0/added_comments/commons-dbutils-1.7/test_test.h5...done
+ 96%|█████████▌| 24/25 [21:29<00:46, 46.14s/it]Closing remaining open files:real_data_gen/fold0/added_comments/spark/code_test.h5...donereal_data_gen/fold0/added_comments/spark/test_test.h5...donereal_data_gen/fold0/added_comments/spark/label_test.h5...done
+100%|██████████| 25/25 [22:13<00:00, 45.54s/it]100%|██████████| 25/25 [22:13<00:00, 53.36s/it]
+  0%|          | 0/5 [00:00<?, ?it/s]
+  0%|          | 0/25 [00:00<?, ?it/s][A
+  4%|▍         | 1/25 [00:00<00:09,  2.45it/s][A
+  8%|▊         | 2/25 [00:00<00:08,  2.62it/s][A
+ 12%|█▏        | 3/25 [00:01<00:07,  2.91it/s][A
+ 16%|█▌        | 4/25 [00:02<00:14,  1.41it/s][A
+ 20%|██        | 5/25 [00:02<00:11,  1.77it/s][A
+ 24%|██▍       | 6/25 [00:03<00:09,  1.99it/s][A
+ 28%|██▊       | 7/25 [00:03<00:08,  2.18it/s][A
+ 32%|███▏      | 8/25 [00:04<00:10,  1.58it/s][A
+ 36%|███▌      | 9/25 [00:04<00:08,  1.86it/s][A
+ 40%|████      | 10/25 [00:05<00:07,  2.03it/s][A
+ 44%|████▍     | 11/25 [00:05<00:06,  2.25it/s][A
+ 48%|████▊     | 12/25 [00:05<00:05,  2.53it/s][A
+ 52%|█████▏    | 13/25 [00:06<00:04,  2.63it/s][A
+ 56%|█████▌    | 14/25 [00:06<00:04,  2.50it/s][A
+ 60%|██████    | 15/25 [00:06<00:03,  2.77it/s][A
+ 64%|██████▍   | 16/25 [00:07<00:03,  2.80it/s][A
+ 68%|██████▊   | 17/25 [00:07<00:02,  2.80it/s][A
+ 72%|███████▏  | 18/25 [00:08<00:02,  2.50it/s][A
+ 76%|███████▌  | 19/25 [00:08<00:02,  2.07it/s][A
+ 80%|████████  | 20/25 [00:09<00:02,  2.14it/s][A
+ 84%|████████▍ | 21/25 [00:09<00:01,  2.35it/s][A
+ 88%|████████▊ | 22/25 [00:09<00:01,  2.58it/s][A
+ 92%|█████████▏| 23/25 [00:10<00:00,  2.59it/s][A
+ 96%|█████████▌| 24/25 [00:10<00:00,  2.84it/s][A
+100%|██████████| 25/25 [00:10<00:00,  2.95it/s][A
+                                               [A 20%|██        | 1/5 [00:14<00:56, 14.02s/it]
+  0%|          | 0/25 [00:00<?, ?it/s][A
+  4%|▍         | 1/25 [00:00<00:10,  2.22it/s][A
+  8%|▊         | 2/25 [00:00<00:09,  2.42it/s][A
+ 12%|█▏        | 3/25 [00:01<00:07,  2.78it/s][A
+ 16%|█▌        | 4/25 [00:02<00:14,  1.42it/s][A
+ 20%|██        | 5/25 [00:02<00:11,  1.79it/s][A
+ 24%|██▍       | 6/25 [00:03<00:10,  1.89it/s][A
+ 28%|██▊       | 7/25 [00:03<00:08,  2.12it/s][A
+ 32%|███▏      | 8/25 [00:04<00:09,  1.82it/s][A
+ 36%|███▌      | 9/25 [00:04<00:07,  2.12it/s][A
+ 40%|████      | 10/25 [00:04<00:06,  2.31it/s][A
+ 44%|████▍     | 11/25 [00:05<00:05,  2.51it/s][A
+ 48%|████▊     | 12/25 [00:05<00:04,  2.82it/s][A
+ 52%|█████▏    | 13/25 [00:05<00:04,  2.86it/s][A
+ 56%|█████▌    | 14/25 [00:06<00:04,  2.60it/s][A
+ 60%|██████    | 15/25 [00:06<00:03,  2.84it/s][A
+ 64%|██████▍   | 16/25 [00:06<00:03,  2.88it/s][A
+ 68%|██████▊   | 17/25 [00:07<00:02,  2.88it/s][A
+ 72%|███████▏  | 18/25 [00:07<00:02,  2.55it/s][A
+ 76%|███████▌  | 19/25 [00:08<00:02,  2.15it/s][A
+ 80%|████████  | 20/25 [00:08<00:02,  2.30it/s][A
+ 84%|████████▍ | 21/25 [00:09<00:01,  2.49it/s][A
+ 88%|████████▊ | 22/25 [00:09<00:01,  2.72it/s][A
+ 92%|█████████▏| 23/25 [00:09<00:00,  2.86it/s][A
+ 96%|█████████▌| 24/25 [00:09<00:00,  3.06it/s][A
+100%|██████████| 25/25 [00:10<00:00,  3.13it/s][A
+                                               [A 40%|████      | 2/5 [00:27<00:41, 13.69s/it]
+  0%|          | 0/25 [00:00<?, ?it/s][A
+  4%|▍         | 1/25 [00:00<00:05,  4.61it/s][A
+  8%|▊         | 2/25 [00:00<00:06,  3.55it/s][A
+ 12%|█▏        | 3/25 [00:01<00:09,  2.25it/s][A
+ 16%|█▌        | 4/25 [00:01<00:08,  2.34it/s][A
+ 20%|██        | 5/25 [00:01<00:07,  2.59it/s][A
+ 24%|██▍       | 6/25 [00:02<00:06,  2.98it/s][A
+ 28%|██▊       | 7/25 [00:02<00:05,  3.23it/s][A
+ 32%|███▏      | 8/25 [00:02<00:05,  3.27it/s][A
+ 36%|███▌      | 9/25 [00:02<00:04,  3.60it/s][A
+ 40%|████      | 10/25 [00:03<00:03,  3.79it/s][A
+ 44%|████▍     | 11/25 [00:03<00:04,  3.37it/s][A
+ 48%|████▊     | 12/25 [00:03<00:04,  3.12it/s][A
+ 52%|█████▏    | 13/25 [00:04<00:03,  3.24it/s][A
+ 56%|█████▌    | 14/25 [00:04<00:03,  3.45it/s][A
+ 60%|██████    | 15/25 [00:04<00:02,  3.73it/s][A
+ 64%|██████▍   | 16/25 [00:04<00:02,  3.82it/s][A
+ 68%|██████▊   | 17/25 [00:05<00:02,  3.84it/s][A
+ 72%|███████▏  | 18/25 [00:05<00:01,  3.65it/s][A
+ 76%|███████▌  | 19/25 [00:05<00:01,  3.84it/s][A
+ 80%|████████  | 20/25 [00:05<00:01,  3.91it/s][A
+ 84%|████████▍ | 21/25 [00:06<00:01,  3.69it/s][A
+ 88%|████████▊ | 22/25 [00:06<00:00,  3.99it/s][A
+ 92%|█████████▏| 23/25 [00:06<00:00,  4.30it/s][A
+ 96%|█████████▌| 24/25 [00:07<00:00,  3.53it/s][A
+100%|██████████| 25/25 [00:07<00:00,  3.55it/s][A
+                                               [A 60%|██████    | 3/5 [00:38<00:24, 12.24s/it]
+  0%|          | 0/25 [00:00<?, ?it/s][A
+ 16%|█▌        | 4/25 [00:00<00:01, 14.88it/s][A
+ 24%|██▍       | 6/25 [00:00<00:03,  5.89it/s][A
+ 32%|███▏      | 8/25 [00:01<00:02,  5.91it/s][A
+ 40%|████      | 10/25 [00:01<00:03,  4.56it/s][A
+ 52%|█████▏    | 13/25 [00:02<00:02,  4.03it/s][A
+ 56%|█████▌    | 14/25 [00:02<00:02,  4.05it/s][A
+ 64%|██████▍   | 16/25 [00:04<00:03,  2.50it/s][A
+ 72%|███████▏  | 18/25 [00:04<00:02,  3.25it/s][A
+ 76%|███████▌  | 19/25 [00:06<00:03,  1.81it/s][A
+ 80%|████████  | 20/25 [00:06<00:02,  2.03it/s][A
+ 84%|████████▍ | 21/25 [00:07<00:02,  1.64it/s][A
+ 88%|████████▊ | 22/25 [00:07<00:01,  1.80it/s][A
+                                               [A 80%|████████  | 4/5 [00:49<00:11, 11.85s/it]
+  0%|          | 0/25 [00:00<?, ?it/s][A
+ 16%|█▌        | 4/25 [00:00<00:02,  7.99it/s][A
+ 32%|███▏      | 8/25 [00:00<00:02,  8.40it/s][A
+ 56%|█████▌    | 14/25 [00:01<00:01,  9.48it/s][A
+ 72%|███████▏  | 18/25 [00:01<00:00,  9.78it/s][A
+                                               [A100%|██████████| 5/5 [00:54<00:00,  9.55s/it]100%|██████████| 5/5 [00:54<00:00, 10.95s/it]
+  0%|          | 0/5 [00:00<?, ?it/s]
+  0%|          | 0/25 [00:00<?, ?it/s][A
+  4%|▍         | 1/25 [00:00<00:09,  2.47it/s][A
+  8%|▊         | 2/25 [00:00<00:08,  2.62it/s][A
+ 12%|█▏        | 3/25 [00:01<00:07,  2.92it/s][A
+ 16%|█▌        | 4/25 [00:02<00:14,  1.42it/s][A
+ 20%|██        | 5/25 [00:02<00:11,  1.78it/s][A
+ 24%|██▍       | 6/25 [00:03<00:09,  2.00it/s][A
+ 28%|██▊       | 7/25 [00:03<00:08,  2.19it/s][A
+ 32%|███▏      | 8/25 [00:04<00:10,  1.58it/s][A
+ 36%|███▌      | 9/25 [00:04<00:08,  1.87it/s][A
+ 40%|████      | 10/25 [00:05<00:07,  2.03it/s][A
+ 44%|████▍     | 11/25 [00:05<00:06,  2.26it/s][A
+ 48%|████▊     | 12/25 [00:05<00:05,  2.53it/s][A
+ 52%|█████▏    | 13/25 [00:06<00:04,  2.63it/s][A
+ 56%|█████▌    | 14/25 [00:06<00:04,  2.50it/s][A
+ 60%|██████    | 15/25 [00:06<00:03,  2.75it/s][A
+ 64%|██████▍   | 16/25 [00:07<00:03,  2.79it/s][A
+ 68%|██████▊   | 17/25 [00:07<00:02,  2.83it/s][A
+ 72%|███████▏  | 18/25 [00:07<00:02,  2.52it/s][A
+ 76%|███████▌  | 19/25 [00:08<00:02,  2.07it/s][A
+ 80%|████████  | 20/25 [00:09<00:02,  2.10it/s][A
+ 84%|████████▍ | 21/25 [00:09<00:01,  2.33it/s][A
+ 88%|████████▊ | 22/25 [00:09<00:01,  2.57it/s][A
+ 92%|█████████▏| 23/25 [00:10<00:00,  2.59it/s][A
+ 96%|█████████▌| 24/25 [00:10<00:00,  2.82it/s][A
+100%|██████████| 25/25 [00:10<00:00,  2.94it/s][A
+                                               [A 20%|██        | 1/5 [00:14<00:56, 14.01s/it]
+  0%|          | 0/25 [00:00<?, ?it/s][A
+  4%|▍         | 1/25 [00:00<00:11,  2.16it/s][A
+  8%|▊         | 2/25 [00:00<00:09,  2.49it/s][A
+ 12%|█▏        | 3/25 [00:01<00:07,  2.84it/s][A
+ 16%|█▌        | 4/25 [00:02<00:14,  1.42it/s][A
+ 20%|██        | 5/25 [00:02<00:11,  1.79it/s][A
+ 24%|██▍       | 6/25 [00:03<00:10,  1.90it/s][A
+ 28%|██▊       | 7/25 [00:03<00:08,  2.12it/s][A
+ 32%|███▏      | 8/25 [00:04<00:09,  1.81it/s][A
+ 36%|███▌      | 9/25 [00:04<00:07,  2.11it/s][A
+ 40%|████      | 10/25 [00:04<00:06,  2.22it/s][A
+ 44%|████▍     | 11/25 [00:05<00:05,  2.36it/s][A
+ 48%|████▊     | 12/25 [00:05<00:04,  2.63it/s][A
+ 52%|█████▏    | 13/25 [00:05<00:04,  2.69it/s][A
+ 56%|█████▌    | 14/25 [00:06<00:04,  2.54it/s][A
+ 60%|██████    | 15/25 [00:06<00:03,  2.81it/s][A
+ 64%|██████▍   | 16/25 [00:06<00:03,  2.87it/s][A
+ 68%|██████▊   | 17/25 [00:07<00:02,  2.86it/s][A
+ 72%|███████▏  | 18/25 [00:07<00:02,  2.54it/s][A
+ 76%|███████▌  | 19/25 [00:08<00:02,  2.14it/s][A
+ 80%|████████  | 20/25 [00:08<00:02,  2.29it/s][A
+ 84%|████████▍ | 21/25 [00:09<00:01,  2.48it/s][A
+ 88%|████████▊ | 22/25 [00:09<00:01,  2.71it/s][A
+ 92%|█████████▏| 23/25 [00:09<00:00,  2.85it/s][A
+ 96%|█████████▌| 24/25 [00:09<00:00,  3.05it/s][A
+100%|██████████| 25/25 [00:10<00:00,  3.12it/s][A
+                                               [A 40%|████      | 2/5 [00:27<00:41, 13.78s/it]
+  0%|          | 0/25 [00:00<?, ?it/s][A
+  4%|▍         | 1/25 [00:00<00:05,  4.47it/s][A
+  8%|▊         | 2/25 [00:00<00:06,  3.66it/s][A
+ 12%|█▏        | 3/25 [00:01<00:09,  2.33it/s][A
+ 16%|█▌        | 4/25 [00:01<00:08,  2.39it/s][A
+ 20%|██        | 5/25 [00:01<00:07,  2.67it/s][A
+ 24%|██▍       | 6/25 [00:02<00:06,  3.05it/s][A
+ 28%|██▊       | 7/25 [00:02<00:05,  3.29it/s][A
+ 32%|███▏      | 8/25 [00:02<00:05,  3.32it/s][A
+ 36%|███▌      | 9/25 [00:02<00:04,  3.63it/s][A
+ 40%|████      | 10/25 [00:03<00:03,  3.82it/s][A
+ 44%|████▍     | 11/25 [00:03<00:04,  3.27it/s][A
+ 48%|████▊     | 12/25 [00:03<00:04,  3.06it/s][A
+ 52%|█████▏    | 13/25 [00:04<00:03,  3.27it/s][A
+ 56%|█████▌    | 14/25 [00:04<00:03,  3.48it/s][A
+ 60%|██████    | 15/25 [00:04<00:02,  3.90it/s][A
+ 64%|██████▍   | 16/25 [00:04<00:02,  3.93it/s][A
+ 68%|██████▊   | 17/25 [00:05<00:02,  3.90it/s][A
+ 72%|███████▏  | 18/25 [00:05<00:01,  3.66it/s][A
+ 76%|███████▌  | 19/25 [00:05<00:01,  3.84it/s][A
+ 80%|████████  | 20/25 [00:05<00:01,  3.90it/s][A
+ 84%|████████▍ | 21/25 [00:06<00:01,  3.68it/s][A
+ 88%|████████▊ | 22/25 [00:06<00:00,  3.98it/s][A
+ 92%|█████████▏| 23/25 [00:06<00:00,  4.30it/s][A
+ 96%|█████████▌| 24/25 [00:06<00:00,  3.54it/s][A
+100%|██████████| 25/25 [00:07<00:00,  3.55it/s][A
+                                               [A 60%|██████    | 3/5 [00:38<00:24, 12.26s/it]
+  0%|          | 0/25 [00:00<?, ?it/s][A
+ 16%|█▌        | 4/25 [00:00<00:01, 15.14it/s][A
+ 24%|██▍       | 6/25 [00:00<00:03,  5.90it/s][A
+ 32%|███▏      | 8/25 [00:01<00:02,  5.88it/s][A
+ 40%|████      | 10/25 [00:01<00:03,  4.56it/s][A
+ 52%|█████▏    | 13/25 [00:02<00:02,  4.05it/s][A
+ 56%|█████▌    | 14/25 [00:02<00:02,  4.06it/s][A
+ 64%|██████▍   | 16/25 [00:04<00:03,  2.51it/s][A
+ 72%|███████▏  | 18/25 [00:04<00:02,  3.27it/s][A
+ 76%|███████▌  | 19/25 [00:06<00:03,  1.84it/s][A
+ 80%|████████  | 20/25 [00:06<00:02,  2.05it/s][A
+ 84%|████████▍ | 21/25 [00:07<00:02,  1.66it/s][A
+ 88%|████████▊ | 22/25 [00:07<00:01,  1.81it/s][A
+                                               [A 80%|████████  | 4/5 [00:49<00:11, 11.84s/it]
+  0%|          | 0/25 [00:00<?, ?it/s][A
+ 16%|█▌        | 4/25 [00:00<00:02,  8.10it/s][A
+ 32%|███▏      | 8/25 [00:00<00:02,  8.46it/s][A
+ 56%|█████▌    | 14/25 [00:01<00:01,  9.45it/s][A
+ 72%|███████▏  | 18/25 [00:01<00:00,  9.74it/s][A
+                                               [A100%|██████████| 5/5 [00:54<00:00,  9.55s/it]100%|██████████| 5/5 [00:54<00:00, 10.95s/it]
+  0%|          | 0/5 [00:00<?, ?it/s]
+  0%|          | 0/25 [00:00<?, ?it/s][A
+  4%|▍         | 1/25 [00:00<00:09,  2.46it/s][A
+  8%|▊         | 2/25 [00:00<00:08,  2.61it/s][A
+ 12%|█▏        | 3/25 [00:01<00:07,  2.91it/s][A
+ 16%|█▌        | 4/25 [00:02<00:14,  1.41it/s][A
+ 20%|██        | 5/25 [00:02<00:11,  1.77it/s][A
+ 24%|██▍       | 6/25 [00:03<00:09,  2.00it/s][A
+ 28%|██▊       | 7/25 [00:03<00:08,  2.18it/s][A
+ 32%|███▏      | 8/25 [00:04<00:10,  1.58it/s][A
+ 36%|███▌      | 9/25 [00:04<00:08,  1.87it/s][A
+ 40%|████      | 10/25 [00:05<00:07,  2.03it/s][A
+ 44%|████▍     | 11/25 [00:05<00:06,  2.25it/s][A
+ 48%|████▊     | 12/25 [00:05<00:05,  2.53it/s][A
+ 52%|█████▏    | 13/25 [00:06<00:04,  2.62it/s][A
+ 56%|█████▌    | 14/25 [00:06<00:04,  2.49it/s][A
+ 60%|██████    | 15/25 [00:06<00:03,  2.76it/s][A
+ 64%|██████▍   | 16/25 [00:07<00:03,  2.79it/s][A
+ 68%|██████▊   | 17/25 [00:07<00:02,  2.82it/s][A
+ 72%|███████▏  | 18/25 [00:08<00:02,  2.52it/s][A
+ 76%|███████▌  | 19/25 [00:08<00:02,  2.07it/s][A
+ 80%|████████  | 20/25 [00:09<00:02,  2.14it/s][A
+ 84%|████████▍ | 21/25 [00:09<00:01,  2.36it/s][A
+ 88%|████████▊ | 22/25 [00:09<00:01,  2.59it/s][A
+ 92%|█████████▏| 23/25 [00:10<00:00,  2.59it/s][A
+ 96%|█████████▌| 24/25 [00:10<00:00,  2.80it/s][A
+100%|██████████| 25/25 [00:10<00:00,  2.92it/s][A
+                                               [A 20%|██        | 1/5 [00:13<00:55, 14.00s/it]
+  0%|          | 0/25 [00:00<?, ?it/s][A
+  4%|▍         | 1/25 [00:00<00:08,  2.68it/s][A
+  8%|▊         | 2/25 [00:00<00:08,  2.58it/s][A
+ 12%|█▏        | 3/25 [00:01<00:07,  2.81it/s][A
+ 16%|█▌        | 4/25 [00:02<00:14,  1.42it/s][A
+ 20%|██        | 5/25 [00:02<00:11,  1.79it/s][A
+ 24%|██▍       | 6/25 [00:03<00:09,  1.92it/s][A
+ 28%|██▊       | 7/25 [00:03<00:08,  2.16it/s][A
+ 32%|███▏      | 8/25 [00:04<00:08,  1.89it/s][A
+ 36%|███▌      | 9/25 [00:04<00:07,  2.20it/s][A
+ 40%|████      | 10/25 [00:04<00:06,  2.43it/s][A
+ 44%|████▍     | 11/25 [00:05<00:05,  2.59it/s][A
+ 48%|████▊     | 12/25 [00:05<00:04,  2.89it/s][A
+ 52%|█████▏    | 13/25 [00:05<00:04,  2.90it/s][A
+ 56%|█████▌    | 14/25 [00:06<00:04,  2.69it/s][A
+ 60%|██████    | 15/25 [00:06<00:03,  2.91it/s][A
+ 64%|██████▍   | 16/25 [00:06<00:03,  2.81it/s][A
+ 68%|██████▊   | 17/25 [00:07<00:02,  2.80it/s][A
+ 72%|███████▏  | 18/25 [00:07<00:02,  2.53it/s][A
+ 76%|███████▌  | 19/25 [00:08<00:02,  2.27it/s][A
+ 80%|████████  | 20/25 [00:08<00:02,  2.26it/s][A
+ 84%|████████▍ | 21/25 [00:08<00:01,  2.48it/s][A
+ 88%|████████▊ | 22/25 [00:09<00:01,  2.65it/s][A
+ 92%|█████████▏| 23/25 [00:09<00:00,  2.92it/s][A
+ 96%|█████████▌| 24/25 [00:09<00:00,  3.16it/s][A
+100%|██████████| 25/25 [00:09<00:00,  3.24it/s][A
+                                               [A 40%|████      | 2/5 [00:27<00:40, 13.57s/it]
+  0%|          | 0/25 [00:00<?, ?it/s][A
+  4%|▍         | 1/25 [00:00<00:05,  4.43it/s][A
+  8%|▊         | 2/25 [00:00<00:06,  3.52it/s][A
+ 16%|█▌        | 4/25 [00:00<00:04,  5.19it/s][A
+ 20%|██        | 5/25 [00:01<00:05,  3.89it/s][A
+ 24%|██▍       | 6/25 [00:01<00:04,  4.08it/s][A
+ 28%|██▊       | 7/25 [00:01<00:04,  3.77it/s][A
+ 32%|███▏      | 8/25 [00:02<00:04,  3.67it/s][A
+ 36%|███▌      | 9/25 [00:02<00:04,  3.51it/s][A
+ 40%|████      | 10/25 [00:02<00:04,  3.59it/s][A
+ 44%|████▍     | 11/25 [00:03<00:05,  2.47it/s][A
+ 52%|█████▏    | 13/25 [00:03<00:03,  3.52it/s][A
+ 56%|█████▌    | 14/25 [00:03<00:02,  3.70it/s][A
+ 60%|██████    | 15/25 [00:04<00:02,  3.63it/s][A
+ 64%|██████▍   | 16/25 [00:04<00:02,  3.64it/s][A
+ 68%|██████▊   | 17/25 [00:04<00:02,  2.94it/s][A
+ 72%|███████▏  | 18/25 [00:05<00:02,  3.22it/s][A
+ 76%|███████▌  | 19/25 [00:05<00:01,  3.56it/s][A
+ 80%|████████  | 20/25 [00:05<00:01,  3.62it/s][A
+ 84%|████████▍ | 21/25 [00:05<00:01,  3.39it/s][A
+ 88%|████████▊ | 22/25 [00:06<00:00,  3.80it/s][A
+ 92%|█████████▏| 23/25 [00:06<00:00,  4.14it/s][A
+100%|██████████| 25/25 [00:06<00:00,  5.08it/s][A
+                                               [A 60%|██████    | 3/5 [00:37<00:23, 11.87s/it]
+  0%|          | 0/25 [00:00<?, ?it/s][A
+ 16%|█▌        | 4/25 [00:00<00:02,  9.43it/s][A
+ 32%|███▏      | 8/25 [00:01<00:02,  7.57it/s][A
+ 56%|█████▌    | 14/25 [00:01<00:01,  7.44it/s][A
+ 72%|███████▏  | 18/25 [00:02<00:01,  6.13it/s][A
+ 80%|████████  | 20/25 [00:03<00:00,  5.99it/s][A
+                                               [A 80%|████████  | 4/5 [00:43<00:09,  9.88s/it]
+  0%|          | 0/25 [00:00<?, ?it/s][A
+ 28%|██▊       | 7/25 [00:00<00:00, 64.95it/s][A
+ 56%|█████▌    | 14/25 [00:00<00:00, 15.64it/s][A
+ 88%|████████▊ | 22/25 [00:00<00:00, 25.43it/s][A
+                                               [A100%|██████████| 5/5 [00:50<00:00,  8.53s/it]100%|██████████| 5/5 [00:50<00:00, 10.02s/it]
