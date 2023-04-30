@@ -24,8 +24,8 @@ if __name__ == "__main__":
                 for project in tqdm(projects):
                     os.system(f"python3 ./learning/test.py --project {project} --comment_type {comment_type}")
                     generate_results(result_path=f"./real_data_gen/fold0/{comment_type}/{project}/")
-                combine_project_data(projects=projects)
-                calculate_overall_metrics(projects=projects)
+                combine_project_data(projects=projects, comment_type=comment_type)
+                calculate_overall_metrics(projects=projects, comment_type=comment_type)
                 generate_results(result_path=f"./real_data_gen/fold0/")
 
         elif sys.argv[1] == "reproduction":

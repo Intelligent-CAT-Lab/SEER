@@ -185,9 +185,9 @@ def generate_results_data(project, path, valid_ind):
     return results_project
 
 
-def calculate_overall_metrics(projects, thresholds=[1.0, 0.50, 0.25, 0.10, 0.05]):
+def calculate_overall_metrics(projects, comment_type="no_comments", thresholds=[1.0, 0.50, 0.25, 0.10, 0.05]):
 
-    path = "./real_data_gen/fold0"
+    path = f"./real_data_gen/fold0/{comment_type}"
 
     # Vocab analysis
     print("Creating final results for each threshold value...")
