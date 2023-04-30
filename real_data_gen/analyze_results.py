@@ -2,7 +2,7 @@ import csv
 
 
 def generate_results(
-    result_path="./real_data_gen/fold0/",
+    result_path="./real_data_gen/fold0/no_comments/",
     classifier_filename="test_stats.csv",
     write_filename="results.txt",
 ):

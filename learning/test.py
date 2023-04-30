@@ -17,22 +17,19 @@ def load_dict(filename):
 
 
 def test(args):
-    print(args.project)
     if args.project == '':
-        data_path = args.data_path
+        data_path = args.data_path + args.comment_type + '/'
     else:
-        data_path = args.data_path + args.project + '/'
+        data_path = args.data_path + args.comment_type + '/' + args.project + '/'
         print(data_path)
     test_set = TestOracleDatasetPhase2(args.model, data_path, 'code_test.h5', 1624, 'test_test.h5', 1624, 'label_test.h5')
     data_loader = torch.utils.data.DataLoader(dataset=test_set, batch_size=1, shuffle=False, num_workers=1)
 
     device = torch.device(f"cuda:{args.gpu_id}" if torch.cuda.is_available() else "cpu")
-    # device = torch.device("cpu")
     config=getattr(configs, 'configs')()
 
     model = getattr(models, args.model)(config)
     if args.reload_from>0:
-        # ckpt_path = f'./output/{args.model}/{args.dataset}/{args.timestamp}/models/epoch_{args.reload_from}_fold_{args.fold}.h5'
         ckpt_path = f'./output/epoch_{args.reload_from}_fold_{args.fold}.h5'
         model.load_state_dict(torch.load(ckpt_path, map_location=device))
         print('reloaded model')
@@ -64,22 +61,15 @@ def test(args):
             failing_tensor_dict[k] = temp_dict
             k += 1
 
-    json_object = json.dumps(failing_tensor_dict, indent=4)
-
-    with open(f"{data_path}failing_tensors{args.project}.json", "w") as outfile:
-        outfile.write(json_object)
+    if len(failing_tensor_dict) > 0:
+        json_object = json.dumps(failing_tensor_dict, indent=4)
+        with open(f"{data_path}failing_tensors{args.project}.json", "w") as outfile:
+            outfile.write(json_object)
             
 
-        elapsed_time = time.time() - start_time
-        elapsed_times.append(elapsed_time)
-        start_time = time.time()
-    # now = time.strftime("%Y-%m-%d-%H_%M_%S",time.localtime(time.time()))
-    # with open(f'./{args.data_path}/{now}test_stats.csv', 'w') as f_object:
-    #     dictwriter_object = DictWriter(f_object, fieldnames=['Predicted Label', 'Actual Label'])
-    #     dictwriter_object.writerow({'Predicted Label': 'Predicted Label', 'Actual Label': 'Actual Label'})
-    #     for i in range(len(predictions)):
-    #         dictwriter_object.writerow({'Predicted Label': predictions[i], 'Actual Label': actuals[i]})
-    #     f_object.close()
+    elapsed_time = time.time() - start_time
+    elapsed_times.append(elapsed_time)
+    start_time = time.time()
 
     with open(f'./{data_path}/test_stats.csv', 'w') as f_object:
         dictwriter_object = DictWriter(f_object, fieldnames=['Predicted Label', 'Actual Label'])
@@ -101,6 +91,7 @@ def parse_args():
     parser.add_argument('--fold', type=int, default=1, help='fold to test from')
     parser.add_argument('--reload_from', type=int, default=29, help='step to reload from')
     parser.add_argument('--project', type=str, default='', help='project name')
+    parser.add_argument('--comment_type', type=str, default='no_comment', help='Whether or not comments are included. Options: no_comments, added_comments, comments')
     return parser.parse_args()
 
 

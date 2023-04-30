@@ -18,8 +18,8 @@ calc_pass_rate = lambda df: np.round((df["tp"] + df["fn"]) / df["N"], 4) if df["
 calc_fail_rate = lambda df: np.round((df["tn"] + df["fp"]) / df["N"], 4) if df["N"] > 0 else 0
 
 
-def combine_project_data(projects):
-    path = "./real_data_gen/fold0"
+def combine_project_data(projects, comment_type):
+    path = f"./real_data_gen/fold0/{comment_type}"
 
     # Combining all the test_stats.csv files into one for subsequent analysis
     open(f"{path}/test_stats.csv", "w").close()
