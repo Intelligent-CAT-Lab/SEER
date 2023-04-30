@@ -52,10 +52,11 @@ if __name__ == "__main__":
                     write_filename=f"results_{string}.txt",
                 )
         elif sys.argv[1] == "reproduction":
-            generate_results(
-                result_path="./scripts/data/",
-                classifier_filename="phase2_combined.csv",
-                write_filename="results_combined.txt",
-            )
+            for val in ["whole", "combined", "unseen"]:
+                generate_results(
+                    result_path="./real_data_gen/seer_data/",
+                    classifier_filename=f"phase2_{val}.csv",
+                    write_filename=f"results_{val}.txt",
+                )
         else:
             print("Invalid argument.")

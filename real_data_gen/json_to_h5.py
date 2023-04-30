@@ -34,10 +34,14 @@ def json_to_h5(type, fold, model, project=""):
     test_h5 = tb.open_file(f"{fold_path}/test_{type}.h5", mode="w")
     label_h5 = tb.open_file(f"{fold_path}/label_{type}.h5", mode="w")
 
-    code_table = code_h5.create_table(code_h5.root, "indices", Particle, "a table of indices and lengths")
+    code_table = code_h5.create_table(
+        code_h5.root, "indices", Particle, "a table of indices and lengths"
+    )
     code_e_array = code_h5.create_earray(code_h5.root, "phrases", tb.Int64Atom(), (0,))
 
-    test_table = test_h5.create_table(test_h5.root, "indices", Particle, "a table of indices and lengths")
+    test_table = test_h5.create_table(
+        test_h5.root, "indices", Particle, "a table of indices and lengths"
+    )
     test_e_array = test_h5.create_earray(test_h5.root, "phrases", tb.Int64Atom(), (0,))
 
     label_e_array = label_h5.create_earray(label_h5.root, "labels", tb.Int8Atom(), (0,))

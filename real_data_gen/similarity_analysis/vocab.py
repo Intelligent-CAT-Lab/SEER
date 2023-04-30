@@ -90,7 +90,9 @@ for i in tqdm(range(len(common_projects_df))):
     phase2_name = common_projects_df.loc[i, "phase2"]
     triplets_name = common_projects_df.loc[i, "triplets"]
     with pd.option_context("mode.chained_assignment", None):
-        triplets_df = pd.read_json(f"../triplets/project_json/triplets_{triplets_name}.json", orient="index")
+        triplets_df = pd.read_json(
+            f"../triplets/project_json/triplets_{triplets_name}.json", orient="index"
+        )
         phase2_df = all_phase2[all_phase2["project"] == phase2_name]
         triplets_df.drop_duplicates(subset=["C"], inplace=True)
         phase2_df.drop_duplicates(subset=["C"], inplace=True)
@@ -98,7 +100,9 @@ for i in tqdm(range(len(common_projects_df))):
         common_projects_df.loc[i, "triplets_unique_count"] = len(triplets_df)
         common_projects_df.loc[i, "phase2_unique_count"] = len(phase2_df)
 
-        phase2_df["similarity"] = phase2_df.apply(lambda row: max_similar(triplets_df, row["C"]), axis=1)
+        phase2_df["similarity"] = phase2_df.apply(
+            lambda row: max_similar(triplets_df, row["C"]), axis=1
+        )
         phase2_df[["sim_score", "triplets_index"]] = pd.DataFrame(
             phase2_df["similarity"].tolist(), index=phase2_df.index
         )
@@ -106,6 +110,11 @@ for i in tqdm(range(len(common_projects_df))):
         phase2_df.drop(columns=["similarity"], inplace=True)
         phase2_df.sort_values(by=["sim_score"], ascending=False, inplace=True)
 
-        phase2_df[["sim_score", "triplets_index"]].to_csv(f"./similarity_{phase2_name}.csv")
+        phase2_df[["sim_score", "triplets_index"]].to_csv(
+            f"./similarity_{phase2_name}.csv"
+        )
 
-common_projects_df.to_csv("./similarity_unique_mut.csv")
+common_projects_df = common_projects_df.astype(
+    {"triplets_unique_count": "int32", "phase2_unique_count": "int32"}
+)
+common_projects_df.to_csv("./similarity_unique_mut.csv", index=False)
