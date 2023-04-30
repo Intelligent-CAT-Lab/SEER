@@ -66,6 +66,10 @@ print("Applying REGEX...")
 df_comments = apply_regex(df_comments)
 df_no_comments = apply_regex(df_no_comments)
 
+os.system(f"mkdir -p ./real_data_gen/triplets/comments")
+os.system(f"mkdir -p ./real_data_gen/triplets/no_comments")
+os.system(f"mkdir -p ./real_data_gen/triplets/added_comments")
+
 df_comments.to_json("./real_data_gen/triplets/comments/triplets.json", orient="index", indent=4)
 df_no_comments.to_json("./real_data_gen/triplets/no_comments/triplets.json", orient="index", indent=4)
 

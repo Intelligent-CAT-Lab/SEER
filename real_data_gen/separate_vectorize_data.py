@@ -9,7 +9,6 @@ if __name__ == "__main__":
     # Expect this to take ~15 minutes to run
     for comment_type in comment_types:
 
-        os.system(f"mkdir -p ./real_data_gen/triplets/{comment_type}")
         df = pd.read_json(f"./real_data_gen/triplets/{comment_type}/triplets.json", orient="index")
         projects = list(df["project"].unique())
 
