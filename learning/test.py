@@ -91,7 +91,7 @@ def parse_args():
     parser.add_argument('--fold', type=int, default=1, help='fold to test from')
     parser.add_argument('--reload_from', type=int, default=29, help='step to reload from')
     parser.add_argument('--project', type=str, default='', help='project name')
-    parser.add_argument('--comment_type', type=str, default='no_comment', help='Whether or not comments are included. Options: no_comments, added_comments, comments')
+    parser.add_argument('--comment_type', type=str, default='no_comments', help='Whether or not comments are included. Options: no_comments, added_comments, comments')
     return parser.parse_args()
 
 
