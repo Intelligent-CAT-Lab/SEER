@@ -2,9 +2,9 @@
     "0": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 90,
+        "C_tokens": 75,
         "T_tokens": 38,
-        "C_tokens_fail": 25,
+        "C_tokens_fail": 15,
         "T_tokens_fail": 23
     },
     "1": {
@@ -26,73 +26,73 @@
     "3": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 90,
-        "T_tokens": 28,
-        "C_tokens_fail": 25,
-        "T_tokens_fail": 14
+        "C_tokens": 75,
+        "T_tokens": 25,
+        "C_tokens_fail": 15,
+        "T_tokens_fail": 11
     },
     "4": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 90,
-        "T_tokens": 33,
-        "C_tokens_fail": 25,
-        "T_tokens_fail": 19
+        "C_tokens": 75,
+        "T_tokens": 30,
+        "C_tokens_fail": 15,
+        "T_tokens_fail": 16
     },
     "5": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 90,
-        "T_tokens": 26,
-        "C_tokens_fail": 25,
-        "T_tokens_fail": 14
+        "C_tokens": 75,
+        "T_tokens": 23,
+        "C_tokens_fail": 15,
+        "T_tokens_fail": 11
     },
     "6": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 50,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 12,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "7": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 50,
-        "T_tokens": 32,
+        "T_tokens": 29,
         "C_tokens_fail": 12,
-        "T_tokens_fail": 19
+        "T_tokens_fail": 16
     },
     "8": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 90,
+        "C_tokens": 75,
         "T_tokens": 35,
-        "C_tokens_fail": 25,
+        "C_tokens_fail": 15,
         "T_tokens_fail": 19
     },
     "9": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 90,
+        "C_tokens": 75,
         "T_tokens": 28,
-        "C_tokens_fail": 25,
+        "C_tokens_fail": 15,
         "T_tokens_fail": 16
     },
     "10": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 90,
+        "C_tokens": 75,
         "T_tokens": 32,
-        "C_tokens_fail": 25,
+        "C_tokens_fail": 15,
         "T_tokens_fail": 17
     },
     "11": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 90,
+        "C_tokens": 75,
         "T_tokens": 37,
-        "C_tokens_fail": 25,
+        "C_tokens_fail": 15,
         "T_tokens_fail": 21
     },
     "12": {
@@ -2283,9 +2283,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 56,
-        "T_tokens": 15,
+        "T_tokens": 12,
         "C_tokens_fail": 19,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "286": {
         "project": "commons-rng-1.4-src",
@@ -2379,9 +2379,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 56,
-        "T_tokens": 35,
+        "T_tokens": 32,
         "C_tokens_fail": 19,
-        "T_tokens_fail": 22
+        "T_tokens_fail": 19
     },
     "298": {
         "project": "commons-rng-1.4-src",
@@ -2403,17 +2403,17 @@
         "project": "commons-rng-1.4-src",
         "label": "P",
         "C_tokens": 10,
-        "T_tokens": 50,
+        "T_tokens": 47,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 31
+        "T_tokens_fail": 28
     },
     "301": {
         "project": "commons-rng-1.4-src",
         "label": "P",
         "C_tokens": 15,
-        "T_tokens": 126,
+        "T_tokens": 123,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 66
+        "T_tokens_fail": 63
     },
     "302": {
         "project": "commons-rng-1.4-src",
@@ -2427,41 +2427,41 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "304": {
         "project": "commons-rng-1.4-src",
         "label": "P",
         "C_tokens": 10,
-        "T_tokens": 47,
+        "T_tokens": 44,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 25
+        "T_tokens_fail": 22
     },
     "305": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 37,
+        "T_tokens": 34,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "306": {
         "project": "commons-rng-1.4-src",
         "label": "P",
         "C_tokens": 29,
-        "T_tokens": 58,
+        "T_tokens": 55,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 31
+        "T_tokens_fail": 28
     },
     "307": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 29,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "308": {
         "project": "commons-rng-1.4-src",
@@ -2531,9 +2531,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 44,
+        "T_tokens": 41,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 21
+        "T_tokens_fail": 18
     },
     "317": {
         "project": "commons-rng-1.4-src",
@@ -2547,25 +2547,25 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 58,
+        "T_tokens": 55,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 28
+        "T_tokens_fail": 25
     },
     "319": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "320": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 32,
+        "T_tokens": 29,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "321": {
         "project": "commons-rng-1.4-src",
@@ -2618,50 +2618,50 @@
     "327": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 60,
+        "C_tokens": 51,
         "T_tokens": 30,
-        "C_tokens_fail": 25,
+        "C_tokens_fail": 19,
         "T_tokens_fail": 15
     },
     "328": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 60,
+        "C_tokens": 51,
         "T_tokens": 35,
-        "C_tokens_fail": 25,
+        "C_tokens_fail": 19,
         "T_tokens_fail": 15
     },
     "329": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 60,
+        "C_tokens": 51,
         "T_tokens": 41,
-        "C_tokens_fail": 25,
+        "C_tokens_fail": 19,
         "T_tokens_fail": 19
     },
     "330": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 60,
+        "C_tokens": 51,
         "T_tokens": 39,
-        "C_tokens_fail": 25,
+        "C_tokens_fail": 19,
         "T_tokens_fail": 18
     },
     "331": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 60,
+        "C_tokens": 51,
         "T_tokens": 31,
-        "C_tokens_fail": 25,
+        "C_tokens_fail": 19,
         "T_tokens_fail": 16
     },
     "332": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 45,
+        "T_tokens": 42,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 27
+        "T_tokens_fail": 24
     },
     "333": {
         "project": "commons-rng-1.4-src",
@@ -2747,57 +2747,57 @@
         "project": "commons-rng-1.4-src",
         "label": "P",
         "C_tokens": 10,
-        "T_tokens": 55,
+        "T_tokens": 52,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 37
+        "T_tokens_fail": 34
     },
     "344": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 117,
+        "C_tokens": 33,
         "T_tokens": 48,
-        "C_tokens_fail": 39,
+        "C_tokens_fail": 8,
         "T_tokens_fail": 27
     },
     "345": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 117,
+        "C_tokens": 33,
         "T_tokens": 29,
-        "C_tokens_fail": 39,
+        "C_tokens_fail": 8,
         "T_tokens_fail": 15
     },
     "346": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "347": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 119,
-        "T_tokens": 34,
-        "C_tokens_fail": 38,
-        "T_tokens_fail": 18
+        "C_tokens": 73,
+        "T_tokens": 31,
+        "C_tokens_fail": 22,
+        "T_tokens_fail": 15
     },
     "348": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 119,
+        "C_tokens": 73,
         "T_tokens": 31,
-        "C_tokens_fail": 38,
+        "C_tokens_fail": 22,
         "T_tokens_fail": 12
     },
     "349": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 119,
-        "T_tokens": 31,
-        "C_tokens_fail": 38,
-        "T_tokens_fail": 16
+        "C_tokens": 73,
+        "T_tokens": 28,
+        "C_tokens_fail": 22,
+        "T_tokens_fail": 13
     },
     "350": {
         "project": "commons-rng-1.4-src",
@@ -2811,17 +2811,17 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 58,
-        "T_tokens": 14,
+        "T_tokens": 11,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "352": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 58,
-        "T_tokens": 14,
+        "T_tokens": 11,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "353": {
         "project": "commons-rng-1.4-src",
@@ -2834,58 +2834,58 @@
     "354": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 119,
+        "C_tokens": 73,
         "T_tokens": 31,
-        "C_tokens_fail": 38,
+        "C_tokens_fail": 22,
         "T_tokens_fail": 12
     },
     "355": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 21,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "356": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 21,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "357": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 119,
-        "T_tokens": 27,
-        "C_tokens_fail": 38,
-        "T_tokens_fail": 14
+        "C_tokens": 73,
+        "T_tokens": 24,
+        "C_tokens_fail": 22,
+        "T_tokens_fail": 11
     },
     "358": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 58,
-        "T_tokens": 14,
+        "T_tokens": 11,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "359": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 58,
-        "T_tokens": 14,
+        "T_tokens": 11,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "360": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 58,
-        "T_tokens": 14,
+        "T_tokens": 11,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "361": {
         "project": "commons-rng-1.4-src",
@@ -2931,9 +2931,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 31,
+        "T_tokens": 28,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "367": {
         "project": "commons-rng-1.4-src",
@@ -2946,49 +2946,49 @@
     "368": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 41,
+        "C_tokens": 31,
         "T_tokens": 29,
-        "C_tokens_fail": 14,
+        "C_tokens_fail": 8,
         "T_tokens_fail": 16
     },
     "369": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 41,
+        "C_tokens": 31,
         "T_tokens": 33,
-        "C_tokens_fail": 14,
+        "C_tokens_fail": 8,
         "T_tokens_fail": 16
     },
     "370": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "371": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 41,
-        "T_tokens": 24,
-        "C_tokens_fail": 14,
-        "T_tokens_fail": 13
+        "C_tokens": 31,
+        "T_tokens": 21,
+        "C_tokens_fail": 8,
+        "T_tokens_fail": 10
     },
     "372": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 41,
+        "C_tokens": 31,
         "T_tokens": 28,
-        "C_tokens_fail": 14,
+        "C_tokens_fail": 8,
         "T_tokens_fail": 15
     },
     "373": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 41,
+        "C_tokens": 31,
         "T_tokens": 29,
-        "C_tokens_fail": 14,
+        "C_tokens_fail": 8,
         "T_tokens_fail": 15
     },
     "374": {
@@ -3027,17 +3027,17 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "379": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "380": {
         "project": "commons-rng-1.4-src",
@@ -3059,9 +3059,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "383": {
         "project": "commons-rng-1.4-src",
@@ -3091,32 +3091,32 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "387": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 35,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "388": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 72,
+        "C_tokens": 54,
         "T_tokens": 19,
-        "C_tokens_fail": 20,
+        "C_tokens_fail": 15,
         "T_tokens_fail": 8
     },
     "389": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 72,
+        "C_tokens": 54,
         "T_tokens": 28,
-        "C_tokens_fail": 20,
+        "C_tokens_fail": 15,
         "T_tokens_fail": 13
     },
     "390": {
@@ -3139,9 +3139,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "393": {
         "project": "commons-rng-1.4-src",
@@ -3179,17 +3179,17 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "398": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 30,
+        "T_tokens": 27,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 18
+        "T_tokens_fail": 15
     },
     "399": {
         "project": "commons-rng-1.4-src",
@@ -3234,10 +3234,10 @@
     "404": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 111,
-        "T_tokens": 25,
-        "C_tokens_fail": 46,
-        "T_tokens_fail": 13
+        "C_tokens": 78,
+        "T_tokens": 22,
+        "C_tokens_fail": 24,
+        "T_tokens_fail": 10
     },
     "405": {
         "project": "commons-rng-1.4-src",
@@ -3283,9 +3283,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "411": {
         "project": "commons-rng-1.4-src",
@@ -3298,42 +3298,42 @@
     "412": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 111,
+        "C_tokens": 78,
         "T_tokens": 22,
-        "C_tokens_fail": 46,
+        "C_tokens_fail": 24,
         "T_tokens_fail": 12
     },
     "413": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 111,
+        "C_tokens": 78,
         "T_tokens": 22,
-        "C_tokens_fail": 46,
+        "C_tokens_fail": 24,
         "T_tokens_fail": 11
     },
     "414": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 111,
+        "C_tokens": 78,
         "T_tokens": 22,
-        "C_tokens_fail": 46,
+        "C_tokens_fail": 24,
         "T_tokens_fail": 12
     },
     "415": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 111,
-        "T_tokens": 25,
-        "C_tokens_fail": 46,
-        "T_tokens_fail": 15
+        "C_tokens": 78,
+        "T_tokens": 22,
+        "C_tokens_fail": 24,
+        "T_tokens_fail": 12
     },
     "416": {
         "project": "commons-rng-1.4-src",
         "label": "P",
         "C_tokens": 7,
-        "T_tokens": 32,
+        "T_tokens": 29,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 20
+        "T_tokens_fail": 17
     },
     "417": {
         "project": "commons-rng-1.4-src",
@@ -3386,25 +3386,25 @@
     "423": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 79,
+        "C_tokens": 35,
         "T_tokens": 13,
-        "C_tokens_fail": 23,
+        "C_tokens_fail": 6,
         "T_tokens_fail": 6
     },
     "424": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 79,
+        "C_tokens": 35,
         "T_tokens": 13,
-        "C_tokens_fail": 23,
+        "C_tokens_fail": 6,
         "T_tokens_fail": 5
     },
     "425": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 15,
+        "C_tokens": 8,
         "T_tokens": 35,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 4,
         "T_tokens_fail": 19
     },
     "426": {
@@ -3418,9 +3418,9 @@
     "427": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 15,
+        "C_tokens": 8,
         "T_tokens": 31,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 4,
         "T_tokens_fail": 17
     },
     "428": {
@@ -3442,18 +3442,18 @@
     "430": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 33,
+        "C_tokens": 25,
         "T_tokens": 16,
-        "C_tokens_fail": 14,
+        "C_tokens_fail": 10,
         "T_tokens_fail": 6
     },
     "431": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "432": {
         "project": "commons-rng-1.4-src",
@@ -3482,18 +3482,18 @@
     "435": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 33,
-        "T_tokens": 25,
-        "C_tokens_fail": 14,
-        "T_tokens_fail": 15
+        "C_tokens": 25,
+        "T_tokens": 22,
+        "C_tokens_fail": 10,
+        "T_tokens_fail": 12
     },
     "436": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 33,
-        "T_tokens": 25,
-        "C_tokens_fail": 14,
-        "T_tokens_fail": 13
+        "C_tokens": 25,
+        "T_tokens": 22,
+        "C_tokens_fail": 10,
+        "T_tokens_fail": 10
     },
     "437": {
         "project": "commons-rng-1.4-src",
@@ -3507,9 +3507,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 49,
-        "T_tokens": 15,
+        "T_tokens": 12,
         "C_tokens_fail": 14,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "439": {
         "project": "commons-rng-1.4-src",
@@ -3523,17 +3523,17 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 49,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 14,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "441": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 49,
-        "T_tokens": 15,
+        "T_tokens": 12,
         "C_tokens_fail": 14,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "442": {
         "project": "commons-rng-1.4-src",
@@ -3555,17 +3555,17 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 17,
-        "T_tokens": 29,
+        "T_tokens": 26,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "445": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 17,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "446": {
         "project": "commons-rng-1.4-src",
@@ -3810,74 +3810,74 @@
     "476": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 32,
-        "T_tokens": 23,
-        "C_tokens_fail": 12,
-        "T_tokens_fail": 13
+        "C_tokens": 13,
+        "T_tokens": 20,
+        "C_tokens_fail": 3,
+        "T_tokens_fail": 10
     },
     "477": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 6,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "478": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 6,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "479": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 17,
-        "T_tokens": 29,
+        "T_tokens": 26,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 16
+        "T_tokens_fail": 13
     },
     "480": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 17,
-        "T_tokens": 29,
+        "T_tokens": 26,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "481": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 17,
-        "T_tokens": 29,
+        "T_tokens": 26,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "482": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 17,
-        "T_tokens": 27,
+        "T_tokens": 24,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 16
+        "T_tokens_fail": 13
     },
     "483": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 17,
-        "T_tokens": 29,
+        "T_tokens": 26,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "484": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 17,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 16
+        "T_tokens_fail": 13
     },
     "485": {
         "project": "commons-rng-1.4-src",
@@ -4010,9 +4010,9 @@
     "501": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 32,
+        "C_tokens": 13,
         "T_tokens": 36,
-        "C_tokens_fail": 12,
+        "C_tokens_fail": 3,
         "T_tokens_fail": 16
     },
     "502": {
@@ -4042,18 +4042,18 @@
     "505": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 32,
+        "C_tokens": 13,
         "T_tokens": 30,
-        "C_tokens_fail": 12,
+        "C_tokens_fail": 3,
         "T_tokens_fail": 16
     },
     "506": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 17,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "507": {
         "project": "commons-rng-1.4-src",
@@ -4075,9 +4075,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 31,
+        "T_tokens": 28,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 16
+        "T_tokens_fail": 13
     },
     "510": {
         "project": "commons-rng-1.4-src",
@@ -4099,25 +4099,25 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 14,
-        "T_tokens": 27,
+        "T_tokens": 24,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "513": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "514": {
         "project": "commons-rng-1.4-src",
         "label": "P",
         "C_tokens": 13,
-        "T_tokens": 36,
+        "T_tokens": 33,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 18
+        "T_tokens_fail": 15
     },
     "515": {
         "project": "commons-rng-1.4-src",
@@ -4131,33 +4131,33 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 31,
+        "T_tokens": 28,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "517": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "518": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "519": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 31,
+        "T_tokens": 28,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "520": {
         "project": "commons-rng-1.4-src",
@@ -4194,9 +4194,9 @@
     "524": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 32,
+        "C_tokens": 14,
         "T_tokens": 13,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 4,
         "T_tokens_fail": 5
     },
     "525": {
@@ -4219,17 +4219,17 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 23,
-        "T_tokens": 13,
+        "T_tokens": 10,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "528": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 51,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 24,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "529": {
         "project": "commons-rng-1.4-src",
@@ -4243,9 +4243,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 58,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 17,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "531": {
         "project": "commons-rng-1.4-src",
@@ -4259,33 +4259,33 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 58,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 17,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "533": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 58,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 17,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "534": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 58,
-        "T_tokens": 14,
+        "T_tokens": 11,
         "C_tokens_fail": 17,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "535": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 13,
+        "T_tokens": 10,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "536": {
         "project": "commons-rng-1.4-src",
@@ -4315,25 +4315,25 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 31,
+        "T_tokens": 28,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 18
+        "T_tokens_fail": 15
     },
     "540": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "541": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 11,
-        "T_tokens": 31,
+        "T_tokens": 28,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 18
+        "T_tokens_fail": 15
     },
     "542": {
         "project": "commons-rng-1.4-src",
@@ -4355,9 +4355,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 30,
+        "T_tokens": 27,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "545": {
         "project": "commons-rng-1.4-src",
@@ -4394,10 +4394,10 @@
     "549": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 71,
-        "T_tokens": 15,
-        "C_tokens_fail": 25,
-        "T_tokens_fail": 9
+        "C_tokens": 50,
+        "T_tokens": 12,
+        "C_tokens_fail": 14,
+        "T_tokens_fail": 6
     },
     "550": {
         "project": "commons-rng-1.4-src",
@@ -4410,49 +4410,49 @@
     "551": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 71,
-        "T_tokens": 20,
-        "C_tokens_fail": 25,
-        "T_tokens_fail": 12
+        "C_tokens": 50,
+        "T_tokens": 17,
+        "C_tokens_fail": 14,
+        "T_tokens_fail": 9
     },
     "552": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 71,
-        "T_tokens": 15,
-        "C_tokens_fail": 25,
-        "T_tokens_fail": 8
+        "C_tokens": 50,
+        "T_tokens": 12,
+        "C_tokens_fail": 14,
+        "T_tokens_fail": 5
     },
     "553": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 71,
-        "T_tokens": 15,
-        "C_tokens_fail": 25,
-        "T_tokens_fail": 7
+        "C_tokens": 50,
+        "T_tokens": 12,
+        "C_tokens_fail": 14,
+        "T_tokens_fail": 4
     },
     "554": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "555": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 182,
+        "C_tokens": 41,
         "T_tokens": 34,
-        "C_tokens_fail": 59,
+        "C_tokens_fail": 3,
         "T_tokens_fail": 19
     },
     "556": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 111,
+        "C_tokens": 22,
         "T_tokens": 17,
-        "C_tokens_fail": 48,
+        "C_tokens_fail": 4,
         "T_tokens_fail": 6
     },
     "557": {
@@ -4482,50 +4482,50 @@
     "560": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 111,
+        "C_tokens": 22,
         "T_tokens": 20,
-        "C_tokens_fail": 48,
+        "C_tokens_fail": 4,
         "T_tokens_fail": 7
     },
     "561": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 111,
+        "C_tokens": 22,
         "T_tokens": 20,
-        "C_tokens_fail": 48,
+        "C_tokens_fail": 4,
         "T_tokens_fail": 7
     },
     "562": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 19,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "563": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "564": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 6,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "565": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 111,
-        "T_tokens": 20,
-        "C_tokens_fail": 48,
-        "T_tokens_fail": 10
+        "C_tokens": 22,
+        "T_tokens": 17,
+        "C_tokens_fail": 4,
+        "T_tokens_fail": 7
     },
     "566": {
         "project": "commons-rng-1.4-src",
@@ -4554,10 +4554,10 @@
     "569": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 111,
-        "T_tokens": 16,
-        "C_tokens_fail": 48,
-        "T_tokens_fail": 7
+        "C_tokens": 22,
+        "T_tokens": 13,
+        "C_tokens_fail": 4,
+        "T_tokens_fail": 4
     },
     "570": {
         "project": "commons-rng-1.4-src",
@@ -4586,17 +4586,17 @@
     "573": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 618,
+        "C_tokens": 69,
         "T_tokens": 39,
-        "C_tokens_fail": 231,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 20
     },
     "574": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 618,
+        "C_tokens": 69,
         "T_tokens": 39,
-        "C_tokens_fail": 231,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 20
     },
     "575": {
@@ -4610,9 +4610,9 @@
     "576": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 618,
+        "C_tokens": 69,
         "T_tokens": 30,
-        "C_tokens_fail": 231,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 16
     },
     "577": {
@@ -4626,9 +4626,9 @@
     "578": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 618,
+        "C_tokens": 69,
         "T_tokens": 34,
-        "C_tokens_fail": 231,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 16
     },
     "579": {
@@ -4650,26 +4650,26 @@
     "581": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 618,
+        "C_tokens": 69,
         "T_tokens": 30,
-        "C_tokens_fail": 231,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 16
     },
     "582": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 618,
+        "C_tokens": 69,
         "T_tokens": 30,
-        "C_tokens_fail": 231,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 16
     },
     "583": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "584": {
         "project": "commons-rng-1.4-src",
@@ -4698,49 +4698,49 @@
     "587": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 135,
+        "C_tokens": 62,
         "T_tokens": 33,
-        "C_tokens_fail": 44,
+        "C_tokens_fail": 13,
         "T_tokens_fail": 19
     },
     "588": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 135,
+        "C_tokens": 62,
         "T_tokens": 37,
-        "C_tokens_fail": 44,
+        "C_tokens_fail": 13,
         "T_tokens_fail": 19
     },
     "589": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 14,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "590": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 135,
-        "T_tokens": 26,
-        "C_tokens_fail": 44,
-        "T_tokens_fail": 15
+        "C_tokens": 62,
+        "T_tokens": 23,
+        "C_tokens_fail": 13,
+        "T_tokens_fail": 12
     },
     "591": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 135,
+        "C_tokens": 62,
         "T_tokens": 30,
-        "C_tokens_fail": 44,
+        "C_tokens_fail": 13,
         "T_tokens_fail": 16
     },
     "592": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 135,
+        "C_tokens": 62,
         "T_tokens": 34,
-        "C_tokens_fail": 44,
+        "C_tokens_fail": 13,
         "T_tokens_fail": 17
     },
     "593": {
@@ -4770,9 +4770,9 @@
     "596": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 196,
+        "C_tokens": 80,
         "T_tokens": 31,
-        "C_tokens_fail": 57,
+        "C_tokens_fail": 18,
         "T_tokens_fail": 18
     },
     "597": {
@@ -4786,18 +4786,18 @@
     "598": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 196,
+        "C_tokens": 80,
         "T_tokens": 30,
-        "C_tokens_fail": 57,
+        "C_tokens_fail": 18,
         "T_tokens_fail": 15
     },
     "599": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "600": {
         "project": "commons-rng-1.4-src",
@@ -4810,18 +4810,18 @@
     "601": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 196,
+        "C_tokens": 80,
         "T_tokens": 25,
-        "C_tokens_fail": 57,
+        "C_tokens_fail": 18,
         "T_tokens_fail": 13
     },
     "602": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 196,
-        "T_tokens": 25,
-        "C_tokens_fail": 57,
-        "T_tokens_fail": 14
+        "C_tokens": 80,
+        "T_tokens": 22,
+        "C_tokens_fail": 18,
+        "T_tokens_fail": 11
     },
     "603": {
         "project": "commons-rng-1.4-src",
@@ -4842,9 +4842,9 @@
     "605": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 196,
+        "C_tokens": 80,
         "T_tokens": 29,
-        "C_tokens_fail": 57,
+        "C_tokens_fail": 18,
         "T_tokens_fail": 14
     },
     "606": {
@@ -4867,9 +4867,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 30,
+        "T_tokens": 27,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "609": {
         "project": "commons-rng-1.4-src",
@@ -4899,41 +4899,41 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "613": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 23,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 9,
-        "T_tokens_fail": 16
+        "T_tokens_fail": 13
     },
     "614": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 33,
+        "T_tokens": 30,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "615": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 35,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 14,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "616": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 35,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 14,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "617": {
         "project": "commons-rng-1.4-src",
@@ -4963,9 +4963,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 23,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 9,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "621": {
         "project": "commons-rng-1.4-src",
@@ -4986,17 +4986,17 @@
     "623": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 15,
+        "C_tokens": 8,
         "T_tokens": 35,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 4,
         "T_tokens_fail": 19
     },
     "624": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 15,
+        "C_tokens": 8,
         "T_tokens": 31,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 4,
         "T_tokens_fail": 15
     },
     "625": {
@@ -5019,9 +5019,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "628": {
         "project": "commons-rng-1.4-src",
@@ -5034,42 +5034,42 @@
     "629": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 196,
+        "C_tokens": 80,
         "T_tokens": 16,
-        "C_tokens_fail": 57,
+        "C_tokens_fail": 18,
         "T_tokens_fail": 6
     },
     "630": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 196,
+        "C_tokens": 80,
         "T_tokens": 16,
-        "C_tokens_fail": 57,
+        "C_tokens_fail": 18,
         "T_tokens_fail": 7
     },
     "631": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 196,
+        "C_tokens": 80,
         "T_tokens": 16,
-        "C_tokens_fail": 57,
+        "C_tokens_fail": 18,
         "T_tokens_fail": 6
     },
     "632": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 196,
+        "C_tokens": 80,
         "T_tokens": 16,
-        "C_tokens_fail": 57,
+        "C_tokens_fail": 18,
         "T_tokens_fail": 6
     },
     "633": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 196,
-        "T_tokens": 25,
-        "C_tokens_fail": 57,
-        "T_tokens_fail": 13
+        "C_tokens": 80,
+        "T_tokens": 22,
+        "C_tokens_fail": 18,
+        "T_tokens_fail": 10
     },
     "634": {
         "project": "commons-rng-1.4-src",
@@ -5090,9 +5090,9 @@
     "636": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 15,
+        "C_tokens": 8,
         "T_tokens": 30,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 4,
         "T_tokens_fail": 15
     },
     "637": {
@@ -5123,9 +5123,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "641": {
         "project": "commons-rng-1.4-src",
@@ -5170,9 +5170,9 @@
     "646": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 39,
+        "C_tokens": 28,
         "T_tokens": 19,
-        "C_tokens_fail": 11,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 9
     },
     "647": {
@@ -5194,9 +5194,9 @@
     "649": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 93,
+        "C_tokens": 45,
         "T_tokens": 18,
-        "C_tokens_fail": 31,
+        "C_tokens_fail": 17,
         "T_tokens_fail": 8
     },
     "650": {
@@ -5274,10 +5274,10 @@
     "659": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 206,
-        "T_tokens": 21,
-        "C_tokens_fail": 77,
-        "T_tokens_fail": 12
+        "C_tokens": 83,
+        "T_tokens": 18,
+        "C_tokens_fail": 27,
+        "T_tokens_fail": 9
     },
     "660": {
         "project": "commons-rng-1.4-src",
@@ -5354,17 +5354,17 @@
     "669": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 39,
+        "C_tokens": 28,
         "T_tokens": 19,
-        "C_tokens_fail": 11,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 9
     },
     "670": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 39,
+        "C_tokens": 28,
         "T_tokens": 24,
-        "C_tokens_fail": 11,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 13
     },
     "671": {
@@ -5378,9 +5378,9 @@
     "672": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 39,
+        "C_tokens": 28,
         "T_tokens": 19,
-        "C_tokens_fail": 11,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 9
     },
     "673": {
@@ -5402,9 +5402,9 @@
     "675": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 39,
+        "C_tokens": 28,
         "T_tokens": 19,
-        "C_tokens_fail": 11,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 9
     },
     "676": {
@@ -5419,17 +5419,17 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 11,
-        "T_tokens": 30,
+        "T_tokens": 27,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "678": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 167,
-        "T_tokens": 20,
-        "C_tokens_fail": 60,
-        "T_tokens_fail": 12
+        "C_tokens": 108,
+        "T_tokens": 17,
+        "C_tokens_fail": 43,
+        "T_tokens_fail": 9
     },
     "679": {
         "project": "commons-rng-1.4-src",
@@ -5450,34 +5450,34 @@
     "681": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 131,
+        "C_tokens": 58,
         "T_tokens": 30,
-        "C_tokens_fail": 44,
+        "C_tokens_fail": 13,
         "T_tokens_fail": 18
     },
     "682": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 131,
+        "C_tokens": 58,
         "T_tokens": 34,
-        "C_tokens_fail": 44,
+        "C_tokens_fail": 13,
         "T_tokens_fail": 18
     },
     "683": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "684": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 131,
-        "T_tokens": 19,
-        "C_tokens_fail": 44,
-        "T_tokens_fail": 10
+        "C_tokens": 58,
+        "T_tokens": 16,
+        "C_tokens_fail": 13,
+        "T_tokens_fail": 7
     },
     "685": {
         "project": "commons-rng-1.4-src",
@@ -5498,57 +5498,57 @@
     "687": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 164,
+        "C_tokens": 80,
         "T_tokens": 29,
-        "C_tokens_fail": 49,
+        "C_tokens_fail": 9,
         "T_tokens_fail": 16
     },
     "688": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 164,
+        "C_tokens": 80,
         "T_tokens": 34,
-        "C_tokens_fail": 49,
+        "C_tokens_fail": 9,
         "T_tokens_fail": 17
     },
     "689": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 164,
+        "C_tokens": 80,
         "T_tokens": 38,
-        "C_tokens_fail": 49,
+        "C_tokens_fail": 9,
         "T_tokens_fail": 18
     },
     "690": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 17,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "691": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 164,
-        "T_tokens": 24,
-        "C_tokens_fail": 49,
-        "T_tokens_fail": 13
+        "C_tokens": 80,
+        "T_tokens": 21,
+        "C_tokens_fail": 9,
+        "T_tokens_fail": 10
     },
     "692": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 164,
+        "C_tokens": 80,
         "T_tokens": 28,
-        "C_tokens_fail": 49,
+        "C_tokens_fail": 9,
         "T_tokens_fail": 15
     },
     "693": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 164,
+        "C_tokens": 80,
         "T_tokens": 32,
-        "C_tokens_fail": 49,
+        "C_tokens_fail": 9,
         "T_tokens_fail": 16
     },
     "694": {
@@ -5587,25 +5587,25 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 31,
+        "T_tokens": 28,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 16
+        "T_tokens_fail": 13
     },
     "699": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "700": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 11,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "701": {
         "project": "commons-rng-1.4-src",
@@ -5651,9 +5651,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 30,
+        "T_tokens": 27,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 18
+        "T_tokens_fail": 15
     },
     "707": {
         "project": "commons-rng-1.4-src",
@@ -5739,33 +5739,33 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "718": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 36,
+        "T_tokens": 33,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 18
+        "T_tokens_fail": 15
     },
     "719": {
         "project": "commons-rng-1.4-src",
         "label": "P",
         "C_tokens": 15,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "720": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "721": {
         "project": "commons-rng-1.4-src",
@@ -5795,9 +5795,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "725": {
         "project": "commons-rng-1.4-src",
@@ -5810,209 +5810,209 @@
     "726": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 36,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 21
     },
     "727": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 43,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 25
     },
     "728": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 288,
+        "C_tokens": 242,
         "T_tokens": 47,
-        "C_tokens_fail": 73,
+        "C_tokens_fail": 39,
         "T_tokens_fail": 27
     },
     "729": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 288,
+        "C_tokens": 242,
         "T_tokens": 51,
-        "C_tokens_fail": 73,
+        "C_tokens_fail": 39,
         "T_tokens_fail": 28
     },
     "730": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 288,
+        "C_tokens": 242,
         "T_tokens": 51,
-        "C_tokens_fail": 73,
+        "C_tokens_fail": 39,
         "T_tokens_fail": 28
     },
     "731": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 22,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 9
     },
     "732": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 26,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 11
     },
     "733": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 22,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 14
     },
     "734": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 26,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 16
     },
     "735": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 22,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 10
     },
     "736": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 26,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 12
     },
     "737": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 22,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 13
     },
     "738": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 26,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 15
     },
     "739": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 22,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 14
     },
     "740": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 26,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 16
     },
     "741": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 22,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 10
     },
     "742": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 26,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 12
     },
     "743": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 22,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 11
     },
     "744": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 26,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 13
     },
     "745": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 22,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 11
     },
     "746": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 26,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 13
     },
     "747": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 22,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 9
     },
     "748": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 26,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 11
     },
     "749": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 32,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 19
     },
     "750": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 39,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 24
     },
     "751": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 288,
+        "C_tokens": 242,
         "T_tokens": 43,
-        "C_tokens_fail": 73,
+        "C_tokens_fail": 39,
         "T_tokens_fail": 26
     },
     "752": {
@@ -6026,121 +6026,121 @@
     "753": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 22,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 10
     },
     "754": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 30,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 14
     },
     "755": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 16,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 7
     },
     "756": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 22,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 7
     },
     "757": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 27,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 10
     },
     "758": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 32,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 13
     },
     "759": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 39,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 18
     },
     "760": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 288,
+        "C_tokens": 242,
         "T_tokens": 44,
-        "C_tokens_fail": 73,
+        "C_tokens_fail": 39,
         "T_tokens_fail": 25
     },
     "761": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 288,
+        "C_tokens": 242,
         "T_tokens": 43,
-        "C_tokens_fail": 73,
+        "C_tokens_fail": 39,
         "T_tokens_fail": 21
     },
     "762": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 288,
-        "T_tokens": 43,
-        "C_tokens_fail": 73,
-        "T_tokens_fail": 26
+        "C_tokens": 242,
+        "T_tokens": 40,
+        "C_tokens_fail": 39,
+        "T_tokens_fail": 23
     },
     "763": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 288,
+        "C_tokens": 242,
         "T_tokens": 45,
-        "C_tokens_fail": 73,
+        "C_tokens_fail": 39,
         "T_tokens_fail": 25
     },
     "764": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 33,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 20
     },
     "765": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 30,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 15
     },
     "766": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 288,
+        "C_tokens": 242,
         "T_tokens": 29,
-        "C_tokens_fail": 73,
+        "C_tokens_fail": 39,
         "T_tokens_fail": 15
     },
     "767": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 194,
+        "C_tokens": 153,
         "T_tokens": 26,
-        "C_tokens_fail": 65,
+        "C_tokens_fail": 46,
         "T_tokens_fail": 12
     },
     "768": {
@@ -6163,16 +6163,16 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "771": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 288,
+        "C_tokens": 242,
         "T_tokens": 43,
-        "C_tokens_fail": 73,
+        "C_tokens_fail": 39,
         "T_tokens_fail": 18
     },
     "772": {
@@ -6186,9 +6186,9 @@
     "773": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 27,
+        "C_tokens": 19,
         "T_tokens": 24,
-        "C_tokens_fail": 11,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 14
     },
     "774": {
@@ -6203,33 +6203,33 @@
         "project": "commons-rng-1.4-src",
         "label": "P",
         "C_tokens": 7,
-        "T_tokens": 29,
+        "T_tokens": 26,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "776": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "777": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 19,
+        "C_tokens": 12,
         "T_tokens": 28,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 6,
         "T_tokens_fail": 14
     },
     "778": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 27,
-        "T_tokens": 24,
-        "C_tokens_fail": 11,
-        "T_tokens_fail": 14
+        "C_tokens": 19,
+        "T_tokens": 21,
+        "C_tokens_fail": 7,
+        "T_tokens_fail": 11
     },
     "779": {
         "project": "commons-rng-1.4-src",
@@ -6242,9 +6242,9 @@
     "780": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 15,
+        "C_tokens": 8,
         "T_tokens": 29,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 4,
         "T_tokens_fail": 16
     },
     "781": {
@@ -6258,17 +6258,17 @@
     "782": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 140,
+        "C_tokens": 82,
         "T_tokens": 37,
-        "C_tokens_fail": 43,
+        "C_tokens_fail": 15,
         "T_tokens_fail": 19
     },
     "783": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 140,
+        "C_tokens": 82,
         "T_tokens": 30,
-        "C_tokens_fail": 43,
+        "C_tokens_fail": 15,
         "T_tokens_fail": 15
     },
     "784": {
@@ -6283,17 +6283,17 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 14,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "786": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 140,
-        "T_tokens": 20,
-        "C_tokens_fail": 43,
-        "T_tokens_fail": 11
+        "C_tokens": 82,
+        "T_tokens": 17,
+        "C_tokens_fail": 15,
+        "T_tokens_fail": 8
     },
     "787": {
         "project": "commons-rng-1.4-src",
@@ -6306,17 +6306,17 @@
     "788": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 140,
+        "C_tokens": 82,
         "T_tokens": 36,
-        "C_tokens_fail": 43,
+        "C_tokens_fail": 15,
         "T_tokens_fail": 17
     },
     "789": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 140,
+        "C_tokens": 82,
         "T_tokens": 29,
-        "C_tokens_fail": 43,
+        "C_tokens_fail": 15,
         "T_tokens_fail": 14
     },
     "790": {
@@ -6331,9 +6331,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "792": {
         "project": "commons-rng-1.4-src",
@@ -6483,25 +6483,25 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 20,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "811": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 27,
+        "T_tokens": 24,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 16
+        "T_tokens_fail": 13
     },
     "812": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "813": {
         "project": "commons-rng-1.4-src",
@@ -6539,9 +6539,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 32,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 12,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "818": {
         "project": "commons-rng-1.4-src",
@@ -6555,25 +6555,25 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 34,
+        "T_tokens": 31,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 20
+        "T_tokens_fail": 17
     },
     "820": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 18,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "821": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 32,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 12,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "822": {
         "project": "commons-rng-1.4-src",
@@ -6594,26 +6594,26 @@
     "824": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 118,
+        "C_tokens": 92,
         "T_tokens": 37,
-        "C_tokens_fail": 48,
+        "C_tokens_fail": 29,
         "T_tokens_fail": 18
     },
     "825": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 118,
+        "C_tokens": 92,
         "T_tokens": 37,
-        "C_tokens_fail": 48,
+        "C_tokens_fail": 29,
         "T_tokens_fail": 17
     },
     "826": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 118,
-        "T_tokens": 35,
-        "C_tokens_fail": 48,
-        "T_tokens_fail": 17
+        "C_tokens": 92,
+        "T_tokens": 32,
+        "C_tokens_fail": 29,
+        "T_tokens_fail": 14
     },
     "827": {
         "project": "commons-rng-1.4-src",
@@ -6675,33 +6675,33 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "835": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 118,
-        "T_tokens": 31,
-        "C_tokens_fail": 48,
-        "T_tokens_fail": 14
+        "C_tokens": 92,
+        "T_tokens": 28,
+        "C_tokens_fail": 29,
+        "T_tokens_fail": 11
     },
     "836": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 118,
-        "T_tokens": 21,
-        "C_tokens_fail": 48,
-        "T_tokens_fail": 10
+        "C_tokens": 92,
+        "T_tokens": 18,
+        "C_tokens_fail": 29,
+        "T_tokens_fail": 7
     },
     "837": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 118,
-        "T_tokens": 45,
-        "C_tokens_fail": 48,
-        "T_tokens_fail": 20
+        "C_tokens": 92,
+        "T_tokens": 42,
+        "C_tokens_fail": 29,
+        "T_tokens_fail": 17
     },
     "838": {
         "project": "commons-rng-1.4-src",
@@ -6714,9 +6714,9 @@
     "839": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 118,
+        "C_tokens": 92,
         "T_tokens": 37,
-        "C_tokens_fail": 48,
+        "C_tokens_fail": 29,
         "T_tokens_fail": 18
     },
     "840": {
@@ -6738,9 +6738,9 @@
     "842": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 118,
+        "C_tokens": 92,
         "T_tokens": 37,
-        "C_tokens_fail": 48,
+        "C_tokens_fail": 29,
         "T_tokens_fail": 18
     },
     "843": {
@@ -6754,185 +6754,185 @@
     "844": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 106,
+        "C_tokens": 94,
         "T_tokens": 39,
-        "C_tokens_fail": 38,
+        "C_tokens_fail": 29,
         "T_tokens_fail": 20
     },
     "845": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 106,
+        "C_tokens": 94,
         "T_tokens": 39,
-        "C_tokens_fail": 38,
+        "C_tokens_fail": 29,
         "T_tokens_fail": 20
     },
     "846": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 106,
+        "C_tokens": 94,
         "T_tokens": 39,
-        "C_tokens_fail": 38,
+        "C_tokens_fail": 29,
         "T_tokens_fail": 20
     },
     "847": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 106,
+        "C_tokens": 94,
         "T_tokens": 39,
-        "C_tokens_fail": 38,
+        "C_tokens_fail": 29,
         "T_tokens_fail": 20
     },
     "848": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 106,
+        "C_tokens": 94,
         "T_tokens": 36,
-        "C_tokens_fail": 38,
+        "C_tokens_fail": 29,
         "T_tokens_fail": 14
     },
     "849": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 106,
+        "C_tokens": 94,
         "T_tokens": 36,
-        "C_tokens_fail": 38,
+        "C_tokens_fail": 29,
         "T_tokens_fail": 15
     },
     "850": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 106,
-        "T_tokens": 36,
-        "C_tokens_fail": 38,
-        "T_tokens_fail": 15
+        "C_tokens": 94,
+        "T_tokens": 33,
+        "C_tokens_fail": 29,
+        "T_tokens_fail": 12
     },
     "851": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 106,
-        "T_tokens": 36,
-        "C_tokens_fail": 38,
-        "T_tokens_fail": 17
+        "C_tokens": 94,
+        "T_tokens": 33,
+        "C_tokens_fail": 29,
+        "T_tokens_fail": 14
     },
     "852": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 129,
+        "C_tokens": 46,
         "T_tokens": 38,
-        "C_tokens_fail": 33,
+        "C_tokens_fail": 8,
         "T_tokens_fail": 19
     },
     "853": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 129,
+        "C_tokens": 46,
         "T_tokens": 38,
-        "C_tokens_fail": 33,
+        "C_tokens_fail": 8,
         "T_tokens_fail": 17
     },
     "854": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 129,
+        "C_tokens": 46,
         "T_tokens": 42,
-        "C_tokens_fail": 33,
+        "C_tokens_fail": 8,
         "T_tokens_fail": 18
     },
     "855": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 129,
+        "C_tokens": 46,
         "T_tokens": 39,
-        "C_tokens_fail": 33,
+        "C_tokens_fail": 8,
         "T_tokens_fail": 18
     },
     "856": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 129,
+        "C_tokens": 46,
         "T_tokens": 43,
-        "C_tokens_fail": 33,
+        "C_tokens_fail": 8,
         "T_tokens_fail": 19
     },
     "857": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 129,
+        "C_tokens": 46,
         "T_tokens": 40,
-        "C_tokens_fail": 33,
+        "C_tokens_fail": 8,
         "T_tokens_fail": 19
     },
     "858": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 129,
+        "C_tokens": 46,
         "T_tokens": 39,
-        "C_tokens_fail": 33,
+        "C_tokens_fail": 8,
         "T_tokens_fail": 18
     },
     "859": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 129,
+        "C_tokens": 46,
         "T_tokens": 43,
-        "C_tokens_fail": 33,
+        "C_tokens_fail": 8,
         "T_tokens_fail": 19
     },
     "860": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 129,
+        "C_tokens": 46,
         "T_tokens": 39,
-        "C_tokens_fail": 33,
+        "C_tokens_fail": 8,
         "T_tokens_fail": 19
     },
     "861": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 129,
+        "C_tokens": 46,
         "T_tokens": 39,
-        "C_tokens_fail": 33,
+        "C_tokens_fail": 8,
         "T_tokens_fail": 18
     },
     "862": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 106,
-        "T_tokens": 29,
-        "C_tokens_fail": 38,
-        "T_tokens_fail": 13
+        "C_tokens": 94,
+        "T_tokens": 26,
+        "C_tokens_fail": 29,
+        "T_tokens_fail": 10
     },
     "863": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 106,
-        "T_tokens": 22,
-        "C_tokens_fail": 38,
-        "T_tokens_fail": 10
+        "C_tokens": 94,
+        "T_tokens": 19,
+        "C_tokens_fail": 29,
+        "T_tokens_fail": 7
     },
     "864": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 106,
-        "T_tokens": 27,
-        "C_tokens_fail": 38,
-        "T_tokens_fail": 10
+        "C_tokens": 94,
+        "T_tokens": 24,
+        "C_tokens_fail": 29,
+        "T_tokens_fail": 7
     },
     "865": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 106,
-        "T_tokens": 47,
-        "C_tokens_fail": 38,
-        "T_tokens_fail": 23
+        "C_tokens": 94,
+        "T_tokens": 44,
+        "C_tokens_fail": 29,
+        "T_tokens_fail": 20
     },
     "866": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 129,
+        "C_tokens": 46,
         "T_tokens": 36,
-        "C_tokens_fail": 33,
+        "C_tokens_fail": 8,
         "T_tokens_fail": 17
     },
     "867": {
@@ -6962,18 +6962,18 @@
     "870": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 129,
-        "T_tokens": 31,
-        "C_tokens_fail": 33,
-        "T_tokens_fail": 16
+        "C_tokens": 46,
+        "T_tokens": 28,
+        "C_tokens_fail": 8,
+        "T_tokens_fail": 13
     },
     "871": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 56,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 19,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "872": {
         "project": "commons-rng-1.4-src",
@@ -6995,25 +6995,25 @@
         "project": "commons-rng-1.4-src",
         "label": "P",
         "C_tokens": 6,
-        "T_tokens": 30,
+        "T_tokens": 27,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 19
+        "T_tokens_fail": 16
     },
     "875": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 6,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "876": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 56,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 19,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "877": {
         "project": "commons-rng-1.4-src",
@@ -7051,9 +7051,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 29,
-        "T_tokens": 30,
+        "T_tokens": 17,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 6
     },
     "882": {
         "project": "commons-rng-1.4-src",
@@ -7075,25 +7075,25 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 29,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "885": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 33,
-        "T_tokens": 15,
+        "T_tokens": 12,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "886": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 29,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "887": {
         "project": "commons-rng-1.4-src",
@@ -7114,34 +7114,34 @@
     "889": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 92,
+        "C_tokens": 80,
         "T_tokens": 37,
-        "C_tokens_fail": 35,
+        "C_tokens_fail": 26,
         "T_tokens_fail": 18
     },
     "890": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 92,
+        "C_tokens": 80,
         "T_tokens": 35,
-        "C_tokens_fail": 35,
+        "C_tokens_fail": 26,
         "T_tokens_fail": 13
     },
     "891": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 92,
+        "C_tokens": 80,
         "T_tokens": 35,
-        "C_tokens_fail": 35,
+        "C_tokens_fail": 26,
         "T_tokens_fail": 15
     },
     "892": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 92,
-        "T_tokens": 35,
-        "C_tokens_fail": 35,
-        "T_tokens_fail": 14
+        "C_tokens": 80,
+        "T_tokens": 32,
+        "C_tokens_fail": 26,
+        "T_tokens_fail": 11
     },
     "893": {
         "project": "commons-rng-1.4-src",
@@ -7179,41 +7179,41 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 52,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 14,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "898": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 92,
-        "T_tokens": 18,
-        "C_tokens_fail": 35,
-        "T_tokens_fail": 7
+        "C_tokens": 80,
+        "T_tokens": 15,
+        "C_tokens_fail": 26,
+        "T_tokens_fail": 4
     },
     "899": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 22,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "900": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 92,
-        "T_tokens": 30,
-        "C_tokens_fail": 35,
-        "T_tokens_fail": 15
+        "C_tokens": 80,
+        "T_tokens": 27,
+        "C_tokens_fail": 26,
+        "T_tokens_fail": 12
     },
     "901": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 92,
-        "T_tokens": 35,
-        "C_tokens_fail": 35,
-        "T_tokens_fail": 16
+        "C_tokens": 80,
+        "T_tokens": 32,
+        "C_tokens_fail": 26,
+        "T_tokens_fail": 13
     },
     "902": {
         "project": "commons-rng-1.4-src",
@@ -7258,169 +7258,169 @@
     "907": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 50,
+        "C_tokens": 42,
         "T_tokens": 46,
-        "C_tokens_fail": 28,
+        "C_tokens_fail": 24,
         "T_tokens_fail": 21
     },
     "908": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 50,
+        "C_tokens": 42,
         "T_tokens": 46,
-        "C_tokens_fail": 28,
+        "C_tokens_fail": 24,
         "T_tokens_fail": 20
     },
     "909": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 50,
+        "C_tokens": 42,
         "T_tokens": 47,
-        "C_tokens_fail": 28,
+        "C_tokens_fail": 24,
         "T_tokens_fail": 21
     },
     "910": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 50,
-        "T_tokens": 37,
-        "C_tokens_fail": 28,
-        "T_tokens_fail": 17
+        "C_tokens": 42,
+        "T_tokens": 34,
+        "C_tokens_fail": 24,
+        "T_tokens_fail": 14
     },
     "911": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 50,
-        "T_tokens": 37,
-        "C_tokens_fail": 28,
-        "T_tokens_fail": 18
+        "C_tokens": 42,
+        "T_tokens": 34,
+        "C_tokens_fail": 24,
+        "T_tokens_fail": 15
     },
     "912": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 307,
+        "C_tokens": 99,
         "T_tokens": 41,
-        "C_tokens_fail": 66,
+        "C_tokens_fail": 16,
         "T_tokens_fail": 18
     },
     "913": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 307,
+        "C_tokens": 99,
         "T_tokens": 45,
-        "C_tokens_fail": 66,
+        "C_tokens_fail": 16,
         "T_tokens_fail": 19
     },
     "914": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 307,
+        "C_tokens": 99,
         "T_tokens": 41,
-        "C_tokens_fail": 66,
+        "C_tokens_fail": 16,
         "T_tokens_fail": 18
     },
     "915": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 307,
+        "C_tokens": 99,
         "T_tokens": 45,
-        "C_tokens_fail": 66,
+        "C_tokens_fail": 16,
         "T_tokens_fail": 19
     },
     "916": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 307,
+        "C_tokens": 99,
         "T_tokens": 41,
-        "C_tokens_fail": 66,
+        "C_tokens_fail": 16,
         "T_tokens_fail": 18
     },
     "917": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 307,
+        "C_tokens": 99,
         "T_tokens": 45,
-        "C_tokens_fail": 66,
+        "C_tokens_fail": 16,
         "T_tokens_fail": 19
     },
     "918": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 307,
+        "C_tokens": 99,
         "T_tokens": 40,
-        "C_tokens_fail": 66,
+        "C_tokens_fail": 16,
         "T_tokens_fail": 20
     },
     "919": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 307,
+        "C_tokens": 99,
         "T_tokens": 42,
-        "C_tokens_fail": 66,
+        "C_tokens_fail": 16,
         "T_tokens_fail": 22
     },
     "920": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 30,
+        "C_tokens": 27,
         "T_tokens": 39,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 21
     },
     "921": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 50,
+        "C_tokens": 42,
         "T_tokens": 46,
-        "C_tokens_fail": 28,
+        "C_tokens_fail": 24,
         "T_tokens_fail": 22
     },
     "922": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 50,
+        "C_tokens": 42,
         "T_tokens": 46,
-        "C_tokens_fail": 28,
+        "C_tokens_fail": 24,
         "T_tokens_fail": 22
     },
     "923": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 307,
-        "T_tokens": 28,
-        "C_tokens_fail": 66,
-        "T_tokens_fail": 14
+        "C_tokens": 99,
+        "T_tokens": 25,
+        "C_tokens_fail": 16,
+        "T_tokens_fail": 11
     },
     "924": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 307,
-        "T_tokens": 37,
-        "C_tokens_fail": 66,
-        "T_tokens_fail": 21
+        "C_tokens": 99,
+        "T_tokens": 34,
+        "C_tokens_fail": 16,
+        "T_tokens_fail": 18
     },
     "925": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 50,
-        "T_tokens": 31,
-        "C_tokens_fail": 28,
-        "T_tokens_fail": 13
+        "C_tokens": 42,
+        "T_tokens": 28,
+        "C_tokens_fail": 24,
+        "T_tokens_fail": 10
     },
     "926": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 30,
+        "C_tokens": 27,
         "T_tokens": 35,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 13
     },
     "927": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 30,
+        "C_tokens": 27,
         "T_tokens": 29,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 14
     },
     "928": {
@@ -7451,9 +7451,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "932": {
         "project": "commons-rng-1.4-src",
@@ -7571,89 +7571,89 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "947": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "948": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "949": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "950": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "951": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "952": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 30,
+        "T_tokens": 27,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "953": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 32,
+        "T_tokens": 29,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "954": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "955": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "956": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "957": {
         "project": "commons-rng-1.4-src",
@@ -7699,25 +7699,25 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "963": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "964": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 41,
+        "T_tokens": 38,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 24
+        "T_tokens_fail": 21
     },
     "965": {
         "project": "commons-rng-1.4-src",
@@ -7738,9 +7738,9 @@
     "967": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 15,
         "T_tokens": 21,
-        "C_tokens_fail": 20,
+        "C_tokens_fail": 6,
         "T_tokens_fail": 11
     },
     "968": {
@@ -7827,51 +7827,59 @@
         "project": "commons-rng-1.4-src",
         "label": "P",
         "C_tokens": 7,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "979": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "980": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 13,
+        "T_tokens": 10,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "981": {
         "project": "commons-rng-1.4-src",
         "label": "P",
         "C_tokens": 9,
-        "T_tokens": 13,
+        "T_tokens": 10,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "982": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 30,
+        "T_tokens": 27,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 19
+        "T_tokens_fail": 16
     },
     "983": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "984": {
+        "project": "commons-rng-1.4-src",
+        "label": "F",
+        "C_tokens": 7,
+        "T_tokens": 11,
+        "C_tokens_fail": 3,
+        "T_tokens_fail": 4
+    },
+    "985": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
@@ -7879,37 +7887,29 @@
         "C_tokens_fail": 3,
         "T_tokens_fail": 7
     },
-    "985": {
-        "project": "commons-rng-1.4-src",
-        "label": "F",
-        "C_tokens": 7,
-        "T_tokens": 17,
-        "C_tokens_fail": 3,
-        "T_tokens_fail": 10
-    },
     "986": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "987": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "988": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "989": {
         "project": "commons-rng-1.4-src",
@@ -7923,9 +7923,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "991": {
         "project": "commons-rng-1.4-src",
@@ -7939,9 +7939,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 13,
+        "T_tokens": 10,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "993": {
         "project": "commons-rng-1.4-src",
@@ -7963,17 +7963,17 @@
         "project": "commons-rng-1.4-src",
         "label": "P",
         "C_tokens": 9,
-        "T_tokens": 13,
+        "T_tokens": 10,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "996": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 34,
+        "T_tokens": 31,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 22
+        "T_tokens_fail": 19
     },
     "997": {
         "project": "commons-rng-1.4-src",
@@ -7994,25 +7994,25 @@
     "999": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 78,
-        "T_tokens": 17,
-        "C_tokens_fail": 29,
-        "T_tokens_fail": 11
+        "C_tokens": 50,
+        "T_tokens": 14,
+        "C_tokens_fail": 13,
+        "T_tokens_fail": 8
     },
     "1000": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 78,
-        "T_tokens": 14,
-        "C_tokens_fail": 29,
-        "T_tokens_fail": 7
+        "C_tokens": 50,
+        "T_tokens": 11,
+        "C_tokens_fail": 13,
+        "T_tokens_fail": 4
     },
     "1001": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 78,
+        "C_tokens": 50,
         "T_tokens": 17,
-        "C_tokens_fail": 29,
+        "C_tokens_fail": 13,
         "T_tokens_fail": 9
     },
     "1002": {
@@ -8027,9 +8027,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 35,
+        "T_tokens": 32,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 20
+        "T_tokens_fail": 17
     },
     "1004": {
         "project": "commons-rng-1.4-src",
@@ -8059,9 +8059,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 58,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 12,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1008": {
         "project": "commons-rng-1.4-src",
@@ -8082,137 +8082,137 @@
     "1010": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 32,
+        "C_tokens": 26,
         "T_tokens": 22,
-        "C_tokens_fail": 11,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 10
     },
     "1011": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 59,
+        "C_tokens": 18,
         "T_tokens": 24,
-        "C_tokens_fail": 18,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 9
     },
     "1012": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 32,
-        "T_tokens": 14,
-        "C_tokens_fail": 11,
-        "T_tokens_fail": 7
+        "C_tokens": 26,
+        "T_tokens": 11,
+        "C_tokens_fail": 7,
+        "T_tokens_fail": 4
     },
     "1013": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 32,
-        "T_tokens": 14,
-        "C_tokens_fail": 11,
-        "T_tokens_fail": 7
+        "C_tokens": 26,
+        "T_tokens": 11,
+        "C_tokens_fail": 7,
+        "T_tokens_fail": 4
     },
     "1014": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 32,
-        "T_tokens": 15,
-        "C_tokens_fail": 11,
-        "T_tokens_fail": 7
+        "C_tokens": 26,
+        "T_tokens": 12,
+        "C_tokens_fail": 7,
+        "T_tokens_fail": 4
     },
     "1015": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 74,
-        "T_tokens": 13,
-        "C_tokens_fail": 17,
-        "T_tokens_fail": 7
+        "C_tokens": 57,
+        "T_tokens": 10,
+        "C_tokens_fail": 10,
+        "T_tokens_fail": 4
     },
     "1016": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 59,
-        "T_tokens": 22,
-        "C_tokens_fail": 18,
-        "T_tokens_fail": 13
+        "C_tokens": 18,
+        "T_tokens": 19,
+        "C_tokens_fail": 5,
+        "T_tokens_fail": 10
     },
     "1017": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 59,
-        "T_tokens": 15,
-        "C_tokens_fail": 18,
-        "T_tokens_fail": 7
+        "C_tokens": 18,
+        "T_tokens": 12,
+        "C_tokens_fail": 5,
+        "T_tokens_fail": 4
     },
     "1018": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 59,
-        "T_tokens": 22,
-        "C_tokens_fail": 18,
-        "T_tokens_fail": 14
+        "C_tokens": 18,
+        "T_tokens": 19,
+        "C_tokens_fail": 5,
+        "T_tokens_fail": 11
     },
     "1019": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 74,
-        "T_tokens": 41,
-        "C_tokens_fail": 17,
-        "T_tokens_fail": 25
+        "C_tokens": 57,
+        "T_tokens": 38,
+        "C_tokens_fail": 10,
+        "T_tokens_fail": 22
     },
     "1020": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 32,
-        "T_tokens": 24,
-        "C_tokens_fail": 11,
-        "T_tokens_fail": 11
+        "C_tokens": 26,
+        "T_tokens": 21,
+        "C_tokens_fail": 7,
+        "T_tokens_fail": 8
     },
     "1021": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 59,
+        "C_tokens": 18,
         "T_tokens": 24,
-        "C_tokens_fail": 18,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 9
     },
     "1022": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 59,
+        "C_tokens": 18,
         "T_tokens": 26,
-        "C_tokens_fail": 18,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 7
     },
     "1023": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 74,
-        "T_tokens": 16,
-        "C_tokens_fail": 17,
-        "T_tokens_fail": 10
+        "C_tokens": 57,
+        "T_tokens": 13,
+        "C_tokens_fail": 10,
+        "T_tokens_fail": 7
     },
     "1024": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 74,
+        "C_tokens": 57,
         "T_tokens": 13,
-        "C_tokens_fail": 17,
+        "C_tokens_fail": 10,
         "T_tokens_fail": 4
     },
     "1025": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 74,
+        "C_tokens": 57,
         "T_tokens": 13,
-        "C_tokens_fail": 17,
+        "C_tokens_fail": 10,
         "T_tokens_fail": 4
     },
     "1026": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 25,
+        "C_tokens": 15,
         "T_tokens": 24,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 6,
         "T_tokens_fail": 13
     },
     "1027": {
@@ -8226,26 +8226,26 @@
     "1028": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 25,
+        "C_tokens": 15,
         "T_tokens": 33,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 6,
         "T_tokens_fail": 16
     },
     "1029": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 25,
-        "T_tokens": 14,
-        "C_tokens_fail": 10,
-        "T_tokens_fail": 7
+        "C_tokens": 15,
+        "T_tokens": 11,
+        "C_tokens_fail": 6,
+        "T_tokens_fail": 4
     },
     "1030": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 14,
-        "T_tokens": 14,
+        "T_tokens": 11,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "1031": {
         "project": "commons-rng-1.4-src",
@@ -8258,9 +8258,9 @@
     "1032": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 25,
+        "C_tokens": 15,
         "T_tokens": 27,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 6,
         "T_tokens_fail": 13
     },
     "1033": {
@@ -8283,9 +8283,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 40,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 9,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1036": {
         "project": "commons-rng-1.4-src",
@@ -8323,9 +8323,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 30,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1041": {
         "project": "commons-rng-1.4-src",
@@ -8355,9 +8355,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 23,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1045": {
         "project": "commons-rng-1.4-src",
@@ -8387,25 +8387,25 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 69,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 17,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1049": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 81,
-        "T_tokens": 31,
-        "C_tokens_fail": 27,
-        "T_tokens_fail": 18
+        "C_tokens": 67,
+        "T_tokens": 28,
+        "C_tokens_fail": 19,
+        "T_tokens_fail": 15
     },
     "1050": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 61,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 14,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1051": {
         "project": "commons-rng-1.4-src",
@@ -8426,65 +8426,65 @@
     "1053": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 81,
-        "T_tokens": 18,
-        "C_tokens_fail": 27,
-        "T_tokens_fail": 11
+        "C_tokens": 67,
+        "T_tokens": 15,
+        "C_tokens_fail": 19,
+        "T_tokens_fail": 8
     },
     "1054": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 81,
+        "C_tokens": 67,
         "T_tokens": 22,
-        "C_tokens_fail": 27,
+        "C_tokens_fail": 19,
         "T_tokens_fail": 10
     },
     "1055": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 81,
+        "C_tokens": 67,
         "T_tokens": 31,
-        "C_tokens_fail": 27,
+        "C_tokens_fail": 19,
         "T_tokens_fail": 15
     },
     "1056": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 81,
-        "T_tokens": 26,
-        "C_tokens_fail": 27,
-        "T_tokens_fail": 16
+        "C_tokens": 67,
+        "T_tokens": 23,
+        "C_tokens_fail": 19,
+        "T_tokens_fail": 13
     },
     "1057": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 81,
+        "C_tokens": 67,
         "T_tokens": 22,
-        "C_tokens_fail": 27,
+        "C_tokens_fail": 19,
         "T_tokens_fail": 11
     },
     "1058": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 81,
+        "C_tokens": 67,
         "T_tokens": 23,
-        "C_tokens_fail": 27,
+        "C_tokens_fail": 19,
         "T_tokens_fail": 11
     },
     "1059": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 81,
+        "C_tokens": 67,
         "T_tokens": 23,
-        "C_tokens_fail": 27,
+        "C_tokens_fail": 19,
         "T_tokens_fail": 10
     },
     "1060": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 81,
+        "C_tokens": 67,
         "T_tokens": 26,
-        "C_tokens_fail": 27,
+        "C_tokens_fail": 19,
         "T_tokens_fail": 13
     },
     "1061": {
@@ -8515,9 +8515,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 30,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1065": {
         "project": "commons-rng-1.4-src",
@@ -8563,9 +8563,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1071": {
         "project": "commons-rng-1.4-src",
@@ -8587,49 +8587,49 @@
         "project": "commons-rng-1.4-src",
         "label": "P",
         "C_tokens": 9,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "1074": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1075": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1076": {
         "project": "commons-rng-1.4-src",
         "label": "P",
         "C_tokens": 9,
-        "T_tokens": 27,
+        "T_tokens": 24,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 16
+        "T_tokens_fail": 13
     },
     "1077": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1078": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1079": {
         "project": "commons-rng-1.4-src",
@@ -8667,9 +8667,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 23,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1084": {
         "project": "commons-rng-1.4-src",
@@ -8699,49 +8699,49 @@
         "project": "commons-rng-1.4-src",
         "label": "P",
         "C_tokens": 9,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "1088": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1089": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "1090": {
         "project": "commons-rng-1.4-src",
         "label": "P",
         "C_tokens": 9,
-        "T_tokens": 27,
+        "T_tokens": 24,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 16
+        "T_tokens_fail": 13
     },
     "1091": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1092": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1093": {
         "project": "commons-rng-1.4-src",
@@ -8771,96 +8771,96 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 14,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1097": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 19,
+        "C_tokens": 9,
         "T_tokens": 28,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 3,
         "T_tokens_fail": 14
     },
     "1098": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 19,
-        "T_tokens": 21,
-        "C_tokens_fail": 8,
-        "T_tokens_fail": 12
+        "C_tokens": 9,
+        "T_tokens": 18,
+        "C_tokens_fail": 3,
+        "T_tokens_fail": 9
     },
     "1099": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 19,
-        "T_tokens": 14,
-        "C_tokens_fail": 8,
-        "T_tokens_fail": 7
+        "C_tokens": 9,
+        "T_tokens": 11,
+        "C_tokens_fail": 3,
+        "T_tokens_fail": 4
     },
     "1100": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 19,
-        "T_tokens": 17,
-        "C_tokens_fail": 8,
-        "T_tokens_fail": 10
+        "C_tokens": 9,
+        "T_tokens": 14,
+        "C_tokens_fail": 3,
+        "T_tokens_fail": 7
     },
     "1101": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 19,
+        "C_tokens": 9,
         "T_tokens": 17,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 3,
         "T_tokens_fail": 9
     },
     "1102": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 19,
-        "T_tokens": 22,
-        "C_tokens_fail": 8,
-        "T_tokens_fail": 9
+        "C_tokens": 9,
+        "T_tokens": 19,
+        "C_tokens_fail": 3,
+        "T_tokens_fail": 6
     },
     "1103": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 19,
-        "T_tokens": 25,
-        "C_tokens_fail": 8,
-        "T_tokens_fail": 14
+        "C_tokens": 9,
+        "T_tokens": 22,
+        "C_tokens_fail": 3,
+        "T_tokens_fail": 11
     },
     "1104": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 19,
+        "C_tokens": 9,
         "T_tokens": 17,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 3,
         "T_tokens_fail": 9
     },
     "1105": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 19,
+        "C_tokens": 9,
         "T_tokens": 22,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 3,
         "T_tokens_fail": 11
     },
     "1106": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 19,
+        "C_tokens": 9,
         "T_tokens": 21,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 3,
         "T_tokens_fail": 10
     },
     "1107": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 19,
+        "C_tokens": 9,
         "T_tokens": 22,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 3,
         "T_tokens_fail": 11
     },
     "1108": {
@@ -8875,41 +8875,41 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 46,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "1110": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 83,
+        "C_tokens": 67,
         "T_tokens": 21,
-        "C_tokens_fail": 18,
+        "C_tokens_fail": 9,
         "T_tokens_fail": 8
     },
     "1111": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 83,
+        "C_tokens": 67,
         "T_tokens": 19,
-        "C_tokens_fail": 18,
+        "C_tokens_fail": 9,
         "T_tokens_fail": 8
     },
     "1112": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 83,
+        "C_tokens": 67,
         "T_tokens": 26,
-        "C_tokens_fail": 18,
+        "C_tokens_fail": 9,
         "T_tokens_fail": 11
     },
     "1113": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 83,
-        "T_tokens": 23,
-        "C_tokens_fail": 18,
-        "T_tokens_fail": 11
+        "C_tokens": 67,
+        "T_tokens": 20,
+        "C_tokens_fail": 9,
+        "T_tokens_fail": 8
     },
     "1114": {
         "project": "commons-rng-1.4-src",
@@ -8922,34 +8922,34 @@
     "1115": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 83,
+        "C_tokens": 67,
         "T_tokens": 23,
-        "C_tokens_fail": 18,
+        "C_tokens_fail": 9,
         "T_tokens_fail": 8
     },
     "1116": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 21,
-        "T_tokens": 37,
+        "T_tokens": 34,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "1117": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 21,
-        "T_tokens": 32,
+        "T_tokens": 29,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "1118": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 21,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1119": {
         "project": "commons-rng-1.4-src",
@@ -8963,9 +8963,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 46,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1121": {
         "project": "commons-rng-1.4-src",
@@ -8978,18 +8978,18 @@
     "1122": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 83,
-        "T_tokens": 23,
-        "C_tokens_fail": 18,
-        "T_tokens_fail": 10
+        "C_tokens": 67,
+        "T_tokens": 20,
+        "C_tokens_fail": 9,
+        "T_tokens_fail": 7
     },
     "1123": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 83,
-        "T_tokens": 23,
-        "C_tokens_fail": 18,
-        "T_tokens_fail": 11
+        "C_tokens": 67,
+        "T_tokens": 20,
+        "C_tokens_fail": 9,
+        "T_tokens_fail": 8
     },
     "1124": {
         "project": "commons-rng-1.4-src",
@@ -9011,9 +9011,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 21,
-        "T_tokens": 33,
+        "T_tokens": 30,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "1127": {
         "project": "commons-rng-1.4-src",
@@ -9243,33 +9243,33 @@
         "project": "commons-rng-1.4-src",
         "label": "P",
         "C_tokens": 13,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1156": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 29,
+        "T_tokens": 26,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "1157": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 29,
+        "T_tokens": 26,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "1158": {
         "project": "commons-rng-1.4-src",
         "label": "P",
         "C_tokens": 13,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1159": {
         "project": "commons-rng-1.4-src",
@@ -9330,9 +9330,9 @@
     "1166": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 32,
+        "C_tokens": 8,
         "T_tokens": 25,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 16
     },
     "1167": {
@@ -9354,9 +9354,9 @@
     "1169": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 32,
+        "C_tokens": 8,
         "T_tokens": 23,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 10
     },
     "1170": {
@@ -9418,9 +9418,9 @@
     "1177": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 27,
+        "C_tokens": 8,
         "T_tokens": 23,
-        "C_tokens_fail": 12,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 10
     },
     "1178": {
@@ -9466,9 +9466,9 @@
     "1183": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 32,
+        "C_tokens": 8,
         "T_tokens": 21,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 12
     },
     "1184": {
@@ -9522,9 +9522,9 @@
     "1190": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 27,
+        "C_tokens": 8,
         "T_tokens": 23,
-        "C_tokens_fail": 12,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 10
     },
     "1191": {
@@ -9547,9 +9547,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 27,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 11,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1194": {
         "project": "commons-rng-1.4-src",
@@ -9595,9 +9595,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 24,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1200": {
         "project": "commons-rng-1.4-src",
@@ -9651,9 +9651,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 27,
-        "T_tokens": 27,
+        "T_tokens": 24,
         "C_tokens_fail": 11,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "1207": {
         "project": "commons-rng-1.4-src",
@@ -9675,9 +9675,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 24,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1210": {
         "project": "commons-rng-1.4-src",
@@ -9707,9 +9707,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 27,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 11,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1214": {
         "project": "commons-rng-1.4-src",
@@ -9730,50 +9730,50 @@
     "1216": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 47,
+        "C_tokens": 43,
         "T_tokens": 26,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 10,
         "T_tokens_fail": 10
     },
     "1217": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 47,
+        "C_tokens": 43,
         "T_tokens": 23,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 10,
         "T_tokens_fail": 9
     },
     "1218": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 27,
+        "C_tokens": 8,
         "T_tokens": 23,
-        "C_tokens_fail": 12,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 10
     },
     "1219": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 31,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1220": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 31,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1221": {
         "project": "commons-rng-1.4-src",
         "label": "P",
         "C_tokens": 13,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1222": {
         "project": "commons-rng-1.4-src",
@@ -9802,9 +9802,9 @@
     "1225": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 47,
+        "C_tokens": 43,
         "T_tokens": 23,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 10,
         "T_tokens_fail": 8
     },
     "1226": {
@@ -9898,9 +9898,9 @@
     "1237": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 32,
+        "C_tokens": 8,
         "T_tokens": 19,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 10
     },
     "1238": {
@@ -9938,9 +9938,9 @@
     "1242": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 27,
+        "C_tokens": 8,
         "T_tokens": 23,
-        "C_tokens_fail": 12,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 10
     },
     "1243": {
@@ -10002,9 +10002,9 @@
     "1250": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 32,
+        "C_tokens": 8,
         "T_tokens": 23,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 10
     },
     "1251": {
@@ -10018,25 +10018,25 @@
     "1252": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 67,
+        "C_tokens": 43,
         "T_tokens": 26,
-        "C_tokens_fail": 24,
+        "C_tokens_fail": 14,
         "T_tokens_fail": 11
     },
     "1253": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 67,
+        "C_tokens": 43,
         "T_tokens": 19,
-        "C_tokens_fail": 24,
+        "C_tokens_fail": 14,
         "T_tokens_fail": 9
     },
     "1254": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 32,
+        "C_tokens": 8,
         "T_tokens": 19,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 10
     },
     "1255": {
@@ -10058,33 +10058,33 @@
     "1257": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 67,
+        "C_tokens": 43,
         "T_tokens": 23,
-        "C_tokens_fail": 24,
+        "C_tokens_fail": 14,
         "T_tokens_fail": 8
     },
     "1258": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 14,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1259": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 24,
+        "C_tokens": 13,
         "T_tokens": 19,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 10
     },
     "1260": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 24,
+        "C_tokens": 13,
         "T_tokens": 23,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 10
     },
     "1261": {
@@ -10098,33 +10098,33 @@
     "1262": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 171,
+        "C_tokens": 120,
         "T_tokens": 27,
-        "C_tokens_fail": 49,
+        "C_tokens_fail": 28,
         "T_tokens_fail": 11
     },
     "1263": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 65,
+        "C_tokens": 26,
         "T_tokens": 27,
-        "C_tokens_fail": 26,
+        "C_tokens_fail": 8,
         "T_tokens_fail": 9
     },
     "1264": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 65,
+        "C_tokens": 26,
         "T_tokens": 27,
-        "C_tokens_fail": 26,
+        "C_tokens_fail": 8,
         "T_tokens_fail": 9
     },
     "1265": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 171,
+        "C_tokens": 120,
         "T_tokens": 24,
-        "C_tokens_fail": 49,
+        "C_tokens_fail": 28,
         "T_tokens_fail": 9
     },
     "1266": {
@@ -10146,9 +10146,9 @@
     "1268": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 56,
+        "C_tokens": 22,
         "T_tokens": 26,
-        "C_tokens_fail": 17,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 15
     },
     "1269": {
@@ -10162,68 +10162,92 @@
     "1270": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 29,
+        "C_tokens": 21,
         "T_tokens": 19,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 8
     },
     "1271": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 36,
-        "T_tokens": 24,
-        "C_tokens_fail": 14,
-        "T_tokens_fail": 11
+        "C_tokens": 32,
+        "T_tokens": 21,
+        "C_tokens_fail": 12,
+        "T_tokens_fail": 8
     },
     "1272": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 36,
-        "T_tokens": 28,
-        "C_tokens_fail": 14,
-        "T_tokens_fail": 12
+        "C_tokens": 32,
+        "T_tokens": 25,
+        "C_tokens_fail": 12,
+        "T_tokens_fail": 9
     },
     "1273": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 30,
+        "T_tokens": 27,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "1274": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 56,
-        "T_tokens": 30,
-        "C_tokens_fail": 17,
-        "T_tokens_fail": 15
+        "C_tokens": 22,
+        "T_tokens": 27,
+        "C_tokens_fail": 7,
+        "T_tokens_fail": 12
     },
     "1275": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 32,
+        "T_tokens": 29,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "1276": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 171,
-        "T_tokens": 23,
-        "C_tokens_fail": 49,
-        "T_tokens_fail": 10
+        "C_tokens": 120,
+        "T_tokens": 20,
+        "C_tokens_fail": 28,
+        "T_tokens_fail": 7
     },
     "1277": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 171,
-        "T_tokens": 33,
-        "C_tokens_fail": 49,
-        "T_tokens_fail": 21
+        "C_tokens": 120,
+        "T_tokens": 30,
+        "C_tokens_fail": 28,
+        "T_tokens_fail": 18
     },
     "1278": {
+        "project": "commons-rng-1.4-src",
+        "label": "F",
+        "C_tokens": 10,
+        "T_tokens": 23,
+        "C_tokens_fail": 3,
+        "T_tokens_fail": 8
+    },
+    "1279": {
+        "project": "commons-rng-1.4-src",
+        "label": "F",
+        "C_tokens": 10,
+        "T_tokens": 27,
+        "C_tokens_fail": 3,
+        "T_tokens_fail": 9
+    },
+    "1280": {
+        "project": "commons-rng-1.4-src",
+        "label": "F",
+        "C_tokens": 10,
+        "T_tokens": 21,
+        "C_tokens_fail": 3,
+        "T_tokens_fail": 9
+    },
+    "1281": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 10,
@@ -10231,36 +10255,12 @@
         "C_tokens_fail": 3,
         "T_tokens_fail": 11
     },
-    "1279": {
-        "project": "commons-rng-1.4-src",
-        "label": "F",
-        "C_tokens": 10,
-        "T_tokens": 30,
-        "C_tokens_fail": 3,
-        "T_tokens_fail": 12
-    },
-    "1280": {
-        "project": "commons-rng-1.4-src",
-        "label": "F",
-        "C_tokens": 10,
-        "T_tokens": 24,
-        "C_tokens_fail": 3,
-        "T_tokens_fail": 12
-    },
-    "1281": {
-        "project": "commons-rng-1.4-src",
-        "label": "F",
-        "C_tokens": 10,
-        "T_tokens": 29,
-        "C_tokens_fail": 3,
-        "T_tokens_fail": 14
-    },
     "1282": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 56,
+        "C_tokens": 22,
         "T_tokens": 23,
-        "C_tokens_fail": 17,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 10
     },
     "1283": {
@@ -10282,33 +10282,33 @@
     "1285": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 65,
+        "C_tokens": 26,
         "T_tokens": 25,
-        "C_tokens_fail": 26,
+        "C_tokens_fail": 8,
         "T_tokens_fail": 12
     },
     "1286": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 65,
+        "C_tokens": 26,
         "T_tokens": 29,
-        "C_tokens_fail": 26,
+        "C_tokens_fail": 8,
         "T_tokens_fail": 12
     },
     "1287": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 30,
+        "T_tokens": 27,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "1288": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 36,
+        "C_tokens": 32,
         "T_tokens": 24,
-        "C_tokens_fail": 14,
+        "C_tokens_fail": 12,
         "T_tokens_fail": 10
     },
     "1289": {
@@ -10322,9 +10322,9 @@
     "1290": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 29,
+        "C_tokens": 21,
         "T_tokens": 27,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 11
     },
     "1291": {
@@ -10354,9 +10354,9 @@
     "1294": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 51,
+        "C_tokens": 14,
         "T_tokens": 26,
-        "C_tokens_fail": 20,
+        "C_tokens_fail": 6,
         "T_tokens_fail": 10
     },
     "1295": {
@@ -10370,26 +10370,26 @@
     "1296": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 30,
         "T_tokens": 24,
-        "C_tokens_fail": 18,
+        "C_tokens_fail": 9,
         "T_tokens_fail": 10
     },
     "1297": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 43,
-        "T_tokens": 24,
-        "C_tokens_fail": 18,
-        "T_tokens_fail": 11
+        "C_tokens": 30,
+        "T_tokens": 21,
+        "C_tokens_fail": 9,
+        "T_tokens_fail": 8
     },
     "1298": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 43,
-        "T_tokens": 28,
-        "C_tokens_fail": 18,
-        "T_tokens_fail": 13
+        "C_tokens": 30,
+        "T_tokens": 25,
+        "C_tokens_fail": 9,
+        "T_tokens_fail": 10
     },
     "1299": {
         "project": "commons-rng-1.4-src",
@@ -10458,9 +10458,9 @@
     "1307": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 32,
+        "C_tokens": 8,
         "T_tokens": 23,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 10
     },
     "1308": {
@@ -10515,17 +10515,17 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 16
+        "T_tokens_fail": 13
     },
     "1315": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1316": {
         "project": "commons-rng-1.4-src",
@@ -10571,17 +10571,17 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1322": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "1323": {
         "project": "commons-rng-1.4-src",
@@ -10642,9 +10642,9 @@
     "1330": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 32,
+        "C_tokens": 8,
         "T_tokens": 23,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 10
     },
     "1331": {
@@ -10706,9 +10706,9 @@
     "1338": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 32,
+        "C_tokens": 8,
         "T_tokens": 23,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 10
     },
     "1339": {
@@ -10747,17 +10747,17 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1344": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1345": {
         "project": "commons-rng-1.4-src",
@@ -10778,42 +10778,42 @@
     "1347": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 159,
+        "C_tokens": 152,
         "T_tokens": 32,
-        "C_tokens_fail": 45,
+        "C_tokens_fail": 41,
         "T_tokens_fail": 15
     },
     "1348": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 159,
+        "C_tokens": 152,
         "T_tokens": 23,
-        "C_tokens_fail": 45,
+        "C_tokens_fail": 41,
         "T_tokens_fail": 9
     },
     "1349": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 31,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1350": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 31,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1351": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 159,
-        "T_tokens": 29,
-        "C_tokens_fail": 45,
-        "T_tokens_fail": 14
+        "C_tokens": 152,
+        "T_tokens": 26,
+        "C_tokens_fail": 41,
+        "T_tokens_fail": 11
     },
     "1352": {
         "project": "commons-rng-1.4-src",
@@ -10826,9 +10826,9 @@
     "1353": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 159,
+        "C_tokens": 152,
         "T_tokens": 23,
-        "C_tokens_fail": 45,
+        "C_tokens_fail": 41,
         "T_tokens_fail": 9
     },
     "1354": {
@@ -10882,9 +10882,9 @@
     "1360": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 32,
+        "C_tokens": 8,
         "T_tokens": 19,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 10
     },
     "1361": {
@@ -10899,17 +10899,17 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 32,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 9,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1363": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 32,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 9,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1364": {
         "project": "commons-rng-1.4-src",
@@ -10954,50 +10954,50 @@
     "1369": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 38,
         "T_tokens": 23,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 9
     },
     "1370": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 38,
         "T_tokens": 26,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 12
     },
     "1371": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 38,
         "T_tokens": 22,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 11
     },
     "1372": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1373": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1374": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 57,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 19,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1375": {
         "project": "commons-rng-1.4-src",
@@ -11027,17 +11027,17 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 32,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1379": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 32,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1380": {
         "project": "commons-rng-1.4-src",
@@ -11066,33 +11066,33 @@
     "1383": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 25,
+        "C_tokens": 13,
         "T_tokens": 13,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 6
     },
     "1384": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 25,
+        "C_tokens": 13,
         "T_tokens": 14,
-        "C_tokens_fail": 9,
+        "C_tokens_fail": 3,
         "T_tokens_fail": 6
     },
     "1385": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 25,
+        "C_tokens": 13,
         "T_tokens": 14,
-        "C_tokens_fail": 9,
+        "C_tokens_fail": 3,
         "T_tokens_fail": 6
     },
     "1386": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 25,
+        "C_tokens": 13,
         "T_tokens": 13,
-        "C_tokens_fail": 9,
+        "C_tokens_fail": 3,
         "T_tokens_fail": 5
     },
     "1387": {
@@ -11194,25 +11194,25 @@
     "1399": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 25,
+        "C_tokens": 13,
         "T_tokens": 13,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 5
     },
     "1400": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 25,
+        "C_tokens": 13,
         "T_tokens": 14,
-        "C_tokens_fail": 9,
+        "C_tokens_fail": 3,
         "T_tokens_fail": 6
     },
     "1401": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 25,
+        "C_tokens": 13,
         "T_tokens": 14,
-        "C_tokens_fail": 9,
+        "C_tokens_fail": 3,
         "T_tokens_fail": 5
     },
     "1402": {
@@ -11259,65 +11259,65 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 48,
-        "T_tokens": 14,
+        "T_tokens": 11,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "1408": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 48,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "1409": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 18,
-        "T_tokens": 14,
+        "T_tokens": 11,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "1410": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 48,
-        "T_tokens": 14,
+        "T_tokens": 11,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "1411": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 48,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "1412": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 11,
-        "T_tokens": 14,
+        "T_tokens": 11,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "1413": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 18,
-        "T_tokens": 14,
+        "T_tokens": 11,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "1414": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 18,
-        "T_tokens": 14,
+        "T_tokens": 11,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "1415": {
         "project": "commons-rng-1.4-src",
@@ -11419,9 +11419,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 11,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "1428": {
         "project": "commons-rng-1.4-src",
@@ -11459,9 +11459,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 18,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "1433": {
         "project": "commons-rng-1.4-src",
@@ -11498,18 +11498,18 @@
     "1437": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 34,
+        "C_tokens": 25,
         "T_tokens": 23,
-        "C_tokens_fail": 16,
+        "C_tokens_fail": 10,
         "T_tokens_fail": 9
     },
     "1438": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 34,
-        "T_tokens": 26,
-        "C_tokens_fail": 16,
-        "T_tokens_fail": 13
+        "C_tokens": 25,
+        "T_tokens": 23,
+        "C_tokens_fail": 10,
+        "T_tokens_fail": 10
     },
     "1439": {
         "project": "commons-rng-1.4-src",
@@ -11522,9 +11522,9 @@
     "1440": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 34,
+        "C_tokens": 25,
         "T_tokens": 23,
-        "C_tokens_fail": 16,
+        "C_tokens_fail": 10,
         "T_tokens_fail": 8
     },
     "1441": {
@@ -11562,9 +11562,9 @@
     "1445": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 51,
+        "C_tokens": 14,
         "T_tokens": 26,
-        "C_tokens_fail": 20,
+        "C_tokens_fail": 6,
         "T_tokens_fail": 11
     },
     "1446": {
@@ -11586,10 +11586,10 @@
     "1448": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 43,
-        "T_tokens": 24,
-        "C_tokens_fail": 18,
-        "T_tokens_fail": 12
+        "C_tokens": 30,
+        "T_tokens": 21,
+        "C_tokens_fail": 9,
+        "T_tokens_fail": 9
     },
     "1449": {
         "project": "commons-rng-1.4-src",
@@ -11602,34 +11602,34 @@
     "1450": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 43,
-        "T_tokens": 28,
-        "C_tokens_fail": 18,
-        "T_tokens_fail": 12
+        "C_tokens": 30,
+        "T_tokens": 25,
+        "C_tokens_fail": 9,
+        "T_tokens_fail": 9
     },
     "1451": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 30,
         "T_tokens": 24,
-        "C_tokens_fail": 18,
+        "C_tokens_fail": 9,
         "T_tokens_fail": 9
     },
     "1452": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 34,
+        "C_tokens": 25,
         "T_tokens": 26,
-        "C_tokens_fail": 16,
+        "C_tokens_fail": 10,
         "T_tokens_fail": 12
     },
     "1453": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 34,
-        "T_tokens": 26,
-        "C_tokens_fail": 16,
-        "T_tokens_fail": 13
+        "C_tokens": 25,
+        "T_tokens": 23,
+        "C_tokens_fail": 10,
+        "T_tokens_fail": 10
     },
     "1454": {
         "project": "commons-rng-1.4-src",
@@ -11642,9 +11642,9 @@
     "1455": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 34,
+        "C_tokens": 25,
         "T_tokens": 23,
-        "C_tokens_fail": 16,
+        "C_tokens_fail": 10,
         "T_tokens_fail": 8
     },
     "1456": {
@@ -11667,9 +11667,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 100,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 32,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1459": {
         "project": "commons-rng-1.4-src",
@@ -11690,42 +11690,42 @@
     "1461": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 38,
         "T_tokens": 23,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 9
     },
     "1462": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 38,
         "T_tokens": 19,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 8
     },
     "1463": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 38,
         "T_tokens": 19,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 9
     },
     "1464": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1465": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1466": {
         "project": "commons-rng-1.4-src",
@@ -11754,34 +11754,34 @@
     "1469": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 38,
+        "C_tokens": 30,
         "T_tokens": 23,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 9
     },
     "1470": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 38,
+        "C_tokens": 30,
         "T_tokens": 26,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 11
     },
     "1471": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 35,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1472": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 35,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1473": {
         "project": "commons-rng-1.4-src",
@@ -11794,9 +11794,9 @@
     "1474": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 38,
+        "C_tokens": 30,
         "T_tokens": 23,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 9
     },
     "1475": {
@@ -11818,9 +11818,9 @@
     "1477": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 70,
+        "C_tokens": 55,
         "T_tokens": 23,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 3,
         "T_tokens_fail": 9
     },
     "1478": {
@@ -11843,32 +11843,32 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1481": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 43,
+        "C_tokens": 29,
         "T_tokens": 18,
-        "C_tokens_fail": 21,
+        "C_tokens_fail": 14,
         "T_tokens_fail": 7
     },
     "1482": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1483": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 70,
+        "C_tokens": 55,
         "T_tokens": 23,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 3,
         "T_tokens_fail": 9
     },
     "1484": {
@@ -11882,9 +11882,9 @@
     "1485": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 70,
+        "C_tokens": 55,
         "T_tokens": 27,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 3,
         "T_tokens_fail": 11
     },
     "1486": {
@@ -11899,17 +11899,17 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 59,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 20,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1488": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 19,
-        "T_tokens": 32,
+        "T_tokens": 29,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 16
+        "T_tokens_fail": 13
     },
     "1489": {
         "project": "commons-rng-1.4-src",
@@ -11955,9 +11955,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 59,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 20,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1495": {
         "project": "commons-rng-1.4-src",
@@ -11970,33 +11970,33 @@
     "1496": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 63,
+        "C_tokens": 50,
         "T_tokens": 23,
-        "C_tokens_fail": 26,
+        "C_tokens_fail": 18,
         "T_tokens_fail": 9
     },
     "1497": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 32,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 11,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1498": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 32,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 11,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1499": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 63,
+        "C_tokens": 50,
         "T_tokens": 23,
-        "C_tokens_fail": 26,
+        "C_tokens_fail": 18,
         "T_tokens_fail": 8
     },
     "1500": {
@@ -12050,17 +12050,17 @@
     "1506": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 27,
+        "C_tokens": 22,
         "T_tokens": 21,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 9
     },
     "1507": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 27,
+        "C_tokens": 22,
         "T_tokens": 21,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 9
     },
     "1508": {
@@ -12074,42 +12074,42 @@
     "1509": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 27,
+        "C_tokens": 22,
         "T_tokens": 21,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 9
     },
     "1510": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 27,
+        "C_tokens": 22,
         "T_tokens": 22,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 11
     },
     "1511": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 27,
+        "C_tokens": 22,
         "T_tokens": 21,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 9
     },
     "1512": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 30,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1513": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 30,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1514": {
         "project": "commons-rng-1.4-src",
@@ -12234,9 +12234,9 @@
     "1529": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 32,
+        "C_tokens": 8,
         "T_tokens": 23,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 10
     },
     "1530": {
@@ -12259,9 +12259,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 32,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 9,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1533": {
         "project": "commons-rng-1.4-src",
@@ -12283,17 +12283,17 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 32,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 9,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1536": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 77,
-        "T_tokens": 28,
-        "C_tokens_fail": 27,
-        "T_tokens_fail": 15
+        "C_tokens": 51,
+        "T_tokens": 25,
+        "C_tokens_fail": 13,
+        "T_tokens_fail": 12
     },
     "1537": {
         "project": "commons-rng-1.4-src",
@@ -12306,18 +12306,18 @@
     "1538": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 77,
-        "T_tokens": 24,
-        "C_tokens_fail": 27,
-        "T_tokens_fail": 12
+        "C_tokens": 51,
+        "T_tokens": 21,
+        "C_tokens_fail": 13,
+        "T_tokens_fail": 9
     },
     "1539": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 77,
-        "T_tokens": 32,
-        "C_tokens_fail": 27,
-        "T_tokens_fail": 14
+        "C_tokens": 51,
+        "T_tokens": 29,
+        "C_tokens_fail": 13,
+        "T_tokens_fail": 11
     },
     "1540": {
         "project": "commons-rng-1.4-src",
@@ -12330,10 +12330,10 @@
     "1541": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 77,
-        "T_tokens": 27,
-        "C_tokens_fail": 27,
-        "T_tokens_fail": 13
+        "C_tokens": 51,
+        "T_tokens": 24,
+        "C_tokens_fail": 13,
+        "T_tokens_fail": 10
     },
     "1542": {
         "project": "commons-rng-1.4-src",
@@ -12371,17 +12371,17 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "1547": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1548": {
         "project": "commons-rng-1.4-src",
@@ -12450,9 +12450,9 @@
     "1556": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 32,
+        "C_tokens": 8,
         "T_tokens": 23,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 10
     },
     "1557": {
@@ -12482,18 +12482,18 @@
     "1560": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 32,
-        "T_tokens": 24,
-        "C_tokens_fail": 9,
-        "T_tokens_fail": 12
+        "C_tokens": 18,
+        "T_tokens": 21,
+        "C_tokens_fail": 4,
+        "T_tokens_fail": 9
     },
     "1561": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 32,
-        "T_tokens": 28,
-        "C_tokens_fail": 9,
-        "T_tokens_fail": 12
+        "C_tokens": 18,
+        "T_tokens": 25,
+        "C_tokens_fail": 4,
+        "T_tokens_fail": 9
     },
     "1562": {
         "project": "commons-rng-1.4-src",
@@ -12506,9 +12506,9 @@
     "1563": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 32,
+        "C_tokens": 18,
         "T_tokens": 24,
-        "C_tokens_fail": 9,
+        "C_tokens_fail": 4,
         "T_tokens_fail": 10
     },
     "1564": {
@@ -12554,9 +12554,9 @@
     "1569": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 32,
+        "C_tokens": 8,
         "T_tokens": 23,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 10
     },
     "1570": {
@@ -12579,17 +12579,17 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 32,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1573": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 32,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "1574": {
         "project": "commons-rng-1.4-src",
@@ -12627,9 +12627,9 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 118,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 42,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "1579": {
         "project": "commons-rng-1.4-src",
@@ -12714,41 +12714,41 @@
     "1589": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 176,
+        "C_tokens": 167,
         "T_tokens": 48,
-        "C_tokens_fail": 50,
+        "C_tokens_fail": 44,
         "T_tokens_fail": 24
     },
     "1590": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 30,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1591": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 30,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1592": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 176,
-        "T_tokens": 32,
-        "C_tokens_fail": 50,
-        "T_tokens_fail": 16
+        "C_tokens": 167,
+        "T_tokens": 29,
+        "C_tokens_fail": 44,
+        "T_tokens_fail": 13
     },
     "1593": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 176,
+        "C_tokens": 167,
         "T_tokens": 23,
-        "C_tokens_fail": 50,
+        "C_tokens_fail": 44,
         "T_tokens_fail": 9
     },
     "1594": {
@@ -12762,42 +12762,42 @@
     "1595": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 110,
+        "C_tokens": 99,
         "T_tokens": 23,
-        "C_tokens_fail": 38,
+        "C_tokens_fail": 33,
         "T_tokens_fail": 10
     },
     "1596": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 110,
+        "C_tokens": 99,
         "T_tokens": 27,
-        "C_tokens_fail": 38,
+        "C_tokens_fail": 33,
         "T_tokens_fail": 10
     },
     "1597": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 110,
+        "C_tokens": 99,
         "T_tokens": 29,
-        "C_tokens_fail": 38,
+        "C_tokens_fail": 33,
         "T_tokens_fail": 14
     },
     "1598": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 110,
+        "C_tokens": 99,
         "T_tokens": 34,
-        "C_tokens_fail": 38,
+        "C_tokens_fail": 33,
         "T_tokens_fail": 17
     },
     "1599": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 110,
-        "T_tokens": 26,
-        "C_tokens_fail": 38,
-        "T_tokens_fail": 12
+        "C_tokens": 99,
+        "T_tokens": 23,
+        "C_tokens_fail": 33,
+        "T_tokens_fail": 9
     },
     "1600": {
         "project": "commons-rng-1.4-src",
@@ -12834,9 +12834,9 @@
     "1604": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 147,
+        "C_tokens": 96,
         "T_tokens": 28,
-        "C_tokens_fail": 40,
+        "C_tokens_fail": 19,
         "T_tokens_fail": 11
     },
     "1605": {
@@ -12899,113 +12899,113 @@
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 24,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1613": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 24,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1614": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1615": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "1616": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1617": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1618": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 147,
-        "T_tokens": 27,
-        "C_tokens_fail": 40,
-        "T_tokens_fail": 12
+        "C_tokens": 96,
+        "T_tokens": 24,
+        "C_tokens_fail": 19,
+        "T_tokens_fail": 9
     },
     "1619": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 147,
-        "T_tokens": 27,
-        "C_tokens_fail": 40,
-        "T_tokens_fail": 11
+        "C_tokens": 96,
+        "T_tokens": 24,
+        "C_tokens_fail": 19,
+        "T_tokens_fail": 8
     },
     "1620": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "1621": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 31,
+        "T_tokens": 28,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "1622": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 32,
+        "T_tokens": 29,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "1623": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1624": {
         "project": "commons-rng-1.4-src",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 32,
+        "T_tokens": 29,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "1625": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 65,
-        "T_tokens": 26,
-        "C_tokens_fail": 26,
-        "T_tokens_fail": 13
+        "C_tokens": 26,
+        "T_tokens": 23,
+        "C_tokens_fail": 8,
+        "T_tokens_fail": 10
     },
     "1626": {
         "project": "commons-rng-1.4-src",
@@ -13018,17 +13018,17 @@
     "1627": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 65,
+        "C_tokens": 26,
         "T_tokens": 27,
-        "C_tokens_fail": 26,
+        "C_tokens_fail": 8,
         "T_tokens_fail": 10
     },
     "1628": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 65,
+        "C_tokens": 26,
         "T_tokens": 27,
-        "C_tokens_fail": 26,
+        "C_tokens_fail": 8,
         "T_tokens_fail": 10
     },
     "1629": {
@@ -13090,18 +13090,18 @@
     "1636": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 149,
+        "C_tokens": 138,
         "T_tokens": 26,
-        "C_tokens_fail": 54,
+        "C_tokens_fail": 49,
         "T_tokens_fail": 10
     },
     "1637": {
         "project": "commons-rng-1.4-src",
         "label": "F",
-        "C_tokens": 149,
-        "T_tokens": 26,
-        "C_tokens_fail": 54,
-        "T_tokens_fail": 13
+        "C_tokens": 138,
+        "T_tokens": 23,
+        "C_tokens_fail": 49,
+        "T_tokens_fail": 10
     },
     "1638": {
         "project": "commons-rng-1.4-src",
@@ -13114,9 +13114,9 @@
     "1639": {
         "project": "commons-rng-1.4-src",
         "label": "P",
-        "C_tokens": 149,
+        "C_tokens": 138,
         "T_tokens": 30,
-        "C_tokens_fail": 54,
+        "C_tokens_fail": 49,
         "T_tokens_fail": 12
     },
     "1640": {

@@ -11,4 +11,5 @@
 #SBATCH --gres=gpu:4
 #SBATCH --nodelist=adriatic[01-06]
 cd /u/kl5sq/masters/SEER
+python3 real_data_gen/separate_vectorize_data.py
 python3 ./real_data_gen/main.py project

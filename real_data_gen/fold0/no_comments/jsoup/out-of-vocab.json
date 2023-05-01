@@ -27,9 +27,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 27,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "4": {
         "project": "jsoup",
@@ -115,25 +115,25 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 13,
+        "T_tokens": 10,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "15": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 13,
+        "T_tokens": 10,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "16": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "17": {
         "project": "jsoup",
@@ -155,73 +155,73 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "20": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 14,
+        "T_tokens": 11,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "21": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 13,
+        "T_tokens": 10,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "22": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 13,
+        "T_tokens": 10,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "23": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "24": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 34,
+        "T_tokens": 31,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "25": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "26": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 27,
+        "T_tokens": 24,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "27": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "28": {
         "project": "jsoup",
@@ -235,57 +235,57 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "30": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 31,
+        "T_tokens": 28,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "31": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 25,
+        "T_tokens": 17,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 7
     },
     "32": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "33": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "34": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "35": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 14,
+        "T_tokens": 11,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 6
+        "T_tokens_fail": 3
     },
     "36": {
         "project": "jsoup",
@@ -299,17 +299,17 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "38": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "39": {
         "project": "jsoup",
@@ -323,9 +323,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "41": {
         "project": "jsoup",
@@ -347,49 +347,49 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 13,
+        "T_tokens": 10,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "44": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "45": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 11,
+        "T_tokens": 8,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "46": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 27,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "47": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 27,
-        "T_tokens": 14,
+        "T_tokens": 11,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 6
+        "T_tokens_fail": 3
     },
     "48": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 27,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "49": {
         "project": "jsoup",
@@ -411,17 +411,17 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "52": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 11,
+        "T_tokens": 8,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "53": {
         "project": "jsoup",
@@ -443,9 +443,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 13,
+        "T_tokens": 10,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "56": {
         "project": "jsoup",
@@ -459,9 +459,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 13,
+        "T_tokens": 10,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "58": {
         "project": "jsoup",
@@ -515,9 +515,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 27,
-        "T_tokens": 13,
+        "T_tokens": 10,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "65": {
         "project": "jsoup",
@@ -546,41 +546,41 @@
     "68": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 145,
-        "T_tokens": 38,
-        "C_tokens_fail": 59,
-        "T_tokens_fail": 17
+        "C_tokens": 91,
+        "T_tokens": 35,
+        "C_tokens_fail": 31,
+        "T_tokens_fail": 14
     },
     "69": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 145,
+        "C_tokens": 91,
         "T_tokens": 36,
-        "C_tokens_fail": 59,
+        "C_tokens_fail": 31,
         "T_tokens_fail": 18
     },
     "70": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 145,
-        "T_tokens": 19,
-        "C_tokens_fail": 59,
-        "T_tokens_fail": 9
+        "C_tokens": 91,
+        "T_tokens": 16,
+        "C_tokens_fail": 31,
+        "T_tokens_fail": 6
     },
     "71": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 145,
+        "C_tokens": 91,
         "T_tokens": 34,
-        "C_tokens_fail": 59,
+        "C_tokens_fail": 31,
         "T_tokens_fail": 15
     },
     "72": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 145,
+        "C_tokens": 91,
         "T_tokens": 20,
-        "C_tokens_fail": 59,
+        "C_tokens_fail": 31,
         "T_tokens_fail": 9
     },
     "73": {
@@ -5355,9 +5355,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 15,
+        "T_tokens": 12,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "670": {
         "project": "jsoup",
@@ -7219,9 +7219,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 11,
+        "T_tokens": 8,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "903": {
         "project": "jsoup",
@@ -11995,9 +11995,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 30,
+        "T_tokens": 27,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "1500": {
         "project": "jsoup",
@@ -12035,289 +12035,289 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 42,
-        "T_tokens": 31,
+        "T_tokens": 28,
         "C_tokens_fail": 14,
-        "T_tokens_fail": 16
+        "T_tokens_fail": 13
     },
     "1505": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 42,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 14,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1506": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "1507": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 32,
+        "T_tokens": 29,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "1508": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 36,
+        "T_tokens": 33,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "1509": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "1510": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 6
+        "T_tokens_fail": 3
     },
     "1511": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 14,
-        "T_tokens": 33,
-        "C_tokens_fail": 4,
-        "T_tokens_fail": 13
+        "C_tokens": 9,
+        "T_tokens": 30,
+        "C_tokens_fail": 2,
+        "T_tokens_fail": 10
     },
     "1512": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 14,
-        "T_tokens": 17,
-        "C_tokens_fail": 4,
-        "T_tokens_fail": 6
+        "C_tokens": 9,
+        "T_tokens": 14,
+        "C_tokens_fail": 2,
+        "T_tokens_fail": 3
     },
     "1513": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 14,
-        "T_tokens": 23,
-        "C_tokens_fail": 4,
-        "T_tokens_fail": 10
+        "C_tokens": 9,
+        "T_tokens": 20,
+        "C_tokens_fail": 2,
+        "T_tokens_fail": 7
     },
     "1514": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 14,
-        "T_tokens": 22,
-        "C_tokens_fail": 4,
-        "T_tokens_fail": 9
+        "C_tokens": 9,
+        "T_tokens": 19,
+        "C_tokens_fail": 2,
+        "T_tokens_fail": 6
     },
     "1515": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 14,
-        "T_tokens": 22,
-        "C_tokens_fail": 4,
-        "T_tokens_fail": 10
+        "C_tokens": 9,
+        "T_tokens": 19,
+        "C_tokens_fail": 2,
+        "T_tokens_fail": 7
     },
     "1516": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 14,
-        "T_tokens": 17,
-        "C_tokens_fail": 4,
-        "T_tokens_fail": 6
+        "C_tokens": 9,
+        "T_tokens": 14,
+        "C_tokens_fail": 2,
+        "T_tokens_fail": 3
     },
     "1517": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 14,
-        "T_tokens": 22,
-        "C_tokens_fail": 4,
-        "T_tokens_fail": 10
+        "C_tokens": 9,
+        "T_tokens": 19,
+        "C_tokens_fail": 2,
+        "T_tokens_fail": 7
     },
     "1518": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 14,
-        "T_tokens": 23,
-        "C_tokens_fail": 4,
-        "T_tokens_fail": 8
+        "C_tokens": 9,
+        "T_tokens": 20,
+        "C_tokens_fail": 2,
+        "T_tokens_fail": 5
     },
     "1519": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 14,
-        "T_tokens": 21,
-        "C_tokens_fail": 4,
-        "T_tokens_fail": 8
+        "C_tokens": 9,
+        "T_tokens": 18,
+        "C_tokens_fail": 2,
+        "T_tokens_fail": 5
     },
     "1520": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 47,
+        "T_tokens": 44,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 19
+        "T_tokens_fail": 16
     },
     "1521": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1522": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 10,
-        "T_tokens": 32,
+        "T_tokens": 29,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "1523": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "1524": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 31,
+        "T_tokens": 28,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1525": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "1526": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "1527": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 10,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "1528": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 6
+        "T_tokens_fail": 3
     },
     "1529": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 6
+        "T_tokens_fail": 3
     },
     "1530": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 93,
-        "T_tokens": 39,
-        "C_tokens_fail": 37,
-        "T_tokens_fail": 15
+        "C_tokens": 81,
+        "T_tokens": 36,
+        "C_tokens_fail": 28,
+        "T_tokens_fail": 12
     },
     "1531": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 93,
-        "T_tokens": 31,
-        "C_tokens_fail": 37,
-        "T_tokens_fail": 13
+        "C_tokens": 81,
+        "T_tokens": 28,
+        "C_tokens_fail": 28,
+        "T_tokens_fail": 10
     },
     "1532": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 93,
-        "T_tokens": 24,
-        "C_tokens_fail": 37,
-        "T_tokens_fail": 9
+        "C_tokens": 81,
+        "T_tokens": 21,
+        "C_tokens_fail": 28,
+        "T_tokens_fail": 6
     },
     "1533": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 93,
-        "T_tokens": 17,
-        "C_tokens_fail": 37,
-        "T_tokens_fail": 6
+        "C_tokens": 81,
+        "T_tokens": 14,
+        "C_tokens_fail": 28,
+        "T_tokens_fail": 3
     },
     "1534": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 93,
-        "T_tokens": 47,
-        "C_tokens_fail": 37,
-        "T_tokens_fail": 21
+        "C_tokens": 81,
+        "T_tokens": 44,
+        "C_tokens_fail": 28,
+        "T_tokens_fail": 18
     },
     "1535": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1536": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 32,
+        "T_tokens": 29,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "1537": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 45,
+        "T_tokens": 42,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 23
+        "T_tokens_fail": 20
     },
     "1538": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 27,
+        "T_tokens": 24,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1539": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 93,
-        "T_tokens": 15,
-        "C_tokens_fail": 37,
-        "T_tokens_fail": 5
+        "C_tokens": 81,
+        "T_tokens": 12,
+        "C_tokens_fail": 28,
+        "T_tokens_fail": 2
     },
     "1540": {
         "project": "jsoup",
@@ -12370,9 +12370,9 @@
     "1546": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 93,
+        "C_tokens": 81,
         "T_tokens": 36,
-        "C_tokens_fail": 37,
+        "C_tokens_fail": 28,
         "T_tokens_fail": 13
     },
     "1547": {
@@ -12386,9 +12386,9 @@
     "1548": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 93,
+        "C_tokens": 81,
         "T_tokens": 24,
-        "C_tokens_fail": 37,
+        "C_tokens_fail": 28,
         "T_tokens_fail": 6
     },
     "1549": {
@@ -12419,9 +12419,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 27,
+        "T_tokens": 24,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1553": {
         "project": "jsoup",
@@ -12434,10 +12434,10 @@
     "1554": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 14,
-        "T_tokens": 28,
-        "C_tokens_fail": 4,
-        "T_tokens_fail": 13
+        "C_tokens": 9,
+        "T_tokens": 25,
+        "C_tokens_fail": 2,
+        "T_tokens_fail": 10
     },
     "1555": {
         "project": "jsoup",
@@ -12467,9 +12467,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 30,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 6
+        "T_tokens_fail": 3
     },
     "1559": {
         "project": "jsoup",
@@ -12483,33 +12483,33 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 14,
+        "T_tokens": 11,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "1561": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "1562": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 22,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "1563": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 22,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "1564": {
         "project": "jsoup",
@@ -12523,9 +12523,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 23,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "1566": {
         "project": "jsoup",
@@ -12539,25 +12539,25 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 23,
-        "T_tokens": 13,
+        "T_tokens": 10,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "1568": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 30,
-        "T_tokens": 14,
+        "T_tokens": 11,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "1569": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 23,
-        "T_tokens": 11,
+        "T_tokens": 8,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "1570": {
         "project": "jsoup",
@@ -12571,17 +12571,17 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 23,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "1572": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1573": {
         "project": "jsoup",
@@ -12595,9 +12595,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 14,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "1575": {
         "project": "jsoup",
@@ -12611,9 +12611,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 14,
-        "T_tokens": 11,
+        "T_tokens": 8,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "1577": {
         "project": "jsoup",
@@ -12627,9 +12627,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 14,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "1579": {
         "project": "jsoup",
@@ -12643,9 +12643,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 14,
-        "T_tokens": 11,
+        "T_tokens": 8,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "1581": {
         "project": "jsoup",
@@ -12659,9 +12659,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 22,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "1583": {
         "project": "jsoup",
@@ -12675,9 +12675,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 22,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "1585": {
         "project": "jsoup",
@@ -12691,9 +12691,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 19,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "1587": {
         "project": "jsoup",
@@ -12707,9 +12707,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 26,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "1589": {
         "project": "jsoup",
@@ -12723,9 +12723,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 19,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "1591": {
         "project": "jsoup",
@@ -12739,105 +12739,105 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 6
+        "T_tokens_fail": 3
     },
     "1593": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 11,
+        "T_tokens": 8,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "1594": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "1595": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 154,
-        "T_tokens": 55,
-        "C_tokens_fail": 34,
-        "T_tokens_fail": 32
+        "C_tokens": 95,
+        "T_tokens": 52,
+        "C_tokens_fail": 10,
+        "T_tokens_fail": 29
     },
     "1596": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 154,
-        "T_tokens": 33,
-        "C_tokens_fail": 34,
-        "T_tokens_fail": 20
+        "C_tokens": 95,
+        "T_tokens": 30,
+        "C_tokens_fail": 10,
+        "T_tokens_fail": 17
     },
     "1597": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 66,
+        "T_tokens": 63,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 33
+        "T_tokens_fail": 30
     },
     "1598": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 26,
-        "T_tokens": 44,
+        "T_tokens": 41,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "1599": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 24,
+        "C_tokens": 11,
         "T_tokens": 78,
-        "C_tokens_fail": 6,
+        "C_tokens_fail": 1,
         "T_tokens_fail": 39
     },
     "1600": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 11,
-        "T_tokens": 34,
+        "T_tokens": 31,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 19
+        "T_tokens_fail": 16
     },
     "1601": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 56,
+        "T_tokens": 53,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 28
+        "T_tokens_fail": 25
     },
     "1602": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 12,
-        "T_tokens": 31,
+        "T_tokens": 28,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 16
+        "T_tokens_fail": 13
     },
     "1603": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 23,
+        "C_tokens": 21,
         "T_tokens": 74,
-        "C_tokens_fail": 3,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 43
     },
     "1604": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 78,
+        "T_tokens": 75,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 46
+        "T_tokens_fail": 43
     },
     "1605": {
         "project": "jsoup",
@@ -12850,34 +12850,34 @@
     "1606": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 68,
+        "C_tokens": 54,
         "T_tokens": 106,
-        "C_tokens_fail": 25,
+        "C_tokens_fail": 18,
         "T_tokens_fail": 51
     },
     "1607": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 68,
-        "T_tokens": 52,
-        "C_tokens_fail": 25,
-        "T_tokens_fail": 22
+        "C_tokens": 54,
+        "T_tokens": 49,
+        "C_tokens_fail": 18,
+        "T_tokens_fail": 19
     },
     "1608": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 7,
-        "T_tokens": 93,
+        "T_tokens": 90,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 58
+        "T_tokens_fail": 55
     },
     "1609": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 27,
-        "T_tokens": 33,
+        "T_tokens": 30,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "1610": {
         "project": "jsoup",
@@ -12899,121 +12899,121 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 29,
-        "T_tokens": 45,
+        "T_tokens": 42,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 24
+        "T_tokens_fail": 21
     },
     "1613": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 50,
+        "T_tokens": 47,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 28
+        "T_tokens_fail": 25
     },
     "1614": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 75,
+        "T_tokens": 72,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 38
+        "T_tokens_fail": 35
     },
     "1615": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 68,
-        "T_tokens": 42,
-        "C_tokens_fail": 25,
-        "T_tokens_fail": 23
+        "C_tokens": 54,
+        "T_tokens": 39,
+        "C_tokens_fail": 18,
+        "T_tokens_fail": 20
     },
     "1616": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 29,
-        "T_tokens": 32,
+        "T_tokens": 29,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 19
+        "T_tokens_fail": 16
     },
     "1617": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 19,
-        "T_tokens": 41,
+        "T_tokens": 38,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 24
+        "T_tokens_fail": 21
     },
     "1618": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 23,
-        "T_tokens": 53,
-        "C_tokens_fail": 3,
-        "T_tokens_fail": 21
+        "C_tokens": 21,
+        "T_tokens": 50,
+        "C_tokens_fail": 2,
+        "T_tokens_fail": 18
     },
     "1619": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 154,
-        "T_tokens": 64,
-        "C_tokens_fail": 34,
-        "T_tokens_fail": 34
+        "C_tokens": 95,
+        "T_tokens": 61,
+        "C_tokens_fail": 10,
+        "T_tokens_fail": 31
     },
     "1620": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 40,
+        "T_tokens": 37,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 23
+        "T_tokens_fail": 20
     },
     "1621": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 80,
+        "T_tokens": 77,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 41
+        "T_tokens_fail": 38
     },
     "1622": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 38,
+        "T_tokens": 35,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 20
+        "T_tokens_fail": 17
     },
     "1623": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 36,
+        "T_tokens": 33,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 20
+        "T_tokens_fail": 17
     },
     "1624": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 68,
+        "C_tokens": 54,
         "T_tokens": 39,
-        "C_tokens_fail": 25,
+        "C_tokens_fail": 18,
         "T_tokens_fail": 14
     },
     "1625": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 42,
+        "T_tokens": 39,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 21
+        "T_tokens_fail": 18
     },
     "1626": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 42,
+        "T_tokens": 39,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 23
+        "T_tokens_fail": 20
     },
     "1627": {
         "project": "jsoup",
@@ -13027,41 +13027,41 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 58,
+        "T_tokens": 55,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 25
+        "T_tokens_fail": 22
     },
     "1629": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 23,
-        "T_tokens": 90,
-        "C_tokens_fail": 3,
-        "T_tokens_fail": 52
+        "C_tokens": 21,
+        "T_tokens": 87,
+        "C_tokens_fail": 2,
+        "T_tokens_fail": 49
     },
     "1630": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 26,
-        "T_tokens": 42,
+        "T_tokens": 39,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 22
+        "T_tokens_fail": 19
     },
     "1631": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 64,
+        "T_tokens": 61,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 30
+        "T_tokens_fail": 27
     },
     "1632": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 154,
-        "T_tokens": 101,
-        "C_tokens_fail": 34,
-        "T_tokens_fail": 62
+        "C_tokens": 95,
+        "T_tokens": 98,
+        "C_tokens_fail": 10,
+        "T_tokens_fail": 59
     },
     "1633": {
         "project": "jsoup",
@@ -13074,18 +13074,18 @@
     "1634": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 33,
-        "T_tokens": 38,
-        "C_tokens_fail": 5,
-        "T_tokens_fail": 22
+        "C_tokens": 31,
+        "T_tokens": 35,
+        "C_tokens_fail": 4,
+        "T_tokens_fail": 19
     },
     "1635": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 7,
-        "T_tokens": 41,
+        "T_tokens": 38,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 23
+        "T_tokens_fail": 20
     },
     "1636": {
         "project": "jsoup",
@@ -13107,25 +13107,25 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1639": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 68,
+        "C_tokens": 54,
         "T_tokens": 28,
-        "C_tokens_fail": 25,
+        "C_tokens_fail": 18,
         "T_tokens_fail": 12
     },
     "1640": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 57,
+        "T_tokens": 54,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 31
+        "T_tokens_fail": 28
     },
     "1641": {
         "project": "jsoup",
@@ -13138,26 +13138,26 @@
     "1642": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 23,
-        "T_tokens": 113,
-        "C_tokens_fail": 3,
-        "T_tokens_fail": 66
+        "C_tokens": 21,
+        "T_tokens": 110,
+        "C_tokens_fail": 2,
+        "T_tokens_fail": 63
     },
     "1643": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 27,
+        "T_tokens": 24,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "1644": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 10,
-        "T_tokens": 45,
+        "T_tokens": 42,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 26
+        "T_tokens_fail": 23
     },
     "1645": {
         "project": "jsoup",
@@ -13171,57 +13171,57 @@
         "project": "jsoup",
         "label": "P",
         "C_tokens": 18,
-        "T_tokens": 32,
+        "T_tokens": 29,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1647": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 45,
+        "T_tokens": 42,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 26
+        "T_tokens_fail": 23
     },
     "1648": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 154,
+        "C_tokens": 95,
         "T_tokens": 97,
-        "C_tokens_fail": 34,
+        "C_tokens_fail": 10,
         "T_tokens_fail": 56
     },
     "1649": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 33,
-        "T_tokens": 37,
+        "T_tokens": 34,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 20
+        "T_tokens_fail": 17
     },
     "1650": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 93,
+        "T_tokens": 90,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 59
+        "T_tokens_fail": 56
     },
     "1651": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 154,
+        "C_tokens": 95,
         "T_tokens": 42,
-        "C_tokens_fail": 34,
+        "C_tokens_fail": 10,
         "T_tokens_fail": 17
     },
     "1652": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 29,
-        "T_tokens": 53,
+        "T_tokens": 50,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 23
+        "T_tokens_fail": 20
     },
     "1653": {
         "project": "jsoup",
@@ -13242,58 +13242,58 @@
     "1655": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 68,
+        "C_tokens": 54,
         "T_tokens": 85,
-        "C_tokens_fail": 25,
+        "C_tokens_fail": 18,
         "T_tokens_fail": 46
     },
     "1656": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 29,
-        "T_tokens": 69,
+        "T_tokens": 66,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 41
+        "T_tokens_fail": 38
     },
     "1657": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 65,
+        "T_tokens": 62,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 34
+        "T_tokens_fail": 31
     },
     "1658": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 154,
+        "C_tokens": 95,
         "T_tokens": 100,
-        "C_tokens_fail": 34,
+        "C_tokens_fail": 10,
         "T_tokens_fail": 63
     },
     "1659": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 12,
-        "T_tokens": 50,
+        "T_tokens": 47,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 29
+        "T_tokens_fail": 26
     },
     "1660": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 57,
+        "T_tokens": 54,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 32
+        "T_tokens_fail": 29
     },
     "1661": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 31,
+        "T_tokens": 28,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 16
+        "T_tokens_fail": 13
     },
     "1662": {
         "project": "jsoup",
@@ -13315,9 +13315,9 @@
         "project": "jsoup",
         "label": "P",
         "C_tokens": 10,
-        "T_tokens": 27,
+        "T_tokens": 24,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "1665": {
         "project": "jsoup",
@@ -13331,9 +13331,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 6
+        "T_tokens_fail": 3
     },
     "1667": {
         "project": "jsoup",
@@ -13347,9 +13347,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 49,
+        "T_tokens": 46,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 30
+        "T_tokens_fail": 27
     },
     "1669": {
         "project": "jsoup",
@@ -13378,18 +13378,18 @@
     "1672": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 68,
-        "T_tokens": 74,
-        "C_tokens_fail": 25,
-        "T_tokens_fail": 42
+        "C_tokens": 54,
+        "T_tokens": 71,
+        "C_tokens_fail": 18,
+        "T_tokens_fail": 39
     },
     "1673": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 63,
+        "T_tokens": 60,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 30
+        "T_tokens_fail": 27
     },
     "1674": {
         "project": "jsoup",
@@ -13403,33 +13403,33 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 29,
-        "T_tokens": 27,
+        "T_tokens": 24,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1676": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 85,
+        "T_tokens": 82,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 48
+        "T_tokens_fail": 45
     },
     "1677": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 154,
+        "C_tokens": 95,
         "T_tokens": 22,
-        "C_tokens_fail": 34,
+        "C_tokens_fail": 10,
         "T_tokens_fail": 7
     },
     "1678": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 21,
-        "T_tokens": 34,
+        "T_tokens": 31,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "1679": {
         "project": "jsoup",
@@ -13443,17 +13443,17 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 39,
+        "T_tokens": 36,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 18
+        "T_tokens_fail": 15
     },
     "1681": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 78,
+        "T_tokens": 75,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 42
+        "T_tokens_fail": 39
     },
     "1682": {
         "project": "jsoup",
@@ -13466,26 +13466,26 @@
     "1683": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 68,
-        "T_tokens": 47,
-        "C_tokens_fail": 25,
-        "T_tokens_fail": 22
+        "C_tokens": 54,
+        "T_tokens": 44,
+        "C_tokens_fail": 18,
+        "T_tokens_fail": 19
     },
     "1684": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 37,
+        "T_tokens": 34,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 20
+        "T_tokens_fail": 17
     },
     "1685": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 26,
-        "T_tokens": 52,
+        "T_tokens": 49,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 27
+        "T_tokens_fail": 24
     },
     "1686": {
         "project": "jsoup",
@@ -13499,17 +13499,17 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 11,
-        "T_tokens": 52,
+        "T_tokens": 49,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 22
+        "T_tokens_fail": 19
     },
     "1688": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 34,
+        "T_tokens": 31,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 16
+        "T_tokens_fail": 13
     },
     "1689": {
         "project": "jsoup",
@@ -13531,33 +13531,33 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 29,
+        "T_tokens": 26,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "1692": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 50,
+        "T_tokens": 47,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 26
+        "T_tokens_fail": 23
     },
     "1693": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 26,
-        "T_tokens": 40,
+        "T_tokens": 37,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "1694": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 55,
+        "T_tokens": 52,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 34
+        "T_tokens_fail": 31
     },
     "1695": {
         "project": "jsoup",
@@ -13571,57 +13571,57 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 38,
+        "T_tokens": 35,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 21
+        "T_tokens_fail": 18
     },
     "1697": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 49,
+        "T_tokens": 46,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 29
+        "T_tokens_fail": 26
     },
     "1698": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 76,
+        "T_tokens": 73,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 36
+        "T_tokens_fail": 33
     },
     "1699": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 39,
-        "T_tokens": 53,
-        "C_tokens_fail": 11,
-        "T_tokens_fail": 29
+        "C_tokens": 23,
+        "T_tokens": 50,
+        "C_tokens_fail": 7,
+        "T_tokens_fail": 26
     },
     "1700": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 43,
+        "T_tokens": 40,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 18
+        "T_tokens_fail": 15
     },
     "1701": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 68,
-        "T_tokens": 45,
-        "C_tokens_fail": 25,
-        "T_tokens_fail": 20
+        "C_tokens": 54,
+        "T_tokens": 42,
+        "C_tokens_fail": 18,
+        "T_tokens_fail": 17
     },
     "1702": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 55,
-        "T_tokens": 100,
+        "T_tokens": 97,
         "C_tokens_fail": 16,
-        "T_tokens_fail": 54
+        "T_tokens_fail": 51
     },
     "1703": {
         "project": "jsoup",
@@ -13635,33 +13635,33 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1705": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1706": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 11,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1707": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 29,
-        "T_tokens": 41,
+        "T_tokens": 38,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "1708": {
         "project": "jsoup",
@@ -13675,24 +13675,24 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 26,
-        "T_tokens": 47,
+        "T_tokens": 44,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 18
+        "T_tokens_fail": 15
     },
     "1710": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 50,
+        "C_tokens": 33,
         "T_tokens": 59,
-        "C_tokens_fail": 17,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 30
     },
     "1711": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 68,
+        "C_tokens": 54,
         "T_tokens": 34,
-        "C_tokens_fail": 25,
+        "C_tokens_fail": 18,
         "T_tokens_fail": 17
     },
     "1712": {
@@ -13707,56 +13707,56 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "1714": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 37,
+        "T_tokens": 34,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 20
+        "T_tokens_fail": 17
     },
     "1715": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 68,
-        "T_tokens": 33,
-        "C_tokens_fail": 25,
-        "T_tokens_fail": 13
+        "C_tokens": 54,
+        "T_tokens": 30,
+        "C_tokens_fail": 18,
+        "T_tokens_fail": 10
     },
     "1716": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 34,
+        "T_tokens": 31,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "1717": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 68,
-        "T_tokens": 38,
-        "C_tokens_fail": 25,
-        "T_tokens_fail": 15
+        "C_tokens": 54,
+        "T_tokens": 35,
+        "C_tokens_fail": 18,
+        "T_tokens_fail": 12
     },
     "1718": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 58,
+        "T_tokens": 55,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 31
+        "T_tokens_fail": 28
     },
     "1719": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 68,
+        "C_tokens": 54,
         "T_tokens": 58,
-        "C_tokens_fail": 25,
+        "C_tokens_fail": 18,
         "T_tokens_fail": 30
     },
     "1720": {
@@ -13770,58 +13770,58 @@
     "1721": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 27,
-        "T_tokens": 31,
-        "C_tokens_fail": 12,
-        "T_tokens_fail": 17
+        "C_tokens": 16,
+        "T_tokens": 28,
+        "C_tokens_fail": 6,
+        "T_tokens_fail": 14
     },
     "1722": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "1723": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 28,
-        "T_tokens": 36,
-        "C_tokens_fail": 9,
-        "T_tokens_fail": 17
+        "C_tokens": 11,
+        "T_tokens": 33,
+        "C_tokens_fail": 3,
+        "T_tokens_fail": 14
     },
     "1724": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 50,
-        "T_tokens": 34,
-        "C_tokens_fail": 17,
-        "T_tokens_fail": 16
+        "C_tokens": 33,
+        "T_tokens": 31,
+        "C_tokens_fail": 11,
+        "T_tokens_fail": 13
     },
     "1725": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 33,
-        "T_tokens": 45,
-        "C_tokens_fail": 5,
-        "T_tokens_fail": 25
+        "C_tokens": 31,
+        "T_tokens": 42,
+        "C_tokens_fail": 4,
+        "T_tokens_fail": 22
     },
     "1726": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 61,
+        "T_tokens": 58,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 35
+        "T_tokens_fail": 32
     },
     "1727": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 154,
-        "T_tokens": 18,
-        "C_tokens_fail": 34,
-        "T_tokens_fail": 6
+        "C_tokens": 95,
+        "T_tokens": 15,
+        "C_tokens_fail": 10,
+        "T_tokens_fail": 3
     },
     "1728": {
         "project": "jsoup",
@@ -13842,18 +13842,18 @@
     "1730": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 68,
-        "T_tokens": 45,
-        "C_tokens_fail": 25,
-        "T_tokens_fail": 16
+        "C_tokens": 54,
+        "T_tokens": 42,
+        "C_tokens_fail": 18,
+        "T_tokens_fail": 13
     },
     "1731": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 21,
-        "T_tokens": 43,
+        "T_tokens": 40,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 21
+        "T_tokens_fail": 18
     },
     "1732": {
         "project": "jsoup",
@@ -13874,18 +13874,18 @@
     "1734": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 68,
-        "T_tokens": 44,
-        "C_tokens_fail": 25,
-        "T_tokens_fail": 20
+        "C_tokens": 54,
+        "T_tokens": 41,
+        "C_tokens_fail": 18,
+        "T_tokens_fail": 17
     },
     "1735": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 18,
-        "T_tokens": 30,
+        "T_tokens": 27,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1736": {
         "project": "jsoup",
@@ -13899,25 +13899,25 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1738": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1739": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 39,
+        "T_tokens": 36,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 20
+        "T_tokens_fail": 17
     },
     "1740": {
         "project": "jsoup",
@@ -13931,57 +13931,57 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 34,
+        "T_tokens": 31,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "1742": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 26,
-        "T_tokens": 54,
+        "T_tokens": 51,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 28
+        "T_tokens_fail": 25
     },
     "1743": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "1744": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 85,
+        "T_tokens": 82,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 43
+        "T_tokens_fail": 40
     },
     "1745": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 68,
-        "T_tokens": 42,
-        "C_tokens_fail": 25,
-        "T_tokens_fail": 19
+        "C_tokens": 54,
+        "T_tokens": 39,
+        "C_tokens_fail": 18,
+        "T_tokens_fail": 16
     },
     "1746": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 12,
-        "T_tokens": 30,
+        "T_tokens": 27,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "1747": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 27,
-        "T_tokens": 56,
-        "C_tokens_fail": 12,
-        "T_tokens_fail": 25
+        "C_tokens": 16,
+        "T_tokens": 53,
+        "C_tokens_fail": 6,
+        "T_tokens_fail": 22
     },
     "1748": {
         "project": "jsoup",
@@ -13995,73 +13995,73 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 73,
+        "T_tokens": 70,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 26
+        "T_tokens_fail": 23
     },
     "1750": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "1751": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 24,
-        "T_tokens": 99,
-        "C_tokens_fail": 6,
-        "T_tokens_fail": 48
+        "C_tokens": 11,
+        "T_tokens": 96,
+        "C_tokens_fail": 1,
+        "T_tokens_fail": 45
     },
     "1752": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "1753": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 68,
+        "C_tokens": 54,
         "T_tokens": 32,
-        "C_tokens_fail": 25,
+        "C_tokens_fail": 18,
         "T_tokens_fail": 15
     },
     "1754": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 11,
-        "T_tokens": 40,
+        "T_tokens": 37,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 20
+        "T_tokens_fail": 17
     },
     "1755": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 31,
+        "T_tokens": 28,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1756": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 68,
-        "T_tokens": 31,
-        "C_tokens_fail": 25,
-        "T_tokens_fail": 14
+        "C_tokens": 54,
+        "T_tokens": 28,
+        "C_tokens_fail": 18,
+        "T_tokens_fail": 11
     },
     "1757": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 154,
-        "T_tokens": 25,
-        "C_tokens_fail": 34,
-        "T_tokens_fail": 10
+        "C_tokens": 95,
+        "T_tokens": 22,
+        "C_tokens_fail": 10,
+        "T_tokens_fail": 7
     },
     "1758": {
         "project": "jsoup",
@@ -14083,25 +14083,25 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 31,
+        "T_tokens": 28,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "1761": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 52,
+        "T_tokens": 49,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "1762": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 32,
+        "T_tokens": 29,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "1763": {
         "project": "jsoup",
@@ -14115,9 +14115,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1765": {
         "project": "jsoup",
@@ -14130,17 +14130,17 @@
     "1766": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 28,
+        "C_tokens": 11,
         "T_tokens": 35,
-        "C_tokens_fail": 9,
+        "C_tokens_fail": 3,
         "T_tokens_fail": 16
     },
     "1767": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 68,
+        "C_tokens": 54,
         "T_tokens": 20,
-        "C_tokens_fail": 25,
+        "C_tokens_fail": 18,
         "T_tokens_fail": 8
     },
     "1768": {
@@ -14154,25 +14154,25 @@
     "1769": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 24,
+        "C_tokens": 11,
         "T_tokens": 22,
-        "C_tokens_fail": 6,
+        "C_tokens_fail": 1,
         "T_tokens_fail": 9
     },
     "1770": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 12,
-        "T_tokens": 36,
+        "T_tokens": 33,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 18
+        "T_tokens_fail": 15
     },
     "1771": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 28,
+        "C_tokens": 11,
         "T_tokens": 24,
-        "C_tokens_fail": 9,
+        "C_tokens_fail": 3,
         "T_tokens_fail": 10
     },
     "1772": {
@@ -14187,25 +14187,25 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 51,
+        "T_tokens": 48,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 28
+        "T_tokens_fail": 25
     },
     "1774": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 51,
+        "T_tokens": 48,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 22
+        "T_tokens_fail": 19
     },
     "1775": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 56,
+        "T_tokens": 53,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 30
+        "T_tokens_fail": 27
     },
     "1776": {
         "project": "jsoup",
@@ -14226,10 +14226,10 @@
     "1778": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 154,
-        "T_tokens": 41,
-        "C_tokens_fail": 34,
-        "T_tokens_fail": 16
+        "C_tokens": 95,
+        "T_tokens": 38,
+        "C_tokens_fail": 10,
+        "T_tokens_fail": 13
     },
     "1779": {
         "project": "jsoup",
@@ -14259,17 +14259,17 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 58,
+        "T_tokens": 55,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 22
+        "T_tokens_fail": 19
     },
     "1783": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 14,
-        "T_tokens": 67,
+        "T_tokens": 64,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 32
+        "T_tokens_fail": 29
     },
     "1784": {
         "project": "jsoup",
@@ -14323,97 +14323,97 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 37,
-        "T_tokens": 39,
+        "T_tokens": 36,
         "C_tokens_fail": 20,
-        "T_tokens_fail": 19
+        "T_tokens_fail": 16
     },
     "1791": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 37,
-        "T_tokens": 32,
+        "T_tokens": 29,
         "C_tokens_fail": 20,
-        "T_tokens_fail": 16
+        "T_tokens_fail": 13
     },
     "1792": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 37,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 20,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "1793": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 37,
-        "T_tokens": 38,
+        "T_tokens": 35,
         "C_tokens_fail": 20,
-        "T_tokens_fail": 21
+        "T_tokens_fail": 18
     },
     "1794": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 37,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 20,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1795": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 37,
-        "T_tokens": 31,
+        "T_tokens": 28,
         "C_tokens_fail": 20,
-        "T_tokens_fail": 16
+        "T_tokens_fail": 13
     },
     "1796": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 24,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "1797": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 24,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "1798": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 24,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1799": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 19,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "1800": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 19,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "1801": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 19,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1802": {
         "project": "jsoup",
@@ -14450,50 +14450,50 @@
     "1806": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 92,
+        "C_tokens": 56,
         "T_tokens": 23,
-        "C_tokens_fail": 22,
+        "C_tokens_fail": 9,
         "T_tokens_fail": 8
     },
     "1807": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 11,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "1808": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 11,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1809": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 92,
-        "T_tokens": 16,
-        "C_tokens_fail": 22,
-        "T_tokens_fail": 6
+        "C_tokens": 56,
+        "T_tokens": 13,
+        "C_tokens_fail": 9,
+        "T_tokens_fail": 3
     },
     "1810": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 92,
-        "T_tokens": 17,
-        "C_tokens_fail": 22,
-        "T_tokens_fail": 6
+        "C_tokens": 56,
+        "T_tokens": 14,
+        "C_tokens_fail": 9,
+        "T_tokens_fail": 3
     },
     "1811": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 92,
-        "T_tokens": 24,
-        "C_tokens_fail": 22,
-        "T_tokens_fail": 9
+        "C_tokens": 56,
+        "T_tokens": 21,
+        "C_tokens_fail": 9,
+        "T_tokens_fail": 6
     },
     "1812": {
         "project": "jsoup",
@@ -14506,9 +14506,9 @@
     "1813": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 92,
+        "C_tokens": 56,
         "T_tokens": 16,
-        "C_tokens_fail": 22,
+        "C_tokens_fail": 9,
         "T_tokens_fail": 4
     },
     "1814": {
@@ -14539,104 +14539,104 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 13,
+        "T_tokens": 10,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "1818": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "1819": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "1820": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "1821": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 33,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 9,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "1822": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 42,
-        "T_tokens": 13,
-        "C_tokens_fail": 7,
-        "T_tokens_fail": 5
+        "C_tokens": 39,
+        "T_tokens": 10,
+        "C_tokens_fail": 5,
+        "T_tokens_fail": 2
     },
     "1823": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 42,
-        "T_tokens": 34,
-        "C_tokens_fail": 7,
-        "T_tokens_fail": 13
+        "C_tokens": 39,
+        "T_tokens": 31,
+        "C_tokens_fail": 5,
+        "T_tokens_fail": 10
     },
     "1824": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 42,
-        "T_tokens": 32,
-        "C_tokens_fail": 7,
-        "T_tokens_fail": 13
+        "C_tokens": 39,
+        "T_tokens": 29,
+        "C_tokens_fail": 5,
+        "T_tokens_fail": 10
     },
     "1825": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 42,
+        "C_tokens": 39,
         "T_tokens": 25,
-        "C_tokens_fail": 7,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 7
     },
     "1826": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 42,
+        "C_tokens": 39,
         "T_tokens": 34,
-        "C_tokens_fail": 7,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 14
     },
     "1827": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 42,
+        "C_tokens": 39,
         "T_tokens": 32,
-        "C_tokens_fail": 7,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 13
     },
     "1828": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 42,
+        "C_tokens": 39,
         "T_tokens": 25,
-        "C_tokens_fail": 7,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 9
     },
     "1829": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 42,
+        "C_tokens": 39,
         "T_tokens": 18,
-        "C_tokens_fail": 7,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 5
     },
     "1830": {
@@ -14658,97 +14658,97 @@
     "1832": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 42,
-        "T_tokens": 35,
-        "C_tokens_fail": 7,
-        "T_tokens_fail": 16
+        "C_tokens": 39,
+        "T_tokens": 32,
+        "C_tokens_fail": 5,
+        "T_tokens_fail": 13
     },
     "1833": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 42,
+        "C_tokens": 39,
         "T_tokens": 29,
-        "C_tokens_fail": 7,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 13
     },
     "1834": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 42,
+        "C_tokens": 39,
         "T_tokens": 11,
-        "C_tokens_fail": 7,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 2
     },
     "1835": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 42,
+        "C_tokens": 39,
         "T_tokens": 37,
-        "C_tokens_fail": 7,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 17
     },
     "1836": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 42,
+        "C_tokens": 39,
         "T_tokens": 37,
-        "C_tokens_fail": 7,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 17
     },
     "1837": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 42,
+        "C_tokens": 39,
         "T_tokens": 32,
-        "C_tokens_fail": 7,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 13
     },
     "1838": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 42,
+        "C_tokens": 39,
         "T_tokens": 11,
-        "C_tokens_fail": 7,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 2
     },
     "1839": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 42,
+        "C_tokens": 39,
         "T_tokens": 33,
-        "C_tokens_fail": 7,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 14
     },
     "1840": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 42,
+        "C_tokens": 39,
         "T_tokens": 27,
-        "C_tokens_fail": 7,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 7
     },
     "1841": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 42,
+        "C_tokens": 39,
         "T_tokens": 27,
-        "C_tokens_fail": 7,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 7
     },
     "1842": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 42,
+        "C_tokens": 39,
         "T_tokens": 33,
-        "C_tokens_fail": 7,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 14
     },
     "1843": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 42,
+        "C_tokens": 39,
         "T_tokens": 11,
-        "C_tokens_fail": 7,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 2
     },
     "1844": {
@@ -14818,169 +14818,169 @@
     "1852": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 42,
+        "C_tokens": 39,
         "T_tokens": 12,
-        "C_tokens_fail": 7,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 2
     },
     "1853": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 12,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 3
     },
     "1854": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 13,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 3
     },
     "1855": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 13,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 3
     },
     "1856": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 62,
+        "C_tokens": 24,
         "T_tokens": 18,
-        "C_tokens_fail": 21,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 6
     },
     "1857": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 13,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 3
     },
     "1858": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 13,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 3
     },
     "1859": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 13,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 3
     },
     "1860": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 13,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 3
     },
     "1861": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 16,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 4
     },
     "1862": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 16,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 4
     },
     "1863": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 16,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 4
     },
     "1864": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 16,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 4
     },
     "1865": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 16,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 4
     },
     "1866": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 16,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 4
     },
     "1867": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 16,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 4
     },
     "1868": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 16,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 4
     },
     "1869": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 13,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 3
     },
     "1870": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 13,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 3
     },
     "1871": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 13,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 3
     },
     "1872": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 13,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 3
     },
     "1873": {
@@ -15018,9 +15018,9 @@
     "1877": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 16,
+        "C_tokens": 9,
         "T_tokens": 29,
-        "C_tokens_fail": 6,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 10
     },
     "1878": {
@@ -15050,9 +15050,9 @@
     "1881": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 16,
+        "C_tokens": 9,
         "T_tokens": 20,
-        "C_tokens_fail": 6,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 6
     },
     "1882": {
@@ -15066,9 +15066,9 @@
     "1883": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 16,
+        "C_tokens": 9,
         "T_tokens": 20,
-        "C_tokens_fail": 6,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 5
     },
     "1884": {
@@ -15554,9 +15554,9 @@
     "1944": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 17,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 6
     },
     "1945": {
@@ -15578,9 +15578,9 @@
     "1947": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 16,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 5
     },
     "1948": {
@@ -15602,9 +15602,9 @@
     "1950": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 17,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 5
     },
     "1951": {
@@ -15666,9 +15666,9 @@
     "1958": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 62,
+        "C_tokens": 24,
         "T_tokens": 22,
-        "C_tokens_fail": 21,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 7
     },
     "1959": {
@@ -15698,9 +15698,9 @@
     "1962": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 62,
+        "C_tokens": 24,
         "T_tokens": 17,
-        "C_tokens_fail": 21,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 5
     },
     "1963": {
@@ -15794,9 +15794,9 @@
     "1974": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 45,
+        "C_tokens": 28,
         "T_tokens": 43,
-        "C_tokens_fail": 16,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 19
     },
     "1975": {
@@ -15978,186 +15978,186 @@
     "1997": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 30,
-        "T_tokens": 21,
-        "C_tokens_fail": 7,
-        "T_tokens_fail": 8
+        "C_tokens": 17,
+        "T_tokens": 18,
+        "C_tokens_fail": 1,
+        "T_tokens_fail": 5
     },
     "1998": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 30,
-        "T_tokens": 21,
-        "C_tokens_fail": 7,
-        "T_tokens_fail": 8
+        "C_tokens": 17,
+        "T_tokens": 18,
+        "C_tokens_fail": 1,
+        "T_tokens_fail": 5
     },
     "1999": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 30,
-        "T_tokens": 23,
-        "C_tokens_fail": 7,
-        "T_tokens_fail": 8
+        "C_tokens": 17,
+        "T_tokens": 20,
+        "C_tokens_fail": 1,
+        "T_tokens_fail": 5
     },
     "2000": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 30,
-        "T_tokens": 35,
-        "C_tokens_fail": 7,
-        "T_tokens_fail": 15
+        "C_tokens": 17,
+        "T_tokens": 32,
+        "C_tokens_fail": 1,
+        "T_tokens_fail": 12
     },
     "2001": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 30,
-        "T_tokens": 19,
-        "C_tokens_fail": 7,
-        "T_tokens_fail": 7
+        "C_tokens": 17,
+        "T_tokens": 16,
+        "C_tokens_fail": 1,
+        "T_tokens_fail": 4
     },
     "2002": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 30,
-        "T_tokens": 26,
-        "C_tokens_fail": 7,
-        "T_tokens_fail": 11
+        "C_tokens": 17,
+        "T_tokens": 23,
+        "C_tokens_fail": 1,
+        "T_tokens_fail": 8
     },
     "2003": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 16,
-        "T_tokens": 16,
-        "C_tokens_fail": 6,
-        "T_tokens_fail": 7
+        "C_tokens": 9,
+        "T_tokens": 13,
+        "C_tokens_fail": 2,
+        "T_tokens_fail": 4
     },
     "2004": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "2005": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 62,
-        "T_tokens": 21,
-        "C_tokens_fail": 21,
-        "T_tokens_fail": 9
+        "C_tokens": 24,
+        "T_tokens": 18,
+        "C_tokens_fail": 5,
+        "T_tokens_fail": 6
     },
     "2006": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 62,
-        "T_tokens": 42,
-        "C_tokens_fail": 21,
-        "T_tokens_fail": 18
+        "C_tokens": 24,
+        "T_tokens": 39,
+        "C_tokens_fail": 5,
+        "T_tokens_fail": 15
     },
     "2007": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 62,
-        "T_tokens": 23,
-        "C_tokens_fail": 21,
-        "T_tokens_fail": 9
+        "C_tokens": 24,
+        "T_tokens": 20,
+        "C_tokens_fail": 5,
+        "T_tokens_fail": 6
     },
     "2008": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 21,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "2009": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 21,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "2010": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 24,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "2011": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 11,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "2012": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 11,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "2013": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 14,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 6
+        "T_tokens_fail": 3
     },
     "2014": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 9,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "2015": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 6
+        "T_tokens_fail": 3
     },
     "2016": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 35,
+        "T_tokens": 32,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 18
+        "T_tokens_fail": 15
     },
     "2017": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 31,
+        "T_tokens": 28,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "2018": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 23,
-        "T_tokens": 34,
+        "T_tokens": 31,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 20
+        "T_tokens_fail": 17
     },
     "2019": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 23,
-        "T_tokens": 29,
+        "T_tokens": 26,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "2020": {
         "project": "jsoup",
@@ -16194,42 +16194,42 @@
     "2024": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 13,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 3
     },
     "2025": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 13,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 3
     },
     "2026": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 13,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 3
     },
     "2027": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 13,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 3
     },
     "2028": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 6
+        "T_tokens_fail": 3
     },
     "2029": {
         "project": "jsoup",
@@ -16242,10 +16242,10 @@
     "2030": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 16,
-        "T_tokens": 20,
-        "C_tokens_fail": 6,
-        "T_tokens_fail": 7
+        "C_tokens": 9,
+        "T_tokens": 17,
+        "C_tokens_fail": 2,
+        "T_tokens_fail": 4
     },
     "2031": {
         "project": "jsoup",
@@ -16266,33 +16266,33 @@
     "2033": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 16,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 4
     },
     "2034": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 16,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 4
     },
     "2035": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 16,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 4
     },
     "2036": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 16,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 4
     },
     "2037": {
@@ -16330,65 +16330,65 @@
     "2041": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 18,
-        "T_tokens": 16,
-        "C_tokens_fail": 10,
-        "T_tokens_fail": 6
+        "C_tokens": 14,
+        "T_tokens": 13,
+        "C_tokens_fail": 7,
+        "T_tokens_fail": 3
     },
     "2042": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 18,
-        "T_tokens": 16,
-        "C_tokens_fail": 10,
-        "T_tokens_fail": 6
+        "C_tokens": 14,
+        "T_tokens": 13,
+        "C_tokens_fail": 7,
+        "T_tokens_fail": 3
     },
     "2043": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 16,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 4
     },
     "2044": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 16,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 4
     },
     "2045": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 16,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 4
     },
     "2046": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 16,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 4
     },
     "2047": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 16,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 4
     },
     "2048": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 62,
+        "C_tokens": 24,
         "T_tokens": 39,
-        "C_tokens_fail": 21,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 14
     },
     "2049": {
@@ -16434,17 +16434,17 @@
     "2054": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 62,
+        "C_tokens": 24,
         "T_tokens": 14,
-        "C_tokens_fail": 21,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 5
     },
     "2055": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 62,
+        "C_tokens": 24,
         "T_tokens": 22,
-        "C_tokens_fail": 21,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 7
     },
     "2056": {
@@ -16466,25 +16466,25 @@
     "2058": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 62,
+        "C_tokens": 24,
         "T_tokens": 28,
-        "C_tokens_fail": 21,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 6
     },
     "2059": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 30,
+        "C_tokens": 17,
         "T_tokens": 18,
-        "C_tokens_fail": 7,
+        "C_tokens_fail": 1,
         "T_tokens_fail": 5
     },
     "2060": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 30,
+        "C_tokens": 17,
         "T_tokens": 18,
-        "C_tokens_fail": 7,
+        "C_tokens_fail": 1,
         "T_tokens_fail": 5
     },
     "2061": {
@@ -16498,9 +16498,9 @@
     "2062": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 30,
+        "C_tokens": 17,
         "T_tokens": 13,
-        "C_tokens_fail": 7,
+        "C_tokens_fail": 1,
         "T_tokens_fail": 4
     },
     "2063": {
@@ -16530,17 +16530,17 @@
     "2066": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 30,
-        "T_tokens": 17,
-        "C_tokens_fail": 7,
-        "T_tokens_fail": 7
+        "C_tokens": 17,
+        "T_tokens": 14,
+        "C_tokens_fail": 1,
+        "T_tokens_fail": 4
     },
     "2067": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 45,
+        "C_tokens": 28,
         "T_tokens": 39,
-        "C_tokens_fail": 16,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 15
     },
     "2068": {
@@ -16554,9 +16554,9 @@
     "2069": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 45,
+        "C_tokens": 28,
         "T_tokens": 24,
-        "C_tokens_fail": 16,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 8
     },
     "2070": {
@@ -16666,10 +16666,10 @@
     "2083": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 16,
-        "T_tokens": 18,
-        "C_tokens_fail": 6,
-        "T_tokens_fail": 6
+        "C_tokens": 9,
+        "T_tokens": 15,
+        "C_tokens_fail": 2,
+        "T_tokens_fail": 3
     },
     "2084": {
         "project": "jsoup",
@@ -16690,65 +16690,65 @@
     "2086": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 16,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 4
     },
     "2087": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 16,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 4
     },
     "2088": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 16,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 4
     },
     "2089": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 16,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 4
     },
     "2090": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 20,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 7
     },
     "2091": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 20,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 7
     },
     "2092": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 20,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 7
     },
     "2093": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 18,
+        "C_tokens": 14,
         "T_tokens": 20,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 7,
         "T_tokens_fail": 7
     },
     "2094": {
@@ -16819,17 +16819,17 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "2103": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "2104": {
         "project": "jsoup",
@@ -16859,17 +16859,17 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "2108": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 25,
-        "T_tokens": 36,
+        "T_tokens": 33,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 18
+        "T_tokens_fail": 15
     },
     "2109": {
         "project": "jsoup",
@@ -17027,33 +17027,33 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 14,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "2129": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 14,
-        "T_tokens": 30,
+        "T_tokens": 27,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "2130": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 25,
-        "T_tokens": 13,
+        "T_tokens": 10,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "2131": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 25,
-        "T_tokens": 27,
+        "T_tokens": 24,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "2132": {
         "project": "jsoup",
@@ -17299,73 +17299,73 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 11,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 6
+        "T_tokens_fail": 3
     },
     "2163": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 11,
-        "T_tokens": 14,
+        "T_tokens": 11,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 6
+        "T_tokens_fail": 3
     },
     "2164": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 43,
-        "T_tokens": 28,
-        "C_tokens_fail": 3,
-        "T_tokens_fail": 10
+        "C_tokens": 38,
+        "T_tokens": 25,
+        "C_tokens_fail": 1,
+        "T_tokens_fail": 7
     },
     "2165": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 43,
-        "T_tokens": 58,
-        "C_tokens_fail": 3,
-        "T_tokens_fail": 26
+        "C_tokens": 38,
+        "T_tokens": 55,
+        "C_tokens_fail": 1,
+        "T_tokens_fail": 23
     },
     "2166": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 43,
-        "T_tokens": 35,
-        "C_tokens_fail": 3,
-        "T_tokens_fail": 13
+        "C_tokens": 38,
+        "T_tokens": 32,
+        "C_tokens_fail": 1,
+        "T_tokens_fail": 10
     },
     "2167": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 40,
-        "T_tokens": 20,
-        "C_tokens_fail": 10,
-        "T_tokens_fail": 7
+        "C_tokens": 31,
+        "T_tokens": 17,
+        "C_tokens_fail": 2,
+        "T_tokens_fail": 4
     },
     "2168": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 40,
-        "T_tokens": 18,
-        "C_tokens_fail": 10,
-        "T_tokens_fail": 8
+        "C_tokens": 31,
+        "T_tokens": 15,
+        "C_tokens_fail": 2,
+        "T_tokens_fail": 5
     },
     "2169": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 40,
-        "T_tokens": 46,
-        "C_tokens_fail": 10,
-        "T_tokens_fail": 15
+        "C_tokens": 31,
+        "T_tokens": 43,
+        "C_tokens_fail": 2,
+        "T_tokens_fail": 12
     },
     "2170": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 24,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "2171": {
         "project": "jsoup",
@@ -17379,25 +17379,25 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 24,
-        "T_tokens": 31,
+        "T_tokens": 28,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "2173": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 26,
-        "T_tokens": 16,
-        "C_tokens_fail": 7,
-        "T_tokens_fail": 5
+        "C_tokens": 19,
+        "T_tokens": 13,
+        "C_tokens_fail": 5,
+        "T_tokens_fail": 2
     },
     "2174": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 26,
-        "T_tokens": 13,
-        "C_tokens_fail": 7,
-        "T_tokens_fail": 4
+        "C_tokens": 19,
+        "T_tokens": 10,
+        "C_tokens_fail": 5,
+        "T_tokens_fail": 1
     },
     "2175": {
         "project": "jsoup",
@@ -17498,9 +17498,9 @@
     "2187": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 38,
         "T_tokens": 26,
-        "C_tokens_fail": 3,
+        "C_tokens_fail": 1,
         "T_tokens_fail": 7
     },
     "2188": {
@@ -17530,9 +17530,9 @@
     "2191": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 38,
         "T_tokens": 32,
-        "C_tokens_fail": 3,
+        "C_tokens_fail": 1,
         "T_tokens_fail": 11
     },
     "2192": {
@@ -17555,24 +17555,24 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 24,
-        "T_tokens": 30,
+        "T_tokens": 27,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 18
+        "T_tokens_fail": 15
     },
     "2195": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 38,
         "T_tokens": 41,
-        "C_tokens_fail": 3,
+        "C_tokens_fail": 1,
         "T_tokens_fail": 17
     },
     "2196": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 38,
         "T_tokens": 34,
-        "C_tokens_fail": 3,
+        "C_tokens_fail": 1,
         "T_tokens_fail": 12
     },
     "2197": {
@@ -17643,17 +17643,17 @@
         "project": "jsoup",
         "label": "P",
         "C_tokens": 56,
-        "T_tokens": 32,
+        "T_tokens": 29,
         "C_tokens_fail": 23,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "2206": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 56,
-        "T_tokens": 32,
+        "T_tokens": 31,
         "C_tokens_fail": 23,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 10
     },
     "2207": {
         "project": "jsoup",
@@ -17699,27 +17699,19 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 56,
-        "T_tokens": 37,
+        "T_tokens": 34,
         "C_tokens_fail": 23,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "2213": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 56,
-        "T_tokens": 30,
+        "T_tokens": 27,
         "C_tokens_fail": 23,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "2214": {
-        "project": "jsoup",
-        "label": "F",
-        "C_tokens": 56,
-        "T_tokens": 46,
-        "C_tokens_fail": 23,
-        "T_tokens_fail": 20
-    },
-    "2215": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 56,
@@ -17727,45 +17719,53 @@
         "C_tokens_fail": 23,
         "T_tokens_fail": 17
     },
-    "2216": {
+    "2215": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 56,
         "T_tokens": 40,
         "C_tokens_fail": 23,
-        "T_tokens_fail": 18
+        "T_tokens_fail": 14
+    },
+    "2216": {
+        "project": "jsoup",
+        "label": "F",
+        "C_tokens": 56,
+        "T_tokens": 37,
+        "C_tokens_fail": 23,
+        "T_tokens_fail": 15
     },
     "2217": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 146,
-        "T_tokens": 38,
-        "C_tokens_fail": 19,
-        "T_tokens_fail": 17
+        "C_tokens": 106,
+        "T_tokens": 35,
+        "C_tokens_fail": 1,
+        "T_tokens_fail": 14
     },
     "2218": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 146,
-        "T_tokens": 30,
-        "C_tokens_fail": 19,
-        "T_tokens_fail": 11
+        "C_tokens": 106,
+        "T_tokens": 27,
+        "C_tokens_fail": 1,
+        "T_tokens_fail": 8
     },
     "2219": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 146,
-        "T_tokens": 49,
-        "C_tokens_fail": 19,
-        "T_tokens_fail": 23
+        "C_tokens": 106,
+        "T_tokens": 46,
+        "C_tokens_fail": 1,
+        "T_tokens_fail": 20
     },
     "2220": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 146,
-        "T_tokens": 49,
-        "C_tokens_fail": 19,
-        "T_tokens_fail": 22
+        "C_tokens": 106,
+        "T_tokens": 46,
+        "C_tokens_fail": 1,
+        "T_tokens_fail": 19
     },
     "2221": {
         "project": "jsoup",
@@ -17802,26 +17802,26 @@
     "2225": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 146,
+        "C_tokens": 106,
         "T_tokens": 35,
-        "C_tokens_fail": 19,
+        "C_tokens_fail": 1,
         "T_tokens_fail": 13
     },
     "2226": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 56,
-        "T_tokens": 33,
+        "T_tokens": 30,
         "C_tokens_fail": 23,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "2227": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 56,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 23,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "2228": {
         "project": "jsoup",
@@ -17907,9 +17907,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 57,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 16,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "2239": {
         "project": "jsoup",
@@ -17939,65 +17939,65 @@
         "project": "jsoup",
         "label": "P",
         "C_tokens": 7,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "2243": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "2244": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "2245": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 57,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 16,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "2246": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 57,
-        "T_tokens": 30,
+        "T_tokens": 27,
         "C_tokens_fail": 16,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "2247": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 57,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 16,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "2248": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 47,
+        "T_tokens": 44,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 27
+        "T_tokens_fail": 24
     },
     "2249": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 14,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "2250": {
         "project": "jsoup",
@@ -18019,17 +18019,17 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 57,
-        "T_tokens": 15,
+        "T_tokens": 12,
         "C_tokens_fail": 16,
-        "T_tokens_fail": 6
+        "T_tokens_fail": 3
     },
     "2253": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 57,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 16,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "2254": {
         "project": "jsoup",
@@ -18066,42 +18066,42 @@
     "2258": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 34,
-        "T_tokens": 20,
-        "C_tokens_fail": 18,
-        "T_tokens_fail": 9
+        "C_tokens": 25,
+        "T_tokens": 17,
+        "C_tokens_fail": 14,
+        "T_tokens_fail": 6
     },
     "2259": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 46,
-        "T_tokens": 16,
-        "C_tokens_fail": 24,
-        "T_tokens_fail": 7
+        "C_tokens": 33,
+        "T_tokens": 13,
+        "C_tokens_fail": 19,
+        "T_tokens_fail": 4
     },
     "2260": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "2261": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 112,
-        "T_tokens": 30,
-        "C_tokens_fail": 50,
-        "T_tokens_fail": 14
+        "C_tokens": 81,
+        "T_tokens": 27,
+        "C_tokens_fail": 35,
+        "T_tokens_fail": 11
     },
     "2262": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 47,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 25,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "2263": {
         "project": "jsoup",
@@ -18114,9 +18114,9 @@
     "2264": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 112,
+        "C_tokens": 81,
         "T_tokens": 28,
-        "C_tokens_fail": 50,
+        "C_tokens_fail": 35,
         "T_tokens_fail": 13
     },
     "2265": {
@@ -18131,9 +18131,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 18,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "2267": {
         "project": "jsoup",
@@ -18154,25 +18154,25 @@
     "2269": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 112,
+        "C_tokens": 81,
         "T_tokens": 48,
-        "C_tokens_fail": 50,
+        "C_tokens_fail": 35,
         "T_tokens_fail": 24
     },
     "2270": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 112,
+        "C_tokens": 81,
         "T_tokens": 65,
-        "C_tokens_fail": 50,
+        "C_tokens_fail": 35,
         "T_tokens_fail": 33
     },
     "2271": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 112,
+        "C_tokens": 81,
         "T_tokens": 56,
-        "C_tokens_fail": 50,
+        "C_tokens_fail": 35,
         "T_tokens_fail": 31
     },
     "2272": {
@@ -18194,73 +18194,73 @@
     "2274": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 103,
+        "C_tokens": 67,
         "T_tokens": 25,
-        "C_tokens_fail": 54,
+        "C_tokens_fail": 38,
         "T_tokens_fail": 12
     },
     "2275": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 103,
-        "T_tokens": 40,
-        "C_tokens_fail": 54,
-        "T_tokens_fail": 24
+        "C_tokens": 67,
+        "T_tokens": 37,
+        "C_tokens_fail": 38,
+        "T_tokens_fail": 21
     },
     "2276": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 103,
+        "C_tokens": 67,
         "T_tokens": 40,
-        "C_tokens_fail": 54,
+        "C_tokens_fail": 38,
         "T_tokens_fail": 23
     },
     "2277": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 103,
-        "T_tokens": 22,
-        "C_tokens_fail": 54,
-        "T_tokens_fail": 11
+        "C_tokens": 67,
+        "T_tokens": 19,
+        "C_tokens_fail": 38,
+        "T_tokens_fail": 8
     },
     "2278": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 73,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 37,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "2279": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 46,
+        "C_tokens": 33,
         "T_tokens": 19,
-        "C_tokens_fail": 24,
+        "C_tokens_fail": 19,
         "T_tokens_fail": 10
     },
     "2280": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 46,
+        "C_tokens": 33,
         "T_tokens": 20,
-        "C_tokens_fail": 24,
+        "C_tokens_fail": 19,
         "T_tokens_fail": 10
     },
     "2281": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 46,
+        "C_tokens": 33,
         "T_tokens": 16,
-        "C_tokens_fail": 24,
+        "C_tokens_fail": 19,
         "T_tokens_fail": 7
     },
     "2282": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 46,
+        "C_tokens": 33,
         "T_tokens": 16,
-        "C_tokens_fail": 24,
+        "C_tokens_fail": 19,
         "T_tokens_fail": 7
     },
     "2283": {
@@ -18274,49 +18274,49 @@
     "2284": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 108,
+        "C_tokens": 62,
         "T_tokens": 30,
-        "C_tokens_fail": 45,
+        "C_tokens_fail": 34,
         "T_tokens_fail": 15
     },
     "2285": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 108,
+        "C_tokens": 62,
         "T_tokens": 26,
-        "C_tokens_fail": 45,
+        "C_tokens_fail": 34,
         "T_tokens_fail": 13
     },
     "2286": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 108,
+        "C_tokens": 62,
         "T_tokens": 30,
-        "C_tokens_fail": 45,
+        "C_tokens_fail": 34,
         "T_tokens_fail": 15
     },
     "2287": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 108,
+        "C_tokens": 62,
         "T_tokens": 24,
-        "C_tokens_fail": 45,
+        "C_tokens_fail": 34,
         "T_tokens_fail": 11
     },
     "2288": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 108,
-        "T_tokens": 22,
-        "C_tokens_fail": 45,
-        "T_tokens_fail": 10
+        "C_tokens": 62,
+        "T_tokens": 19,
+        "C_tokens_fail": 34,
+        "T_tokens_fail": 7
     },
     "2289": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 34,
+        "C_tokens": 25,
         "T_tokens": 38,
-        "C_tokens_fail": 18,
+        "C_tokens_fail": 14,
         "T_tokens_fail": 20
     },
     "2290": {
@@ -18331,25 +18331,25 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 52,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 24,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "2292": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 112,
+        "C_tokens": 81,
         "T_tokens": 33,
-        "C_tokens_fail": 50,
+        "C_tokens_fail": 35,
         "T_tokens_fail": 13
     },
     "2293": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 112,
-        "T_tokens": 42,
-        "C_tokens_fail": 50,
-        "T_tokens_fail": 18
+        "C_tokens": 81,
+        "T_tokens": 39,
+        "C_tokens_fail": 35,
+        "T_tokens_fail": 15
     },
     "2294": {
         "project": "jsoup",
@@ -18362,34 +18362,34 @@
     "2295": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 43,
-        "T_tokens": 21,
-        "C_tokens_fail": 11,
-        "T_tokens_fail": 9
+        "C_tokens": 22,
+        "T_tokens": 18,
+        "C_tokens_fail": 1,
+        "T_tokens_fail": 6
     },
     "2296": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 43,
-        "T_tokens": 26,
-        "C_tokens_fail": 11,
-        "T_tokens_fail": 12
+        "C_tokens": 22,
+        "T_tokens": 23,
+        "C_tokens_fail": 1,
+        "T_tokens_fail": 9
     },
     "2297": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "2298": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 16,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "2299": {
         "project": "jsoup",
@@ -18402,25 +18402,25 @@
     "2300": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 22,
         "T_tokens": 29,
-        "C_tokens_fail": 11,
+        "C_tokens_fail": 1,
         "T_tokens_fail": 12
     },
     "2301": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 22,
         "T_tokens": 25,
-        "C_tokens_fail": 11,
+        "C_tokens_fail": 1,
         "T_tokens_fail": 9
     },
     "2302": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 22,
         "T_tokens": 26,
-        "C_tokens_fail": 11,
+        "C_tokens_fail": 1,
         "T_tokens_fail": 10
     },
     "2303": {
@@ -18434,65 +18434,65 @@
     "2304": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 27,
+        "C_tokens": 15,
         "T_tokens": 23,
-        "C_tokens_fail": 11,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 10
     },
     "2305": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 27,
-        "T_tokens": 17,
-        "C_tokens_fail": 11,
-        "T_tokens_fail": 7
+        "C_tokens": 15,
+        "T_tokens": 14,
+        "C_tokens_fail": 5,
+        "T_tokens_fail": 4
     },
     "2306": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 27,
-        "T_tokens": 26,
-        "C_tokens_fail": 11,
-        "T_tokens_fail": 12
+        "C_tokens": 15,
+        "T_tokens": 23,
+        "C_tokens_fail": 5,
+        "T_tokens_fail": 9
     },
     "2307": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 27,
+        "C_tokens": 15,
         "T_tokens": 32,
-        "C_tokens_fail": 11,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 16
     },
     "2308": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 27,
+        "C_tokens": 15,
         "T_tokens": 20,
-        "C_tokens_fail": 11,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 6
     },
     "2309": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 27,
+        "C_tokens": 15,
         "T_tokens": 32,
-        "C_tokens_fail": 11,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 11
     },
     "2310": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 27,
+        "C_tokens": 15,
         "T_tokens": 42,
-        "C_tokens_fail": 11,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 19
     },
     "2311": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 27,
+        "C_tokens": 15,
         "T_tokens": 21,
-        "C_tokens_fail": 11,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 7
     },
     "2312": {
@@ -18507,25 +18507,25 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 42,
-        "T_tokens": 40,
+        "T_tokens": 37,
         "C_tokens_fail": 15,
-        "T_tokens_fail": 16
+        "T_tokens_fail": 13
     },
     "2314": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 42,
-        "T_tokens": 61,
+        "T_tokens": 58,
         "C_tokens_fail": 15,
-        "T_tokens_fail": 28
+        "T_tokens_fail": 25
     },
     "2315": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 42,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 15,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "2316": {
         "project": "jsoup",
@@ -18546,33 +18546,33 @@
     "2318": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 21,
+        "C_tokens": 15,
         "T_tokens": 45,
-        "C_tokens_fail": 7,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 23
     },
     "2319": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 21,
+        "C_tokens": 15,
         "T_tokens": 45,
-        "C_tokens_fail": 7,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 23
     },
     "2320": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 21,
+        "C_tokens": 15,
         "T_tokens": 41,
-        "C_tokens_fail": 7,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 20
     },
     "2321": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 21,
+        "C_tokens": 15,
         "T_tokens": 41,
-        "C_tokens_fail": 7,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 20
     },
     "2322": {
@@ -18634,18 +18634,18 @@
     "2329": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 108,
+        "C_tokens": 89,
         "T_tokens": 45,
-        "C_tokens_fail": 20,
+        "C_tokens_fail": 10,
         "T_tokens_fail": 18
     },
     "2330": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 108,
-        "T_tokens": 21,
-        "C_tokens_fail": 20,
-        "T_tokens_fail": 7
+        "C_tokens": 89,
+        "T_tokens": 18,
+        "C_tokens_fail": 10,
+        "T_tokens_fail": 4
     },
     "2331": {
         "project": "jsoup",
@@ -18906,26 +18906,26 @@
     "2363": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 102,
-        "T_tokens": 19,
-        "C_tokens_fail": 28,
-        "T_tokens_fail": 8
+        "C_tokens": 59,
+        "T_tokens": 16,
+        "C_tokens_fail": 11,
+        "T_tokens_fail": 5
     },
     "2364": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 102,
-        "T_tokens": 13,
-        "C_tokens_fail": 28,
-        "T_tokens_fail": 5
+        "C_tokens": 59,
+        "T_tokens": 10,
+        "C_tokens_fail": 11,
+        "T_tokens_fail": 2
     },
     "2365": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 102,
-        "T_tokens": 12,
-        "C_tokens_fail": 28,
-        "T_tokens_fail": 4
+        "C_tokens": 59,
+        "T_tokens": 9,
+        "C_tokens_fail": 11,
+        "T_tokens_fail": 1
     },
     "2366": {
         "project": "jsoup",
@@ -19650,9 +19650,9 @@
     "2456": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 102,
+        "C_tokens": 59,
         "T_tokens": 16,
-        "C_tokens_fail": 28,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 6
     },
     "2457": {
@@ -19923,113 +19923,113 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 18,
-        "T_tokens": 13,
+        "T_tokens": 10,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "2491": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 14,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "2492": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 19,
-        "T_tokens": 13,
+        "T_tokens": 10,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "2493": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 19,
-        "T_tokens": 14,
+        "T_tokens": 11,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "2494": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 22,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "2495": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 22,
-        "T_tokens": 29,
+        "T_tokens": 26,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "2496": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 22,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "2497": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 22,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "2498": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 22,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "2499": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 60,
-        "T_tokens": 13,
-        "C_tokens_fail": 16,
-        "T_tokens_fail": 4
+        "C_tokens": 52,
+        "T_tokens": 10,
+        "C_tokens_fail": 12,
+        "T_tokens_fail": 1
     },
     "2500": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 60,
-        "T_tokens": 13,
-        "C_tokens_fail": 16,
-        "T_tokens_fail": 4
+        "C_tokens": 52,
+        "T_tokens": 10,
+        "C_tokens_fail": 12,
+        "T_tokens_fail": 1
     },
     "2501": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 20,
-        "T_tokens": 13,
+        "T_tokens": 10,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "2502": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "2503": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "2504": {
         "project": "jsoup",
@@ -20083,9 +20083,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 22,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "2511": {
         "project": "jsoup",
@@ -20123,9 +20123,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 20,
-        "T_tokens": 13,
+        "T_tokens": 10,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "2516": {
         "project": "jsoup",
@@ -20203,25 +20203,25 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "2526": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "2527": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "2528": {
         "project": "jsoup",
@@ -20338,9 +20338,9 @@
     "2542": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 82,
+        "C_tokens": 70,
         "T_tokens": 16,
-        "C_tokens_fail": 22,
+        "C_tokens_fail": 16,
         "T_tokens_fail": 4
     },
     "2543": {
@@ -20354,9 +20354,9 @@
     "2544": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 82,
+        "C_tokens": 70,
         "T_tokens": 18,
-        "C_tokens_fail": 22,
+        "C_tokens_fail": 16,
         "T_tokens_fail": 6
     },
     "2545": {
@@ -20706,9 +20706,9 @@
     "2588": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 33,
+        "C_tokens": 27,
         "T_tokens": 17,
-        "C_tokens_fail": 4,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 5
     },
     "2589": {
@@ -20762,9 +20762,9 @@
     "2595": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 33,
+        "C_tokens": 27,
         "T_tokens": 16,
-        "C_tokens_fail": 4,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 4
     },
     "2596": {
@@ -20778,17 +20778,17 @@
     "2597": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 33,
+        "C_tokens": 27,
         "T_tokens": 17,
-        "C_tokens_fail": 4,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 5
     },
     "2598": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 33,
+        "C_tokens": 27,
         "T_tokens": 25,
-        "C_tokens_fail": 4,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 7
     },
     "2599": {
@@ -20802,25 +20802,25 @@
     "2600": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 33,
+        "C_tokens": 27,
         "T_tokens": 22,
-        "C_tokens_fail": 4,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 7
     },
     "2601": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 33,
+        "C_tokens": 27,
         "T_tokens": 16,
-        "C_tokens_fail": 4,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 4
     },
     "2602": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 33,
+        "C_tokens": 27,
         "T_tokens": 16,
-        "C_tokens_fail": 4,
+        "C_tokens_fail": 2,
         "T_tokens_fail": 4
     },
     "2603": {
@@ -20882,178 +20882,178 @@
     "2610": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 42,
-        "T_tokens": 17,
-        "C_tokens_fail": 16,
-        "T_tokens_fail": 8
+        "C_tokens": 27,
+        "T_tokens": 14,
+        "C_tokens_fail": 9,
+        "T_tokens_fail": 5
     },
     "2611": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 45,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 6
+        "T_tokens_fail": 3
     },
     "2612": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 45,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 6
+        "T_tokens_fail": 3
     },
     "2613": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 45,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "2614": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 33,
-        "T_tokens": 23,
-        "C_tokens_fail": 4,
-        "T_tokens_fail": 9
+        "C_tokens": 27,
+        "T_tokens": 20,
+        "C_tokens_fail": 2,
+        "T_tokens_fail": 6
     },
     "2615": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 33,
-        "T_tokens": 16,
-        "C_tokens_fail": 4,
-        "T_tokens_fail": 6
+        "C_tokens": 27,
+        "T_tokens": 13,
+        "C_tokens_fail": 2,
+        "T_tokens_fail": 3
     },
     "2616": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 33,
-        "T_tokens": 23,
-        "C_tokens_fail": 4,
-        "T_tokens_fail": 10
+        "C_tokens": 27,
+        "T_tokens": 20,
+        "C_tokens_fail": 2,
+        "T_tokens_fail": 7
     },
     "2617": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 33,
-        "T_tokens": 27,
-        "C_tokens_fail": 4,
-        "T_tokens_fail": 13
+        "C_tokens": 27,
+        "T_tokens": 24,
+        "C_tokens_fail": 2,
+        "T_tokens_fail": 10
     },
     "2618": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 33,
-        "T_tokens": 22,
-        "C_tokens_fail": 4,
-        "T_tokens_fail": 10
+        "C_tokens": 27,
+        "T_tokens": 19,
+        "C_tokens_fail": 2,
+        "T_tokens_fail": 7
     },
     "2619": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 28,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "2620": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 28,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "2621": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 0,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "2622": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "2623": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "2624": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 82,
-        "T_tokens": 23,
-        "C_tokens_fail": 22,
-        "T_tokens_fail": 9
+        "C_tokens": 70,
+        "T_tokens": 20,
+        "C_tokens_fail": 16,
+        "T_tokens_fail": 6
     },
     "2625": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 82,
-        "T_tokens": 17,
-        "C_tokens_fail": 22,
-        "T_tokens_fail": 7
+        "C_tokens": 70,
+        "T_tokens": 14,
+        "C_tokens_fail": 16,
+        "T_tokens_fail": 4
     },
     "2626": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 82,
-        "T_tokens": 17,
-        "C_tokens_fail": 22,
-        "T_tokens_fail": 7
+        "C_tokens": 70,
+        "T_tokens": 14,
+        "C_tokens_fail": 16,
+        "T_tokens_fail": 4
     },
     "2627": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 73,
-        "T_tokens": 29,
+        "T_tokens": 26,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "2628": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 73,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 6
+        "T_tokens_fail": 3
     },
     "2629": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 33,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 6
+        "T_tokens_fail": 3
     },
     "2630": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 33,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "2631": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 33,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "2632": {
         "project": "jsoup",
@@ -21170,9 +21170,9 @@
     "2646": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 82,
+        "C_tokens": 70,
         "T_tokens": 23,
-        "C_tokens_fail": 22,
+        "C_tokens_fail": 16,
         "T_tokens_fail": 8
     },
     "2647": {
@@ -21186,9 +21186,9 @@
     "2648": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 82,
+        "C_tokens": 70,
         "T_tokens": 23,
-        "C_tokens_fail": 22,
+        "C_tokens_fail": 16,
         "T_tokens_fail": 8
     },
     "2649": {
@@ -21506,33 +21506,33 @@
     "2688": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 82,
+        "C_tokens": 70,
         "T_tokens": 16,
-        "C_tokens_fail": 22,
+        "C_tokens_fail": 16,
         "T_tokens_fail": 4
     },
     "2689": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 82,
+        "C_tokens": 70,
         "T_tokens": 20,
-        "C_tokens_fail": 22,
+        "C_tokens_fail": 16,
         "T_tokens_fail": 5
     },
     "2690": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 82,
+        "C_tokens": 70,
         "T_tokens": 21,
-        "C_tokens_fail": 22,
+        "C_tokens_fail": 16,
         "T_tokens_fail": 6
     },
     "2691": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 82,
+        "C_tokens": 70,
         "T_tokens": 17,
-        "C_tokens_fail": 22,
+        "C_tokens_fail": 16,
         "T_tokens_fail": 5
     },
     "2692": {
@@ -21554,10 +21554,10 @@
     "2694": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 28,
-        "T_tokens": 21,
-        "C_tokens_fail": 10,
-        "T_tokens_fail": 8
+        "C_tokens": 18,
+        "T_tokens": 18,
+        "C_tokens_fail": 6,
+        "T_tokens_fail": 5
     },
     "2695": {
         "project": "jsoup",
@@ -21667,9 +21667,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 45,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "2709": {
         "project": "jsoup",
@@ -21738,17 +21738,17 @@
     "2717": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 205,
+        "C_tokens": 179,
         "T_tokens": 17,
-        "C_tokens_fail": 23,
+        "C_tokens_fail": 15,
         "T_tokens_fail": 5
     },
     "2718": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 205,
+        "C_tokens": 179,
         "T_tokens": 17,
-        "C_tokens_fail": 23,
+        "C_tokens_fail": 15,
         "T_tokens_fail": 5
     },
     "2719": {
@@ -21810,9 +21810,9 @@
     "2726": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 205,
+        "C_tokens": 179,
         "T_tokens": 21,
-        "C_tokens_fail": 23,
+        "C_tokens_fail": 15,
         "T_tokens_fail": 6
     },
     "2727": {
@@ -21834,17 +21834,17 @@
     "2729": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 205,
+        "C_tokens": 179,
         "T_tokens": 21,
-        "C_tokens_fail": 23,
+        "C_tokens_fail": 15,
         "T_tokens_fail": 6
     },
     "2730": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 205,
+        "C_tokens": 179,
         "T_tokens": 21,
-        "C_tokens_fail": 23,
+        "C_tokens_fail": 15,
         "T_tokens_fail": 6
     },
     "2731": {
@@ -22387,9 +22387,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 40,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "2799": {
         "project": "jsoup",
@@ -23642,17 +23642,17 @@
     "2955": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 205,
+        "C_tokens": 179,
         "T_tokens": 17,
-        "C_tokens_fail": 23,
+        "C_tokens_fail": 15,
         "T_tokens_fail": 5
     },
     "2956": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 205,
+        "C_tokens": 179,
         "T_tokens": 17,
-        "C_tokens_fail": 23,
+        "C_tokens_fail": 15,
         "T_tokens_fail": 5
     },
     "2957": {
@@ -24691,9 +24691,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "3087": {
         "project": "jsoup",
@@ -24714,25 +24714,25 @@
     "3089": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 215,
-        "T_tokens": 16,
-        "C_tokens_fail": 80,
-        "T_tokens_fail": 5
+        "C_tokens": 188,
+        "T_tokens": 13,
+        "C_tokens_fail": 71,
+        "T_tokens_fail": 2
     },
     "3090": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 6
+        "T_tokens_fail": 3
     },
     "3091": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 215,
+        "C_tokens": 188,
         "T_tokens": 54,
-        "C_tokens_fail": 80,
+        "C_tokens_fail": 71,
         "T_tokens_fail": 19
     },
     "3092": {
@@ -24747,40 +24747,40 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 18,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 6
+        "T_tokens_fail": 3
     },
     "3094": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 18,
-        "T_tokens": 47,
+        "T_tokens": 44,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 20
+        "T_tokens_fail": 17
     },
     "3095": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 215,
+        "C_tokens": 188,
         "T_tokens": 42,
-        "C_tokens_fail": 80,
+        "C_tokens_fail": 71,
         "T_tokens_fail": 13
     },
     "3096": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 215,
+        "C_tokens": 188,
         "T_tokens": 30,
-        "C_tokens_fail": 80,
+        "C_tokens_fail": 71,
         "T_tokens_fail": 12
     },
     "3097": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 215,
+        "C_tokens": 188,
         "T_tokens": 30,
-        "C_tokens_fail": 80,
+        "C_tokens_fail": 71,
         "T_tokens_fail": 12
     },
     "3098": {
@@ -24795,9 +24795,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 18,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "3100": {
         "project": "jsoup",
@@ -24835,41 +24835,41 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 6
+        "T_tokens_fail": 3
     },
     "3105": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "3106": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 22,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 6
+        "T_tokens_fail": 3
     },
     "3107": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 17,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 6
+        "T_tokens_fail": 3
     },
     "3108": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "3109": {
         "project": "jsoup",
@@ -24947,17 +24947,17 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 25,
-        "T_tokens": 11,
+        "T_tokens": 8,
         "C_tokens_fail": 0,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "3119": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 25,
-        "T_tokens": 11,
+        "T_tokens": 8,
         "C_tokens_fail": 0,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "3120": {
         "project": "jsoup",
@@ -24995,49 +24995,49 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 25,
-        "T_tokens": 11,
+        "T_tokens": 8,
         "C_tokens_fail": 0,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "3125": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 25,
-        "T_tokens": 11,
+        "T_tokens": 8,
         "C_tokens_fail": 0,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "3126": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 25,
-        "T_tokens": 11,
+        "T_tokens": 8,
         "C_tokens_fail": 0,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "3127": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 25,
-        "T_tokens": 11,
+        "T_tokens": 8,
         "C_tokens_fail": 0,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "3128": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 25,
-        "T_tokens": 11,
+        "T_tokens": 8,
         "C_tokens_fail": 0,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "3129": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 25,
-        "T_tokens": 11,
+        "T_tokens": 8,
         "C_tokens_fail": 0,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "3130": {
         "project": "jsoup",
@@ -25059,9 +25059,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 25,
-        "T_tokens": 11,
+        "T_tokens": 8,
         "C_tokens_fail": 0,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "3133": {
         "project": "jsoup",
@@ -25083,17 +25083,17 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 25,
-        "T_tokens": 11,
+        "T_tokens": 8,
         "C_tokens_fail": 0,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "3136": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 25,
-        "T_tokens": 11,
+        "T_tokens": 8,
         "C_tokens_fail": 0,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "3137": {
         "project": "jsoup",
@@ -25123,9 +25123,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 25,
-        "T_tokens": 11,
+        "T_tokens": 8,
         "C_tokens_fail": 0,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "3141": {
         "project": "jsoup",
@@ -25139,17 +25139,17 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 25,
-        "T_tokens": 11,
+        "T_tokens": 8,
         "C_tokens_fail": 0,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "3143": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 25,
-        "T_tokens": 11,
+        "T_tokens": 8,
         "C_tokens_fail": 0,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "3144": {
         "project": "jsoup",
@@ -25171,201 +25171,201 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 25,
-        "T_tokens": 11,
+        "T_tokens": 8,
         "C_tokens_fail": 0,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "3147": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 181,
-        "T_tokens": 19,
-        "C_tokens_fail": 49,
-        "T_tokens_fail": 9
+        "C_tokens": 125,
+        "T_tokens": 16,
+        "C_tokens_fail": 23,
+        "T_tokens_fail": 6
     },
     "3148": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 181,
-        "T_tokens": 29,
-        "C_tokens_fail": 49,
-        "T_tokens_fail": 14
+        "C_tokens": 125,
+        "T_tokens": 26,
+        "C_tokens_fail": 23,
+        "T_tokens_fail": 11
     },
     "3149": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 181,
-        "T_tokens": 19,
-        "C_tokens_fail": 49,
-        "T_tokens_fail": 9
+        "C_tokens": 125,
+        "T_tokens": 16,
+        "C_tokens_fail": 23,
+        "T_tokens_fail": 6
     },
     "3150": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 181,
-        "T_tokens": 25,
-        "C_tokens_fail": 49,
-        "T_tokens_fail": 12
+        "C_tokens": 125,
+        "T_tokens": 22,
+        "C_tokens_fail": 23,
+        "T_tokens_fail": 9
     },
     "3151": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 208,
-        "T_tokens": 21,
-        "C_tokens_fail": 71,
-        "T_tokens_fail": 8
+        "C_tokens": 142,
+        "T_tokens": 18,
+        "C_tokens_fail": 31,
+        "T_tokens_fail": 5
     },
     "3152": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 208,
-        "T_tokens": 37,
-        "C_tokens_fail": 71,
-        "T_tokens_fail": 19
+        "C_tokens": 142,
+        "T_tokens": 34,
+        "C_tokens_fail": 31,
+        "T_tokens_fail": 16
     },
     "3153": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 208,
-        "T_tokens": 36,
-        "C_tokens_fail": 71,
-        "T_tokens_fail": 17
+        "C_tokens": 142,
+        "T_tokens": 33,
+        "C_tokens_fail": 31,
+        "T_tokens_fail": 14
     },
     "3154": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 208,
-        "T_tokens": 30,
-        "C_tokens_fail": 71,
-        "T_tokens_fail": 15
+        "C_tokens": 142,
+        "T_tokens": 27,
+        "C_tokens_fail": 31,
+        "T_tokens_fail": 12
     },
     "3155": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 208,
-        "T_tokens": 35,
-        "C_tokens_fail": 71,
-        "T_tokens_fail": 19
+        "C_tokens": 142,
+        "T_tokens": 32,
+        "C_tokens_fail": 31,
+        "T_tokens_fail": 16
     },
     "3156": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 208,
-        "T_tokens": 36,
-        "C_tokens_fail": 71,
-        "T_tokens_fail": 20
+        "C_tokens": 142,
+        "T_tokens": 33,
+        "C_tokens_fail": 31,
+        "T_tokens_fail": 17
     },
     "3157": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 208,
+        "C_tokens": 142,
         "T_tokens": 32,
-        "C_tokens_fail": 71,
+        "C_tokens_fail": 31,
         "T_tokens_fail": 17
     },
     "3158": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 181,
+        "C_tokens": 125,
         "T_tokens": 25,
-        "C_tokens_fail": 49,
+        "C_tokens_fail": 23,
         "T_tokens_fail": 10
     },
     "3159": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 208,
+        "C_tokens": 142,
         "T_tokens": 34,
-        "C_tokens_fail": 71,
+        "C_tokens_fail": 31,
         "T_tokens_fail": 17
     },
     "3160": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 208,
+        "C_tokens": 142,
         "T_tokens": 31,
-        "C_tokens_fail": 71,
+        "C_tokens_fail": 31,
         "T_tokens_fail": 17
     },
     "3161": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 208,
+        "C_tokens": 142,
         "T_tokens": 33,
-        "C_tokens_fail": 71,
+        "C_tokens_fail": 31,
         "T_tokens_fail": 16
     },
     "3162": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 208,
-        "T_tokens": 29,
-        "C_tokens_fail": 71,
-        "T_tokens_fail": 13
+        "C_tokens": 142,
+        "T_tokens": 26,
+        "C_tokens_fail": 31,
+        "T_tokens_fail": 10
     },
     "3163": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 208,
+        "C_tokens": 142,
         "T_tokens": 29,
-        "C_tokens_fail": 71,
+        "C_tokens_fail": 31,
         "T_tokens_fail": 15
     },
     "3164": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 181,
+        "C_tokens": 125,
         "T_tokens": 21,
-        "C_tokens_fail": 49,
+        "C_tokens_fail": 23,
         "T_tokens_fail": 9
     },
     "3165": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 18,
-        "T_tokens": 79,
+        "T_tokens": 76,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 48
+        "T_tokens_fail": 45
     },
     "3166": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 22,
-        "T_tokens": 60,
+        "T_tokens": 57,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 31
+        "T_tokens_fail": 28
     },
     "3167": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 18,
-        "T_tokens": 39,
+        "T_tokens": 36,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 19
+        "T_tokens_fail": 16
     },
     "3168": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 18,
-        "T_tokens": 41,
+        "T_tokens": 38,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 19
+        "T_tokens_fail": 16
     },
     "3169": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 22,
-        "T_tokens": 55,
+        "T_tokens": 52,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 21
+        "T_tokens_fail": 18
     },
     "3170": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 22,
-        "T_tokens": 46,
+        "T_tokens": 43,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 23
+        "T_tokens_fail": 20
     },
     "3171": {
         "project": "jsoup",
@@ -25443,17 +25443,17 @@
         "project": "jsoup",
         "label": "P",
         "C_tokens": 34,
-        "T_tokens": 41,
+        "T_tokens": 38,
         "C_tokens_fail": 13,
-        "T_tokens_fail": 21
+        "T_tokens_fail": 18
     },
     "3181": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 34,
-        "T_tokens": 43,
+        "T_tokens": 40,
         "C_tokens_fail": 13,
-        "T_tokens_fail": 21
+        "T_tokens_fail": 18
     },
     "3182": {
         "project": "jsoup",
@@ -25474,9 +25474,9 @@
     "3184": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 24,
+        "C_tokens": 14,
         "T_tokens": 23,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 3,
         "T_tokens_fail": 7
     },
     "3185": {
@@ -25731,489 +25731,489 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 17,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "3217": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 17,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "3218": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 17,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "3219": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 17,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "3220": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 24,
-        "T_tokens": 18,
-        "C_tokens_fail": 8,
-        "T_tokens_fail": 5
+        "C_tokens": 14,
+        "T_tokens": 15,
+        "C_tokens_fail": 3,
+        "T_tokens_fail": 2
     },
     "3221": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 24,
-        "T_tokens": 21,
-        "C_tokens_fail": 8,
-        "T_tokens_fail": 7
+        "C_tokens": 14,
+        "T_tokens": 18,
+        "C_tokens_fail": 3,
+        "T_tokens_fail": 4
     },
     "3222": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "3223": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "3224": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "3225": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 10,
-        "T_tokens": 39,
+        "T_tokens": 36,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "3226": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "3227": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "3228": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 25,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "3229": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "3230": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "3231": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "3232": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "3233": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "3234": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "3235": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "3236": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "3237": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 29,
+        "T_tokens": 26,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "3238": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "3239": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "3240": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "3241": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "3242": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 20,
-        "T_tokens": 33,
+        "T_tokens": 30,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "3243": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 14,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "3244": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 14,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "3245": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "3246": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "3247": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "3248": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "3249": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "3250": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 23,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "3251": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 23,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "3252": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 24,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "3253": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 24,
-        "T_tokens": 55,
+        "T_tokens": 52,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 30
+        "T_tokens_fail": 27
     },
     "3254": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 24,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "3255": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 17,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "3256": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 19,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "3257": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 19,
-        "T_tokens": 35,
+        "T_tokens": 32,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "3258": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "3259": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 29,
+        "T_tokens": 26,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "3260": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 6
+        "T_tokens_fail": 3
     },
     "3261": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 23,
-        "T_tokens": 31,
+        "T_tokens": 28,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "3262": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 23,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "3263": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "3264": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 17,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "3265": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 17,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "3266": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "3267": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 19,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "3268": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 19,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "3269": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 19,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "3270": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "3271": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 16,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "3272": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "3273": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "3274": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 6
+        "T_tokens_fail": 3
     },
     "3275": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "3276": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "3277": {
         "project": "jsoup",
@@ -26291,9 +26291,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "3287": {
         "project": "jsoup",
@@ -26403,9 +26403,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 21,
-        "T_tokens": 43,
+        "T_tokens": 40,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 19
+        "T_tokens_fail": 16
     },
     "3301": {
         "project": "jsoup",
@@ -26434,25 +26434,25 @@
     "3304": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 24,
+        "C_tokens": 14,
         "T_tokens": 21,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 3,
         "T_tokens_fail": 4
     },
     "3305": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 24,
+        "C_tokens": 14,
         "T_tokens": 22,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 3,
         "T_tokens_fail": 6
     },
     "3306": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 24,
+        "C_tokens": 14,
         "T_tokens": 16,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 3,
         "T_tokens_fail": 2
     },
     "3307": {
@@ -26499,9 +26499,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "3313": {
         "project": "jsoup",
@@ -26515,9 +26515,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "3315": {
         "project": "jsoup",
@@ -26603,9 +26603,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "3326": {
         "project": "jsoup",
@@ -26619,17 +26619,17 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 27,
+        "T_tokens": 24,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "3328": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "3329": {
         "project": "jsoup",
@@ -26747,97 +26747,97 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 14,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "3344": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 14,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "3345": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 14,
-        "T_tokens": 43,
+        "T_tokens": 40,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 21
+        "T_tokens_fail": 18
     },
     "3346": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "3347": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 13,
-        "T_tokens": 38,
+        "T_tokens": 35,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 16
+        "T_tokens_fail": 13
     },
     "3348": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "3349": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "3350": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "3351": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "3352": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 13,
-        "T_tokens": 30,
+        "T_tokens": 27,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "3353": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "3354": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 13,
-        "T_tokens": 36,
+        "T_tokens": 33,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 16
+        "T_tokens_fail": 13
     },
     "3355": {
         "project": "jsoup",
@@ -26867,9 +26867,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "3359": {
         "project": "jsoup",
@@ -63410,65 +63410,65 @@
     "7926": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 121,
+        "C_tokens": 97,
         "T_tokens": 24,
-        "C_tokens_fail": 28,
+        "C_tokens_fail": 20,
         "T_tokens_fail": 8
     },
     "7927": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 23,
-        "T_tokens": 14,
+        "T_tokens": 11,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 6
+        "T_tokens_fail": 3
     },
     "7928": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 121,
-        "T_tokens": 29,
-        "C_tokens_fail": 28,
-        "T_tokens_fail": 11
+        "C_tokens": 97,
+        "T_tokens": 26,
+        "C_tokens_fail": 20,
+        "T_tokens_fail": 8
     },
     "7929": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 121,
+        "C_tokens": 97,
         "T_tokens": 24,
-        "C_tokens_fail": 28,
+        "C_tokens_fail": 20,
         "T_tokens_fail": 7
     },
     "7930": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 121,
+        "C_tokens": 97,
         "T_tokens": 32,
-        "C_tokens_fail": 28,
+        "C_tokens_fail": 20,
         "T_tokens_fail": 14
     },
     "7931": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 121,
-        "T_tokens": 28,
-        "C_tokens_fail": 28,
-        "T_tokens_fail": 14
+        "C_tokens": 97,
+        "T_tokens": 25,
+        "C_tokens_fail": 20,
+        "T_tokens_fail": 11
     },
     "7932": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 121,
+        "C_tokens": 97,
         "T_tokens": 24,
-        "C_tokens_fail": 28,
+        "C_tokens_fail": 20,
         "T_tokens_fail": 9
     },
     "7933": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 121,
+        "C_tokens": 97,
         "T_tokens": 19,
-        "C_tokens_fail": 28,
+        "C_tokens_fail": 20,
         "T_tokens_fail": 6
     },
     "7934": {
@@ -63483,40 +63483,40 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 23,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "7936": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 121,
+        "C_tokens": 97,
         "T_tokens": 37,
-        "C_tokens_fail": 28,
+        "C_tokens_fail": 20,
         "T_tokens_fail": 17
     },
     "7937": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 36,
+        "C_tokens": 33,
         "T_tokens": 11,
-        "C_tokens_fail": 6,
+        "C_tokens_fail": 4,
         "T_tokens_fail": 3
     },
     "7938": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 31,
         "T_tokens": 11,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 4,
         "T_tokens_fail": 2
     },
     "7939": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 31,
         "T_tokens": 11,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 4,
         "T_tokens_fail": 2
     },
     "7940": {
@@ -63554,9 +63554,9 @@
     "7944": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 52,
+        "C_tokens": 37,
         "T_tokens": 15,
-        "C_tokens_fail": 22,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 3
     },
     "7945": {
@@ -63602,89 +63602,89 @@
     "7950": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 72,
+        "C_tokens": 50,
         "T_tokens": 10,
-        "C_tokens_fail": 35,
+        "C_tokens_fail": 22,
         "T_tokens_fail": 1
     },
     "7951": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 72,
-        "T_tokens": 22,
-        "C_tokens_fail": 35,
-        "T_tokens_fail": 8
+        "C_tokens": 50,
+        "T_tokens": 19,
+        "C_tokens_fail": 22,
+        "T_tokens_fail": 5
     },
     "7952": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 72,
-        "T_tokens": 13,
-        "C_tokens_fail": 35,
-        "T_tokens_fail": 5
+        "C_tokens": 50,
+        "T_tokens": 10,
+        "C_tokens_fail": 22,
+        "T_tokens_fail": 2
     },
     "7953": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 52,
-        "T_tokens": 12,
-        "C_tokens_fail": 22,
-        "T_tokens_fail": 4
+        "C_tokens": 37,
+        "T_tokens": 9,
+        "C_tokens_fail": 11,
+        "T_tokens_fail": 1
     },
     "7954": {
         "project": "jsoup",
         "label": "P",
         "C_tokens": 10,
-        "T_tokens": 14,
+        "T_tokens": 11,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "7955": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "7956": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "7957": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 13,
+        "T_tokens": 10,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "7958": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 13,
+        "T_tokens": 10,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "7959": {
         "project": "jsoup",
         "label": "F",
-        "C_tokens": 36,
-        "T_tokens": 12,
-        "C_tokens_fail": 6,
-        "T_tokens_fail": 4
+        "C_tokens": 33,
+        "T_tokens": 9,
+        "C_tokens_fail": 4,
+        "T_tokens_fail": 1
     },
     "7960": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 52,
+        "C_tokens": 37,
         "T_tokens": 16,
-        "C_tokens_fail": 22,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 2
     },
     "7961": {
@@ -63699,9 +63699,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 68,
-        "T_tokens": 15,
+        "T_tokens": 12,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "7963": {
         "project": "jsoup",
@@ -63714,9 +63714,9 @@
     "7964": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 31,
         "T_tokens": 11,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 4,
         "T_tokens_fail": 2
     },
     "7965": {
@@ -63739,9 +63739,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "7968": {
         "project": "jsoup",
@@ -63778,25 +63778,25 @@
     "7972": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 72,
+        "C_tokens": 50,
         "T_tokens": 13,
-        "C_tokens_fail": 35,
+        "C_tokens_fail": 22,
         "T_tokens_fail": 3
     },
     "7973": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 72,
+        "C_tokens": 50,
         "T_tokens": 16,
-        "C_tokens_fail": 35,
+        "C_tokens_fail": 22,
         "T_tokens_fail": 3
     },
     "7974": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 72,
+        "C_tokens": 50,
         "T_tokens": 21,
-        "C_tokens_fail": 35,
+        "C_tokens_fail": 22,
         "T_tokens_fail": 6
     },
     "7975": {
@@ -63818,33 +63818,33 @@
     "7977": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 31,
         "T_tokens": 11,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 4,
         "T_tokens_fail": 2
     },
     "7978": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 31,
         "T_tokens": 11,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 4,
         "T_tokens_fail": 2
     },
     "7979": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 31,
         "T_tokens": 11,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 4,
         "T_tokens_fail": 2
     },
     "7980": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 31,
         "T_tokens": 11,
-        "C_tokens_fail": 10,
+        "C_tokens_fail": 4,
         "T_tokens_fail": 2
     },
     "7981": {
@@ -63971,9 +63971,9 @@
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "7997": {
         "project": "jsoup",
@@ -63994,25 +63994,25 @@
     "7999": {
         "project": "jsoup",
         "label": "P",
-        "C_tokens": 72,
+        "C_tokens": 50,
         "T_tokens": 13,
-        "C_tokens_fail": 35,
+        "C_tokens_fail": 22,
         "T_tokens_fail": 2
     },
     "8000": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 11,
+        "T_tokens": 8,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "8001": {
         "project": "jsoup",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     }
 }

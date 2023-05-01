@@ -1,16 +1,16 @@
 num_rows: 2616
 Number in Pass Class: 2223, 0.8498
-tp: 1990, 0.7607
-fp: 361, 0.138
-pass accuracy: 1990/2223 = 0.8952
+tp: 1993, 0.7619
+fp: 363, 0.1388
+pass accuracy: 1993/2223 = 0.8965
 
 Number in Fail Class: 393, 0.1502
-tn: 32, 0.0122
-fn: 233, 0.0891
-fail accuracy: 32/393 = 0.0814
+tn: 30, 0.0115
+fn: 230, 0.0879
+fail accuracy: 30/393 = 0.0763
 
-accuracy: 2022/2616 = 0.7729
-precision: 1990/2351 = 0.8464
-recall: 1990/2223 = 0.8952
-f1: 3980/4574 = 0.8701
+accuracy: 2023/2616 = 0.7733
+precision: 1993/2356 = 0.8459
+recall: 1993/2223 = 0.8965
+f1: 3986/4579 = 0.8705
 

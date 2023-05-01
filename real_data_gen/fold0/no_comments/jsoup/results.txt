@@ -1,16 +1,16 @@
 num_rows: 8002
 Number in Pass Class: 7484, 0.9353
-tp: 7344, 0.9178
-fp: 503, 0.0629
-pass accuracy: 7344/7484 = 0.9813
+tp: 7347, 0.9181
+fp: 504, 0.063
+pass accuracy: 7347/7484 = 0.9817
 
 Number in Fail Class: 518, 0.0647
-tn: 15, 0.0019
-fn: 140, 0.0175
-fail accuracy: 15/518 = 0.029
+tn: 14, 0.0017
+fn: 137, 0.0171
+fail accuracy: 14/518 = 0.027
 
-accuracy: 7359/8002 = 0.9196
-precision: 7344/7847 = 0.9359
-recall: 7344/7484 = 0.9813
-f1: 14688/15331 = 0.9581
+accuracy: 7361/8002 = 0.9199
+precision: 7347/7851 = 0.9358
+recall: 7347/7484 = 0.9817
+f1: 14694/15335 = 0.9582
 

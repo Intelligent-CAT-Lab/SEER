@@ -2,9 +2,9 @@
     "0": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 30,
+        "C_tokens": 21,
         "T_tokens": 16,
-        "C_tokens_fail": 6,
+        "C_tokens_fail": 4,
         "T_tokens_fail": 6
     },
     "1": {
@@ -90,9 +90,9 @@
     "11": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 66,
+        "C_tokens": 43,
         "T_tokens": 17,
-        "C_tokens_fail": 19,
+        "C_tokens_fail": 14,
         "T_tokens_fail": 7
     },
     "12": {
@@ -115,17 +115,17 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 78,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 25,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "15": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 40,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 18,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "16": {
         "project": "commons-configuration2-2.8.0-src",
@@ -138,18 +138,18 @@
     "17": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 30,
-        "T_tokens": 18,
-        "C_tokens_fail": 6,
-        "T_tokens_fail": 8
+        "C_tokens": 21,
+        "T_tokens": 15,
+        "C_tokens_fail": 4,
+        "T_tokens_fail": 5
     },
     "18": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 66,
-        "T_tokens": 22,
-        "C_tokens_fail": 19,
-        "T_tokens_fail": 11
+        "C_tokens": 43,
+        "T_tokens": 19,
+        "C_tokens_fail": 14,
+        "T_tokens_fail": 8
     },
     "19": {
         "project": "commons-configuration2-2.8.0-src",
@@ -202,17 +202,17 @@
     "25": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 66,
+        "C_tokens": 43,
         "T_tokens": 27,
-        "C_tokens_fail": 19,
+        "C_tokens_fail": 14,
         "T_tokens_fail": 12
     },
     "26": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 66,
+        "C_tokens": 43,
         "T_tokens": 22,
-        "C_tokens_fail": 19,
+        "C_tokens_fail": 14,
         "T_tokens_fail": 9
     },
     "27": {
@@ -274,17 +274,17 @@
     "34": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 30,
+        "C_tokens": 21,
         "T_tokens": 16,
-        "C_tokens_fail": 6,
+        "C_tokens_fail": 4,
         "T_tokens_fail": 5
     },
     "35": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 30,
+        "C_tokens": 21,
         "T_tokens": 17,
-        "C_tokens_fail": 6,
+        "C_tokens_fail": 4,
         "T_tokens_fail": 5
     },
     "36": {
@@ -339,9 +339,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 78,
-        "T_tokens": 33,
+        "T_tokens": 30,
         "C_tokens_fail": 25,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "43": {
         "project": "commons-configuration2-2.8.0-src",
@@ -387,17 +387,17 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 6,
-        "T_tokens": 83,
+        "T_tokens": 80,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 48
+        "T_tokens_fail": 45
     },
     "49": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 6,
-        "T_tokens": 50,
+        "T_tokens": 47,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 29
+        "T_tokens_fail": 26
     },
     "50": {
         "project": "commons-configuration2-2.8.0-src",
@@ -483,41 +483,41 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "61": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 26,
+        "T_tokens": 19,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "62": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "63": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 21,
+        "T_tokens": 14,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "64": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 69,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 20,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "65": {
         "project": "commons-configuration2-2.8.0-src",
@@ -642,9 +642,9 @@
     "80": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 69,
+        "C_tokens": 60,
         "T_tokens": 26,
-        "C_tokens_fail": 26,
+        "C_tokens_fail": 22,
         "T_tokens_fail": 13
     },
     "81": {
@@ -747,9 +747,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "94": {
         "project": "commons-configuration2-2.8.0-src",
@@ -771,17 +771,17 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 29,
+        "T_tokens": 26,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "97": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 33,
+        "T_tokens": 30,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "98": {
         "project": "commons-configuration2-2.8.0-src",
@@ -803,25 +803,25 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 39,
+        "T_tokens": 36,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 21
+        "T_tokens_fail": 18
     },
     "101": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 52,
-        "T_tokens": 34,
-        "C_tokens_fail": 18,
-        "T_tokens_fail": 18
+        "C_tokens": 38,
+        "T_tokens": 31,
+        "C_tokens_fail": 10,
+        "T_tokens_fail": 15
     },
     "102": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 19,
-        "T_tokens": 86,
+        "T_tokens": 83,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 55
+        "T_tokens_fail": 52
     },
     "103": {
         "project": "commons-configuration2-2.8.0-src",
@@ -866,10 +866,10 @@
     "108": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 52,
-        "T_tokens": 49,
-        "C_tokens_fail": 18,
-        "T_tokens_fail": 34
+        "C_tokens": 38,
+        "T_tokens": 46,
+        "C_tokens_fail": 10,
+        "T_tokens_fail": 31
     },
     "109": {
         "project": "commons-configuration2-2.8.0-src",
@@ -1067,41 +1067,41 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 30,
-        "T_tokens": 35,
+        "T_tokens": 27,
         "C_tokens_fail": 9,
-        "T_tokens_fail": 16
+        "T_tokens_fail": 13
     },
     "134": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 43,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 17,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "135": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 27,
-        "T_tokens": 11,
+        "T_tokens": 8,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "136": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "137": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 23,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 9,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "138": {
         "project": "commons-configuration2-2.8.0-src",
@@ -1115,17 +1115,17 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 19,
-        "T_tokens": 27,
+        "T_tokens": 24,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "140": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 30,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 9,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "141": {
         "project": "commons-configuration2-2.8.0-src",
@@ -1266,92 +1266,100 @@
     "158": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 78,
-        "T_tokens": 18,
-        "C_tokens_fail": 25,
-        "T_tokens_fail": 7
+        "C_tokens": 69,
+        "T_tokens": 15,
+        "C_tokens_fail": 20,
+        "T_tokens_fail": 4
     },
     "159": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 78,
+        "C_tokens": 69,
         "T_tokens": 21,
-        "C_tokens_fail": 25,
+        "C_tokens_fail": 20,
         "T_tokens_fail": 9
     },
     "160": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 28,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 13,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "161": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 28,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 13,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "162": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 28,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 13,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "163": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 28,
-        "T_tokens": 35,
+        "T_tokens": 32,
         "C_tokens_fail": 13,
-        "T_tokens_fail": 20
+        "T_tokens_fail": 17
     },
     "164": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "165": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 35,
+        "T_tokens": 32,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 20
+        "T_tokens_fail": 17
     },
     "166": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "167": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "168": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 22,
+        "T_tokens": 14,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 4
     },
     "169": {
+        "project": "commons-configuration2-2.8.0-src",
+        "label": "F",
+        "C_tokens": 13,
+        "T_tokens": 16,
+        "C_tokens_fail": 5,
+        "T_tokens_fail": 4
+    },
+    "170": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 13,
@@ -1359,39 +1367,39 @@
         "C_tokens_fail": 5,
         "T_tokens_fail": 7
     },
-    "170": {
-        "project": "commons-configuration2-2.8.0-src",
-        "label": "F",
-        "C_tokens": 13,
-        "T_tokens": 22,
-        "C_tokens_fail": 5,
-        "T_tokens_fail": 10
-    },
     "171": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 35,
+        "T_tokens": 32,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 19
+        "T_tokens_fail": 16
     },
     "172": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "173": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "174": {
+        "project": "commons-configuration2-2.8.0-src",
+        "label": "F",
+        "C_tokens": 9,
+        "T_tokens": 31,
+        "C_tokens_fail": 3,
+        "T_tokens_fail": 15
+    },
+    "175": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 9,
@@ -1399,21 +1407,13 @@
         "C_tokens_fail": 3,
         "T_tokens_fail": 18
     },
-    "175": {
-        "project": "commons-configuration2-2.8.0-src",
-        "label": "F",
-        "C_tokens": 9,
-        "T_tokens": 37,
-        "C_tokens_fail": 3,
-        "T_tokens_fail": 21
-    },
     "176": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 56,
+        "T_tokens": 53,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 34
+        "T_tokens_fail": 31
     },
     "177": {
         "project": "commons-configuration2-2.8.0-src",
@@ -1427,9 +1427,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 35,
+        "T_tokens": 32,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 18
+        "T_tokens_fail": 15
     },
     "179": {
         "project": "commons-configuration2-2.8.0-src",
@@ -1443,25 +1443,25 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 23,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 13,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "181": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 23,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 13,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "182": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 42,
-        "T_tokens": 34,
+        "T_tokens": 31,
         "C_tokens_fail": 12,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "183": {
         "project": "commons-configuration2-2.8.0-src",
@@ -1475,17 +1475,17 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 42,
-        "T_tokens": 30,
+        "T_tokens": 27,
         "C_tokens_fail": 12,
-        "T_tokens_fail": 16
+        "T_tokens_fail": 13
     },
     "185": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 42,
-        "T_tokens": 44,
+        "T_tokens": 41,
         "C_tokens_fail": 12,
-        "T_tokens_fail": 22
+        "T_tokens_fail": 19
     },
     "186": {
         "project": "commons-configuration2-2.8.0-src",
@@ -1499,57 +1499,57 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 24,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "188": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 24,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "189": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 50,
+        "T_tokens": 47,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 28
+        "T_tokens_fail": 25
     },
     "190": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 46,
+        "T_tokens": 43,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 25
+        "T_tokens_fail": 22
     },
     "191": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 50,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 15,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "192": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 50,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 15,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "193": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 50,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 15,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "194": {
         "project": "commons-configuration2-2.8.0-src",
@@ -1563,9 +1563,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 50,
-        "T_tokens": 38,
+        "T_tokens": 35,
         "C_tokens_fail": 15,
-        "T_tokens_fail": 21
+        "T_tokens_fail": 18
     },
     "196": {
         "project": "commons-configuration2-2.8.0-src",
@@ -1643,9 +1643,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 24,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "206": {
         "project": "commons-configuration2-2.8.0-src",
@@ -1659,17 +1659,17 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 24,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "208": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 39,
+        "T_tokens": 36,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 20
+        "T_tokens_fail": 17
     },
     "209": {
         "project": "commons-configuration2-2.8.0-src",
@@ -1698,17 +1698,17 @@
     "212": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 78,
+        "C_tokens": 69,
         "T_tokens": 23,
-        "C_tokens_fail": 25,
+        "C_tokens_fail": 20,
         "T_tokens_fail": 11
     },
     "213": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 78,
+        "C_tokens": 69,
         "T_tokens": 16,
-        "C_tokens_fail": 25,
+        "C_tokens_fail": 20,
         "T_tokens_fail": 6
     },
     "214": {
@@ -1731,17 +1731,17 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "217": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 11,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "218": {
         "project": "commons-configuration2-2.8.0-src",
@@ -1754,9 +1754,9 @@
     "219": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 78,
+        "C_tokens": 69,
         "T_tokens": 16,
-        "C_tokens_fail": 25,
+        "C_tokens_fail": 20,
         "T_tokens_fail": 6
     },
     "220": {
@@ -1779,17 +1779,17 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 66,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 17,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "223": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 67,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 15,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "224": {
         "project": "commons-configuration2-2.8.0-src",
@@ -1899,41 +1899,41 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 24,
-        "T_tokens": 48,
+        "T_tokens": 45,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 27
+        "T_tokens_fail": 24
     },
     "238": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 24,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "239": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 24,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "240": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 35,
+        "T_tokens": 32,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 20
+        "T_tokens_fail": 17
     },
     "241": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "242": {
         "project": "commons-configuration2-2.8.0-src",
@@ -2010,33 +2010,33 @@
     "251": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 31,
-        "T_tokens": 18,
-        "C_tokens_fail": 8,
-        "T_tokens_fail": 8
+        "C_tokens": 27,
+        "T_tokens": 15,
+        "C_tokens_fail": 6,
+        "T_tokens_fail": 5
     },
     "252": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 31,
+        "C_tokens": 27,
         "T_tokens": 16,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 6,
         "T_tokens_fail": 5
     },
     "253": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 31,
+        "C_tokens": 27,
         "T_tokens": 18,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 6,
         "T_tokens_fail": 7
     },
     "254": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 31,
+        "C_tokens": 27,
         "T_tokens": 28,
-        "C_tokens_fail": 8,
+        "C_tokens_fail": 6,
         "T_tokens_fail": 14
     },
     "255": {
@@ -2098,9 +2098,9 @@
     "262": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 88,
+        "C_tokens": 51,
         "T_tokens": 33,
-        "C_tokens_fail": 23,
+        "C_tokens_fail": 12,
         "T_tokens_fail": 18
     },
     "263": {
@@ -2122,9 +2122,9 @@
     "265": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 31,
+        "C_tokens": 29,
         "T_tokens": 22,
-        "C_tokens_fail": 6,
+        "C_tokens_fail": 5,
         "T_tokens_fail": 9
     },
     "266": {
@@ -2139,9 +2139,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 4,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "268": {
         "project": "commons-configuration2-2.8.0-src",
@@ -2187,48 +2187,48 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "274": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 4,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "275": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 10,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "276": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "277": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "278": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 24,
+        "C_tokens": 18,
         "T_tokens": 13,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 10,
         "T_tokens_fail": 4
     },
     "279": {
@@ -2267,89 +2267,89 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "284": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 34,
-        "T_tokens": 17,
-        "C_tokens_fail": 13,
-        "T_tokens_fail": 7
+        "C_tokens": 20,
+        "T_tokens": 14,
+        "C_tokens_fail": 6,
+        "T_tokens_fail": 4
     },
     "285": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 61,
-        "T_tokens": 45,
+        "T_tokens": 42,
         "C_tokens_fail": 12,
-        "T_tokens_fail": 25
+        "T_tokens_fail": 22
     },
     "286": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 61,
-        "T_tokens": 45,
+        "T_tokens": 42,
         "C_tokens_fail": 12,
-        "T_tokens_fail": 24
+        "T_tokens_fail": 21
     },
     "287": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 37,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "288": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 37,
-        "T_tokens": 34,
+        "T_tokens": 31,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "289": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 17,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "290": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 52,
-        "T_tokens": 28,
-        "C_tokens_fail": 17,
-        "T_tokens_fail": 15
+        "C_tokens": 49,
+        "T_tokens": 25,
+        "C_tokens_fail": 15,
+        "T_tokens_fail": 12
     },
     "291": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 52,
-        "T_tokens": 23,
-        "C_tokens_fail": 17,
-        "T_tokens_fail": 11
+        "C_tokens": 49,
+        "T_tokens": 20,
+        "C_tokens_fail": 15,
+        "T_tokens_fail": 8
     },
     "292": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 29,
+        "T_tokens": 26,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "293": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "294": {
         "project": "commons-configuration2-2.8.0-src",
@@ -2411,24 +2411,24 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 61,
-        "T_tokens": 29,
+        "T_tokens": 26,
         "C_tokens_fail": 12,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "302": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "303": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 52,
+        "C_tokens": 49,
         "T_tokens": 24,
-        "C_tokens_fail": 17,
+        "C_tokens_fail": 15,
         "T_tokens_fail": 10
     },
     "304": {
@@ -2442,26 +2442,26 @@
     "305": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 34,
+        "C_tokens": 20,
         "T_tokens": 18,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 6,
         "T_tokens_fail": 7
     },
     "306": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 34,
+        "C_tokens": 20,
         "T_tokens": 18,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 6,
         "T_tokens_fail": 7
     },
     "307": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 61,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 12,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "308": {
         "project": "commons-configuration2-2.8.0-src",
@@ -2547,73 +2547,73 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 48,
+        "T_tokens": 45,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 28
+        "T_tokens_fail": 25
     },
     "319": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 45,
+        "T_tokens": 42,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 25
+        "T_tokens_fail": 22
     },
     "320": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 44,
+        "T_tokens": 41,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 28
+        "T_tokens_fail": 25
     },
     "321": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 40,
+        "T_tokens": 37,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 23
+        "T_tokens_fail": 20
     },
     "322": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 39,
+        "T_tokens": 36,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 21
+        "T_tokens_fail": 18
     },
     "323": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 6,
-        "T_tokens": 39,
+        "T_tokens": 36,
         "C_tokens_fail": 1,
-        "T_tokens_fail": 21
+        "T_tokens_fail": 18
     },
     "324": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 18,
-        "T_tokens": 39,
+        "T_tokens": 36,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 21
+        "T_tokens_fail": 18
     },
     "325": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 18,
-        "T_tokens": 35,
+        "T_tokens": 32,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 18
+        "T_tokens_fail": 15
     },
     "326": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 18,
-        "T_tokens": 30,
+        "T_tokens": 27,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "327": {
         "project": "commons-configuration2-2.8.0-src",
@@ -2659,9 +2659,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 27,
+        "T_tokens": 24,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "333": {
         "project": "commons-configuration2-2.8.0-src",
@@ -2715,65 +2715,65 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 40,
+        "T_tokens": 37,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 22
+        "T_tokens_fail": 19
     },
     "340": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
         "C_tokens": 12,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "341": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "342": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 30,
+        "T_tokens": 27,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 16
+        "T_tokens_fail": 13
     },
     "343": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "344": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 34,
+        "T_tokens": 31,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 19
+        "T_tokens_fail": 16
     },
     "345": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 14,
+        "T_tokens": 11,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "346": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "347": {
         "project": "commons-configuration2-2.8.0-src",
@@ -2827,49 +2827,49 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "354": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "355": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "356": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 11,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "357": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 11,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "358": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 11,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "359": {
         "project": "commons-configuration2-2.8.0-src",
@@ -2891,9 +2891,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 29,
+        "T_tokens": 26,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 16
+        "T_tokens_fail": 13
     },
     "362": {
         "project": "commons-configuration2-2.8.0-src",
@@ -2907,17 +2907,17 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 27,
+        "T_tokens": 24,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "364": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "365": {
         "project": "commons-configuration2-2.8.0-src",
@@ -2938,9 +2938,9 @@
     "367": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 95,
+        "C_tokens": 65,
         "T_tokens": 30,
-        "C_tokens_fail": 33,
+        "C_tokens_fail": 17,
         "T_tokens_fail": 14
     },
     "368": {
@@ -2954,9 +2954,9 @@
     "369": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 95,
+        "C_tokens": 65,
         "T_tokens": 20,
-        "C_tokens_fail": 33,
+        "C_tokens_fail": 17,
         "T_tokens_fail": 8
     },
     "370": {
@@ -2970,41 +2970,41 @@
     "371": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 95,
+        "C_tokens": 65,
         "T_tokens": 18,
-        "C_tokens_fail": 33,
+        "C_tokens_fail": 17,
         "T_tokens_fail": 8
     },
     "372": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 95,
+        "C_tokens": 65,
         "T_tokens": 18,
-        "C_tokens_fail": 33,
+        "C_tokens_fail": 17,
         "T_tokens_fail": 6
     },
     "373": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 26,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "374": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 95,
-        "T_tokens": 23,
-        "C_tokens_fail": 33,
-        "T_tokens_fail": 11
+        "C_tokens": 65,
+        "T_tokens": 20,
+        "C_tokens_fail": 17,
+        "T_tokens_fail": 8
     },
     "375": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 110,
+        "C_tokens": 100,
         "T_tokens": 18,
-        "C_tokens_fail": 35,
+        "C_tokens_fail": 31,
         "T_tokens_fail": 8
     },
     "376": {
@@ -3051,24 +3051,24 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "382": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "383": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 110,
+        "C_tokens": 100,
         "T_tokens": 30,
-        "C_tokens_fail": 35,
+        "C_tokens_fail": 31,
         "T_tokens_fail": 16
     },
     "384": {
@@ -3098,9 +3098,9 @@
     "387": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 110,
+        "C_tokens": 100,
         "T_tokens": 38,
-        "C_tokens_fail": 35,
+        "C_tokens_fail": 31,
         "T_tokens_fail": 25
     },
     "388": {
@@ -3114,9 +3114,9 @@
     "389": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 110,
+        "C_tokens": 100,
         "T_tokens": 30,
-        "C_tokens_fail": 35,
+        "C_tokens_fail": 31,
         "T_tokens_fail": 16
     },
     "390": {
@@ -3138,9 +3138,9 @@
     "392": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 110,
+        "C_tokens": 100,
         "T_tokens": 23,
-        "C_tokens_fail": 35,
+        "C_tokens_fail": 31,
         "T_tokens_fail": 11
     },
     "393": {
@@ -3154,9 +3154,9 @@
     "394": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 110,
+        "C_tokens": 100,
         "T_tokens": 19,
-        "C_tokens_fail": 35,
+        "C_tokens_fail": 31,
         "T_tokens_fail": 7
     },
     "395": {
@@ -3194,9 +3194,9 @@
     "399": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 110,
+        "C_tokens": 100,
         "T_tokens": 24,
-        "C_tokens_fail": 35,
+        "C_tokens_fail": 31,
         "T_tokens_fail": 10
     },
     "400": {
@@ -3235,9 +3235,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 77,
-        "T_tokens": 31,
+        "T_tokens": 28,
         "C_tokens_fail": 21,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "405": {
         "project": "commons-configuration2-2.8.0-src",
@@ -3282,9 +3282,9 @@
     "410": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 186,
+        "C_tokens": 166,
         "T_tokens": 9,
-        "C_tokens_fail": 45,
+        "C_tokens_fail": 38,
         "T_tokens_fail": 2
     },
     "411": {
@@ -3306,9 +3306,9 @@
     "413": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 164,
+        "C_tokens": 156,
         "T_tokens": 17,
-        "C_tokens_fail": 37,
+        "C_tokens_fail": 32,
         "T_tokens_fail": 8
     },
     "414": {
@@ -3410,33 +3410,33 @@
     "426": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 164,
+        "C_tokens": 156,
         "T_tokens": 21,
-        "C_tokens_fail": 37,
+        "C_tokens_fail": 32,
         "T_tokens_fail": 7
     },
     "427": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 164,
+        "C_tokens": 156,
         "T_tokens": 21,
-        "C_tokens_fail": 37,
+        "C_tokens_fail": 32,
         "T_tokens_fail": 7
     },
     "428": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 164,
+        "C_tokens": 156,
         "T_tokens": 21,
-        "C_tokens_fail": 37,
+        "C_tokens_fail": 32,
         "T_tokens_fail": 7
     },
     "429": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 164,
+        "C_tokens": 156,
         "T_tokens": 21,
-        "C_tokens_fail": 37,
+        "C_tokens_fail": 32,
         "T_tokens_fail": 7
     },
     "430": {
@@ -3546,17 +3546,17 @@
     "443": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 186,
+        "C_tokens": 166,
         "T_tokens": 15,
-        "C_tokens_fail": 45,
+        "C_tokens_fail": 38,
         "T_tokens_fail": 2
     },
     "444": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 186,
+        "C_tokens": 166,
         "T_tokens": 15,
-        "C_tokens_fail": 45,
+        "C_tokens_fail": 38,
         "T_tokens_fail": 2
     },
     "445": {
@@ -3635,17 +3635,17 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 27,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "455": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 164,
-        "T_tokens": 17,
-        "C_tokens_fail": 37,
-        "T_tokens_fail": 8
+        "C_tokens": 156,
+        "T_tokens": 14,
+        "C_tokens_fail": 32,
+        "T_tokens_fail": 5
     },
     "456": {
         "project": "commons-configuration2-2.8.0-src",
@@ -3659,17 +3659,17 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 27,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "458": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 71,
-        "T_tokens": 13,
+        "T_tokens": 10,
         "C_tokens_fail": 13,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "459": {
         "project": "commons-configuration2-2.8.0-src",
@@ -3683,9 +3683,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 27,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "461": {
         "project": "commons-configuration2-2.8.0-src",
@@ -3707,17 +3707,17 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 27,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "464": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 114,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 21,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "465": {
         "project": "commons-configuration2-2.8.0-src",
@@ -3731,25 +3731,25 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 27,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "467": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 81,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 13,
-        "T_tokens_fail": 6
+        "T_tokens_fail": 3
     },
     "468": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 93,
-        "T_tokens": 14,
+        "T_tokens": 11,
         "C_tokens_fail": 15,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "469": {
         "project": "commons-configuration2-2.8.0-src",
@@ -3763,9 +3763,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 27,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "471": {
         "project": "commons-configuration2-2.8.0-src",
@@ -3779,9 +3779,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 27,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "473": {
         "project": "commons-configuration2-2.8.0-src",
@@ -3795,25 +3795,25 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 28,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "475": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 254,
-        "T_tokens": 23,
-        "C_tokens_fail": 85,
-        "T_tokens_fail": 12
+        "C_tokens": 240,
+        "T_tokens": 20,
+        "C_tokens_fail": 73,
+        "T_tokens_fail": 9
     },
     "476": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "477": {
         "project": "commons-configuration2-2.8.0-src",
@@ -3834,9 +3834,9 @@
     "479": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 186,
+        "C_tokens": 166,
         "T_tokens": 12,
-        "C_tokens_fail": 45,
+        "C_tokens_fail": 38,
         "T_tokens_fail": 2
     },
     "480": {
@@ -3922,50 +3922,50 @@
     "490": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 15,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 6
     },
     "491": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 18,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 10
     },
     "492": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 15,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 6
     },
     "493": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 22,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 11
     },
     "494": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 22,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 9
     },
     "495": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 93,
-        "T_tokens": 13,
+        "T_tokens": 10,
         "C_tokens_fail": 15,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "496": {
         "project": "commons-configuration2-2.8.0-src",
@@ -3979,9 +3979,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 81,
-        "T_tokens": 13,
+        "T_tokens": 10,
         "C_tokens_fail": 13,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "498": {
         "project": "commons-configuration2-2.8.0-src",
@@ -4058,41 +4058,41 @@
     "507": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 186,
+        "C_tokens": 166,
         "T_tokens": 8,
-        "C_tokens_fail": 45,
+        "C_tokens_fail": 38,
         "T_tokens_fail": 2
     },
     "508": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 186,
+        "C_tokens": 166,
         "T_tokens": 8,
-        "C_tokens_fail": 45,
+        "C_tokens_fail": 38,
         "T_tokens_fail": 2
     },
     "509": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 186,
+        "C_tokens": 166,
         "T_tokens": 8,
-        "C_tokens_fail": 45,
+        "C_tokens_fail": 38,
         "T_tokens_fail": 1
     },
     "510": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 186,
+        "C_tokens": 166,
         "T_tokens": 9,
-        "C_tokens_fail": 45,
+        "C_tokens_fail": 38,
         "T_tokens_fail": 2
     },
     "511": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 186,
+        "C_tokens": 166,
         "T_tokens": 15,
-        "C_tokens_fail": 45,
+        "C_tokens_fail": 38,
         "T_tokens_fail": 2
     },
     "512": {
@@ -4322,121 +4322,121 @@
     "540": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 24,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 11
     },
     "541": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 28,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 11
     },
     "542": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 19,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 9
     },
     "543": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 23,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 11
     },
     "544": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 35,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 18
     },
     "545": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 18,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 9
     },
     "546": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 15,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 6
     },
     "547": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 19,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 9
     },
     "548": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 24,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 12
     },
     "549": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 18,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 9
     },
     "550": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 27,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 11
     },
     "551": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 18,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 9
     },
     "552": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 19,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 9
     },
     "553": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 18,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 9
     },
     "554": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 27,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 12
     },
     "555": {
@@ -4450,17 +4450,17 @@
     "556": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 27,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 12
     },
     "557": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 27,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 13
     },
     "558": {
@@ -4474,73 +4474,73 @@
     "559": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 22,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 12
     },
     "560": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 28,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 17
     },
     "561": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 23,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 12
     },
     "562": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 22,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 12
     },
     "563": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 19,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 9
     },
     "564": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 18,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 9
     },
     "565": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 19,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 9
     },
     "566": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 21,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 9
     },
     "567": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 254,
+        "C_tokens": 240,
         "T_tokens": 15,
-        "C_tokens_fail": 85,
+        "C_tokens_fail": 73,
         "T_tokens_fail": 6
     },
     "568": {
@@ -4554,9 +4554,9 @@
     "569": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 84,
+        "C_tokens": 59,
         "T_tokens": 27,
-        "C_tokens_fail": 24,
+        "C_tokens_fail": 17,
         "T_tokens_fail": 14
     },
     "570": {
@@ -4570,9 +4570,9 @@
     "571": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 172,
+        "C_tokens": 129,
         "T_tokens": 17,
-        "C_tokens_fail": 49,
+        "C_tokens_fail": 32,
         "T_tokens_fail": 5
     },
     "572": {
@@ -4626,34 +4626,34 @@
     "578": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 172,
-        "T_tokens": 18,
-        "C_tokens_fail": 49,
-        "T_tokens_fail": 7
+        "C_tokens": 129,
+        "T_tokens": 15,
+        "C_tokens_fail": 32,
+        "T_tokens_fail": 4
     },
     "579": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 33,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 14,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "580": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 84,
-        "T_tokens": 29,
-        "C_tokens_fail": 24,
-        "T_tokens_fail": 14
+        "C_tokens": 59,
+        "T_tokens": 26,
+        "C_tokens_fail": 17,
+        "T_tokens_fail": 11
     },
     "581": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 14,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "582": {
         "project": "commons-configuration2-2.8.0-src",
@@ -4674,9 +4674,9 @@
     "584": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 84,
+        "C_tokens": 59,
         "T_tokens": 28,
-        "C_tokens_fail": 24,
+        "C_tokens_fail": 17,
         "T_tokens_fail": 14
     },
     "585": {
@@ -4690,9 +4690,9 @@
     "586": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 84,
+        "C_tokens": 59,
         "T_tokens": 28,
-        "C_tokens_fail": 24,
+        "C_tokens_fail": 17,
         "T_tokens_fail": 14
     },
     "587": {
@@ -4714,9 +4714,9 @@
     "589": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 172,
+        "C_tokens": 129,
         "T_tokens": 17,
-        "C_tokens_fail": 49,
+        "C_tokens_fail": 32,
         "T_tokens_fail": 5
     },
     "590": {
@@ -4730,33 +4730,33 @@
     "591": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 84,
+        "C_tokens": 59,
         "T_tokens": 28,
-        "C_tokens_fail": 24,
+        "C_tokens_fail": 17,
         "T_tokens_fail": 14
     },
     "592": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 84,
+        "C_tokens": 59,
         "T_tokens": 28,
-        "C_tokens_fail": 24,
+        "C_tokens_fail": 17,
         "T_tokens_fail": 14
     },
     "593": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 84,
+        "C_tokens": 59,
         "T_tokens": 35,
-        "C_tokens_fail": 24,
+        "C_tokens_fail": 17,
         "T_tokens_fail": 19
     },
     "594": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 84,
+        "C_tokens": 59,
         "T_tokens": 35,
-        "C_tokens_fail": 24,
+        "C_tokens_fail": 17,
         "T_tokens_fail": 19
     },
     "595": {
@@ -4779,9 +4779,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 48,
-        "T_tokens": 44,
+        "T_tokens": 41,
         "C_tokens_fail": 16,
-        "T_tokens_fail": 27
+        "T_tokens_fail": 24
     },
     "598": {
         "project": "commons-configuration2-2.8.0-src",
@@ -4850,17 +4850,17 @@
     "606": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 54,
+        "C_tokens": 33,
         "T_tokens": 23,
-        "C_tokens_fail": 14,
+        "C_tokens_fail": 6,
         "T_tokens_fail": 11
     },
     "607": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 54,
+        "C_tokens": 33,
         "T_tokens": 60,
-        "C_tokens_fail": 14,
+        "C_tokens_fail": 6,
         "T_tokens_fail": 35
     },
     "608": {
@@ -4883,49 +4883,49 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 48,
-        "T_tokens": 35,
+        "T_tokens": 32,
         "C_tokens_fail": 16,
-        "T_tokens_fail": 18
+        "T_tokens_fail": 15
     },
     "611": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 43,
-        "T_tokens": 20,
+        "T_tokens": 17,
         "C_tokens_fail": 15,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "612": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 25,
-        "T_tokens": 27,
+        "T_tokens": 24,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "613": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 54,
-        "T_tokens": 33,
-        "C_tokens_fail": 14,
-        "T_tokens_fail": 19
+        "C_tokens": 33,
+        "T_tokens": 30,
+        "C_tokens_fail": 6,
+        "T_tokens_fail": 16
     },
     "614": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 29,
-        "T_tokens": 42,
+        "T_tokens": 39,
         "C_tokens_fail": 12,
-        "T_tokens_fail": 29
+        "T_tokens_fail": 26
     },
     "615": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 29,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 12,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "616": {
         "project": "commons-configuration2-2.8.0-src",
@@ -4947,9 +4947,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 43,
-        "T_tokens": 27,
+        "T_tokens": 24,
         "C_tokens_fail": 15,
-        "T_tokens_fail": 16
+        "T_tokens_fail": 13
     },
     "619": {
         "project": "commons-configuration2-2.8.0-src",
@@ -4971,9 +4971,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 48,
-        "T_tokens": 27,
+        "T_tokens": 24,
         "C_tokens_fail": 16,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "622": {
         "project": "commons-configuration2-2.8.0-src",
@@ -5035,9 +5035,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 17,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "630": {
         "project": "commons-configuration2-2.8.0-src",
@@ -5090,10 +5090,10 @@
     "636": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 159,
-        "T_tokens": 18,
-        "C_tokens_fail": 41,
-        "T_tokens_fail": 7
+        "C_tokens": 116,
+        "T_tokens": 15,
+        "C_tokens_fail": 25,
+        "T_tokens_fail": 4
     },
     "637": {
         "project": "commons-configuration2-2.8.0-src",
@@ -5130,9 +5130,9 @@
     "641": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 159,
+        "C_tokens": 116,
         "T_tokens": 17,
-        "C_tokens_fail": 41,
+        "C_tokens_fail": 25,
         "T_tokens_fail": 5
     },
     "642": {
@@ -5154,9 +5154,9 @@
     "644": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 159,
+        "C_tokens": 116,
         "T_tokens": 17,
-        "C_tokens_fail": 41,
+        "C_tokens_fail": 25,
         "T_tokens_fail": 5
     },
     "645": {
@@ -5178,9 +5178,9 @@
     "647": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 159,
+        "C_tokens": 116,
         "T_tokens": 17,
-        "C_tokens_fail": 41,
+        "C_tokens_fail": 25,
         "T_tokens_fail": 5
     },
     "648": {
@@ -5243,9 +5243,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "656": {
         "project": "commons-configuration2-2.8.0-src",
@@ -5259,9 +5259,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "658": {
         "project": "commons-configuration2-2.8.0-src",
@@ -5554,17 +5554,17 @@
     "694": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 119,
+        "C_tokens": 108,
         "T_tokens": 11,
-        "C_tokens_fail": 30,
+        "C_tokens_fail": 22,
         "T_tokens_fail": 3
     },
     "695": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 119,
+        "C_tokens": 108,
         "T_tokens": 11,
-        "C_tokens_fail": 30,
+        "C_tokens_fail": 22,
         "T_tokens_fail": 2
     },
     "696": {
@@ -5610,41 +5610,41 @@
     "701": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 119,
+        "C_tokens": 108,
         "T_tokens": 11,
-        "C_tokens_fail": 30,
+        "C_tokens_fail": 22,
         "T_tokens_fail": 2
     },
     "702": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 119,
+        "C_tokens": 108,
         "T_tokens": 11,
-        "C_tokens_fail": 30,
+        "C_tokens_fail": 22,
         "T_tokens_fail": 2
     },
     "703": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 119,
+        "C_tokens": 108,
         "T_tokens": 11,
-        "C_tokens_fail": 30,
+        "C_tokens_fail": 22,
         "T_tokens_fail": 2
     },
     "704": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 119,
+        "C_tokens": 108,
         "T_tokens": 12,
-        "C_tokens_fail": 30,
+        "C_tokens_fail": 22,
         "T_tokens_fail": 3
     },
     "705": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 119,
+        "C_tokens": 108,
         "T_tokens": 12,
-        "C_tokens_fail": 30,
+        "C_tokens_fail": 22,
         "T_tokens_fail": 2
     },
     "706": {
@@ -5667,9 +5667,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 30,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "709": {
         "project": "commons-configuration2-2.8.0-src",
@@ -5699,9 +5699,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "713": {
         "project": "commons-configuration2-2.8.0-src",
@@ -5715,17 +5715,17 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 31,
+        "T_tokens": 28,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "715": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 28,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "716": {
         "project": "commons-configuration2-2.8.0-src",
@@ -5931,9 +5931,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 11,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "742": {
         "project": "commons-configuration2-2.8.0-src",
@@ -5955,24 +5955,24 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 19,
+        "T_tokens": 16,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 9
+        "T_tokens_fail": 6
     },
     "745": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 12,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "746": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 9,
+        "C_tokens": 4,
         "T_tokens": 16,
-        "C_tokens_fail": 5,
+        "C_tokens_fail": 1,
         "T_tokens_fail": 4
     },
     "747": {
@@ -6171,17 +6171,17 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "772": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 36,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 11,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "773": {
         "project": "commons-configuration2-2.8.0-src",
@@ -6195,17 +6195,17 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 33,
+        "T_tokens": 30,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "775": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "776": {
         "project": "commons-configuration2-2.8.0-src",
@@ -6219,9 +6219,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 30,
+        "T_tokens": 27,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 16
+        "T_tokens_fail": 13
     },
     "778": {
         "project": "commons-configuration2-2.8.0-src",
@@ -6235,25 +6235,25 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 33,
+        "T_tokens": 30,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "780": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 30,
+        "T_tokens": 27,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "781": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 34,
+        "T_tokens": 31,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 19
+        "T_tokens_fail": 16
     },
     "782": {
         "project": "commons-configuration2-2.8.0-src",
@@ -6267,9 +6267,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "784": {
         "project": "commons-configuration2-2.8.0-src",
@@ -6355,9 +6355,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 22,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "795": {
         "project": "commons-configuration2-2.8.0-src",
@@ -6387,9 +6387,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 29,
+        "T_tokens": 26,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "799": {
         "project": "commons-configuration2-2.8.0-src",
@@ -6459,15 +6459,15 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 21,
-        "T_tokens": 23,
+        "T_tokens": 20,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "808": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
         "C_tokens": 7,
-        "T_tokens": 14,
+        "T_tokens": 13,
         "C_tokens_fail": 2,
         "T_tokens_fail": 4
     },
@@ -6555,9 +6555,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "820": {
         "project": "commons-configuration2-2.8.0-src",
@@ -6579,9 +6579,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "823": {
         "project": "commons-configuration2-2.8.0-src",
@@ -6611,9 +6611,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "827": {
         "project": "commons-configuration2-2.8.0-src",
@@ -6627,9 +6627,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 34,
+        "T_tokens": 31,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "829": {
         "project": "commons-configuration2-2.8.0-src",
@@ -6674,18 +6674,18 @@
     "834": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 80,
+        "C_tokens": 66,
         "T_tokens": 12,
-        "C_tokens_fail": 23,
+        "C_tokens_fail": 16,
         "T_tokens_fail": 4
     },
     "835": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 80,
-        "T_tokens": 12,
-        "C_tokens_fail": 23,
-        "T_tokens_fail": 3
+        "C_tokens": 66,
+        "T_tokens": 10,
+        "C_tokens_fail": 16,
+        "T_tokens_fail": 2
     },
     "836": {
         "project": "commons-configuration2-2.8.0-src",
@@ -6730,65 +6730,65 @@
     "841": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 80,
-        "T_tokens": 12,
-        "C_tokens_fail": 23,
+        "C_tokens": 66,
+        "T_tokens": 11,
+        "C_tokens_fail": 16,
         "T_tokens_fail": 3
     },
     "842": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 80,
+        "C_tokens": 66,
         "T_tokens": 12,
-        "C_tokens_fail": 23,
+        "C_tokens_fail": 16,
         "T_tokens_fail": 3
     },
     "843": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 80,
+        "C_tokens": 66,
         "T_tokens": 12,
-        "C_tokens_fail": 23,
+        "C_tokens_fail": 16,
         "T_tokens_fail": 3
     },
     "844": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 80,
+        "C_tokens": 66,
         "T_tokens": 12,
-        "C_tokens_fail": 23,
+        "C_tokens_fail": 16,
         "T_tokens_fail": 2
     },
     "845": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 80,
+        "C_tokens": 66,
         "T_tokens": 12,
-        "C_tokens_fail": 23,
+        "C_tokens_fail": 16,
         "T_tokens_fail": 2
     },
     "846": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 80,
+        "C_tokens": 66,
         "T_tokens": 24,
-        "C_tokens_fail": 23,
+        "C_tokens_fail": 16,
         "T_tokens_fail": 9
     },
     "847": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 80,
+        "C_tokens": 66,
         "T_tokens": 24,
-        "C_tokens_fail": 23,
+        "C_tokens_fail": 16,
         "T_tokens_fail": 9
     },
     "848": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 40,
         "T_tokens": 37,
-        "C_tokens_fail": 12,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 19
     },
     "849": {
@@ -6859,89 +6859,89 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 11,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "858": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 31,
-        "T_tokens": 29,
+        "T_tokens": 26,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "859": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 86,
-        "T_tokens": 12,
-        "C_tokens_fail": 23,
-        "T_tokens_fail": 4
+        "C_tokens": 70,
+        "T_tokens": 9,
+        "C_tokens_fail": 17,
+        "T_tokens_fail": 1
     },
     "860": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 80,
-        "T_tokens": 14,
-        "C_tokens_fail": 23,
-        "T_tokens_fail": 4
+        "C_tokens": 66,
+        "T_tokens": 11,
+        "C_tokens_fail": 16,
+        "T_tokens_fail": 1
     },
     "861": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 32,
-        "T_tokens": 28,
-        "C_tokens_fail": 13,
-        "T_tokens_fail": 16
+        "C_tokens": 28,
+        "T_tokens": 25,
+        "C_tokens_fail": 9,
+        "T_tokens_fail": 13
     },
     "862": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 31,
-        "T_tokens": 33,
+        "T_tokens": 30,
         "C_tokens_fail": 15,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "863": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 20,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "864": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 20,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "865": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "866": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 38,
-        "T_tokens": 14,
+        "T_tokens": 11,
         "C_tokens_fail": 12,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "867": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 72,
-        "T_tokens": 13,
-        "C_tokens_fail": 34,
-        "T_tokens_fail": 5
+        "C_tokens": 35,
+        "T_tokens": 10,
+        "C_tokens_fail": 12,
+        "T_tokens_fail": 2
     },
     "868": {
         "project": "commons-configuration2-2.8.0-src",
@@ -6978,9 +6978,9 @@
     "872": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 40,
         "T_tokens": 41,
-        "C_tokens_fail": 12,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 19
     },
     "873": {
@@ -7011,9 +7011,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 43,
-        "T_tokens": 15,
+        "T_tokens": 12,
         "C_tokens_fail": 20,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "877": {
         "project": "commons-configuration2-2.8.0-src",
@@ -7058,9 +7058,9 @@
     "882": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 86,
+        "C_tokens": 70,
         "T_tokens": 11,
-        "C_tokens_fail": 23,
+        "C_tokens_fail": 17,
         "T_tokens_fail": 1
     },
     "883": {
@@ -7098,9 +7098,9 @@
     "887": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 40,
         "T_tokens": 41,
-        "C_tokens_fail": 12,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 19
     },
     "888": {
@@ -7170,65 +7170,65 @@
     "896": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 80,
+        "C_tokens": 66,
         "T_tokens": 12,
-        "C_tokens_fail": 23,
+        "C_tokens_fail": 16,
         "T_tokens_fail": 3
     },
     "897": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 40,
         "T_tokens": 15,
-        "C_tokens_fail": 12,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 3
     },
     "898": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 40,
         "T_tokens": 19,
-        "C_tokens_fail": 12,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 5
     },
     "899": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 40,
         "T_tokens": 12,
-        "C_tokens_fail": 12,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 2
     },
     "900": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 40,
         "T_tokens": 13,
-        "C_tokens_fail": 12,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 3
     },
     "901": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 32,
+        "C_tokens": 28,
         "T_tokens": 28,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 9,
         "T_tokens_fail": 15
     },
     "902": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 32,
+        "C_tokens": 28,
         "T_tokens": 28,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 9,
         "T_tokens_fail": 15
     },
     "903": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 40,
         "T_tokens": 28,
-        "C_tokens_fail": 12,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 15
     },
     "904": {
@@ -7242,17 +7242,17 @@
     "905": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 40,
         "T_tokens": 21,
-        "C_tokens_fail": 12,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 10
     },
     "906": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 32,
+        "C_tokens": 28,
         "T_tokens": 21,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 9,
         "T_tokens_fail": 10
     },
     "907": {
@@ -7266,9 +7266,9 @@
     "908": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 32,
+        "C_tokens": 28,
         "T_tokens": 37,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 9,
         "T_tokens_fail": 17
     },
     "909": {
@@ -7282,25 +7282,25 @@
     "910": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 32,
+        "C_tokens": 28,
         "T_tokens": 41,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 9,
         "T_tokens_fail": 20
     },
     "911": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 43,
+        "C_tokens": 40,
         "T_tokens": 41,
-        "C_tokens_fail": 12,
+        "C_tokens_fail": 11,
         "T_tokens_fail": 20
     },
     "912": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 32,
+        "C_tokens": 28,
         "T_tokens": 41,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 9,
         "T_tokens_fail": 20
     },
     "913": {
@@ -7322,17 +7322,17 @@
     "915": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 72,
+        "C_tokens": 35,
         "T_tokens": 12,
-        "C_tokens_fail": 34,
+        "C_tokens_fail": 12,
         "T_tokens_fail": 3
     },
     "916": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 32,
+        "C_tokens": 28,
         "T_tokens": 20,
-        "C_tokens_fail": 13,
+        "C_tokens_fail": 9,
         "T_tokens_fail": 8
     },
     "917": {
@@ -7531,17 +7531,17 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 11,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "942": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 11,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "943": {
         "project": "commons-configuration2-2.8.0-src",
@@ -7659,9 +7659,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 8,
-        "T_tokens": 16,
+        "T_tokens": 13,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "958": {
         "project": "commons-configuration2-2.8.0-src",
@@ -7707,9 +7707,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 23,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 14,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "964": {
         "project": "commons-configuration2-2.8.0-src",
@@ -7755,9 +7755,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 23,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 14,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "970": {
         "project": "commons-configuration2-2.8.0-src",
@@ -7794,9 +7794,9 @@
     "974": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 76,
+        "C_tokens": 44,
         "T_tokens": 17,
-        "C_tokens_fail": 21,
+        "C_tokens_fail": 9,
         "T_tokens_fail": 5
     },
     "975": {
@@ -7835,25 +7835,25 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 17,
-        "T_tokens": 31,
+        "T_tokens": 28,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "980": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "981": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 11,
-        "T_tokens": 32,
+        "T_tokens": 29,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 21
+        "T_tokens_fail": 18
     },
     "982": {
         "project": "commons-configuration2-2.8.0-src",
@@ -7947,32 +7947,32 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 42,
-        "T_tokens": 33,
+        "T_tokens": 30,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 22
+        "T_tokens_fail": 19
     },
     "994": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 42,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "995": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 76,
+        "C_tokens": 44,
         "T_tokens": 17,
-        "C_tokens_fail": 21,
+        "C_tokens_fail": 9,
         "T_tokens_fail": 6
     },
     "996": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 76,
+        "C_tokens": 44,
         "T_tokens": 17,
-        "C_tokens_fail": 21,
+        "C_tokens_fail": 9,
         "T_tokens_fail": 6
     },
     "997": {
@@ -8003,9 +8003,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 29,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "1001": {
         "project": "commons-configuration2-2.8.0-src",
@@ -8035,9 +8035,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 88,
-        "T_tokens": 57,
+        "T_tokens": 54,
         "C_tokens_fail": 16,
-        "T_tokens_fail": 33
+        "T_tokens_fail": 30
     },
     "1005": {
         "project": "commons-configuration2-2.8.0-src",
@@ -8099,9 +8099,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 11,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "1013": {
         "project": "commons-configuration2-2.8.0-src",
@@ -8155,9 +8155,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 9,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "1020": {
         "project": "commons-configuration2-2.8.0-src",
@@ -8203,9 +8203,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 11,
-        "T_tokens": 13,
+        "T_tokens": 10,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 5
+        "T_tokens_fail": 2
     },
     "1026": {
         "project": "commons-configuration2-2.8.0-src",
@@ -8283,9 +8283,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 11,
-        "T_tokens": 12,
+        "T_tokens": 9,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 4
+        "T_tokens_fail": 1
     },
     "1036": {
         "project": "commons-configuration2-2.8.0-src",
@@ -8307,9 +8307,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 13,
-        "T_tokens": 99,
+        "T_tokens": 96,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 59
+        "T_tokens_fail": 56
     },
     "1039": {
         "project": "commons-configuration2-2.8.0-src",
@@ -8395,9 +8395,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 29,
-        "T_tokens": 63,
+        "T_tokens": 60,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 42
+        "T_tokens_fail": 39
     },
     "1050": {
         "project": "commons-configuration2-2.8.0-src",
@@ -8450,10 +8450,10 @@
     "1056": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 80,
-        "T_tokens": 81,
-        "C_tokens_fail": 28,
-        "T_tokens_fail": 52
+        "C_tokens": 72,
+        "T_tokens": 78,
+        "C_tokens_fail": 21,
+        "T_tokens_fail": 49
     },
     "1057": {
         "project": "commons-configuration2-2.8.0-src",
@@ -8467,17 +8467,17 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 7,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "1059": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 32,
-        "T_tokens": 48,
+        "T_tokens": 45,
         "C_tokens_fail": 11,
-        "T_tokens_fail": 29
+        "T_tokens_fail": 26
     },
     "1060": {
         "project": "commons-configuration2-2.8.0-src",
@@ -8578,9 +8578,9 @@
     "1072": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 80,
+        "C_tokens": 72,
         "T_tokens": 58,
-        "C_tokens_fail": 28,
+        "C_tokens_fail": 21,
         "T_tokens_fail": 33
     },
     "1073": {
@@ -8635,17 +8635,17 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 23,
-        "T_tokens": 141,
+        "T_tokens": 138,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 84
+        "T_tokens_fail": 81
     },
     "1080": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 22,
-        "T_tokens": 36,
+        "T_tokens": 33,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 20
+        "T_tokens_fail": 17
     },
     "1081": {
         "project": "commons-configuration2-2.8.0-src",
@@ -8659,9 +8659,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 41,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1083": {
         "project": "commons-configuration2-2.8.0-src",
@@ -8683,41 +8683,41 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 41,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1086": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 30,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 9,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1087": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 41,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 5,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1088": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 28,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1089": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 28,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1090": {
         "project": "commons-configuration2-2.8.0-src",
@@ -8755,17 +8755,17 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 30,
-        "T_tokens": 61,
+        "T_tokens": 58,
         "C_tokens_fail": 9,
-        "T_tokens_fail": 37
+        "T_tokens_fail": 34
     },
     "1095": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 41,
-        "T_tokens": 59,
+        "T_tokens": 56,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 36
+        "T_tokens_fail": 33
     },
     "1096": {
         "project": "commons-configuration2-2.8.0-src",
@@ -8787,9 +8787,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 28,
-        "T_tokens": 21,
+        "T_tokens": 18,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1099": {
         "project": "commons-configuration2-2.8.0-src",
@@ -8867,33 +8867,33 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 33,
-        "T_tokens": 31,
+        "T_tokens": 28,
         "C_tokens_fail": 14,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "1109": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 33,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 14,
-        "T_tokens_fail": 10
+        "T_tokens_fail": 7
     },
     "1110": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 6,
-        "T_tokens": 18,
+        "T_tokens": 15,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 8
+        "T_tokens_fail": 5
     },
     "1111": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 17,
-        "T_tokens": 22,
+        "T_tokens": 19,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 11
+        "T_tokens_fail": 8
     },
     "1112": {
         "project": "commons-configuration2-2.8.0-src",
@@ -8907,9 +8907,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 23,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 6,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "1114": {
         "project": "commons-configuration2-2.8.0-src",
@@ -9067,9 +9067,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 16,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 12
+        "T_tokens_fail": 9
     },
     "1134": {
         "project": "commons-configuration2-2.8.0-src",
@@ -9275,17 +9275,17 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 18,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 9,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "1160": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 14,
-        "T_tokens": 26,
+        "T_tokens": 23,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "1161": {
         "project": "commons-configuration2-2.8.0-src",
@@ -9331,17 +9331,17 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 14,
-        "T_tokens": 50,
+        "T_tokens": 47,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 29
+        "T_tokens_fail": 26
     },
     "1167": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 14,
-        "T_tokens": 25,
+        "T_tokens": 22,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "1168": {
         "project": "commons-configuration2-2.8.0-src",
@@ -9363,33 +9363,33 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 32,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "1171": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 78,
+        "C_tokens": 68,
         "T_tokens": 39,
-        "C_tokens_fail": 30,
+        "C_tokens_fail": 26,
         "T_tokens_fail": 20
     },
     "1172": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 78,
+        "C_tokens": 68,
         "T_tokens": 40,
-        "C_tokens_fail": 30,
+        "C_tokens_fail": 26,
         "T_tokens_fail": 21
     },
     "1173": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 35,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 12,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "1174": {
         "project": "commons-configuration2-2.8.0-src",
@@ -9419,9 +9419,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 18,
-        "T_tokens": 17,
+        "T_tokens": 14,
         "C_tokens_fail": 9,
-        "T_tokens_fail": 7
+        "T_tokens_fail": 4
     },
     "1178": {
         "project": "commons-configuration2-2.8.0-src",
@@ -9435,9 +9435,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 14,
-        "T_tokens": 24,
+        "T_tokens": 21,
         "C_tokens_fail": 7,
-        "T_tokens_fail": 13
+        "T_tokens_fail": 10
     },
     "1180": {
         "project": "commons-configuration2-2.8.0-src",
@@ -9467,9 +9467,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 35,
-        "T_tokens": 56,
+        "T_tokens": 53,
         "C_tokens_fail": 12,
-        "T_tokens_fail": 34
+        "T_tokens_fail": 31
     },
     "1184": {
         "project": "commons-configuration2-2.8.0-src",
@@ -9523,9 +9523,9 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 17,
-        "T_tokens": 43,
+        "T_tokens": 40,
         "C_tokens_fail": 9,
-        "T_tokens_fail": 21
+        "T_tokens_fail": 18
     },
     "1191": {
         "project": "commons-configuration2-2.8.0-src",
@@ -9611,41 +9611,41 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 15,
-        "T_tokens": 27,
+        "T_tokens": 24,
         "C_tokens_fail": 8,
-        "T_tokens_fail": 14
+        "T_tokens_fail": 11
     },
     "1202": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 43,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "1203": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 43,
-        "T_tokens": 55,
+        "T_tokens": 52,
         "C_tokens_fail": 10,
-        "T_tokens_fail": 35
+        "T_tokens_fail": 32
     },
     "1204": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 61,
-        "T_tokens": 39,
+        "T_tokens": 36,
         "C_tokens_fail": 18,
-        "T_tokens_fail": 23
+        "T_tokens_fail": 20
     },
     "1205": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 61,
-        "T_tokens": 28,
+        "T_tokens": 25,
         "C_tokens_fail": 18,
-        "T_tokens_fail": 15
+        "T_tokens_fail": 12
     },
     "1206": {
         "project": "commons-configuration2-2.8.0-src",
@@ -9698,33 +9698,33 @@
     "1212": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 47,
+        "C_tokens": 45,
         "T_tokens": 49,
-        "C_tokens_fail": 16,
+        "C_tokens_fail": 14,
         "T_tokens_fail": 24
     },
     "1213": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 47,
+        "C_tokens": 45,
         "T_tokens": 50,
-        "C_tokens_fail": 16,
+        "C_tokens_fail": 14,
         "T_tokens_fail": 24
     },
     "1214": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 47,
+        "C_tokens": 45,
         "T_tokens": 50,
-        "C_tokens_fail": 16,
+        "C_tokens_fail": 14,
         "T_tokens_fail": 24
     },
     "1215": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 47,
+        "C_tokens": 45,
         "T_tokens": 28,
-        "C_tokens_fail": 16,
+        "C_tokens_fail": 14,
         "T_tokens_fail": 12
     },
     "1216": {
@@ -9811,65 +9811,65 @@
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 6,
-        "T_tokens": 58,
+        "T_tokens": 55,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 32
+        "T_tokens_fail": 29
     },
     "1227": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 6,
-        "T_tokens": 57,
+        "T_tokens": 54,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 32
+        "T_tokens_fail": 29
     },
     "1228": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 6,
-        "T_tokens": 33,
+        "T_tokens": 30,
         "C_tokens_fail": 2,
-        "T_tokens_fail": 19
+        "T_tokens_fail": 16
     },
     "1229": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 47,
-        "T_tokens": 28,
-        "C_tokens_fail": 16,
-        "T_tokens_fail": 14
+        "C_tokens": 45,
+        "T_tokens": 25,
+        "C_tokens_fail": 14,
+        "T_tokens_fail": 11
     },
     "1230": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 18,
-        "T_tokens": 47,
+        "T_tokens": 44,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 26
+        "T_tokens_fail": 23
     },
     "1231": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 18,
-        "T_tokens": 32,
+        "T_tokens": 29,
         "C_tokens_fail": 3,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "1232": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 18,
-        "T_tokens": 57,
+        "T_tokens": 54,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 33
+        "T_tokens_fail": 30
     },
     "1233": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
         "C_tokens": 18,
-        "T_tokens": 32,
+        "T_tokens": 29,
         "C_tokens_fail": 4,
-        "T_tokens_fail": 17
+        "T_tokens_fail": 14
     },
     "1234": {
         "project": "commons-configuration2-2.8.0-src",
@@ -9898,10 +9898,10 @@
     "1237": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "F",
-        "C_tokens": 47,
-        "T_tokens": 48,
-        "C_tokens_fail": 16,
-        "T_tokens_fail": 27
+        "C_tokens": 45,
+        "T_tokens": 45,
+        "C_tokens_fail": 14,
+        "T_tokens_fail": 24
     },
     "1238": {
         "project": "commons-configuration2-2.8.0-src",
@@ -9914,17 +9914,17 @@
     "1239": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 47,
+        "C_tokens": 45,
         "T_tokens": 28,
-        "C_tokens_fail": 16,
+        "C_tokens_fail": 14,
         "T_tokens_fail": 13
     },
     "1240": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 47,
+        "C_tokens": 45,
         "T_tokens": 33,
-        "C_tokens_fail": 16,
+        "C_tokens_fail": 14,
         "T_tokens_fail": 17
     },
     "1241": {
@@ -9938,9 +9938,9 @@
     "1242": {
         "project": "commons-configuration2-2.8.0-src",
         "label": "P",
-        "C_tokens": 47,
+        "C_tokens": 45,
         "T_tokens": 23,
-        "C_tokens_fail": 16,
+        "C_tokens_fail": 14,
         "T_tokens_fail": 10
     },
     "1243": {

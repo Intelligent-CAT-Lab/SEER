@@ -1686,7 +1686,7 @@ Predicted Label,Actual Label
 1,1
 0,1
 0,1
-1,1
+0,1
 0,1
 0,1
 0,1
@@ -2507,12 +2507,12 @@ Predicted Label,Actual Label
 1,1
 1,1
 1,1
+1,0
+1,1
+1,1
 0,0
 1,1
 1,1
-0,0
-1,1
-1,1
 1,1
 1,1
 1,1
@@ -2829,7 +2829,7 @@ Predicted Label,Actual Label
 1,1
 1,1
 1,1
-0,0
+1,0
 1,0
 1,1
 1,1
