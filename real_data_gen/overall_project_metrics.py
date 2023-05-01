@@ -11,6 +11,10 @@ calc_f1 = (
     if (2 * df["tp"] + df["fp"] + df["fn"]) > 0
     else 0
 )
+
+calc_precision = lambda df: np.round(df["tp"] / (df["tp"] + df["fp"]), 2) if (df["tp"] + df["fp"]) > 0 else 0
+calc_recall = lambda df: np.round(df["tp"] / (df["tp"] + df["fn"]), 2) if (df["tp"] + df["fn"]) > 0 else 0
+
 calc_pass_accuracy = lambda df: np.round((df["tp"]) / (df["tp"] + df["fn"]), 4) if (df["tp"] + df["fn"]) > 0 else 0
 calc_fail_accuracy = lambda df: np.round((df["tn"]) / (df["tn"] + df["fp"]), 4) if (df["tn"] + df["fp"]) > 0 else 0
 calc_accuracy = lambda df: np.round((df["tp"] + df["tn"]) / df["N"], 4) if df["N"] > 0 else 0
@@ -77,10 +81,6 @@ def run_coin_flip_test(project_data, pass_rate):
     return average_coin_accuracy, average_coin_f1
 
 
-# Intaking data
-# projects = sys.argv[1].split(sep='*')
-# projects = '*'.join(projects).split(sep='*')
-
 
 def generate_vocab_data(temp, threshold, project):
     columns_vocab_summary = [
@@ -110,11 +110,6 @@ def generate_vocab_data(temp, threshold, project):
     out_vocab_C_ratio = np.round(total_C_fail / total_C_tokens, 2)
     out_vocab_T_ratio = np.round(total_T_fail / total_T_tokens, 2)
     out_vocab_combined_ratio = np.round((total_T_fail + total_C_fail) / (total_C_tokens + total_T_tokens), 2)
-    # print(f'Error with {project}')
-    # print(f'total_C_tokens: {total_C_tokens}')
-    # print(f'total_T_tokens: {total_T_tokens}')
-    # print(f'total_T_fail: {total_T_fail}')
-    # print(f'total_C_fail: {total_C_fail}')
 
     data = [
         project,
@@ -167,6 +162,8 @@ def generate_results_data(project, path, valid_ind, coin_acc=None, coin_f1=None)
 
     # Dataset stats
     results_project["accuracy"] = calc_accuracy(results_project)
+    results_project["precision"] = calc_precision(results_project)
+    results_project["recall"] = calc_recall(results_project)
     results_project["f1"] = calc_f1(results_project)
     results_project["pass_accuracy"] = calc_pass_accuracy(results_project)
     results_project["fail_accuracy"] = calc_fail_accuracy(results_project)
@@ -194,7 +191,6 @@ def calculate_overall_metrics(projects, comment_types=["no_comments", "comments"
         path = f"./real_data_gen/fold0/{comment_type}"
 
         # Vocab analysis
-        print("Creating final results for each threshold value...")
         vocab = pd.read_json(f"{path}/out-of-vocab.json", orient="index")
         vocab["out_vocab_ratio"] = np.round(
             (vocab["C_tokens_fail"] + vocab["T_tokens_fail"]) / (vocab["C_tokens"] + vocab["T_tokens"]),
@@ -211,12 +207,12 @@ def calculate_overall_metrics(projects, comment_types=["no_comments", "comments"
             "out_vocab_combined_ratio",
         ]
 
-        for threshold in tqdm(thresholds):
+        for threshold in tqdm(thresholds, desc="Results by Threshold"):
             threshold_string = "{:.2f}".format(threshold).replace(".", "")[1:] if threshold != 1.0 else "all"
             # Initialize data objects
             vocab_summary = pd.DataFrame(columns=columns_vocab_summary)
             results_dict = {}
-            for project in tqdm(projects, leave=False):
+            for project in tqdm(projects, desc="Projects", leave=False):
                 # Vocab analysis
                 temp_df, valid_ind = generate_vocab_data(vocab, threshold, project)
                 if temp_df is None:
@@ -276,6 +272,8 @@ def calculate_overall_metrics(projects, comment_types=["no_comments", "comments"
             sorting.loc["all", "tn"] = np.sum(sorting["tn"])
             sorting.loc["all", "fp"] = np.sum(sorting["fp"])
             sorting.loc["all", "accuracy"] = calc_accuracy(sorting.loc["all"])
+            sorting.loc["all", "precision"] = calc_precision(sorting.loc["all"])
+            sorting.loc["all", "recall"] = calc_recall(sorting.loc["all"])
             sorting.loc["all", "f1"] = calc_f1(sorting.loc["all"])
             sorting.loc["all", "pass_accuracy"] = calc_pass_accuracy(sorting.loc["all"])
             sorting.loc["all", "fail_accuracy"] = calc_fail_accuracy(sorting.loc["all"])

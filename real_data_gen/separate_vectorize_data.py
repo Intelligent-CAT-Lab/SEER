@@ -19,8 +19,7 @@ if __name__ == "__main__":
         df = pd.read_json(f"./real_data_gen/triplets/{comment_type}/triplets.json", orient="index")
         projects = list(df["project"].unique())
 
-        print(f"generating json and h5 files for all projects...")
-        for project in tqdm(projects):
+        for project in tqdm(projects, leave=False, desc="generating json and h5 files for all projects"):
             proj_data = df[df["project"] == project]
             proj_data.to_json(
                 f"./real_data_gen/triplets/{comment_type}/triplets_{project}.json",

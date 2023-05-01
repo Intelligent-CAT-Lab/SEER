@@ -28,7 +28,7 @@ def apply_regex(df):
     r_except = r"catch\([^}]*\s*}"
     try_except_regex = [r_try, r_fail, r_except]
 
-    for regex in tqdm(try_except_regex):
+    for regex in try_except_regex:
         temp_df["label"] = temp_df.apply(
             lambda row: "F" if (re.search(regex, row["T"]) != None) else row["label"],
             axis=1,
@@ -45,8 +45,7 @@ df = pd.DataFrame(columns=colnames)
 folder_names = os.listdir(folder_dir)
 
 # Read project data
-print("Reading project data...")
-for project in tqdm(folder_names):
+for project in tqdm(folder_names, desc="Reading project data"):
     project_path = os.path.join(folder_dir, project)
     temp_df = pd.read_csv(project_path + "/inputs.csv")
     temp_df.columns = ["C", "T", "docstring"]
@@ -60,9 +59,9 @@ df["label"] = "P"
 df = df.drop("docstring", axis=1)
 df["T"] = df.apply(lambda row: re.sub(r"\s*assert.*", "", row["T"]), axis=1)
 
-print("Cleaning text (0/6)...")
+print("Cleaning text (0/8)...")
 df_comments = clean_text(df, remove_comments=False)
-print("Cleaning text (2/6)...")
+print("Cleaning text (2/8)...")
 df_no_comments = clean_text(df, remove_comments=True)
 
 # REGEX

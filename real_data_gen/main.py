@@ -18,8 +18,8 @@ if __name__ == "__main__":
             print(f"generating results for all projects...")
             df = pd.read_json(f"./real_data_gen/triplets/no_comments/triplets.json", orient="index")
             projects = list(df["project"].unique())
-            for comment_type in comment_types:
-                for project in tqdm(projects):
+            for comment_type in tqdm(comment_types, desc="Testing each comment type's projects"):
+                for project in projects:
                     os.system(f"python3 ./learning/test.py --project {project} --comment_type {comment_type}")
                     generate_results(result_path=f"./real_data_gen/fold0/{comment_type}/{project}/")
                 combine_project_data(projects=projects, comment_type=comment_type)
