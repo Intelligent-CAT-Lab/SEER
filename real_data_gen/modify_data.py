@@ -7,16 +7,18 @@ tqdm.pandas()
 
 
 def clean_text(df, remove_comments=True):
-    temp_df = df.copy()
+    temp = df.copy()
     for col in ["C", "T"]:
-        temp_df[col] = temp_df[col].astype(str)
-        # Remove comments
+        temp[col] = temp[col].astype(str)
         if remove_comments:
-            temp_df[col] = temp_df.progress_apply(lambda row: re.sub(r"\s*\/\/.*\n", "", row[col].strip()), axis=1)
+            # Remove single line comments
+            temp[col] = temp.progress_apply(lambda row: re.sub(r"\s*\/\/.*\n", "", row[col].strip()), axis=1)
+           # Remove multi-line comments
+            temp[col] = temp.progress_apply(lambda row: re.sub(r"\/\*\*.*\*\/", "", row[col]), axis=1)
         # Remove multiple spaces and line breaks
-        temp_df[col] = temp_df.progress_apply(lambda row: re.sub(r"\s\s*", " ", row[col].strip()), axis=1)
+        temp[col] = temp.progress_apply(lambda row: re.sub(r"\s\s*", " ", row[col].strip()), axis=1)
 
-    return temp_df
+    return temp
 
 
 def apply_regex(df):
