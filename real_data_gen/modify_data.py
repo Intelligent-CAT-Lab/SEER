@@ -7,31 +7,33 @@ tqdm.pandas()
 
 
 def clean_text(df, remove_comments=True):
+    temp_df = df.copy()
     for col in ["C", "T"]:
-        df[col] = df[col].astype(str)
+        temp_df[col] = temp_df[col].astype(str)
         # Remove comments
         if remove_comments:
-            df[col] = df.progress_apply(lambda row: re.sub(r"\s*\/\/.*\n", "", row[col].strip()), axis=1)
+            temp_df[col] = temp_df.progress_apply(lambda row: re.sub(r"\s*\/\/.*\n", "", row[col].strip()), axis=1)
         # Remove multiple spaces and line breaks
-        df[col] = df.progress_apply(lambda row: re.sub(r"\s\s*", " ", row[col].strip()), axis=1)
+        temp_df[col] = temp_df.progress_apply(lambda row: re.sub(r"\s\s*", " ", row[col].strip()), axis=1)
 
-    return df
+    return temp_df
 
 
 def apply_regex(df):
+    temp_df = df.copy()
     r_try = r"try\s*{"
     r_fail = r"fail\([^;]*;\s*}"
     r_except = r"catch\([^}]*\s*}"
     try_except_regex = [r_try, r_fail, r_except]
 
     for regex in tqdm(try_except_regex):
-        df["label"] = df.apply(
+        temp_df["label"] = temp_df.apply(
             lambda row: "F" if (re.search(regex, row["T"]) != None) else row["label"],
             axis=1,
         )
-        df["T"] = df.apply(lambda row: re.sub(regex, "", row["T"]), axis=1)
+        temp_df["T"] = temp_df.apply(lambda row: re.sub(regex, "", row["T"]), axis=1)
 
-    return df
+    return temp_df
 
 
 folder_dir = "./toga_star"
