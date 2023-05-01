@@ -133,7 +133,7 @@ def generate_vocab_data(temp, threshold, project):
     return temp_df, valid_ind
 
 
-def generate_results_data(project, path, valid_ind):
+def generate_results_data(project, path, valid_ind, coin_acc=None, coin_f1=None):
     results_project = {}
     project_data = pd.read_csv(f"{path}/{project}/test_stats.csv")
     project_data = project_data.reindex(valid_ind).reset_index(drop=True)
@@ -175,115 +175,124 @@ def generate_results_data(project, path, valid_ind):
     results_project["fail_rate"] = calc_fail_rate(results_project)
 
     # Coin flip test
-    results_project["coin_accuracy"], results_project["coin_f1"] = run_coin_flip_test(
-        project_data, results_project["pass_rate"]
-    )
-    results_project["accuracy_improvement"] = np.round(
-        results_project["accuracy"] - results_project["coin_accuracy"], 4
-    )
+    if (coin_acc == None):
+        results_project["coin_accuracy"], results_project["coin_f1"] = run_coin_flip_test(project_data, results_project["pass_rate"])
+        results_project["accuracy_improvement"] = np.round(results_project["accuracy"] - results_project["coin_accuracy"], 4)
+        return results_project, results_project["coin_accuracy"], results_project["coin_f1"]
+    else:
+        results_project["coin_accuracy"], results_project["coin_f1"] = coin_acc, coin_f1
+        results_project["accuracy_improvement"] = np.round(results_project["accuracy"] - results_project["coin_accuracy"], 4)
+        return results_project, coin_acc, coin_f1
 
-    return results_project
 
+def calculate_overall_metrics(projects, comment_types=["no_comments", "comments", "added_comments"], thresholds=[1.0, 0.50, 0.25, 0.10, 0.05]):
 
-def calculate_overall_metrics(projects, comment_type="no_comments", thresholds=[1.0, 0.50, 0.25, 0.10, 0.05]):
+    coin_acc_dict = {}
+    coin_f1_dict = {}
 
-    path = f"./real_data_gen/fold0/{comment_type}"
+    for comment_type in comment_types:
+        path = f"./real_data_gen/fold0/{comment_type}"
 
-    # Vocab analysis
-    print("Creating final results for each threshold value...")
-    vocab = pd.read_json(f"{path}/out-of-vocab.json", orient="index")
-    vocab["out_vocab_ratio"] = np.round(
-        (vocab["C_tokens_fail"] + vocab["T_tokens_fail"]) / (vocab["C_tokens"] + vocab["T_tokens"]),
-        2,
-    )
-    columns_vocab_summary = [
-        "project",
-        "total_C_tokens",
-        "total_C_fail",
-        "out_vocab_C_ratio",
-        "total_T_tokens",
-        "total_T_fail",
-        "out_vocab_T_ratio",
-        "out_vocab_combined_ratio",
-    ]
-
-    for threshold in tqdm(thresholds):
-        threshold_string = "{:.2f}".format(threshold).replace(".", "")[1:] if threshold != 1.0 else "all"
-        # Initialize data objects
-        vocab_summary = pd.DataFrame(columns=columns_vocab_summary)
-        results_dict = {}
-        for project in tqdm(projects, leave=False):
-            # Vocab analysis
-            temp_df, valid_ind = generate_vocab_data(vocab, threshold, project)
-            if temp_df is None:
-                continue
-            vocab_summary = pd.concat([vocab_summary, temp_df], ignore_index=True)
-            # Results analysis
-            results_project = generate_results_data(project, path, valid_ind)
-            results_dict[project] = results_project
-
-        vocab_summary.loc["all", "project"] = "all"
-        vocab_summary.loc["all", "total_C_tokens"] = np.sum(vocab_summary["total_C_tokens"])
-        vocab_summary.loc["all", "total_C_fail"] = np.sum(vocab_summary["total_C_fail"])
-        vocab_summary.loc["all", "out_vocab_C_ratio"] = np.round(
-            vocab_summary.loc["all", "total_C_fail"] / vocab_summary.loc["all", "total_C_tokens"],
+        # Vocab analysis
+        print("Creating final results for each threshold value...")
+        vocab = pd.read_json(f"{path}/out-of-vocab.json", orient="index")
+        vocab["out_vocab_ratio"] = np.round(
+            (vocab["C_tokens_fail"] + vocab["T_tokens_fail"]) / (vocab["C_tokens"] + vocab["T_tokens"]),
             2,
         )
-        vocab_summary.loc["all", "total_T_tokens"] = np.sum(vocab_summary["total_T_tokens"])
-        vocab_summary.loc["all", "total_T_fail"] = np.sum(vocab_summary["total_T_fail"])
-        vocab_summary.loc["all", "out_vocab_T_ratio"] = np.round(
-            vocab_summary.loc["all", "total_T_fail"] / vocab_summary.loc["all", "total_T_tokens"],
-            2,
-        )
-        vocab_summary.loc["all", "out_vocab_combined_ratio"] = np.round(
-            (vocab_summary.loc["all", "total_T_fail"] + vocab_summary.loc["all", "total_C_fail"])
-            / (vocab_summary.loc["all", "total_C_tokens"] + vocab_summary.loc["all", "total_T_tokens"]),
-            2,
-        )
+        columns_vocab_summary = [
+            "project",
+            "total_C_tokens",
+            "total_C_fail",
+            "out_vocab_C_ratio",
+            "total_T_tokens",
+            "total_T_fail",
+            "out_vocab_T_ratio",
+            "out_vocab_combined_ratio",
+        ]
 
-        sorting = pd.DataFrame(results_dict).T
-        sorting.index.name = "project"
-        sorting = (
-            sorting.reset_index()
-            .merge(
-                vocab_summary[
-                    [
-                        "project",
-                        "out_vocab_C_ratio",
-                        "out_vocab_T_ratio",
-                        "out_vocab_combined_ratio",
-                    ]
-                ],
-                left_on="project",
-                right_on="project",
-                how="outer",
+        for threshold in tqdm(thresholds):
+            threshold_string = "{:.2f}".format(threshold).replace(".", "")[1:] if threshold != 1.0 else "all"
+            # Initialize data objects
+            vocab_summary = pd.DataFrame(columns=columns_vocab_summary)
+            results_dict = {}
+            for project in tqdm(projects, leave=False):
+                # Vocab analysis
+                temp_df, valid_ind = generate_vocab_data(vocab, threshold, project)
+                if temp_df is None:
+                    continue
+                vocab_summary = pd.concat([vocab_summary, temp_df], ignore_index=True)
+                # Results analysis
+                if (project in coin_acc_dict):
+                    results_project, _, _ = generate_results_data(project, path, valid_ind, coin_acc=coin_acc_dict[project], coin_f1=coin_f1_dict[project])
+                else:
+                    results_project, coin_acc_dict[project], coin_f1_dict[project] = generate_results_data(project, path, valid_ind)
+                results_dict[project] = results_project
+
+            vocab_summary.loc["all", "project"] = "all"
+            vocab_summary.loc["all", "total_C_tokens"] = np.sum(vocab_summary["total_C_tokens"])
+            vocab_summary.loc["all", "total_C_fail"] = np.sum(vocab_summary["total_C_fail"])
+            vocab_summary.loc["all", "out_vocab_C_ratio"] = np.round(
+                vocab_summary.loc["all", "total_C_fail"] / vocab_summary.loc["all", "total_C_tokens"],
+                2,
             )
-            .set_index("project")
-        )
-        sorting.sort_values(by=["accuracy_improvement"], ascending=False, inplace=True)
+            vocab_summary.loc["all", "total_T_tokens"] = np.sum(vocab_summary["total_T_tokens"])
+            vocab_summary.loc["all", "total_T_fail"] = np.sum(vocab_summary["total_T_fail"])
+            vocab_summary.loc["all", "out_vocab_T_ratio"] = np.round(
+                vocab_summary.loc["all", "total_T_fail"] / vocab_summary.loc["all", "total_T_tokens"],
+                2,
+            )
+            vocab_summary.loc["all", "out_vocab_combined_ratio"] = np.round(
+                (vocab_summary.loc["all", "total_T_fail"] + vocab_summary.loc["all", "total_C_fail"])
+                / (vocab_summary.loc["all", "total_C_tokens"] + vocab_summary.loc["all", "total_T_tokens"]),
+                2,
+            )
 
-        # Adding totals
-        sorting.loc["all", "N"] = np.sum(sorting["N"])
-        sorting.loc["all", "tp"] = np.sum(sorting["tp"])
-        sorting.loc["all", "fn"] = np.sum(sorting["fn"])
-        sorting.loc["all", "tn"] = np.sum(sorting["tn"])
-        sorting.loc["all", "fp"] = np.sum(sorting["fp"])
-        sorting.loc["all", "accuracy"] = calc_accuracy(sorting.loc["all"])
-        sorting.loc["all", "f1"] = calc_f1(sorting.loc["all"])
-        sorting.loc["all", "pass_accuracy"] = calc_pass_accuracy(sorting.loc["all"])
-        sorting.loc["all", "fail_accuracy"] = calc_fail_accuracy(sorting.loc["all"])
-        sorting.loc["all", "pass_rate"] = calc_pass_rate(sorting.loc["all"])
-        sorting.loc["all", "fail_rate"] = calc_fail_rate(sorting.loc["all"])
+            sorting = pd.DataFrame(results_dict).T
+            sorting.index.name = "project"
+            sorting = (
+                sorting.reset_index()
+                .merge(
+                    vocab_summary[
+                        [
+                            "project",
+                            "out_vocab_C_ratio",
+                            "out_vocab_T_ratio",
+                            "out_vocab_combined_ratio",
+                        ]
+                    ],
+                    left_on="project",
+                    right_on="project",
+                    how="outer",
+                )
+                .set_index("project")
+            )
+            sorting.sort_values(by=["accuracy_improvement"], ascending=False, inplace=True)
 
-        overall_results_df = pd.read_csv(f"{path}/test_stats.csv")
-        (
-            sorting.loc["all", "coin_accuracy"],
-            sorting.loc["all", "coin_f1"],
-        ) = run_coin_flip_test(overall_results_df, sorting.loc["all", "pass_rate"])
-        sorting.loc["all", "accuracy_improvement"] = np.round(
-            sorting.loc["all", "accuracy"] - sorting.loc["all", "coin_accuracy"], 4
-        )
+            # Adding totals
+            sorting.loc["all", "N"] = np.sum(sorting["N"])
+            sorting.loc["all", "tp"] = np.sum(sorting["tp"])
+            sorting.loc["all", "fn"] = np.sum(sorting["fn"])
+            sorting.loc["all", "tn"] = np.sum(sorting["tn"])
+            sorting.loc["all", "fp"] = np.sum(sorting["fp"])
+            sorting.loc["all", "accuracy"] = calc_accuracy(sorting.loc["all"])
+            sorting.loc["all", "f1"] = calc_f1(sorting.loc["all"])
+            sorting.loc["all", "pass_accuracy"] = calc_pass_accuracy(sorting.loc["all"])
+            sorting.loc["all", "fail_accuracy"] = calc_fail_accuracy(sorting.loc["all"])
+            sorting.loc["all", "pass_rate"] = calc_pass_rate(sorting.loc["all"])
+            sorting.loc["all", "fail_rate"] = calc_fail_rate(sorting.loc["all"])
 
-        sorting = sorting.astype({"fn": "int32", "tn": "int32", "fp": "int32", "tp": "int32", "N": "int32"})
+            overall_results_df = pd.read_csv(f"{path}/test_stats.csv")
 
-        sorting.to_csv(f"{path}/project_stats_{threshold_string}.csv")
+            if (not 'all' in coin_acc_dict):
+                coin_acc_dict['all'], coin_f1_dict['all'] = run_coin_flip_test(overall_results_df, sorting.loc["all", "pass_rate"])
+
+            (sorting.loc["all", "coin_accuracy"], sorting.loc["all", "coin_f1"]) = coin_acc_dict["all"], coin_f1_dict['all']
+
+            sorting.loc["all", "accuracy_improvement"] = np.round(
+                sorting.loc["all", "accuracy"] - sorting.loc["all", "coin_accuracy"], 4
+            )
+
+            sorting = sorting.astype({"fn": "int32", "tn": "int32", "fp": "int32", "tp": "int32", "N": "int32"})
+
+            sorting.to_csv(f"{path}/project_stats_{threshold_string}.csv")
