@@ -1,0 +1,17 @@
+23058
+Test: public void test4854() throws Throwable { MockFile mockFile0 = new MockFile(""); URL uRL0 = mockFile0.toURL(); boolean boolean0 = mockFile0.createNewFile(); HttpRequest httpRequest0 = HttpRequest.options(uRL0); String[] stringArray0 = new String[8]; stringArray0[0] = "application/json"; stringArray0[1] = "application/x-www-form-urlencoded"; stringArray0[2] = "Referer"; stringArray0[3] = "PUT"; stringArray0[4] = ""; stringArray0[5] = "Accept-Encoding"; stringArray0[6] = "charset"; stringArray0[7] = "Date"; HttpRequest.nonProxyHosts(stringArray0); int int0 = (-841); HttpRequest httpRequest1 = httpRequest0.useProxy("5.`CVjVH^*C", (-841)); }
+Code: public long lastModified() { return dateHeader(HEADER_LAST_MODIFIED); }
+[[0.12148555 0.20424494 0.16852465 0.15436742 0.13275853 0.16852465
+ 0.05009425]
+[0.08937816 0.18935612 0.16976109 0.20056717 0.13272798 0.16976109
+ 0.04844842]
+[0.10579712 0.18451387 0.1759206  0.17136613 0.12850443 0.1759206
+ 0.05797723]
+[0.11700331 0.18760449 0.15398204 0.1865422  0.13486078 0.15398204
+ 0.06602519]
+[0.08509159 0.2405524  0.17219248 0.16111262 0.12443957 0.17219248
+ 0.04441886]
+[0.10579712 0.18451387 0.1759206  0.17136613 0.12850443 0.1759206
+ 0.05797723]
+[0.08723067 0.14155754 0.1659379  0.20797083 0.18582976 0.16593789
+ 0.04553541]]

@@ -1,0 +1,17 @@
+84094
+Test: public void test44() throws Throwable { byte[] byteArray0 = new byte[5]; byteArray0[0] = (byte)45; byteArray0[1] = (byte) (-79); byteArray0[2] = (byte)125; byteArray0[3] = (byte)0; byteArray0[4] = (byte)20; CodeException[] codeExceptionArray0 = new CodeException[7]; CodeException codeException0 = new CodeException((byte)45, 50, (byte)20, (byte)20); codeExceptionArray0[0] = codeException0; CodeException codeException1 = new CodeException((-3973), 0, 16384, 0); codeExceptionArray0[1] = codeException1; CodeException codeException2 = new CodeException(0, (byte) (-79), (-1), (byte) (-79)); codeExceptionArray0[2] = codeException2; CodeException codeException3 = new CodeException(codeException0); codeExceptionArray0[3] = codeException3; CodeException codeException4 = new CodeException(0, (byte)45, (-384), (-3973)); codeExceptionArray0[4] = codeException4; CodeException codeException5 = new CodeException(codeException3); codeExceptionArray0[5] = codeException5; CodeException codeException6 = new CodeException((byte)125, 50, 947, 0); codeExceptionArray0[6] = codeException6; Attribute[] attributeArray0 = new Attribute[0]; Code code0 = new Code(100, 50, 100, 50, byteArray0, codeExceptionArray0, attributeArray0, (ConstantPool) null); Code code1 = new Code(code0); code1.getCode(); }
+Code: public byte[] getCode() { return code; }
+[[0.11916273 0.17508359 0.16530271 0.15167536 0.13025221 0.20933014
+ 0.04919321]
+[0.11723331 0.14988536 0.1573268  0.1435266  0.16050647 0.2290014
+ 0.0425201 ]
+[0.10028201 0.17426947 0.16896224 0.15020272 0.12148285 0.23312308
+ 0.05167766]
+[0.12020745 0.1614457  0.16451749 0.17748348 0.14040534 0.17084229
+ 0.06509825]
+[0.08757101 0.16013992 0.18287764 0.15420617 0.13005629 0.24202636
+ 0.04312261]
+[0.09294847 0.17274474 0.15044713 0.20673023 0.12445086 0.21930707
+ 0.03337146]
+[0.08619153 0.10710445 0.16865048 0.17841089 0.17578745 0.24338491
+ 0.04047029]]

@@ -1,0 +1,17 @@
+894
+Test: public void test1252() throws Throwable { LinkedList<Locale.LanguageRange> linkedList0 = new LinkedList<Locale.LanguageRange>(); Locale locale0 = Locale.UK; Set<String> set0 = locale0.getUnicodeLocaleAttributes(); List<String> list0 = Locale.filterTags((List<Locale.LanguageRange>) linkedList0, (Collection<String>) set0); ImageInfo.ColorType imageInfo_ColorType0 = ImageInfo.ColorType.UNKNOWN; ImageInfo.CompressionAlgorithm imageInfo_CompressionAlgorithm0 = ImageInfo.CompressionAlgorithm.RLE; ImageInfo imageInfo0 = new ImageInfo("(", (-1570), list0, (ImageFormat) null, "?dTsI'lDG>|t9QKg2", (-280), "(", (-1570), 385, 0.0F, 0, 0, 385, true, true, true, imageInfo_ColorType0, imageInfo_CompressionAlgorithm0); ImageFormat imageFormat0 = imageInfo0.getFormat(); }
+Code: public ImageFormat getFormat() { return format; }
+[[0.13204479 0.18316832 0.15888749 0.16345309 0.14376262 0.1651831
+ 0.0535006 ]
+[0.12561491 0.21352527 0.13707562 0.17775086 0.15189712 0.13218962
+ 0.06194665]
+[0.1277096  0.21329558 0.1495032  0.17834346 0.15211567 0.12744735
+ 0.05158511]
+[0.13347737 0.18488875 0.12145526 0.19212145 0.15655246 0.1401766
+ 0.07132801]
+[0.10454387 0.2238219  0.1296062  0.17283823 0.15719518 0.1630276
+ 0.04896707]
+[0.09939978 0.19983304 0.13046327 0.22217394 0.20769152 0.10607657
+ 0.03436188]
+[0.10655546 0.20863314 0.11495195 0.21977355 0.21709144 0.08309433
+ 0.04990013]]

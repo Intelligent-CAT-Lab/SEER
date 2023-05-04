@@ -1,0 +1,2 @@
+90800
+Test: public void test132() throws Throwable { InstConstraintVisitor instConstraintVisitor0 = new InstConstraintVisitor(); CHECKCAST cHECKCAST0 = new CHECKCAST(24); // Undeclared exception!  instConstraintVisitor0.visitCHECKCAST(cHECKCAST0);   }

@@ -1,0 +1,19 @@
+67534
+Test: public void test08() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test08"); com.fasterxml.jackson.databind.type.PlaceholderForType placeholderForType1 = new com.fasterxml.jackson.databind.type.PlaceholderForType(0); java.lang.String str2 = placeholderForType1.buildCanonicalName(); boolean boolean3 = placeholderForType1.hasHandlers(); boolean boolean4 = placeholderForType1.isAbstract(); }
+Code: protected String buildCanonicalName(){StringBuilder sb = new StringBuilder();;sb.append('<');;return sb.toString();}
+[[0.13554797 0.13450441 0.16562478 0.07365932 0.08410645 0.05191388
+ 0.21030596 0.1443372 ]
+[0.13875695 0.13687526 0.16481392 0.07082909 0.084787   0.05549198
+ 0.18797837 0.16046743]
+[0.1517133  0.15472355 0.15406235 0.0780699  0.09659547 0.06000747
+ 0.16788244 0.13694552]
+[0.1546948  0.17229876 0.16154781 0.07184359 0.07808716 0.06150189
+ 0.17984578 0.12018019]
+[0.17674917 0.15299657 0.14111002 0.09172662 0.11779964 0.06390128
+ 0.12484355 0.13087314]
+[0.13913757 0.13868603 0.17710018 0.06954101 0.07786521 0.06066977
+ 0.17953491 0.15746525]
+[0.11248119 0.13127074 0.18147764 0.06091538 0.08637279 0.05541393
+ 0.22466649 0.14740181]
+[0.1623139  0.14171556 0.15841004 0.07774995 0.07867029 0.05907251
+ 0.17613079 0.14593694]]

@@ -1,0 +1,19 @@
+71730
+Test: public void test9285() throws Throwable { Stack<Float> stack0 = new Stack<Float>(); JSONArray jSONArray0 = new JSONArray((Iterable<?>) stack0); SQLSyntaxErrorException sQLSyntaxErrorException0 = new SQLSyntaxErrorException("You cannot use argument matchers outside of verification or stubbing.", "%", (-2017)); Predicate<Object> predicate0 = Predicate.isEqual((Object) sQLSyntaxErrorException0); Predicate<Object> predicate1 = predicate0.or(predicate0); Predicate<Object> predicate2 = predicate1.negate(); }
+Code: public JSONArray() { this.myArrayList = new ArrayList<Object>(); }
+[[0.12740141 0.17672087 0.15110606 0.17672087 0.07896569 0.06555174
+ 0.17335793 0.05017537]
+[0.1052338  0.1800955  0.14219457 0.1800955  0.10785601 0.07784776
+ 0.15658082 0.05009608]
+[0.12054181 0.1651475  0.17759064 0.1651475  0.09961776 0.06960541
+ 0.13714465 0.06520471]
+[0.1052338  0.1800955  0.14219457 0.1800955  0.10785601 0.07784776
+ 0.15658082 0.05009608]
+[0.12845802 0.18193977 0.13643052 0.18193977 0.10401492 0.05996589
+ 0.14637926 0.06087187]
+[0.10974659 0.17968488 0.17166013 0.17968488 0.09009622 0.07445537
+ 0.14290163 0.05177033]
+[0.11474089 0.1817725  0.19015378 0.1817725  0.09405789 0.05638938
+ 0.13703729 0.04407575]
+[0.09178004 0.17765063 0.20115292 0.17765063 0.07922167 0.05125425
+ 0.1763295  0.04496035]]

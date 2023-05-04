@@ -1,0 +1,16 @@
+num_rows: 400
+Number in Pass Class: 263, 0.6575
+tp: 258, 0.645
+fp: 132, 0.33
+pass accuracy: 258/263 = 0.981
+
+Number in Fail Class: 137, 0.3425
+tn: 5, 0.0125
+fn: 5, 0.0125
+fail accuracy: 5/137 = 0.0365
+
+accuracy: 263/400 = 0.6575
+precision: 258/390 = 0.6615
+recall: 258/263 = 0.981
+f1: 516/653 = 0.7902
+

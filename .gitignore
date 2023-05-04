@@ -1,0 +1,14 @@
+*.h5
+datasets/*/
+*.h5.1
+attention_analysis/TNs_attn_weights/
+real_data_gen/*.json
+*.pyc
+real_data_gen/triplets/*.json
+real_data_gen/triplets/*/*.json
+real_data_gen/triplets/*/project_json/*.json
+attention_analysis/attn_weights_images/*.pdf
+toga_star/*/inputs.csv
+__pycache__/
+*/__pycache__/
+real_data_gen/project_err_phase3.err

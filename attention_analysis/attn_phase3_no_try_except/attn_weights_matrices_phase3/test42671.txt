@@ -1,0 +1,23 @@
+42671
+Test: public void test1711() throws Throwable { DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); int int0 = 16; DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendYearOfEra(16, 16); DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.clockhourOfDay(); DateTimeFormatterBuilder.Fraction dateTimeFormatterBuilder_Fraction0 = new DateTimeFormatterBuilder.Fraction(dateTimeFieldType0, 3, 11); StringBuilder stringBuilder0 = new StringBuilder("US/H"); StringBuffer stringBuffer0 = new StringBuffer(stringBuilder0); StringBuilder stringBuilder1 = stringBuilder0.append(stringBuffer0); dateTimeFormatterBuilder_Fraction0.printTo((Appendable) stringBuilder1, (long) 3, (Chronology) null); HashMap<String, DateTimeZone> hashMap0 = new HashMap<String, DateTimeZone>(); DateTimeFormatterBuilder dateTimeFormatterBuilder2 = dateTimeFormatterBuilder1.appendTimeZoneName((Map<String, DateTimeZone>) hashMap0); DateTimeFormatterBuilder dateTimeFormatterBuilder3 = dateTimeFormatterBuilder2.appendSecondOfMinute(16); DateTimeFieldType dateTimeFieldType1 = DateTimeFieldType.millisOfDay(); DateTimeFormatterBuilder dateTimeFormatterBuilder4 = dateTimeFormatterBuilder3.appendDecimal(dateTimeFieldType1, 16, 16); DateTimeFieldType dateTimeFieldType2 = DateTimeFieldType.centuryOfEra(); DateTimeFormatterBuilder dateTimeFormatterBuilder5 = dateTimeFormatterBuilder0.appendSecondOfDay(16); }
+Code: public DateTimeFormatterBuilder appendSecondOfDay(int minDigits) { return appendDecimal(DateTimeFieldType.secondOfDay(), minDigits, 5); }
+[[0.08976232 0.12451734 0.12451734 0.12451734 0.11312437 0.09797631
+ 0.12451734 0.12451734 0.03974133 0.03680901]
+[0.0757864  0.12609708 0.12609708 0.12609708 0.12232132 0.09204103
+ 0.12609708 0.12609708 0.03795102 0.04141478]
+[0.0757864  0.12609708 0.12609708 0.12609708 0.12232132 0.09204103
+ 0.12609708 0.12609708 0.03795102 0.04141478]
+[0.0757864  0.12609708 0.12609708 0.12609708 0.12232132 0.09204103
+ 0.12609708 0.12609708 0.03795102 0.04141478]
+[0.08882609 0.11398453 0.11398453 0.11398453 0.148154   0.10152896
+ 0.11398453 0.11398453 0.04018193 0.05138648]
+[0.06430845 0.13079074 0.13079074 0.13079074 0.12042051 0.09427609
+ 0.13079074 0.13079074 0.03377092 0.0332703 ]
+[0.0757864  0.12609708 0.12609708 0.12609708 0.12232132 0.09204103
+ 0.12609708 0.12609708 0.03795102 0.04141478]
+[0.0757864  0.12609708 0.12609708 0.12609708 0.12232132 0.09204103
+ 0.12609708 0.12609708 0.03795102 0.04141478]
+[0.07422443 0.11815211 0.11815211 0.11815211 0.15117957 0.11689173
+ 0.11815211 0.11815211 0.03888255 0.02806115]
+[0.06144919 0.11297624 0.11297624 0.11297624 0.1691309  0.13744748
+ 0.11297624 0.11297624 0.03123545 0.03585579]]

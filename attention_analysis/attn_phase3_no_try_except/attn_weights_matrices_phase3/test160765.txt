@@ -1,0 +1,17 @@
+160765
+Test: public void test25() throws Throwable { KeyedPooledObjectFactory<Object, Object> keyedPooledObjectFactory0 = (KeyedPooledObjectFactory<Object, Object>) mock(KeyedPooledObjectFactory.class, new ViolatedAssumptionAnswer()); GenericKeyedObjectPool<Object, Object> genericKeyedObjectPool0 = new GenericKeyedObjectPool<Object, Object>(keyedPooledObjectFactory0); genericKeyedObjectPool0.getNumIdle(); KeyedPooledObjectFactory<Integer, DefaultPooledObjectInfo> keyedPooledObjectFactory1 = (KeyedPooledObjectFactory<Integer, DefaultPooledObjectInfo>) mock(KeyedPooledObjectFactory.class, new ViolatedAssumptionAnswer()); GenericKeyedObjectPoolConfig<DefaultPooledObjectInfo> genericKeyedObjectPoolConfig0 = new GenericKeyedObjectPoolConfig<DefaultPooledObjectInfo>(); GenericKeyedObjectPoolConfig<DefaultPooledObjectInfo> genericKeyedObjectPoolConfig1 = genericKeyedObjectPoolConfig0.clone(); AbandonedConfig abandonedConfig0 = genericKeyedObjectPool0.abandonedConfig; GenericKeyedObjectPool<Integer, DefaultPooledObjectInfo> genericKeyedObjectPool1 = new GenericKeyedObjectPool<Integer, DefaultPooledObjectInfo>(keyedPooledObjectFactory1, genericKeyedObjectPoolConfig1, (AbandonedConfig) null); String string0 = genericKeyedObjectPool1.getCreationStackTrace(); }
+Code: String getCreationStackTrace(); /** * See {@link GenericKeyedObjectPool#getDestroyedByBorrowValidationCount()}
+[[0.1133257  0.13858348 0.13858348 0.08586427 0.24647614 0.13858348
+ 0.13858348]
+[0.12967007 0.12069786 0.12069786 0.07754052 0.30999795 0.12069786
+ 0.12069786]
+[0.12967007 0.12069786 0.12069786 0.07754052 0.30999795 0.12069786
+ 0.12069786]
+[0.15625116 0.11684147 0.11684147 0.12340861 0.25297433 0.11684147
+ 0.11684147]
+[0.13901675 0.11482152 0.11482152 0.07758739 0.3241098  0.11482152
+ 0.11482152]
+[0.12967007 0.12069786 0.12069786 0.07754052 0.30999795 0.12069786
+ 0.12069786]
+[0.12967007 0.12069786 0.12069786 0.07754052 0.30999795 0.12069786
+ 0.12069786]]

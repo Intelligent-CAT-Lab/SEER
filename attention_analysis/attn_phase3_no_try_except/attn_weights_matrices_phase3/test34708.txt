@@ -1,0 +1,9 @@
+34708
+Test: public void test3() throws Throwable { TemplateEngine.Block[] templateEngine_BlockArray0 = new TemplateEngine.Block[0]; Parser parser0 = new Parser("TRACE"); ASTJexlScript aSTJexlScript0 = parser0.JexlScript((Scope) null); TemplateEngine.TemplateExpression[] templateEngine_TemplateExpressionArray0 = new TemplateEngine.TemplateExpression[0]; TemplateScript templateScript0 = new TemplateScript((TemplateEngine) null, "TRACE", templateEngine_BlockArray0, aSTJexlScript0, templateEngine_TemplateExpressionArray0); ASTJexlScript aSTJexlScript1 = templateScript0.getScript(); }
+Code: ASTJexlScript getScript() { return script; }
+[[0.20265809 0.20265809 0.18311131 0.14610806 0.2026581  0.06280632]
+[0.20265809 0.20265809 0.18311131 0.14610806 0.2026581  0.06280632]
+[0.18202463 0.18202463 0.2176526  0.1589381  0.18202463 0.0773354 ]
+[0.2073949  0.2073949  0.17967321 0.14808911 0.2073949  0.050053  ]
+[0.20265809 0.20265809 0.18311131 0.14610806 0.2026581  0.06280632]
+[0.17505208 0.17505208 0.22662593 0.19890663 0.17505206 0.04931121]]

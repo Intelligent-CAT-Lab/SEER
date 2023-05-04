@@ -1,0 +1,2 @@
+90726
+Test: public void test58() throws Throwable { InstConstraintVisitor instConstraintVisitor0 = new InstConstraintVisitor(); INSTANCEOF iNSTANCEOF0 = new INSTANCEOF(1); // Undeclared exception!  instConstraintVisitor0.visitINSTANCEOF(iNSTANCEOF0);   }

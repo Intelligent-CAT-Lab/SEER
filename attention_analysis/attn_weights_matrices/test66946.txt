@@ -1,0 +1,19 @@
+66946
+Test: public void testSimpleClassAsExistingPropertyDeserializationCars() throws Exception { Car camryDeserialized = MAPPER.readValue(camryJson, Camry.class); CarWrapper camryWrapperDeserialized = MAPPER.readValue(camryWrapperJson, CarWrapper.class); Car camryExtracted = camryWrapperDeserialized.car; @SuppressWarnings("unchecked") List<Car> carListDeserialized = MAPPER.readValue(carListJson, List.class); Car result = MAPPER.convertValue(carListDeserialized.get(0), Car.class); result = MAPPER.convertValue(carListDeserialized.get(1), Car.class); }
+Code: protected Object convertValue(Object value) { return _converter.convert(value); }
+[[0.21212173 0.07284813 0.08273838 0.12557775 0.19158581 0.13376343
+ 0.14195316 0.03941164]
+[0.21102859 0.07245824 0.06917043 0.10502225 0.21086073 0.1266505
+ 0.16541839 0.03939085]
+[0.21178891 0.07321541 0.0802487  0.12392102 0.18362018 0.12471931
+ 0.17642988 0.02605655]
+[0.20974228 0.07146329 0.0663278  0.12962048 0.18523565 0.13277344
+ 0.1593191  0.04551794]
+[0.20760798 0.06468277 0.08220945 0.11245176 0.18339513 0.12385149
+ 0.1625362  0.06326517]
+[0.22197372 0.076726   0.07394241 0.12738764 0.15980345 0.11810357
+ 0.17830077 0.04376236]
+[0.19063014 0.08259992 0.08007569 0.1148488  0.167529   0.11971057
+ 0.17678022 0.06782569]
+[0.18330002 0.07975433 0.09080843 0.09668541 0.19065008 0.17032185
+ 0.14673954 0.04174033]]

@@ -1,0 +1,9 @@
+165929
+Test: public void test21() throws Throwable { XMLConfiguration xMLConfiguration0 = new XMLConfiguration(); HashMap<Node, Node> hashMap0 = new HashMap<Node, Node>(); XMLDocumentHelper xMLDocumentHelper0 = new XMLDocumentHelper((Document) null, hashMap0, ">*X.-T,by2E_|!AP", "kr$?"); SubsetConfiguration subsetConfiguration0 = new SubsetConfiguration(xMLConfiguration0, "", ""); ListDelimiterHandler listDelimiterHandler0 = subsetConfiguration0.getListDelimiterHandler(); XMLConfiguration.XMLBuilderVisitor xMLConfiguration_XMLBuilderVisitor0 = new XMLConfiguration.XMLBuilderVisitor(xMLDocumentHelper0, listDelimiterHandler0); NodeSelector nodeSelector0 = new NodeSelector("[%f%/>L4\"b"); TrackedNodeModel trackedNodeModel0 = new TrackedNodeModel(xMLConfiguration0, nodeSelector0, false); SubnodeConfiguration subnodeConfiguration0 = new SubnodeConfiguration(xMLConfiguration0, trackedNodeModel0); InMemoryNodeModel inMemoryNodeModel0 = subnodeConfiguration0.getRootNodeModel(); ReferenceNodeHandler referenceNodeHandler0 = inMemoryNodeModel0.getReferenceNodeHandler(); xMLConfiguration_XMLBuilderVisitor0.handleRemovedNodes(referenceNodeHandler0); }
+Code: public XMLConfiguration() { initLogger(new ConfigurationLogger(XMLConfiguration.class)); }
+[[0.14803405 0.20534238 0.17726772 0.20534238 0.20534238 0.05867105]
+[0.12369771 0.20790613 0.18808624 0.20790613 0.20790614 0.06449768]
+[0.14060104 0.18743531 0.21878937 0.18743531 0.18743531 0.07830367]
+[0.12369771 0.20790613 0.18808624 0.20790613 0.20790614 0.06449768]
+[0.12369771 0.20790613 0.18808624 0.20790613 0.20790614 0.06449768]
+[0.10268182 0.1918765  0.26475638 0.1918765  0.19187649 0.05693229]]

@@ -1,0 +1,17 @@
+163389
+Test: public void test2108() throws Throwable { LinkedBlockingDeque<Integer> linkedBlockingDeque0 = new LinkedBlockingDeque<Integer>(); int int0 = linkedBlockingDeque0.remainingCapacity(); Integer integer0 = new Integer(2327); linkedBlockingDeque0.addFirst(integer0); LinkedBlockingDeque<Integer> linkedBlockingDeque1 = new LinkedBlockingDeque<Integer>(linkedBlockingDeque0); LinkedBlockingDeque<String> linkedBlockingDeque2 = new LinkedBlockingDeque<String>(); boolean boolean0 = linkedBlockingDeque0.containsAll(linkedBlockingDeque1); boolean boolean1 = linkedBlockingDeque2.add("pN!M43{CE%"); linkedBlockingDeque2.interuptTakeWaiters(); boolean boolean2 = linkedBlockingDeque0.removeFirstOccurrence(linkedBlockingDeque1); Integer integer1 = linkedBlockingDeque1.getLast(); LinkedBlockingDeque<Object> linkedBlockingDeque3 = new LinkedBlockingDeque<Object>(linkedBlockingDeque1); int int1 = linkedBlockingDeque3.remainingCapacity(); Object object0 = linkedBlockingDeque3.pop(); int int2 = linkedBlockingDeque3.getTakeQueueLength(); boolean boolean3 = linkedBlockingDeque0.offerLast(integer0); Integer integer2 = linkedBlockingDeque0.peekLast(); Integer integer3 = linkedBlockingDeque1.pop(); }
+Code: public E pop() { return removeFirst(); }
+[[0.125782   0.18087392 0.1744813  0.156277   0.13701524 0.1744813
+ 0.05108921]
+[0.11464474 0.18298218 0.16976477 0.20050007 0.11909707 0.16976479
+ 0.04324634]
+[0.10522586 0.20309198 0.17771998 0.15524143 0.12740944 0.17771998
+ 0.05359128]
+[0.12076363 0.16291618 0.16265124 0.18419577 0.14028513 0.16265124
+ 0.06653675]
+[0.09190753 0.1807585  0.1927905  0.16008891 0.13679762 0.19279051
+ 0.04486647]
+[0.10522586 0.20309198 0.17771998 0.15524143 0.12740944 0.17771998
+ 0.05359128]
+[0.0885641  0.13144822 0.16894458 0.2084349  0.18788558 0.16894457
+ 0.04577807]]

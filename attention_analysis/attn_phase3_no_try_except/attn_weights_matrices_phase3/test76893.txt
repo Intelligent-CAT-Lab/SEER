@@ -1,0 +1,6 @@
+76893
+Test: public void test7() throws Throwable { int[] intArray0 = new int[8]; InstructionHandle[] instructionHandleArray0 = new InstructionHandle[1]; ACONST_NULL aCONST_NULL0 = new ACONST_NULL(); InstructionHandle instructionHandle0 = new InstructionHandle(aCONST_NULL0); LOOKUPSWITCH lOOKUPSWITCH0 = null;  lOOKUPSWITCH0 = new LOOKUPSWITCH(intArray0, instructionHandleArray0, instructionHandle0);   }
+Code: LOOKUPSWITCH() { }
+[[0.5234282  0.34890088 0.12767084]
+[0.46439818 0.38162568 0.15397614]
+[0.48506725 0.4157069  0.09922581]]

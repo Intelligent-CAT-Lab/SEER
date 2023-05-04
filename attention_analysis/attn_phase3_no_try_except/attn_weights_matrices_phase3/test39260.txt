@@ -1,0 +1,17 @@
+39260
+Test: public void test19() throws Throwable { DateTimeZone dateTimeZone0 = DateTimeZone.getDefault(); DateTime dateTime0 = new DateTime(dateTimeZone0); Interval interval0 = new Interval(dateTime0, (ReadableDuration) null); Minutes minutes0 = Minutes.minutesIn(interval0); DurationFieldType durationFieldType0 = minutes0.getFieldType(); UnsupportedDurationField unsupportedDurationField0 = UnsupportedDurationField.getInstance(durationFieldType0); long long0 = unsupportedDurationField0.getUnitMillis(); }
+Code: public long getUnitMillis() { return 0; }
+[[0.12478946 0.21368228 0.17309687 0.14705053 0.13494685 0.15749691
+ 0.04893718]
+[0.08947426 0.19628629 0.17399004 0.18201673 0.13350525 0.17963672
+ 0.04509071]
+[0.10729028 0.1956792  0.18100403 0.15940744 0.12993866 0.1717375
+ 0.05494289]
+[0.11725672 0.19377184 0.15876892 0.17696118 0.13645773 0.15254308
+ 0.06424053]
+[0.08646742 0.25881657 0.18086456 0.15166605 0.12851971 0.15121984
+ 0.0424459 ]
+[0.11177121 0.1845876  0.16811529 0.16768175 0.13811593 0.1826149
+ 0.04711337]
+[0.08832839 0.14326079 0.17146704 0.1907153  0.18242376 0.18101497
+ 0.04278977]]

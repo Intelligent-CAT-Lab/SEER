@@ -1,0 +1,17 @@
+34617
+Test: public void test16() throws Throwable { JexlBuilder jexlBuilder0 = new JexlBuilder(); Engine engine0 = new Engine(jexlBuilder0); JexlOptions jexlOptions0 = engine0.options; Map<String, Object> map0 = jexlBuilder0.namespaces(); MapContext mapContext0 = new MapContext(map0); Scope scope0 = mock(Scope.class, new ViolatedAssumptionAnswer()); String[] stringArray0 = new String[4]; Scope scope1 = new Scope(scope0, stringArray0); Frame frame0 = new Frame(scope1, stringArray0, (-1981)); Interpreter interpreter0 = new Interpreter(engine0, jexlOptions0, mapContext0, frame0); boolean boolean0 = interpreter0.isSafe(); }
+Code: protected boolean isSafe() { return options.isSafe(); }
+[[0.14267097 0.26319695 0.129165   0.18690602 0.11216444 0.12916498
+ 0.03673157]
+[0.1337823  0.29193807 0.11950095 0.18715979 0.11425067 0.11950096
+ 0.03386725]
+[0.15974139 0.2757983  0.13098675 0.15309729 0.09911855 0.13098675
+ 0.05027097]
+[0.17384997 0.1986132  0.12529546 0.1952905  0.11707753 0.12529546
+ 0.06457788]
+[0.1545417  0.293093   0.12813473 0.15694404 0.09721468 0.12813476
+ 0.04193713]
+[0.15974139 0.2757983  0.13098675 0.15309729 0.09911855 0.13098675
+ 0.05027097]
+[0.13562593 0.21739638 0.12139548 0.204768   0.15683107 0.12139547
+ 0.04258768]]

@@ -1,0 +1,27 @@
+166599
+Test: public void test21() throws Throwable { URLConnectionOptions uRLConnectionOptions0 = new URLConnectionOptions(); FileContent fileContent0 = mock(FileContent.class, new ViolatedAssumptionAnswer()); FileObject fileObject0 = mock(FileObject.class, new ViolatedAssumptionAnswer()); doReturn(fileContent0).when(fileObject0).getContent(); VfsComponentContext vfsComponentContext0 = mock(VfsComponentContext.class, new ViolatedAssumptionAnswer()); doReturn(fileObject0).when(vfsComponentContext0).resolveFile(anyString() , any(org.apache.commons.vfs2.FileSystemOptions.class)); FileSystemOptions fileSystemOptions0 = new FileSystemOptions(); DefaultURLStreamHandler defaultURLStreamHandler0 = new DefaultURLStreamHandler(vfsComponentContext0, fileSystemOptions0); URL uRL0 = MockURL.URL("org.apache.commons.io.filefilter.AgeFileFilter", "org.apache.commons.io.filefilter.AgeFileFilter", 0, "org.apache.commons.io.filefilter.AgeFileFilter", (URLStreamHandler) defaultURLStreamHandler0); URLConnection uRLConnection0 = MockURL.openConnection(uRL0); URLConnection uRLConnection1 = uRLConnectionOptions0.apply(uRLConnection0); }
+Code: public URLConnection apply(final URLConnection urlConnection) { urlConnection.setUseCaches(useCaches); urlConnection.setConnectTimeout(connectTimeoutMillis); urlConnection.setReadTimeout(readTimeoutMillis); return urlConnection; }
+[[0.06698033 0.09291776 0.09291776 0.09291776 0.09291776 0.0879057
+ 0.09291776 0.09291776 0.09291776 0.07354096 0.09291776 0.02823095]
+[0.05658604 0.09324163 0.09324163 0.09324163 0.09324163 0.09635675
+ 0.09324163 0.09324163 0.09324163 0.06885521 0.09324163 0.03226903]
+[0.05658604 0.09324163 0.09324163 0.09324163 0.09324163 0.09635675
+ 0.09324163 0.09324163 0.09324163 0.06885521 0.09324163 0.03226903]
+[0.05658604 0.09324163 0.09324163 0.09324163 0.09324163 0.09635675
+ 0.09324163 0.09324163 0.09324163 0.06885521 0.09324163 0.03226903]
+[0.05658604 0.09324163 0.09324163 0.09324163 0.09324163 0.09635675
+ 0.09324163 0.09324163 0.09324163 0.06885521 0.09324163 0.03226903]
+[0.06936564 0.08606222 0.08606222 0.08606222 0.08606222 0.12230999
+ 0.08606222 0.08606222 0.08606224 0.07842114 0.08606224 0.0414054 ]
+[0.05658604 0.09324163 0.09324163 0.09324163 0.09324163 0.09635675
+ 0.09324163 0.09324163 0.09324163 0.06885521 0.09324163 0.03226903]
+[0.05658604 0.09324163 0.09324163 0.09324163 0.09324163 0.09635675
+ 0.09324163 0.09324163 0.09324163 0.06885521 0.09324163 0.03226903]
+[0.05658604 0.09324163 0.09324163 0.09324163 0.09324163 0.09635675
+ 0.09324163 0.09324163 0.09324163 0.06885521 0.09324163 0.03226903]
+[0.04794459 0.09530492 0.09530492 0.09530492 0.09530492 0.09429163
+ 0.09530492 0.09530492 0.09530492 0.06951222 0.09530492 0.02581218]
+[0.05658604 0.09324163 0.09324163 0.09324163 0.09324163 0.09635675
+ 0.09324163 0.09324163 0.09324163 0.06885521 0.09324163 0.03226903]
+[0.04694838 0.08412529 0.08412529 0.08412529 0.08412529 0.14187184
+ 0.08412529 0.08412529 0.08412528 0.10866998 0.08412528 0.02950745]]

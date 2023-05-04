@@ -1,0 +1,9 @@
+67330
+Test: public void testRawValues() throws Exception { final String RAW = "{\"a\":1}"; TokenBuffer buf = new TokenBuffer(null, false); buf.writeRawValue(RAW); JsonParser p = buf.asParser(); p.close(); buf.close(); }
+Code: public void writeRawValue(String text){_append(JsonToken.VALUE_EMBEDDED_OBJECT, new RawValue(text));}
+[[0.14973217 0.13010085 0.15072346 0.4247336  0.07053739 0.07417253]
+[0.12336837 0.12719989 0.15562043 0.47023392 0.059962   0.06361542]
+[0.13287154 0.14694133 0.15256038 0.44130805 0.06038073 0.065938  ]
+[0.13977748 0.12595256 0.17516357 0.39386067 0.09895784 0.06628792]
+[0.12170534 0.12269821 0.13428037 0.48832822 0.07289539 0.06009247]
+[0.1141637  0.1240612  0.18512443 0.43828964 0.07721108 0.06114992]]

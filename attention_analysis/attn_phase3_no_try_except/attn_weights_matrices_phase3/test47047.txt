@@ -1,0 +1,17 @@
+47047
+Test: public void test6256() throws Throwable { DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendDayOfYear(44); HashMap<String, DateTimeZone> hashMap0 = new HashMap<String, DateTimeZone>(); HashMap<String, DateTimeZone> hashMap1 = new HashMap<String, DateTimeZone>(hashMap0); DateTimeFormatterBuilder dateTimeFormatterBuilder2 = dateTimeFormatterBuilder1.appendTimeZoneShortName((Map<String, DateTimeZone>) hashMap1); DateTimeFormatterBuilder dateTimeFormatterBuilder3 = dateTimeFormatterBuilder2.appendTimeZoneShortName(); DateTimeFormatterBuilder dateTimeFormatterBuilder4 = dateTimeFormatterBuilder3.appendTwoDigitYear(44); DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.clockhourOfDay(); DateTimeFormatterBuilder dateTimeFormatterBuilder5 = dateTimeFormatterBuilder4.appendShortText(dateTimeFieldType0); DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral("US/H"); DateTimePrinter dateTimePrinter0 = InternalPrinterDateTimePrinter.of(dateTimeFormatterBuilder_StringLiteral0); DateTimeParser[] dateTimeParserArray0 = new DateTimeParser[1]; DateTimeParser dateTimeParser0 = InternalParserDateTimeParser.of(dateTimeFormatterBuilder_StringLiteral0); GJChronology gJChronology0 = GJChronology.getInstance(); StrictChronology strictChronology0 = StrictChronology.getInstance(gJChronology0); DateTimeZone dateTimeZone0 = gJChronology0.getZone(); ZonedChronology zonedChronology0 = ZonedChronology.getInstance(strictChronology0, dateTimeZone0); Chronology chronology0 = zonedChronology0.withUTC(); DateTimeField dateTimeField0 = dateTimeFieldType0.getField(chronology0); dateTimeParserArray0[0] = dateTimeParser0; DateTimeFormatterBuilder dateTimeFormatterBuilder6 = dateTimeFormatterBuilder5.append(dateTimePrinter0, dateTimeParserArray0); DateTimeFormatterBuilder dateTimeFormatterBuilder7 = dateTimeFormatterBuilder5.appendTimeZoneName((Map<String, DateTimeZone>) hashMap0); boolean boolean0 = dateTimeFormatterBuilder5.canBuildParser(); }
+Code: public boolean canBuildParser() { return isParser(getFormatter()); }
+[[0.10934648 0.26729727 0.15169707 0.1511886  0.12100547 0.15169705
+ 0.04776807]
+[0.06855693 0.34035894 0.12991077 0.18153623 0.11619409 0.12991078
+ 0.03353223]
+[0.0877424  0.31477123 0.14417115 0.15167442 0.1068267  0.14417115
+ 0.05064295]
+[0.11026365 0.23269044 0.14063604 0.18583335 0.12578093 0.14063604
+ 0.06415956]
+[0.07348293 0.34289712 0.14042537 0.15607165 0.10455605 0.14042538
+ 0.04214151]
+[0.0877424  0.31477123 0.14417115 0.15167442 0.1068267  0.14417115
+ 0.05064295]
+[0.07333571 0.24605852 0.13447544 0.20389462 0.16462673 0.13447544
+ 0.04313356]]

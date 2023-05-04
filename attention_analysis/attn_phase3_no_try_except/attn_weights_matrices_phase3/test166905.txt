@@ -1,0 +1,21 @@
+166905
+Test: public void test6() throws Throwable { ConstructorArg constructorArg0 = ConstructorArg.forValue((Object) "1w't@#F{-qV$m"); NodeHandler<ConstructorArg> nodeHandler0 = (NodeHandler<ConstructorArg>) mock(NodeHandler.class, new ViolatedAssumptionAnswer()); XMLBeanDeclaration.NodeData<ConstructorArg> xMLBeanDeclaration_NodeData0 = new XMLBeanDeclaration.NodeData<ConstructorArg>(constructorArg0, nodeHandler0); HierarchicalConfiguration<XMLConfiguration> hierarchicalConfiguration0 = (HierarchicalConfiguration<XMLConfiguration>) mock(HierarchicalConfiguration.class, new ViolatedAssumptionAnswer()); XMLBeanDeclaration xMLBeanDeclaration0 = new XMLBeanDeclaration(hierarchicalConfiguration0, xMLBeanDeclaration_NodeData0); boolean boolean0 = xMLBeanDeclaration0.isReservedAttributeName((String) null); }
+Code: protected boolean isReservedAttributeName(final String name) { return isReservedName(name); }
+[[0.11491077 0.2139817  0.10584979 0.10234433 0.07293735 0.15930542
+ 0.09369229 0.10584979 0.03112858]
+[0.10942099 0.24038306 0.1008645  0.09737037 0.05939715 0.16371998
+ 0.09853261 0.1008645  0.02944679]
+[0.12744844 0.22082123 0.10530728 0.11201781 0.0839863  0.12444611
+ 0.07987042 0.10530728 0.04079513]
+[0.10624267 0.24037035 0.11154611 0.09126498 0.06869745 0.147783
+ 0.08666672 0.11154611 0.03588258]
+[0.12501852 0.20922278 0.08930159 0.12540475 0.08292354 0.12880972
+ 0.09405836 0.08930159 0.05595915]
+[0.13541548 0.15667847 0.1002424  0.10768016 0.08739361 0.16383749
+ 0.09494948 0.1002424  0.05356048]
+[0.12550685 0.23786631 0.10567039 0.10639769 0.07085471 0.13225003
+ 0.08052253 0.10567039 0.03526113]
+[0.12744844 0.22082123 0.10530728 0.11201781 0.0839863  0.12444611
+ 0.07987042 0.10530728 0.04079513]
+[0.10899902 0.17518158 0.09842913 0.10105927 0.08269826 0.17078581
+ 0.12904868 0.09842913 0.03536916]]

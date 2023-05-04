@@ -1,0 +1,9 @@
+165094
+Test: public void test3() throws Throwable { MockRandom mockRandom0 = new MockRandom(); JDKRandomWrapper jDKRandomWrapper0 = new JDKRandomWrapper(mockRandom0); UnitBallSampler unitBallSampler0 = UnitBallSampler.of(jDKRandomWrapper0, 4855); unitBallSampler0.sample(); unitBallSampler0.sample(); // Undeclared exception! unitBallSampler0.sample(); }
+Code: public abstract double[] sample(); /** {@inheritDoc}
+[[0.1333695  0.06241123 0.348936   0.08522057 0.18503135 0.18503135]
+[0.12564167 0.05111902 0.35345805 0.06698446 0.2013984  0.2013984 ]
+[0.11542028 0.07413549 0.33695135 0.08817101 0.19266093 0.19266093]
+[0.12012294 0.08176551 0.32076725 0.09336273 0.19199076 0.19199076]
+[0.11701804 0.06527487 0.31614488 0.11569401 0.19293407 0.19293407]
+[0.11701804 0.06527487 0.31614488 0.11569401 0.19293407 0.19293407]]

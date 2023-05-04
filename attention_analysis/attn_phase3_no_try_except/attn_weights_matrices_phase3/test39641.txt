@@ -1,0 +1,17 @@
+39641
+Test: public void test14() throws Throwable { DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.year(); DateTimeZone dateTimeZone0 = DateTimeZone.forOffsetHours(11); BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance(dateTimeZone0); DateTimeField dateTimeField0 = buddhistChronology0.secondOfMinute(); DividedDateTimeField dividedDateTimeField0 = new DividedDateTimeField(dateTimeField0, dateTimeFieldType0, 11); RemainderDateTimeField remainderDateTimeField0 = new RemainderDateTimeField(dividedDateTimeField0, dateTimeFieldType0); long long0 = remainderDateTimeField0.roundHalfCeiling(2544L); }
+Code: public int getMinimumValue() { return 0; }
+[[0.14576781 0.09844825 0.2021877  0.16291474 0.15653893 0.17891625
+ 0.05522626]
+[0.09694949 0.07589656 0.26407298 0.1846062  0.15228102 0.18275961
+ 0.04343414]
+[0.12585814 0.08426851 0.2154433  0.16977695 0.15197173 0.19284377
+ 0.05983763]
+[0.1368147  0.06815486 0.19100691 0.19357213 0.16090488 0.17708239
+ 0.07246413]
+[0.1104643  0.07407786 0.2416677  0.17204306 0.16791344 0.18445677
+ 0.04937687]
+[0.12774037 0.074932   0.1949859  0.18460892 0.15811294 0.20701692
+ 0.05260299]
+[0.09597979 0.0745743  0.18693815 0.20366757 0.19719464 0.19574495
+ 0.04590051]]

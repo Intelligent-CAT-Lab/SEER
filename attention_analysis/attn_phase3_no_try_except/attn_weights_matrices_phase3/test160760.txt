@@ -1,0 +1,17 @@
+160760
+Test: public void test20() throws Throwable { KeyedPooledObjectFactory<Object, LinkedList<DefaultPooledObjectInfo>> keyedPooledObjectFactory0 = (KeyedPooledObjectFactory<Object, LinkedList<DefaultPooledObjectInfo>>) mock(KeyedPooledObjectFactory.class, new ViolatedAssumptionAnswer()); GenericKeyedObjectPoolConfig<LinkedList<DefaultPooledObjectInfo>> genericKeyedObjectPoolConfig0 = new GenericKeyedObjectPoolConfig<LinkedList<DefaultPooledObjectInfo>>(); GenericKeyedObjectPoolConfig<LinkedList<DefaultPooledObjectInfo>> genericKeyedObjectPoolConfig1 = genericKeyedObjectPoolConfig0.clone(); DefaultEvictionPolicy<LinkedList<DefaultPooledObjectInfo>> defaultEvictionPolicy0 = new DefaultEvictionPolicy<LinkedList<DefaultPooledObjectInfo>>(); EvictionConfig evictionConfig0 = new EvictionConfig(genericKeyedObjectPoolConfig1.DEFAULT_EVICTOR_SHUTDOWN_TIMEOUT, genericKeyedObjectPoolConfig0.DEFAULT_SOFT_MIN_EVICTABLE_IDLE_DURATION, 0); EvictionConfig evictionConfig1 = new EvictionConfig(genericKeyedObjectPoolConfig0.DEFAULT_MIN_EVICTABLE_IDLE_DURATION, genericKeyedObjectPoolConfig1.DEFAULT_SOFT_MIN_EVICTABLE_IDLE_DURATION, 0); evictionConfig1.toString(); LinkedList<DefaultPooledObjectInfo> linkedList0 = new LinkedList<DefaultPooledObjectInfo>(); DefaultPooledObject<LinkedList<DefaultPooledObjectInfo>> defaultPooledObject0 = new DefaultPooledObject<LinkedList<DefaultPooledObjectInfo>>(linkedList0); defaultPooledObject0.invalidate(); boolean boolean0 = defaultEvictionPolicy0.evict(evictionConfig1, defaultPooledObject0, 0); genericKeyedObjectPoolConfig1.setEvictionPolicy(defaultEvictionPolicy0); GenericKeyedObjectPool<Object, LinkedList<DefaultPooledObjectInfo>> genericKeyedObjectPool0 = new GenericKeyedObjectPool<Object, LinkedList<DefaultPooledObjectInfo>>(keyedPooledObjectFactory0, genericKeyedObjectPoolConfig1); genericKeyedObjectPool0.getMinIdlePerKey(); genericKeyedObjectPool0.getNumActive(); genericKeyedObjectPool0.getRemoveAbandonedOnBorrow(); genericKeyedObjectPool0.getNumWaiters(); genericKeyedObjectPool0.getTestOnReturn(); KeyedPooledObjectFactory<String, Object> keyedPooledObjectFactory1 = (KeyedPooledObjectFactory<String, Object>) mock(KeyedPooledObjectFactory.class, new ViolatedAssumptionAnswer()); GenericKeyedObjectPoolConfig<Object> genericKeyedObjectPoolConfig2 = new GenericKeyedObjectPoolConfig<Object>(); GenericKeyedObjectPool<String, Object> genericKeyedObjectPool1 = new GenericKeyedObjectPool<String, Object>(keyedPooledObjectFactory1, genericKeyedObjectPoolConfig2); boolean boolean1 = genericKeyedObjectPool1.getTestOnCreate(); }
+Code: boolean getTestOnCreate(); /** * See {@link GenericKeyedObjectPool#getTestOnReturn()}
+[[0.25677302 0.11545773 0.11545773 0.06532262 0.21607348 0.11545773
+ 0.11545773]
+[0.22468176 0.10693026 0.10693026 0.07156588 0.27603132 0.10693026
+ 0.10693026]
+[0.22468176 0.10693026 0.10693026 0.07156588 0.27603132 0.10693026
+ 0.10693026]
+[0.2627513  0.10004547 0.10004547 0.11627185 0.22079495 0.10004547
+ 0.10004547]
+[0.2434572  0.10071167 0.10071167 0.07243234 0.28126377 0.10071167
+ 0.10071167]
+[0.22468176 0.10693026 0.10693026 0.07156588 0.27603132 0.10693026
+ 0.10693026]
+[0.22468176 0.10693026 0.10693026 0.07156588 0.27603132 0.10693026
+ 0.10693026]]

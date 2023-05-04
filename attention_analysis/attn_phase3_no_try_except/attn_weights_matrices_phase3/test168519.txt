@@ -1,0 +1,17 @@
+168519
+Test: public void test0() throws Throwable { Class<String> class0 = String.class; OutParameter<String> outParameter0 = new OutParameter<String>(0, class0); outParameter0.toString(); outParameter0.toString(); CallableStatement callableStatement0 = mock(CallableStatement.class, new ViolatedAssumptionAnswer()); outParameter0.toString(); outParameter0.register(callableStatement0, 0); outParameter0.getSqlType(); Class<Object> class1 = Object.class; OutParameter<Object> outParameter1 = new OutParameter<Object>(0, class1); Object object0 = new Object(); OutParameter<Object> outParameter2 = new OutParameter<Object>(0, class1, object0); CallableStatement callableStatement1 = mock(CallableStatement.class, new ViolatedAssumptionAnswer()); outParameter2.register(callableStatement1, 0); CallableStatement callableStatement2 = mock(CallableStatement.class, new ViolatedAssumptionAnswer()); outParameter1.register(callableStatement2, 0); Object object1 = new Object(); CallableStatement callableStatement3 = mock(CallableStatement.class, new ViolatedAssumptionAnswer()); doReturn(object1).when(callableStatement3).getObject(anyInt()); outParameter2.setValue("OutParameter{sqlType=0, javaType=class java.lang.String, value=null}"); CallableStatement callableStatement4 = mock(CallableStatement.class, new ViolatedAssumptionAnswer()); CallableStatement callableStatement5 = mock(CallableStatement.class, new ViolatedAssumptionAnswer()); doReturn(class0).when(callableStatement5).getObject(anyInt()); outParameter2.setValue(callableStatement5, 4057); outParameter2.register(callableStatement4, 0); outParameter2.setValue(callableStatement3, 125); Integer integer0 = new Integer((-1082)); OutParameter<Integer> outParameter3 = new OutParameter<Integer>(125, (Class<Integer>) null, integer0); outParameter3.getJavaType(); }
+Code: public Class<T> getJavaType() { return javaType; }
+[[0.14099914 0.10291529 0.19557509 0.1594571  0.15164909 0.19557509
+ 0.05382916]
+[0.12017679 0.08959962 0.19780567 0.17700277 0.17355374 0.19780567
+ 0.0440557 ]
+[0.11883154 0.10458981 0.20157924 0.17044835 0.14375505 0.20157926
+ 0.05921676]
+[0.12926084 0.10564671 0.17836227 0.18759017 0.15140603 0.17836227
+ 0.06937166]
+[0.10207191 0.09085715 0.2187082  0.16838588 0.153541   0.21870822
+ 0.04772761]
+[0.11883154 0.10458981 0.20157924 0.17044835 0.14375505 0.20157926
+ 0.05921676]
+[0.09492424 0.0815134  0.183018   0.21219443 0.19813824 0.18301797
+ 0.04719372]]

@@ -1,0 +1,9 @@
+11525
+Test: public void test0() throws Throwable { FailableToIntFunction<Object, Throwable> failableToIntFunction0 = FailableToIntFunction.nop(); MockThrowable mockThrowable0 = new MockThrowable("mDl;<d+k6UfgV)R&yDr"); int int0 = failableToIntFunction0.applyAsInt(mockThrowable0); }
+Code: int applyAsInt(T t) throws E; }
+[[0.06902385 0.25049227 0.05675574 0.32051733 0.2504923  0.05271852]
+[0.07643782 0.19778362 0.07022215 0.3899123  0.19778362 0.06786051]
+[0.05822015 0.20211166 0.0553986  0.43213338 0.20211166 0.05002453]
+[0.05847773 0.16972435 0.06358416 0.48067433 0.16972435 0.05781502]
+[0.07643782 0.19778362 0.07022215 0.3899123  0.19778362 0.06786051]
+[0.07481132 0.18038309 0.06810682 0.4279154  0.18038307 0.06840031]]

@@ -1,0 +1,19 @@
+60046
+Test: public void test19473() throws Throwable { DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendTimeZoneId(); DateTimeFormatterBuilder dateTimeFormatterBuilder2 = dateTimeFormatterBuilder1.appendYearOfCentury(18, 18); DateTimeFormatterBuilder dateTimeFormatterBuilder3 = dateTimeFormatterBuilder2.appendMinuteOfDay(18); DateTimeFormatterBuilder dateTimeFormatterBuilder4 = dateTimeFormatterBuilder3.appendMillisOfDay(115); int int0 = 2998; DateTimeFormatterBuilder dateTimeFormatterBuilder5 = dateTimeFormatterBuilder4.appendFractionOfMinute(2998, 115); DateTimeFormatterBuilder dateTimeFormatterBuilder6 = dateTimeFormatterBuilder3.appendFractionOfSecond(2998, (-292275054)); DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.era(); DateTimeFormatterBuilder.FixedNumber dateTimeFormatterBuilder_FixedNumber0 = new DateTimeFormatterBuilder.FixedNumber(dateTimeFieldType0, 18, true); DateTimeFormatterBuilder dateTimeFormatterBuilder7 = dateTimeFormatterBuilder3.appendTimeZoneId(); }
+Code: public DateTimeFormatterBuilder appendTimeZoneId() { return append0(TimeZoneId.INSTANCE, TimeZoneId.INSTANCE); }
+[[0.10769189 0.14938717 0.14938717 0.13373199 0.11730102 0.14938717
+ 0.14938717 0.04372638]
+[0.09077284 0.15143088 0.15143088 0.14430624 0.11018361 0.15143088
+ 0.15143088 0.0490139 ]
+[0.09077284 0.15143088 0.15143088 0.14430624 0.11018361 0.15143088
+ 0.15143088 0.0490139 ]
+[0.10474118 0.13602483 0.13602483 0.17107216 0.12019398 0.13602483
+ 0.13602483 0.05989329]
+[0.07683693 0.15724705 0.15724705 0.14188328 0.11298558 0.15724705
+ 0.15724705 0.03930595]
+[0.09077284 0.15143088 0.15143088 0.14430624 0.11018361 0.15143088
+ 0.15143088 0.0490139 ]
+[0.09077284 0.15143088 0.15143088 0.14430624 0.11018361 0.15143088
+ 0.15143088 0.0490139 ]
+[0.07219031 0.13394369 0.13394369 0.19165097 0.15943684 0.13394369
+ 0.13394369 0.04094704]]

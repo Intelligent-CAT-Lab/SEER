@@ -1,0 +1,9 @@
+164711
+Test: public void test53() throws Throwable { MockRandom mockRandom0 = new MockRandom(); JDKRandomWrapper jDKRandomWrapper0 = new JDKRandomWrapper(mockRandom0); StableSampler.CMSStableSampler stableSampler_CMSStableSampler0 = new StableSampler.CMSStableSampler(jDKRandomWrapper0, (-2389.85261683434), (-2389.85261683434)); StableSampler.WeronStableSampler stableSampler_WeronStableSampler0 = new StableSampler.WeronStableSampler(jDKRandomWrapper0, stableSampler_CMSStableSampler0); double double0 = stableSampler_CMSStableSampler0.sample(); double double1 = stableSampler_WeronStableSampler0.sample(); }
+Code: public abstract double sample(); /** {@inheritDoc}
+[[0.15162165 0.07097843 0.2598244  0.09686803 0.21035375 0.21035375]
+[0.15192106 0.06244886 0.21936272 0.0804993  0.24288404 0.24288404]
+[0.12617603 0.067859   0.26640344 0.09620354 0.22167897 0.22167897]
+[0.13347995 0.09105159 0.24539977 0.10371082 0.21317893 0.21317893]
+[0.13011357 0.07389973 0.24069658 0.1289163  0.2131869  0.2131869 ]
+[0.13011357 0.07389973 0.24069658 0.1289163  0.2131869  0.2131869 ]]

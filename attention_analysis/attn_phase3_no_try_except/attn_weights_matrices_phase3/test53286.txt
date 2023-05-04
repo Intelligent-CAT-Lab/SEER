@@ -1,0 +1,19 @@
+53286
+Test: public void test12565() throws Throwable { DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendFractionOfDay(24, 24); DateTimeParser[] dateTimeParserArray0 = new DateTimeParser[6]; DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.dayOfMonth(); DateTimeFormatterBuilder.UnpaddedNumber dateTimeFormatterBuilder_UnpaddedNumber0 = new DateTimeFormatterBuilder.UnpaddedNumber(dateTimeFieldType0, 24, false); DateTimeParser dateTimeParser0 = InternalParserDateTimeParser.of(dateTimeFormatterBuilder_UnpaddedNumber0); dateTimeParserArray0[0] = dateTimeParser0; DateTimeParser dateTimeParser1 = InternalParserDateTimeParser.of(dateTimeFormatterBuilder_UnpaddedNumber0); dateTimeParserArray0[1] = dateTimeParser1; DateTimeParser dateTimeParser2 = InternalParserDateTimeParser.of(dateTimeFormatterBuilder_UnpaddedNumber0); dateTimeParserArray0[2] = dateTimeParser2; DateTimeParser dateTimeParser3 = InternalParserDateTimeParser.of(dateTimeFormatterBuilder_UnpaddedNumber0); dateTimeParserArray0[3] = dateTimeParser3; DateTimeParser dateTimeParser4 = InternalParserDateTimeParser.of(dateTimeFormatterBuilder_UnpaddedNumber0); dateTimeParserArray0[4] = dateTimeParser4; DateTimeParser dateTimeParser5 = InternalParserDateTimeParser.of(dateTimeFormatterBuilder_UnpaddedNumber0); dateTimeParserArray0[5] = dateTimeParser5; DateTimeFormatterBuilder dateTimeFormatterBuilder2 = dateTimeFormatterBuilder1.append((DateTimePrinter) null, dateTimeParserArray0); DateTimeFormatterBuilder dateTimeFormatterBuilder3 = dateTimeFormatterBuilder2.appendTimeZoneShortName(); DateTimeFormatterBuilder dateTimeFormatterBuilder4 = dateTimeFormatterBuilder3.appendDecimal(dateTimeFieldType0, 0, 24); DateTimeFormatterBuilder dateTimeFormatterBuilder5 = dateTimeFormatterBuilder4.appendTimeZoneId(); }
+Code: public DateTimeFormatterBuilder appendTimeZoneId() { return append0(TimeZoneId.INSTANCE, TimeZoneId.INSTANCE); }
+[[0.10769189 0.14938717 0.14938717 0.13373199 0.11730102 0.14938717
+ 0.14938717 0.04372638]
+[0.09077284 0.15143088 0.15143088 0.14430624 0.11018361 0.15143088
+ 0.15143088 0.0490139 ]
+[0.09077284 0.15143088 0.15143088 0.14430624 0.11018361 0.15143088
+ 0.15143088 0.0490139 ]
+[0.10474118 0.13602483 0.13602483 0.17107216 0.12019398 0.13602483
+ 0.13602483 0.05989329]
+[0.07683693 0.15724705 0.15724705 0.14188328 0.11298558 0.15724705
+ 0.15724705 0.03930595]
+[0.09077284 0.15143088 0.15143088 0.14430624 0.11018361 0.15143088
+ 0.15143088 0.0490139 ]
+[0.09077284 0.15143088 0.15143088 0.14430624 0.11018361 0.15143088
+ 0.15143088 0.0490139 ]
+[0.07219031 0.13394369 0.13394369 0.19165097 0.15943684 0.13394369
+ 0.13394369 0.04094704]]

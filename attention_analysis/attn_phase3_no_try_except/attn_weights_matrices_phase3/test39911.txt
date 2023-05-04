@@ -1,0 +1,23 @@
+39911
+Test: public void test11() throws Throwable { BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstanceUTC(); StrictChronology strictChronology0 = StrictChronology.getInstance(buddhistChronology0); DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.dayOfYear(); DurationFieldType durationFieldType0 = DurationFieldType.centuries(); UnsupportedDurationField unsupportedDurationField0 = UnsupportedDurationField.getInstance(durationFieldType0); UnsupportedDateTimeField unsupportedDateTimeField0 = UnsupportedDateTimeField.getInstance(dateTimeFieldType0, unsupportedDurationField0); SkipUndoDateTimeField skipUndoDateTimeField0 = null;  skipUndoDateTimeField0 = new SkipUndoDateTimeField(strictChronology0, unsupportedDateTimeField0, 1);   }
+Code: public SkipUndoDateTimeField(Chronology chronology, DateTimeField field) { this(chronology, field, 0); }
+[[0.07731171 0.10724846 0.10724846 0.13868764 0.14798686 0.10002588
+ 0.10724846 0.09113037 0.09084158 0.03227061]
+[0.06259795 0.10456978 0.10456978 0.15922919 0.16910596 0.09873337
+ 0.10456978 0.06522156 0.09781155 0.03359103]
+[0.06259795 0.10456978 0.10456978 0.15922919 0.16910596 0.09873337
+ 0.10456978 0.06522156 0.09781155 0.03359103]
+[0.0591933  0.10209528 0.10209528 0.14133608 0.17814875 0.12280254
+ 0.10209528 0.08407913 0.08122718 0.0269272 ]
+[0.07246891 0.10933302 0.10933302 0.13246688 0.13567135 0.1270843
+ 0.10933302 0.08512495 0.0898885  0.02929606]
+[0.08268622 0.11066445 0.11066445 0.12423438 0.13877001 0.12769179
+ 0.11066445 0.0690823  0.07968077 0.04586121]
+[0.06259795 0.10456978 0.10456978 0.15922919 0.16910596 0.09873337
+ 0.10456978 0.06522156 0.09781155 0.03359103]
+[0.0715216  0.1126786  0.1126786  0.12280707 0.13751127 0.11180939
+ 0.1126786  0.08750412 0.09644177 0.03436893]
+[0.06306787 0.10535214 0.10535214 0.15362579 0.1579685  0.12242106
+ 0.10535214 0.073943   0.08791019 0.02500712]
+[0.05862564 0.10978578 0.10978578 0.12118256 0.1500347  0.14980456
+ 0.10978578 0.06624012 0.09247641 0.03227862]]

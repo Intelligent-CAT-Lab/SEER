@@ -1,0 +1,19 @@
+145152
+Test: public void test65() throws Throwable { CompositeCacheAttributes compositeCacheAttributes0 = new CompositeCacheAttributes(); ICompositeCacheAttributes iCompositeCacheAttributes0 = compositeCacheAttributes0.clone(); ElementAttributes elementAttributes0 = new ElementAttributes(); CompositeCache<LinkedList<String>, CopyOnWriteArrayList<Object>> compositeCache0 = new CompositeCache<LinkedList<String>, CopyOnWriteArrayList<Object>>(iCompositeCacheAttributes0, elementAttributes0); compositeCache0.getSize(); compositeCache0.getMemoryCache(); LHMLRUMemoryCache<GroupId, Integer> lHMLRUMemoryCache0 = new LHMLRUMemoryCache<GroupId, Integer>(); System.setCurrentTimeMillis(30L); }
+Code: public IMemoryCache<K, V> getMemoryCache() { return memCache; }
+[[0.10769189 0.14938717 0.14938717 0.14938717 0.13373199 0.11730102
+ 0.14938717 0.04372638]
+[0.09077284 0.15143086 0.15143086 0.15143086 0.14430623 0.11018361
+ 0.15143086 0.0490139 ]
+[0.09077284 0.15143086 0.15143086 0.15143086 0.14430623 0.11018361
+ 0.15143086 0.0490139 ]
+[0.09077284 0.15143086 0.15143086 0.15143086 0.14430623 0.11018361
+ 0.15143086 0.0490139 ]
+[0.10474119 0.13602485 0.13602485 0.13602485 0.17107216 0.12019399
+ 0.13602485 0.0598933 ]
+[0.07683693 0.15724705 0.15724705 0.15724705 0.14188328 0.11298558
+ 0.15724705 0.03930595]
+[0.09077284 0.15143086 0.15143086 0.15143086 0.14430623 0.11018361
+ 0.15143086 0.0490139 ]
+[0.07219031 0.13394369 0.13394369 0.13394369 0.19165097 0.15943684
+ 0.13394369 0.04094704]]

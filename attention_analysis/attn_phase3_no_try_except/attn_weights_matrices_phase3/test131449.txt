@@ -1,0 +1,9 @@
+131449
+Test: public void test6() throws Throwable { EmptyOrderedMapIterator<Object, String> emptyOrderedMapIterator0 = new EmptyOrderedMapIterator<Object, String>(); OrderedMapIterator<Object, String> orderedMapIterator0 = UnmodifiableOrderedMapIterator.unmodifiableOrderedMapIterator((OrderedMapIterator<Object, ? extends String>) emptyOrderedMapIterator0); AbstractMapIteratorDecorator<Object, String> abstractMapIteratorDecorator0 = new AbstractMapIteratorDecorator<Object, String>(orderedMapIterator0); // Undeclared exception!  abstractMapIteratorDecorator0.remove();   }
+Code: public void remove() { iterator.remove(); }
+[[0.18029106 0.1453397  0.19870372 0.23647025 0.1632379  0.07595742]
+[0.1489453  0.12520888 0.19306715 0.23758477 0.22198482 0.0732091 ]
+[0.13126664 0.08496322 0.23044255 0.32314718 0.18794319 0.04223719]
+[0.15813138 0.1367989  0.22792816 0.24063809 0.14948508 0.08701835]
+[0.14827946 0.13945062 0.20692885 0.2345595  0.20808965 0.0626919 ]
+[0.12832358 0.1161584  0.19199073 0.30087355 0.19651386 0.06613991]]

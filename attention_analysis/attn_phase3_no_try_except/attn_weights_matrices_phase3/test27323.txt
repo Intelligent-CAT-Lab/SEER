@@ -1,0 +1,17 @@
+27323
+Test: public void test0() throws Throwable { Vector3D vector3D0 = Vector3D.of(1210.59, 1210.59, 821.4); Precision.DoubleEquivalence precision_DoubleEquivalence0 = mock(Precision.DoubleEquivalence.class, new ViolatedAssumptionAnswer()); doReturn(false).when(precision_DoubleEquivalence0).eq(anyDouble() , anyDouble()); Line3D line3D0 = new Line3D(vector3D0, vector3D0, precision_DoubleEquivalence0); LineSpanningSubset3D lineSpanningSubset3D0 = new LineSpanningSubset3D(line3D0); AffineTransformMatrix3D affineTransformMatrix3D0 = AffineTransformMatrix3D.identity(); LineSpanningSubset3D lineSpanningSubset3D1 = lineSpanningSubset3D0.transform(affineTransformMatrix3D0); }
+Code: public double getSubspaceStart() { return Double.NEGATIVE_INFINITY; }
+[[0.12752323 0.22157308 0.17689371 0.15529665 0.13852371 0.12908098
+ 0.05110862]
+[0.10408824 0.23294514 0.1910137  0.15982163 0.15212096 0.1161457
+ 0.04386462]
+[0.113148   0.21386036 0.19164264 0.16392894 0.13692255 0.12367542
+ 0.05682207]
+[0.12775794 0.17637628 0.17700662 0.18379883 0.14985606 0.11695004
+ 0.06825422]
+[0.09790593 0.2212049  0.21005923 0.16094555 0.1473718  0.11685973
+ 0.04565286]
+[0.12152541 0.19015497 0.19635513 0.1939803  0.1427944  0.10730413
+ 0.04788563]
+[0.09302207 0.19109604 0.18323694 0.18549694 0.18767962 0.11696868
+ 0.04249972]]

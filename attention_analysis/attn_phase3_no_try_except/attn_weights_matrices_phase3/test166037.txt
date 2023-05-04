@@ -1,0 +1,19 @@
+166037
+Test: public void test29() throws Throwable { XMLConfiguration xMLConfiguration0 = new XMLConfiguration((HierarchicalConfiguration<ImmutableNode>) null); INIConfiguration iNIConfiguration0 = new INIConfiguration(xMLConfiguration0); SubnodeConfiguration subnodeConfiguration0 = iNIConfiguration0.getSection("p`\")F )DF<<{h"); NodeSelector nodeSelector0 = new NodeSelector("p`\")F )DF<<{h"); TrackedNodeModel trackedNodeModel0 = new TrackedNodeModel(xMLConfiguration0, nodeSelector0, false); SubnodeConfiguration subnodeConfiguration1 = new SubnodeConfiguration(subnodeConfiguration0, trackedNodeModel0); SubnodeConfiguration subnodeConfiguration2 = subnodeConfiguration1.createSubConfigurationForTrackedNode(nodeSelector0, subnodeConfiguration0); SubnodeConfiguration subnodeConfiguration3 = subnodeConfiguration2.createSubConfigurationForTrackedNode(nodeSelector0, subnodeConfiguration0); // Undeclared exception!  subnodeConfiguration3.getSubConfigurationParentModel();   }
+Code: protected InMemoryNodeModel getSubConfigurationParentModel() { return (InMemoryNodeModel) getModel(); }
+[[0.14933228 0.13158467 0.13158467 0.17821118 0.11073967 0.13158467
+ 0.13158467 0.03537818]
+[0.17193629 0.1339346  0.1339346  0.1445359  0.09973104 0.1339346
+ 0.1339346  0.04805835]
+[0.17193629 0.1339346  0.1339346  0.1445359  0.09973104 0.1339346
+ 0.1339346  0.04805835]
+[0.17090826 0.12009021 0.12009021 0.17832473 0.11071973 0.12009021
+ 0.12009021 0.05968642]
+[0.18007171 0.13524991 0.13524991 0.14102384 0.09954491 0.13524991
+ 0.13524991 0.0383598 ]
+[0.17193629 0.1339346  0.1339346  0.1445359  0.09973104 0.1339346
+ 0.1339346  0.04805835]
+[0.17193629 0.1339346  0.1339346  0.1445359  0.09973104 0.1339346
+ 0.1339346  0.04805835]
+[0.13632903 0.12010092 0.12010092 0.19202612 0.15096861 0.12010092
+ 0.12010092 0.04027252]]

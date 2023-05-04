@@ -1,0 +1,17 @@
+66155
+Test: public void test3400() throws Throwable { ArrayDeque<SQLTransactionRollbackException> arrayDeque0 = new ArrayDeque<SQLTransactionRollbackException>(); ArrayDeque<SQLTransactionRollbackException> arrayDeque1 = arrayDeque0.clone(); JSONArray jSONArray0 = new JSONArray((Iterable<?>) arrayDeque1); boolean boolean0 = jSONArray0.optBoolean(11, true); int int0 = jSONArray0.optInt((-583), 11); JSONArray jSONArray1 = jSONArray0.put(11, 0.0F); FileSystemHandling fileSystemHandling0 = new FileSystemHandling(); JSONTokener jSONTokener0 = new JSONTokener("Y1fzc;/\"HpT+Zr"); char char0 = jSONTokener0.skipTo(']'); JSONException jSONException0 = jSONTokener0.syntaxError("number"); SQLTransactionRollbackException sQLTransactionRollbackException0 = new SQLTransactionRollbackException("Y1fzc;/\"HpT+Zr", jSONException0); boolean boolean1 = arrayDeque0.offer(sQLTransactionRollbackException0); HashMap<SQLIntegrityConstraintViolationException, SQLException> hashMap0 = new HashMap<SQLIntegrityConstraintViolationException, SQLException>(); JSONArray jSONArray2 = jSONArray1.put(0, (Map<?, ?>) hashMap0); List<Object> list0 = jSONArray0.toList(); }
+Code: public int length() { return this.myArrayList.size(); }
+[[0.14005756 0.09168129 0.19428128 0.17120624 0.152219   0.19428128
+ 0.05627332]
+[0.08921845 0.06556281 0.2322315  0.19481936 0.14315376 0.2322315
+ 0.04278267]
+[0.12119697 0.07944629 0.20417215 0.18169    0.14682373 0.20417216
+ 0.06249871]
+[0.13480824 0.06582753 0.1822551  0.20407528 0.15680158 0.1822551
+ 0.07397714]
+[0.10471454 0.06661788 0.21977326 0.18215512 0.1559014  0.21977329
+ 0.0510645 ]
+[0.12119697 0.07944629 0.20417215 0.18169    0.14682373 0.20417216
+ 0.06249871]
+[0.09448293 0.0724026  0.1800794  0.22326528 0.20070246 0.18007939
+ 0.04898785]]

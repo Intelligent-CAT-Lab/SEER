@@ -1,0 +1,23 @@
+33154
+Test: public void test94() throws Throwable { MathContext mathContext0 = MathContext.DECIMAL64; Boolean boolean0 = Boolean.FALSE; mathContext0.equals(boolean0); JexlArithmetic jexlArithmetic0 = new JexlArithmetic(false, mathContext0, Integer.MIN_VALUE); JexlArithmetic jexlArithmetic1 = jexlArithmetic0.createWithOptions(false, mathContext0, Integer.MIN_VALUE); BigDecimal bigDecimal0 = new BigDecimal((long) Integer.MIN_VALUE); bigDecimal0.toPlainString(); jexlArithmetic1.narrowBigDecimal((Object) null, mathContext0, bigDecimal0); Pattern pattern0 = JexlArithmetic.FLOAT_PATTERN; pattern0.split((CharSequence) "-2147483648"); Double double0 = new Double(1.0); Double double1 = new Double(1.0); FileSystemHandling.appendLineToFile((EvoSuiteFile) null, "-2147483648"); jexlArithmetic1.narrowLong(pattern0, double0, 16380L); jexlArithmetic1.toString((Object) pattern0); Double double2 = new Double(1038.6791422); Object object0 = jexlArithmetic0.subtract((Object) null, double2); Object object1 = jexlArithmetic0.logicalNot((Object) null); Double double3 = new Double(0.0); FileSystemHandling.appendStringToFile((EvoSuiteFile) null, (String) null); jexlArithmetic0.empty(double3); Object object2 = jexlArithmetic0.subtract(object1, object0); Object object3 = jexlArithmetic1.add(object2, boolean0); Long long0 = new Long((-3087L)); Object object4 = jexlArithmetic1.logicalNot((Object) null); jexlArithmetic1.add(object4, object3); jexlArithmetic0.toString((Object) "java.util.regex.Pattern@0000000003"); jexlArithmetic1.logicalNot(mathContext0); }
+Code: public final Object logicalNot(final Object arg) { return not(arg); }
+[[0.09782779 0.07728183 0.07531169 0.13570353 0.07531169 0.13570353
+ 0.12103252 0.10650116 0.13570355 0.03962273]
+[0.08847036 0.05836026 0.06542824 0.14060064 0.06542824 0.14060064
+ 0.14341767 0.1284801  0.14060065 0.02861309]
+[0.09419902 0.06668533 0.06708828 0.12780446 0.06708828 0.12780446
+ 0.17270426 0.115547   0.12780447 0.03327442]
+[0.0853558  0.07949556 0.06506992 0.14421415 0.06506992 0.14421415
+ 0.12563133 0.10334262 0.14421418 0.04339232]
+[0.09419902 0.06668533 0.06708828 0.12780446 0.06708828 0.12780446
+ 0.17270426 0.115547   0.12780447 0.03327442]
+[0.0853558  0.07949556 0.06506992 0.14421415 0.06506992 0.14421415
+ 0.12563133 0.10334262 0.14421418 0.04339232]
+[0.09578498 0.09386328 0.05704048 0.12756054 0.05704048 0.12756054
+ 0.14934357 0.11084437 0.12756057 0.05340114]
+[0.07261446 0.06471689 0.06792032 0.1521483  0.06792032 0.1521483
+ 0.1268353  0.10802092 0.15214834 0.03552677]
+[0.08535581 0.07949556 0.06506993 0.14421415 0.06506993 0.14421415
+ 0.12563133 0.10334263 0.14421417 0.04339233]
+[0.06790391 0.06081537 0.06835024 0.12823647 0.06835024 0.12823647
+ 0.16730057 0.1462206  0.1282365  0.03634966]]

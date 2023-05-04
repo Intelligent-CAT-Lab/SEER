@@ -1,0 +1,17 @@
+83361
+Test: public void test10() throws Throwable { byte[] byteArray0 = new byte[7]; byteArray0[2] = (byte)67; ByteArrayInputStream byteArrayInputStream0 = new ByteArrayInputStream(byteArray0); PushbackInputStream pushbackInputStream0 = new PushbackInputStream(byteArrayInputStream0); DataInputStream dataInputStream0 = new DataInputStream(pushbackInputStream0); ConstantPool constantPool0 = new ConstantPool(dataInputStream0); SimpleElementValue simpleElementValue0 = (SimpleElementValue)ElementValue.readElementValue(dataInputStream0, constantPool0); ConstantPool constantPool1 = simpleElementValue0.getConstantPool(); }
+Code: final ConstantPool getConstantPool() { return cpool; }
+[[0.07461485 0.18058166 0.18058166 0.18268865 0.1644539  0.18058164
+ 0.03649755]
+[0.10146177 0.18356976 0.18356976 0.16071868 0.13165274 0.18356977
+ 0.05545758]
+[0.10146177 0.18356976 0.18356976 0.16071868 0.13165274 0.18356977
+ 0.05545758]
+[0.11886425 0.16101915 0.16101915 0.19009247 0.14018449 0.16101915
+ 0.06780141]
+[0.08203056 0.19145954 0.19145954 0.16206019 0.13623635 0.19145954
+ 0.04529428]
+[0.10146177 0.18356976 0.18356976 0.16071868 0.13165274 0.18356977
+ 0.05545758]
+[0.07645947 0.16166474 0.16166474 0.2093051  0.18369922 0.16166472
+ 0.04554196]]

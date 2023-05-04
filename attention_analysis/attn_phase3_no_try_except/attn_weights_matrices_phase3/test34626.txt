@@ -1,0 +1,19 @@
+34626
+Test: public void test25() throws Throwable { JexlBuilder jexlBuilder0 = new JexlBuilder(); Engine engine0 = new Engine(jexlBuilder0); JexlOptions jexlOptions0 = new JexlOptions(); Scope scope0 = mock(Scope.class, new ViolatedAssumptionAnswer()); String[] stringArray0 = new String[2]; Scope scope1 = new Scope(scope0, stringArray0); Frame frame0 = new Frame(scope1, stringArray0, 2); Interpreter interpreter0 = new Interpreter(engine0, jexlOptions0, engine0.EMPTY_CONTEXT, frame0); boolean boolean0 = interpreter0.cancel(); boolean boolean1 = interpreter0.cancel(); }
+Code: protected boolean cancel() { return cancelled.compareAndSet(false, true); }
+[[0.1061108  0.19990243 0.09984425 0.15723978 0.09039239 0.09984425
+ 0.21613649 0.03052961]
+[0.10191958 0.22567263 0.09739172 0.16421963 0.09738153 0.09739172
+ 0.18667081 0.02935233]
+[0.1250937  0.21914023 0.10583119 0.12923805 0.08083015 0.10583119
+ 0.1918753  0.04216023]
+[0.14102486 0.16250353 0.10350305 0.16667551 0.09761755 0.10350305
+ 0.17049135 0.05468114]
+[0.11574987 0.21902339 0.10095842 0.13240026 0.07768507 0.10095842
+ 0.21808596 0.03513861]
+[0.1250937  0.21914023 0.10583119 0.12923805 0.08083015 0.10583119
+ 0.1918753  0.04216023]
+[0.11039937 0.1897603  0.11845412 0.14380077 0.08353584 0.11845412
+ 0.19513789 0.04045762]
+[0.10375148 0.16745687 0.09500997 0.17203096 0.12741438 0.09500997
+ 0.20392066 0.03540569]]

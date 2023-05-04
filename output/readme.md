@@ -1,0 +1,1 @@
+The pretrained model for phase 2 `epoch_29_fold_1.h5` goes in this folder.

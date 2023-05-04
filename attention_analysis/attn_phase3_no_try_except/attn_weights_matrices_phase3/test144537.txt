@@ -1,0 +1,17 @@
+144537
+Test: public void test0() throws Throwable { ZombieCacheServiceNonLocal<CacheElementSerialized<Object, String>, String> zombieCacheServiceNonLocal0 = new ZombieCacheServiceNonLocal<CacheElementSerialized<Object, String>, String>(509); byte[] byteArray0 = new byte[3]; byteArray0[0] = (byte) (-114); byteArray0[1] = (byte)71; byteArray0[2] = (byte) (-74); ElementAttributes elementAttributes0 = new ElementAttributes(); ElementAttributes elementAttributes1 = new ElementAttributes(elementAttributes0); CacheElementSerialized<Object, String> cacheElementSerialized0 = new CacheElementSerialized<Object, String>("Yy8=mx]pE2E", "ZZQPL83<5yDY_{*", byteArray0, elementAttributes1); cacheElementSerialized0.equals("ZZQPL83<5yDY_{*"); zombieCacheServiceNonLocal0.get("ZZQPL83<5yDY_{*", cacheElementSerialized0, false); zombieCacheServiceNonLocal0.update((ICacheElement<CacheElementSerialized<Object, String>, String>) null, (-2435L)); ZombieCacheServiceNonLocal<CacheElementSerialized<Object, String>, String> zombieCacheServiceNonLocal1 = new ZombieCacheServiceNonLocal<CacheElementSerialized<Object, String>, String>(); zombieCacheServiceNonLocal0.propagateEvents(zombieCacheServiceNonLocal1); ZombieCacheServiceNonLocal<String, Integer> zombieCacheServiceNonLocal2 = new ZombieCacheServiceNonLocal<String, Integer>(); zombieCacheServiceNonLocal2.getMatching("qI=jei Spl", "", (-1L)); zombieCacheServiceNonLocal0.propagateEvents((ICacheServiceNonLocal<CacheElementSerialized<Object, String>, String>) null); ZombieCacheServiceNonLocal<Object, CacheElementSerialized<String, Integer>> zombieCacheServiceNonLocal3 = new ZombieCacheServiceNonLocal<Object, CacheElementSerialized<String, Integer>>((-1059)); int int0 = zombieCacheServiceNonLocal3.getQueueSize(); int int1 = zombieCacheServiceNonLocal0.getQueueSize(); }
+Code: public int getQueueSize() { return queue.size(); }
+[[0.14005756 0.09168129 0.19428128 0.17120624 0.152219   0.19428128
+ 0.05627332]
+[0.08921845 0.06556281 0.2322315  0.19481936 0.14315376 0.2322315
+ 0.04278267]
+[0.12119697 0.07944629 0.20417215 0.18169    0.14682373 0.20417216
+ 0.06249871]
+[0.13480824 0.06582753 0.1822551  0.20407528 0.15680158 0.1822551
+ 0.07397714]
+[0.10471454 0.06661788 0.21977326 0.18215512 0.1559014  0.21977329
+ 0.0510645 ]
+[0.12119697 0.07944629 0.20417215 0.18169    0.14682373 0.20417216
+ 0.06249871]
+[0.09448293 0.0724026  0.1800794  0.22326528 0.20070246 0.18007939
+ 0.04898785]]

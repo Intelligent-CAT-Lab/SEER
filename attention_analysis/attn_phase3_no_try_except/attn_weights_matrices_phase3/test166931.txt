@@ -1,0 +1,21 @@
+166931
+Test: public void test32() throws Throwable { HierarchicalConfiguration<Integer> hierarchicalConfiguration0 = (HierarchicalConfiguration<Integer>) mock(HierarchicalConfiguration.class, new ViolatedAssumptionAnswer()); NodeHandler<DynamicCombinedConfiguration> nodeHandler0 = (NodeHandler<DynamicCombinedConfiguration>) mock(NodeHandler.class, new ViolatedAssumptionAnswer()); XMLBeanDeclaration.NodeData<DynamicCombinedConfiguration> xMLBeanDeclaration_NodeData0 = new XMLBeanDeclaration.NodeData<DynamicCombinedConfiguration>((DynamicCombinedConfiguration) null, nodeHandler0); XMLBeanDeclaration xMLBeanDeclaration0 = new XMLBeanDeclaration(hierarchicalConfiguration0, xMLBeanDeclaration_NodeData0); boolean boolean0 = xMLBeanDeclaration0.isReservedChildName("config-union select\n 'LONG RAW' as type_name, -4 as data_type, 2147483647 as precision,\n '''' as literal_prefix, '''' as literal_suffix, NULL as create_params,\n 1 as nullable, 0 as case_sensitive, 0 as searchable,\n 0 as unsigned_attribute, 0 as fixed_prec_scale, 0 as auto_increment,\n 'LONG RAW' as local_type_name, 0 as minimum_scale, 0 as maximum_scale,\n NULL as sql_data_type, NULL as sql_datetime_sub, 10 as num_prec_radix\nfrom dual\n"); }
+Code: protected boolean isReservedChildName(final String name) { return isReservedName(name); }
+[[0.11491077 0.2139817  0.10584979 0.10234433 0.07293735 0.15930542
+ 0.09369229 0.10584979 0.03112858]
+[0.10942099 0.24038306 0.1008645  0.09737037 0.05939715 0.16371998
+ 0.09853261 0.1008645  0.02944679]
+[0.12744844 0.22082123 0.10530728 0.11201781 0.0839863  0.12444611
+ 0.07987042 0.10530728 0.04079513]
+[0.10624267 0.24037035 0.11154611 0.09126498 0.06869745 0.147783
+ 0.08666672 0.11154611 0.03588258]
+[0.12501852 0.20922278 0.08930159 0.12540475 0.08292354 0.12880972
+ 0.09405836 0.08930159 0.05595915]
+[0.13541548 0.15667847 0.1002424  0.10768016 0.08739361 0.16383749
+ 0.09494948 0.1002424  0.05356048]
+[0.12550685 0.23786631 0.10567039 0.10639769 0.07085471 0.13225003
+ 0.08052253 0.10567039 0.03526113]
+[0.12744844 0.22082123 0.10530728 0.11201781 0.0839863  0.12444611
+ 0.07987042 0.10530728 0.04079513]
+[0.10899902 0.17518158 0.09842913 0.10105927 0.08269826 0.17078581
+ 0.12904868 0.09842913 0.03536916]]

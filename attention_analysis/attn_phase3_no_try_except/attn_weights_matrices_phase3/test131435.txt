@@ -1,0 +1,17 @@
+131435
+Test: public void test0() throws Throwable { HashMultiSet<Boolean> hashMultiSet0 = new HashMultiSet<Boolean>(); Set<Boolean> set0 = hashMultiSet0.createUniqueSet(); SynchronizedMultiSet.SynchronizedSet<Boolean> synchronizedMultiSet_SynchronizedSet0 = new SynchronizedMultiSet.SynchronizedSet<Boolean>(set0, "Set must not be null."); }
+Code: protected SynchronizedMultiSet(final MultiSet<E> multiset) { super(multiset); }
+[[0.16382487 0.14688092 0.14688092 0.14688092 0.2076934  0.1468809
+ 0.04095805]
+[0.1897989  0.14865147 0.14865147 0.14865147 0.16185562 0.14865148
+ 0.05373953]
+[0.1897989  0.14865147 0.14865147 0.14865147 0.16185562 0.14865148
+ 0.05373953]
+[0.1897989  0.14865147 0.14865147 0.14865147 0.16185562 0.14865148
+ 0.05373953]
+[0.1904334  0.13475443 0.13475443 0.13475443 0.2028804  0.13475445
+ 0.06766842]
+[0.1897989  0.14865147 0.14865147 0.14865147 0.16185562 0.14865148
+ 0.05373953]
+[0.1556661  0.13958085 0.13958085 0.13958085 0.23680331 0.13958085
+ 0.04920723]]

@@ -1,0 +1,17 @@
+62762
+Test: public void test4() throws Throwable { EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("/ZoneInfoMap"); byte[] byteArray0 = new byte[8]; byteArray0[0] = (byte)75; FileSystemHandling.appendDataToFile(evoSuiteFile0, byteArray0); MockFile mockFile0 = new MockFile("", ""); ZoneInfoProvider zoneInfoProvider0 = null;  zoneInfoProvider0 = new ZoneInfoProvider(mockFile0);   }
+Code: public ZoneInfoProvider() throws IOException { this(DateTimeZone.DEFAULT_TZ_DATA_PATH); }
+[[0.11895993 0.16502614 0.28347662 0.06092533 0.15638863 0.16502613
+ 0.05019719]
+[0.09810838 0.16621557 0.31567538 0.06269891 0.1418851  0.16621557
+ 0.0492011 ]
+[0.077425   0.13695453 0.38259923 0.04834102 0.18185927 0.13695452
+ 0.03586644]
+[0.08831225 0.16838643 0.34176698 0.04853796 0.15187182 0.16838643
+ 0.03273815]
+[0.12189543 0.16637063 0.21877328 0.0793794  0.18100046 0.16637065
+ 0.0662102 ]
+[0.09810838 0.16621557 0.31567538 0.06269891 0.1418851  0.16621557
+ 0.0492011 ]
+[0.07786099 0.14608452 0.3281199  0.06189474 0.19735354 0.1460845
+ 0.04260176]]

@@ -1,0 +1,19 @@
+76044
+Test: public void test1() throws Throwable { ClassPath classPath0 = new ClassPath(""); ClassPathRepository classPathRepository0 = new ClassPathRepository(classPath0); java.lang.ClassLoader classLoader0 = java.lang.ClassLoader.getSystemClassLoader(); ClassLoaderRepository classLoaderRepository0 = new ClassLoaderRepository(classLoader0); JavaClass javaClass0 = classLoaderRepository0.loadClass("org.apache.bcel.classfile.ModulePackages"); classPathRepository0.removeClass(javaClass0); }
+Code: public void removeClass(final JavaClass javaClass) { _loadedClasses.remove(javaClass.getClassName()); }
+[[0.11128984 0.08866034 0.15437749 0.15437749 0.15437749 0.13750468
+ 0.15437749 0.04503515]
+[0.08380216 0.0750215  0.15995298 0.15995298 0.15995298 0.15465282
+ 0.15995298 0.04671162]
+[0.09391071 0.08228534 0.1576162  0.1576162  0.1576162  0.14403921
+ 0.1576162  0.04929995]
+[0.09391071 0.08228534 0.1576162  0.1576162  0.1576162  0.14403921
+ 0.1576162  0.04929995]
+[0.09391071 0.08228534 0.1576162  0.1576162  0.1576162  0.14403921
+ 0.1576162  0.04929995]
+[0.10764715 0.09389572 0.1412242  0.1412242  0.1412242  0.17262238
+ 0.1412242  0.06093798]
+[0.09391071 0.08228534 0.1576162  0.1576162  0.1576162  0.14403921
+ 0.1576162  0.04929995]
+[0.07925351 0.07469707 0.14613718 0.14613718 0.14613718 0.21566801
+ 0.14613718 0.04583269]]

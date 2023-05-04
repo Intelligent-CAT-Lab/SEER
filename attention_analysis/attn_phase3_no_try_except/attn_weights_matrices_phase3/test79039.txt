@@ -1,0 +1,2 @@
+79039
+Test: public void test55() throws Throwable { ArrayType arrayType0 = new ArrayType("StackMap", 250); boolean boolean0 = arrayType0.STRING.isAssignmentCompatibleWith(arrayType0); }

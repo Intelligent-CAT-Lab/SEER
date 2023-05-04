@@ -1,0 +1,17 @@
+141836
+Test: public void test4() throws Throwable { MySQLDiskCacheAttributes mySQLDiskCacheAttributes0 = new MySQLDiskCacheAttributes(); JndiDataSourceFactory jndiDataSourceFactory0 = new JndiDataSourceFactory(); TableState tableState0 = new TableState("49B>1P%G`SYd]SZ;TZ"); jndiDataSourceFactory0.initialize(mySQLDiskCacheAttributes0); MySQLDiskCache<CacheElement<Integer, Object>, Object> mySQLDiskCache0 = new MySQLDiskCache<CacheElement<Integer, Object>, Object>(mySQLDiskCacheAttributes0, jndiDataSourceFactory0, tableState0); CacheElement<Integer, Object> cacheElement0 = new CacheElement<Integer, Object>("_", (Integer) 1, mySQLDiskCache0); byte[] byteArray0 = new byte[4]; byteArray0[3] = (byte)60; ElementAttributes elementAttributes0 = new ElementAttributes(); CacheElementSerialized<CacheElement<Integer, Object>, Object> cacheElementSerialized0 = new CacheElementSerialized<CacheElement<Integer, Object>, Object>("`a^_2twiWe;R(>", cacheElement0, byteArray0, elementAttributes0); mySQLDiskCache0.processUpdate(cacheElementSerialized0); MySQLDiskCache<CacheElementSerialized<Object, Delayed>, ForkJoinTask<Object>> mySQLDiskCache1 = new MySQLDiskCache<CacheElementSerialized<Object, Delayed>, ForkJoinTask<Object>>(mySQLDiskCacheAttributes0, jndiDataSourceFactory0, tableState0); }
+Code: public String getCacheName() { return cacheName; }
+[[0.12830108 0.1666011  0.17797421 0.15782064 0.1395634  0.17797421
+ 0.05176535]
+[0.12820424 0.14977588 0.1834282  0.1802996  0.12852609 0.18342823
+ 0.04633773]
+[0.10518022 0.1933394  0.1756843  0.16600226 0.12763993 0.1756843
+ 0.0564696 ]
+[0.11900765 0.17346033 0.15602481 0.19107194 0.13699669 0.15602481
+ 0.06741381]
+[0.08912516 0.20455416 0.18036592 0.1687272  0.13034222 0.18036592
+ 0.04651939]
+[0.10518022 0.1933394  0.1756843  0.16600226 0.12763993 0.1756843
+ 0.0564696 ]
+[0.08551911 0.15674725 0.16242397 0.20538047 0.18261436 0.16242395
+ 0.04489082]]

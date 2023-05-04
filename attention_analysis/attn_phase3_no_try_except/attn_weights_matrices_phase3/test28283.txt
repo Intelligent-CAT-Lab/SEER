@@ -1,0 +1,17 @@
+28283
+Test: public void test32() throws Throwable { Precision.DoubleEquivalence precision_DoubleEquivalence0 = mock(Precision.DoubleEquivalence.class, new ViolatedAssumptionAnswer()); Vector2D vector2D0 = Vector2D.NEGATIVE_INFINITY; Vector2D.Unit vector2D_Unit0 = Vector2D.Unit.from(1611.0, 1611.0); Line line0 = new Line(vector2D_Unit0, 4.0, precision_DoubleEquivalence0); Segment segment0 = new Segment(line0, vector2D0, vector2D0); Vector2D vector2D1 = segment0.getStartPoint(); }
+Code: public Vector2D getStartPoint() { return startPoint; }
+[[0.12708764 0.16876699 0.17629503 0.16058049 0.13876864 0.17629501
+ 0.05220618]
+[0.12779227 0.14475325 0.17486784 0.19623442 0.1321462  0.17486782
+ 0.04933821]
+[0.10721128 0.17796148 0.17911541 0.16899443 0.13009907 0.17911543
+ 0.05750287]
+[0.12315539 0.14580205 0.16447066 0.19098713 0.14265275 0.16447066
+ 0.06846136]
+[0.09467688 0.1556447  0.19579247 0.17065848 0.13993359 0.19579248
+ 0.04750143]
+[0.10721128 0.17796148 0.17911541 0.16899443 0.13009907 0.17911543
+ 0.05750287]
+[0.08721709 0.1333999  0.16461845 0.2154096  0.18796048 0.16461843
+ 0.04677598]]

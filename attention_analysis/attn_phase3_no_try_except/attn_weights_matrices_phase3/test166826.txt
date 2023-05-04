@@ -1,0 +1,17 @@
+166826
+Test: public void test7() throws Throwable { InterpolatorSpecification.Builder interpolatorSpecification_Builder0 = new InterpolatorSpecification.Builder(); InterpolatorSpecification interpolatorSpecification0 = interpolatorSpecification_Builder0.create(); ConfigurationInterpolator configurationInterpolator0 = interpolatorSpecification0.getInterpolator(); }
+Code: public ConfigurationInterpolator getInterpolator() { return interpolator; }
+[[0.12616518 0.17499733 0.17499733 0.14050224 0.13542558 0.20022303
+ 0.04768925]
+[0.10419521 0.1786758  0.1786758  0.13881321 0.12576813 0.22480017
+ 0.04907163]
+[0.10419521 0.1786758  0.1786758  0.13881321 0.12576813 0.22480017
+ 0.04907163]
+[0.11830336 0.16417027 0.16417027 0.1696078  0.13884315 0.18181576
+ 0.06308939]
+[0.09065645 0.19537453 0.19537453 0.14724909 0.13676491 0.19270533
+ 0.04187518]
+[0.1092878  0.18198402 0.18198402 0.14730991 0.12263075 0.21218851
+ 0.04461495]
+[0.08207493 0.16050462 0.16050462 0.17041495 0.16754344 0.22033235
+ 0.03862509]]

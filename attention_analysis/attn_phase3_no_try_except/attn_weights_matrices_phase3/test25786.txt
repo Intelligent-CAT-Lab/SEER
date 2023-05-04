@@ -1,0 +1,19 @@
+25786
+Test: public void test19() throws Throwable { Vector<PolygonObjParser.VertexAttributes> vector0 = new Vector<PolygonObjParser.VertexAttributes>(); PolygonObjParser.VertexAttributes polygonObjParser_VertexAttributes0 = new PolygonObjParser.VertexAttributes(575, 575, 575); vector0.add(polygonObjParser_VertexAttributes0); vector0.add(polygonObjParser_VertexAttributes0); PolygonObjParser.Face polygonObjParser_Face0 = new PolygonObjParser.Face(vector0); vector0.add(polygonObjParser_VertexAttributes0); Vector3D.Unit vector3D_Unit0 = Vector3D.Unit.PLUS_X; Vector3D.Unit vector3D_Unit1 = vector3D_Unit0.negate(); Vector3D.Unit vector3D_Unit2 = vector3D_Unit1.orthogonal(); IntFunction<Vector3D> intFunction0 = (IntFunction<Vector3D>) mock(IntFunction.class, new ViolatedAssumptionAnswer()); doReturn(vector3D_Unit1, vector3D_Unit2, vector3D_Unit0, vector3D_Unit1, vector3D_Unit2).when(intFunction0).apply(anyInt()); List<Vector3D> list0 = polygonObjParser_Face0.getVerticesCounterClockwise(vector3D_Unit1, intFunction0); }
+Code: public PolygonObjParser(final Reader reader) { this(new SimpleTextParser(reader)); }
+[[0.10611247 0.14720389 0.12046629 0.14720389 0.13977027 0.14720389
+ 0.14720389 0.04483536]
+[0.09132227 0.15179257 0.10312743 0.15179257 0.1482474  0.15179257
+ 0.15179257 0.05013261]
+[0.0956575  0.14772289 0.1024422  0.14772289 0.16335487 0.14772289
+ 0.14772289 0.04765397]
+[0.09132227 0.15179257 0.10312743 0.15179257 0.1482474  0.15179257
+ 0.15179257 0.05013261]
+[0.10873346 0.14016789 0.08803971 0.14016789 0.17992817 0.14016789
+ 0.14016789 0.06262704]
+[0.09132227 0.15179257 0.10312743 0.15179257 0.1482474  0.15179257
+ 0.15179257 0.05013261]
+[0.09132227 0.15179257 0.10312743 0.15179257 0.1482474  0.15179257
+ 0.15179257 0.05013261]
+[0.07845065 0.14381842 0.08177353 0.14381842 0.21832514 0.14381842
+ 0.14381842 0.04617698]]

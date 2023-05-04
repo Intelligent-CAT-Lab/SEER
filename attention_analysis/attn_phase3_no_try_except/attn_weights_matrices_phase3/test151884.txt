@@ -1,0 +1,17 @@
+151884
+Test: public void test17() throws Throwable { Class<Object> class0 = Object.class; WrapDynaClass wrapDynaClass0 = WrapDynaClass.createDynaClass(class0); DynaBean dynaBean0 = wrapDynaClass0.newInstance(); DynaBeanPropertyMapDecorator dynaBeanPropertyMapDecorator0 = new DynaBeanPropertyMapDecorator(dynaBean0, false); DynaBean dynaBean1 = dynaBeanPropertyMapDecorator0.getDynaBean(); }
+Code: public DynaBean getDynaBean() { return dynaBean; }
+[[0.13075036 0.14859681 0.18137322 0.1623917  0.14242011 0.18137322
+ 0.05309449]
+[0.13738507 0.12971106 0.1578227  0.18099101 0.18391037 0.15782268
+ 0.05235714]
+[0.11228723 0.14338155 0.18843737 0.17234224 0.13613585 0.18843737
+ 0.05897844]
+[0.12298362 0.1463752  0.16262263 0.19434988 0.14197952 0.16262263
+ 0.06906649]
+[0.09802486 0.12616855 0.20521961 0.17156912 0.1457613  0.20521963
+ 0.04803694]
+[0.11228723 0.14338155 0.18843737 0.17234224 0.13613585 0.18843737
+ 0.05897844]
+[0.08964495 0.1165705  0.170339   0.21483329 0.19129282 0.17033899
+ 0.04698047]]

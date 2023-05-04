@@ -1,0 +1,2 @@
+78998
+Test: public void test8() throws Throwable { ObjectType objectType0 = ObjectType.getInstance(""); UninitializedObjectType uninitializedObjectType0 = new UninitializedObjectType(objectType0); // Undeclared exception!  objectType0.isAssignmentCompatibleWith(uninitializedObjectType0);   }

@@ -1,0 +1,27 @@
+59336
+Test: public void test18763() throws Throwable { DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendMonthOfYearText(); boolean boolean0 = FileSystemHandling.shouldThrowIOException((EvoSuiteFile) null); DateTimeFormatterBuilder dateTimeFormatterBuilder2 = dateTimeFormatterBuilder1.appendTimeZoneName(); DateTimeFormatterBuilder dateTimeFormatterBuilder3 = dateTimeFormatterBuilder2.appendHourOfHalfday(171); DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.minuteOfHour(); boolean boolean1 = dateTimeFormatterBuilder2.canBuildPrinter(); DateTimeFormatterBuilder dateTimeFormatterBuilder4 = dateTimeFormatterBuilder3.appendText(dateTimeFieldType0); boolean boolean2 = FileSystemHandling.setPermissions((EvoSuiteFile) null, false, false, true); DateTimeFormatterBuilder dateTimeFormatterBuilder5 = dateTimeFormatterBuilder1.appendLiteral("1Z1DyYZ!aEz=Z#p*#0"); DateTimeFormatterBuilder dateTimeFormatterBuilder6 = dateTimeFormatterBuilder4.appendTimeZoneId(); DateTimeZone dateTimeZone0 = DateTimeZone.getDefault(); GregorianChronology gregorianChronology0 = GregorianChronology.getInstance(dateTimeZone0); boolean boolean3 = dateTimeFieldType0.isSupported(gregorianChronology0); DateTimeFormatterBuilder dateTimeFormatterBuilder7 = dateTimeFormatterBuilder6.appendTwoDigitYear(1039); DateTimeFormatterBuilder.TimeZoneId dateTimeFormatterBuilder_TimeZoneId0 = DateTimeFormatterBuilder.TimeZoneId.INSTANCE; StringBuilder stringBuilder0 = new StringBuilder((CharSequence) "org/joda/time/tz/data"); boolean boolean4 = FileSystemHandling.shouldAllThrowIOExceptions(); dateTimeFormatterBuilder_TimeZoneId0.printTo((Appendable) stringBuilder0, (long) 171, (Chronology) gregorianChronology0, 171, dateTimeZone0, (Locale) null); DateTimeFormatterBuilder dateTimeFormatterBuilder8 = dateTimeFormatterBuilder0.appendWeekyear(171, 1039); DateTimeFormatterBuilder.TwoDigitYear dateTimeFormatterBuilder_TwoDigitYear0 = new DateTimeFormatterBuilder.TwoDigitYear(dateTimeFieldType0, 1493, false); dateTimeFormatterBuilder_TwoDigitYear0.printTo((Appendable) stringBuilder0, 68L, (Chronology) gregorianChronology0, 76, dateTimeZone0, (Locale) null); DateTimeFormatterBuilder dateTimeFormatterBuilder9 = dateTimeFormatterBuilder7.appendSignedDecimal(dateTimeFieldType0, 171, 76); DateTimeFormatterBuilder dateTimeFormatterBuilder10 = dateTimeFormatterBuilder6.appendYear(1493, 76); DateTimeFormatterBuilder dateTimeFormatterBuilder11 = dateTimeFormatterBuilder9.appendCenturyOfEra(1039, (-2294)); }
+Code: public DateTimeFormatterBuilder appendCenturyOfEra(int minDigits, int maxDigits) { return appendSignedDecimal(DateTimeFieldType.centuryOfEra(), minDigits, maxDigits); }
+[[0.07045451 0.0977381  0.0977381  0.0977381  0.0446879  0.0977381
+ 0.09334061 0.07746354 0.0977381  0.0977381  0.0977381  0.02988677]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.04239925 0.10441163 0.10441163 0.10441163 0.02879433 0.10441163
+ 0.10634575 0.06969559 0.10441165 0.10441165 0.10441165 0.02188366]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.07308374 0.09133645 0.09133645 0.09133645 0.03402039 0.09133645
+ 0.12738362 0.08281835 0.09133646 0.09133646 0.09133646 0.04333861]
+[0.05131359 0.10224862 0.10224862 0.10224862 0.0305373  0.10224862
+ 0.10041224 0.07448341 0.10224862 0.10224862 0.10224862 0.02751317]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.04941742 0.088955   0.088955   0.088955   0.03653049 0.088955
+ 0.14699095 0.11370802 0.08895499 0.08895499 0.08895499 0.03066816]]

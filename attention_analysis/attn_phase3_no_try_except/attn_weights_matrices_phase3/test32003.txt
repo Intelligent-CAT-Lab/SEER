@@ -1,0 +1,2 @@
+32003
+Test: public void test23() throws Throwable { Class<Annotation> class0 = Annotation.class; // Undeclared exception!  ClassUtil.getAccessibleField(class0, "G6Ezanl");   }

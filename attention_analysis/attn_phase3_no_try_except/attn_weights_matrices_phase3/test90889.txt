@@ -1,0 +1,19 @@
+90889
+Test: public void test12() throws Throwable { String[] stringArray0 = new String[0]; byte[] byteArray0 = new byte[7]; byteArray0[1] = (byte) (-82); InstructionList instructionList0 = new InstructionList(byteArray0); ASTORE aSTORE0 = new ASTORE((byte)0); Type type0 = aSTORE0.getType((ConstantPoolGen) null); MethodGen methodGen0 = new MethodGen((byte)0, type0, type0.NO_ARGS, stringArray0, "2e/;5yRV<%BXk^|vJ", "2e/;5yRV<%BXk^|vJ", instructionList0, (ConstantPoolGen) null); Subroutines subroutines0 = new Subroutines(methodGen0, false); }
+Code: public Subroutines(final MethodGen mg) { this(mg, true); }
+[[0.09062282 0.12572281 0.12572281 0.12572281 0.12655409 0.12572281
+ 0.24006882 0.03986296]
+[0.07700038 0.12635732 0.12635732 0.12635732 0.13400896 0.12635732
+ 0.23887634 0.04468502]
+[0.07700038 0.12635732 0.12635732 0.12635732 0.13400896 0.12635732
+ 0.23887634 0.04468502]
+[0.07700038 0.12635732 0.12635732 0.12635732 0.13400896 0.12635732
+ 0.23887634 0.04468502]
+[0.09570485 0.12064722 0.12064722 0.12064722 0.1644799  0.12064722
+ 0.2009237  0.05630273]
+[0.07700038 0.12635732 0.12635732 0.12635732 0.13400896 0.12635732
+ 0.23887634 0.04468502]
+[0.08417928 0.12898721 0.12898721 0.12898721 0.14219946 0.12898721
+ 0.21725148 0.04042089]
+[0.06380767 0.11434094 0.11434094 0.11434094 0.19278347 0.11434094
+ 0.24594724 0.04009783]]

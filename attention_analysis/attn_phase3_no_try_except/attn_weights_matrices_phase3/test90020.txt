@@ -1,0 +1,21 @@
+90020
+Test: public void test213() throws Throwable { String string0 = "org.apache.bcel.verifier.structurals.UninitializedObjectType"; Verifier verifier0 = new Verifier("org.apache.bcel.verifier.structurals.UninitializedObjectType"); ClassLoader classLoader0 = ClassLoader.getSystemClassLoader(); classLoader0.setClassAssertionStatus("org.apache.bcel.verifier.structurals.UninitializedObjectType", true); ClassLoaderRepository classLoaderRepository0 = new ClassLoaderRepository(classLoader0); Class<Pass3bVerifier> class0 = Pass3bVerifier.class; JavaClass javaClass0 = classLoaderRepository0.loadClass(class0); Repository repository0 = javaClass0.getRepository(); }
+Code: Verifier(final String fully_qualified_classname) { classname = fully_qualified_classname; flush(); }
+[[0.12361372 0.13493799 0.12361372 0.12387478 0.12361372 0.08141589
+ 0.12361372 0.12361372 0.04170273]
+[0.12976861 0.10604902 0.12976861 0.1458849  0.12976861 0.06273848
+ 0.12976861 0.12976861 0.03648461]
+[0.12361372 0.13493799 0.12361372 0.12387478 0.12361372 0.08141589
+ 0.12361372 0.12361372 0.04170273]
+[0.1160055  0.12728617 0.1160055  0.16042744 0.1160055  0.07755455
+ 0.1160055  0.1160055  0.05470432]
+[0.12361372 0.13493799 0.12361372 0.12387478 0.12361372 0.08141589
+ 0.12361372 0.12361372 0.04170273]
+[0.13204004 0.11063434 0.13204004 0.10581011 0.13204004 0.07751085
+ 0.13204004 0.13204004 0.04584459]
+[0.12361372 0.13493799 0.12361372 0.12387478 0.12361372 0.08141589
+ 0.12361372 0.12361372 0.04170273]
+[0.12361372 0.13493799 0.12361372 0.12387478 0.12361372 0.08141589
+ 0.12361372 0.12361372 0.04170273]
+[0.11879435 0.11938402 0.11879435 0.18639697 0.11879435 0.06103696
+ 0.11879435 0.11879435 0.03921041]]

@@ -1,0 +1,19 @@
+90886
+Test: public void test9() throws Throwable { Constant[] constantArray0 = new Constant[0]; ConstantPoolGen constantPoolGen0 = new ConstantPoolGen(constantArray0); BasicType basicType0 = Type.BOOLEAN; String[] stringArray0 = new String[3]; InstructionList instructionList0 = new InstructionList(); Character character0 = Character.valueOf('V'); PUSH pUSH0 = new PUSH(constantPoolGen0, character0); InstructionHandle instructionHandle0 = instructionList0.insert((CompoundInstruction) pUSH0); IF_ACMPEQ iF_ACMPEQ0 = new IF_ACMPEQ(instructionHandle0); instructionList0.insert(instructionHandle0, (BranchInstruction) iF_ACMPEQ0); MethodGen methodGen0 = new MethodGen(0, basicType0, (Type[]) null, stringArray0, stringArray0[2], "", instructionList0, constantPoolGen0); Subroutines subroutines0 = new Subroutines(methodGen0); }
+Code: public Subroutines(final MethodGen mg) { this(mg, true); }
+[[0.09062282 0.12572281 0.12572281 0.12572281 0.12655409 0.12572281
+ 0.24006882 0.03986296]
+[0.07700038 0.12635732 0.12635732 0.12635732 0.13400896 0.12635732
+ 0.23887634 0.04468502]
+[0.07700038 0.12635732 0.12635732 0.12635732 0.13400896 0.12635732
+ 0.23887634 0.04468502]
+[0.07700038 0.12635732 0.12635732 0.12635732 0.13400896 0.12635732
+ 0.23887634 0.04468502]
+[0.09570485 0.12064722 0.12064722 0.12064722 0.1644799  0.12064722
+ 0.2009237  0.05630273]
+[0.07700038 0.12635732 0.12635732 0.12635732 0.13400896 0.12635732
+ 0.23887634 0.04468502]
+[0.08417928 0.12898721 0.12898721 0.12898721 0.14219946 0.12898721
+ 0.21725148 0.04042089]
+[0.06380767 0.11434094 0.11434094 0.11434094 0.19278347 0.11434094
+ 0.24594724 0.04009783]]

@@ -1,0 +1,21 @@
+62345
+Test: public void test41() throws Throwable { String[] stringArray0 = new String[9]; stringArray0[0] = ""; stringArray0[1] = "org.joda.time.Hours"; stringArray0[2] = "org.joda.time.Hours"; stringArray0[3] = "cOzz)zKB"; stringArray0[4] = ""; stringArray0[5] = "org.joda.time.Hours"; stringArray0[6] = ""; stringArray0[7] = "org.joda.time.Hours"; stringArray0[8] = "org.joda.time.Hours"; LinkedList<Object> linkedList0 = new LinkedList<Object>(); PeriodFormatterBuilder.Composite periodFormatterBuilder_Composite0 = new PeriodFormatterBuilder.Composite(linkedList0); PeriodFormatterBuilder.Separator periodFormatterBuilder_Separator0 = new PeriodFormatterBuilder.Separator("org.joda.time.Hours", "", stringArray0, periodFormatterBuilder_Composite0, periodFormatterBuilder_Composite0, true, false); PeriodFormatter periodFormatter0 = new PeriodFormatter(periodFormatterBuilder_Separator0, periodFormatterBuilder_Composite0); boolean boolean0 = periodFormatter0.isParser(); }
+Code: public boolean isParser() { return (iParser != null); }
+[[0.0874439  0.2051026  0.12131979 0.12960197 0.09784168 0.12131979
+ 0.04939464 0.1478728  0.04010278]
+[0.06039719 0.2966122  0.11417997 0.1619702  0.10300672 0.11417997
+ 0.03164606 0.08817381 0.02983382]
+[0.07238755 0.2555397  0.11830981 0.12862283 0.08822425 0.11830981
+ 0.05042371 0.12546638 0.04271602]
+[0.09287675 0.19553128 0.11828652 0.15691893 0.10589638 0.11828652
+ 0.06716453 0.09092145 0.05411762]
+[0.06178238 0.2786852  0.11664011 0.13413864 0.08740705 0.11664011
+ 0.03973556 0.128888   0.03608299]
+[0.07238755 0.2555397  0.11830981 0.12862283 0.08822425 0.11830981
+ 0.05042371 0.12546638 0.04271602]
+[0.06466454 0.26189086 0.11413389 0.18224326 0.09388707 0.11413389
+ 0.03016346 0.10842425 0.03045879]
+[0.06150715 0.28164548 0.11781587 0.1480379  0.11239004 0.11781587
+ 0.03614394 0.10084943 0.02379437]
+[0.06257582 0.20828667 0.11426726 0.17673847 0.14127022 0.11426726
+ 0.04749683 0.09783177 0.03726579]]

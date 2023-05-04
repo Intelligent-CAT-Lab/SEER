@@ -1,0 +1,8 @@
+162251
+Test: public void test784() throws Throwable { LinkedBlockingDeque<Integer> linkedBlockingDeque0 = new LinkedBlockingDeque<Integer>(false); Integer integer0 = new Integer(1271); boolean boolean0 = linkedBlockingDeque0.removeLastOccurrence(integer0); boolean boolean1 = linkedBlockingDeque0.add(integer0); LinkedHashSet<Integer> linkedHashSet0 = new LinkedHashSet<Integer>(); boolean boolean2 = linkedHashSet0.add(integer0); Integer integer1 = new Integer((-1016)); boolean boolean3 = linkedHashSet0.add(integer1); boolean boolean4 = linkedHashSet0.retainAll(linkedBlockingDeque0); boolean boolean5 = linkedBlockingDeque0.addAll(linkedHashSet0); Object[] objectArray0 = linkedBlockingDeque0.toArray(); LinkedBlockingDeque<Object> linkedBlockingDeque1 = new LinkedBlockingDeque<Object>(4, false); }
+Code: public LinkedBlockingDeque() { this(Integer.MAX_VALUE); }
+[[0.18877485 0.2618447  0.21511179 0.2618447  0.07242395]
+[0.15826353 0.2686846  0.22581923 0.2686846  0.07854807]
+[0.17396262 0.23986343 0.2528699  0.23986343 0.09344059]
+[0.15826353 0.2686846  0.22581923 0.2686846  0.07854807]
+[0.13051036 0.24960408 0.30344182 0.24960408 0.06683967]]

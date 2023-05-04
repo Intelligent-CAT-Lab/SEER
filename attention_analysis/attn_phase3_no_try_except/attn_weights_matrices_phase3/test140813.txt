@@ -1,0 +1,17 @@
+140813
+Test: public void test25() throws Throwable { LateralCacheAttributes lateralCacheAttributes0 = new LateralCacheAttributes(); ZombieCacheServiceNonLocal<CacheElement<String, ZombieCacheWatch>, ZombieCacheWatch> zombieCacheServiceNonLocal0 = new ZombieCacheServiceNonLocal<CacheElement<String, ZombieCacheWatch>, ZombieCacheWatch>(1); LateralTCPCacheFactory lateralTCPCacheFactory0 = new LateralTCPCacheFactory(); LateralCacheMonitor lateralCacheMonitor0 = new LateralCacheMonitor(lateralTCPCacheFactory0); LateralCache<CacheElement<String, ZombieCacheWatch>, ZombieCacheWatch> lateralCache0 = new LateralCache<CacheElement<String, ZombieCacheWatch>, ZombieCacheWatch>(lateralCacheAttributes0, zombieCacheServiceNonLocal0, lateralCacheMonitor0); lateralCache0.processUpdate((ICacheElement<CacheElement<String, ZombieCacheWatch>, ZombieCacheWatch>) null); }
+Code: public String getEventLoggingExtraInfo() { return null; }
+[[0.11690088 0.15134962 0.1621633  0.14696456 0.12755363 0.2472094
+ 0.04785867]
+[0.11980748 0.14129418 0.1730956  0.16084492 0.11921203 0.24389642
+ 0.04184936]
+[0.08859286 0.16304514 0.14807132 0.13930795 0.10749701 0.30605966
+ 0.04742609]
+[0.10825059 0.15766491 0.14184035 0.1739836  0.12458974 0.23231521
+ 0.06135555]
+[0.0778657  0.17516126 0.1560587  0.15052469 0.11334143 0.28571057
+ 0.04133767]
+[0.109602   0.18264396 0.1813819  0.1449417  0.12822178 0.20695633
+ 0.04625241]
+[0.07688846 0.14101425 0.14805253 0.17298439 0.1608117  0.2618369
+ 0.03841174]]

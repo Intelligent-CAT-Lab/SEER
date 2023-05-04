@@ -1,0 +1,17 @@
+128021
+Test: public void test37976() throws Throwable { BigFraction bigFraction0 = BigFraction.from(0.0, 1); BigFraction bigFraction1 = BigFraction.from((double) 1); BigFraction bigFraction2 = bigFraction0.ONE.multiply(bigFraction1); float float0 = bigFraction2.floatValue(); BigFraction bigFraction3 = bigFraction1.ZERO.add((-2305)); BigFraction bigFraction4 = bigFraction1.ZERO.abs(); bigFraction0.hashCode(); BigFraction bigFraction5 = bigFraction2.ZERO.subtract(1); int int0 = bigFraction5.ONE.intValue(); BigFraction bigFraction6 = bigFraction5.negate(); BigDecimal bigDecimal0 = bigFraction1.bigDecimalValue(); double double0 = bigFraction2.doubleValue(); BigFraction bigFraction7 = bigFraction0.multiply(bigFraction1); BigFraction bigFraction8 = bigFraction4.add(bigFraction7); BigFraction bigFraction9 = bigFraction7.divide((-3035)); BigInteger bigInteger0 = BigInteger.ONE; int int1 = bigFraction0.getDenominatorAsInt(); long long0 = bigFraction7.ZERO.longValue(); BigFraction bigFraction10 = bigFraction7.multiply(bigInteger0); int int2 = bigFraction10.ZERO.hashCode(); BigFraction bigFraction11 = bigFraction8.ONE.subtract(bigFraction5); BigFraction bigFraction12 = bigFraction4.divide(bigInteger0); boolean boolean0 = bigFraction12.equals(bigFraction4); BigFraction bigFraction13 = bigFraction12.subtract(1); BigFraction bigFraction14 = bigFraction13.ONE.multiply(1); BigFraction bigFraction15 = BigFraction.from((double) 1, (double) 1, 1); BigFraction bigFraction16 = bigFraction13.multiply(9218868437227405312L); BigFraction bigFraction17 = bigFraction3.divide(bigFraction2); double double1 = bigFraction17.doubleValue(); BigFraction bigFraction18 = bigFraction7.divide(bigInteger0); boolean boolean1 = bigFraction18.equals((Object) null); int int3 = bigFraction6.getDenominatorAsInt(); }
+Code: public int getDenominatorAsInt() { return denominator.intValue(); }
+[[0.14005756 0.09168129 0.19428128 0.17120624 0.152219   0.19428128
+ 0.05627332]
+[0.08921845 0.06556281 0.2322315  0.19481936 0.14315376 0.2322315
+ 0.04278267]
+[0.12119697 0.07944629 0.20417215 0.18169    0.14682373 0.20417216
+ 0.06249871]
+[0.13480824 0.06582753 0.1822551  0.20407528 0.15680158 0.1822551
+ 0.07397714]
+[0.10471454 0.06661788 0.21977326 0.18215512 0.1559014  0.21977329
+ 0.0510645 ]
+[0.12119697 0.07944629 0.20417215 0.18169    0.14682373 0.20417216
+ 0.06249871]
+[0.09448293 0.0724026  0.1800794  0.22326528 0.20070246 0.18007939
+ 0.04898785]]

@@ -1,0 +1,8 @@
+163645
+Test: public void test2388() throws Throwable { LinkedBlockingDeque<Object> linkedBlockingDeque0 = new LinkedBlockingDeque<Object>(574); Integer integer0 = new Integer(574); TimeUnit timeUnit0 = TimeUnit.MINUTES; boolean boolean0 = linkedBlockingDeque0.offer((Object) integer0, 0L, timeUnit0); String string0 = linkedBlockingDeque0.toString(); Object object0 = linkedBlockingDeque0.poll(); LinkedBlockingDeque<String> linkedBlockingDeque1 = new LinkedBlockingDeque<String>(); }
+Code: public LinkedBlockingDeque() { this(Integer.MAX_VALUE); }
+[[0.18877485 0.2618447  0.21511179 0.2618447  0.07242395]
+[0.15826353 0.2686846  0.22581923 0.2686846  0.07854807]
+[0.17396262 0.23986343 0.2528699  0.23986343 0.09344059]
+[0.15826353 0.2686846  0.22581923 0.2686846  0.07854807]
+[0.13051036 0.24960408 0.30344182 0.24960408 0.06683967]]

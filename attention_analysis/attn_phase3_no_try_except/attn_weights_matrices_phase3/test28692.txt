@@ -1,0 +1,21 @@
+28692
+Test: public void test7() throws Throwable { Vector2D.Unit vector2D_Unit0 = Vector2D.Unit.MINUS_Y; Precision.DoubleEquivalence precision_DoubleEquivalence0 = mock(Precision.DoubleEquivalence.class, new ViolatedAssumptionAnswer()); doReturn("").when(precision_DoubleEquivalence0).toString(); Line line0 = mock(Line.class, new ViolatedAssumptionAnswer()); doReturn(precision_DoubleEquivalence0).when(line0).getPrecision(); LineSpanningSubset lineSpanningSubset0 = new LineSpanningSubset(line0); Precision.DoubleEquivalence precision_DoubleEquivalence1 = lineSpanningSubset0.getPrecision(); Line line1 = new Line(vector2D_Unit0, (-1.0), precision_DoubleEquivalence1); Line line2 = line1.reverse(); Segment segment0 = line2.segment((Vector2D) vector2D_Unit0, (Vector2D) vector2D_Unit0); Vector1D vector1D0 = segment0.toSubspace((Vector2D) vector2D_Unit0); }
+Code: public Vector1D toSubspace(final Vector2D pt) { return line.toSubspace(pt); }
+[[0.09357142 0.1298055  0.1298055  0.12287696 0.1298055  0.1223201
+ 0.10267682 0.1298055  0.03933268]
+[0.07883743 0.13053885 0.13053885 0.1283911  0.13053885 0.13075468
+ 0.09583905 0.13053885 0.04402234]
+[0.07883743 0.13053885 0.13053885 0.1283911  0.13053885 0.13075468
+ 0.09583905 0.13053885 0.04402234]
+[0.09539807 0.12581863 0.12581863 0.10351332 0.12581863 0.15934058
+ 0.09949736 0.12581863 0.03897624]
+[0.07883743 0.13053885 0.13053885 0.1283911  0.13053885 0.13075468
+ 0.09583905 0.13053885 0.04402234]
+[0.09365866 0.12045352 0.12045352 0.1077158  0.12045352 0.15561412
+ 0.10713106 0.12045352 0.05406628]
+[0.06871666 0.13875149 0.13875149 0.10915004 0.13875149 0.13073155
+ 0.10038563 0.13875149 0.03601012]
+[0.07883743 0.13053885 0.13053885 0.1283911  0.13053885 0.13075468
+ 0.09583905 0.13053885 0.04402234]
+[0.0648552  0.11911906 0.11911906 0.0962513  0.11911906 0.17919411
+ 0.14526498 0.11911906 0.0379582 ]]

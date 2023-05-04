@@ -1,0 +1,9 @@
+28707
+Test: public void test22() throws Throwable { Vector2D.Unit vector2D_Unit0 = Vector2D.Unit.PLUS_Y; Precision.DoubleEquivalence precision_DoubleEquivalence0 = mock(Precision.DoubleEquivalence.class, new ViolatedAssumptionAnswer()); doReturn((String) null).when(precision_DoubleEquivalence0).toString(); Line line0 = new Line(vector2D_Unit0, 0.0, precision_DoubleEquivalence0); ReverseRay reverseRay0 = line0.reverseRayTo((-3965.31405)); HyperplaneBoundedRegion<Vector1D> hyperplaneBoundedRegion0 = reverseRay0.getSubspaceRegion(); }
+Code: public abstract HyperplaneBoundedRegion<Vector1D> getSubspaceRegion(); /** {@inheritDoc}
+[[0.14270926 0.06536001 0.1979827  0.1979827  0.19798268 0.19798268]
+[0.12789029 0.05201244 0.20502432 0.20502432 0.2050243  0.2050243 ]
+[0.12360433 0.07147676 0.20122972 0.20122972 0.20122974 0.20122974]
+[0.12360433 0.07147676 0.20122972 0.20122972 0.20122974 0.20122974]
+[0.12360433 0.07147676 0.20122972 0.20122972 0.20122974 0.20122974]
+[0.12360433 0.07147676 0.20122972 0.20122972 0.20122974 0.20122974]]

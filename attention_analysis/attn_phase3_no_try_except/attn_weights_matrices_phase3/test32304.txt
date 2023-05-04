@@ -1,0 +1,2 @@
+32304
+Test: public void test9() throws Throwable { MetricRegistry metricRegistry0 = MetricRegistry.INSTANCE; Double[] doubleArray0 = new Double[4]; Double double0 = new Double(1.0); doubleArray0[0] = double0; doubleArray0[1] = doubleArray0[0]; doubleArray0[2] = doubleArray0[0]; doubleArray0[3] = doubleArray0[1]; metricRegistry0.histogram("", doubleArray0); Reporter[] reporterArray0 = new Reporter[0]; ReportScheduler reportScheduler0 = new ReportScheduler(metricRegistry0, reporterArray0); reportScheduler0.report(); }

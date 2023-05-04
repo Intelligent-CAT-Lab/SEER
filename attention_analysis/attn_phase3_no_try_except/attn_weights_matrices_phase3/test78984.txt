@@ -1,0 +1,6 @@
+78984
+Test: public void test3() throws Throwable { IF_ACMPNE iF_ACMPNE0 = new IF_ACMPNE((InstructionHandle) null); }
+Code: IF_ACMPNE() { }
+[[0.5234282  0.34890088 0.12767084]
+[0.46439818 0.38162568 0.15397614]
+[0.48506725 0.4157069  0.09922581]]

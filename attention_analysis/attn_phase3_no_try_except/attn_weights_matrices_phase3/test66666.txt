@@ -1,0 +1,27 @@
+66666
+Test: public void test3957() throws Throwable { ArrayDeque<SQLTimeoutException> arrayDeque0 = new ArrayDeque<SQLTimeoutException>(); SQLDataException sQLDataException0 = new SQLDataException(")."); SQLRecoverableException sQLRecoverableException0 = new SQLRecoverableException(); Object[] objectArray0 = new Object[8]; objectArray0[0] = (Object) ")."; objectArray0[1] = (Object) ")."; objectArray0[3] = (Object) sQLDataException0; objectArray0[5] = (Object) arrayDeque0; objectArray0[7] = (Object) sQLRecoverableException0; Throwable[] throwableArray0 = sQLRecoverableException0.getSuppressed(); sQLDataException0.addSuppressed(sQLRecoverableException0); SQLTimeoutException sQLTimeoutException0 = new SQLTimeoutException(").", "hy/MqSH3U~ESI&~", 432, sQLDataException0); boolean boolean0 = arrayDeque0.add(sQLTimeoutException0); JSONArray jSONArray0 = new JSONArray((Collection<?>) arrayDeque0); JSONArray jSONArray1 = new JSONArray((JSONArray) null); boolean boolean1 = jSONArray1.optBoolean(0, true); float float0 = jSONArray1.optFloat((-431), (-166.505F)); Object object0 = jSONArray0.opt(0); String string0 = jSONArray1.optString((-431), " (null)."); String string1 = jSONArray1.optString(1475, ")."); MockPrintWriter mockPrintWriter0 = new MockPrintWriter("U\">QJ<DjR5\"M'tw fIS"); Locale locale0 = Locale.GERMAN; Locale locale1 = locale0.stripExtensions(); PrintWriter printWriter0 = mockPrintWriter0.format(locale1, "timeout() should not be used with atMost() because...", objectArray0); Writer writer0 = jSONArray0.write((Writer) printWriter0, 45, 45); }
+Code: public Writer write(Writer writer) throws JSONException { return this.write(writer, 0, 0); }
+[[0.06100094 0.08670496 0.08462885 0.08462885 0.14089721 0.08462885
+ 0.08630003 0.06774677 0.08462886 0.12359911 0.06815916 0.0270764 ]
+[0.0497517  0.09126072 0.08579382 0.08579382 0.15844543 0.08579382
+ 0.09794364 0.06699504 0.08579383 0.10804807 0.06107755 0.02330252]
+[0.04820558 0.09668857 0.08014685 0.08014685 0.15636581 0.08014685
+ 0.07813651 0.05855344 0.08014685 0.14071558 0.07431556 0.02643158]
+[0.04820558 0.09668857 0.08014685 0.08014685 0.15636581 0.08014685
+ 0.07813651 0.05855344 0.08014685 0.14071558 0.07431556 0.02643158]
+[0.044158   0.07863511 0.0744523  0.0744523  0.20904273 0.0744523
+ 0.1127743  0.07336587 0.07445231 0.09712836 0.06543641 0.02164999]
+[0.04820558 0.09668857 0.08014685 0.08014685 0.15636581 0.08014685
+ 0.07813651 0.05855344 0.08014685 0.14071558 0.07431556 0.02643158]
+[0.06499147 0.10155149 0.08318221 0.08318221 0.11391056 0.08318221
+ 0.10888638 0.07422222 0.08318222 0.10549325 0.06052388 0.03769189]
+[0.04381031 0.09130362 0.08610202 0.08610202 0.16053125 0.08610202
+ 0.08817635 0.06317227 0.08610202 0.11647069 0.06809095 0.02403646]
+[0.04820558 0.09668857 0.08014685 0.08014685 0.15636581 0.08014685
+ 0.07813651 0.05855344 0.08014685 0.14071558 0.07431556 0.02643158]
+[0.05140501 0.08954848 0.07751133 0.07751133 0.15692945 0.07751133
+ 0.11736818 0.07702188 0.07751133 0.10640703 0.06605931 0.02521529]
+[0.04921171 0.06680239 0.08105379 0.08105379 0.1700673  0.08105379
+ 0.09865546 0.06771815 0.08105379 0.13589102 0.06745426 0.01998447]
+[0.04063945 0.09417627 0.07455245 0.07455245 0.17052147 0.07455245
+ 0.11280446 0.09117547 0.07455245 0.10638449 0.06221677 0.02387183]]

@@ -18,7 +18,7 @@ def load_dict(filename):
     return json.load(open(filename))
 
 
-def plot_attn_weights(attn_output_weights, code_seq):
+def plot_attn_weights(attn_output_weights, code_seq, key):
     code_seq = code_seq.split()
     plt.figure(figsize=(7,7))
     data = attn_output_weights.squeeze(0).detach().cpu().numpy()
@@ -26,7 +26,9 @@ def plot_attn_weights(attn_output_weights, code_seq):
     plt.xticks(range(len(code_seq)), [str(i) for i in code_seq], rotation=90)
     plt.yticks(range(len(code_seq)), [str(i) for i in code_seq])
     plt.colorbar()
-    plt.savefig('attn_weights.pdf', format='pdf', dpi=300, bbox_inches='tight')
+    pdfname = "./attn_weights_images/attn_weights" + key + ".pdf" #used for phase2
+    plt.savefig(pdfname, format='pdf', dpi=300, bbox_inches='tight')
+    plt.close('all')
 
 
 def main(args):
@@ -44,18 +46,63 @@ def main(args):
 
     vocab = load_dict('vocab_phase2.json')
 
-    code_seq = ''
-    with open('sample_code.txt') as f:
-        code_seq = f.read().strip()
+    f = open('../scripts/data/phase2_unseen.json') #used for phase2
+    data = json.load(f)
 
-    with torch.no_grad():
-        seq = sent2indexes(code_seq, vocab, 1625)
-        indices = seq[0][:seq[1][0]]
-        index_seq = torch.tensor([indices]).to(device)
-        embeddings = model.encoder.pos_encoder(model.encoder.encoder(index_seq))
-        attn_output, attn_output_weights = model.encoder.transformer_encoder.layers[0].self_attn(embeddings, embeddings, embeddings)
+    for key in data.keys():
 
-    plot_attn_weights(attn_output_weights, code_seq)
+        try:
+            code_seq = data[key]['C'].strip()
+
+            # computes the attention
+            with torch.no_grad():
+                seq = sent2indexes(code_seq, vocab, 1625)
+                indices = seq[0][:seq[1][0]]
+                index_seq = torch.tensor([indices]).to(device)
+                embeddings = model.encoder.pos_encoder(model.encoder.encoder(index_seq))
+                attn_output, attn_output_weights = model.encoder.transformer_encoder.layers[0].self_attn(embeddings, embeddings, embeddings)
+
+            filename = "./attn_weights_matrices/test" + key + ".txt" #used for phase2
+
+            # used for documenting text matrices
+            with open(filename, 'w') as file:
+                file.write(key + "\n")
+                file.write("Test: " + data[key]['T'] + "\n")
+                file.write("Code: " + data[key]['C'] + "\n")
+                file.write("[")
+                for i in range(len(attn_output_weights)):
+                    for j in range(len(attn_output_weights.numpy()[i])):
+                        file.write(str(attn_output_weights.numpy()[i][j]))
+                        if(j != len(attn_output_weights.numpy()[i])-1):
+                            file.write("\n")
+                file.write("]")
+                print("written:", key)
+            # with open(filename, 'a') as file:
+            #     indexes = []
+            #     print(attn_output_weights.numpy()[0])
+            #     for i in range(len(attn_output_weights)):
+            #         # file.write(str(attn_output_weights[i]))
+            #         print(type(attn_output_weights[i]))
+            #         for j in range(len(attn_output_weights[i])):
+            #             max = -1
+            #             highest_attn = ""
+            #             if[attn_output_weights[i][j]>max]:
+            #                 max = attn_output_weights[i][j]
+            #                 temp = data[key]['C'].split()
+            #                 highest_attn = temp[j]
+            #                 indexes.append(highest_attn)
+                # print("Indexes:", indexes)
+                # file.write("\n" + highest_attn)
+
+
+
+            plot_attn_weights(attn_output_weights, code_seq, key) # used for plotting heat map of matrices
+        except:
+            print("Could not create mapping:", key)
+
+        
+
+    f.close()
 
 
 def parse_args():

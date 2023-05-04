@@ -1,0 +1,21 @@
+61283
+Test: public void test20757() throws Throwable { DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendLiteral("!-yQ_{2Q5N]o"); int int0 = 50; DateTimeFormatterBuilder dateTimeFormatterBuilder2 = dateTimeFormatterBuilder1.appendFractionOfSecond(50, 15); DateTimeFormatterBuilder dateTimeFormatterBuilder3 = dateTimeFormatterBuilder2.appendMinuteOfHour(50); DateTimeFormatterBuilder.TimeZoneId dateTimeFormatterBuilder_TimeZoneId0 = DateTimeFormatterBuilder.TimeZoneId.INSTANCE; DateTimePrinter dateTimePrinter0 = InternalPrinterDateTimePrinter.of(dateTimeFormatterBuilder_TimeZoneId0); DateTimeParser dateTimeParser0 = InternalParserDateTimeParser.of(dateTimeFormatterBuilder_TimeZoneId0); DateTimeFormatter dateTimeFormatter0 = new DateTimeFormatter(dateTimePrinter0, dateTimeParser0); Integer integer0 = new Integer(2326); DateTimeFormatter dateTimeFormatter1 = dateTimeFormatter0.withPivotYear(integer0); DateTimeZone dateTimeZone0 = DateTimeZone.forOffsetMillis(15); DateTimeFormatter dateTimeFormatter2 = dateTimeFormatter1.withZone(dateTimeZone0); boolean boolean0 = FileSystemHandling.appendStringToFile((EvoSuiteFile) null, "org/joda/time/tz/data"); DateTimeFormatterBuilder dateTimeFormatterBuilder4 = dateTimeFormatterBuilder3.append(dateTimeFormatter2); int int1 = (-290); Integer integer1 = Integer.getInteger("Pacific/M", (-290)); DateTimeFormatterBuilder dateTimeFormatterBuilder5 = dateTimeFormatterBuilder4.appendDayOfMonth(57); DateTimeFormatter dateTimeFormatter3 = dateTimeFormatterBuilder5.toFormatter(); DateTimeFormatterBuilder dateTimeFormatterBuilder6 = dateTimeFormatterBuilder5.append(dateTimePrinter0, dateTimeParser0); DateTimeFormatterBuilder dateTimeFormatterBuilder7 = dateTimeFormatterBuilder4.appendTwoDigitWeekyear(57); }
+Code: public DateTimeFormatterBuilder appendTwoDigitWeekyear(int pivot) { return appendTwoDigitWeekyear(pivot, false); }
+[[0.09398533 0.13036358 0.13036358 0.13036358 0.10601261 0.10105013
+ 0.13036358 0.14167733 0.03582029]
+[0.07588169 0.12925531 0.12925531 0.12925531 0.10589145 0.09171913
+ 0.12925531 0.17246348 0.03702302]
+[0.07588169 0.12925531 0.12925531 0.12925531 0.10589145 0.09171913
+ 0.12925531 0.17246348 0.03702302]
+[0.07588169 0.12925531 0.12925531 0.12925531 0.10589145 0.09171913
+ 0.12925531 0.17246348 0.03702302]
+[0.0884898  0.11971799 0.11971799 0.11971799 0.13377039 0.10295095
+ 0.11971799 0.14739352 0.04852339]
+[0.06536734 0.1389665  0.1389665  0.1389665  0.11007702 0.09794368
+ 0.1389665  0.1396804  0.03106561]
+[0.07588169 0.12925531 0.12925531 0.12925531 0.10589145 0.09171913
+ 0.12925531 0.17246348 0.03702302]
+[0.08371039 0.1297092  0.1297092  0.1297092  0.12147221 0.08990787
+ 0.1297092  0.15369625 0.03237646]
+[0.06275073 0.11922731 0.11922731 0.11922731 0.1504311  0.13391773
+ 0.11922731 0.14309703 0.03289422]]

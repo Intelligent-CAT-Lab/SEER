@@ -1,0 +1,23 @@
+61697
+Test: public void test21182() throws Throwable { DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.monthOfYear(); DateTimeFormatterBuilder.Fraction dateTimeFormatterBuilder_Fraction0 = new DateTimeFormatterBuilder.Fraction(dateTimeFieldType0, (-59), (-59)); DateTimeZone dateTimeZone0 = DateTimeZone.forOffsetMillis((-2036)); ISOChronology iSOChronology0 = ISOChronology.getInstance(dateTimeZone0); Locale locale0 = Locale.ENGLISH; Integer integer0 = new Integer((-2036)); DateTimeParserBucket dateTimeParserBucket0 = new DateTimeParserBucket(965L, iSOChronology0, locale0, integer0, 3172); int int0 = dateTimeFormatterBuilder_Fraction0.parseInto(dateTimeParserBucket0, "org/joda/time/tz/data", (-1258)); DateTimeFormatterBuilder.FixedNumber dateTimeFormatterBuilder_FixedNumber0 = new DateTimeFormatterBuilder.FixedNumber(dateTimeFieldType0, (-686), false); char[] charArray0 = new char[1]; CharBuffer charBuffer0 = CharBuffer.wrap(charArray0); dateTimeFormatterBuilder_FixedNumber0.printTo((Appendable) charBuffer0, (long) (-2036), (Chronology) iSOChronology0, (-690), dateTimeZone0, locale0); DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); InternalParser[] internalParserArray0 = new InternalParser[8]; internalParserArray0[0] = (InternalParser) dateTimeFormatterBuilder_FixedNumber0; internalParserArray0[1] = (InternalParser) dateTimeFormatterBuilder_Fraction0; internalParserArray0[2] = (InternalParser) dateTimeFormatterBuilder_Fraction0; internalParserArray0[3] = (InternalParser) dateTimeFormatterBuilder_Fraction0; internalParserArray0[4] = (InternalParser) dateTimeFormatterBuilder_Fraction0; internalParserArray0[5] = (InternalParser) dateTimeFormatterBuilder_Fraction0; internalParserArray0[6] = (InternalParser) dateTimeFormatterBuilder_Fraction0; internalParserArray0[7] = (InternalParser) dateTimeFormatterBuilder_FixedNumber0; DateTimeFormatterBuilder.MatchingParser dateTimeFormatterBuilder_MatchingParser0 = new DateTimeFormatterBuilder.MatchingParser(internalParserArray0); DateTimeParser dateTimeParser0 = InternalParserDateTimeParser.of(dateTimeFormatterBuilder_MatchingParser0); DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendOptional(dateTimeParser0); DateTimeFormatterBuilder dateTimeFormatterBuilder2 = dateTimeFormatterBuilder1.appendDayOfWeek(83); }
+Code: public DateTimeFormatterBuilder appendDayOfWeek(int minDigits) { return appendDecimal(DateTimeFieldType.dayOfWeek(), minDigits, 1); }
+[[0.08207821 0.11386496 0.11386496 0.11386496 0.11070298 0.09048602
+ 0.11386496 0.11386496 0.11216104 0.035247  ]
+[0.06937463 0.11389971 0.11389971 0.11389971 0.12042658 0.08447717
+ 0.11389971 0.11389971 0.11604673 0.04017635]
+[0.06937463 0.11389971 0.11389971 0.11389971 0.12042658 0.08447717
+ 0.11389971 0.11389971 0.11604673 0.04017635]
+[0.06937463 0.11389971 0.11389971 0.11389971 0.12042658 0.08447717
+ 0.11389971 0.11389971 0.11604673 0.04017635]
+[0.08280099 0.10259582 0.10259582 0.10259582 0.14630435 0.09357067
+ 0.10259582 0.10259582 0.114861   0.0494839 ]
+[0.0586582  0.11546604 0.11546604 0.11546604 0.11768609 0.08464643
+ 0.11546604 0.11546604 0.12957995 0.03209914]
+[0.06937463 0.11389971 0.11389971 0.11389971 0.12042658 0.08447717
+ 0.11389971 0.11389971 0.11604673 0.04017635]
+[0.06937463 0.11389971 0.11389971 0.11389971 0.12042658 0.08447717
+ 0.11389971 0.11389971 0.11604673 0.04017635]
+[0.0718565  0.10371087 0.10371087 0.10371087 0.13820848 0.11234604
+ 0.10371087 0.10371087 0.13029361 0.02874101]
+[0.05673252 0.10248138 0.10248138 0.10248138 0.16667813 0.12994105
+ 0.10248138 0.10248138 0.09937952 0.03486195]]

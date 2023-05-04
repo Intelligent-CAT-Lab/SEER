@@ -1,0 +1,17 @@
+70183
+Test: public void test363() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test363"); org.apache.commons.jxpath.ri.model.NodePointer nodePointer0 = null; org.apache.commons.jxpath.ri.model.beans.NullPropertyPointer nullPropertyPointer1 = new org.apache.commons.jxpath.ri.model.beans.NullPropertyPointer(nodePointer0); int int2 = nullPropertyPointer1.getLength(); java.lang.Object obj3 = nullPropertyPointer1.getBaseValue(); java.lang.Object obj4 = nullPropertyPointer1.getBaseValue(); java.lang.Object obj5 = nullPropertyPointer1.getBaseValue(); nullPropertyPointer1.setPropertyName(""); java.lang.Object obj8 = nullPropertyPointer1.getBaseValue(); try { java.lang.Object obj9 = nullPropertyPointer1.getBean(); } catch (java.lang.NullPointerException e) { } }
+Code: public int getLength() { return ValueUtils.getLength(getBaseValue()); }
+[[0.10345884 0.06669699 0.344025   0.13164528 0.11308175 0.19839098
+ 0.04270119]
+[0.07994388 0.06039837 0.30234772 0.16495211 0.12710936 0.22799772
+ 0.03725086]
+[0.08526704 0.05546489 0.2996505  0.18003917 0.10685791 0.2323316
+ 0.04038883]
+[0.11515376 0.05633986 0.25714564 0.17321955 0.13408463 0.20107783
+ 0.06297876]
+[0.07133114 0.04414823 0.36547017 0.13059896 0.1050813  0.24713029
+ 0.03623989]
+[0.0823234  0.04747894 0.35038397 0.12977326 0.11253434 0.24316019
+ 0.03434588]
+[0.08271106 0.06374682 0.24663092 0.18720585 0.17331389 0.20488353
+ 0.0415079 ]]

@@ -1,0 +1,17 @@
+25909
+Test: public void test3() throws Throwable { Vector2D.Unit vector2D_Unit0 = Vector2D.Unit.MINUS_Y; Vector1D vector1D0 = Vector1D.POSITIVE_INFINITY; Line line0 = mock(Line.class, new ViolatedAssumptionAnswer()); doReturn(vector1D0).when(line0).toSubspace(any(org.apache.commons.geometry.euclidean.twod.Vector2D.class)); doReturn((String) null).when(line0).toString(); LinecastPoint2D linecastPoint2D0 = new LinecastPoint2D(vector2D_Unit0, vector2D_Unit0, line0); Line line1 = linecastPoint2D0.getLine(); }
+Code: public L getLine() { return line; }
+[[0.13911444 0.10481624 0.19296807 0.16483209 0.15054913 0.19296807
+ 0.054752  ]
+[0.11824755 0.11529963 0.1872257  0.16951972 0.17080884 0.18722567
+ 0.05167289]
+[0.11586872 0.1206103  0.19533043 0.17295906 0.14034921 0.19533044
+ 0.05955189]
+[0.13046238 0.0959298  0.17634556 0.19757289 0.1517367  0.17634556
+ 0.07160708]
+[0.10125862 0.09757234 0.21350163 0.17413427 0.15110092 0.21350165
+ 0.04893056]
+[0.11586872 0.1206103  0.19533043 0.17295906 0.14034921 0.19533044
+ 0.05955189]
+[0.09282093 0.09156143 0.17735513 0.21677712 0.19643176 0.17735511
+ 0.04769848]]

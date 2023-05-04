@@ -1,0 +1,19 @@
+39408
+Test: public void test104() throws Throwable { BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance(); DateTimeField dateTimeField0 = buddhistChronology0.millisOfDay(); DurationField durationField0 = buddhistChronology0.months(); DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.secondOfMinute(); DelegatedDateTimeField delegatedDateTimeField0 = new DelegatedDateTimeField(dateTimeField0, durationField0, dateTimeFieldType0); DateTimeField dateTimeField1 = delegatedDateTimeField0.getWrappedField(); }
+Code: public final DateTimeField getWrappedField() { return iField; }
+[[0.11124498 0.08713619 0.19678423 0.15431002 0.1319832  0.12041023
+ 0.15431002 0.04382106]
+[0.09857658 0.06436218 0.18820563 0.16066536 0.15356323 0.142986
+ 0.16066536 0.03097576]
+[0.08772238 0.07050234 0.20148215 0.15802848 0.15852866 0.12928116
+ 0.15802848 0.03642634]
+[0.09263475 0.08367231 0.22336924 0.15812114 0.12745115 0.11192076
+ 0.15812114 0.04470952]
+[0.1064969  0.10399128 0.15878415 0.1459705  0.15675268 0.12445478
+ 0.1459705  0.0575792 ]
+[0.08061069 0.07148122 0.21014996 0.17024367 0.13805763 0.12038708
+ 0.17024367 0.03882606]
+[0.09263475 0.08367231 0.22336924 0.15812114 0.12745115 0.11192076
+ 0.15812114 0.04470952]
+[0.08005418 0.07023413 0.15586185 0.15445706 0.17832303 0.1669172
+ 0.15445706 0.0396954 ]]

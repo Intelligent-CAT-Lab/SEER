@@ -1,0 +1,17 @@
+27336
+Test: public void test13() throws Throwable { Vector3D.Unit vector3D_Unit0 = Vector3D.Unit.MINUS_Z; Precision.DoubleEquivalence precision_DoubleEquivalence0 = mock(Precision.DoubleEquivalence.class, new ViolatedAssumptionAnswer()); Line3D line3D0 = new Line3D(vector3D_Unit0, vector3D_Unit0, precision_DoubleEquivalence0); LineSpanningSubset3D lineSpanningSubset3D0 = new LineSpanningSubset3D(line3D0); Vector3D vector3D0 = lineSpanningSubset3D0.getEndPoint(); }
+Code: public Vector3D getEndPoint() { return null; }
+[[0.10118996 0.24490842 0.14038464 0.14325126 0.11239181 0.21293819
+ 0.04493573]
+[0.1014819  0.20373815 0.13814077 0.15743344 0.11747384 0.2239327
+ 0.05779926]
+[0.08252165 0.21221931 0.13654293 0.13739689 0.10033178 0.28476527
+ 0.04622209]
+[0.10452473 0.1863679  0.13581418 0.17056069 0.11996625 0.22302726
+ 0.05973902]
+[0.07179523 0.24188201 0.14069572 0.14533235 0.10338247 0.25733623
+ 0.03957596]
+[0.09621604 0.26040626 0.1611655  0.13875292 0.11572447 0.18436322
+ 0.04337163]
+[0.0707783  0.19250539 0.13444027 0.16990381 0.15111555 0.24411619
+ 0.03714045]]

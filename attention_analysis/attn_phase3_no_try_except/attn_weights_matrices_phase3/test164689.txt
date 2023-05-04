@@ -1,0 +1,17 @@
+164689
+Test: public void test30() throws Throwable { MockRandom mockRandom0 = new MockRandom(0L); JDKRandomWrapper jDKRandomWrapper0 = new JDKRandomWrapper(mockRandom0); StableSampler.Beta0CMSStableSampler stableSampler_Beta0CMSStableSampler0 = new StableSampler.Beta0CMSStableSampler(jDKRandomWrapper0, 0L); StableSampler.Beta0CMSStableSampler stableSampler_Beta0CMSStableSampler1 = new StableSampler.Beta0CMSStableSampler(jDKRandomWrapper0, stableSampler_Beta0CMSStableSampler0); }
+Code: StableSampler(UniformRandomProvider rng) { this.rng = rng; }
+[[0.17032441 0.17032441 0.156819   0.17032441 0.10828362 0.17032443
+ 0.0535997 ]
+[0.17032441 0.17032441 0.156819   0.17032441 0.10828362 0.17032443
+ 0.0535997 ]
+[0.15829732 0.15829732 0.19662857 0.15829732 0.10109448 0.15829732
+ 0.06908769]
+[0.17032441 0.17032441 0.156819   0.17032441 0.10828362 0.17032443
+ 0.0535997 ]
+[0.17550112 0.17550112 0.13636024 0.17550112 0.1017503  0.17550111
+ 0.05988498]
+[0.17032441 0.17032441 0.156819   0.17032441 0.10828362 0.17032443
+ 0.0535997 ]
+[0.15979426 0.15979426 0.23214118 0.15979426 0.07921487 0.15979424
+ 0.04946698]]

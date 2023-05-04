@@ -1,0 +1,25 @@
+161513
+Test: public void test5() throws Throwable { SoftReference<String> softReference0 = new SoftReference<String>(""); softReference0.enqueue(); PooledSoftReference<String> pooledSoftReference0 = new PooledSoftReference<String>(softReference0); pooledSoftReference0.toString(); Integer integer0 = new Integer(2468); SoftReference<Integer> softReference1 = new SoftReference<Integer>(integer0); pooledSoftReference0.allocate(); softReference1.get(); softReference1.get(); softReference0.enqueue(); softReference1.get(); softReference1.get(); softReference1.get(); pooledSoftReference0.toString(); softReference0.enqueue(); PooledSoftReference<Integer> pooledSoftReference1 = new PooledSoftReference<Integer>(softReference1); pooledSoftReference1.toString(); pooledSoftReference0.setReference(softReference0); pooledSoftReference0.setReference(softReference0); pooledSoftReference0.setReference(softReference0); SoftReference<Object> softReference2 = new SoftReference<Object>(softReference1); PooledSoftReference<Object> pooledSoftReference2 = new PooledSoftReference<Object>(softReference2); softReference2.get(); pooledSoftReference2.toString(); pooledSoftReference2.setReference(softReference2); pooledSoftReference0.toString(); pooledSoftReference2.toString(); pooledSoftReference1.toString(); pooledSoftReference2.getReference(); pooledSoftReference2.setReference(softReference2); }
+Code: public synchronized void setReference(final SoftReference<T> reference) { this.reference = reference; }
+[[0.07678215 0.14704815 0.06193544 0.10651546 0.10651546 0.10651546
+ 0.10101511 0.10651546 0.04822588 0.10651547 0.03241591]
+[0.07152276 0.16148368 0.05586033 0.10639257 0.10639257 0.10639257
+ 0.08835383 0.10639257 0.06246673 0.10639259 0.02834974]
+[0.05645036 0.17145914 0.05140708 0.10647424 0.10647424 0.10647424
+ 0.10817332 0.10647424 0.04762128 0.10647425 0.03251759]
+[0.06227789 0.16163512 0.05618909 0.10364366 0.10364366 0.10364366
+ 0.10039283 0.10364366 0.06728765 0.10364368 0.03399923]
+[0.06227789 0.16163512 0.05618909 0.10364366 0.10364366 0.10364366
+ 0.10039283 0.10364366 0.06728765 0.10364368 0.03399923]
+[0.06227789 0.16163512 0.05618909 0.10364366 0.10364366 0.10364366
+ 0.10039283 0.10364366 0.06728765 0.10364368 0.03399923]
+[0.07744293 0.11902002 0.06798433 0.09938389 0.09938389 0.09938389
+ 0.12915307 0.09938389 0.06468178 0.09938391 0.04479838]
+[0.06227789 0.16163512 0.05618909 0.10364366 0.10364366 0.10364366
+ 0.10039283 0.10364366 0.06728765 0.10364368 0.03399923]
+[0.07801618 0.11582546 0.06359312 0.11035385 0.11035385 0.11035385
+ 0.08795777 0.11035385 0.06463937 0.11035386 0.03819877]
+[0.06227789 0.1616351  0.05618908 0.10364364 0.10364364 0.10364364
+ 0.10039283 0.10364364 0.06728765 0.10364366 0.03399923]
+[0.05383157 0.16892153 0.05132504 0.09823285 0.09823285 0.09823285
+ 0.15242754 0.09823285 0.05020718 0.09823288 0.03212282]]

@@ -1,0 +1,23 @@
+58386
+Test: public void test17811() throws Throwable { DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); DateTimeFormat.StyleFormatter dateTimeFormat_StyleFormatter0 = new DateTimeFormat.StyleFormatter(406, 406, 310); DateTimePrinter dateTimePrinter0 = InternalPrinterDateTimePrinter.of(dateTimeFormat_StyleFormatter0); DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.append(dateTimePrinter0); DateTimeFormatterBuilder dateTimeFormatterBuilder2 = dateTimeFormatterBuilder1.appendTwoDigitWeekyear(83, false); DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.weekyear(); DateTimeFormatterBuilder dateTimeFormatterBuilder3 = dateTimeFormatterBuilder2.appendShortText(dateTimeFieldType0); DateTimeFormatterBuilder dateTimeFormatterBuilder4 = dateTimeFormatterBuilder3.appendYear(406, 1746); DateTimeFormatterBuilder dateTimeFormatterBuilder5 = dateTimeFormatterBuilder4.appendHourOfDay(83); }
+Code: public DateTimeFormatterBuilder appendHourOfDay(int minDigits) { return appendDecimal(DateTimeFieldType.hourOfDay(), minDigits, 2); }
+[[0.08205512 0.11382069 0.11382069 0.11382069 0.09785184 0.08887724
+ 0.11382069 0.11382069 0.12968028 0.03243214]
+[0.06842582 0.11517966 0.11517966 0.11517966 0.10309129 0.08290781
+ 0.11517966 0.11517966 0.1342538  0.03542297]
+[0.06842582 0.11517966 0.11517966 0.11517966 0.10309129 0.08290781
+ 0.11517966 0.11517966 0.1342538  0.03542297]
+[0.06842582 0.11517966 0.11517966 0.11517966 0.10309129 0.08290781
+ 0.11517966 0.11517966 0.1342538  0.03542297]
+[0.08026189 0.10609328 0.10609328 0.10609328 0.12692222 0.09264792
+ 0.10609328 0.10609328 0.12461083 0.04509079]
+[0.05550785 0.11613241 0.11613241 0.11613241 0.09730859 0.08251259
+ 0.11613241 0.11613241 0.15677267 0.02723623]
+[0.06842582 0.11517966 0.11517966 0.11517966 0.10309129 0.08290781
+ 0.11517966 0.11517966 0.1342538  0.03542297]
+[0.06842582 0.11517966 0.11517966 0.11517966 0.10309129 0.08290781
+ 0.11517966 0.11517966 0.1342538  0.03542297]
+[0.06725104 0.10889164 0.10889164 0.10889164 0.15426037 0.09336461
+ 0.10889164 0.10889164 0.11452725 0.02613861]
+[0.05639288 0.10541715 0.10541715 0.10541715 0.1451817  0.12323768
+ 0.10541715 0.10541715 0.11687201 0.03123005]]

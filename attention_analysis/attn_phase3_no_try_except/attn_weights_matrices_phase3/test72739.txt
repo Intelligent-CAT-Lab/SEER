@@ -1,0 +1,21 @@
+72739
+Test: public void test10368() throws Throwable { JSONArray jSONArray0 = new JSONArray((JSONArray) null); int int0 = (-3816); int int1 = jSONArray0.optInt(0, (-3816)); String string0 = " verify(mock, times(10)).someMethod();"; HashMap<String, ClientInfoStatus> hashMap0 = new HashMap<String, ClientInfoStatus>(); SQLTimeoutException sQLTimeoutException0 = new SQLTimeoutException(" verify(mock, times(10)).someMethod();"); SQLClientInfoException sQLClientInfoException0 = new SQLClientInfoException(" verify(mock, times(10)).someMethod();", " verify(mock, times(10)).someMethod();", hashMap0, sQLTimeoutException0); Throwable[] throwableArray0 = sQLClientInfoException0.getSuppressed(); JSONArray jSONArray1 = jSONArray0.putAll((Object) sQLClientInfoException0); String string1 = jSONArray0.optString(0, " verify(mock, times(10)).someMethod();"); boolean boolean0 = jSONArray1.optBoolean((-3816), true); }
+Code: public boolean optBoolean(int index) { return this.optBoolean(index, false); }
+[[0.07240602 0.19755854 0.10042959 0.23859921 0.07944837 0.0775741
+ 0.10042959 0.10644522 0.02710937]
+[0.04785568 0.2815428  0.09433118 0.19716315 0.09900756 0.07238709
+ 0.09433118 0.09394857 0.01943279]
+[0.06031387 0.24029982 0.10274649 0.17045951 0.0841167  0.07290079
+ 0.10274649 0.1370024  0.02941397]
+[0.05975237 0.24438033 0.09680037 0.18290006 0.09328197 0.0772958
+ 0.09680037 0.11952547 0.0292633 ]
+[0.07468896 0.17970358 0.10345194 0.18383321 0.10751498 0.08759946
+ 0.10345194 0.11984127 0.03991462]
+[0.04794351 0.27582717 0.09934691 0.18800715 0.08601182 0.07093112
+ 0.09934691 0.10862232 0.02396316]
+[0.06031387 0.24029982 0.10274649 0.17045951 0.0841167  0.07290079
+ 0.10274649 0.1370024  0.02941397]
+[0.06759767 0.21461864 0.10494377 0.19160931 0.09631856 0.07222614
+ 0.10494377 0.12197267 0.02576955]
+[0.05031495 0.18992716 0.09830188 0.22848095 0.10500959 0.10286608
+ 0.09830188 0.10302886 0.0237686 ]]

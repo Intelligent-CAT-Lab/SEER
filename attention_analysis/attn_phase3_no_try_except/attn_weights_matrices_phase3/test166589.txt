@@ -1,0 +1,17 @@
+166589
+Test: public void test11() throws Throwable { URLConnectionOptions uRLConnectionOptions0 = new URLConnectionOptions(); FileContent fileContent0 = mock(FileContent.class, new ViolatedAssumptionAnswer()); FileObject fileObject0 = mock(FileObject.class, new ViolatedAssumptionAnswer()); doReturn(fileContent0).when(fileObject0).getContent(); VfsComponentContext vfsComponentContext0 = mock(VfsComponentContext.class, new ViolatedAssumptionAnswer()); doReturn(fileObject0).when(vfsComponentContext0).resolveFile(anyString() , any(org.apache.commons.vfs2.FileSystemOptions.class)); DefaultURLStreamHandler defaultURLStreamHandler0 = new DefaultURLStreamHandler(vfsComponentContext0); URL uRL0 = MockURL.URL("m.~kd1tnul@,+", ".app.log", 0, "", (URLStreamHandler) defaultURLStreamHandler0); URLConnection uRLConnection0 = uRLConnectionOptions0.DEFAULT.openConnection(uRL0); }
+Code: public boolean getUseCaches() { return useCaches; }
+[[0.10934648 0.26729727 0.15169707 0.1511886  0.12100547 0.15169705
+ 0.04776807]
+[0.06855693 0.34035894 0.12991077 0.18153623 0.11619409 0.12991078
+ 0.03353223]
+[0.0877424  0.31477123 0.14417115 0.15167442 0.1068267  0.14417115
+ 0.05064295]
+[0.11026365 0.23269044 0.14063604 0.18583335 0.12578093 0.14063604
+ 0.06415956]
+[0.07348293 0.34289712 0.14042537 0.15607165 0.10455605 0.14042538
+ 0.04214151]
+[0.0877424  0.31477123 0.14417115 0.15167442 0.1068267  0.14417115
+ 0.05064295]
+[0.07333571 0.24605852 0.13447544 0.20389462 0.16462673 0.13447544
+ 0.04313356]]

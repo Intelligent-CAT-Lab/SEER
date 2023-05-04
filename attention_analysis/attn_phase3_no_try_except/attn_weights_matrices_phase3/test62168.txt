@@ -1,0 +1,17 @@
+62168
+Test: public void test135() throws Throwable { DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.monthOfYear(); DateTimeFormatterBuilder.PaddedNumber dateTimeFormatterBuilder_PaddedNumber0 = new DateTimeFormatterBuilder.PaddedNumber(dateTimeFieldType0, (-1), true, 3121); DateTimeFormatter dateTimeFormatter0 = new DateTimeFormatter(dateTimeFormatterBuilder_PaddedNumber0, dateTimeFormatterBuilder_PaddedNumber0); DateTimeFormatter dateTimeFormatter1 = dateTimeFormatter0.withPivotYear((-1)); Integer integer0 = dateTimeFormatter1.getPivotYear(); }
+Code: public Integer getPivotYear() { return iPivotYear; }
+[[0.1336995  0.14111778 0.18545586 0.15733209 0.14455521 0.18545586
+ 0.05238364]
+[0.12869225 0.13392103 0.18047534 0.1830241  0.14672664 0.18047532
+ 0.04668526]
+[0.11158122 0.16271926 0.18995854 0.15629853 0.1348851  0.18995854
+ 0.05459883]
+[0.12413953 0.14147985 0.17233956 0.17781702 0.14571323 0.17233956
+ 0.06617124]
+[0.09757729 0.13067904 0.20769396 0.16380331 0.14629398 0.20769396
+ 0.0462584 ]
+[0.11158122 0.16271926 0.18995854 0.15629853 0.1348851  0.18995854
+ 0.05459883]
+[0.0919145  0.11642937 0.17811908 0.20024566 0.19034679 0.17811906
+ 0.04482551]]

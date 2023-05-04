@@ -1,0 +1,17 @@
+27884
+Test: public void test5() throws Throwable { Vector2D.Unit vector2D_Unit0 = Vector2D.Unit.PLUS_Y; Precision.DoubleEquivalence precision_DoubleEquivalence0 = mock(Precision.DoubleEquivalence.class, new ViolatedAssumptionAnswer()); Line line0 = mock(Line.class, new ViolatedAssumptionAnswer()); doReturn(precision_DoubleEquivalence0).when(line0).getPrecision(); ReverseRay reverseRay0 = new ReverseRay(line0, vector2D_Unit0); Precision.DoubleEquivalence precision_DoubleEquivalence1 = reverseRay0.getPrecision(); Line line1 = new Line(vector2D_Unit0, Double.NEGATIVE_INFINITY, precision_DoubleEquivalence1); ReverseRay reverseRay1 = line1.reverseRayTo(1.0); Vector2D vector2D0 = reverseRay1.getEndPoint(); }
+Code: public Vector2D getEndPoint() { return endPoint; }
+[[0.12708764 0.16876699 0.17629503 0.16058049 0.13876864 0.17629501
+ 0.05220618]
+[0.12779227 0.14475325 0.17486784 0.19623442 0.1321462  0.17486782
+ 0.04933821]
+[0.10721128 0.17796148 0.17911541 0.16899443 0.13009907 0.17911543
+ 0.05750287]
+[0.12315539 0.14580205 0.16447066 0.19098713 0.14265275 0.16447066
+ 0.06846136]
+[0.09467688 0.1556447  0.19579247 0.17065848 0.13993359 0.19579248
+ 0.04750143]
+[0.10721128 0.17796148 0.17911541 0.16899443 0.13009907 0.17911543
+ 0.05750287]
+[0.08721709 0.1333999  0.16461845 0.2154096  0.18796048 0.16461843
+ 0.04677598]]

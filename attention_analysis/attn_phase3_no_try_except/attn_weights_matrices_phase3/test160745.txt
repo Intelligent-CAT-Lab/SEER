@@ -1,0 +1,17 @@
+160745
+Test: public void test4() throws Throwable { KeyedPooledObjectFactory<DefaultPooledObjectInfo, String> keyedPooledObjectFactory0 = (KeyedPooledObjectFactory<DefaultPooledObjectInfo, String>) mock(KeyedPooledObjectFactory.class, new ViolatedAssumptionAnswer()); GenericKeyedObjectPool<DefaultPooledObjectInfo, String> genericKeyedObjectPool0 = new GenericKeyedObjectPool<DefaultPooledObjectInfo, String>(keyedPooledObjectFactory0); boolean boolean0 = genericKeyedObjectPool0.getLifo(); }
+Code: boolean getLifo(); /** * See {@link GenericKeyedObjectPool#getLogAbandoned()}
+[[0.25677302 0.11545773 0.11545773 0.06532262 0.21607348 0.11545773
+ 0.11545773]
+[0.22468176 0.10693026 0.10693026 0.07156588 0.27603132 0.10693026
+ 0.10693026]
+[0.22468176 0.10693026 0.10693026 0.07156588 0.27603132 0.10693026
+ 0.10693026]
+[0.2627513  0.10004547 0.10004547 0.11627185 0.22079495 0.10004547
+ 0.10004547]
+[0.2434572  0.10071167 0.10071167 0.07243234 0.28126377 0.10071167
+ 0.10071167]
+[0.22468176 0.10693026 0.10693026 0.07156588 0.27603132 0.10693026
+ 0.10693026]
+[0.22468176 0.10693026 0.10693026 0.07156588 0.27603132 0.10693026
+ 0.10693026]]

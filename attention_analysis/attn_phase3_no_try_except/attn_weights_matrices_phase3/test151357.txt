@@ -1,0 +1,19 @@
+151357
+Test: public void test10() throws Throwable { ResultSetMetaData resultSetMetaData0 = mock(ResultSetMetaData.class, new ViolatedAssumptionAnswer()); doReturn((-2745)).when(resultSetMetaData0).getColumnCount(); ResultSet resultSet0 = mock(ResultSet.class, new ViolatedAssumptionAnswer()); doReturn(resultSetMetaData0).when(resultSet0).getMetaData(); ResultSetDynaClass resultSetDynaClass0 = new ResultSetDynaClass(resultSet0, true, true); ResultSet resultSet1 = mock(ResultSet.class, new ViolatedAssumptionAnswer()); doReturn(true, false).when(resultSet1).next(); resultSetDynaClass0.resultSet = resultSet1; ResultSetIterator resultSetIterator0 = new ResultSetIterator(resultSetDynaClass0); Consumer<Object> consumer0 = (Consumer<Object>) mock(Consumer.class, new ViolatedAssumptionAnswer()); resultSetIterator0.forEachRemaining(consumer0); }
+Code: ResultSetIterator(final ResultSetDynaClass dynaClass) { this.dynaClass = dynaClass; }
+[[0.14439826 0.14439826 0.14439826 0.13796149 0.14439826 0.09321021
+ 0.14439826 0.04683707]
+[0.14439826 0.14439826 0.14439826 0.13796149 0.14439826 0.09321021
+ 0.14439826 0.04683707]
+[0.14439826 0.14439826 0.14439826 0.13796149 0.14439826 0.09321021
+ 0.14439826 0.04683707]
+[0.1349496  0.1349496  0.1349496  0.1762072  0.1349496  0.08800635
+ 0.1349496  0.06103838]
+[0.14439826 0.14439826 0.14439826 0.13796149 0.14439826 0.09321021
+ 0.14439826 0.04683707]
+[0.14889093 0.14889093 0.14889093 0.11745597 0.14889093 0.08684978
+ 0.14889093 0.05123952]
+[0.14439826 0.14439826 0.14439826 0.13796149 0.14439826 0.09321021
+ 0.14439826 0.04683707]
+[0.1353983  0.1353983  0.1353983  0.20967102 0.1353983  0.0691364
+ 0.1353983  0.04420109]]

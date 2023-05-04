@@ -1,0 +1,17 @@
+27266
+Test: public void test14() throws Throwable { Vector3D.Unit vector3D_Unit0 = Vector3D.Unit.from((-3371.7777156316), (-3371.7777156316), (-3371.7777156316)); Vector3D.Unit vector3D_Unit1 = Vector3D.Unit.MINUS_X; EmbeddingPlane embeddingPlane0 = new EmbeddingPlane(vector3D_Unit0, vector3D_Unit1, vector3D_Unit1, (-3371.7777156316), (Precision.DoubleEquivalence) null); AffineTransformMatrix3D affineTransformMatrix3D0 = AffineTransformMatrix3D.identity(); EmbeddingPlane embeddingPlane1 = embeddingPlane0.transform(affineTransformMatrix3D0); EmbeddingPlane embeddingPlane2 = embeddingPlane1.reverse(); Line[] lineArray0 = new Line[0]; ConvexArea convexArea0 = ConvexArea.fromBounds(lineArray0); EmbeddedAreaPlaneConvexSubset embeddedAreaPlaneConvexSubset0 = new EmbeddedAreaPlaneConvexSubset(embeddingPlane2, convexArea0); EmbeddingPlane embeddingPlane3 = embeddedAreaPlaneConvexSubset0.getHyperplane(); }
+Code: public EmbeddingPlane getHyperplane() { return getPlane(); }
+[[0.12731326 0.17660138 0.17660138 0.1539395  0.13815959 0.17660138
+ 0.05078347]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.1209935  0.16031049 0.16031049 0.19048879 0.13977559 0.16031049
+ 0.06781061]
+[0.09097192 0.18878669 0.18878669 0.16263722 0.13468806 0.18878669
+ 0.04534269]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.08439702 0.15890288 0.15890288 0.21071318 0.18253878 0.15890287
+ 0.04564238]]

@@ -1,0 +1,21 @@
+3337
+Test: public void test320() throws Throwable { Service service0 = Service.ignite(); int int0 = 60; service0.threadIdleTimeoutMillis = 60; Service service1 = service0.webSocketIdleTimeoutMillis((-2012)); String string0 = "Must provide a keystore file to run secured"; Service service2 = service1.staticFileLocation(string0); DelayQueue<Delayed> delayQueue0 = new DelayQueue<Delayed>(); Delayed delayed0 = delayQueue0.poll(); service2.embeddedServerIdentifier((Object) delayed0); service2.maxThreads = service0.SPARK_DEFAULT_PORT; String string1 = null; Service service3 = service1.externalStaticFileLocation(string0); Consumer<Exception> consumer0 = null; boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions(); String string2 = "http://xmlns.jcp.org/xml/ns/javaee/web-common_3_1.xsd"; service3.internalServerError(string2); service3.initExceptionHandler(consumer0); service3.internalServerError(string1); }
+Code: public synchronized void internalServerError(String page) { CustomErrorPages.add(500, page); }
+[[0.09096098 0.17453353 0.07321742 0.12618373 0.12618373 0.11842355
+ 0.12618373 0.12618373 0.03812947]
+[0.08600895 0.19443488 0.06715885 0.12813307 0.12813307 0.10583091
+ 0.12813307 0.12813307 0.03403416]
+[0.0667384  0.20300594 0.06038953 0.12644333 0.12644333 0.12611544
+ 0.12644333 0.12644333 0.03797742]
+[0.07515503 0.1952759  0.06753635 0.12522128 0.12522128 0.12033662
+ 0.12522128 0.12522128 0.040811  ]
+[0.07515503 0.1952759  0.06753635 0.12522128 0.12522128 0.12033662
+ 0.12522128 0.12522128 0.040811  ]
+[0.09245808 0.14297318 0.08097231 0.11963855 0.11963855 0.15198462
+ 0.11963855 0.11963855 0.05305763]
+[0.07515503 0.1952759  0.06753635 0.12522128 0.12522128 0.12033662
+ 0.12522128 0.12522128 0.040811  ]
+[0.07515503 0.1952759  0.06753635 0.12522128 0.12522128 0.12033662
+ 0.12522128 0.12522128 0.040811  ]
+[0.06337904 0.19869678 0.0600122  0.11638188 0.11638188 0.17526521
+ 0.11638188 0.11638188 0.03711925]]

@@ -1,0 +1,9 @@
+77678
+Test: public void test76() throws Throwable { ObjectType objectType0 = Type.THROWABLE; INEG iNEG0 = new INEG(); InstructionHandle instructionHandle0 = new InstructionHandle(iNEG0); IFNONNULL iFNONNULL0 = new IFNONNULL(instructionHandle0); InstructionList instructionList0 = new InstructionList((BranchInstruction) iFNONNULL0); ConstantPoolGen constantPoolGen0 = new ConstantPoolGen(); MethodGen methodGen0 = new MethodGen(0, objectType0, objectType0.NO_ARGS, (String[]) null, (String) null, (String) null, instructionList0, constantPoolGen0); methodGen0.removeExceptionHandlers(); }
+Code: public void removeExceptionHandlers() { exceptionList.clear(); }
+[[0.16401619 0.12892938 0.22750431 0.18872175 0.22750433 0.06332405]
+[0.12662017 0.10623181 0.25207683 0.20101164 0.25207683 0.06198274]
+[0.14093259 0.11606516 0.24057081 0.19385338 0.24057084 0.06800722]
+[0.15142353 0.12997365 0.20939462 0.21874288 0.20939462 0.08107075]
+[0.14093259 0.11606516 0.24057081 0.19385338 0.24057084 0.06800722]
+[0.11676887 0.10545267 0.2233574  0.2712946  0.22335738 0.05976907]]

@@ -1,0 +1,21 @@
+166026
+Test: public void test18() throws Throwable { INIConfiguration iNIConfiguration0 = new INIConfiguration(); SubnodeConfiguration subnodeConfiguration0 = iNIConfiguration0.getSection(""); BaseHierarchicalConfiguration baseHierarchicalConfiguration0 = new BaseHierarchicalConfiguration(subnodeConfiguration0); NodeSelector nodeSelector0 = new NodeSelector(""); SubnodeConfiguration subnodeConfiguration1 = baseHierarchicalConfiguration0.createSubConfigurationForTrackedNode(nodeSelector0, subnodeConfiguration0); // Undeclared exception!  subnodeConfiguration1.immutableConfigurationsAt("");   }
+Code: public List<ImmutableHierarchicalConfiguration> immutableConfigurationsAt(final String key) { return toImmutable(configurationsAt(key)); }
+[[0.09691565 0.13443875 0.13443875 0.12567414 0.1087182  0.12043315
+ 0.10557351 0.13443875 0.03936906]
+[0.07822406 0.13088468 0.13088468 0.14426455 0.12608904 0.12221064
+ 0.09489478 0.13088468 0.04166293]
+[0.07822406 0.13088468 0.13088468 0.14426455 0.12608904 0.12221064
+ 0.09489478 0.13088468 0.04166293]
+[0.09483816 0.1353883  0.1353883  0.11055754 0.12391785 0.13474602
+ 0.09523693 0.1353883  0.03453858]
+[0.07483166 0.12708989 0.12708989 0.13062908 0.11729924 0.15449667
+ 0.10216919 0.12708989 0.03930454]
+[0.09287627 0.12070326 0.12070326 0.1338543  0.09998646 0.15149811
+ 0.10660413 0.12070326 0.05307098]
+[0.06628057 0.13531476 0.13531476 0.1548782  0.11843023 0.12306319
+ 0.09734745 0.13531476 0.03405607]
+[0.07822406 0.13088468 0.13088468 0.14426455 0.12608904 0.12221064
+ 0.09489478 0.13088468 0.04166293]
+[0.06561893 0.12394105 0.12394105 0.12024315 0.10438299 0.16155697
+ 0.14126734 0.12394105 0.03510747]]

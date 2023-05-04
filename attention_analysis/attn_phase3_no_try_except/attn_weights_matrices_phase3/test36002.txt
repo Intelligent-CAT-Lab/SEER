@@ -1,0 +1,21 @@
+36002
+Test: public void test64() throws Throwable { DateTimePrinter dateTimePrinter0 = mock(DateTimePrinter.class, new ViolatedAssumptionAnswer()); DateTimeParser dateTimeParser0 = mock(DateTimeParser.class, new ViolatedAssumptionAnswer()); doReturn(153692453).when(dateTimeParser0).parseInto(any(org.joda.time.format.DateTimeParserBucket.class) , anyString() , anyInt()); DateTimeFormatter dateTimeFormatter0 = new DateTimeFormatter(dateTimePrinter0, dateTimeParser0); LocalDateTime localDateTime0 = LocalDateTime.parse("ko5';o2 /", dateTimeFormatter0); // Undeclared exception!  localDateTime0.withDayOfYear(1229);   }
+Code: public LocalDateTime withDayOfYear(int dayOfYear) { return withLocalMillis(getChronology().dayOfYear().set(getLocalMillis(), dayOfYear)); }
+[[0.09031417 0.15794647 0.12528369 0.12528369 0.11469205 0.0986864
+ 0.12528369 0.12528369 0.03722615]
+[0.07193911 0.15873256 0.12739265 0.12739265 0.13102911 0.09403495
+ 0.12739265 0.12739265 0.03469367]
+[0.07577477 0.16651674 0.12681937 0.12681937 0.11820251 0.09191872
+ 0.12681937 0.12681937 0.04030976]
+[0.07577477 0.16651674 0.12681937 0.12681937 0.11820251 0.09191872
+ 0.12681937 0.12681937 0.04030976]
+[0.08970809 0.14167109 0.11764817 0.11764817 0.1439484  0.10327893
+ 0.11764817 0.11764817 0.05080081]
+[0.06396045 0.16417502 0.13273948 0.13273948 0.11433151 0.094699
+ 0.13273948 0.13273948 0.03187608]
+[0.07577477 0.16651674 0.12681937 0.12681937 0.11820251 0.09191872
+ 0.12681937 0.12681937 0.04030976]
+[0.07577477 0.16651674 0.12681937 0.12681937 0.11820251 0.09191872
+ 0.12681937 0.12681937 0.04030976]
+[0.05963031 0.17704143 0.11133282 0.11133282 0.15430284 0.13053992
+ 0.11133282 0.11133282 0.03315426]]

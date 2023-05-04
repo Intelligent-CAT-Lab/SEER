@@ -1,0 +1,2 @@
+32342
+Test: public void test21() throws Throwable { Double[] doubleArray0 = new Double[0]; Histogram histogram0 = new Histogram(doubleArray0); Double[] doubleArray1 = new Double[5]; histogram0.setPcts(doubleArray1); // Undeclared exception!  histogram0.calculateMetric();   }

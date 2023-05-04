@@ -1,0 +1,17 @@
+2967
+Test: public void test5() throws Throwable { SessionHandler sessionHandler0 = new SessionHandler(); DefaultSessionCache defaultSessionCache0 = new DefaultSessionCache(sessionHandler0); org.eclipse.jetty.server.session.Session session0 = defaultSessionCache0.newSession((SessionData) null); Request request0 = new Request(); Session session1 = new Session(session0, request0); // Undeclared exception!  session1.removeAttribute("STARTED");   }
+Code: public void removeAttribute(String name) { session.removeAttribute(name); }
+[[0.13942157 0.11070622 0.19339803 0.13796902 0.1693298  0.19339803
+ 0.05577732]
+[0.11065758 0.0943625  0.21807474 0.12016788 0.18265547 0.21807474
+ 0.0560071 ]
+[0.11755982 0.09940997 0.19926357 0.15618545 0.16949989 0.1992636
+ 0.05881767]
+[0.14628232 0.12396331 0.17442252 0.15564594 0.15600322 0.17442252
+ 0.06926018]
+[0.1273984  0.1104907  0.17036454 0.15360315 0.19705707 0.17036456
+ 0.07072157]
+[0.11755982 0.09940997 0.19926357 0.15618545 0.16949989 0.1992636
+ 0.05881767]
+[0.09682295 0.08936877 0.18183303 0.15290606 0.24442488 0.18183301
+ 0.05281127]]

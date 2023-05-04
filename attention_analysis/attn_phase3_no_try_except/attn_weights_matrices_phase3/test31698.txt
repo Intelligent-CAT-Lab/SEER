@@ -1,0 +1,2 @@
+31698
+Test: public void test35() throws Throwable { String string0 = "%bQj$!+|QfUG;ie"; File file0 = FileUtil.createTempFile("%bQj$!+|QfUG;ie", "%bQj$!+|QfUG;ie"); // Undeclared exception!  FileUtil.deleteDir(file0);   }

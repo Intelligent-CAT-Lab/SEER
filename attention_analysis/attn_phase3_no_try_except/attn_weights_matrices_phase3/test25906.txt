@@ -1,0 +1,17 @@
+25906
+Test: public void test0() throws Throwable { Vector2D vector2D0 = Vector2D.of((-2.9), (-2.9)); Vector1D.Unit vector1D_Unit0 = Vector1D.Unit.from((-2.9)); Line line0 = mock(Line.class, new ViolatedAssumptionAnswer()); doReturn(vector1D_Unit0).when(line0).toSubspace(any(org.apache.commons.geometry.euclidean.twod.Vector2D.class)); LinecastPoint2D linecastPoint2D0 = new LinecastPoint2D(vector2D0, vector2D0, line0); double double0 = linecastPoint2D0.getAbscissa(); }
+Code: public double getAbscissa() { return abscissa; }
+[[0.12138198 0.21067072 0.16837692 0.14996013 0.13211727 0.16837692
+ 0.04911605]
+[0.09638105 0.21385449 0.17573197 0.15400177 0.1425685  0.17573196
+ 0.0417302 ]
+[0.10521905 0.1977453  0.17666146 0.16101982 0.12755397 0.17666146
+ 0.05513891]
+[0.12052633 0.16450168 0.162176   0.18418273 0.13996387 0.162176
+ 0.06647336]
+[0.08993015 0.1981554  0.18714294 0.15971428 0.1333277  0.18714294
+ 0.04458664]
+[0.10521905 0.1977453  0.17666146 0.16101982 0.12755397 0.17666146
+ 0.05513891]
+[0.08478323 0.18134877 0.16373265 0.18798338 0.17652494 0.16373263
+ 0.04189442]]

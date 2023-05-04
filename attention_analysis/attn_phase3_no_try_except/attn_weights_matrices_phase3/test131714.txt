@@ -1,0 +1,21 @@
+131714
+Test: public void test93() throws Throwable { LinkedMap<Integer, Integer> linkedMap0 = new LinkedMap<Integer, Integer>(0); LinkedMap.LinkedMapList<Integer> linkedMap_LinkedMapList0 = new LinkedMap.LinkedMapList<Integer>(linkedMap0); Object[] objectArray0 = new Object[4]; objectArray0[0] = (Object) linkedMap0; LinkedMap<Object, Object> linkedMap1 = new LinkedMap<Object, Object>(); Object object0 = linkedMap1.put("", linkedMap0); objectArray0[1] = null; objectArray0[2] = (Object) linkedMap0; BiFunction<Object, Object, String> biFunction0 = (BiFunction<Object, Object, String>) mock(BiFunction.class, new ViolatedAssumptionAnswer()); doReturn("").when(biFunction0).apply(any() , any()); LinkedMap<Object, Object> linkedMap2 = new LinkedMap<Object, Object>(linkedMap1); LinkedMap linkedMap3 = (LinkedMap)linkedMap1.getOrDefault(objectArray0[2], linkedMap2); String string0 = (String)linkedMap1.compute((Object) null, biFunction0); objectArray0[3] = (Object) linkedMap0; Object[] objectArray1 = linkedMap_LinkedMapList0.toArray(objectArray0); LinkedMap<String, String> linkedMap4 = new LinkedMap<String, String>(12); LinkedMap.LinkedMapList<String> linkedMap_LinkedMapList1 = new LinkedMap.LinkedMapList<String>(linkedMap4); LinkedMap linkedMap5 = (LinkedMap)linkedMap1.getValue(0); }
+Code: public V getValue(final int index) { return getEntry(index).getValue(); }
+[[0.08599578 0.11927778 0.11927778 0.05868762 0.2805556  0.09304605
+ 0.09197158 0.11927778 0.03191002]
+[0.07874583 0.13410418 0.13410418 0.05236651 0.22287166 0.11005336
+ 0.0951854  0.13410418 0.03846467]
+[0.07874583 0.13410418 0.13410418 0.05236651 0.22287166 0.11005336
+ 0.0951854  0.13410418 0.03846467]
+[0.05182364 0.14088716 0.14088716 0.04046232 0.280981   0.09930688
+ 0.08147657 0.14088716 0.02328811]
+[0.07816474 0.12871738 0.12871738 0.05124112 0.23138389 0.1147689
+ 0.10130855 0.12871738 0.03698072]
+[0.08878146 0.12269542 0.12269542 0.04394745 0.21915224 0.1284202
+ 0.10404705 0.12269542 0.04756532]
+[0.0647292  0.13884367 0.13884367 0.04233703 0.24230647 0.10647701
+ 0.09742089 0.13884367 0.03019841]
+[0.07874583 0.13410418 0.13410418 0.05236651 0.22287166 0.11005336
+ 0.0951854  0.13410418 0.03846467]
+[0.0599054  0.11739803 0.11739803 0.04672977 0.2683918  0.12295216
+ 0.12187396 0.11739803 0.02795289]]

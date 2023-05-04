@@ -1,0 +1,17 @@
+35170
+Test: public void test5() throws Throwable { SimpleLog simpleLog0 = new SimpleLog((String) null); ClassLoader classLoader0 = ClassLoader.getSystemClassLoader(); Introspector introspector0 = new Introspector(simpleLog0, classLoader0); Class<CharBuffer> class0 = CharBuffer.class; DuckGetExecutor duckGetExecutor0 = DuckGetExecutor.discover(introspector0, class0, (Object) null); Object object0 = duckGetExecutor0.getTargetProperty(); }
+Code: public Object getTargetProperty() { return null; }
+[[0.12529764 0.09641243 0.17380668 0.15281022 0.13613379 0.26527363
+ 0.05026563]
+[0.11205761 0.08024947 0.15375885 0.19772184 0.13753912 0.28012875
+ 0.03854435]
+[0.09910423 0.07540113 0.1676078  0.14495586 0.11996417 0.3428294
+ 0.05013746]
+[0.11953615 0.07118276 0.16190621 0.18028715 0.13912532 0.2624951
+ 0.06546731]
+[0.0862897  0.08078121 0.17974874 0.15287738 0.12799421 0.32961002
+ 0.04269877]
+[0.12634729 0.08528172 0.20667915 0.15272783 0.14386755 0.23522961
+ 0.04986677]
+[0.08354356 0.08103307 0.16244955 0.17881869 0.17208919 0.2818555
+ 0.0402104 ]]

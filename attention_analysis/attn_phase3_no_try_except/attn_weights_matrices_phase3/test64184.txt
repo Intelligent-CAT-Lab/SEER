@@ -1,0 +1,21 @@
+64184
+Test: public void test1373() throws Throwable { boolean boolean0 = FileSystemHandling.createFolder((EvoSuiteFile) null); JSONArray jSONArray0 = new JSONArray((Collection<?>) null); HashMap<BatchUpdateException, SQLTimeoutException> hashMap0 = new HashMap<BatchUpdateException, SQLTimeoutException>(); JSONArray jSONArray1 = new JSONArray(); JSONArray jSONArray2 = jSONArray0.put((Collection<?>) null); boolean boolean1 = jSONArray1.similar(jSONArray0); String string0 = jSONArray2.toString(538); BigDecimal bigDecimal0 = BigDecimal.TEN; BigDecimal bigDecimal1 = BigDecimal.TEN; BigDecimal bigDecimal2 = bigDecimal0.multiply(bigDecimal1); BigDecimal bigDecimal3 = jSONArray0.optBigDecimal(114, bigDecimal0); JSONArray jSONArray3 = jSONArray2.put(1264, (Map<?, ?>) hashMap0); LinkedList<String> linkedList0 = new LinkedList<String>(); JSONPointer jSONPointer0 = new JSONPointer(linkedList0); JSONArray jSONArray4 = (JSONArray)jSONArray2.query(jSONPointer0); }
+Code: public Object query(String jsonPointer) { return query(new JSONPointer(jsonPointer)); }
+[[0.09928858 0.07647037 0.13773143 0.13773143 0.12445619 0.1082911
+ 0.13773143 0.13773143 0.04056805]
+[0.09466676 0.06707892 0.1271037  0.1271037  0.17954212 0.11605392
+ 0.1271037  0.1271037  0.03424355]
+[0.08486164 0.06606535 0.14186887 0.14186887 0.13325414 0.1029647
+ 0.14186887 0.14186887 0.04537865]
+[0.08486164 0.06606535 0.14186887 0.14186887 0.13325414 0.1029647
+ 0.14186887 0.14186887 0.04537865]
+[0.09854789 0.05868762 0.12825483 0.12825483 0.16034451 0.11316699
+ 0.12825483 0.12825483 0.05623363]
+[0.07161056 0.06718251 0.1470041  0.1470041  0.13130565 0.10545947
+ 0.1470041  0.1470041  0.03642542]
+[0.08486164 0.06606535 0.14186887 0.14186887 0.13325414 0.1029647
+ 0.14186887 0.14186887 0.04537865]
+[0.08486164 0.06606535 0.14186887 0.14186887 0.13325414 0.1029647
+ 0.14186887 0.14186887 0.04537865]
+[0.06730675 0.06900419 0.12519008 0.12519008 0.17691036 0.14813788
+ 0.12519008 0.12519008 0.0378805 ]]

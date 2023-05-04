@@ -1,0 +1,19 @@
+69275
+Test: public void test1927() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest3.test1927"); java.nio.charset.CharsetEncoder charsetEncoder1 = null; java.nio.charset.CharsetEncoder charsetEncoder3 = null; java.nio.charset.CharsetEncoder charsetEncoder5 = null; java.nio.charset.CharsetEncoder charsetEncoder7 = null; java.nio.charset.CharsetEncoder charsetEncoder9 = null; java.nio.charset.CharsetEncoder charsetEncoder11 = null; org.jsoup.nodes.Entities.EscapeMode escapeMode12 = org.jsoup.nodes.Entities.EscapeMode.base; java.lang.String str13 = org.jsoup.nodes.Entities.escape("", charsetEncoder11, escapeMode12); java.lang.String str14 = org.jsoup.nodes.Entities.escape("", charsetEncoder9, escapeMode12); java.lang.String str15 = org.jsoup.nodes.Entities.escape("", charsetEncoder7, escapeMode12); java.util.Map<java.lang.Character, java.lang.String> charMap16 = escapeMode12.getMap(); java.util.Map<java.lang.Character, java.lang.String> charMap17 = escapeMode12.getMap(); java.lang.String str18 = org.jsoup.nodes.Entities.escape("", charsetEncoder5, escapeMode12); java.lang.String str19 = org.jsoup.nodes.Entities.escape("", charsetEncoder3, escapeMode12); java.lang.String str20 = org.jsoup.nodes.Entities.escape("", charsetEncoder1, escapeMode12); java.util.Map<java.lang.Character, java.lang.String> charMap21 = escapeMode12.getMap(); java.util.Map<java.lang.Character, java.lang.String> charMap22 = escapeMode12.getMap(); java.util.Map<java.lang.Character, java.lang.String> charMap23 = escapeMode12.getMap(); java.util.Map<java.lang.Character, java.lang.String> charMap24 = escapeMode12.getMap(); java.util.Map<java.lang.Character, java.lang.String> charMap25 = escapeMode12.getMap(); }
+Code: public Map<Character, String> getMap() { return map; }
+[[0.14818981 0.13567021 0.05271794 0.15664648 0.17052704 0.15974575
+ 0.11928564 0.05721714]
+[0.1031197  0.11256155 0.06169158 0.19391114 0.17815784 0.16546999
+ 0.13204864 0.05303958]
+[0.15751341 0.10049422 0.0528659  0.16535035 0.17717353 0.16046444
+ 0.13837652 0.04776161]
+[0.12344424 0.13143173 0.06040531 0.15558963 0.16670866 0.19293165
+ 0.12617096 0.04331782]
+[0.1339671  0.12247325 0.07581992 0.14640674 0.17688872 0.15920958
+ 0.11672177 0.06851289]
+[0.11529623 0.11997472 0.0519167  0.18987764 0.17128527 0.17667979
+ 0.12528263 0.04968703]
+[0.1393221  0.13448256 0.05434442 0.1363062  0.17320073 0.20140871
+ 0.11273591 0.04819931]
+[0.10374526 0.12188143 0.03789691 0.16664569 0.20241696 0.20802432
+ 0.11273585 0.04665355]]

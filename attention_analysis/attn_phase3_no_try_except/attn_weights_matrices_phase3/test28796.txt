@@ -1,0 +1,23 @@
+28796
+Test: public void test0() throws Throwable { Vector2D.Unit vector2D_Unit0 = Vector2D.Unit.MINUS_X; Precision.DoubleEquivalence precision_DoubleEquivalence0 = mock(Precision.DoubleEquivalence.class, new ViolatedAssumptionAnswer()); Line line0 = mock(Line.class, new ViolatedAssumptionAnswer()); doReturn(precision_DoubleEquivalence0, (Precision.DoubleEquivalence) null).when(line0).getPrecision(); doReturn(true).when(line0).eq(any(org.apache.commons.geometry.euclidean.twod.Line.class) , any(org.apache.commons.numbers.core.Precision.DoubleEquivalence.class)); EmbeddedTreeLineSubset embeddedTreeLineSubset0 = new EmbeddedTreeLineSubset(line0, false); Precision.DoubleEquivalence precision_DoubleEquivalence1 = embeddedTreeLineSubset0.getPrecision(); Line line1 = new Line(vector2D_Unit0, 1459.0488501917746, precision_DoubleEquivalence1); EmbeddedTreeLineSubset embeddedTreeLineSubset1 = new EmbeddedTreeLineSubset(line1); embeddedTreeLineSubset0.add(embeddedTreeLineSubset1); }
+Code: public void add(final LineConvexSubset subset) { Lines.validateLinesEquivalent(getLine(), subset.getLine()); region.add(subset.getInterval()); }
+[[0.08459095 0.06787263 0.11734538 0.11734538 0.11734538 0.10838635
+ 0.11734538 0.11734538 0.11734539 0.03507768]
+[0.06372319 0.05890565 0.11891371 0.11891371 0.11891371 0.1261251
+ 0.11891371 0.11891371 0.11891373 0.03776379]
+[0.07118215 0.06436136 0.1183869  0.1183869  0.1183869  0.11516313
+ 0.1183869  0.1183869  0.11838692 0.03897192]
+[0.07118215 0.06436136 0.1183869  0.1183869  0.1183869  0.11516313
+ 0.1183869  0.1183869  0.11838692 0.03897192]
+[0.07118215 0.06436136 0.1183869  0.1183869  0.1183869  0.11516313
+ 0.1183869  0.1183869  0.11838692 0.03897192]
+[0.08481095 0.07462803 0.10794412 0.10794412 0.10794412 0.1434482
+ 0.10794412 0.10794412 0.10794415 0.04944808]
+[0.07118215 0.06436136 0.1183869  0.1183869  0.1183869  0.11516313
+ 0.1183869  0.1183869  0.11838692 0.03897192]
+[0.07118215 0.06436136 0.1183869  0.1183869  0.1183869  0.11516313
+ 0.1183869  0.1183869  0.11838692 0.03897192]
+[0.07118215 0.06436135 0.1183869  0.1183869  0.1183869  0.11516313
+ 0.1183869  0.1183869  0.11838691 0.03897192]
+[0.06113774 0.05898068 0.11035992 0.11035992 0.11035992 0.18007687
+ 0.11035992 0.11035992 0.11035995 0.03764515]]

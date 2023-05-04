@@ -1,0 +1,21 @@
+11434
+Test: public void test2() throws Throwable { Callable<Callable<Delayed>> callable0 = (Callable<Callable<Delayed>>) mock(Callable.class, new ViolatedAssumptionAnswer()); doReturn((Object) null).when(callable0).call(); ThreadFactory threadFactory0 = mock(ThreadFactory.class, new ViolatedAssumptionAnswer()); doReturn((Thread) null).when(threadFactory0).newThread(any(java.lang.Runnable.class)); ScheduledThreadPoolExecutor scheduledThreadPoolExecutor0 = new ScheduledThreadPoolExecutor(0, threadFactory0); CallableBackgroundInitializer<Callable<Delayed>> callableBackgroundInitializer0 = new CallableBackgroundInitializer<Callable<Delayed>>(callable0, scheduledThreadPoolExecutor0); callableBackgroundInitializer0.initialize(); boolean boolean0 = callableBackgroundInitializer0.start(); }
+Code: protected T initialize() throws Exception { return callable.call(); }
+[[0.14810798 0.03680988 0.12487249 0.21718031 0.06884484 0.14957166
+ 0.0994391  0.12487249 0.03030127]
+[0.19055498 0.04279839 0.11931856 0.23274617 0.05254868 0.12238004
+ 0.08674485 0.11931856 0.03358982]
+[0.16557626 0.04758327 0.12125261 0.23604552 0.06321823 0.11699989
+ 0.08842112 0.12125261 0.03965046]
+[0.16161777 0.02816496 0.09991762 0.2805121  0.05162386 0.15094143
+ 0.09831233 0.09991762 0.0289923 ]
+[0.17269912 0.04189627 0.10530785 0.23337555 0.059165   0.15485987
+ 0.09346715 0.10530785 0.03392135]
+[0.17646661 0.04871209 0.11749028 0.16126686 0.06454822 0.15531695
+ 0.10509145 0.11749028 0.05361718]
+[0.16876349 0.03564434 0.1257982  0.23439488 0.05269471 0.12931423
+ 0.09235744 0.1257982  0.03523451]
+[0.16557626 0.04758327 0.12125261 0.23604552 0.06321823 0.11699989
+ 0.08842112 0.12125261 0.03965046]
+[0.12647112 0.04090812 0.10761289 0.24309805 0.06424544 0.15085053
+ 0.12685421 0.10761289 0.03234673]]

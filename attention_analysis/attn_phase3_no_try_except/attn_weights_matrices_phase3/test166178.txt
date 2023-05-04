@@ -1,0 +1,17 @@
+166178
+Test: public void test0() throws Throwable { INIConfiguration iNIConfiguration0 = new INIConfiguration(); SubnodeConfiguration subnodeConfiguration0 = iNIConfiguration0.getSection(""); iNIConfiguration0.setDetailEvents(true); BaseHierarchicalConfiguration baseHierarchicalConfiguration0 = subnodeConfiguration0.getParent(); }
+Code: public BaseHierarchicalConfiguration getParent() { return parent; }
+[[0.14253137 0.1977209  0.16011955 0.18266666 0.15594953 0.10189882
+ 0.05911311]
+[0.11712282 0.19583327 0.19890462 0.18373947 0.14210337 0.09971292
+ 0.06258359]
+[0.13247389 0.20338634 0.14869711 0.18841742 0.18129125 0.0971334
+ 0.04860061]
+[0.13060491 0.17502598 0.15612032 0.20117939 0.1514594  0.11327007
+ 0.07233988]
+[0.1064468  0.22136644 0.1796495  0.18934904 0.157763   0.09258251
+ 0.05284278]
+[0.11247132 0.18640989 0.1897538  0.21277614 0.16438225 0.09507035
+ 0.03913625]
+[0.09285582 0.17654818 0.17367321 0.22190394 0.19796403 0.08849585
+ 0.04855896]]

@@ -1,0 +1,17 @@
+39487
+Test: public void test80() throws Throwable { BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance(); DateTimeField dateTimeField0 = buddhistChronology0.year(); DelegatedDateTimeField delegatedDateTimeField0 = new DelegatedDateTimeField(dateTimeField0); BuddhistChronology buddhistChronology1 = BuddhistChronology.getInstanceUTC(); DurationField durationField0 = buddhistChronology1.weekyears(); DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.secondOfMinute(); RemainderDateTimeField remainderDateTimeField0 = new RemainderDateTimeField(delegatedDateTimeField0, durationField0, dateTimeFieldType0, 86400); remainderDateTimeField0.getLeapDurationField(); }
+Code: public DurationField getLeapDurationField() { return null; }
+[[0.09948669 0.2703879  0.13801211 0.13084774 0.10926589 0.21000654
+ 0.0419931 ]
+[0.07847866 0.27935138 0.1465709  0.15789323 0.10284854 0.20714091
+ 0.02771635]
+[0.07879588 0.26005104 0.13244843 0.11974808 0.09549987 0.2723885
+ 0.04106823]
+[0.09650394 0.24952069 0.12823251 0.15110466 0.11159272 0.20911998
+ 0.05392554]
+[0.06898122 0.26949352 0.13796379 0.1339405  0.10030779 0.25256023
+ 0.03675294]
+[0.10304861 0.24651784 0.16922002 0.12844682 0.11840457 0.19275753
+ 0.04160466]
+[0.06882491 0.22821924 0.13220862 0.1566745  0.14447628 0.23490724
+ 0.03468924]]

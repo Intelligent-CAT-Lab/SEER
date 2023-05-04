@@ -1,0 +1,19 @@
+69447
+Test: public void test36() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test36"); org.jsoup.safety.Whitelist whitelist2 = org.jsoup.safety.Whitelist.basic(); java.lang.String[] strArray7 = new java.lang.String[] { "#document", "#document", "#document", "hi!" }; org.jsoup.safety.Whitelist whitelist8 = whitelist2.addTags(strArray7); boolean boolean10 = whitelist8.isSafeTag("hi!"); org.jsoup.safety.Whitelist whitelist12 = whitelist8.preserveRelativeLinks(false); org.jsoup.nodes.Attributes attributes14 = whitelist12.getEnforcedAttributes("#text"); org.jsoup.safety.Whitelist whitelist18 = whitelist12.addEnforcedAttribute("<html>\n <head></head>\n <body></body>\n</html>", "<html> <head></head> <body> * </body> </html>", "<html>\n <head></head>\n <body>\n #document\n </body>\n</html>"); java.lang.String str19 = org.jsoup.Jsoup.clean(":containsOwn(:lt(100)", "#text", whitelist18); }
+Code: public Document clean(Document dirtyDocument){;Document clean = Document.createShell(dirtyDocument.baseUri());;return clean;}
+[[0.07166708 0.26161504 0.07213589 0.05526156 0.19211084 0.0461171
+ 0.22101474 0.08007774]
+[0.06692339 0.2763254  0.05971137 0.04789264 0.1886994  0.0389004
+ 0.23773459 0.08381283]
+[0.05782536 0.27173156 0.07155922 0.04138974 0.16226786 0.03994612
+ 0.28076068 0.0745195 ]
+[0.06587343 0.29311126 0.06831126 0.05274617 0.18060315 0.05714565
+ 0.210825   0.07138412]
+[0.07468183 0.2566928  0.07545564 0.05010776 0.18846196 0.04721083
+ 0.22650276 0.08088638]
+[0.08635265 0.19845608 0.07280102 0.07918102 0.17946044 0.07235785
+ 0.22644076 0.08495016]
+[0.04958168 0.2694707  0.07649092 0.05038562 0.19791044 0.04146368
+ 0.23083337 0.08386354]
+[0.07118735 0.24524024 0.05913416 0.06090122 0.16800943 0.05437893
+ 0.2515179  0.08963078]]

@@ -1,0 +1,2 @@
+79007
+Test: public void test18() throws Throwable { ObjectType objectType0 = Type.STRINGBUFFER; ArrayType arrayType0 = new ArrayType("()", 1); boolean boolean0 = arrayType0.isAssignmentCompatibleWith(objectType0); }

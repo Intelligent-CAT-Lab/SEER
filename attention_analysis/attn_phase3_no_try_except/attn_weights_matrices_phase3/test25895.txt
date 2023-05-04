@@ -1,0 +1,9 @@
+25895
+Test: public void test4() throws Throwable { Vector3D.Unit vector3D_Unit0 = Vector3D.Unit.MINUS_X; AffineTransformMatrix3D affineTransformMatrix3D0 = AffineTransformMatrix3D.fromColumnVectors((Vector3D) vector3D_Unit0, (Vector3D) vector3D_Unit0, (Vector3D) vector3D_Unit0); double double0 = affineTransformMatrix3D0.determinant(); }
+Code: public abstract double determinant(); /** {@inheritDoc}
+[[0.13621908 0.06304611 0.23378983 0.18898167 0.18898165 0.18898165]
+[0.13061717 0.05357753 0.18898894 0.20893879 0.20893878 0.20893878]
+[0.11255268 0.06147959 0.23592088 0.19668227 0.19668227 0.19668227]
+[0.12031308 0.0692689  0.22187668 0.19618043 0.19618045 0.19618045]
+[0.12031308 0.0692689  0.22187668 0.19618043 0.19618045 0.19618045]
+[0.12031308 0.0692689  0.22187668 0.19618043 0.19618045 0.19618045]]

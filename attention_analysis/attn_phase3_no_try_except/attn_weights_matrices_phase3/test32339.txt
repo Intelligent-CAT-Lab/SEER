@@ -1,0 +1,2 @@
+32339
+Test: public void test16() throws Throwable { Double[] doubleArray0 = new Double[0]; Histogram histogram0 = new Histogram(doubleArray0); histogram0.update(1604L); histogram0.update(0L); HistogramMetric histogramMetric0 = histogram0.calculateMetric(); }

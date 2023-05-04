@@ -1,0 +1,17 @@
+57312
+Test: public void test16702() throws Throwable { DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendMinuteOfDay(2615625); DateTimeFormatterBuilder dateTimeFormatterBuilder2 = dateTimeFormatterBuilder1.appendTimeZoneId(); DateTimeFormatterBuilder dateTimeFormatterBuilder3 = dateTimeFormatterBuilder2.appendFractionOfDay(2588, 100); DateTimeFormatterBuilder.CharacterLiteral dateTimeFormatterBuilder_CharacterLiteral0 = new DateTimeFormatterBuilder.CharacterLiteral('o'); DateTimeParser dateTimeParser0 = InternalParserDateTimeParser.of(dateTimeFormatterBuilder_CharacterLiteral0); DateTimeFormatterBuilder dateTimeFormatterBuilder4 = dateTimeFormatterBuilder3.appendOptional(dateTimeParser0); DateTimeFormatterBuilder dateTimeFormatterBuilder5 = dateTimeFormatterBuilder4.appendSecondOfMinute(4240); boolean boolean0 = dateTimeFormatterBuilder5.canBuildPrinter(); }
+Code: public boolean canBuildPrinter() { return isPrinter(getFormatter()); }
+[[0.10934648 0.26729727 0.15169707 0.1511886  0.12100547 0.15169705
+ 0.04776807]
+[0.06855693 0.34035894 0.12991077 0.18153623 0.11619409 0.12991078
+ 0.03353223]
+[0.0877424  0.31477123 0.14417115 0.15167442 0.1068267  0.14417115
+ 0.05064295]
+[0.11026365 0.23269044 0.14063604 0.18583335 0.12578093 0.14063604
+ 0.06415956]
+[0.07348293 0.34289712 0.14042537 0.15607165 0.10455605 0.14042538
+ 0.04214151]
+[0.0877424  0.31477123 0.14417115 0.15167442 0.1068267  0.14417115
+ 0.05064295]
+[0.07333571 0.24605852 0.13447544 0.20389462 0.16462673 0.13447544
+ 0.04313356]]

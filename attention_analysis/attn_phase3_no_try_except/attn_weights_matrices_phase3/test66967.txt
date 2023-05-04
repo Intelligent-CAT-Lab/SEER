@@ -1,0 +1,21 @@
+66967
+Test: public void test4266() throws Throwable { ArrayDeque<SQLTransactionRollbackException> arrayDeque0 = new ArrayDeque<SQLTransactionRollbackException>(); ArrayDeque<SQLTransactionRollbackException> arrayDeque1 = arrayDeque0.clone(); JSONArray jSONArray0 = new JSONArray((Iterable<?>) arrayDeque1); boolean boolean0 = jSONArray0.optBoolean(11, true); int int0 = jSONArray0.optInt((-583), 11); JSONArray jSONArray1 = jSONArray0.put(11, 0.0F); JSONTokener jSONTokener0 = new JSONTokener("Y1fzc;/\"HpT+Zr"); char char0 = jSONTokener0.skipTo(']'); JSONException jSONException0 = jSONTokener0.syntaxError("number"); SQLTransactionRollbackException sQLTransactionRollbackException0 = new SQLTransactionRollbackException("Y1fzc;/\"HpT+Zr", jSONException0); boolean boolean1 = arrayDeque0.offer(sQLTransactionRollbackException0); HashMap<SQLIntegrityConstraintViolationException, SQLException> hashMap0 = new HashMap<SQLIntegrityConstraintViolationException, SQLException>(); JSONArray jSONArray2 = jSONArray1.put(0, (Map<?, ?>) hashMap0); Number number0 = jSONArray2.optNumber(11); List<Object> list0 = jSONArray0.toList(); float float0 = jSONArray1.getFloat(11); long long0 = jSONArray1.optLong((-583)); }
+Code: public long optLong(int index) { return this.optLong(index, 0); }
+[[0.07813448 0.13418488 0.10838011 0.26861036 0.09091063 0.08435079
+ 0.10838011 0.09666179 0.03038677]
+[0.05607691 0.12326762 0.10919508 0.27560878 0.11338623 0.08369616
+ 0.10919508 0.10143952 0.02813458]
+[0.07137241 0.12862602 0.11993948 0.2143268  0.10863698 0.08650722
+ 0.11993948 0.11340679 0.03724482]
+[0.07333766 0.13259384 0.1189258  0.2240434  0.11408435 0.09488065
+ 0.1189258  0.08736467 0.03584384]
+[0.08280151 0.13802549 0.1130373  0.2075865  0.12289562 0.09663047
+ 0.1130373  0.08102094 0.04496487]
+[0.05715256 0.1690758  0.11872939 0.2233869  0.10191946 0.08466098
+ 0.11872939 0.09791651 0.02842902]
+[0.07137241 0.12862602 0.11993948 0.2143268  0.10863698 0.08650722
+ 0.11993948 0.11340679 0.03724482]
+[0.06247744 0.11741492 0.11142725 0.29430532 0.10208949 0.08488987
+ 0.11142725 0.09408487 0.02188364]
+[0.0577228  0.09360268 0.11287221 0.2611331  0.11990789 0.11784852
+ 0.11287221 0.09686642 0.02717415]]

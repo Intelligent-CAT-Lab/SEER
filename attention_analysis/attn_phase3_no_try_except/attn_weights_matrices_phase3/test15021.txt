@@ -1,0 +1,7 @@
+15021
+Test: public void test62() throws Throwable { Object object0 = new Object(); DurationFormatUtils.Token durationFormatUtils_Token0 = new DurationFormatUtils.Token(object0); durationFormatUtils_Token0.equals((Object) null); Object object1 = new Object(); DurationFormatUtils.Token durationFormatUtils_Token1 = new DurationFormatUtils.Token(object1); durationFormatUtils_Token0.equals(durationFormatUtils_Token1); }
+Code: public DurationFormatUtils() { }
+[[0.26360175 0.36561108 0.27517086 0.09561627]
+[0.22469527 0.38783675 0.285387   0.102081  ]
+[0.23549548 0.34202406 0.30348468 0.11899572]
+[0.18661417 0.3696179  0.36045745 0.08331049]]

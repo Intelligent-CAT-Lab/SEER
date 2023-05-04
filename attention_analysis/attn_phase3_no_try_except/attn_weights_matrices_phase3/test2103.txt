@@ -1,0 +1,21 @@
+2103
+Test: public void test130() throws Throwable { int[] intArray0 = new int[9]; intArray0[0] = 1; intArray0[1] = 2; intArray0[2] = 2; intArray0[3] = 2; intArray0[4] = 2; intArray0[5] = 2; intArray0[6] = 63; intArray0[7] = 2; intArray0[8] = 63; TiffRasterDataInt tiffRasterDataInt0 = new TiffRasterDataInt(2, 2, intArray0); TiffRasterStatistics tiffRasterStatistics0 = tiffRasterDataInt0.getSimpleStatistics(); TiffRasterStatistics tiffRasterStatistics1 = tiffRasterDataInt0.getSimpleStatistics(); TiffRasterStatistics tiffRasterStatistics2 = tiffRasterDataInt0.getSimpleStatistics((float) 1); TiffRasterStatistics tiffRasterStatistics3 = tiffRasterDataInt0.getSimpleStatistics(2011.92F); }
+Code: public TiffRasterStatistics getSimpleStatistics() { return new TiffRasterStatistics(this, Float.NaN); }
+[[0.10182621 0.14125231 0.14125231 0.12837951 0.11115051 0.05186724
+ 0.14125231 0.14125231 0.04176733]
+[0.08494657 0.14182717 0.14182717 0.13440305 0.10309455 0.06455103
+ 0.14182717 0.14182717 0.0456962 ]
+[0.08494657 0.14182717 0.14182717 0.13440305 0.10309455 0.06455103
+ 0.14182717 0.14182717 0.0456962 ]
+[0.09911471 0.12809163 0.12809163 0.16328664 0.11355393 0.05473115
+ 0.12809163 0.12809163 0.05694702]
+[0.07344978 0.15026405 0.15026405 0.13573354 0.10798694 0.04417676
+ 0.15026405 0.15026405 0.03759665]
+[0.08625004 0.13663733 0.13663733 0.14580706 0.12105449 0.05726202
+ 0.13663733 0.13663733 0.04307703]
+[0.08494657 0.14182717 0.14182717 0.13440305 0.10309455 0.06455103
+ 0.14182717 0.14182717 0.0456962 ]
+[0.08494657 0.14182717 0.14182717 0.13440305 0.10309455 0.06455103
+ 0.14182717 0.14182717 0.0456962 ]
+[0.06933524 0.12849826 0.12849826 0.18492664 0.15337849 0.03889623
+ 0.12849826 0.12849826 0.03947045]]

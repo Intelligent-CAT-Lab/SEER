@@ -1,0 +1,17 @@
+79312
+Test: public void test30() throws Throwable { ConstantPoolGen constantPoolGen0 = new ConstantPoolGen(); PUSH pUSH0 = new PUSH(constantPoolGen0, "8t"); Instruction instruction0 = pUSH0.getInstruction(); InstructionList instructionList0 = new InstructionList(instruction0); int[] intArray0 = new int[6]; InstructionHandle[] instructionHandleArray0 = new InstructionHandle[6]; InstructionHandle instructionHandle0 = instructionList0.append(instruction0); instructionHandleArray0[0] = instructionHandle0; InstructionList instructionList1 = new InstructionList(instruction0); InstructionHandle instructionHandle1 = instructionList0.append(instructionHandle0, instructionList1); instructionHandleArray0[1] = instructionHandle1; instructionHandleArray0[2] = instructionHandle0; instructionHandleArray0[3] = instructionHandleArray0[0]; instructionHandleArray0[4] = instructionHandleArray0[3]; instructionHandleArray0[5] = instructionHandleArray0[3]; SWITCH sWITCH0 = new SWITCH(intArray0, instructionHandleArray0, instructionHandleArray0[1]); InstructionList instructionList2 = sWITCH0.getInstructionList(); instructionList0.insert(instruction0, instructionList2); instructionList0.setPositions(true); InstructionHandle instructionHandle2 = instructionList0.insert(instruction0, instructionList1); }
+Code: public int getLength() { return length; }
+[[0.10084751 0.06386694 0.33973098 0.13410346 0.11094153 0.2076214
+ 0.04288824]
+[0.0727928  0.05268241 0.28274608 0.16366851 0.11736883 0.2753033
+ 0.03543806]
+[0.08798985 0.0571118  0.31000656 0.18732846 0.11037567 0.20522597
+ 0.04196162]
+[0.11046157 0.05294126 0.24634627 0.17724347 0.12717283 0.22328253
+ 0.06255201]
+[0.07163773 0.04365263 0.3672812  0.13478607 0.10491078 0.24052635
+ 0.03720531]
+[0.08560906 0.0562373  0.29886496 0.14404175 0.12231509 0.24332947
+ 0.04960239]
+[0.08156029 0.06250547 0.24597847 0.19260406 0.1732159  0.20186904
+ 0.04226684]]

@@ -1,0 +1,9 @@
+29872
+Test: public void test0() throws Throwable { ForkJoinPool forkJoinPool0 = ForkJoinPool.common; ForkJoinWorkerThread forkJoinWorkerThread0 = new ForkJoinWorkerThread(forkJoinPool0); MockException mockException0 = new MockException("]RtQ+0kT%e"); MockThrowable mockThrowable0 = new MockThrowable("]RtQ+0kT%e", mockException0); forkJoinWorkerThread0.onTermination(mockThrowable0); }
+Code: protected void onTermination(Throwable exception) { }
+[[0.24284552 0.10812536 0.20552073 0.14419171 0.24897608 0.05034059]
+[0.26048446 0.10156356 0.20855436 0.14987709 0.21498294 0.06453761]
+[0.2638175  0.10796495 0.19601014 0.17211416 0.19450197 0.06559129]
+[0.2539948  0.10674451 0.20741144 0.15242487 0.23097084 0.04845345]
+[0.25550073 0.11813259 0.17067121 0.15001348 0.22736095 0.07832094]
+[0.23357472 0.0997223  0.19898975 0.12730522 0.2803471  0.06006091]]

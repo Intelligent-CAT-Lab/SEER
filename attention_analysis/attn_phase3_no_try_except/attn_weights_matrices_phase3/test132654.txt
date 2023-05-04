@@ -1,0 +1,21 @@
+132654
+Test: public void test1() throws Throwable { AbstractReferenceMap.ReferenceStrength abstractReferenceMap_ReferenceStrength0 = AbstractReferenceMap.ReferenceStrength.HARD; AbstractReferenceMap.ReferenceStrength abstractReferenceMap_ReferenceStrength1 = AbstractReferenceMap.ReferenceStrength.HARD; ReferenceMap<Object, Object> referenceMap0 = new ReferenceMap<Object, Object>(abstractReferenceMap_ReferenceStrength0, abstractReferenceMap_ReferenceStrength1); referenceMap0.purge(); AbstractReferenceMap.ReferenceStrength abstractReferenceMap_ReferenceStrength2 = AbstractReferenceMap.ReferenceStrength.SOFT; ReferenceMap<String, Integer> referenceMap1 = new ReferenceMap<String, Integer>(abstractReferenceMap_ReferenceStrength2, abstractReferenceMap_ReferenceStrength0, true); referenceMap1.size(); ReferenceMap<Integer, Object> referenceMap2 = new ReferenceMap<Integer, Object>(abstractReferenceMap_ReferenceStrength0, abstractReferenceMap_ReferenceStrength0, 0, 201.47298F, true); referenceMap2.checkCapacity(); referenceMap2.remove((Object) abstractReferenceMap_ReferenceStrength1); ReferenceMap<Integer, String> referenceMap3 = new ReferenceMap<Integer, String>(); referenceMap3.createValuesIterator(); AbstractReferenceMap.ReferenceStrength abstractReferenceMap_ReferenceStrength3 = AbstractReferenceMap.ReferenceStrength.WEAK; AbstractReferenceMap.ReferenceStrength abstractReferenceMap_ReferenceStrength4 = AbstractReferenceMap.ReferenceStrength.WEAK; ReferenceMap<Object, Object> referenceMap4 = new ReferenceMap<Object, Object>(abstractReferenceMap_ReferenceStrength3, abstractReferenceMap_ReferenceStrength4, true); Integer integer0 = new Integer(0); referenceMap4.getOrDefault(integer0, (Object) null); AbstractHashedMap.KeySet<Object> abstractHashedMap_KeySet0 = new AbstractHashedMap.KeySet<Object>(referenceMap0); Object object0 = AbstractHashedMap.NULL; abstractHashedMap_KeySet0.contains(object0); referenceMap4.keySet = abstractHashedMap_KeySet0; AbstractReferenceMap.ReferenceStrength abstractReferenceMap_ReferenceStrength5 = AbstractReferenceMap.ReferenceStrength.WEAK; ReferenceMap<String, Integer> referenceMap5 = new ReferenceMap<String, Integer>(abstractReferenceMap_ReferenceStrength4, abstractReferenceMap_ReferenceStrength5); referenceMap5.init(); AbstractReferenceMap.ReferenceStrength abstractReferenceMap_ReferenceStrength6 = AbstractReferenceMap.ReferenceStrength.WEAK; AbstractReferenceMap.ReferenceStrength abstractReferenceMap_ReferenceStrength7 = AbstractReferenceMap.ReferenceStrength.SOFT; ReferenceMap<Object, String> referenceMap6 = new ReferenceMap<Object, String>(abstractReferenceMap_ReferenceStrength6, abstractReferenceMap_ReferenceStrength7, false); ReferenceMap<Integer, String> referenceMap7 = new ReferenceMap<Integer, String>(); AbstractReferenceMap.ReferenceStrength abstractReferenceMap_ReferenceStrength8 = AbstractReferenceMap.ReferenceStrength.HARD; ReferenceMap<Integer, Object> referenceMap8 = null;  referenceMap8 = new ReferenceMap<Integer, Object>(abstractReferenceMap_ReferenceStrength8, abstractReferenceMap_ReferenceStrength3, (-4732), 0);   }
+Code: public ReferenceMap() { super(ReferenceStrength.HARD, ReferenceStrength.SOFT, DEFAULT_CAPACITY, DEFAULT_LOAD_FACTOR, false); }
+[[0.09087306 0.12604854 0.10445839 0.12604854 0.12604854 0.12604854
+ 0.12604854 0.1393637  0.03506216]
+[0.07276398 0.12346776 0.10417736 0.12346776 0.12346776 0.12346776
+ 0.12346776 0.16951153 0.03620839]
+[0.08708692 0.11630353 0.13504982 0.11630353 0.11630353 0.11630353
+ 0.11630353 0.14793503 0.04841053]
+[0.07276398 0.12346776 0.10417736 0.12346776 0.12346776 0.12346776
+ 0.12346776 0.16951153 0.03620839]
+[0.07276398 0.12346776 0.10417736 0.12346776 0.12346776 0.12346776
+ 0.12346776 0.16951153 0.03620839]
+[0.07276398 0.12346776 0.10417736 0.12346776 0.12346776 0.12346776
+ 0.12346776 0.16951153 0.03620839]
+[0.07276398 0.12346776 0.10417736 0.12346776 0.12346776 0.12346776
+ 0.12346776 0.16951153 0.03620839]
+[0.07956467 0.12256828 0.12177338 0.12256828 0.12256828 0.12256828
+ 0.12256828 0.15371093 0.03210964]
+[0.06291366 0.11753887 0.16236076 0.11753887 0.11753887 0.11753887
+ 0.11753887 0.15212467 0.0349066 ]]

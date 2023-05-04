@@ -1,0 +1,8 @@
+163231
+Test: public void test1933() throws Throwable { LinkedBlockingDeque<String> linkedBlockingDeque0 = new LinkedBlockingDeque<String>(); boolean boolean0 = linkedBlockingDeque0.isEmpty(); String string0 = linkedBlockingDeque0.poll(); LinkedHashSet<String> linkedHashSet0 = new LinkedHashSet<String>(); Spliterator<String> spliterator0 = linkedHashSet0.spliterator(); boolean boolean1 = linkedBlockingDeque0.addAll(linkedHashSet0); String string1 = linkedBlockingDeque0.poll(); Stream<String> stream0 = linkedBlockingDeque0.stream(); int int0 = linkedBlockingDeque0.remainingCapacity(); TimeUnit timeUnit0 = TimeUnit.HOURS; boolean boolean2 = linkedBlockingDeque0.offerLast("Deque full", 0L, timeUnit0); String string2 = linkedBlockingDeque0.take(); LinkedBlockingDeque<Object> linkedBlockingDeque1 = new LinkedBlockingDeque<Object>(true); }
+Code: public LinkedBlockingDeque() { this(Integer.MAX_VALUE); }
+[[0.18877485 0.2618447  0.21511179 0.2618447  0.07242395]
+[0.15826353 0.2686846  0.22581923 0.2686846  0.07854807]
+[0.17396262 0.23986343 0.2528699  0.23986343 0.09344059]
+[0.15826353 0.2686846  0.22581923 0.2686846  0.07854807]
+[0.13051036 0.24960408 0.30344182 0.24960408 0.06683967]]

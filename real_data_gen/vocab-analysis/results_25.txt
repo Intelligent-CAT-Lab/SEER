@@ -1,0 +1,16 @@
+num_rows: 31431
+Number in Pass Class: 28745, 0.9145
+tp: 24827, 0.7899
+fp: 2291, 0.0729
+pass accuracy: 24827/28745 = 0.8637
+
+Number in Fail Class: 2686, 0.0855
+tn: 395, 0.0126
+fn: 3918, 0.1247
+fail accuracy: 395/2686 = 0.1471
+
+accuracy: 25222/31431 = 0.8025
+precision: 24827/27118 = 0.9155
+recall: 24827/28745 = 0.8637
+f1: 49654/55863 = 0.8889
+

@@ -1,0 +1,17 @@
+38202
+Test: public void test63() throws Throwable { UTCDateTimeZone uTCDateTimeZone0 = (UTCDateTimeZone)UTCDateTimeZone.INSTANCE; MutableDateTime mutableDateTime0 = MutableDateTime.now((DateTimeZone) uTCDateTimeZone0); BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance(); LenientChronology lenientChronology0 = LenientChronology.getInstance(buddhistChronology0); ZonedChronology zonedChronology0 = ZonedChronology.getInstance(lenientChronology0, uTCDateTimeZone0); mutableDateTime0.setChronology(zonedChronology0); }
+Code: public void setChronology(Chronology chronology) { super.setChronology(chronology); }
+[[0.12465276 0.09974883 0.17291743 0.22097524 0.15756823 0.17291743
+ 0.05122002]
+[0.1029719  0.08864775 0.20170324 0.17802593 0.1738178  0.20170324
+ 0.05313008]
+[0.11154683 0.09507014 0.18866661 0.19657141 0.16306914 0.18866663
+ 0.05640919]
+[0.10109508 0.08276066 0.20011401 0.19894958 0.18222101 0.200114
+ 0.03474565]
+[0.1269331  0.10981444 0.17113289 0.15790571 0.1932195  0.1711329
+ 0.06986135]
+[0.11154683 0.09507014 0.18866661 0.19657141 0.16306914 0.18866663
+ 0.05640919]
+[0.08994702 0.08263361 0.1695992  0.21667048 0.22314458 0.16959919
+ 0.04840584]]

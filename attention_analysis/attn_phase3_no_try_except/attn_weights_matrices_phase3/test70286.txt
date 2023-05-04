@@ -1,0 +1,19 @@
+70286
+Test: public void test7718() throws Throwable { JSONArray jSONArray0 = new JSONArray(); JSONArray jSONArray1 = new JSONArray(jSONArray0); float float0 = jSONArray0.optFloat(44); JSONArray jSONArray2 = jSONArray1.put(0, 1L); int int0 = 0; SQLClientInfoException sQLClientInfoException0 = new SQLClientInfoException(); Throwable[] throwableArray0 = sQLClientInfoException0.getSuppressed(); sQLClientInfoException0.setNextException((SQLException) null); DataTruncation dataTruncation0 = new DataTruncation(0, false, true, 0, 0, sQLClientInfoException0); JSONArray jSONArray3 = jSONArray0.putAll((Object) dataTruncation0); JSONArray jSONArray4 = jSONArray2.put(0.0F); List<Object> list0 = jSONArray0.toList(); DataTruncation dataTruncation1 = (DataTruncation)jSONArray0.remove(0); JSONArray jSONArray5 = jSONArray4.put(0, (double) 0); BigDecimal bigDecimal0 = jSONArray1.getBigDecimal(0); JSONArray jSONArray6 = new JSONArray(jSONArray5); }
+Code: public JSONArray() { this.myArrayList = new ArrayList<Object>(); }
+[[0.12740141 0.17672087 0.15110606 0.17672087 0.07896569 0.06555174
+ 0.17335793 0.05017537]
+[0.1052338  0.1800955  0.14219457 0.1800955  0.10785601 0.07784776
+ 0.15658082 0.05009608]
+[0.12054181 0.1651475  0.17759064 0.1651475  0.09961776 0.06960541
+ 0.13714465 0.06520471]
+[0.1052338  0.1800955  0.14219457 0.1800955  0.10785601 0.07784776
+ 0.15658082 0.05009608]
+[0.12845802 0.18193977 0.13643052 0.18193977 0.10401492 0.05996589
+ 0.14637926 0.06087187]
+[0.10974659 0.17968488 0.17166013 0.17968488 0.09009622 0.07445537
+ 0.14290163 0.05177033]
+[0.11474089 0.1817725  0.19015378 0.1817725  0.09405789 0.05638938
+ 0.13703729 0.04407575]
+[0.09178004 0.17765063 0.20115292 0.17765063 0.07922167 0.05125425
+ 0.1763295  0.04496035]]

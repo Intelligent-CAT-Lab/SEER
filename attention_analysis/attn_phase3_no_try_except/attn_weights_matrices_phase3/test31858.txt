@@ -1,0 +1,2 @@
+31858
+Test: public void test196() throws Throwable { MockFile mockFile0 = new MockFile("nQ]|=:3T"); FileUtil.asOututStream("nQ]|=:3T"); FileUtil.asBufferedWriter("nQ]|=:3T"); FileUtil.append("nQ]|=:3T", mockFile0); File file0 = null; // Undeclared exception!  FileUtil.deleteDir((File) null);   }

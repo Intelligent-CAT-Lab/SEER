@@ -1,0 +1,9 @@
+145140
+Test: public void test51() throws Throwable { CompositeCacheAttributes compositeCacheAttributes0 = new CompositeCacheAttributes(); ElementAttributes elementAttributes0 = new ElementAttributes(); CompositeCache<String, Integer> compositeCache0 = new CompositeCache<String, Integer>(compositeCacheAttributes0, elementAttributes0); CompositeCacheManager compositeCacheManager0 = new CompositeCacheManager(); compositeCache0.setCompositeCacheManager(compositeCacheManager0); // Undeclared exception!  compositeCache0.dispose(true);   }
+Code: public void dispose() { dispose(false); }
+[[0.16401619 0.12892938 0.22750431 0.18872175 0.22750433 0.06332405]
+[0.12662017 0.10623181 0.25207683 0.20101164 0.25207683 0.06198274]
+[0.14093259 0.11606516 0.24057081 0.19385338 0.24057084 0.06800722]
+[0.15142353 0.12997365 0.20939462 0.21874288 0.20939462 0.08107075]
+[0.14093259 0.11606516 0.24057081 0.19385338 0.24057084 0.06800722]
+[0.11676887 0.10545267 0.2233574  0.2712946  0.22335738 0.05976907]]

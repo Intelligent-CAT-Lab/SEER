@@ -1,0 +1,19 @@
+99121
+Test: public void shouldNotAcceptNullInAllAnyPrimitiveWrapperMatchers() { when(mock.forInteger(anyInt())).thenReturn("0"); when(mock.forCharacter(anyChar())).thenReturn("1"); when(mock.forShort(anyShort())).thenReturn("2"); when(mock.forByte(anyByte())).thenReturn("3"); when(mock.forBoolean(anyBoolean())).thenReturn("4"); when(mock.forLong(anyLong())).thenReturn("5"); when(mock.forFloat(anyFloat())).thenReturn("6"); when(mock.forDouble(anyDouble())).thenReturn("7"); }
+Code: public static short anyShort() { return reportMatcher(Any.ANY).returnZero(); }
+[[0.07774681 0.22989781 0.08086617 0.30901694 0.10223294 0.08538634
+ 0.082041   0.03281195]
+[0.08827373 0.22591332 0.08329939 0.25606754 0.14557967 0.08284979
+ 0.07781819 0.04019841]
+[0.07607017 0.20233637 0.08498394 0.30091482 0.1227529  0.08965022
+ 0.08164624 0.04164532]
+[0.05884029 0.20282406 0.07989953 0.35408157 0.11360366 0.08873226
+ 0.07255352 0.0294651 ]
+[0.08969378 0.20293765 0.08403994 0.24330918 0.13328966 0.10465235
+ 0.09333802 0.04873942]
+[0.04816353 0.229236   0.06264333 0.38215637 0.09809474 0.0692509
+ 0.08377197 0.02668315]
+[0.07790028 0.22835565 0.07184949 0.28250048 0.13793516 0.09906401
+ 0.07650284 0.02589207]
+[0.0549384  0.21655518 0.08509447 0.31442413 0.1282837  0.11625693
+ 0.05621916 0.02822798]]

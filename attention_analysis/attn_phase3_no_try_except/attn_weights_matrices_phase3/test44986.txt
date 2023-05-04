@@ -1,0 +1,23 @@
+44986
+Test: public void test4156() throws Throwable { DateTimeFormatterBuilder.TimeZoneId[] dateTimeFormatterBuilder_TimeZoneIdArray0 = DateTimeFormatterBuilder.TimeZoneId.values(); DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendFractionOfSecond(1456, 1456); DateTimeFormatterBuilder dateTimeFormatterBuilder2 = dateTimeFormatterBuilder1.appendDayOfWeekText(); DateTimeFormatterBuilder dateTimeFormatterBuilder3 = dateTimeFormatterBuilder2.appendTwoDigitWeekyear(90, false); DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.secondOfDay(); DateTimeFormatterBuilder.UnpaddedNumber dateTimeFormatterBuilder_UnpaddedNumber0 = new DateTimeFormatterBuilder.UnpaddedNumber(dateTimeFieldType0, 65, true); GJChronology gJChronology0 = GJChronology.getInstanceUTC(); Chronology chronology0 = gJChronology0.withUTC(); DateTimeField dateTimeField0 = dateTimeFieldType0.getField(chronology0); DateTimePrinter dateTimePrinter0 = InternalPrinterDateTimePrinter.of(dateTimeFormatterBuilder_UnpaddedNumber0); DateTimeParser dateTimeParser0 = InternalParserDateTimeParser.of(dateTimeFormatterBuilder_UnpaddedNumber0); StringWriter stringWriter0 = new StringWriter(); FileSystemHandling fileSystemHandling0 = new FileSystemHandling(); StringWriter stringWriter1 = stringWriter0.append('='); StringBuffer stringBuffer0 = new StringBuffer(45); StringWriter stringWriter2 = stringWriter1.append((CharSequence) stringBuffer0); StringBuffer stringBuffer1 = stringWriter2.getBuffer(); LocalDateTime localDateTime0 = new LocalDateTime(264L, (Chronology) gJChronology0); Locale locale0 = Locale.TAIWAN; dateTimePrinter0.printTo(stringBuffer1, (ReadablePartial) localDateTime0, locale0); DateTimeFormatterBuilder dateTimeFormatterBuilder4 = dateTimeFormatterBuilder3.append(dateTimePrinter0, dateTimeParser0); DateTimeFormatterBuilder dateTimeFormatterBuilder5 = dateTimeFormatterBuilder4.appendMinuteOfHour(64); }
+Code: public DateTimeFormatterBuilder appendMinuteOfHour(int minDigits) { return appendDecimal(DateTimeFieldType.minuteOfHour(), minDigits, 2); }
+[[0.08205512 0.11382069 0.11382069 0.11382069 0.09785184 0.08887724
+ 0.11382069 0.11382069 0.12968028 0.03243214]
+[0.06842582 0.11517966 0.11517966 0.11517966 0.10309129 0.08290781
+ 0.11517966 0.11517966 0.1342538  0.03542297]
+[0.06842582 0.11517966 0.11517966 0.11517966 0.10309129 0.08290781
+ 0.11517966 0.11517966 0.1342538  0.03542297]
+[0.06842582 0.11517966 0.11517966 0.11517966 0.10309129 0.08290781
+ 0.11517966 0.11517966 0.1342538  0.03542297]
+[0.08026189 0.10609328 0.10609328 0.10609328 0.12692222 0.09264792
+ 0.10609328 0.10609328 0.12461083 0.04509079]
+[0.05550785 0.11613241 0.11613241 0.11613241 0.09730859 0.08251259
+ 0.11613241 0.11613241 0.15677267 0.02723623]
+[0.06842582 0.11517966 0.11517966 0.11517966 0.10309129 0.08290781
+ 0.11517966 0.11517966 0.1342538  0.03542297]
+[0.06842582 0.11517966 0.11517966 0.11517966 0.10309129 0.08290781
+ 0.11517966 0.11517966 0.1342538  0.03542297]
+[0.06725104 0.10889164 0.10889164 0.10889164 0.15426037 0.09336461
+ 0.10889164 0.10889164 0.11452725 0.02613861]
+[0.05639288 0.10541715 0.10541715 0.10541715 0.1451817  0.12323768
+ 0.10541715 0.10541715 0.11687201 0.03123005]]

@@ -1,0 +1,17 @@
+33516
+Test: public void test456() throws Throwable { JexlArithmetic jexlArithmetic0 = new JexlArithmetic(false); BigInteger bigInteger0 = BigInteger.ZERO; Number number0 = jexlArithmetic0.narrow(bigInteger0); jexlArithmetic0.subtract(number0, number0); Float float0 = new Float((-2368.8948)); jexlArithmetic0.subtract(float0, number0); AtomicBoolean atomicBoolean0 = new AtomicBoolean(); Object object0 = jexlArithmetic0.not(atomicBoolean0); Integer integer0 = new Integer((-45)); FileSystemHandling.createFolder((EvoSuiteFile) null); Integer.compareUnsigned((-45), (-45)); Object object1 = jexlArithmetic0.logicalNot(float0); FileSystemHandling.createFolder((EvoSuiteFile) null); Short short0 = new Short((short)31); jexlArithmetic0.lessThan(atomicBoolean0, short0); JexlArithmetic.isMultiplyExact((-32768L), (-1677L), (-1677L)); BigInteger bigInteger1 = jexlArithmetic0.toBigInteger(object0); jexlArithmetic0.isPositivizeStable(); jexlArithmetic0.isNegateStable(); jexlArithmetic0.divide(object1, bigInteger1); jexlArithmetic0.getMathContext(); }
+Code: public MathContext getMathContext() { return mathContext; }
+[[0.12731326 0.17660138 0.17660138 0.1539395  0.13815959 0.17660138
+ 0.05078347]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.1209935  0.16031049 0.16031049 0.19048879 0.13977559 0.16031049
+ 0.06781061]
+[0.09097192 0.18878669 0.18878669 0.16263722 0.13468806 0.18878669
+ 0.04534269]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.08439702 0.15890288 0.15890288 0.21071318 0.18253878 0.15890287
+ 0.04564238]]

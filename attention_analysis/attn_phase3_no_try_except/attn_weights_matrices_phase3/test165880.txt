@@ -1,0 +1,7 @@
+165880
+Test: public void test19() throws Throwable { INIConfiguration iNIConfiguration0 = new INIConfiguration(); InMemoryNodeModel inMemoryNodeModel0 = new InMemoryNodeModel(); NodeSelector nodeSelector0 = inMemoryNodeModel0.trackChildNodeWithCreation("", "", iNIConfiguration0); AbstractYAMLBasedConfiguration abstractYAMLBasedConfiguration0 = new AbstractYAMLBasedConfiguration(); SubnodeConfiguration subnodeConfiguration0 = iNIConfiguration0.createSubConfigurationForTrackedNode(nodeSelector0, abstractYAMLBasedConfiguration0); INIConfiguration iNIConfiguration1 = null;  iNIConfiguration1 = new INIConfiguration(subnodeConfiguration0);   }
+Code: public INIConfiguration() { }
+[[0.26360175 0.36561108 0.27517086 0.09561627]
+[0.22469527 0.38783675 0.285387   0.102081  ]
+[0.23549548 0.34202406 0.30348468 0.11899572]
+[0.18661417 0.3696179  0.36045745 0.08331049]]

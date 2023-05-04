@@ -1,0 +1,21 @@
+66659
+Test: public void test3950() throws Throwable { ArrayDeque<SQLTimeoutException> arrayDeque0 = new ArrayDeque<SQLTimeoutException>(); SQLDataException sQLDataException0 = new SQLDataException(")."); SQLRecoverableException sQLRecoverableException0 = new SQLRecoverableException(); Object[] objectArray0 = new Object[8]; objectArray0[0] = (Object) ")."; objectArray0[1] = (Object) ")."; objectArray0[3] = (Object) sQLDataException0; objectArray0[5] = (Object) arrayDeque0; objectArray0[7] = (Object) sQLRecoverableException0; Throwable[] throwableArray0 = sQLRecoverableException0.getSuppressed(); sQLDataException0.addSuppressed(sQLRecoverableException0); SQLTimeoutException sQLTimeoutException0 = new SQLTimeoutException(").", "hy/MqSH3U~ESI&~", 432, sQLDataException0); boolean boolean0 = arrayDeque0.add(sQLTimeoutException0); JSONArray jSONArray0 = new JSONArray((Collection<?>) arrayDeque0); JSONArray jSONArray1 = new JSONArray((JSONArray) null); boolean boolean1 = jSONArray1.optBoolean(0, true); float float0 = jSONArray1.optFloat((-431), (-166.505F)); Object object0 = jSONArray0.opt(0); String string0 = jSONArray1.optString((-431), " (null)."); String string1 = jSONArray1.optString(1475, ")."); MockPrintWriter mockPrintWriter0 = new MockPrintWriter("U\">QJ<DjR5\"M'tw fIS"); Locale locale0 = Locale.GERMAN; Locale locale1 = locale0.stripExtensions(); PrintWriter printWriter0 = mockPrintWriter0.format(locale1, "timeout() should not be used with atMost() because...", objectArray0); }
+Code: public String optString(int index) { return this.optString(index, ""); }
+[[0.07262056 0.09570499 0.10072688 0.23867953 0.07939243 0.07776798
+ 0.10072688 0.20725477 0.02712595]
+[0.0758062  0.09104152 0.11159947 0.21969816 0.09232931 0.07432263
+ 0.11159947 0.19891882 0.02468446]
+[0.06566755 0.12499    0.11171926 0.18671986 0.09239803 0.07939324
+ 0.11171926 0.19514954 0.03224321]
+[0.06372397 0.11194746 0.10517819 0.18772705 0.09272783 0.08261445
+ 0.10517819 0.22090432 0.02999856]
+[0.07455027 0.11780785 0.10413785 0.18147904 0.10534672 0.08769406
+ 0.10413785 0.18538591 0.03946045]
+[0.05175754 0.12809636 0.10872981 0.19934632 0.08982579 0.07709359
+ 0.10872981 0.21122757 0.02519323]
+[0.06566755 0.12499    0.11171926 0.18671986 0.09239803 0.07939324
+ 0.11171926 0.19514954 0.03224321]
+[0.05689422 0.11786941 0.10158211 0.22075191 0.0733855  0.07418554
+ 0.10158211 0.22749476 0.0262544 ]
+[0.04989902 0.09165911 0.09945951 0.20661592 0.09276275 0.09872653
+ 0.09945951 0.23974578 0.0216719 ]]

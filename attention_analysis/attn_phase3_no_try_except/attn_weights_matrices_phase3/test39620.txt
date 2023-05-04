@@ -1,0 +1,19 @@
+39620
+Test: public void test54() throws Throwable { DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.clockhourOfHalfday(); BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance(); DurationField durationField0 = buddhistChronology0.weeks(); DurationFieldType durationFieldType0 = DurationFieldType.weekyears(); DelegatedDurationField delegatedDurationField0 = new DelegatedDurationField(durationField0, durationFieldType0); UnsupportedDateTimeField unsupportedDateTimeField0 = UnsupportedDateTimeField.getInstance(dateTimeFieldType0, delegatedDurationField0); // Undeclared exception!  unsupportedDateTimeField0.roundCeiling(1);   }
+Code: public long roundCeiling(long instant) { throw unsupported(); }
+[[0.11396821 0.19090724 0.1714564  0.05595619 0.14688969 0.11527527
+ 0.15809861 0.04744833]
+[0.08982458 0.1929962  0.16786543 0.03411321 0.19405246 0.10159364
+ 0.1722298  0.04732466]
+[0.10166157 0.19871399 0.15295818 0.04885603 0.17857255 0.09329181
+ 0.1835666  0.04237925]
+[0.10443073 0.20499903 0.18160576 0.04665528 0.16031463 0.09560072
+ 0.15918632 0.04720758]
+[0.11403899 0.19015333 0.14599125 0.05945264 0.16916059 0.10356873
+ 0.15572527 0.06190922]
+[0.09067652 0.19643444 0.16858566 0.04423378 0.20459086 0.10666379
+ 0.15280798 0.03600696]
+[0.10133025 0.18161361 0.15678312 0.06142864 0.1559187  0.11961844
+ 0.1699785  0.0533288 ]
+[0.08834559 0.14327788 0.20771107 0.04601377 0.18801232 0.11232399
+ 0.17197484 0.04234051]]

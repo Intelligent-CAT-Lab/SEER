@@ -1,0 +1,7 @@
+9087
+Test: public void test1017() throws Throwable { StringBuffer stringBuffer0 = new StringBuffer(); stringBuffer0.setLength(3753); int int0 = CharSequenceUtils.indexOf(stringBuffer0, stringBuffer0, (-4645)); boolean boolean0 = CharSequenceUtils.regionMatches(stringBuffer0, true, (-4645), stringBuffer0, 0, Integer.MAX_VALUE); int int1 = CharSequenceUtils.lastIndexOf(stringBuffer0, Integer.MAX_VALUE, 0); int int2 = CharSequenceUtils.TO_STRING_LIMIT; int int3 = CharSequenceUtils.lastIndexOf(stringBuffer0, 3753, 16); CharSequenceUtils charSequenceUtils0 = new CharSequenceUtils(); char[] charArray0 = new char[2]; charArray0[1] = '\u0000'; CharBuffer charBuffer0 = CharBuffer.wrap(charArray0); }
+Code: public CharSequenceUtils() { }
+[[0.26360175 0.36561108 0.27517086 0.09561627]
+[0.22469527 0.38783675 0.285387   0.102081  ]
+[0.23549548 0.34202406 0.30348468 0.11899572]
+[0.18661417 0.3696179  0.36045745 0.08331049]]

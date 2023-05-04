@@ -1,0 +1,23 @@
+70323
+Test: public void test019() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test019"); org.apache.commons.jxpath.ri.compiler.Expression expression0 = null; org.apache.commons.jxpath.ri.compiler.Expression expression1 = null; org.apache.commons.jxpath.ri.compiler.CoreOperationLessThanOrEqual coreOperationLessThanOrEqual2 = new org.apache.commons.jxpath.ri.compiler.CoreOperationLessThanOrEqual(expression0, expression1); java.lang.String str3 = coreOperationLessThanOrEqual2.getSymbol(); org.apache.commons.jxpath.ri.compiler.Expression[] expressionArray4 = new org.apache.commons.jxpath.ri.compiler.Expression[] {}; coreOperationLessThanOrEqual2.args = expressionArray4; java.lang.Object obj6 = null; java.util.Locale locale7 = null; org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer jDOMNodePointer9 = new org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer(obj6, locale7, ""); org.apache.commons.jxpath.ri.model.beans.NullPropertyPointer nullPropertyPointer10 = new org.apache.commons.jxpath.ri.model.beans.NullPropertyPointer((org.apache.commons.jxpath.ri.model.NodePointer) jDOMNodePointer9); org.apache.commons.jxpath.ri.compiler.NodeTest nodeTest11 = null; boolean boolean12 = jDOMNodePointer9.testNode(nodeTest11); org.apache.commons.jxpath.ri.EvalContext evalContext13 = null; org.apache.commons.jxpath.ri.compiler.NodeTest nodeTest14 = null; org.apache.commons.jxpath.ri.axes.ParentContext parentContext15 = new org.apache.commons.jxpath.ri.axes.ParentContext(evalContext13, nodeTest14); org.apache.commons.jxpath.ri.EvalContext evalContext16 = null; org.apache.commons.jxpath.ri.compiler.NodeTest nodeTest17 = null; org.apache.commons.jxpath.ri.axes.ParentContext parentContext18 = new org.apache.commons.jxpath.ri.axes.ParentContext(evalContext16, nodeTest17); org.apache.commons.jxpath.ri.compiler.NodeTest nodeTest19 = null; org.apache.commons.jxpath.ri.axes.ChildContext childContext22 = new org.apache.commons.jxpath.ri.axes.ChildContext((org.apache.commons.jxpath.ri.EvalContext) parentContext18, nodeTest19, false, true); org.apache.commons.jxpath.ri.EvalContext[] evalContextArray23 = new org.apache.commons.jxpath.ri.EvalContext[] { childContext22 }; org.apache.commons.jxpath.ri.axes.UnionContext unionContext24 = new org.apache.commons.jxpath.ri.axes.UnionContext((org.apache.commons.jxpath.ri.EvalContext) parentContext15, evalContextArray23); boolean boolean25 = jDOMNodePointer9.equals((java.lang.Object) unionContext24); try { java.lang.Object obj26 = coreOperationLessThanOrEqual2.computeValue((org.apache.commons.jxpath.ri.EvalContext) unionContext24); } catch (java.lang.ArrayIndexOutOfBoundsException e) { } }
+Code: public final Object computeValue(EvalContext context){return compute(args[1].computeValue(context), args[0].computeValue(context))? Boolean.TRUE : Boolean.FALSE;}
+[[0.06754117 0.0595848  0.05299261 0.1045198  0.25251836 0.07479976
+ 0.07951164 0.17135185 0.07942531 0.05775475]
+[0.07570373 0.05429687 0.05081682 0.12138812 0.24668951 0.08314516
+ 0.08920578 0.163573   0.06466439 0.0505167 ]
+[0.07371271 0.05647583 0.04755493 0.13025412 0.23615454 0.07468208
+ 0.07772382 0.18573798 0.06785803 0.04984596]
+[0.04991625 0.08263184 0.04912852 0.10298018 0.25526744 0.09223454
+ 0.06713951 0.18282235 0.05382601 0.06405333]
+[0.05376619 0.05837972 0.04657561 0.08999806 0.29269454 0.09099785
+ 0.08098156 0.16426525 0.07344805 0.04889317]
+[0.05804698 0.06832483 0.05280143 0.10407506 0.24602666 0.0961382
+ 0.07213784 0.18204932 0.06317319 0.05722656]
+[0.08146049 0.05032447 0.05383984 0.12115479 0.2236973  0.10077992
+ 0.08359708 0.15491596 0.07485653 0.05537354]
+[0.05374623 0.06608025 0.05139347 0.10251671 0.26021138 0.07700802
+ 0.08033156 0.19050243 0.06924216 0.04896773]
+[0.07959369 0.05686604 0.05120838 0.1010309  0.21398368 0.09083249
+ 0.08565918 0.1993266  0.06359576 0.05790335]
+[0.06371754 0.05884086 0.0509749  0.10168318 0.2177985  0.11071296
+ 0.08850614 0.18591902 0.06510778 0.05673914]]

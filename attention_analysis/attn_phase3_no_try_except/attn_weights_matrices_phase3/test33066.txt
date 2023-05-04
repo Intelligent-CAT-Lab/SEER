@@ -1,0 +1,23 @@
+33066
+Test: public void test6() throws Throwable { JexlArithmetic jexlArithmetic0 = new JexlArithmetic(false); MathContext mathContext0 = MathContext.DECIMAL64; JexlArithmetic jexlArithmetic1 = jexlArithmetic0.createWithOptions(false, mathContext0, 15); Integer integer0 = new Integer(15); Integer integer1 = Integer.getInteger("<=", integer0); Integer.compareUnsigned(42, 321); FileSystemHandling.shouldThrowIOException((EvoSuiteFile) null); FileSystemHandling.setPermissions((EvoSuiteFile) null, false, false, false); Integer.toUnsignedString(15); mathContext0.getPrecision(); Byte byte0 = new Byte((byte)53); Byte.toUnsignedLong((byte)0); jexlArithmetic1.subtract(integer1, byte0); jexlArithmetic1.arrayBuilder((byte)53); AtomicBoolean atomicBoolean0 = new AtomicBoolean(); jexlArithmetic1.endsWith(atomicBoolean0, "15"); Boolean.logicalXor(false, false); jexlArithmetic0.toBoolean((Object) null); // Undeclared exception!  jexlArithmetic1.arrayBuilder(Integer.MIN_VALUE);   }
+Code: public ArrayBuilder arrayBuilder(final int size) { return new org.apache.commons.jexl3.internal.ArrayBuilder(size); }
+[[0.10193817 0.14141077 0.14141077 0.06529777 0.0707968  0.13182244
+ 0.11168052 0.05169626 0.1414108  0.04253567]
+[0.08765293 0.14682028 0.14682028 0.05702228 0.0596648  0.1360614
+ 0.10630985 0.0663788  0.1468203  0.04644901]
+[0.08765293 0.14682028 0.14682028 0.05702228 0.0596648  0.1360614
+ 0.10630985 0.0663788  0.1468203  0.04644901]
+[0.06658064 0.1698941  0.1698941  0.04757246 0.04651224 0.15327705
+ 0.10778515 0.03577305 0.16989414 0.03281707]
+[0.0857922  0.14045855 0.14045855 0.06097226 0.07306412 0.17122173
+ 0.10328426 0.03838898 0.14045857 0.04590078]
+[0.09911931 0.12970468 0.12970468 0.04744086 0.07909504 0.15969087
+ 0.11403009 0.05525579 0.12970471 0.05625402]
+[0.07705735 0.15837833 0.15837833 0.04772726 0.06010079 0.14089811
+ 0.11354862 0.04642497 0.15837836 0.03910782]
+[0.08772825 0.13887125 0.13887125 0.06103691 0.06083641 0.14856279
+ 0.12313636 0.05821389 0.13887128 0.04387163]
+[0.08765294 0.14682028 0.14682028 0.05702229 0.0596648  0.1360614
+ 0.10630985 0.0663788  0.14682028 0.04644901]
+[0.07088168 0.13219495 0.13219495 0.05357467 0.06000499 0.18425351
+ 0.15541255 0.03973812 0.13219497 0.03954959]]

@@ -1,0 +1,2 @@
+32302
+Test: public void test4() throws Throwable { MetricRegistry metricRegistry0 = new MetricRegistry(); Reporter[] reporterArray0 = new Reporter[1]; InetSocketAddress inetSocketAddress0 = MockInetSocketAddress.createUnresolved("qcS>e#c7", 2718); GraphiteReporter graphiteReporter0 = new GraphiteReporter(inetSocketAddress0, "qcS>e#c7"); reporterArray0[0] = (Reporter) graphiteReporter0; ReportScheduler reportScheduler0 = new ReportScheduler(metricRegistry0, reporterArray0); // Undeclared exception!  reportScheduler0.report();   }

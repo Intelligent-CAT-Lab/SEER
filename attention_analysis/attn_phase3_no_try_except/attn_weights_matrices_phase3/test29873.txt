@@ -1,0 +1,8 @@
+29873
+Test: public void test1() throws Throwable { ForkJoinPool forkJoinPool0 = ForkJoinPool.common; ForkJoinWorkerThread forkJoinWorkerThread0 = new ForkJoinWorkerThread(forkJoinPool0); forkJoinWorkerThread0.onStart(); }
+Code: protected void onStart() { }
+[[0.29815996 0.12410931 0.24602619 0.27525708 0.05644746]
+[0.3184153  0.11720434 0.24916509 0.24212067 0.07309458]
+[0.32678825 0.12844086 0.23852476 0.22866338 0.07758276]
+[0.307318   0.13806474 0.20252997 0.261274   0.09081327]
+[0.27720946 0.11386753 0.2328726  0.30910727 0.06694306]]

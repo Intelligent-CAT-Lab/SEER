@@ -1,0 +1,17 @@
+84992
+Test: public void test953() throws Throwable { ClassLoader classLoader0 = ClassLoader.getSystemClassLoader(); ClassLoaderRepository classLoaderRepository0 = new ClassLoaderRepository(classLoader0); Class<JavaClass> class0 = JavaClass.class; JavaClass javaClass0 = classLoaderRepository0.loadClass(class0); JavaClass javaClass1 = javaClass0.getSuperClass(); }
+Code: public int getMajor() { return major; }
+[[0.14005756 0.09168129 0.19428128 0.17120624 0.152219   0.19428128
+ 0.05627332]
+[0.08921845 0.06556281 0.2322315  0.19481936 0.14315376 0.2322315
+ 0.04278267]
+[0.12119697 0.07944629 0.20417215 0.18169    0.14682373 0.20417216
+ 0.06249871]
+[0.13480824 0.06582753 0.1822551  0.20407528 0.15680158 0.1822551
+ 0.07397714]
+[0.10471454 0.06661788 0.21977326 0.18215512 0.1559014  0.21977329
+ 0.0510645 ]
+[0.12119697 0.07944629 0.20417215 0.18169    0.14682373 0.20417216
+ 0.06249871]
+[0.09448293 0.0724026  0.1800794  0.22326528 0.20070246 0.18007939
+ 0.04898785]]

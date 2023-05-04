@@ -1,0 +1,19 @@
+132710
+Test: public void test0() throws Throwable { Predicate<Object> predicate0 = FalsePredicate.falsePredicate(); NullIsFalsePredicate<Object> nullIsFalsePredicate0 = new NullIsFalsePredicate<Object>(predicate0); LinkedHashSet<String> linkedHashSet0 = new LinkedHashSet<String>(); PredicatedSet<String> predicatedSet0 = PredicatedSet.predicatedSet((Set<String>) linkedHashSet0, (Predicate<? super String>) nullIsFalsePredicate0); Set<String> set0 = predicatedSet0.decorated(); }
+Code: protected Set<E> decorated() { return (Set<E>) super.decorated(); }
+[[0.14933228 0.13158467 0.13158467 0.17821118 0.11073967 0.13158467
+ 0.13158467 0.03537818]
+[0.17193629 0.1339346  0.1339346  0.1445359  0.09973104 0.1339346
+ 0.1339346  0.04805835]
+[0.17193629 0.1339346  0.1339346  0.1445359  0.09973104 0.1339346
+ 0.1339346  0.04805835]
+[0.17090826 0.12009021 0.12009021 0.17832473 0.11071973 0.12009021
+ 0.12009021 0.05968642]
+[0.18007171 0.13524991 0.13524991 0.14102384 0.09954491 0.13524991
+ 0.13524991 0.0383598 ]
+[0.17193629 0.1339346  0.1339346  0.1445359  0.09973104 0.1339346
+ 0.1339346  0.04805835]
+[0.17193629 0.1339346  0.1339346  0.1445359  0.09973104 0.1339346
+ 0.1339346  0.04805835]
+[0.13632903 0.12010092 0.12010092 0.19202612 0.15096861 0.12010092
+ 0.12010092 0.04027252]]

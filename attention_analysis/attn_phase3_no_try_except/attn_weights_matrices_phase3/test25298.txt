@@ -1,0 +1,17 @@
+25298
+Test: public void test6() throws Throwable { ArrayList<Vector3D> arrayList0 = new ArrayList<Vector3D>(); Vector3D.Unit vector3D_Unit0 = Vector3D.Unit.PLUS_Z; arrayList0.add((Vector3D) vector3D_Unit0); arrayList0.add((Vector3D) vector3D_Unit0); arrayList0.add((Vector3D) vector3D_Unit0); SimpleFacetDefinition simpleFacetDefinition0 = new SimpleFacetDefinition(arrayList0, vector3D_Unit0); Vector3D vector3D0 = simpleFacetDefinition0.getNormal(); }
+Code: public Vector3D getNormal() { return normal; }
+[[0.10913371 0.2655506  0.15140413 0.1532545  0.12106149 0.15140413
+ 0.04819149]
+[0.11107206 0.2223492  0.1509602  0.17275383 0.12851314 0.1509602
+ 0.06339137]
+[0.09688155 0.24720559 0.15992624 0.16339047 0.11784592 0.15992624
+ 0.05482398]
+[0.11451787 0.20411707 0.14876169 0.18695039 0.13142481 0.14876169
+ 0.06546646]
+[0.08098173 0.2765812  0.15960492 0.16207254 0.11692913 0.15960494
+ 0.04422548]
+[0.09688155 0.24720559 0.15992624 0.16339047 0.11784592 0.15992624
+ 0.05482398]
+[0.07860139 0.21070854 0.14706197 0.20160788 0.17155436 0.14706197
+ 0.04340394]]

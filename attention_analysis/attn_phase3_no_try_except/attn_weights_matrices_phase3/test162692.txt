@@ -1,0 +1,17 @@
+162692
+Test: public void test1291() throws Throwable { LinkedBlockingDeque<Object> linkedBlockingDeque0 = new LinkedBlockingDeque<Object>(); Object[] objectArray0 = linkedBlockingDeque0.toArray(); Object object0 = new Object(); Integer integer0 = new Integer(734); boolean boolean0 = linkedBlockingDeque0.removeFirstOccurrence(integer0); LinkedBlockingDeque<Integer> linkedBlockingDeque1 = new LinkedBlockingDeque<Integer>(); TimeUnit timeUnit0 = TimeUnit.NANOSECONDS; Integer integer1 = linkedBlockingDeque1.pollLast((long) 734, timeUnit0); Integer integer2 = linkedBlockingDeque1.peekFirst(); String string0 = linkedBlockingDeque1.toString(); LinkedList<Locale.LanguageRange> linkedList0 = new LinkedList<Locale.LanguageRange>(); LinkedBlockingDeque<String> linkedBlockingDeque2 = new LinkedBlockingDeque<String>(734); Locale.FilteringMode locale_FilteringMode0 = Locale.FilteringMode.AUTOSELECT_FILTERING; List<String> list0 = Locale.filterTags((List<Locale.LanguageRange>) linkedList0, (Collection<String>) linkedBlockingDeque2, locale_FilteringMode0); LinkedBlockingDeque<String> linkedBlockingDeque3 = new LinkedBlockingDeque<String>(list0); int int0 = linkedBlockingDeque3.remainingCapacity(); linkedBlockingDeque3.putFirst(">"); Object[] objectArray1 = linkedBlockingDeque0.toArray(); LinkedBlockingDeque<String> linkedBlockingDeque4 = new LinkedBlockingDeque<String>(false); Object object1 = linkedBlockingDeque4.peekLast(); boolean boolean1 = linkedBlockingDeque1.contains((Object) null); linkedBlockingDeque0.clear(); boolean boolean2 = linkedBlockingDeque4.remove(object0); }
+Code: public E remove() { return removeFirst(); }
+[[0.12911132 0.18388936 0.14224143 0.16946708 0.14176007 0.17910832
+ 0.05442236]
+[0.11335985 0.18083143 0.17154329 0.20451716 0.11873156 0.16748795
+ 0.04352875]
+[0.08792102 0.18855575 0.15098931 0.2294091  0.13897088 0.1749969
+ 0.02915703]
+[0.11967647 0.16042611 0.16722849 0.18900189 0.13817745 0.15830386
+ 0.06718573]
+[0.09530037 0.1864447  0.16143307 0.17051843 0.14107202 0.19769937
+ 0.04753202]
+[0.10608364 0.20535293 0.16625802 0.16023718 0.1285465  0.17849399
+ 0.05502772]
+[0.09229004 0.13682622 0.13846926 0.21382439 0.19481313 0.17663732
+ 0.04713963]]

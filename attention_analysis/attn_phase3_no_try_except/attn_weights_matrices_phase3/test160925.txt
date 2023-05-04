@@ -1,0 +1,19 @@
+160925
+Test: public void test13() throws Throwable { GenericObjectPoolConfig<String> genericObjectPoolConfig0 = new GenericObjectPoolConfig<String>(); GenericKeyedObjectPoolConfig<DefaultEvictionPolicy<String>> genericKeyedObjectPoolConfig0 = new GenericKeyedObjectPoolConfig<DefaultEvictionPolicy<String>>(); genericKeyedObjectPoolConfig0.setEvictorShutdownTimeoutMillis(genericObjectPoolConfig0.DEFAULT_SOFT_MIN_EVICTABLE_IDLE_TIME); }
+Code: public void setEvictorShutdownTimeoutMillis(final Duration evictorShutdownTimeout) { setEvictorShutdownTimeout(evictorShutdownTimeout); }
+[[0.10767357 0.08596442 0.14936252 0.17985666 0.14936252 0.13452117
+ 0.14936252 0.04389659]
+[0.08804515 0.07586198 0.17237027 0.12455855 0.17237027 0.14891726
+ 0.17237027 0.04550627]
+[0.09044084 0.07707127 0.1529744  0.19565426 0.1529744  0.13218302
+ 0.1529744  0.04572747]
+[0.09940998 0.0732931  0.16098362 0.1473898  0.16098362 0.14767805
+ 0.16098362 0.04927819]
+[0.09044084 0.07707127 0.1529744  0.19565426 0.1529744  0.13218302
+ 0.1529744  0.04572747]
+[0.10570413 0.09147815 0.14236048 0.15624982 0.14236048 0.16124357
+ 0.14236048 0.05824284]
+[0.09044084 0.07707127 0.1529744  0.19565426 0.1529744  0.13218302
+ 0.1529744  0.04572747]
+[0.07880518 0.07138032 0.15036887 0.17277893 0.15036887 0.18523413
+ 0.15036887 0.04069481]]

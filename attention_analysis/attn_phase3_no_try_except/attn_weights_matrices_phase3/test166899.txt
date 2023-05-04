@@ -1,0 +1,42 @@
+166899
+Test: public void test0() throws Throwable { CombinedConfiguration combinedConfiguration0 = new CombinedConfiguration(); DefaultListDelimiterHandler defaultListDelimiterHandler0 = new DefaultListDelimiterHandler('K'); combinedConfiguration0.setListDelimiterHandler(defaultListDelimiterHandler0); Class<CombinedBeanDeclaration> class0 = CombinedBeanDeclaration.class; Class<String> class1 = String.class; YAMLConfiguration yAMLConfiguration0 = new YAMLConfiguration(combinedConfiguration0); Class<String> class2 = String.class; yAMLConfiguration0.getList(class2, ""); combinedConfiguration0.getCollection(class1, "", (Collection<String>) null, (Collection<String>) null); combinedConfiguration0.getArray(class0, (String) null); XMLBeanDeclaration xMLBeanDeclaration0 = new XMLBeanDeclaration((HierarchicalConfiguration<ImmutableNode>) combinedConfiguration0, (String) null, false); NodeHandler<CombinedConfiguration> nodeHandler0 = (NodeHandler<CombinedConfiguration>) mock(NodeHandler.class, new ViolatedAssumptionAnswer()); doReturn((Object) null).when(nodeHandler0).getAttributeValue(any(org.apache.commons.configuration2.CombinedConfiguration.class) , anyString()); xMLBeanDeclaration0.getBeanFactoryName(); XMLBeanDeclaration.NodeData<CombinedConfiguration> xMLBeanDeclaration_NodeData0 = new XMLBeanDeclaration.NodeData<CombinedConfiguration>(combinedConfiguration0, nodeHandler0); xMLBeanDeclaration_NodeData0.getAttribute("[@config-class]"); PatternSubtreeConfigurationWrapper patternSubtreeConfigurationWrapper0 = new PatternSubtreeConfigurationWrapper(combinedConfiguration0, "config-value"); NodeHandler<PatternSubtreeConfigurationWrapper> nodeHandler1 = (NodeHandler<PatternSubtreeConfigurationWrapper>) mock(NodeHandler.class, new ViolatedAssumptionAnswer()); doReturn((List) null).when(nodeHandler1).getChildren(any(org.apache.commons.configuration2.PatternSubtreeConfigurationWrapper.class)); XMLBeanDeclaration.NodeData<PatternSubtreeConfigurationWrapper> xMLBeanDeclaration_NodeData1 = new XMLBeanDeclaration.NodeData<PatternSubtreeConfigurationWrapper>(patternSubtreeConfigurationWrapper0, nodeHandler1); // Undeclared exception!  xMLBeanDeclaration_NodeData1.getChildren();   }
+Code: public <T> XMLBeanDeclaration(final HierarchicalConfiguration<T> config, final String key) { this(config, key, false); }
+[[0.06000912 0.13149765 0.0832336  0.0832336  0.10612184 0.04615129
+ 0.0792086  0.06451112 0.06472903 0.0832336  0.08898395 0.08686302
+ 0.02222355]
+[0.05494981 0.13768393 0.08735333 0.08735333 0.10744801 0.03819491
+ 0.093977   0.04759266 0.07829684 0.08735333 0.08065636 0.08053212
+ 0.01860839]
+[0.04847969 0.12596372 0.08379777 0.08379777 0.1142126  0.04209665
+ 0.09505419 0.07099984 0.06091618 0.08379777 0.06941298 0.09962245
+ 0.02184836]
+[0.04847969 0.12596372 0.08379777 0.08379777 0.1142126  0.04209665
+ 0.09505419 0.07099984 0.06091618 0.08379777 0.06941298 0.09962245
+ 0.02184836]
+[0.04733005 0.14149462 0.08877432 0.08877432 0.12878487 0.03381049
+ 0.07810272 0.06182303 0.05883266 0.08877434 0.07500293 0.08261067
+ 0.02588508]
+[0.05084942 0.15178865 0.08772507 0.08772507 0.12372573 0.03239543
+ 0.08822025 0.04637861 0.07166052 0.08772506 0.07572297 0.08120169
+ 0.01488147]
+[0.05652552 0.13932909 0.08361514 0.08361514 0.13227755 0.04032559
+ 0.06820189 0.06897806 0.06702646 0.08361514 0.07889166 0.07953852
+ 0.01806025]
+[0.04735593 0.13300428 0.08143637 0.08143637 0.11790536 0.04543272
+ 0.0861429  0.06962548 0.08407585 0.08143636 0.07218475 0.07740687
+ 0.02255677]
+[0.05657036 0.11515284 0.07793976 0.07793976 0.10640133 0.05520366
+ 0.08784808 0.05975416 0.08236603 0.07793976 0.08091343 0.09155891
+ 0.03041192]
+[0.04847969 0.12596372 0.08379777 0.08379777 0.1142126  0.04209665
+ 0.09505419 0.07099984 0.06091618 0.08379777 0.06941298 0.09962245
+ 0.02184836]
+[0.04837757 0.14657953 0.08187316 0.08187316 0.12047939 0.04135432
+ 0.09844518 0.05225234 0.06003272 0.08187316 0.08038229 0.09216531
+ 0.01431193]
+[0.0541696  0.1354008  0.08519892 0.08519892 0.12611903 0.03466939
+ 0.08788702 0.05708679 0.06747851 0.08519892 0.07697091 0.08602455
+ 0.01859669]
+[0.04054915 0.16231246 0.08054148 0.08054148 0.14091794 0.03454497
+ 0.07447241 0.05631697 0.07700839 0.08054148 0.07705472 0.07731581
+ 0.01788284]]

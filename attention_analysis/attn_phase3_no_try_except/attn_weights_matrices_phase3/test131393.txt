@@ -1,0 +1,27 @@
+131393
+Test: public void test1() throws Throwable { Integer integer0 = new Integer(1543); FluentIterable<Integer> fluentIterable0 = FluentIterable.of(integer0); Comparator<Object> comparator0 = (Comparator<Object>) mock(Comparator.class, new ViolatedAssumptionAnswer()); doReturn(0, 0, 0, 0, 0).when(comparator0).compare(any() , any()); Predicate<Object> predicate0 = ComparatorPredicate.comparatorPredicate((Object) fluentIterable0, comparator0); FluentIterable<Integer> fluentIterable1 = fluentIterable0.filter(predicate0); Integer[] integerArray0 = new Integer[2]; integerArray0[0] = integer0; integerArray0[1] = integer0; FluentIterable<Integer> fluentIterable2 = fluentIterable1.append(integerArray0); FluentIterable<Integer> fluentIterable3 = fluentIterable2.unmodifiable(); Integer integer1 = new Integer(1543); Transformer<Integer, Integer> transformer0 = ConstantTransformer.constantTransformer(integer1); IfTransformer<Integer, Integer> ifTransformer0 = new IfTransformer<Integer, Integer>(predicate0, transformer0, transformer0); FluentIterable<Integer> fluentIterable4 = fluentIterable3.transform((Transformer<? super Integer, ? extends Integer>) ifTransformer0); FluentIterable<Integer> fluentIterable5 = fluentIterable4.loop(); boolean boolean0 = fluentIterable5.anyMatch(predicate0); }
+Code: public boolean anyMatch(final Predicate<? super E> predicate) { return IterableUtils.matchesAny(iterable, predicate); }
+[[0.05790017 0.133651   0.08033285 0.08033285 0.07536383 0.15135927
+ 0.08033285 0.08798125 0.06505254 0.08033285 0.08033285 0.02702771]
+[0.03888163 0.17390339 0.0720906  0.0720906  0.06673537 0.1545687
+ 0.0720906  0.11501686 0.06969406 0.0720906  0.0720906  0.02074703]
+[0.04763189 0.16159755 0.07685176 0.07685176 0.08972492 0.13885283
+ 0.07685176 0.09015038 0.05819817 0.07685176 0.07685176 0.02958549]
+[0.04763189 0.16159755 0.07685176 0.07685176 0.08972492 0.13885283
+ 0.07685176 0.09015038 0.05819817 0.07685176 0.07685176 0.02958549]
+[0.05908034 0.15787901 0.08184651 0.08184651 0.08280786 0.10626134
+ 0.08184651 0.09491575 0.06329443 0.08184651 0.08184651 0.02652875]
+[0.04688209 0.14487094 0.08597566 0.08597566 0.07503281 0.12053061
+ 0.08597566 0.10007028 0.05619972 0.08597567 0.08597567 0.02653527]
+[0.04763189 0.16159755 0.07685176 0.07685176 0.08972492 0.13885283
+ 0.07685176 0.09015038 0.05819817 0.07685176 0.07685176 0.02958549]
+[0.06371397 0.12158041 0.07648978 0.07648978 0.09150776 0.11224212
+ 0.07648978 0.11808535 0.07128145 0.07648979 0.07648979 0.03914011]
+[0.03998347 0.16555765 0.07329102 0.07329102 0.09881151 0.15773971
+ 0.07329102 0.09130177 0.05579608 0.07329102 0.07329102 0.02435472]
+[0.04763189 0.16159755 0.07685176 0.07685176 0.08972492 0.13885283
+ 0.07685176 0.09015038 0.05819817 0.07685176 0.07685176 0.02958549]
+[0.04763189 0.16159755 0.07685176 0.07685176 0.08972492 0.13885283
+ 0.07685176 0.09015038 0.05819817 0.07685176 0.07685176 0.02958549]
+[0.04146792 0.12814724 0.07289591 0.07289591 0.08061174 0.12608597
+ 0.07289591 0.13344872 0.09833698 0.07289591 0.07289591 0.02742197]]

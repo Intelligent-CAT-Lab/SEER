@@ -1,0 +1,19 @@
+932
+Test: public void test1301() throws Throwable { LinkedList<String> linkedList0 = new LinkedList<String>(); ImageFormats imageFormats0 = ImageFormats.PSD; boolean boolean0 = linkedList0.add("!"); ImageInfo.ColorType imageInfo_ColorType0 = ImageInfo.ColorType.BW; ImageInfo.CompressionAlgorithm imageInfo_CompressionAlgorithm0 = ImageInfo.CompressionAlgorithm.PSD; ImageInfo imageInfo0 = new ImageInfo("!", (-4491), linkedList0, imageFormats0, "!", (-4491), "!", 3, (-4491), (-4491), 8, (-4491), 7, true, true, true, imageInfo_ColorType0, imageInfo_CompressionAlgorithm0); List<String> list0 = imageInfo0.getComments(); }
+Code: public List<String> getComments() { return new ArrayList<>(comments); }
+[[0.12726104 0.11172044 0.17652893 0.15383092 0.13809732 0.06527986
+ 0.17652893 0.0507527 ]
+[0.1132969  0.1010562  0.17508525 0.18125004 0.1494056  0.05588866
+ 0.17508525 0.04893219]
+[0.10725003 0.10700822 0.18109366 0.15847695 0.12986696 0.08052154
+ 0.18109366 0.05468897]
+[0.12154209 0.08825943 0.16381547 0.18512356 0.14122333 0.06930505
+ 0.16381547 0.06691556]
+[0.09503059 0.09528473 0.20038442 0.16339439 0.14181235 0.05779459
+ 0.20038442 0.04591443]
+[0.1090778  0.08431718 0.17766246 0.17282237 0.15277067 0.07374785
+ 0.17766246 0.05193923]
+[0.10725003 0.10700822 0.18109366 0.15847695 0.12986696 0.08052154
+ 0.18109366 0.05468897]
+[0.08837475 0.08336347 0.1685037  0.20844917 0.18761683 0.04943146
+ 0.1685037  0.045757  ]]

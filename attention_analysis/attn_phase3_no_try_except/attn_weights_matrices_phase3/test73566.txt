@@ -1,0 +1,17 @@
+73566
+Test: public void test11250() throws Throwable { JSONArray jSONArray0 = new JSONArray(); Stack<SQLNonTransientException> stack0 = new Stack<SQLNonTransientException>(); int[] intArray0 = new int[8]; intArray0[0] = 1031; intArray0[1] = 1031; intArray0[2] = 172; intArray0[3] = 1031; intArray0[4] = 1031; intArray0[5] = 1031; intArray0[6] = 1031; intArray0[7] = 1031; SQLRecoverableException sQLRecoverableException0 = new SQLRecoverableException("", "boolean", 1031); BatchUpdateException batchUpdateException0 = new BatchUpdateException(intArray0, sQLRecoverableException0); BatchUpdateException batchUpdateException1 = new BatchUpdateException(batchUpdateException0); SQLIntegrityConstraintViolationException sQLIntegrityConstraintViolationException0 = new SQLIntegrityConstraintViolationException("", " (null).", 1031, batchUpdateException1); boolean boolean0 = stack0.add((SQLNonTransientException) sQLIntegrityConstraintViolationException0); JSONArray jSONArray1 = jSONArray0.putAll((Iterable<?>) stack0); }
+Code: public int length() { return this.myArrayList.size(); }
+[[0.14005756 0.09168129 0.19428128 0.17120624 0.152219   0.19428128
+ 0.05627332]
+[0.08921845 0.06556281 0.2322315  0.19481936 0.14315376 0.2322315
+ 0.04278267]
+[0.12119697 0.07944629 0.20417215 0.18169    0.14682373 0.20417216
+ 0.06249871]
+[0.13480824 0.06582753 0.1822551  0.20407528 0.15680158 0.1822551
+ 0.07397714]
+[0.10471454 0.06661788 0.21977326 0.18215512 0.1559014  0.21977329
+ 0.0510645 ]
+[0.12119697 0.07944629 0.20417215 0.18169    0.14682373 0.20417216
+ 0.06249871]
+[0.09448293 0.0724026  0.1800794  0.22326528 0.20070246 0.18007939
+ 0.04898785]]

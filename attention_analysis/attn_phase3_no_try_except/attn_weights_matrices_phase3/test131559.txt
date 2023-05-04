@@ -1,0 +1,9 @@
+131559
+Test: public void test4() throws Throwable { HashSetValuedHashMap<Integer, Collection<Object>> hashSetValuedHashMap0 = new HashSetValuedHashMap<Integer, Collection<Object>>(); HashSetValuedHashMap<Object, Collection<Object>> hashSetValuedHashMap1 = new HashSetValuedHashMap<Object, Collection<Object>>(); hashSetValuedHashMap1.createCollection(); HashSetValuedHashMap<Object, Object> hashSetValuedHashMap2 = new HashSetValuedHashMap<Object, Object>(); hashSetValuedHashMap2.createCollection(); int int0 = 1272; HashSetValuedHashMap<String, Integer> hashSetValuedHashMap3 = new HashSetValuedHashMap<String, Integer>(1272); hashSetValuedHashMap3.keys(); HashSetValuedHashMap<Object, Integer> hashSetValuedHashMap4 = new HashSetValuedHashMap<Object, Integer>(hashSetValuedHashMap3); hashSetValuedHashMap4.createCollection(); HashSetValuedHashMap<Object, String> hashSetValuedHashMap5 = new HashSetValuedHashMap<Object, String>(); hashSetValuedHashMap5.createCollection(); HashSetValuedHashMap<String, String> hashSetValuedHashMap6 = null;  hashSetValuedHashMap6 = new HashSetValuedHashMap<String, String>((MultiValuedMap<? extends String, ? extends String>) null);   }
+Code: public HashSetValuedHashMap() { this(DEFAULT_INITIAL_MAP_CAPACITY, DEFAULT_INITIAL_SET_CAPACITY); }
+[[0.14803405 0.20534238 0.17726772 0.20534238 0.20534238 0.05867105]
+[0.12369771 0.20790613 0.18808624 0.20790613 0.20790614 0.06449768]
+[0.14060104 0.18743531 0.21878937 0.18743531 0.18743531 0.07830367]
+[0.12369771 0.20790613 0.18808624 0.20790613 0.20790614 0.06449768]
+[0.12369771 0.20790613 0.18808624 0.20790613 0.20790614 0.06449768]
+[0.10268182 0.1918765  0.26475638 0.1918765  0.19187649 0.05693229]]

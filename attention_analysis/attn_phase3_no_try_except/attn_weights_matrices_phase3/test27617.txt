@@ -1,0 +1,17 @@
+27617
+Test: public void test60() throws Throwable { AxisSequence axisSequence0 = AxisSequence.YZX; Vector3D vector3D0 = axisSequence0.getAxis1(); Precision.DoubleEquivalence precision_DoubleEquivalence0 = mock(Precision.DoubleEquivalence.class, new ViolatedAssumptionAnswer()); Line3D line3D0 = new Line3D(vector3D0, vector3D0, precision_DoubleEquivalence0); Segment3D segment3D0 = new Segment3D(line3D0, vector3D0, vector3D0); segment3D0.getBounds(); }
+Code: public double getSubspaceStart() { return start; }
+[[0.12992908 0.22647457 0.1802246  0.15156184 0.14031397 0.12088124
+ 0.05061465]
+[0.10462025 0.23805556 0.19441164 0.14784253 0.14925739 0.124093
+ 0.04171962]
+[0.1123207  0.21362647 0.19206971 0.15262264 0.13565469 0.14000764
+ 0.05369809]
+[0.12764925 0.17685142 0.17844671 0.18007605 0.15019466 0.11927424
+ 0.06750763]
+[0.09834741 0.2237325  0.21277228 0.15805683 0.14865658 0.11338277
+ 0.04505159]
+[0.11650385 0.23694566 0.15655789 0.17741378 0.15152866 0.1235349
+ 0.03751533]
+[0.09473099 0.18943295 0.18896395 0.17527056 0.18718632 0.12341166
+ 0.04100363]]

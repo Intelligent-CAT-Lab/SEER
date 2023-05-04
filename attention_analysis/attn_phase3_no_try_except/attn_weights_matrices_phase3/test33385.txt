@@ -1,0 +1,21 @@
+33385
+Test: public void test325() throws Throwable { MathContext mathContext0 = MathContext.DECIMAL32; int int0 = 0; JexlArithmetic jexlArithmetic0 = new JexlArithmetic(true, mathContext0, 0); boolean boolean0 = false; jexlArithmetic0.createWithOptions(false, mathContext0, 0); JexlEngine.getThreadEngine(); Boolean boolean1 = null; mathContext0.getPrecision(); ObjectContext<Boolean> objectContext0 = new ObjectContext<Boolean>((JexlEngine) null, (Boolean) null); mathContext0.toString(); Integer integer0 = new Integer(1688); JexlArithmetic.NullOperand jexlArithmetic_NullOperand0 = new JexlArithmetic.NullOperand(); // Undeclared exception!  MockFile.createTempFile("", "");   }
+Code: public JexlArithmetic(final boolean astrict) { this(astrict, null, Integer.MIN_VALUE); }
+[[0.07427525 0.1030307  0.19388449 0.1030307  0.09031726 0.1030307
+ 0.21535662 0.08733574 0.02973852]
+[0.06066205 0.10120699 0.22768264 0.10120699 0.09639245 0.10120699
+ 0.18969598 0.08920281 0.03274312]
+[0.04602662 0.08979762 0.25959736 0.08979762 0.10227481 0.08979762
+ 0.24369916 0.05930795 0.01970127]
+[0.06066205 0.10120699 0.22768264 0.10120699 0.09639245 0.10120699
+ 0.18969598 0.08920281 0.03274312]
+[0.07744715 0.10265042 0.17387515 0.10265042 0.12184829 0.10265042
+ 0.19058241 0.08490644 0.04338924]
+[0.06066205 0.10120699 0.22768264 0.10120699 0.09639245 0.10120699
+ 0.18969598 0.08920281 0.03274312]
+[0.04778948 0.09548942 0.23844098 0.09548942 0.10726821 0.09548942
+ 0.2321022  0.06399571 0.02393508]
+[0.05885576 0.10228762 0.17911072 0.10228762 0.11324897 0.10228762
+ 0.2236448  0.08469492 0.03358202]
+[0.05308518 0.09966542 0.18623342 0.09966542 0.13417432 0.09966542
+ 0.20766664 0.09086204 0.02898215]]

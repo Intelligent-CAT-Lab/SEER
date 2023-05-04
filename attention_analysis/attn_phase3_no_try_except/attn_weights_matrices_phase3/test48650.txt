@@ -1,0 +1,27 @@
+48650
+Test: public void test7867() throws Throwable { DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.monthOfYear(); DateTimeFormatterBuilder.Fraction dateTimeFormatterBuilder_Fraction0 = new DateTimeFormatterBuilder.Fraction(dateTimeFieldType0, (-59), (-59)); DateTimeZone dateTimeZone0 = DateTimeZone.forOffsetMillis((-2036)); ISOChronology iSOChronology0 = ISOChronology.getInstance(dateTimeZone0); Locale locale0 = Locale.ENGLISH; Integer integer0 = new Integer((-2036)); DateTimeParserBucket dateTimeParserBucket0 = new DateTimeParserBucket(965L, iSOChronology0, locale0, integer0, 3172); int int0 = dateTimeFormatterBuilder_Fraction0.parseInto(dateTimeParserBucket0, "org/joda/time/tz/data", (-1258)); DateTimeFormatterBuilder.FixedNumber dateTimeFormatterBuilder_FixedNumber0 = new DateTimeFormatterBuilder.FixedNumber(dateTimeFieldType0, (-686), false); char[] charArray0 = new char[0]; CharBuffer charBuffer0 = CharBuffer.wrap(charArray0); dateTimeFormatterBuilder_FixedNumber0.printTo((Appendable) charBuffer0, (long) (-2036), (Chronology) iSOChronology0, (-690), dateTimeZone0, locale0); DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); InternalParser[] internalParserArray0 = new InternalParser[8]; internalParserArray0[0] = (InternalParser) dateTimeFormatterBuilder_FixedNumber0; internalParserArray0[1] = (InternalParser) dateTimeFormatterBuilder_Fraction0; internalParserArray0[2] = (InternalParser) dateTimeFormatterBuilder_Fraction0; internalParserArray0[3] = (InternalParser) dateTimeFormatterBuilder_Fraction0; internalParserArray0[4] = (InternalParser) dateTimeFormatterBuilder_Fraction0; internalParserArray0[5] = (InternalParser) dateTimeFormatterBuilder_Fraction0; internalParserArray0[6] = (InternalParser) dateTimeFormatterBuilder_Fraction0; internalParserArray0[7] = (InternalParser) dateTimeFormatterBuilder_FixedNumber0; DateTimeFormatterBuilder.MatchingParser dateTimeFormatterBuilder_MatchingParser0 = new DateTimeFormatterBuilder.MatchingParser(internalParserArray0); DateTimeParser dateTimeParser0 = InternalParserDateTimeParser.of(dateTimeFormatterBuilder_MatchingParser0); DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendOptional(dateTimeParser0); DateTimeFormatterBuilder dateTimeFormatterBuilder2 = dateTimeFormatterBuilder1.appendDayOfWeek(83); DateTimeFormatterBuilder dateTimeFormatterBuilder3 = dateTimeFormatterBuilder2.appendCenturyOfEra(116, (-390)); }
+Code: public DateTimeFormatterBuilder appendCenturyOfEra(int minDigits, int maxDigits) { return appendSignedDecimal(DateTimeFieldType.centuryOfEra(), minDigits, maxDigits); }
+[[0.07045451 0.0977381  0.0977381  0.0977381  0.0446879  0.0977381
+ 0.09334061 0.07746354 0.0977381  0.0977381  0.0977381  0.02988677]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.04239925 0.10441163 0.10441163 0.10441163 0.02879433 0.10441163
+ 0.10634575 0.06969559 0.10441165 0.10441165 0.10441165 0.02188366]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.07308374 0.09133645 0.09133645 0.09133645 0.03402039 0.09133645
+ 0.12738362 0.08281835 0.09133646 0.09133646 0.09133646 0.04333861]
+[0.05131359 0.10224862 0.10224862 0.10224862 0.0305373  0.10224862
+ 0.10041224 0.07448341 0.10224862 0.10224862 0.10224862 0.02751317]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.04941742 0.088955   0.088955   0.088955   0.03653049 0.088955
+ 0.14699095 0.11370802 0.08895499 0.08895499 0.08895499 0.03066816]]

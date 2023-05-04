@@ -1,0 +1,19 @@
+164235
+Test: public void test6() throws Throwable { int int0 = 1914; MockRandom mockRandom0 = new MockRandom(); boolean boolean0 = mockRandom0.nextBoolean(); mockRandom0.setSeed(1914); JDKRandomWrapper jDKRandomWrapper0 = new JDKRandomWrapper(mockRandom0); UnitSphereSampler unitSphereSampler0 = new UnitSphereSampler(1914, jDKRandomWrapper0); double[] doubleArray0 = unitSphereSampler0.sample(); UnitSphereSampler unitSphereSampler1 = unitSphereSampler0.withUniformRandomProvider(jDKRandomWrapper0); }
+Code: public UnitSphereSampler withUniformRandomProvider(UniformRandomProvider rng) { return delegate.withUniformRandomProvider(rng); }
+[[0.10769189 0.14938717 0.14938717 0.14938717 0.13373199 0.11730102
+ 0.14938717 0.04372638]
+[0.09077284 0.15143086 0.15143086 0.15143086 0.14430623 0.11018361
+ 0.15143086 0.0490139 ]
+[0.09077284 0.15143086 0.15143086 0.15143086 0.14430623 0.11018361
+ 0.15143086 0.0490139 ]
+[0.09077284 0.15143086 0.15143086 0.15143086 0.14430623 0.11018361
+ 0.15143086 0.0490139 ]
+[0.10474119 0.13602485 0.13602485 0.13602485 0.17107216 0.12019399
+ 0.13602485 0.0598933 ]
+[0.07683693 0.15724705 0.15724705 0.15724705 0.14188328 0.11298558
+ 0.15724705 0.03930595]
+[0.09077284 0.15143086 0.15143086 0.15143086 0.14430623 0.11018361
+ 0.15143086 0.0490139 ]
+[0.07219031 0.13394369 0.13394369 0.13394369 0.19165097 0.15943684
+ 0.13394369 0.04094704]]

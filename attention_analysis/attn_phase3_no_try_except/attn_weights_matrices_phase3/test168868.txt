@@ -1,0 +1,17 @@
+168868
+Test: public void test98() throws Throwable { ResultSet resultSet0 = mock(ResultSet.class, new ViolatedAssumptionAnswer()); doReturn("c}g^m6;o3/w").when(resultSet0).toString(); Proxy proxy0 = (Proxy)SqlNullCheckedResultSet.wrap(resultSet0); SqlNullCheckedResultSet sqlNullCheckedResultSet0 = new SqlNullCheckedResultSet((ResultSet) proxy0); PipedOutputStream pipedOutputStream0 = new PipedOutputStream(); PipedInputStream pipedInputStream0 = new PipedInputStream(pipedOutputStream0, 1); sqlNullCheckedResultSet0.setNullBinaryStream(pipedInputStream0); sqlNullCheckedResultSet0.getNullBinaryStream(); }
+Code: public short getNullShort() { return this.nullShort; }
+[[0.13790867 0.12738907 0.19128498 0.15238282 0.14788315 0.19128498
+ 0.0518662 ]
+[0.12428702 0.12038835 0.19337167 0.16652356 0.14349821 0.19337167
+ 0.05855953]
+[0.11439843 0.1457095  0.19555564 0.1558163  0.13817382 0.19555566
+ 0.05479067]
+[0.12748355 0.11804386 0.17617166 0.18442383 0.14940095 0.17617166
+ 0.06830449]
+[0.10018622 0.10798004 0.2168119  0.1608864  0.1514576  0.21681191
+ 0.04586587]
+[0.11439843 0.1457095  0.19555564 0.1558163  0.13817382 0.19555566
+ 0.05479067]
+[0.09132917 0.13016573 0.17825003 0.19166301 0.18702227 0.17825001
+ 0.04331974]]

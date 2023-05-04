@@ -1,0 +1,17 @@
+62315
+Test: public void test11() throws Throwable { PeriodFormatterBuilder.Literal periodFormatterBuilder_Literal0 = new PeriodFormatterBuilder.Literal("06bu3(+[]"); Locale locale0 = Locale.ENGLISH; Minutes minutes0 = Minutes.THREE; PeriodType periodType0 = minutes0.getPeriodType(); PeriodType periodType1 = periodType0.withMinutesRemoved(); PeriodFormatter periodFormatter0 = new PeriodFormatter(periodFormatterBuilder_Literal0, periodFormatterBuilder_Literal0, locale0, periodType1); PeriodType periodType2 = periodFormatter0.getParseType(); }
+Code: public PeriodType getParseType() { return iParseType; }
+[[0.13135111 0.17065999 0.18218812 0.14381424 0.14068794 0.18218812
+ 0.04911054]
+[0.09476189 0.18137021 0.16349013 0.17678352 0.16845894 0.16349013
+ 0.05164512]
+[0.10897484 0.18786818 0.18660581 0.1466523  0.13157615 0.18660583
+ 0.05171694]
+[0.12004115 0.1703918  0.16813818 0.16860959 0.14133868 0.16813818
+ 0.06334244]
+[0.09174341 0.18361588 0.20158179 0.14110413 0.13976218 0.2015818
+ 0.04061082]
+[0.10897484 0.18786818 0.18660581 0.1466523  0.13157615 0.18660583
+ 0.05171694]
+[0.0868548  0.17242149 0.16946128 0.1825965  0.17795321 0.16946125
+ 0.04125143]]

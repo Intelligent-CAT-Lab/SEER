@@ -1,0 +1,17 @@
+91945
+Test: public void test442() throws Throwable { BigFraction bigFraction0 = BigFraction.from((-1.0)); BigFraction bigFraction1 = bigFraction0.add(100); BigInteger bigInteger0 = BigInteger.ZERO; BigFraction bigFraction2 = BigFraction.of(bigInteger0); RoundingMode roundingMode0 = RoundingMode.DOWN; BigFraction bigFraction3 = bigFraction0.ZERO.subtract(23); BigDecimal bigDecimal0 = bigFraction1.bigDecimalValue(roundingMode0); BigFraction bigFraction4 = BigFraction.of((-9223372036854775808L)); int int0 = bigFraction3.getDenominatorAsInt(); BigInteger bigInteger1 = bigFraction1.getNumerator(); BigInteger bigInteger2 = bigFraction1.getNumerator(); String string0 = bigFraction0.toString(); BigFraction bigFraction5 = BigFraction.of(100, (-1074)); RoundingMode roundingMode1 = RoundingMode.HALF_DOWN; BigDecimal bigDecimal1 = bigFraction5.ZERO.bigDecimalValue(roundingMode1); BigFraction bigFraction6 = bigFraction4.multiply(bigInteger2); String string1 = bigFraction6.ZERO.toString(); BigFraction bigFraction7 = BigFraction.parse("-1"); BigFraction bigFraction8 = bigFraction7.add(bigInteger1); BigFraction bigFraction9 = bigFraction7.ZERO.multiply((long) 100); long long0 = bigFraction5.ONE.getDenominatorAsLong(); }
+Code: public long getDenominatorAsLong() { return denominator.longValue(); }
+[[0.12148555 0.20424494 0.16852465 0.15436742 0.13275853 0.16852465
+ 0.05009425]
+[0.08937816 0.18935612 0.16976109 0.20056717 0.13272798 0.16976109
+ 0.04844842]
+[0.10579712 0.18451387 0.1759206  0.17136613 0.12850443 0.1759206
+ 0.05797723]
+[0.11700331 0.18760449 0.15398204 0.1865422  0.13486078 0.15398204
+ 0.06602519]
+[0.08509159 0.2405524  0.17219248 0.16111262 0.12443957 0.17219248
+ 0.04441886]
+[0.10579712 0.18451387 0.1759206  0.17136613 0.12850443 0.1759206
+ 0.05797723]
+[0.08723067 0.14155754 0.1659379  0.20797083 0.18582976 0.16593789
+ 0.04553541]]

@@ -1,0 +1,19 @@
+163424
+Test: public void test2148() throws Throwable { LinkedBlockingDeque<Integer> linkedBlockingDeque0 = new LinkedBlockingDeque<Integer>(); int int0 = linkedBlockingDeque0.remainingCapacity(); Integer integer0 = new Integer(2327); linkedBlockingDeque0.addFirst(integer0); LinkedBlockingDeque<Integer> linkedBlockingDeque1 = new LinkedBlockingDeque<Integer>(linkedBlockingDeque0); LinkedBlockingDeque<String> linkedBlockingDeque2 = new LinkedBlockingDeque<String>(); boolean boolean0 = linkedBlockingDeque0.containsAll(linkedBlockingDeque1); boolean boolean1 = linkedBlockingDeque2.add("pN!M43{CE%"); linkedBlockingDeque2.interuptTakeWaiters(); boolean boolean2 = linkedBlockingDeque0.removeFirstOccurrence(linkedBlockingDeque1); Integer integer1 = linkedBlockingDeque1.getLast(); LinkedBlockingDeque<Object> linkedBlockingDeque3 = new LinkedBlockingDeque<Object>(linkedBlockingDeque1); int int1 = linkedBlockingDeque3.remainingCapacity(); Object object0 = linkedBlockingDeque3.pop(); int int2 = linkedBlockingDeque3.getTakeQueueLength(); boolean boolean3 = linkedBlockingDeque0.offerLast(integer0); Integer integer2 = linkedBlockingDeque0.peekLast(); Integer integer3 = linkedBlockingDeque1.pop(); int int3 = linkedBlockingDeque3.getTakeQueueLength(); Object object1 = linkedBlockingDeque3.poll(); int int4 = linkedBlockingDeque2.size(); linkedBlockingDeque2.addLast("pN!M43{CE%"); Iterator<Object> iterator0 = linkedBlockingDeque3.descendingIterator(); }
+Code: public Iterator<E> descendingIterator() { return new DescendingItr(); }
+[[0.11315607 0.21256146 0.15696155 0.1349078  0.12255993 0.05817392
+ 0.15696155 0.04471766]
+[0.11148529 0.23953798 0.14406037 0.15858741 0.11197431 0.05012689
+ 0.14406037 0.04016739]
+[0.08965002 0.26165783 0.15281367 0.12452057 0.10834565 0.06661452
+ 0.15281367 0.04358407]
+[0.10714243 0.19621637 0.14333405 0.16559784 0.12417741 0.06074544
+ 0.14333405 0.05945238]
+[0.08066969 0.23203216 0.17071238 0.13745427 0.12059604 0.0491259
+ 0.17071238 0.03869718]
+[0.09601843 0.1931946  0.15531018 0.15470648 0.13455206 0.06462239
+ 0.15531018 0.04628567]
+[0.08965002 0.26165783 0.15281367 0.12452057 0.10834565 0.06661452
+ 0.15281367 0.04358407]
+[0.07592797 0.2180103  0.14563283 0.17411654 0.15975475 0.0424429
+ 0.14563283 0.03848182]]

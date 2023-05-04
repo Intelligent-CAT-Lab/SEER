@@ -1,0 +1,21 @@
+56639
+Test: public void test16013() throws Throwable { DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); HashMap<String, DateTimeZone> hashMap0 = new HashMap<String, DateTimeZone>(); HashMap<String, DateTimeZone> hashMap1 = new HashMap<String, DateTimeZone>(hashMap0); DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendTimeZoneName((Map<String, DateTimeZone>) hashMap1); DateTimeFormatterBuilder dateTimeFormatterBuilder2 = dateTimeFormatterBuilder1.appendFractionOfHour(2747, 2747); DateTimeFormatterBuilder dateTimeFormatterBuilder3 = dateTimeFormatterBuilder2.appendFractionOfDay(2747, 2028); DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.millisOfDay(); DateTimeFormatterBuilder dateTimeFormatterBuilder4 = dateTimeFormatterBuilder1.appendShortText(dateTimeFieldType0); DateTimeFieldType dateTimeFieldType1 = DateTimeFieldType.millisOfSecond(); DateTimeFormatterBuilder dateTimeFormatterBuilder5 = dateTimeFormatterBuilder3.appendFraction(dateTimeFieldType1, 867, 48); int int0 = 83; int int1 = 11; IslamicChronology islamicChronology0 = IslamicChronology.getInstance(); DateTimeField dateTimeField0 = dateTimeFieldType1.getField(islamicChronology0); DateTimeFormatterBuilder dateTimeFormatterBuilder6 = dateTimeFormatterBuilder5.appendCenturyOfEra(83, 11); DateTimeFormatterBuilder dateTimeFormatterBuilder7 = dateTimeFormatterBuilder6.appendLiteral('J'); }
+Code: public DateTimeFormatterBuilder appendLiteral(char c) { return append0(new CharacterLiteral(c)); }
+[[0.09165082 0.12714598 0.12714598 0.13410863 0.12483994 0.10119063
+ 0.12714598 0.12714598 0.039626  ]
+[0.07606315 0.12489931 0.12489931 0.15576223 0.13193569 0.09261908
+ 0.12489931 0.12489931 0.04402264]
+[0.07606315 0.12489931 0.12489931 0.15576223 0.13193569 0.09261908
+ 0.12489931 0.12489931 0.04402264]
+[0.08272777 0.12465143 0.12465143 0.13440008 0.15940036 0.09071907
+ 0.12465143 0.12465143 0.03414702]
+[0.09483936 0.1213344  0.1213344  0.09749894 0.15900545 0.10829479
+ 0.1213344  0.1213344  0.05502386]
+[0.06573138 0.12979954 0.12979954 0.15325344 0.1310373  0.09499747
+ 0.12979954 0.12979954 0.03578223]
+[0.07606315 0.12489931 0.12489931 0.15576223 0.13193569 0.09261908
+ 0.12489931 0.12489931 0.04402264]
+[0.07606315 0.12489931 0.12489931 0.15576223 0.13193569 0.09261908
+ 0.12489931 0.12489931 0.04402264]
+[0.0638569  0.11655866 0.11655866 0.10695764 0.18063362 0.1442424
+ 0.11655866 0.11655866 0.03807494]]

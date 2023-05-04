@@ -1,0 +1,9 @@
+24982
+Test: public void test6() throws Throwable { Vector3D.Unit vector3D_Unit0 = Vector3D.Unit.MINUS_X; Precision.DoubleEquivalence precision_DoubleEquivalence0 = mock(Precision.DoubleEquivalence.class, new ViolatedAssumptionAnswer()); GreatCircle greatCircle0 = new GreatCircle(vector3D_Unit0, vector3D_Unit0, vector3D_Unit0, precision_DoubleEquivalence0); RegionBSPTree1S regionBSPTree1S0 = RegionBSPTree1S.full(); EmbeddedTreeGreatCircleSubset embeddedTreeGreatCircleSubset0 = new EmbeddedTreeGreatCircleSubset(greatCircle0, regionBSPTree1S0); List<GreatArc> list0 = embeddedTreeGreatCircleSubset0.toConvex(); }
+Code: public abstract List<GreatArc> toConvex(); /** {@inheritDoc}
+[[0.14270926 0.06536001 0.1979827  0.1979827  0.19798268 0.19798268]
+[0.12789029 0.05201244 0.20502432 0.20502432 0.2050243  0.2050243 ]
+[0.12360433 0.07147676 0.20122972 0.20122972 0.20122974 0.20122974]
+[0.12360433 0.07147676 0.20122972 0.20122972 0.20122974 0.20122974]
+[0.12360433 0.07147676 0.20122972 0.20122972 0.20122974 0.20122974]
+[0.12360433 0.07147676 0.20122972 0.20122972 0.20122974 0.20122974]]

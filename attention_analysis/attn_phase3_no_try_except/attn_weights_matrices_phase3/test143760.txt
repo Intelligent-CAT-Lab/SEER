@@ -1,0 +1,17 @@
+143760
+Test: public void test1() throws Throwable { LRUMap<Integer, AbstractMap.SimpleEntry<Integer, String>> lRUMap0 = new LRUMap<Integer, AbstractMap.SimpleEntry<Integer, String>>(); Integer integer0 = new Integer(722); AbstractMap.SimpleEntry<Integer, String> abstractMap_SimpleEntry0 = new AbstractMap.SimpleEntry<Integer, String>(integer0, "hj, *V#"); AbstractMap.SimpleImmutableEntry<Integer, String> abstractMap_SimpleImmutableEntry0 = new AbstractMap.SimpleImmutableEntry<Integer, String>(abstractMap_SimpleEntry0); AbstractMap.SimpleEntry<Integer, String> abstractMap_SimpleEntry1 = new AbstractMap.SimpleEntry<Integer, String>(abstractMap_SimpleImmutableEntry0); lRUMap0.put(integer0, abstractMap_SimpleEntry1); int int0 = lRUMap0.size(); }
+Code: public int size() { return map.size(); }
+[[0.14692546 0.09760179 0.20380127 0.17241816 0.15879607 0.16299614
+ 0.05746107]
+[0.09600192 0.07343052 0.25714928 0.19284326 0.15200725 0.18442574
+ 0.04414209]
+[0.12656085 0.08417099 0.21554704 0.17680149 0.1529806  0.18213901
+ 0.06180005]
+[0.13713771 0.06876266 0.19346067 0.18953864 0.16187161 0.17746045
+ 0.0717683 ]
+[0.11126046 0.07310639 0.23951863 0.1812469  0.16775699 0.17559955
+ 0.05151111]
+[0.10054496 0.05742384 0.2549035  0.20333132 0.14038596 0.19760579
+ 0.04580458]
+[0.09066046 0.07025033 0.17583123 0.19669151 0.18751213 0.23497763
+ 0.04407664]]

@@ -1,0 +1,9 @@
+167601
+Test: public void test109() throws Throwable { DefaultFileMonitor defaultFileMonitor0 = new DefaultFileMonitor((FileListener) null); defaultFileMonitor0.stop(); defaultFileMonitor0.setChecksPerRun(0); defaultFileMonitor0.stop(); FileListener fileListener0 = defaultFileMonitor0.getFileListener(); DefaultFileSystemManager defaultFileSystemManager0 = new DefaultFileSystemManager(); URI uRI0 = MockURI.aFileURI; }
+Code: FileListener getFileListener() { return this.listener; }
+[[0.20265809 0.20265809 0.18311131 0.14610806 0.2026581  0.06280632]
+[0.20265809 0.20265809 0.18311131 0.14610806 0.2026581  0.06280632]
+[0.18202463 0.18202463 0.2176526  0.1589381  0.18202463 0.0773354 ]
+[0.2073949  0.2073949  0.17967321 0.14808911 0.2073949  0.050053  ]
+[0.20265809 0.20265809 0.18311131 0.14610806 0.2026581  0.06280632]
+[0.17505208 0.17505208 0.22662593 0.19890663 0.17505206 0.04931121]]

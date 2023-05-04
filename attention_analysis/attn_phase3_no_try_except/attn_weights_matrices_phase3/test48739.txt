@@ -1,0 +1,23 @@
+48739
+Test: public void test7959() throws Throwable { DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.weekyear(); DateTimeFormatterBuilder.TwoDigitYear dateTimeFormatterBuilder_TwoDigitYear0 = new DateTimeFormatterBuilder.TwoDigitYear(dateTimeFieldType0, 363, true); DateTimeZone dateTimeZone0 = DateTimeZone.UTC; CopticChronology copticChronology0 = CopticChronology.getInstance(dateTimeZone0); LenientChronology lenientChronology0 = LenientChronology.getInstance(copticChronology0); Locale locale0 = Locale.KOREA; Integer integer0 = new Integer(16); boolean boolean0 = FileSystemHandling.createFolder((EvoSuiteFile) null); DateTimeParserBucket dateTimeParserBucket0 = new DateTimeParserBucket(363, lenientChronology0, locale0, integer0, 16); int int0 = dateTimeFormatterBuilder_TwoDigitYear0.parseInto(dateTimeParserBucket0, "org/joda/time/tz/data", 363); DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendHourOfHalfday(1); }
+Code: public DateTimeFormatterBuilder appendHourOfHalfday(int minDigits) { return appendDecimal(DateTimeFieldType.hourOfHalfday(), minDigits, 2); }
+[[0.08205512 0.11382069 0.11382069 0.11382069 0.09785184 0.08887724
+ 0.11382069 0.11382069 0.12968028 0.03243214]
+[0.06842582 0.11517966 0.11517966 0.11517966 0.10309129 0.08290781
+ 0.11517966 0.11517966 0.1342538  0.03542297]
+[0.06842582 0.11517966 0.11517966 0.11517966 0.10309129 0.08290781
+ 0.11517966 0.11517966 0.1342538  0.03542297]
+[0.06842582 0.11517966 0.11517966 0.11517966 0.10309129 0.08290781
+ 0.11517966 0.11517966 0.1342538  0.03542297]
+[0.08026189 0.10609328 0.10609328 0.10609328 0.12692222 0.09264792
+ 0.10609328 0.10609328 0.12461083 0.04509079]
+[0.05550785 0.11613241 0.11613241 0.11613241 0.09730859 0.08251259
+ 0.11613241 0.11613241 0.15677267 0.02723623]
+[0.06842582 0.11517966 0.11517966 0.11517966 0.10309129 0.08290781
+ 0.11517966 0.11517966 0.1342538  0.03542297]
+[0.06842582 0.11517966 0.11517966 0.11517966 0.10309129 0.08290781
+ 0.11517966 0.11517966 0.1342538  0.03542297]
+[0.06725104 0.10889164 0.10889164 0.10889164 0.15426037 0.09336461
+ 0.10889164 0.10889164 0.11452725 0.02613861]
+[0.05639288 0.10541715 0.10541715 0.10541715 0.1451817  0.12323768
+ 0.10541715 0.10541715 0.11687201 0.03123005]]

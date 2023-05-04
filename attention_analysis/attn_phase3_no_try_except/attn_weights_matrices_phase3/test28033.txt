@@ -1,0 +1,21 @@
+28033
+Test: public void test7() throws Throwable { Vector2D.Unit vector2D_Unit0 = Vector2D.Unit.PLUS_X; Vector2D.Unit vector2D_Unit1 = Vector2D.Unit.MINUS_X; Precision.DoubleEquivalence precision_DoubleEquivalence0 = mock(Precision.DoubleEquivalence.class, new ViolatedAssumptionAnswer()); doReturn(false, false).when(precision_DoubleEquivalence0).eq(anyDouble() , anyDouble()); doReturn(true, false, false).when(precision_DoubleEquivalence0).eqZero(anyDouble()); Line line0 = new Line(vector2D_Unit1, 0.0, precision_DoubleEquivalence0); Line line1 = line0.reverse(); Rotation2D rotation2D0 = Rotation2D.identity(); Line line2 = line1.transform(rotation2D0); line0.rayFrom((-880.394639267543)); vector2D_Unit0.toString(); Precision.DoubleEquivalence precision_DoubleEquivalence1 = mock(Precision.DoubleEquivalence.class, new ViolatedAssumptionAnswer()); vector2D_Unit1.reject((Vector2D) vector2D_Unit0); Line line3 = line2.reverse(); line1.isParallel(line1); Vector2D vector2D0 = line3.intersection(line1); boolean boolean0 = line2.similarOrientation(line3); line2.subspaceTransform(rotation2D0); rotation2D0.inverse(); double double0 = line2.distance((Vector2D) vector2D_Unit0); }
+Code: public double distance(final Vector2D p) { return Math.abs(offset(p)); }
+[[0.09135124 0.15781862 0.12672576 0.11989616 0.11916547 0.11961089
+ 0.10026444 0.12672576 0.03844167]
+[0.07580854 0.1650736  0.136286   0.09995085 0.10546972 0.13136005
+ 0.11504821 0.136286   0.034717  ]
+[0.08011594 0.14972064 0.13334951 0.13193521 0.1014886  0.12904003
+ 0.09729207 0.13334951 0.04370858]
+[0.09794235 0.13164005 0.13339351 0.11033653 0.10169484 0.15210779
+ 0.10139227 0.13339351 0.03809916]
+[0.08240521 0.13675526 0.11127865 0.10474794 0.12319735 0.15524295
+ 0.13336886 0.11127865 0.04172513]
+[0.09415986 0.12811355 0.12567642 0.11142571 0.10734669 0.14618164
+ 0.10904581 0.12567642 0.05237386]
+[0.06858578 0.14943364 0.14077443 0.11154442 0.12719227 0.12580106
+ 0.10099781 0.14077443 0.03489614]
+[0.08011594 0.14972064 0.13334951 0.13193521 0.1014886  0.12904003
+ 0.09729207 0.13334951 0.04370858]
+[0.06624902 0.14660363 0.12570414 0.10192129 0.0974596  0.15979904
+ 0.14166725 0.12570414 0.03489195]]

@@ -1,0 +1,17 @@
+141378
+Test: public void test22() throws Throwable { Integer integer0 = new Integer((-1)); CacheElement<String, String> cacheElement0 = new CacheElement<String, String>("ExV_qS!", "ExV_qS!", "ExV_qS!"); PurgatoryElement<String, String> purgatoryElement0 = new PurgatoryElement<String, String>(cacheElement0); IElementAttributes iElementAttributes0 = purgatoryElement0.getElementAttributes(); Object object0 = new Object(); CacheElement<Integer, Object> cacheElement1 = new CacheElement<Integer, Object>("3", integer0, object0, iElementAttributes0); PurgatoryElement<Integer, Object> purgatoryElement1 = new PurgatoryElement<Integer, Object>(cacheElement1); ICacheElement<Integer, Object> iCacheElement0 = purgatoryElement1.getCacheElement(); }
+Code: public String getCacheName() { return cacheElement.getCacheName(); }
+[[0.12830108 0.1666011  0.17797421 0.15782064 0.1395634  0.17797421
+ 0.05176535]
+[0.12820424 0.14977588 0.1834282  0.1802996  0.12852609 0.18342823
+ 0.04633773]
+[0.10518022 0.1933394  0.1756843  0.16600226 0.12763993 0.1756843
+ 0.0564696 ]
+[0.11900765 0.17346033 0.15602481 0.19107194 0.13699669 0.15602481
+ 0.06741381]
+[0.08912516 0.20455416 0.18036592 0.1687272  0.13034222 0.18036592
+ 0.04651939]
+[0.10518022 0.1933394  0.1756843  0.16600226 0.12763993 0.1756843
+ 0.0564696 ]
+[0.08551911 0.15674725 0.16242397 0.20538047 0.18261436 0.16242395
+ 0.04489082]]

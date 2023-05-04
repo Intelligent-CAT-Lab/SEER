@@ -1,0 +1,17 @@
+7328
+Test: public void test10() throws Throwable { HttpServletResponse httpServletResponse0 = mock(HttpServletResponse.class, new ViolatedAssumptionAnswer()); doReturn("k$RVF4").when(httpServletResponse0).getCharacterEncoding(); HttpServletResponseWrapper httpServletResponseWrapper0 = new HttpServletResponseWrapper(httpServletResponse0); httpServletResponseWrapper0.getCharacterEncoding(); HttpServletResponseWrapper httpServletResponseWrapper1 = new HttpServletResponseWrapper(httpServletResponseWrapper0); httpServletResponseWrapper0.setResponse(httpServletResponseWrapper1); httpServletResponseWrapper0.setResponse(httpServletResponseWrapper1); Response response0 = new Response(httpServletResponseWrapper0); // Undeclared exception!  response0.type("l3p:8rVKLf;fFqT?{");   }
+Code: public void type(String contentType) { response.setContentType(contentType); }
+[[0.11198848 0.08863141 0.15534212 0.31073588 0.13367002 0.1553421
+ 0.04429   ]
+[0.08745889 0.0735111  0.17391728 0.30875936 0.13946077 0.17391726
+ 0.04297536]
+[0.10146604 0.08325555 0.17336862 0.28118134 0.13864446 0.17336863
+ 0.04871538]
+[0.10324061 0.07174951 0.16798338 0.2797677  0.16553059 0.16798341
+ 0.04374481]
+[0.11439041 0.09853384 0.15641244 0.2430235  0.1692171  0.15641245
+ 0.06201027]
+[0.10146604 0.08325555 0.17336862 0.28118134 0.13864446 0.17336863
+ 0.04871538]
+[0.08447911 0.07457659 0.16459139 0.29245448 0.17895754 0.16459137
+ 0.04034947]]

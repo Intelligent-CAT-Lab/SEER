@@ -1,0 +1,42 @@
+67267
+Test: public void test4() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test4"); com.fasterxml.jackson.databind.deser.std.NullifyingDeserializer[] nullifyingDeserializerArray0 = new com.fasterxml.jackson.databind.deser.std.NullifyingDeserializer[] {}; com.fasterxml.jackson.databind.deser.std.NullifyingDeserializer nullifyingDeserializer1 = com.fasterxml.jackson.databind.deser.std.NullifyingDeserializer.instance; com.fasterxml.jackson.databind.node.NullNode nullNode2 = com.fasterxml.jackson.databind.node.NullNode.instance; boolean boolean3 = nullNode2.isNumber(); java.util.List<com.fasterxml.jackson.databind.JsonNode> jsonNodeList5 = nullNode2.findValues("READ_DATE_TIMESTAMPS_AS_NANOSECONDS"); com.fasterxml.jackson.databind.node.TreeTraversingParser treeTraversingParser6 = new com.fasterxml.jackson.databind.node.TreeTraversingParser((com.fasterxml.jackson.databind.JsonNode) nullNode2); com.fasterxml.jackson.core.Base64Variant base64Variant7 = null; java.io.OutputStream outputStream8 = null; int int9 = treeTraversingParser6.readBinaryValue(base64Variant7, outputStream8); java.lang.Object obj10 = treeTraversingParser6.getEmbeddedObject(); com.fasterxml.jackson.databind.DeserializationContext deserializationContext11 = null; java.lang.Object obj12 = nullifyingDeserializer1.deserialize((com.fasterxml.jackson.core.JsonParser) treeTraversingParser6, deserializationContext11); com.fasterxml.jackson.databind.deser.std.NullifyingDeserializer[] nullifyingDeserializerArray13 = com.fasterxml.jackson.databind.util.ArrayBuilders.insertInListNoDup(nullifyingDeserializerArray0, nullifyingDeserializer1); }
+Code: public Object deserialize(JsonParser p, DeserializationContext ctxt) throws IOException { p.skipChildren(); return null; }
+[[0.05978196 0.04608974 0.10585411 0.08672052 0.04391727 0.0602738
+ 0.1435132  0.0302471  0.07714842 0.12977752 0.06547571 0.12629038
+ 0.02491033]
+[0.05009842 0.03550731 0.100664   0.10520454 0.04524446 0.05211253
+ 0.17437346 0.02794006 0.0948649  0.11127477 0.06141835 0.12319543
+ 0.01810177]
+[0.04262399 0.03775962 0.12298516 0.10236776 0.04025047 0.05054527
+ 0.15695955 0.02570067 0.09143703 0.10605049 0.06160691 0.14578447
+ 0.01592864]
+[0.04174332 0.03592673 0.10356376 0.0803689  0.04871794 0.04433949
+ 0.18699536 0.0270998  0.08323505 0.0957934  0.06577904 0.16542248
+ 0.02101471]
+[0.0423758  0.03545822 0.09812404 0.09616384 0.04243035 0.04858809
+ 0.17283031 0.02888598 0.07110279 0.12322993 0.06216037 0.15337345
+ 0.02527681]
+[0.04654746 0.03004379 0.09801424 0.08608419 0.04618823 0.05224758
+ 0.16210172 0.02759724 0.10133348 0.13178854 0.07364363 0.12181275
+ 0.0225971 ]
+[0.03963283 0.03646611 0.10245249 0.10371091 0.0438735  0.04602693
+ 0.2033687  0.02329766 0.08566185 0.10440152 0.0629379  0.13078995
+ 0.01737964]
+[0.05215858 0.0433583  0.09621401 0.08217001 0.04217978 0.05526718
+ 0.20311913 0.02747579 0.08459054 0.09706143 0.0734421  0.1243174
+ 0.01864579]
+[0.06088462 0.03625524 0.09991548 0.09276116 0.05478478 0.06190221
+ 0.10980569 0.03924755 0.08799578 0.11684995 0.07136294 0.1356292
+ 0.03260542]
+[0.04481614 0.0336374  0.11168907 0.08947074 0.04789744 0.05284993
+ 0.14121154 0.02437576 0.1203988  0.10853237 0.06386442 0.1426984
+ 0.01855795]
+[0.04070394 0.03816139 0.10107642 0.11333218 0.0391578  0.05165348
+ 0.16018562 0.02971988 0.07384275 0.11768953 0.06007986 0.1538696
+ 0.02052754]
+[0.05982624 0.04080614 0.12664607 0.07627341 0.04679696 0.05582838
+ 0.17208901 0.03067575 0.08128911 0.09993957 0.0705867  0.1134734
+ 0.02576925]
+[0.03892787 0.03831503 0.11145543 0.08775388 0.03531728 0.05155689
+ 0.16483709 0.02891731 0.08823963 0.12075778 0.08160797 0.13275626
+ 0.01955759]]

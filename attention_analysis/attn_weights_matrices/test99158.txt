@@ -1,0 +1,19 @@
+99158
+Test: public void testGetInvocations() { List<String> methodsInvoked = new ArrayList<String>() {{ add("add"); add("remove"); add("clear"); }}; List<String> mockedList = (List<String>) mock(List.class); mockedList.add("one"); mockedList.remove(0); mockedList.clear(); MockingDetails mockingDetails = new MockitoCore().mockingDetails(mockedList); Collection<Invocation> invocations = mockingDetails.getInvocations(); for (Invocation method : invocations) { if (method.getMethod().getName().equals("add")) { } } }
+Code: public boolean equals(Object o) { return method.equals(o); }
+[[0.08649019 0.20426205 0.17392847 0.13448915 0.1267851  0.09660124
+ 0.1380854  0.03935836]
+[0.05855776 0.29065764 0.10898504 0.12301085 0.15509628 0.09925875
+ 0.13578677 0.02864686]
+[0.08112567 0.220469   0.14874429 0.11377256 0.13412467 0.11921083
+ 0.15571564 0.02683726]
+[0.0694696  0.2262877  0.15606901 0.13036549 0.14103338 0.09921631
+ 0.1356065  0.04195204]
+[0.09488058 0.21272525 0.12013248 0.12342785 0.14951703 0.10959083
+ 0.13652335 0.05320264]
+[0.0606747  0.27904275 0.15726233 0.13435805 0.13010852 0.08611883
+ 0.11736171 0.03507316]
+[0.07213973 0.19955018 0.15221682 0.16220072 0.12598045 0.10027795
+ 0.14132205 0.04631213]
+[0.06000382 0.20451808 0.12490661 0.13575013 0.16155486 0.13317452
+ 0.14568041 0.03441159]]

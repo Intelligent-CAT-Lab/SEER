@@ -1,0 +1,19 @@
+18924
+Test: public void test492() throws Throwable { Locale locale0 = Locale.PRC; Locale.setDefault(locale0); Locale locale1 = locale0.stripExtensions(); Set<String> set0 = locale0.getUnicodeLocaleKeys(); FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(3, 3, locale0); ParsePosition parsePosition0 = new ParsePosition(7); String[] stringArray0 = Locale.getISOLanguages(); Date date0 = fastDateFormat0.parse("' not supported", parsePosition0); Calendar calendar0 = MockCalendar.getInstance(); }
+Code: public static FastDateFormat getInstance() { return cache.getInstance(); }
+[[0.1104599  0.26851025 0.04608857 0.15320282 0.11198868 0.11720607
+ 0.15320282 0.0393409 ]
+[0.10630524 0.25433987 0.04865827 0.14687742 0.15448834 0.09834621
+ 0.14687742 0.04410724]
+[0.08779401 0.24427307 0.04073902 0.18247122 0.12255084 0.10518569
+ 0.18247122 0.03451496]
+[0.08886448 0.28692818 0.0508706  0.15218082 0.11952566 0.10729328
+ 0.15218082 0.04215609]
+[0.10268707 0.225612   0.06481804 0.14410242 0.14362514 0.12098522
+ 0.14410242 0.05406761]
+[0.07560708 0.29387295 0.03368794 0.16845174 0.11152661 0.11599678
+ 0.16845174 0.03240519]
+[0.08886448 0.28692818 0.0508706  0.15218082 0.11952566 0.10729328
+ 0.15218082 0.04215609]
+[0.07369483 0.2610978  0.04575698 0.14519566 0.14678311 0.1486353
+ 0.14519566 0.03364063]]

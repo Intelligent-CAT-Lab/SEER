@@ -1,0 +1,21 @@
+48813
+Test: public void test8046() throws Throwable { HashMap<String, DateTimeZone> hashMap0 = new HashMap<String, DateTimeZone>(); HashMap<String, DateTimeZone> hashMap1 = new HashMap<String, DateTimeZone>(hashMap0); DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.clockhourOfDay(); DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral("US/H"); DateTimePrinter dateTimePrinter0 = InternalPrinterDateTimePrinter.of(dateTimeFormatterBuilder_StringLiteral0); DateTimeParser[] dateTimeParserArray0 = new DateTimeParser[1]; DateTimeParser dateTimeParser0 = InternalParserDateTimeParser.of(dateTimeFormatterBuilder_StringLiteral0); GJChronology gJChronology0 = GJChronology.getInstance(); StrictChronology strictChronology0 = StrictChronology.getInstance(gJChronology0); DateTimeZone dateTimeZone0 = gJChronology0.getZone(); ZonedChronology zonedChronology0 = ZonedChronology.getInstance(strictChronology0, dateTimeZone0); Chronology chronology0 = zonedChronology0.withUTC(); DateTimeField dateTimeField0 = dateTimeFieldType0.getField(chronology0); dateTimeParserArray0[0] = dateTimeParser0; boolean boolean0 = DateTimeFormatterBuilder.csStartsWith("org/joda/time/tz/data", 2311, ""); DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendDayOfMonth(2243); DateTimeFormatterBuilder dateTimeFormatterBuilder2 = dateTimeFormatterBuilder1.appendFixedSignedDecimal(dateTimeFieldType0, 2311); DateTimeFormatterBuilder dateTimeFormatterBuilder3 = dateTimeFormatterBuilder2.appendHalfdayOfDayText(); DateTimeFormatterBuilder dateTimeFormatterBuilder4 = dateTimeFormatterBuilder3.appendLiteral('3'); }
+Code: public DateTimeFormatterBuilder appendLiteral(char c) { return append0(new CharacterLiteral(c)); }
+[[0.09165082 0.12714598 0.12714598 0.13410863 0.12483994 0.10119063
+ 0.12714598 0.12714598 0.039626  ]
+[0.07606315 0.12489931 0.12489931 0.15576223 0.13193569 0.09261908
+ 0.12489931 0.12489931 0.04402264]
+[0.07606315 0.12489931 0.12489931 0.15576223 0.13193569 0.09261908
+ 0.12489931 0.12489931 0.04402264]
+[0.08272777 0.12465143 0.12465143 0.13440008 0.15940036 0.09071907
+ 0.12465143 0.12465143 0.03414702]
+[0.09483936 0.1213344  0.1213344  0.09749894 0.15900545 0.10829479
+ 0.1213344  0.1213344  0.05502386]
+[0.06573138 0.12979954 0.12979954 0.15325344 0.1310373  0.09499747
+ 0.12979954 0.12979954 0.03578223]
+[0.07606315 0.12489931 0.12489931 0.15576223 0.13193569 0.09261908
+ 0.12489931 0.12489931 0.04402264]
+[0.07606315 0.12489931 0.12489931 0.15576223 0.13193569 0.09261908
+ 0.12489931 0.12489931 0.04402264]
+[0.0638569  0.11655866 0.11655866 0.10695764 0.18063362 0.1442424
+ 0.11655866 0.11655866 0.03807494]]

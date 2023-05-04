@@ -1,0 +1,8 @@
+162124
+Test: public void test650() throws Throwable { LinkedBlockingDeque<Integer> linkedBlockingDeque0 = new LinkedBlockingDeque<Integer>(); Locale locale0 = Locale.CANADA; Locale locale1 = null; String string0 = locale0.getDisplayScript((Locale) null); Locale.Category locale_Category0 = Locale.Category.FORMAT; Integer integer0 = new Integer((-21)); Duration duration0 = Duration.ofHours(685L); }
+Code: public LinkedBlockingDeque() { this(Integer.MAX_VALUE); }
+[[0.18877485 0.2618447  0.21511179 0.2618447  0.07242395]
+[0.15826353 0.2686846  0.22581923 0.2686846  0.07854807]
+[0.17396262 0.23986343 0.2528699  0.23986343 0.09344059]
+[0.15826353 0.2686846  0.22581923 0.2686846  0.07854807]
+[0.13051036 0.24960408 0.30344182 0.24960408 0.06683967]]

@@ -1,0 +1,2 @@
+89793
+Test: public void test0() throws Throwable { GraphicalVerifier graphicalVerifier0 = null;  graphicalVerifier0 = new GraphicalVerifier();   }

@@ -1,0 +1,51 @@
+15352
+Test: public void test226() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test226"); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder0 = new org.apache.commons.cli2.builder.DefaultOptionBuilder(); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder1 = defaultOptionBuilder0.reset(); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder3 = defaultOptionBuilder1.withShortName(""); org.apache.commons.cli2.Argument argument4 = null; org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder5 = defaultOptionBuilder1.withArgument(argument4); org.apache.commons.cli2.option.DefaultOption defaultOption6 = defaultOptionBuilder5.create(); org.apache.commons.cli2.OptionException optionException7 = new org.apache.commons.cli2.OptionException((org.apache.commons.cli2.Option) defaultOption6); int int8 = defaultOption6.getId(); org.apache.commons.cli2.Option option10 = defaultOption6.findOption("-"); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder11 = new org.apache.commons.cli2.builder.DefaultOptionBuilder(); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder12 = defaultOptionBuilder11.reset(); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder14 = defaultOptionBuilder12.withShortName(""); org.apache.commons.cli2.Argument argument15 = null; org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder16 = defaultOptionBuilder12.withArgument(argument15); org.apache.commons.cli2.option.DefaultOption defaultOption17 = defaultOptionBuilder16.create(); org.apache.commons.cli2.util.HelpFormatter helpFormatter23 = new org.apache.commons.cli2.util.HelpFormatter("", "hi!", "hi!", (int) '#'); helpFormatter23.printDivider(); java.lang.String str25 = helpFormatter23.getGutterLeft(); java.util.Set set26 = org.apache.commons.cli2.DisplaySetting.NONE; helpFormatter23.setFullUsageSettings(set26); java.util.Set set28 = org.apache.commons.cli2.DisplaySetting.NONE; helpFormatter23.setDisplaySettings(set28); java.util.Comparator comparator30 = null; java.util.List list31 = defaultOption17.helpLines((int) (short) 1, set28, comparator30); org.apache.commons.cli2.commandline.WriteableCommandLineImpl writeableCommandLineImpl32 = new org.apache.commons.cli2.commandline.WriteableCommandLineImpl((org.apache.commons.cli2.Option) defaultOption6, list31); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder33 = new org.apache.commons.cli2.builder.DefaultOptionBuilder(); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder34 = defaultOptionBuilder33.reset(); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder36 = defaultOptionBuilder34.withShortName(""); org.apache.commons.cli2.Argument argument37 = null; org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder38 = defaultOptionBuilder34.withArgument(argument37); org.apache.commons.cli2.option.DefaultOption defaultOption39 = defaultOptionBuilder38.create(); org.apache.commons.cli2.WriteableCommandLine writeableCommandLine40 = null; defaultOption39.defaults(writeableCommandLine40); org.apache.commons.cli2.WriteableCommandLine writeableCommandLine42 = null; defaultOption39.defaults(writeableCommandLine42); org.apache.commons.cli2.WriteableCommandLine writeableCommandLine44 = null; boolean boolean46 = defaultOption39.canProcess(writeableCommandLine44, "org.apache.commons.cli2.validation.InvalidArgumentException: hi!"); org.apache.commons.cli2.Option option48 = defaultOption39.findOption(""); java.lang.Object obj49 = writeableCommandLineImpl32.getValue((org.apache.commons.cli2.Option) defaultOption39); org.apache.commons.cli2.Option option50 = writeableCommandLineImpl32.getCurrentOption(); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder51 = new org.apache.commons.cli2.builder.DefaultOptionBuilder(); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder52 = defaultOptionBuilder51.reset(); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder54 = defaultOptionBuilder52.withShortName(""); org.apache.commons.cli2.Argument argument55 = null; org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder56 = defaultOptionBuilder52.withArgument(argument55); org.apache.commons.cli2.option.DefaultOption defaultOption57 = defaultOptionBuilder56.create(); org.apache.commons.cli2.WriteableCommandLine writeableCommandLine58 = null; defaultOption57.defaults(writeableCommandLine58); org.apache.commons.cli2.Option option61 = defaultOption57.findOption(" "); org.apache.commons.cli2.WriteableCommandLine writeableCommandLine62 = null; defaultOption57.defaults(writeableCommandLine62); java.lang.Boolean boolean65 = writeableCommandLineImpl32.getSwitch((org.apache.commons.cli2.Option) defaultOption57, (java.lang.Boolean) false); java.util.List list67 = null; java.util.List list68 = writeableCommandLineImpl32.getValues("[-]", list67); java.lang.Boolean boolean71 = writeableCommandLineImpl32.getSwitch("org.apache.commons.cli2.OptionException: ", (java.lang.Boolean) true); }
+Code: public WriteableCommandLineImpl(final Option rootOption, final List arguments) { this.prefixes = rootOption.getPrefixes(); this.normalised = arguments; setCurrentOption(rootOption); }
+[[0.04722849 0.07158465 0.1239503  0.06069973 0.03766436 0.06535169
+ 0.05926182 0.06112227 0.10030259 0.02959902 0.1162398  0.03496619
+ 0.02959902 0.07131729 0.07139521 0.01971755]
+[0.03482145 0.06065954 0.12956272 0.0483286  0.0270513  0.05602562
+ 0.04875833 0.07631543 0.10559405 0.02339428 0.1874662  0.02710295
+ 0.02339428 0.06430016 0.07797381 0.00925124]
+[0.04123864 0.05447159 0.10559016 0.05089707 0.03544462 0.06703698
+ 0.06519097 0.07917517 0.0833837  0.03567276 0.1478819  0.03001328
+ 0.03567276 0.07911012 0.07181525 0.01740499]
+[0.05404361 0.06889745 0.10655825 0.05968086 0.04167392 0.08448054
+ 0.06843527 0.07048686 0.08270541 0.03566246 0.10579211 0.03629426
+ 0.03566246 0.06287138 0.06561657 0.02113854]
+[0.04278015 0.05870395 0.11047213 0.04564916 0.02841993 0.05959125
+ 0.05306303 0.07122321 0.0836979  0.03314862 0.1920021  0.03129826
+ 0.03314862 0.07124364 0.07145007 0.014108  ]
+[0.03864458 0.06104252 0.1166342  0.05345131 0.03403488 0.06307799
+ 0.04546897 0.08198827 0.08227083 0.02784187 0.18545747 0.02333051
+ 0.02784187 0.07244695 0.06994573 0.01652204]
+[0.0396333  0.0747806  0.10277315 0.04933115 0.0357098  0.07129385
+ 0.05859914 0.08989637 0.07960487 0.02884921 0.14474311 0.02502321
+ 0.02884921 0.07635464 0.07914767 0.01541078]
+[0.04702532 0.05807272 0.11342369 0.05450881 0.04587744 0.06543509
+ 0.06890515 0.06817183 0.07913838 0.03881229 0.11183625 0.02527166
+ 0.03881229 0.08296195 0.07652384 0.02522329]
+[0.04042364 0.06378544 0.10476729 0.04883569 0.04054016 0.06274505
+ 0.05517145 0.08193363 0.10119378 0.02777548 0.15055475 0.0332047
+ 0.02777548 0.06825116 0.07798465 0.01505757]
+[0.05621878 0.06694474 0.12258834 0.06532003 0.04718056 0.0836247
+ 0.06453    0.05846249 0.07371007 0.04516288 0.08018544 0.02990852
+ 0.04516288 0.07156304 0.06309759 0.02633989]
+[0.03017193 0.05146655 0.11844641 0.04650796 0.02754314 0.08195139
+ 0.06003837 0.06092997 0.09463938 0.03004014 0.18303886 0.02566818
+ 0.03004014 0.071757   0.0720867  0.0156739 ]
+[0.03566231 0.05767932 0.11713499 0.06015943 0.03129072 0.06739386
+ 0.06046769 0.08227972 0.08311679 0.02535281 0.17169666 0.02242049
+ 0.02535281 0.07093205 0.07382204 0.01523832]
+[0.05621878 0.06694474 0.12258834 0.06532003 0.04718056 0.0836247
+ 0.06453    0.05846249 0.07371007 0.04516288 0.08018544 0.02990852
+ 0.04516288 0.07156304 0.06309759 0.02633989]
+[0.05179518 0.06112007 0.09795679 0.06118226 0.04178675 0.07424411
+ 0.06631894 0.06270871 0.07407156 0.03459994 0.1388671  0.03933471
+ 0.03459994 0.06800073 0.0724701  0.0209431 ]
+[0.0428264  0.07022351 0.08906329 0.05316512 0.03717079 0.07396452
+ 0.05942561 0.06668358 0.07977178 0.04158496 0.1255972  0.033601
+ 0.04158496 0.07694562 0.08641107 0.02198061]
+[0.03787274 0.06302917 0.10136262 0.06387991 0.03321556 0.06714368
+ 0.06659486 0.08421494 0.08905431 0.03282198 0.13949993 0.03107605
+ 0.03282198 0.06876567 0.06989181 0.01875478]]

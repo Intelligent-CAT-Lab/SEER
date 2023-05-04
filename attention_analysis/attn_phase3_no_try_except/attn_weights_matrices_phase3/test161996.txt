@@ -1,0 +1,48 @@
+161996
+Test: public void test499() throws Throwable { LinkedBlockingDeque<Integer> linkedBlockingDeque0 = new LinkedBlockingDeque<Integer>(true); LinkedBlockingDeque<Object> linkedBlockingDeque1 = new LinkedBlockingDeque<Object>(linkedBlockingDeque0); Predicate<Integer> predicate0 = Predicate.isEqual((Object) null); boolean boolean0 = linkedBlockingDeque0.removeIf(predicate0); boolean boolean1 = linkedBlockingDeque1.contains((Object) null); Integer integer0 = new Integer((-2485)); Stream<Object> stream0 = linkedBlockingDeque1.stream(); boolean boolean2 = linkedBlockingDeque0.offer(integer0); TimeUnit timeUnit0 = TimeUnit.NANOSECONDS; Object object0 = linkedBlockingDeque1.pollLast(1L, timeUnit0); Integer integer1 = new Integer((-514)); ChronoUnit chronoUnit0 = ChronoUnit.MICROS; Duration duration0 = chronoUnit0.getDuration(); boolean boolean3 = linkedBlockingDeque1.offerLast((Object) integer1, duration0); Object object1 = linkedBlockingDeque1.takeLast(); Duration duration1 = duration0.plus((-3932L), (TemporalUnit) chronoUnit0); LinkedBlockingDeque<String> linkedBlockingDeque2 = new LinkedBlockingDeque<String>(); LinkedBlockingDeque<String> linkedBlockingDeque3 = new LinkedBlockingDeque<String>(linkedBlockingDeque2); linkedBlockingDeque3.putLast(""); TimeUnit timeUnit1 = TimeUnit.MICROSECONDS; boolean boolean4 = linkedBlockingDeque2.offerFirst("org.apache.commons.pool2.impl.LinkedBlockingDeque", 3563L, timeUnit1); boolean boolean5 = linkedBlockingDeque1.offer((Object) linkedBlockingDeque3, 1L, timeUnit0); boolean boolean6 = linkedBlockingDeque1.offerFirst((Object) timeUnit1, duration0); Object object2 = linkedBlockingDeque1.pollLast(3563L, timeUnit0); linkedBlockingDeque1.putFirst(timeUnit0); Object object3 = linkedBlockingDeque1.removeFirst(); Integer integer2 = new Integer((-2485)); linkedBlockingDeque0.addLast(integer2); String string0 = linkedBlockingDeque2.peek(); boolean boolean7 = linkedBlockingDeque1.hasTakeWaiters(); }
+Code: public boolean hasTakeWaiters() { lock.lock(); try { return lock.hasWaiters(notEmpty); } finally { lock.unlock(); } }
+[[0.05507112 0.13901223 0.07639629 0.07173171 0.07639629 0.10163853
+ 0.07173171 0.06039803 0.07639629 0.02309236 0.05382269 0.0717317
+ 0.0763963  0.02309236 0.02309236]
+[0.03698035 0.20497325 0.07184951 0.08444396 0.07184951 0.07263
+ 0.08444396 0.05843451 0.07184952 0.01615473 0.03778774 0.08444395
+ 0.07184952 0.01615473 0.01615473]
+[0.04528121 0.16919756 0.07543084 0.07258888 0.07543084 0.07898041
+ 0.07258888 0.05498001 0.07543084 0.02461173 0.05823563 0.07258887
+ 0.07543085 0.02461172 0.02461172]
+[0.05446447 0.12341943 0.07261214 0.08473978 0.07261214 0.05935538
+ 0.08473978 0.06305078 0.07261214 0.03033001 0.064052   0.08473979
+ 0.07261215 0.03033001 0.03033001]
+[0.04528121 0.16919756 0.07543084 0.07258888 0.07543084 0.07898041
+ 0.07258888 0.05498001 0.07543084 0.02461173 0.05823563 0.07258887
+ 0.07543085 0.02461172 0.02461172]
+[0.0462994  0.16264598 0.07527019 0.07401212 0.07527019 0.08780842
+ 0.07401212 0.06795824 0.07527018 0.01977399 0.05284884 0.07401213
+ 0.07527019 0.01977399 0.01977399]
+[0.05446447 0.12341943 0.07261214 0.08473978 0.07261214 0.05935538
+ 0.08473978 0.06305078 0.07261214 0.03033001 0.064052   0.08473979
+ 0.07261215 0.03033001 0.03033001]
+[0.03796351 0.20001301 0.07593837 0.07369184 0.07593837 0.07148489
+ 0.07369184 0.05520768 0.07593837 0.02022197 0.04983597 0.07369185
+ 0.07593839 0.02022197 0.02022197]
+[0.04528121 0.16919756 0.07543084 0.07258888 0.07543084 0.07898041
+ 0.07258888 0.05498001 0.07543084 0.02461173 0.05823563 0.07258887
+ 0.07543085 0.02461172 0.02461172]
+[0.03712222 0.13115986 0.06996101 0.09229442 0.06996101 0.08444219
+ 0.09229442 0.08017787 0.069961   0.02001107 0.05033726 0.09229445
+ 0.06996102 0.02001107 0.02001107]
+[0.03622329 0.18448879 0.06806061 0.08882939 0.06806061 0.07923473
+ 0.08882939 0.06049513 0.06806061 0.01653322 0.05122773 0.08882942
+ 0.06806062 0.01653323 0.01653323]
+[0.05446447 0.12341943 0.07261214 0.08473978 0.07261214 0.05935538
+ 0.08473978 0.06305078 0.07261214 0.03033001 0.064052   0.08473979
+ 0.07261215 0.03033001 0.03033001]
+[0.04528122 0.16919756 0.07543083 0.07258887 0.07543083 0.07898039
+ 0.07258887 0.05498001 0.07543083 0.02461173 0.05823563 0.07258887
+ 0.07543084 0.02461172 0.02461172]
+[0.03712222 0.1311599  0.069961   0.09229444 0.069961   0.0844422
+ 0.09229444 0.08017786 0.069961   0.02001107 0.05033726 0.09229444
+ 0.06996101 0.02001107 0.02001107]
+[0.03712222 0.1311599  0.069961   0.09229444 0.069961   0.0844422
+ 0.09229444 0.08017786 0.069961   0.02001107 0.05033726 0.09229444
+ 0.06996101 0.02001107 0.02001107]]

@@ -1,0 +1,2 @@
+32004
+Test: public void test24() throws Throwable { ClassUtils classUtils0 = new ClassUtils(); Class<?> class0 = ClassUtil.unwrapCglib(classUtils0); Class<Double>[] classArray0 = (Class<Double>[]) Array.newInstance(Class.class, 6); Method method0 = ClassUtil.getAccessibleMethod(class0, "KKjZ]*/", classArray0); }

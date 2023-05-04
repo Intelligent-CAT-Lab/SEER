@@ -1,0 +1,23 @@
+151932
+Test: public void test3() throws Throwable { ResultSetMetaData resultSetMetaData0 = mock(ResultSetMetaData.class, new ViolatedAssumptionAnswer()); doReturn((String) null).when(resultSetMetaData0).getColumnClassName(anyInt()); doReturn(1).when(resultSetMetaData0).getColumnCount(); doReturn("").when(resultSetMetaData0).getColumnLabel(anyInt()); doReturn("").when(resultSetMetaData0).getColumnName(anyInt()); doReturn(1).when(resultSetMetaData0).getColumnType(anyInt()); ResultSet resultSet0 = mock(ResultSet.class, new ViolatedAssumptionAnswer()); doReturn(resultSetMetaData0).when(resultSet0).getMetaData(); doReturn((Object) null).when(resultSet0).getObject(anyString()); doReturn(true, false).when(resultSet0).next(); RowSetDynaClass rowSetDynaClass0 = new RowSetDynaClass(resultSet0, true, true); rowSetDynaClass0.setUseColumnLabel(true); }
+Code: public void setUseColumnLabel(final boolean useColumnLabel) { this.useColumnLabel = useColumnLabel; }
+[[0.08154608 0.0665185  0.11312985 0.19886944 0.11312985 0.11322253
+ 0.11312985 0.0515972  0.11312987 0.03572678]
+[0.0598895  0.05692775 0.10947329 0.22982013 0.10947329 0.12571909
+ 0.10947329 0.05236829 0.1094733  0.03738207]
+[0.06445381 0.06000553 0.10625722 0.23353602 0.10625722 0.10947122
+ 0.10625722 0.07082471 0.10625723 0.0366799 ]
+[0.05488853 0.0458614  0.1033795  0.26490238 0.1033795  0.15013309
+ 0.1033795  0.04316277 0.10337953 0.02753377]
+[0.06445381 0.06000553 0.10625722 0.23353602 0.10625722 0.10947122
+ 0.10625722 0.07082471 0.10625723 0.0366799 ]
+[0.08234328 0.07263213 0.10390858 0.17075922 0.10390858 0.14128062
+ 0.10390858 0.06895369 0.1039086  0.04839664]
+[0.06445381 0.06000553 0.10625722 0.23353602 0.10625722 0.10947122
+ 0.10625722 0.07082471 0.10625723 0.0366799 ]
+[0.08331741 0.06898449 0.11770391 0.1650401  0.11770391 0.09922015
+ 0.11770391 0.07055334 0.11770394 0.0420688 ]
+[0.06445383 0.06000552 0.10625722 0.233536   0.10625722 0.10947122
+ 0.10625722 0.07082469 0.10625722 0.03667989]
+[0.05899062 0.05730478 0.10579298 0.18961647 0.10579298 0.17774445
+ 0.10579298 0.05618205 0.10579301 0.03698969]]

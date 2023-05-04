@@ -1,0 +1,17 @@
+143338
+Test: public void test22() throws Throwable { RemoteCacheRequest<Object, Integer> remoteCacheRequest0 = new RemoteCacheRequest<Object, Integer>(); Object object0 = new Object(); remoteCacheRequest0.setKey(object0); RemoteRequestType remoteRequestType0 = RemoteRequestType.GET; RemoteCacheRequest<Object, Object> remoteCacheRequest1 = new RemoteCacheRequest<Object, Object>(); remoteCacheRequest1.toString(); remoteCacheRequest1.getRequestType(); remoteCacheRequest1.getRequesterId(); remoteCacheRequest1.toString(); RemoteCacheRequest<String, String> remoteCacheRequest2 = new RemoteCacheRequest<String, String>(); RemoteRequestType remoteRequestType1 = RemoteRequestType.UPDATE; remoteCacheRequest2.setRequestType(remoteRequestType1); remoteCacheRequest2.toString(); remoteCacheRequest1.setRequesterId((-4646L)); remoteCacheRequest2.setPattern((String) null); remoteCacheRequest2.setPattern("\nRemoteHttpCacheRequest\n requesterId [0]\n requestType [null]\n cacheName [null]\n key [null]\n keySet [null]\n pattern [null]\n cacheElement [null]"); remoteCacheRequest0.setCacheName(""); RemoteCacheRequest<String, Object> remoteCacheRequest3 = new RemoteCacheRequest<String, Object>(); CacheElement<String, Object> cacheElement0 = new CacheElement<String, Object>((String) null, "{T>fDu+@'o", "\nRemoteHttpCacheRequest\n requesterId [0]\n requestType [null]\n cacheName [null]\n key [null]\n keySet [null]\n pattern [null]\n cacheElement [null]"); remoteCacheRequest3.setCacheElement(cacheElement0); remoteCacheRequest3.setCacheName(""); remoteCacheRequest1.setKey(remoteRequestType0); RemoteCacheRequest<Integer, String> remoteCacheRequest4 = new RemoteCacheRequest<Integer, String>(); remoteCacheRequest4.getKeySet(); remoteCacheRequest3.getCacheElement(); RemoteCacheRequest<Object, String> remoteCacheRequest5 = new RemoteCacheRequest<Object, String>(); remoteCacheRequest5.getRequestType(); remoteCacheRequest1.setPattern("j;-A @MOfiFfrs"); }
+Code: public long getRequesterId() { return requesterId; }
+[[0.12148555 0.20424494 0.16852465 0.15436742 0.13275853 0.16852465
+ 0.05009425]
+[0.08937816 0.18935612 0.16976109 0.20056717 0.13272798 0.16976109
+ 0.04844842]
+[0.10579712 0.18451387 0.1759206  0.17136613 0.12850443 0.1759206
+ 0.05797723]
+[0.11700331 0.18760449 0.15398204 0.1865422  0.13486078 0.15398204
+ 0.06602519]
+[0.08509159 0.2405524  0.17219248 0.16111262 0.12443957 0.17219248
+ 0.04441886]
+[0.10579712 0.18451387 0.1759206  0.17136613 0.12850443 0.1759206
+ 0.05797723]
+[0.08723067 0.14155754 0.1659379  0.20797083 0.18582976 0.16593789
+ 0.04553541]]

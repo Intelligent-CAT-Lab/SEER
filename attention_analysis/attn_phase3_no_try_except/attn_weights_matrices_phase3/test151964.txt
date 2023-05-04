@@ -1,0 +1,9 @@
+151964
+Test: public void test9() throws Throwable { ResultSetMetaData resultSetMetaData0 = mock(ResultSetMetaData.class, new ViolatedAssumptionAnswer()); doReturn(0).when(resultSetMetaData0).getColumnCount(); ResultSet resultSet0 = mock(ResultSet.class, new ViolatedAssumptionAnswer()); doReturn((String) null).when(resultSet0).toString(); doReturn(resultSetMetaData0).when(resultSet0).getMetaData(); ResultSetDynaClass resultSetDynaClass0 = new ResultSetDynaClass(resultSet0); ResultSet resultSet1 = resultSetDynaClass0.getResultSet(); }
+Code: ResultSet getResultSet() { return (this.resultSet); }
+[[0.15992913 0.2093765  0.18088025 0.18865977 0.20937648 0.05177777]
+[0.1422588  0.22145723 0.1904994  0.15836796 0.22145724 0.06595937]
+[0.14877912 0.19583975 0.2138394  0.16756979 0.19583975 0.07813217]
+[0.18284348 0.21958375 0.17408437 0.1547814  0.21958375 0.04912323]
+[0.1422588  0.22145723 0.1904994  0.15836796 0.22145724 0.06595937]
+[0.1374734  0.18902618 0.22674283 0.2076519  0.18902615 0.05007949]]

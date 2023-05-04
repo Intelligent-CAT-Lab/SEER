@@ -1,0 +1,17 @@
+49761
+Test: public void test9003() throws Throwable { DateTimeFormatterBuilder.TextField dateTimeFormatterBuilder_TextField0 = new DateTimeFormatterBuilder.TextField((DateTimeFieldType) null, true); char[] charArray0 = new char[1]; charArray0[0] = '7'; CharBuffer charBuffer0 = CharBuffer.wrap(charArray0); LocalTime localTime0 = new LocalTime((-801L)); String string0 = localTime0.toString(); LocalTime localTime1 = localTime0.plusMinutes((-840)); Locale locale0 = Locale.CHINA; dateTimeFormatterBuilder_TextField0.printTo((Appendable) charBuffer0, (ReadablePartial) localTime1, locale0); int int0 = dateTimeFormatterBuilder_TextField0.estimateParsedLength(); DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendTimeZoneName(); DateTimePrinter dateTimePrinter0 = InternalPrinterDateTimePrinter.of(dateTimeFormatterBuilder_TextField0); DateTimeParser[] dateTimeParserArray0 = new DateTimeParser[5]; DateTimeParser dateTimeParser0 = InternalParserDateTimeParser.of(dateTimeFormatterBuilder_TextField0); dateTimeParserArray0[0] = dateTimeParser0; DateTimeParser dateTimeParser1 = InternalParserDateTimeParser.of(dateTimeFormatterBuilder_TextField0); dateTimeParserArray0[1] = dateTimeParser1; DateTimeParser dateTimeParser2 = InternalParserDateTimeParser.of(dateTimeFormatterBuilder_TextField0); dateTimeParserArray0[2] = dateTimeParser2; DateTimeParser dateTimeParser3 = InternalParserDateTimeParser.of(dateTimeFormatterBuilder_TextField0); dateTimeParserArray0[3] = dateTimeParser3; DateTimeParser dateTimeParser4 = InternalParserDateTimeParser.of(dateTimeFormatterBuilder_TextField0); dateTimeParserArray0[4] = dateTimeParser4; DateTimeFormatterBuilder dateTimeFormatterBuilder2 = dateTimeFormatterBuilder1.append(dateTimePrinter0, dateTimeParserArray0); DateTimeFormatterBuilder dateTimeFormatterBuilder3 = dateTimeFormatterBuilder2.append(dateTimePrinter0, dateTimeParserArray0[1]); DateTimeFormatterBuilder dateTimeFormatterBuilder4 = dateTimeFormatterBuilder3.appendEraText(); }
+Code: public DateTimeFormatterBuilder appendEraText() { return appendText(DateTimeFieldType.era()); }
+[[0.12731326 0.17660138 0.17660138 0.1539395  0.13815959 0.17660138
+ 0.05078347]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.1209935  0.16031049 0.16031049 0.19048879 0.13977559 0.16031049
+ 0.06781061]
+[0.09097192 0.18878669 0.18878669 0.16263722 0.13468806 0.18878669
+ 0.04534269]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.08439702 0.15890288 0.15890288 0.21071318 0.18253878 0.15890287
+ 0.04564238]]

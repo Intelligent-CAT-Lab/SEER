@@ -1,0 +1,17 @@
+169009
+Test: public void test239() throws Throwable { ResultSet resultSet0 = mock(ResultSet.class, new ViolatedAssumptionAnswer()); doReturn(">F1k>;zLoh+As.Q").when(resultSet0).toString(); Proxy proxy0 = (Proxy)SqlNullCheckedResultSet.wrap(resultSet0); SqlNullCheckedResultSet sqlNullCheckedResultSet0 = new SqlNullCheckedResultSet((ResultSet) proxy0); sqlNullCheckedResultSet0.getNullURL(); }
+Code: public double getNullDouble() { return this.nullDouble; }
+[[0.12138198 0.21067072 0.16837692 0.14996013 0.13211727 0.16837692
+ 0.04911605]
+[0.09638105 0.21385449 0.17573197 0.15400177 0.1425685  0.17573196
+ 0.0417302 ]
+[0.10521905 0.1977453  0.17666146 0.16101982 0.12755397 0.17666146
+ 0.05513891]
+[0.12052633 0.16450168 0.162176   0.18418273 0.13996387 0.162176
+ 0.06647336]
+[0.08993015 0.1981554  0.18714294 0.15971428 0.1333277  0.18714294
+ 0.04458664]
+[0.10521905 0.1977453  0.17666146 0.16101982 0.12755397 0.17666146
+ 0.05513891]
+[0.08478323 0.18134877 0.16373265 0.18798338 0.17652494 0.16373263
+ 0.04189442]]

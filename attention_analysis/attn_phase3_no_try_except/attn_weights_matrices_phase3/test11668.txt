@@ -1,0 +1,9 @@
+11668
+Test: public void test2() throws Throwable { FailablePredicate<String, Throwable> failablePredicate0 = FailablePredicate.truePredicate(); FailablePredicate<String, Throwable> failablePredicate1 = failablePredicate0.negate(); boolean boolean0 = failablePredicate1.test(""); }
+Code: boolean test(T object) throws E; }
+[[0.3065599  0.12301837 0.18810935 0.22529142 0.12301837 0.03400259]
+[0.28069058 0.12846053 0.16264115 0.25471506 0.12846053 0.04503207]
+[0.25835446 0.14158967 0.19991508 0.2188079  0.14158967 0.03974321]
+[0.2719656  0.10658135 0.17729881 0.3016572  0.10658135 0.03591571]
+[0.28069058 0.12846053 0.16264115 0.25471506 0.12846053 0.04503207]
+[0.21190621 0.11763455 0.23965114 0.2728662  0.11763453 0.04030747]]

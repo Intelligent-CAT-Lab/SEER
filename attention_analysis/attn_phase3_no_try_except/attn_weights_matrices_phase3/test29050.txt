@@ -1,0 +1,9 @@
+29050
+Test: public void test7() throws Throwable { Vector2D.Unit vector2D_Unit0 = Vector2D.Unit.MINUS_Y; Line line0 = mock(Line.class, new ViolatedAssumptionAnswer()); doReturn(0.0).when(line0).abscissa(any(org.apache.commons.geometry.euclidean.twod.Vector2D.class)); Segment segment0 = new Segment(line0, vector2D_Unit0, vector2D_Unit0); double double0 = segment0.getSubspaceEnd(); }
+Code: public abstract double getSubspaceEnd(); /** {@inheritDoc}
+[[0.13621908 0.06304611 0.23378983 0.18898167 0.18898165 0.18898165]
+[0.13061717 0.05357753 0.18898894 0.20893879 0.20893878 0.20893878]
+[0.11255268 0.06147959 0.23592088 0.19668227 0.19668227 0.19668227]
+[0.12031308 0.0692689  0.22187668 0.19618043 0.19618045 0.19618045]
+[0.12031308 0.0692689  0.22187668 0.19618043 0.19618045 0.19618045]
+[0.12031308 0.0692689  0.22187668 0.19618043 0.19618045 0.19618045]]

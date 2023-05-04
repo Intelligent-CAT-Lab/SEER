@@ -1,0 +1,17 @@
+25669
+Test: public void test2() throws Throwable { PipedInputStream pipedInputStream0 = new PipedInputStream(); PipedOutputStream pipedOutputStream0 = new PipedOutputStream(pipedInputStream0); MockPrintWriter mockPrintWriter0 = new MockPrintWriter(pipedOutputStream0, true); ObjWriter objWriter0 = new ObjWriter(mockPrintWriter0); ObjWriter.MeshBuffer objWriter_MeshBuffer0 = objWriter0.new MeshBuffer((-990)); // Undeclared exception!  objWriter_MeshBuffer0.add((PlaneConvexSubset) null);   }
+Code: public ObjWriter(final Writer writer) { super(writer); }
+[[0.1203903  0.16700599 0.17514694 0.16700599 0.15365387 0.16700599
+ 0.04979099]
+[0.09837821 0.16344926 0.19706595 0.16344926 0.16009626 0.16344926
+ 0.05411181]
+[0.09578216 0.16639061 0.1761998  0.16639061 0.18468116 0.16639063
+ 0.04416497]
+[0.09837821 0.16344926 0.19706595 0.16344926 0.16009626 0.16344926
+ 0.05411181]
+[0.11519305 0.14912686 0.18215203 0.14912686 0.18920033 0.14912687
+ 0.06607401]
+[0.09837821 0.16344926 0.19706595 0.16344926 0.16009626 0.16344926
+ 0.05411181]
+[0.08243378 0.15246674 0.19130847 0.15246674 0.22163449 0.15246673
+ 0.04722302]]

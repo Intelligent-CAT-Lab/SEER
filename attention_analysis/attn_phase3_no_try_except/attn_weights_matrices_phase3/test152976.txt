@@ -1,0 +1,19 @@
+152976
+Test: public void test0() throws Throwable { PooledObjectFactory<String> pooledObjectFactory0 = (PooledObjectFactory<String>) mock(PooledObjectFactory.class, new ViolatedAssumptionAnswer()); doReturn("SYM<C*>").when(pooledObjectFactory0).toString(); SoftReferenceObjectPool<String> softReferenceObjectPool0 = new SoftReferenceObjectPool<String>(pooledObjectFactory0); StringBuilder stringBuilder0 = new StringBuilder(); ((BaseObjectPool)softReferenceObjectPool0).toStringAppendFields(stringBuilder0); }
+Code: public final boolean isClosed() { return closed; }
+[[0.10052519 0.08115768 0.2471162  0.1394579  0.13760257 0.11107202
+ 0.1394579  0.04361052]
+[0.09046676 0.06091452 0.2550698  0.1363213  0.15826422 0.13169718
+ 0.1363213  0.03094497]
+[0.06417388 0.06216867 0.3257496  0.12219857 0.16542202 0.10734673
+ 0.12219857 0.03074193]
+[0.08063412 0.08003139 0.29383877 0.13318703 0.1355411  0.09807087
+ 0.13318703 0.0455097 ]
+[0.09925938 0.09768403 0.2119327  0.12751448 0.16523823 0.1134958
+ 0.12751448 0.0573609 ]
+[0.06817193 0.06380428 0.32678127 0.1315614  0.14216074 0.0974507
+ 0.1315614  0.03850826]
+[0.08063412 0.08003139 0.29383877 0.13318703 0.1355411  0.09807087
+ 0.13318703 0.0455097 ]
+[0.06875823 0.06315161 0.23157963 0.12633342 0.18971431 0.15393087
+ 0.12633342 0.0401985 ]]

@@ -1,0 +1,17 @@
+29069
+Test: public void test26() throws Throwable { Vector2D.Unit vector2D_Unit0 = Vector2D.Unit.MINUS_X; Precision.DoubleEquivalence precision_DoubleEquivalence0 = mock(Precision.DoubleEquivalence.class, new ViolatedAssumptionAnswer()); doReturn(true, true).when(precision_DoubleEquivalence0).eq(anyDouble() , anyDouble()); Line line0 = new Line(vector2D_Unit0, 0.0, precision_DoubleEquivalence0); AffineTransformMatrix2D affineTransformMatrix2D0 = AffineTransformMatrix2D.createTranslation(0.0, 0.0); Ray ray0 = line0.rayFrom((Vector2D) vector2D_Unit0); // Undeclared exception!  ray0.transform(affineTransformMatrix2D0);   }
+Code: public abstract LineConvexSubset transform(Transform<Vector2D> transform); /** {@inheritDoc}
+[[0.11910273 0.05472831 0.16523379 0.16523379 0.16523379 0.16523379
+ 0.16523379]
+[0.10615112 0.04321878 0.17012602 0.17012602 0.170126   0.170126
+ 0.170126  ]
+[0.10300218 0.05981149 0.16743727 0.16743727 0.16743729 0.16743729
+ 0.16743729]
+[0.10300218 0.05981149 0.16743727 0.16743727 0.16743729 0.16743729
+ 0.16743729]
+[0.10300218 0.05981149 0.16743727 0.16743727 0.16743729 0.16743729
+ 0.16743729]
+[0.10300218 0.05981149 0.16743727 0.16743727 0.16743729 0.16743729
+ 0.16743729]
+[0.10300218 0.05981149 0.16743727 0.16743727 0.16743729 0.16743729
+ 0.16743729]]

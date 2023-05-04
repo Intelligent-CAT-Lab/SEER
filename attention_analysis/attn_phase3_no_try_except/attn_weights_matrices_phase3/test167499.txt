@@ -1,0 +1,19 @@
+167499
+Test: public void test7() throws Throwable { DefaultFileMonitor defaultFileMonitor0 = new DefaultFileMonitor((FileListener) null); String string0 = ""; FileObject fileObject0 = null; defaultFileMonitor0.queueAddFile((FileObject) null); FileType fileType0 = FileType.FOLDER; GenericURLFileName genericURLFileName0 = new GenericURLFileName("", "", (-4376), (-4376), "bYbC)", "bYbC)", "bYbC)", fileType0, ""); FileType fileType1 = FileType.FOLDER; LayeredFileName layeredFileName0 = new LayeredFileName("", genericURLFileName0, "", fileType1); HttpFileSystem httpFileSystem0 = mock(HttpFileSystem.class, new ViolatedAssumptionAnswer()); DefaultLocalFileProvider defaultLocalFileProvider0 = new DefaultLocalFileProvider(); String string1 = "}\"'T{J,%I9}="; URI uRI0 = MockURI.URI("com.jcraft.jsch.JSch"); MockFile mockFile0 = null;  mockFile0 = new MockFile(uRI0);   }
+Code: protected void queueAddFile(final FileObject file) { this.addStack.push(file); }
+[[0.15798603 0.07729979 0.1387804  0.1387804  0.1248436  0.18646604
+ 0.1387804  0.03706333]
+[0.17532414 0.07572918 0.14649421 0.14649421 0.09324479 0.16663186
+ 0.14649421 0.04958739]
+[0.18410854 0.0783536  0.13921563 0.13921563 0.1293289  0.14270574
+ 0.13921563 0.04785637]
+[0.18410854 0.0783536  0.13921563 0.13921563 0.1293289  0.14270574
+ 0.13921563 0.04785637]
+[0.16988975 0.05885846 0.1421206  0.1421206  0.1246467  0.17360526
+ 0.1421206  0.04663802]
+[0.18167073 0.09002661 0.12547931 0.12547931 0.11116487 0.17993085
+ 0.12547931 0.06076905]
+[0.18410854 0.0783536  0.13921563 0.13921563 0.1293289  0.14270574
+ 0.13921563 0.04785637]
+[0.14840631 0.07084839 0.13192739 0.13192739 0.1220056  0.2175529
+ 0.13192739 0.04540465]]

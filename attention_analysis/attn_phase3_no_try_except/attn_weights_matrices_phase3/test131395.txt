@@ -1,0 +1,42 @@
+131395
+Test: public void test3() throws Throwable { Integer integer0 = new Integer((-1)); FluentIterable<Integer> fluentIterable0 = FluentIterable.of(integer0); Comparator<Object> comparator0 = (Comparator<Object>) mock(Comparator.class, new ViolatedAssumptionAnswer()); PriorityQueue<Integer> priorityQueue0 = new PriorityQueue<Integer>(comparator0); FluentIterable<Integer> fluentIterable1 = fluentIterable0.collate((Iterable<? extends Integer>) priorityQueue0); Comparator<Integer> comparator1 = (Comparator<Integer>) mock(Comparator.class, new ViolatedAssumptionAnswer()); FluentIterable<Integer> fluentIterable2 = fluentIterable1.collate((Iterable<? extends Integer>) priorityQueue0, (Comparator<? super Integer>) comparator1); fluentIterable2.collate((Iterable<? extends Integer>) fluentIterable1); FluentIterable<String> fluentIterable3 = FluentIterable.empty(); Comparator<Object> comparator2 = (Comparator<Object>) mock(Comparator.class, new ViolatedAssumptionAnswer()); doReturn(0, 0).when(comparator2).compare(any() , any()); ComparatorPredicate.Criterion comparatorPredicate_Criterion0 = ComparatorPredicate.Criterion.LESS; Predicate<Object> predicate0 = ComparatorPredicate.comparatorPredicate((Object) null, comparator2, (ComparatorPredicate.Criterion) comparatorPredicate_Criterion0); fluentIterable3.anyMatch(predicate0); Locale.Category locale_Category0 = Locale.Category.DISPLAY; Locale.Category locale_Category1 = Locale.Category.DISPLAY; Locale.Category locale_Category2 = Locale.Category.DISPLAY; EnumSet<Locale.Category> enumSet0 = EnumSet.of(locale_Category0, locale_Category0, locale_Category1, locale_Category2); EnumSet<Locale.Category> enumSet1 = EnumSet.copyOf(enumSet0); FluentIterable<Locale.Category> fluentIterable4 = FluentIterable.of((Iterable<Locale.Category>) enumSet1); FluentIterable<Locale.Category> fluentIterable5 = fluentIterable4.zip((Iterable<? extends Locale.Category>) enumSet1); FluentIterable<Locale.Category> fluentIterable6 = fluentIterable5.loop(); Locale.Category[] locale_CategoryArray0 = new Locale.Category[6]; locale_CategoryArray0[0] = locale_Category2; Locale.Category locale_Category3 = Locale.Category.FORMAT; locale_CategoryArray0[1] = locale_Category3; locale_CategoryArray0[2] = locale_Category2; Locale.Category locale_Category4 = Locale.Category.DISPLAY; locale_CategoryArray0[3] = locale_Category4; Locale.Category locale_Category5 = Locale.Category.DISPLAY; locale_CategoryArray0[4] = locale_Category5; locale_CategoryArray0[5] = locale_Category1; FluentIterable<Locale.Category> fluentIterable7 = fluentIterable6.append(locale_CategoryArray0); fluentIterable6.append((Iterable<? extends Locale.Category>) fluentIterable7); Boolean[] booleanArray0 = new Boolean[2]; PredicateTransformer<String> predicateTransformer0 = new PredicateTransformer<String>(predicate0); Boolean boolean0 = predicateTransformer0.transform(""); booleanArray0[0] = boolean0; Boolean boolean1 = predicateTransformer0.transform(""); booleanArray0[1] = boolean1; FluentIterable<Boolean> fluentIterable8 = FluentIterable.of(booleanArray0); }
+Code: public static <T> FluentIterable<T> of(final T singleton) { return of(IteratorUtils.asIterable(new SingletonIterator<>(singleton, false))); }
+[[0.05783809 0.14795904 0.12758356 0.0802228  0.0802228  0.03901754
+ 0.0802228  0.0628527  0.06189093 0.0802228  0.0802228  0.0802228
+ 0.02152138]
+[0.05590149 0.13779163 0.15282674 0.07673278 0.07673278 0.03087191
+ 0.07673278 0.08599339 0.05204193 0.07673278 0.07673278 0.07673278
+ 0.02417624]
+[0.05303816 0.12411246 0.1480287  0.08086741 0.08086741 0.02379758
+ 0.08086741 0.08698906 0.05875286 0.08086741 0.08086741 0.08086741
+ 0.02007668]
+[0.04726299 0.15597203 0.13694704 0.08035271 0.08035271 0.03045725
+ 0.08035271 0.06680656 0.05714983 0.08035271 0.08035271 0.08035271
+ 0.02328812]
+[0.04726299 0.15597203 0.13694704 0.08035271 0.08035271 0.03045725
+ 0.08035271 0.06680656 0.05714983 0.08035271 0.08035271 0.08035271
+ 0.02328812]
+[0.0507478  0.12850374 0.1357246  0.08480116 0.08480116 0.02930383
+ 0.08480116 0.06811037 0.05814921 0.08480116 0.08480116 0.08480116
+ 0.02065346]
+[0.04726299 0.15597203 0.13694704 0.08035271 0.08035271 0.03045725
+ 0.08035271 0.06680656 0.05714983 0.08035271 0.08035271 0.08035271
+ 0.02328812]
+[0.05797099 0.13302243 0.12187441 0.07798544 0.07798544 0.03129476
+ 0.07798544 0.08862959 0.06731472 0.07798544 0.07798544 0.07798544
+ 0.03198041]
+[0.03827793 0.1556723  0.1487661  0.08311589 0.08311589 0.02232849
+ 0.08311589 0.06089837 0.05796508 0.08311589 0.08311589 0.08311589
+ 0.01739634]
+[0.04726299 0.15597203 0.13694704 0.08035271 0.08035271 0.03045725
+ 0.08035271 0.06680656 0.05714983 0.08035271 0.08035271 0.08035271
+ 0.02328812]
+[0.04726299 0.15597203 0.13694704 0.08035271 0.08035271 0.03045725
+ 0.08035271 0.06680656 0.05714983 0.08035271 0.08035271 0.08035271
+ 0.02328812]
+[0.04726299 0.15597203 0.13694704 0.08035271 0.08035271 0.03045725
+ 0.08035271 0.06680656 0.05714983 0.08035271 0.08035271 0.08035271
+ 0.02328812]
+[0.03813283 0.14132091 0.17129512 0.07420371 0.07420371 0.02596705
+ 0.07420371 0.08130369 0.07845727 0.07420371 0.07420371 0.07420371
+ 0.01830084]]

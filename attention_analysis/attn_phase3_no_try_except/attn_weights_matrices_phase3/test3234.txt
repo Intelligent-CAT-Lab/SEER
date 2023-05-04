@@ -1,0 +1,17 @@
+3234
+Test: public void test201() throws Throwable { Service service0 = Service.ignite(); Service service1 = service0.staticFileLocation("/GYNN6"); Service service2 = service1.secure("", "server interrupted", "", "server interrupted"); Service service3 = service2.port(4567); HttpMethod httpMethod0 = HttpMethod.options; FilterImpl filterImpl0 = mock(FilterImpl.class, new ViolatedAssumptionAnswer()); doReturn("/GYNN6").when(filterImpl0).toString(); doReturn("/GYNN6").when(filterImpl0).getAcceptType(); doReturn("/GYNN6").when(filterImpl0).getPath(); FilterImpl filterImpl1 = mock(FilterImpl.class, new ViolatedAssumptionAnswer()); doReturn(filterImpl0).when(filterImpl1).withPrefix(anyString()); service2.addFilter(httpMethod0, filterImpl1); FilterImpl filterImpl2 = mock(FilterImpl.class, new ViolatedAssumptionAnswer()); doReturn("/GYNN6").when(filterImpl2).getAcceptType(); doReturn("server interrupted").when(filterImpl2).getPath(); List<RouteMatch> list0 = service1.routes(); }
+Code: public List<RouteMatch> routes() { return routes.findAll(); }
+[[0.12731326 0.17660138 0.17660138 0.1539395  0.13815959 0.17660138
+ 0.05078347]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.1209935  0.16031049 0.16031049 0.19048879 0.13977559 0.16031049
+ 0.06781061]
+[0.09097192 0.18878669 0.18878669 0.16263722 0.13468806 0.18878669
+ 0.04534269]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.08439702 0.15890288 0.15890288 0.21071318 0.18253878 0.15890287
+ 0.04564238]]

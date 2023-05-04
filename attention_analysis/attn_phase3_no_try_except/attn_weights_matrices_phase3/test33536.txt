@@ -1,0 +1,17 @@
+33536
+Test: public void test476() throws Throwable { MathContext mathContext0 = MathContext.DECIMAL32; JexlArithmetic jexlArithmetic0 = new JexlArithmetic(true, mathContext0, (-2776)); JexlArithmetic jexlArithmetic1 = jexlArithmetic0.createWithOptions(true, mathContext0, (-563)); BigInteger bigInteger0 = JexlArithmetic.BIGI_LONG_MAX_VALUE; Integer integer0 = new Integer((-563)); Integer integer1 = new Integer((-563)); mathContext0.equals(jexlArithmetic0); Float float0 = new Float((-5.880041098828796)); BigDecimal bigDecimal0 = new BigDecimal(bigInteger0); jexlArithmetic1.narrowBigDecimal(float0, integer0, bigDecimal0); mathContext0.equals(bigInteger0); Float.max((-12.477289F), (-12.477289F)); Number number0 = jexlArithmetic0.narrow(float0); Short short0 = new Short((short)0); Integer integer2 = new Integer((-2776)); jexlArithmetic0.size((Object) bigInteger0, integer2); Class<Boolean> class0 = Boolean.class; boolean boolean0 = jexlArithmetic0.narrowAccept(class0, class0); Boolean boolean1 = jexlArithmetic0.endsWith((Object) null, (Object) null); JexlArithmetic.isMultiplyExact((short)0, (-2776), 0L); Object[] objectArray0 = new Object[8]; objectArray0[0] = (Object) integer1; objectArray0[1] = (Object) class0; objectArray0[2] = (Object) bigInteger0; objectArray0[3] = (Object) float0; objectArray0[5] = (Object) integer2; objectArray0[6] = (Object) number0; objectArray0[0] = (Object) mathContext0; boolean boolean2 = jexlArithmetic1.narrowArguments(objectArray0); }
+Code: public boolean isStrict() { return this.strict; }
+[[0.10934648 0.26729727 0.15169707 0.1511886  0.12100547 0.15169705
+ 0.04776807]
+[0.06855693 0.34035894 0.12991077 0.18153623 0.11619409 0.12991078
+ 0.03353223]
+[0.0877424  0.31477123 0.14417115 0.15167442 0.1068267  0.14417115
+ 0.05064295]
+[0.11026365 0.23269044 0.14063604 0.18583335 0.12578093 0.14063604
+ 0.06415956]
+[0.07348293 0.34289712 0.14042537 0.15607165 0.10455605 0.14042538
+ 0.04214151]
+[0.0877424  0.31477123 0.14417115 0.15167442 0.1068267  0.14417115
+ 0.05064295]
+[0.07333571 0.24605852 0.13447544 0.20389462 0.16462673 0.13447544
+ 0.04313356]]

@@ -1,0 +1,19 @@
+58979
+Test: public void test18406() throws Throwable { DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendMonthOfYearText(); boolean boolean0 = FileSystemHandling.shouldThrowIOException((EvoSuiteFile) null); DateTimeFormatterBuilder dateTimeFormatterBuilder2 = dateTimeFormatterBuilder1.appendTimeZoneName(); DateTimeFormatterBuilder dateTimeFormatterBuilder3 = dateTimeFormatterBuilder2.appendHourOfHalfday(171); DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.minuteOfHour(); boolean boolean1 = dateTimeFormatterBuilder2.canBuildPrinter(); DateTimeFormatterBuilder dateTimeFormatterBuilder4 = dateTimeFormatterBuilder3.appendText(dateTimeFieldType0); boolean boolean2 = FileSystemHandling.setPermissions((EvoSuiteFile) null, false, false, true); DateTimeFormatterBuilder dateTimeFormatterBuilder5 = dateTimeFormatterBuilder1.appendLiteral("1Z1DyYZ!aEz=Z#p*#0"); DateTimeFormatterBuilder dateTimeFormatterBuilder6 = dateTimeFormatterBuilder4.appendTimeZoneId(); }
+Code: public DateTimeFormatterBuilder appendTimeZoneId() { return append0(TimeZoneId.INSTANCE, TimeZoneId.INSTANCE); }
+[[0.10769189 0.14938717 0.14938717 0.13373199 0.11730102 0.14938717
+ 0.14938717 0.04372638]
+[0.09077284 0.15143088 0.15143088 0.14430624 0.11018361 0.15143088
+ 0.15143088 0.0490139 ]
+[0.09077284 0.15143088 0.15143088 0.14430624 0.11018361 0.15143088
+ 0.15143088 0.0490139 ]
+[0.10474118 0.13602483 0.13602483 0.17107216 0.12019398 0.13602483
+ 0.13602483 0.05989329]
+[0.07683693 0.15724705 0.15724705 0.14188328 0.11298558 0.15724705
+ 0.15724705 0.03930595]
+[0.09077284 0.15143088 0.15143088 0.14430624 0.11018361 0.15143088
+ 0.15143088 0.0490139 ]
+[0.09077284 0.15143088 0.15143088 0.14430624 0.11018361 0.15143088
+ 0.15143088 0.0490139 ]
+[0.07219031 0.13394369 0.13394369 0.19165097 0.15943684 0.13394369
+ 0.13394369 0.04094704]]

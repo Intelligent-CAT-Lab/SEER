@@ -1,0 +1,19 @@
+40179
+Test: public void test6() throws Throwable { GregorianChronology gregorianChronology0 = GregorianChronology.getInstanceUTC(); MonthDay monthDay0 = new MonthDay((Chronology) gregorianChronology0); Period period0 = Period.fieldDifference(monthDay0, monthDay0); Duration duration0 = period0.toStandardDuration(); DateTimeZone dateTimeZone0 = DateTimeZone.UTC; DateTime dateTime0 = DateTime.now(dateTimeZone0); PeriodType periodType0 = PeriodType.yearMonthDayTime(); Period period1 = duration0.toPeriodTo((ReadableInstant) dateTime0, periodType0); DurationFieldType durationFieldType0 = period1.getFieldType(0); boolean boolean0 = period0.isSupported(durationFieldType0); }
+Code: public boolean isSupported(DurationFieldType type) { return getPeriodType().isSupported(type); }
+[[0.09721036 0.23175082 0.13486621 0.10892423 0.14031772 0.10830516
+ 0.13486621 0.04375929]
+[0.06155314 0.29558882 0.11580925 0.10462701 0.16929433 0.10630757
+ 0.11580925 0.03101059]
+[0.07780465 0.2759042  0.12735252 0.11395123 0.13720329 0.09479892
+ 0.12735252 0.04563264]
+[0.08615626 0.2661596  0.10804889 0.12755562 0.15951394 0.11364268
+ 0.10804889 0.03087405]
+[0.0969397  0.20054455 0.12214828 0.12429486 0.1667268  0.11014424
+ 0.12214828 0.05705326]
+[0.06673558 0.3007273  0.12594676 0.1022644  0.14498399 0.09439898
+ 0.12594676 0.0389962 ]
+[0.07780465 0.2759042  0.12735252 0.11395123 0.13720329 0.09479892
+ 0.12735252 0.04563264]
+[0.0645556  0.21250302 0.1172034  0.11630938 0.18625198 0.14687341
+ 0.1172034  0.03909974]]

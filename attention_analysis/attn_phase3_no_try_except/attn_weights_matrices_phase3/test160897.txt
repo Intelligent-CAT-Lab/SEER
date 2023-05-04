@@ -1,0 +1,21 @@
+160897
+Test: public void test1() throws Throwable { byte[] byteArray0 = new byte[4]; byteArray0[0] = (byte)1; byteArray0[1] = (byte) (-1); byteArray0[2] = (byte)113; byteArray0[3] = (byte)1; FileSystemHandling.appendDataToFile((EvoSuiteFile) null, byteArray0); Integer integer0 = new Integer(5433); DefaultPooledObject<Integer> defaultPooledObject0 = new DefaultPooledObject<Integer>(integer0); boolean boolean0 = false; PooledObjectFactory<Integer> pooledObjectFactory0 = (PooledObjectFactory<Integer>) mock(PooledObjectFactory.class, new ViolatedAssumptionAnswer()); doReturn(defaultPooledObject0, (PooledObject) null).when(pooledObjectFactory0).makeObject(); doReturn(true).when(pooledObjectFactory0).validateObject(nullable(org.apache.commons.pool2.PooledObject.class)); SoftReferenceObjectPool<Integer> softReferenceObjectPool0 = new SoftReferenceObjectPool<Integer>(pooledObjectFactory0);  softReferenceObjectPool0.addObjects(5240);   }
+Code: public SoftReferenceObjectPool(final PooledObjectFactory<T> factory) { this.factory = factory; }
+[[0.09766969 0.13548693 0.13548693 0.13548693 0.12367777 0.13548693
+ 0.06103759 0.13548693 0.04018026]
+[0.0796628  0.13273925 0.13273925 0.13273925 0.12751418 0.13273925
+ 0.08587873 0.13273925 0.04324806]
+[0.0796628  0.13273925 0.13273925 0.13273925 0.12751418 0.13273925
+ 0.08587873 0.13273925 0.04324806]
+[0.0796628  0.13273925 0.13273925 0.13273925 0.12751418 0.13273925
+ 0.08587873 0.13273925 0.04324806]
+[0.09517848 0.12251152 0.12251152 0.12251152 0.15790749 0.12251152
+ 0.07945757 0.12251152 0.05489888]
+[0.0796628  0.13273925 0.13273925 0.13273925 0.12751418 0.13273925
+ 0.08587873 0.13273925 0.04324806]
+[0.09511696 0.13455197 0.13455197 0.13455197 0.10691443 0.13455197
+ 0.07871494 0.13455197 0.04649382]
+[0.0796628  0.13273925 0.13273925 0.13273925 0.12751418 0.13273925
+ 0.08587873 0.13273925 0.04324806]
+[0.06901617 0.12581654 0.12581654 0.12581654 0.19614823 0.12581654
+ 0.06444812 0.12581654 0.04130489]]

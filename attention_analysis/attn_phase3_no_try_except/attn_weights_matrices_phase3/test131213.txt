@@ -1,0 +1,17 @@
+131213
+Test: public void test22() throws Throwable { Complex complex0 = Complex.ofCartesian(0.7853981633974483, 1480.81351); Complex complex1 = complex0.I.add(complex0); complex1.ZERO.add(complex0); complex0.getImaginary(); complex0.acos(); Complex complex2 = complex1.sin(); Complex complex3 = complex1.ZERO.exp(); complex3.ZERO.subtractFromImaginary(1.0); Complex complex4 = complex0.asin(); complex2.isFinite(); Complex complex5 = complex0.ZERO.conj(); Complex complex6 = complex0.cos(); Complex.ofPolar(1480.81351, 1.0); complex4.sin(); complex6.isFinite(); complex6.sin(); Complex complex7 = complex4.divide(0.7853981633974483); complex6.acosh(); complex4.negate(); complex5.addImaginary(1480.81351); Complex complex8 = complex4.subtract(complex7); complex8.I.toString(); complex0.getReal(); }
+Code: public double getReal() { return real; }
+[[0.13427636 0.23419952 0.1862534  0.15527123 0.14484054 0.09314869
+ 0.05201022]
+[0.10844769 0.24619132 0.20116983 0.15512265 0.15525037 0.09022571
+ 0.04359239]
+[0.11798197 0.22391713 0.20109513 0.16393884 0.14258769 0.0931036
+ 0.05737562]
+[0.12908094 0.1793744  0.18182066 0.17901833 0.15228136 0.1107536
+ 0.06767067]
+[0.10167214 0.2307944  0.21938638 0.16458495 0.15347874 0.08324419
+ 0.04683919]
+[0.11974851 0.19145258 0.19068167 0.18044364 0.16852298 0.10090006
+ 0.04825053]
+[0.09716647 0.19739547 0.1924111  0.18792577 0.1943544  0.08732818
+ 0.04341868]]

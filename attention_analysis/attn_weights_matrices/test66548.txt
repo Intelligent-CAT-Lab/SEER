@@ -1,0 +1,23 @@
+66548
+Test: public void testOutputContext() throws IOException { TokenBuffer buf = new TokenBuffer(null, false); StringWriter w = new StringWriter(); JsonGenerator gen = MAPPER.getFactory().createGenerator(w); buf.writeStartArray(); gen.writeStartArray(); _verifyOutputContext(buf, gen); buf.writeStartObject(); gen.writeStartObject(); _verifyOutputContext(buf, gen); buf.writeFieldName("a"); gen.writeFieldName("a"); _verifyOutputContext(buf, gen); buf.writeNumber(1); gen.writeNumber(1); _verifyOutputContext(buf, gen); buf.writeFieldName("b"); gen.writeFieldName("b"); _verifyOutputContext(buf, gen); buf.writeStartObject(); gen.writeStartObject(); _verifyOutputContext(buf, gen); buf.writeFieldName("c"); gen.writeFieldName("c"); _verifyOutputContext(buf, gen); buf.writeNumber(2); gen.writeNumber(2); _verifyOutputContext(buf, gen); buf.writeEndObject(); gen.writeEndObject(); _verifyOutputContext(buf, gen); buf.writeEndObject(); gen.writeEndObject(); _verifyOutputContext(buf, gen); buf.writeEndArray(); gen.writeEndArray(); _verifyOutputContext(buf, gen); buf.close(); gen.close(); }
+Code: public void writeNumber(short i) throws IOException { _appendValue(JsonToken.VALUE_NUMBER_INT, Short.valueOf(i)); }
+[[0.07498503 0.06223204 0.10045139 0.08089468 0.16838619 0.04201754
+ 0.11266226 0.22797193 0.09567604 0.03472283]
+[0.05705994 0.05363907 0.07129754 0.07110298 0.196444   0.03606269
+ 0.11703195 0.30054036 0.06192861 0.03489282]
+[0.05737727 0.04311282 0.09354316 0.08284236 0.1746436  0.04633114
+ 0.14242105 0.2603153  0.07517925 0.02423408]
+[0.06841929 0.05415481 0.08833268 0.06143994 0.17187983 0.03742911
+ 0.12400214 0.27130753 0.09492927 0.0281054 ]
+[0.04961697 0.04902557 0.08328535 0.0663712  0.23479    0.03297922
+ 0.12681004 0.26454085 0.06824189 0.02433886]
+[0.05858468 0.04692578 0.08733009 0.05836777 0.22340465 0.03532087
+ 0.11413004 0.27745697 0.07495381 0.02352534]
+[0.08136586 0.07074097 0.08455589 0.0893822  0.1444823  0.05415419
+ 0.12783957 0.21463886 0.08728908 0.04555106]
+[0.05299113 0.05134688 0.10752957 0.08120153 0.21952406 0.03226804
+ 0.1051022  0.26588458 0.0631301  0.0210219 ]
+[0.06937024 0.05022685 0.07455383 0.07573138 0.17972472 0.04339392
+ 0.14652258 0.26491636 0.06885519 0.02670491]
+[0.05104647 0.04728025 0.08806433 0.06191926 0.2150334  0.04079855
+ 0.1305171  0.25930804 0.07791376 0.02811887]]

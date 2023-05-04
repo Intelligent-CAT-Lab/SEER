@@ -1,0 +1,2 @@
+32303
+Test: public void test8() throws Throwable { MetricRegistry metricRegistry0 = MetricRegistry.INSTANCE; Double[] doubleArray0 = new Double[5]; Double double0 = new Double(0.0); doubleArray0[0] = double0; doubleArray0[1] = double0; doubleArray0[2] = doubleArray0[1]; doubleArray0[3] = doubleArray0[2]; doubleArray0[4] = double0; metricRegistry0.timer("", doubleArray0); LinkedList<Reporter> linkedList0 = new LinkedList<Reporter>(); ReportScheduler reportScheduler0 = new ReportScheduler(metricRegistry0, linkedList0); // Undeclared exception!  reportScheduler0.report();   }

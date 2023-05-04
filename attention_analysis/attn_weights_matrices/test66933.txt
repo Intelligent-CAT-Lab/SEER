@@ -1,0 +1,19 @@
+66933
+Test: public void testIssue11() throws Exception { ObjectNode root = MAPPER.createObjectNode(); JsonNode n = root; ObjectNode ob2 = MAPPER.convertValue(n, ObjectNode.class); JsonNode n2 = MAPPER.convertValue(n, JsonNode.class); String STR = "test"; CharSequence seq = MAPPER.convertValue(STR, CharSequence.class); Leaf l = new Leaf(13); Map<?,?> m = MAPPER.convertValue(l, Map.class); Leaf l2 = MAPPER.convertValue(m, Leaf.class); Object ob = MAPPER.convertValue(l, Object.class); final Object plaino = new Object(); try { m = MAPPER.convertValue(plaino, Map.class); fail("Conversion should have failed"); } catch (IllegalArgumentException e) { verifyException(e, "no properties discovered"); } ObjectMapper mapper = new ObjectMapper(); mapper.disable(SerializationFeature.FAIL_ON_EMPTY_BEANS); try { } catch (Exception e) { throw (Exception) e.getCause(); } m = mapper.convertValue(plaino, Map.class); }
+Code: protected Object convertValue(Object value) { return _converter.convert(value); }
+[[0.21212173 0.07284813 0.08273838 0.12557775 0.19158581 0.13376343
+ 0.14195316 0.03941164]
+[0.21102859 0.07245824 0.06917043 0.10502225 0.21086073 0.1266505
+ 0.16541839 0.03939085]
+[0.21178891 0.07321541 0.0802487  0.12392102 0.18362018 0.12471931
+ 0.17642988 0.02605655]
+[0.20974228 0.07146329 0.0663278  0.12962048 0.18523565 0.13277344
+ 0.1593191  0.04551794]
+[0.20760798 0.06468277 0.08220945 0.11245176 0.18339513 0.12385149
+ 0.1625362  0.06326517]
+[0.22197372 0.076726   0.07394241 0.12738764 0.15980345 0.11810357
+ 0.17830077 0.04376236]
+[0.19063014 0.08259992 0.08007569 0.1148488  0.167529   0.11971057
+ 0.17678022 0.06782569]
+[0.18330002 0.07975433 0.09080843 0.09668541 0.19065008 0.17032185
+ 0.14673954 0.04174033]]

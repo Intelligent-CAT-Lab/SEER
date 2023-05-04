@@ -1,0 +1,21 @@
+141757
+Test: public void test21() throws Throwable { JDBCDiskCacheAttributes jDBCDiskCacheAttributes0 = new JDBCDiskCacheAttributes(); JndiDataSourceFactory jndiDataSourceFactory0 = new JndiDataSourceFactory(); EvoSuiteFile evoSuiteFile0 = null; byte[] byteArray0 = new byte[4]; byteArray0[0] = (byte)5; jndiDataSourceFactory0.initialize(jDBCDiskCacheAttributes0); byteArray0[1] = (byte)61; byteArray0[2] = (byte)0; byteArray0[3] = (byte)5; String string0 = "7~m<la6i3q"; jDBCDiskCacheAttributes0.setUserName("7~m<la6i3q"); FileSystemHandling.appendDataToFile((EvoSuiteFile) null, byteArray0); TableState tableState0 = null; jndiDataSourceFactory0.initialize(jDBCDiskCacheAttributes0); JDBCDiskCache<Object, String> jDBCDiskCache0 = new JDBCDiskCache<Object, String>(jDBCDiskCacheAttributes0, jndiDataSourceFactory0, (TableState) null); jDBCDiskCache0.processGet((Object) null); jDBCDiskCache0.processRemoveAll();  jDBCDiskCache0.getDataSource();   }
+Code: public DataSource getDataSource() throws SQLException { return dsFactory.getDataSource(); }
+[[0.08948931 0.12414715 0.12414715 0.21028998 0.06866092 0.12169233
+ 0.09877901 0.12414715 0.03864697]
+[0.07361615 0.12341905 0.12341905 0.23794436 0.07640544 0.11366089
+ 0.08926921 0.12341905 0.03884676]
+[0.07361615 0.12341905 0.12341905 0.23794436 0.07640544 0.11366089
+ 0.08926921 0.12341905 0.03884676]
+[0.05994201 0.10426018 0.10426018 0.29177207 0.06387539 0.1451743
+ 0.09811041 0.10426018 0.02834529]
+[0.06508115 0.10918361 0.10918361 0.23735793 0.07302544 0.1580257
+ 0.1147697  0.10918361 0.02418919]
+[0.09300652 0.12229662 0.12229662 0.1646254  0.0672607  0.14851764
+ 0.1071709  0.12229662 0.05252899]
+[0.06381319 0.1282016  0.1282016  0.24161765 0.06050182 0.12273097
+ 0.09299441 0.1282016  0.03373709]
+[0.07361615 0.12341905 0.12341905 0.23794436 0.07640544 0.11366089
+ 0.08926921 0.12341905 0.03884676]
+[0.05737889 0.1066563  0.1066563  0.24136859 0.07131539 0.15120868
+ 0.12640087 0.1066563  0.03235867]]

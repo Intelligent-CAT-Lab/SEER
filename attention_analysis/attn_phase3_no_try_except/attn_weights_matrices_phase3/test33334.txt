@@ -1,0 +1,21 @@
+33334
+Test: public void test274() throws Throwable { MathContext mathContext0 = MathContext.DECIMAL64; Boolean boolean0 = Boolean.FALSE; mathContext0.equals(boolean0); JexlArithmetic jexlArithmetic0 = new JexlArithmetic(false, mathContext0, Integer.MIN_VALUE); JexlArithmetic jexlArithmetic1 = jexlArithmetic0.createWithOptions(false, mathContext0, Integer.MIN_VALUE); BigDecimal bigDecimal0 = new BigDecimal((long) Integer.MIN_VALUE); bigDecimal0.toPlainString(); jexlArithmetic1.narrowBigDecimal((Object) null, mathContext0, bigDecimal0); Pattern pattern0 = JexlArithmetic.FLOAT_PATTERN; pattern0.split((CharSequence) "-2147483648"); pattern0.asPredicate(); Double double0 = new Double(36.33054145288271); double double1 = new Float(0.0); jexlArithmetic1.narrowLong(pattern0, double0, 16380L); jexlArithmetic1.toString((Object) pattern0); Double double2 = new Double(1038.679142239); jexlArithmetic0.subtract((Object) null, double2); jexlArithmetic0.logicalNot((Object) null); BigInteger bigInteger0 = BigInteger.TEN; jexlArithmetic0.not(bigInteger0); }
+Code: public Object not(final Object val) { return !toBoolean(val); }
+[[0.10351181 0.07959142 0.14358388 0.07959142 0.17356798 0.12351346
+ 0.11212702 0.14358388 0.0409291 ]
+[0.09879155 0.070928   0.13625363 0.070928   0.16080251 0.17119011
+ 0.12129132 0.13625363 0.03356126]
+[0.0917684  0.06889728 0.15621679 0.06889728 0.17353386 0.12861177
+ 0.11093612 0.15621679 0.04492179]
+[0.09879155 0.070928   0.13625363 0.070928   0.16080251 0.17119011
+ 0.12129132 0.13625363 0.03356126]
+[0.10609256 0.07686213 0.14765213 0.07686213 0.15736581 0.1421297
+ 0.11064512 0.14765213 0.03473832]
+[0.10332114 0.06152586 0.14159891 0.06152586 0.16170087 0.15212023
+ 0.12073802 0.14159891 0.05587027]
+[0.07669595 0.07154462 0.1636222  0.07154462 0.17367978 0.12798361
+ 0.11511885 0.1636222  0.03618812]
+[0.0917684  0.06889728 0.15621679 0.06889728 0.17353386 0.12861177
+ 0.11093612 0.15621679 0.04492179]
+[0.0692956  0.06788888 0.13371167 0.06788888 0.19440275 0.15428719
+ 0.14446452 0.13371167 0.03434886]]

@@ -1,0 +1,17 @@
+99191
+Test: public void shouldBeSerializeAndHaveExtraInterfaces() throws Exception { IMethods mock = mock(IMethods.class, withSettings().serializable().extraInterfaces(List.class)); IMethods mockTwo = mock(IMethods.class, withSettings().extraInterfaces(List.class).serializable()); serializeAndBack((List) mock); serializeAndBack((List) mockTwo); }
+Code: public MockSettings serializable() { return this.extraInterfaces(java.io.Serializable.class); }
+[[0.08999918 0.35670316 0.11112948 0.15456016 0.10331553 0.13838568
+ 0.04590677]
+[0.07183    0.34689808 0.11206739 0.18092296 0.09583386 0.14707217
+ 0.04537552]
+[0.0626962  0.37995046 0.09357883 0.17481215 0.11042006 0.1465037
+ 0.03203864]
+[0.09883857 0.32002604 0.10758083 0.1746642  0.1116913  0.12812638
+ 0.05907268]
+[0.05881072 0.48192018 0.09504867 0.13771826 0.0814814  0.10843319
+ 0.03658752]
+[0.07341225 0.37312526 0.09757039 0.16699722 0.09374724 0.15522337
+ 0.03992418]
+[0.05880708 0.31297535 0.08643077 0.18027009 0.13685977 0.18726824
+ 0.03738873]]

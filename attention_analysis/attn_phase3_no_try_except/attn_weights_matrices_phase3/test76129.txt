@@ -1,0 +1,17 @@
+76129
+Test: public void test84() throws Throwable { java.lang.ClassLoader classLoader0 = java.lang.ClassLoader.getSystemClassLoader(); ClassLoaderRepository classLoaderRepository0 = new ClassLoaderRepository(classLoader0); Class<Object> class0 = Object.class; JavaClass javaClass0 = classLoaderRepository0.loadClass(class0); PipedOutputStream pipedOutputStream0 = new PipedOutputStream(); BufferedOutputStream bufferedOutputStream0 = new BufferedOutputStream(pipedOutputStream0, (byte)2); BCELifier bCELifier0 = new BCELifier(javaClass0, bufferedOutputStream0); bCELifier0.start(); }
+Code: public void start() { visitJavaClass(_clazz); _out.flush(); }
+[[0.13242766 0.10492277 0.18369469 0.15899    0.18369469 0.18369469
+ 0.05257553]
+[0.10031015 0.08750997 0.19480489 0.17461593 0.19480488 0.19480488
+ 0.05314931]
+[0.11234123 0.09601118 0.1898667  0.16502395 0.18986672 0.18986672
+ 0.05702355]
+[0.12528984 0.10856021 0.16806376 0.19263217 0.16806376 0.16806376
+ 0.06932645]
+[0.11234123 0.09601118 0.1898667  0.16502395 0.18986672 0.18986672
+ 0.05702355]
+[0.11234123 0.09601118 0.1898667  0.16502395 0.18986672 0.18986672
+ 0.05702355]
+[0.09390214 0.08695309 0.17585792 0.23988046 0.1758579  0.1758579
+ 0.05169058]]

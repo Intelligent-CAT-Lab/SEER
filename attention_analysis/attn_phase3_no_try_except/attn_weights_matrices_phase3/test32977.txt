@@ -1,0 +1,8 @@
+32977
+Test: public void test16() throws Throwable { Engine engine0 = new Engine(); TemplateEngine templateEngine0 = engine0.createJxltEngine(false, 1, '\"', '\"'); templateEngine0.clearCache(); }
+Code: public abstract void clearCache(); }
+[[0.24876615 0.10619711 0.19858316 0.345083   0.10137063]
+[0.23744377 0.09358741 0.18616924 0.38363886 0.09916075]
+[0.20281146 0.12280554 0.17174676 0.40143496 0.10120127]
+[0.21946414 0.11263624 0.18599707 0.3717652  0.11013733]
+[0.19737433 0.13809574 0.18647239 0.3631641  0.11489348]]

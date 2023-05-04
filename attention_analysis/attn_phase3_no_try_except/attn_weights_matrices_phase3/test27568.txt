@@ -1,0 +1,17 @@
+27568
+Test: public void test11() throws Throwable { AxisSequence axisSequence0 = AxisSequence.YZX; AxisAngleSequence axisAngleSequence0 = AxisAngleSequence.createAbsolute(axisSequence0, (-1640.398504), 0.0, 2553.6); QuaternionRotation quaternionRotation0 = QuaternionRotation.fromAxisAngleSequence(axisAngleSequence0); Vector3D.Unit vector3D_Unit0 = Vector3D.Unit.MINUS_X; Precision.DoubleEquivalence precision_DoubleEquivalence0 = mock(Precision.DoubleEquivalence.class, new ViolatedAssumptionAnswer()); doReturn(false).when(precision_DoubleEquivalence0).eq(anyDouble() , anyDouble()); Line3D line3D0 = new Line3D(vector3D_Unit0, vector3D_Unit0, precision_DoubleEquivalence0); Segment3D segment3D0 = new Segment3D(line3D0, vector3D_Unit0, vector3D_Unit0); Segment3D segment3D1 = segment3D0.transform(quaternionRotation0); double double0 = segment3D1.getSubspaceEnd(); }
+Code: public double getSubspaceEnd() { return end; }
+[[0.12500827 0.21919245 0.17338753 0.13385515 0.13352193 0.16895522
+ 0.04607949]
+[0.10302565 0.23672481 0.19286795 0.13808864 0.1448482  0.14474973
+ 0.03969499]
+[0.11086499 0.21146041 0.1904089  0.14606443 0.1337757  0.15565073
+ 0.05177482]
+[0.12339244 0.17247492 0.17636608 0.1653935  0.14631999 0.15247189
+ 0.06358119]
+[0.09265499 0.21376568 0.20389937 0.14186217 0.14126138 0.16568585
+ 0.04087053]
+[0.094662   0.18694662 0.2015216  0.16801083 0.15635881 0.14535119
+ 0.04714897]
+[0.09289503 0.1830498  0.18653905 0.16472739 0.18149275 0.15228039
+ 0.03901554]]

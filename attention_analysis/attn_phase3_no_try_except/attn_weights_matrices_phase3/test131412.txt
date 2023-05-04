@@ -1,0 +1,27 @@
+131412
+Test: public void test20() throws Throwable { HashSet<Object> hashSet0 = new HashSet<Object>(2, 2279.3F); FluentIterable<Object> fluentIterable0 = FluentIterable.of((Iterable<Object>) hashSet0); FluentIterable<Object> fluentIterable1 = fluentIterable0.skip(2); FluentIterable<Object> fluentIterable2 = fluentIterable1.append((Iterable<?>) hashSet0); ArrayDeque<Object> arrayDeque0 = new ArrayDeque<Object>(); hashSet0.containsAll(arrayDeque0); Iterable<Object>[] iterableArray0 = (Iterable<Object>[]) Array.newInstance(Iterable.class, 7); iterableArray0[0] = (Iterable<Object>) hashSet0; iterableArray0[1] = (Iterable<Object>) fluentIterable1; iterableArray0[2] = (Iterable<Object>) fluentIterable2; iterableArray0[3] = (Iterable<Object>) fluentIterable1; iterableArray0[4] = (Iterable<Object>) fluentIterable2; iterableArray0[5] = (Iterable<Object>) fluentIterable1; iterableArray0[6] = (Iterable<Object>) hashSet0; FluentIterable<Object> fluentIterable3 = fluentIterable2.zip(iterableArray0); FluentIterable<Object> fluentIterable4 = fluentIterable3.append((Object[]) iterableArray0); fluentIterable4.zip(iterableArray0); FluentIterable<Object> fluentIterable5 = fluentIterable4.collate((Iterable<?>) fluentIterable0); fluentIterable5.asEnumeration(); FluentIterable<String> fluentIterable6 = FluentIterable.empty(); FluentIterable<String> fluentIterable7 = fluentIterable6.limit(0L); FluentIterable<String> fluentIterable8 = fluentIterable7.unique(); // Undeclared exception!  fluentIterable8.zip((Iterable<? extends String>[]) null);   }
+Code: public FluentIterable<E> zip(final Iterable<? extends E> other) { return of(IterableUtils.zippingIterable(iterable, other)); }
+[[0.06213405 0.08619851 0.08619851 0.08619851 0.04411892 0.17517129
+ 0.10640767 0.08543558 0.06870045 0.08619851 0.08619851 0.02703948]
+[0.05160616 0.08531596 0.08531596 0.08531596 0.05719052 0.16675037
+ 0.11977604 0.08632826 0.0627547  0.08531596 0.08531596 0.02901422]
+[0.05160616 0.08531596 0.08531596 0.08531596 0.05719052 0.16675037
+ 0.11977604 0.08632826 0.0627547  0.08531596 0.08531596 0.02901422]
+[0.05160616 0.08531596 0.08531596 0.08531596 0.05719052 0.16675037
+ 0.11977604 0.08632826 0.0627547  0.08531596 0.08531596 0.02901422]
+[0.05555664 0.0902562  0.0902562  0.0902562  0.04331112 0.14143123
+ 0.10554999 0.10197547 0.07201894 0.09025618 0.09025618 0.02887572]
+[0.04762592 0.09333519 0.09333519 0.09333519 0.04805163 0.14564577
+ 0.11874057 0.09089895 0.0574629  0.0933352  0.0933352  0.02489831]
+[0.05754424 0.08505443 0.08505443 0.08505443 0.0604237  0.14075136
+ 0.1217428  0.1001123  0.07191654 0.08505443 0.08505443 0.02223697]
+[0.06560849 0.08333792 0.08333792 0.08333792 0.05883029 0.12920998
+ 0.1052547  0.11134174 0.07474111 0.08333792 0.08333792 0.03832418]
+[0.04226182 0.0824962  0.0824962  0.0824962  0.06046535 0.20659257
+ 0.10780233 0.08621111 0.06074184 0.0824962  0.0824962  0.02344399]
+[0.05160616 0.08531596 0.08531596 0.08531596 0.05719052 0.16675037
+ 0.11977604 0.08632826 0.0627547  0.08531596 0.08531596 0.02901422]
+[0.05160616 0.08531596 0.08531596 0.08531596 0.05719052 0.16675037
+ 0.11977604 0.08632826 0.0627547  0.08531596 0.08531596 0.02901422]
+[0.04366615 0.0798111  0.0798111  0.0798111  0.05659425 0.14535427
+ 0.10803784 0.12290252 0.0984564  0.0798111  0.0798111  0.02593308]]

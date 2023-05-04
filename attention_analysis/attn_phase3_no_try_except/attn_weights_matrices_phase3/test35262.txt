@@ -1,0 +1,17 @@
+35262
+Test: public void test0() throws Throwable { Class<Integer> class0 = Integer.class; Permissions permissions0 = new Permissions(); SimpleLog simpleLog0 = new SimpleLog("org.apache.commons.logging.impl.SimpleLog"); ClassMap classMap0 = new ClassMap(class0, permissions0, simpleLog0); String[] stringArray0 = classMap0.getFieldNames(); }
+Code: String[] getFieldNames() { return fieldCache.keySet().toArray(new String[fieldCache.size()]); }
+[[0.0497908  0.1917573  0.17407018 0.1547449  0.19175732 0.19175732
+ 0.04612212]
+[0.06573398 0.18862596 0.17291372 0.13632587 0.18862596 0.18862596
+ 0.05914859]
+[0.07956608 0.16633146 0.20357557 0.14602642 0.16633146 0.16633146
+ 0.07183753]
+[0.0600187  0.19531801 0.16790038 0.13930252 0.19531803 0.19531803
+ 0.04682424]
+[0.06573398 0.18862596 0.17291372 0.13632587 0.18862596 0.18862596
+ 0.05914859]
+[0.06573398 0.18862596 0.17291372 0.13632587 0.18862596 0.18862596
+ 0.05914859]
+[0.04670393 0.16608569 0.2178894  0.18985796 0.16608569 0.16608569
+ 0.04729157]]

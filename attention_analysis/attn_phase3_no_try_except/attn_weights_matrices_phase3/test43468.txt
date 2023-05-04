@@ -1,0 +1,23 @@
+43468
+Test: public void test2544() throws Throwable { DateTimeFormatterBuilder.TimeZoneOffset dateTimeFormatterBuilder_TimeZoneOffset0 = new DateTimeFormatterBuilder.TimeZoneOffset("Europe/H", "Europe/H", true, 3552, 3552); IslamicChronology islamicChronology0 = IslamicChronology.getInstance(); LenientChronology lenientChronology0 = LenientChronology.getInstance(islamicChronology0); Chronology chronology0 = lenientChronology0.withUTC(); LocalDate localDate0 = LocalDate.now(); Locale locale0 = Locale.forLanguageTag("Europe/H"); Locale locale1 = Locale.FRENCH; String string0 = locale0.getDisplayVariant(locale1); dateTimeFormatterBuilder_TimeZoneOffset0.printTo((Appendable) null, (ReadablePartial) localDate0, locale0); DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); String[] stringArray0 = Locale.getISOLanguages(); DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendPattern(""); UTCProvider uTCProvider0 = new UTCProvider(); DateTimeZone dateTimeZone0 = uTCProvider0.getZone((String) null); dateTimeFormatterBuilder_TimeZoneOffset0.printTo((Appendable) null, 2514L, (Chronology) lenientChronology0, 3552, (DateTimeZone) null, locale0); }
+Code: public DateTimeFormatterBuilder appendPattern(String pattern) { DateTimeFormat.appendPatternTo(this, pattern); return this; }
+[[0.09375308 0.13004905 0.13004905 0.13004905 0.11370554 0.13004905
+ 0.05525334 0.10178289 0.0778367  0.03747226]
+[0.07856758 0.13188818 0.13188818 0.13188818 0.12037709 0.13188818
+ 0.06137009 0.09524895 0.07567285 0.04121076]
+[0.07856758 0.13188818 0.13188818 0.13188818 0.12037709 0.13188818
+ 0.06137009 0.09524895 0.07567285 0.04121076]
+[0.07856758 0.13188818 0.13188818 0.13188818 0.12037709 0.13188818
+ 0.06137009 0.09524895 0.07567285 0.04121076]
+[0.08937871 0.1180867  0.1180867  0.1180867  0.14146808 0.1180867
+ 0.0686743  0.10315478 0.07473988 0.05023748]
+[0.07856758 0.13188818 0.13188818 0.13188818 0.12037709 0.13188818
+ 0.06137009 0.09524895 0.07567285 0.04121076]
+[0.07642355 0.12763274 0.12763274 0.12763274 0.1419316  0.12763274
+ 0.05342006 0.11196359 0.06886481 0.03686548]
+[0.06801386 0.14140287 0.14140287 0.14140287 0.12106296 0.14140287
+ 0.05104847 0.10078867 0.05969316 0.03378137]
+[0.09087439 0.12875852 0.12875852 0.12875852 0.14167027 0.12875852
+ 0.04723343 0.11007007 0.05665674 0.03846104]
+[0.06521602 0.12192752 0.12192752 0.12192752 0.16779864 0.12192752
+ 0.03852998 0.14249094 0.06215446 0.0360999 ]]

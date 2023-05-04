@@ -1,0 +1,17 @@
+144424
+Test: public void test137() throws Throwable { ElementAttributes elementAttributes0 = new ElementAttributes(); IElementEventHandler iElementEventHandler0 = mock(IElementEventHandler.class, new ViolatedAssumptionAnswer()); doReturn("a").when(iElementEventHandler0).toString(); elementAttributes0.addElementEventHandler(iElementEventHandler0); ElementAttributes elementAttributes1 = new ElementAttributes(elementAttributes0); ArrayList<IElementEventHandler> arrayList0 = elementAttributes0.getElementEventHandlers(); elementAttributes1.addElementEventHandlers(arrayList0); }
+Code: public int getSize() { return size; }
+[[0.09634662 0.06506736 0.25577545 0.10769486 0.10346773 0.33514243
+ 0.03650557]
+[0.06382012 0.05272977 0.2760166  0.10540059 0.09829368 0.37696558
+ 0.02677363]
+[0.0926358  0.04968691 0.29241395 0.12585285 0.0915042  0.31666738
+ 0.03123887]
+[0.09830326 0.05059143 0.23924384 0.12279391 0.11774123 0.32240483
+ 0.04892155]
+[0.06198391 0.04058088 0.33604372 0.10175228 0.0933249  0.33744323
+ 0.028871  ]
+[0.09046383 0.0514078  0.22037381 0.13492621 0.10156868 0.36088708
+ 0.04037262]
+[0.07328649 0.05885652 0.18640566 0.11228696 0.13807517 0.40325987
+ 0.02782932]]

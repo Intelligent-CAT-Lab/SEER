@@ -1,0 +1,9 @@
+165926
+Test: public void test18() throws Throwable { CombinedConfiguration combinedConfiguration0 = new CombinedConfiguration(); INIConfiguration iNIConfiguration0 = new INIConfiguration(combinedConfiguration0); SubnodeConfiguration subnodeConfiguration0 = iNIConfiguration0.getSection("SBZHxVLZ9("); NodeSelector nodeSelector0 = new NodeSelector("SBZHxVLZ9("); SubnodeConfiguration subnodeConfiguration1 = subnodeConfiguration0.createSubConfigurationForTrackedNode(nodeSelector0, combinedConfiguration0); XMLConfiguration xMLConfiguration0 = null;  xMLConfiguration0 = new XMLConfiguration(subnodeConfiguration1);   }
+Code: public XMLConfiguration() { initLogger(new ConfigurationLogger(XMLConfiguration.class)); }
+[[0.14803405 0.20534238 0.17726772 0.20534238 0.20534238 0.05867105]
+[0.12369771 0.20790613 0.18808624 0.20790613 0.20790614 0.06449768]
+[0.14060104 0.18743531 0.21878937 0.18743531 0.18743531 0.07830367]
+[0.12369771 0.20790613 0.18808624 0.20790613 0.20790614 0.06449768]
+[0.12369771 0.20790613 0.18808624 0.20790613 0.20790614 0.06449768]
+[0.10268182 0.1918765  0.26475638 0.1918765  0.19187649 0.05693229]]

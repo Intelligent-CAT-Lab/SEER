@@ -1,0 +1,21 @@
+58265
+Test: public void test17690() throws Throwable { HashMap<String, DateTimeZone> hashMap0 = new HashMap<String, DateTimeZone>(); DateTimeFormatterBuilder.TimeZoneName dateTimeFormatterBuilder_TimeZoneName0 = new DateTimeFormatterBuilder.TimeZoneName(47, hashMap0); int int0 = dateTimeFormatterBuilder_TimeZoneName0.estimatePrintedLength(); DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); int int1 = 291; DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendClockhourOfHalfday(291); DateTimeFormatterBuilder dateTimeFormatterBuilder2 = dateTimeFormatterBuilder1.appendMillisOfDay(47); DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.millisOfSecond(); DateTimeFormatterBuilder dateTimeFormatterBuilder3 = dateTimeFormatterBuilder2.appendFixedSignedDecimal(dateTimeFieldType0, 20); DateTimeFormatterBuilder dateTimeFormatterBuilder4 = dateTimeFormatterBuilder3.appendLiteral("899 w#e17F+bL@VR"); }
+Code: public DateTimeFormatterBuilder appendLiteral(char c) { return append0(new CharacterLiteral(c)); }
+[[0.09165082 0.12714598 0.12714598 0.13410863 0.12483994 0.10119063
+ 0.12714598 0.12714598 0.039626  ]
+[0.07606315 0.12489931 0.12489931 0.15576223 0.13193569 0.09261908
+ 0.12489931 0.12489931 0.04402264]
+[0.07606315 0.12489931 0.12489931 0.15576223 0.13193569 0.09261908
+ 0.12489931 0.12489931 0.04402264]
+[0.08272777 0.12465143 0.12465143 0.13440008 0.15940036 0.09071907
+ 0.12465143 0.12465143 0.03414702]
+[0.09483936 0.1213344  0.1213344  0.09749894 0.15900545 0.10829479
+ 0.1213344  0.1213344  0.05502386]
+[0.06573138 0.12979954 0.12979954 0.15325344 0.1310373  0.09499747
+ 0.12979954 0.12979954 0.03578223]
+[0.07606315 0.12489931 0.12489931 0.15576223 0.13193569 0.09261908
+ 0.12489931 0.12489931 0.04402264]
+[0.07606315 0.12489931 0.12489931 0.15576223 0.13193569 0.09261908
+ 0.12489931 0.12489931 0.04402264]
+[0.0638569  0.11655866 0.11655866 0.10695764 0.18063362 0.1442424
+ 0.11655866 0.11655866 0.03807494]]

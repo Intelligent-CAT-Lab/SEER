@@ -1,0 +1,17 @@
+7321
+Test: public void test3() throws Throwable { HttpServletResponse httpServletResponse0 = mock(HttpServletResponse.class, new ViolatedAssumptionAnswer()); doReturn("cmNp{/e9!5i;z[[").when(httpServletResponse0).getContentType(); HttpServletResponseWrapper httpServletResponseWrapper0 = new HttpServletResponseWrapper(httpServletResponse0); Response response0 = new Response(httpServletResponseWrapper0); response0.type(); int int0 = 1098; MockDate mockDate0 = new MockDate(1098, 1098, 1098, 1098, 1098, 1098); mockDate0.after(mockDate0); response0.header("cmNp{/e9!5i;z[[", (Date) mockDate0); response0.body(); httpServletResponseWrapper0.sendError(1098); ServletResponse servletResponse0 = httpServletResponseWrapper0.getResponse(); ServletResponseWrapper servletResponseWrapper0 = new ServletResponseWrapper(servletResponse0); httpServletResponseWrapper0.setResponse(servletResponseWrapper0); // Undeclared exception!  response0.status(1098);   }
+Code: public void status(int statusCode) { response.setStatus(statusCode); }
+[[0.13242765 0.10492276 0.18369468 0.18369468 0.15899004 0.18369468
+ 0.05257552]
+[0.10031015 0.08750999 0.19480489 0.19480489 0.17461592 0.19480489
+ 0.05314931]
+[0.11234123 0.09601117 0.18986669 0.18986669 0.16502397 0.1898667
+ 0.05702354]
+[0.11234123 0.09601117 0.18986669 0.18986669 0.16502397 0.1898667
+ 0.05702354]
+[0.12528984 0.10856022 0.16806376 0.16806376 0.19263217 0.16806377
+ 0.06932645]
+[0.11234123 0.09601117 0.18986669 0.18986669 0.16502397 0.1898667
+ 0.05702354]
+[0.09390214 0.08695309 0.17585792 0.17585792 0.23988046 0.1758579
+ 0.05169058]]

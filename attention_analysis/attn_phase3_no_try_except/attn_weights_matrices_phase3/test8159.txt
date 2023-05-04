@@ -1,0 +1,7 @@
+8159
+Test: public void test21() throws Throwable { SerializationUtils.clone((String) null); Integer integer0 = new Integer(3295); SerializationUtils.roundtrip(integer0); Enumeration<InputStream> enumeration0 = (Enumeration<InputStream>) mock(Enumeration.class, new ViolatedAssumptionAnswer()); doReturn(false).when(enumeration0).hasMoreElements(); SequenceInputStream sequenceInputStream0 = new SequenceInputStream(enumeration0); ClassLoader classLoader0 = ClassLoader.getSystemClassLoader(); ClassLoader classLoader1 = classLoader0.getParent(); SerializationUtils.ClassLoaderAwareObjectInputStream serializationUtils_ClassLoaderAwareObjectInputStream0 = null;  serializationUtils_ClassLoaderAwareObjectInputStream0 = new SerializationUtils.ClassLoaderAwareObjectInputStream(sequenceInputStream0, classLoader1);   }
+Code: public SerializationUtils() { }
+[[0.26360175 0.36561108 0.27517086 0.09561627]
+[0.22469527 0.38783675 0.285387   0.102081  ]
+[0.23549548 0.34202406 0.30348468 0.11899572]
+[0.18661417 0.3696179  0.36045745 0.08331049]]

@@ -1,0 +1,9 @@
+37632
+Test: public void test89() throws Throwable { DateTimeFieldType[] dateTimeFieldTypeArray0 = new DateTimeFieldType[1]; int[] intArray0 = new int[6]; Partial partial0 = new Partial((Chronology) null, dateTimeFieldTypeArray0, intArray0); Partial.Property partial_Property0 = new Partial.Property(partial0, 0); // Undeclared exception!  partial_Property0.setCopy(0);   }
+Code: public Partial() { this((Chronology) null); }
+[[0.14560865 0.13159697 0.19264032 0.20199549 0.26644987 0.06170867]
+[0.11617343 0.14459874 0.20545515 0.2026332  0.26221833 0.06892122]
+[0.15650454 0.15101719 0.21872301 0.21970333 0.17168164 0.08237024]
+[0.1302257  0.14127572 0.19242267 0.21988918 0.2497831  0.06640364]
+[0.12168577 0.11186182 0.23976284 0.24889839 0.2343544  0.0434368 ]
+[0.11972336 0.12769085 0.26603508 0.23110802 0.196186   0.05925671]]

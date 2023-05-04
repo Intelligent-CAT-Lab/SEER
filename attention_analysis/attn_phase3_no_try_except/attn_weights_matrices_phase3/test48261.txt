@@ -1,0 +1,23 @@
+48261
+Test: public void test7475() throws Throwable { DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendDayOfYear(44); HashMap<String, DateTimeZone> hashMap0 = new HashMap<String, DateTimeZone>(); HashMap<String, DateTimeZone> hashMap1 = new HashMap<String, DateTimeZone>(hashMap0); DateTimeFormatterBuilder dateTimeFormatterBuilder2 = dateTimeFormatterBuilder1.appendTimeZoneShortName((Map<String, DateTimeZone>) hashMap1); DateTimeFormatterBuilder dateTimeFormatterBuilder3 = dateTimeFormatterBuilder2.appendClockhourOfHalfday(44); DateTimeFormatterBuilder dateTimeFormatterBuilder4 = dateTimeFormatterBuilder3.appendFractionOfDay(44, 44); DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.clockhourOfDay(); DateTimeFormatterBuilder dateTimeFormatterBuilder5 = dateTimeFormatterBuilder4.appendShortText(dateTimeFieldType0); DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral("US/H"); DateTimePrinter dateTimePrinter0 = InternalPrinterDateTimePrinter.of(dateTimeFormatterBuilder_StringLiteral0); DateTimeParser[] dateTimeParserArray0 = new DateTimeParser[1]; DateTimeParser dateTimeParser0 = InternalParserDateTimeParser.of(dateTimeFormatterBuilder_StringLiteral0); GJChronology gJChronology0 = GJChronology.getInstance(); StrictChronology strictChronology0 = StrictChronology.getInstance(gJChronology0); DateTimeZone dateTimeZone0 = gJChronology0.getZone(); ZonedChronology zonedChronology0 = ZonedChronology.getInstance(strictChronology0, dateTimeZone0); Chronology chronology0 = zonedChronology0.withUTC(); DateTimeField dateTimeField0 = dateTimeFieldType0.getField(chronology0); dateTimeParserArray0[0] = dateTimeParser0; DateTimeFormatterBuilder dateTimeFormatterBuilder6 = dateTimeFormatterBuilder5.append(dateTimePrinter0, dateTimeParserArray0); DateTimeFormatterBuilder dateTimeFormatterBuilder7 = dateTimeFormatterBuilder5.appendTimeZoneName((Map<String, DateTimeZone>) hashMap0); boolean boolean0 = dateTimeFormatterBuilder5.canBuildParser(); DateTimeFormatterBuilder dateTimeFormatterBuilder8 = dateTimeFormatterBuilder3.appendMillisOfDay(44); DateTimeFormatterBuilder dateTimeFormatterBuilder9 = dateTimeFormatterBuilder3.appendDayOfYear(5); DateTimeFormatterBuilder dateTimeFormatterBuilder10 = dateTimeFormatterBuilder1.appendMonthOfYear(5); }
+Code: public DateTimeFormatterBuilder appendMonthOfYear(int minDigits) { return appendDecimal(DateTimeFieldType.monthOfYear(), minDigits, 2); }
+[[0.08205512 0.11382069 0.11382069 0.11382069 0.09785184 0.08887724
+ 0.11382069 0.11382069 0.12968028 0.03243214]
+[0.06842582 0.11517966 0.11517966 0.11517966 0.10309129 0.08290781
+ 0.11517966 0.11517966 0.1342538  0.03542297]
+[0.06842582 0.11517966 0.11517966 0.11517966 0.10309129 0.08290781
+ 0.11517966 0.11517966 0.1342538  0.03542297]
+[0.06842582 0.11517966 0.11517966 0.11517966 0.10309129 0.08290781
+ 0.11517966 0.11517966 0.1342538  0.03542297]
+[0.08026189 0.10609328 0.10609328 0.10609328 0.12692222 0.09264792
+ 0.10609328 0.10609328 0.12461083 0.04509079]
+[0.05550785 0.11613241 0.11613241 0.11613241 0.09730859 0.08251259
+ 0.11613241 0.11613241 0.15677267 0.02723623]
+[0.06842582 0.11517966 0.11517966 0.11517966 0.10309129 0.08290781
+ 0.11517966 0.11517966 0.1342538  0.03542297]
+[0.06842582 0.11517966 0.11517966 0.11517966 0.10309129 0.08290781
+ 0.11517966 0.11517966 0.1342538  0.03542297]
+[0.06725104 0.10889164 0.10889164 0.10889164 0.15426037 0.09336461
+ 0.10889164 0.10889164 0.11452725 0.02613861]
+[0.05639288 0.10541715 0.10541715 0.10541715 0.1451817  0.12323768
+ 0.10541715 0.10541715 0.11687201 0.03123005]]

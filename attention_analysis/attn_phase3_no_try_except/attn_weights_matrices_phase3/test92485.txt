@@ -1,0 +1,21 @@
+92485
+Test: public void test982() throws Throwable { BigFraction bigFraction0 = BigFraction.from((-1.0)); BigFraction bigFraction1 = bigFraction0.add(100); BigInteger bigInteger0 = BigInteger.ZERO; BigFraction bigFraction2 = BigFraction.of(bigInteger0); RoundingMode roundingMode0 = RoundingMode.DOWN; BigFraction bigFraction3 = bigFraction0.ZERO.subtract(23); BigDecimal bigDecimal0 = bigFraction1.bigDecimalValue(roundingMode0); BigFraction bigFraction4 = BigFraction.of((-9223372036854775808L)); int int0 = bigFraction3.getDenominatorAsInt(); BigInteger bigInteger1 = bigFraction1.getNumerator(); BigInteger bigInteger2 = bigFraction1.getNumerator(); String string0 = bigFraction0.toString(); BigFraction bigFraction5 = BigFraction.of(100, (-1074)); RoundingMode roundingMode1 = RoundingMode.HALF_DOWN; BigDecimal bigDecimal1 = bigFraction5.ZERO.bigDecimalValue(roundingMode1); BigFraction bigFraction6 = bigFraction4.multiply(bigInteger2); String string1 = bigFraction6.ZERO.toString(); BigFraction bigFraction7 = BigFraction.parse("-1"); BigFraction bigFraction8 = bigFraction7.add(bigInteger1); BigFraction bigFraction9 = bigFraction7.ZERO.multiply((long) 100); long long0 = bigFraction5.ONE.getDenominatorAsLong(); BigFraction bigFraction10 = bigFraction5.subtract(bigFraction3); int int1 = bigFraction10.getNumeratorAsInt(); BigFraction bigFraction11 = bigFraction10.ZERO.subtract(1); String string2 = bigFraction3.toString(); BigFraction bigFraction12 = bigFraction5.divide(1L); BigFraction bigFraction13 = bigFraction5.divide(bigInteger1); BigFraction bigFraction14 = bigFraction12.reciprocal(); }
+Code: public BigFraction reciprocal() { return new BigFraction(denominator, numerator); }
+[[0.1007058  0.11877496 0.19554842 0.10820527 0.10761034 0.05259212
+ 0.13968016 0.13968016 0.03720281]
+[0.09932709 0.10597122 0.21250264 0.1228595  0.10657763 0.04372488
+ 0.13701123 0.13701123 0.03501459]
+[0.08479851 0.11300679 0.22233416 0.11854413 0.11868601 0.05241332
+ 0.12920111 0.12920111 0.03181494]
+[0.09581828 0.10322566 0.1782857  0.13470024 0.1128033  0.05626599
+ 0.13415904 0.13415904 0.05058271]
+[0.07075135 0.10981967 0.2169929  0.10451373 0.10852141 0.04392327
+ 0.15756011 0.15756011 0.03035746]
+[0.08693479 0.11054492 0.1624874  0.12806113 0.12148763 0.05988915
+ 0.14566115 0.14566115 0.03927267]
+[0.08779195 0.10625614 0.17405866 0.11865056 0.10601331 0.06494706
+ 0.15024146 0.15024146 0.04179935]
+[0.08779195 0.10625614 0.17405866 0.11865056 0.10601331 0.06494706
+ 0.15024146 0.15024146 0.04179935]
+[0.07030581 0.09854505 0.200673   0.14032502 0.1418844  0.03918851
+ 0.13846792 0.13846792 0.03214236]]

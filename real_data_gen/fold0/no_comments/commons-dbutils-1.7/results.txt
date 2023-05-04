@@ -1,0 +1,16 @@
+num_rows: 731
+Number in Pass Class: 577, 0.7893
+tp: 572, 0.7825
+fp: 154, 0.2107
+pass accuracy: 572/577 = 0.9913
+
+Number in Fail Class: 154, 0.2107
+tn: 0, 0.0
+fn: 5, 0.0068
+fail accuracy: 0/154 = 0.0
+
+accuracy: 572/731 = 0.7825
+precision: 572/726 = 0.7879
+recall: 572/577 = 0.9913
+f1: 1144/1303 = 0.878
+

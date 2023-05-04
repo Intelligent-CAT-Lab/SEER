@@ -1,0 +1,19 @@
+31416
+Test: public void test1075() throws Throwable { LongObjectHashMap<Long> longObjectHashMap0 = new LongObjectHashMap<Long>(); longObjectHashMap0.hashCode(); Collection<Long> collection0 = longObjectHashMap0.values(); Long long0 = new Long(8); int int0 = Long.compareUnsigned(1127L, 1127L); int int1 = Long.compareUnsigned(2493L, 1127L); long long1 = Long.sum((-2L), 1721L); int int2 = Long.compareUnsigned(23L, (-852L)); int int3 = Long.compareUnsigned(8, 1721L); BiFunction<Long, Object, Long> biFunction0 = (BiFunction<Long, Object, Long>) mock(BiFunction.class, new ViolatedAssumptionAnswer()); doReturn(long0).when(biFunction0).apply(anyLong() , any()); Long long2 = longObjectHashMap0.compute(long0, biFunction0); Long long3 = longObjectHashMap0.put((long) 8, (Long) null); boolean boolean0 = longObjectHashMap0.containsKey((long) 8); int int4 = longObjectHashMap0.hashCode(); LongObjectHashMap<LongObjectHashMap<String>> longObjectHashMap1 = new LongObjectHashMap<LongObjectHashMap<String>>(); LongObjectHashMap<AbstractMap.SimpleImmutableEntry<String, Object>> longObjectHashMap2 = new LongObjectHashMap<AbstractMap.SimpleImmutableEntry<String, Object>>(); BiConsumer<Object, Object> biConsumer0 = (BiConsumer<Object, Object>) mock(BiConsumer.class, new ViolatedAssumptionAnswer()); longObjectHashMap2.forEach(biConsumer0); String string0 = longObjectHashMap1.keyToString(0L); }
+Code: protected String keyToString(long key) { return Long.toString(key); }
+[[0.16304052 0.13603495 0.13860355 0.10766406 0.17015736 0.11157002
+ 0.13860355 0.03432599]
+[0.155264   0.11839187 0.14491764 0.13775177 0.15518911 0.10438477
+ 0.14491764 0.03918318]
+[0.17528245 0.1443611  0.13272841 0.13486469 0.13640067 0.09791192
+ 0.13272841 0.04572237]
+[0.12764142 0.14072269 0.13768868 0.12889877 0.17227826 0.11163635
+ 0.13768868 0.04344508]
+[0.17624894 0.13265118 0.12130433 0.10683108 0.17265612 0.11057824
+ 0.12130433 0.05842578]
+[0.1818022  0.14843002 0.13482353 0.12662874 0.13723883 0.09881508
+ 0.13482353 0.03743803]
+[0.17528245 0.1443611  0.13272841 0.13486469 0.13640067 0.09791192
+ 0.13272841 0.04572237]
+[0.15019353 0.12449065 0.12714247 0.11066499 0.17444219 0.14837375
+ 0.12714247 0.03754992]]

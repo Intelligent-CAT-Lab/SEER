@@ -1,0 +1,17 @@
+160749
+Test: public void test8() throws Throwable { KeyedPooledObjectFactory<LinkedList<Object>, String> keyedPooledObjectFactory0 = (KeyedPooledObjectFactory<LinkedList<Object>, String>) mock(KeyedPooledObjectFactory.class, new ViolatedAssumptionAnswer()); GenericKeyedObjectPoolConfig<String> genericKeyedObjectPoolConfig0 = new GenericKeyedObjectPoolConfig<String>(); genericKeyedObjectPoolConfig0.setMaxTotal(0); genericKeyedObjectPoolConfig0.toString(); GenericKeyedObjectPool<LinkedList<Object>, String> genericKeyedObjectPool0 = new GenericKeyedObjectPool<LinkedList<Object>, String>(keyedPooledObjectFactory0, genericKeyedObjectPoolConfig0); int int0 = genericKeyedObjectPool0.getMinIdlePerKey(); }
+Code: int getMinIdlePerKey(); /** * See {@link GenericKeyedObjectPool#getNumActive()}
+[[0.03880768 0.1432655  0.1432655  0.08926699 0.29886335 0.14326552
+ 0.14326552]
+[0.0508025  0.1319094  0.1319094  0.08341256 0.33814728 0.13190942
+ 0.13190942]
+[0.0508025  0.1319094  0.1319094  0.08341256 0.33814728 0.13190942
+ 0.13190942]
+[0.0498375  0.13268626 0.13268626 0.13440354 0.2850139  0.13268626
+ 0.13268626]
+[0.03713848 0.12854168 0.12854168 0.08363678 0.365058   0.12854168
+ 0.12854168]
+[0.0508025  0.1319094  0.1319094  0.08341256 0.33814728 0.13190942
+ 0.13190942]
+[0.0508025  0.1319094  0.1319094  0.08341256 0.33814728 0.13190942
+ 0.13190942]]

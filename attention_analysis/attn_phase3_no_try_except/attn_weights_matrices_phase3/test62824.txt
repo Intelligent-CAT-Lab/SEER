@@ -1,0 +1,17 @@
+62824
+Test: public void test14() throws Throwable { Realm.Builder realm_Builder0 = new Realm.Builder(); Realm.Builder realm_Builder1 = realm_Builder0.setResponse(""); Realm.Builder realm_Builder2 = realm_Builder1.parseProxyAuthenticateHeader(""); HashMap<String, String> hashMap0 = new HashMap<String, String>(); Realm.Builder realm_Builder3 = realm_Builder1.setCustomLoginConfig(hashMap0); Realm.Builder realm_Builder4 = realm_Builder2.setRealmName("A!&^cfXnzwOo_9nZs"); realm_Builder4.setNtlmDomain("A!&^cfXnzwOo_9nZs"); realm_Builder0.setQop("A!&^cfXnzwOo_9nZs"); Realm.Builder realm_Builder5 = realm_Builder4.setOmitQuery(false); Realm.Builder realm_Builder6 = realm_Builder1.setQop("jiRx8f$K-#/Tt$LtB "); BiFunction<Object, Object, String> biFunction0 = (BiFunction<Object, Object, String>) mock(BiFunction.class, new ViolatedAssumptionAnswer()); doReturn((Object) null).when(biFunction0).apply(any() , any()); hashMap0.compute("", biFunction0); realm_Builder5.setAlgorithm("NTLM"); Realm.Builder realm_Builder7 = realm_Builder1.setLoginContextName("jiRx8f$K-#/Tt$LtB "); realm_Builder6.setQop("scheme"); Realm realm0 = realm_Builder5.build(); realm0.getQop(); Realm.AuthScheme.values(); realm0.getResponse(); realm0.toString(); realm_Builder0.setCustomLoginConfig(hashMap0); realm_Builder6.build(); realm_Builder5.setCharset((Charset) null); realm_Builder3.setUseCanonicalHostname(true); realm_Builder7.setUseAbsoluteURI(false); realm0.getNtlmHost(); }
+Code: public String getNtlmHost() { return ntlmHost; }
+[[0.12830108 0.1666011  0.17797421 0.15782064 0.1395634  0.17797421
+ 0.05176535]
+[0.12820424 0.14977588 0.1834282  0.1802996  0.12852609 0.18342823
+ 0.04633773]
+[0.10518022 0.1933394  0.1756843  0.16600226 0.12763993 0.1756843
+ 0.0564696 ]
+[0.11900765 0.17346033 0.15602481 0.19107194 0.13699669 0.15602481
+ 0.06741381]
+[0.08912516 0.20455416 0.18036592 0.1687272  0.13034222 0.18036592
+ 0.04651939]
+[0.10518022 0.1933394  0.1756843  0.16600226 0.12763993 0.1756843
+ 0.0564696 ]
+[0.08551911 0.15674725 0.16242397 0.20538047 0.18261436 0.16242395
+ 0.04489082]]

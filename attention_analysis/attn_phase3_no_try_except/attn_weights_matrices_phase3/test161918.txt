@@ -1,0 +1,8 @@
+161918
+Test: public void test415() throws Throwable { LinkedBlockingDeque<Integer> linkedBlockingDeque0 = new LinkedBlockingDeque<Integer>(true); LinkedBlockingDeque<Object> linkedBlockingDeque1 = new LinkedBlockingDeque<Object>(linkedBlockingDeque0); Predicate<Integer> predicate0 = Predicate.isEqual((Object) null); boolean boolean0 = linkedBlockingDeque0.removeIf(predicate0); boolean boolean1 = linkedBlockingDeque1.contains((Object) null); Integer integer0 = new Integer((-2485)); Stream<Object> stream0 = linkedBlockingDeque1.stream(); boolean boolean2 = linkedBlockingDeque0.offer(integer0); TimeUnit timeUnit0 = TimeUnit.NANOSECONDS; Object object0 = linkedBlockingDeque1.pollLast(1L, timeUnit0); Integer integer1 = new Integer((-514)); ChronoUnit chronoUnit0 = ChronoUnit.MICROS; Duration duration0 = chronoUnit0.getDuration(); boolean boolean3 = linkedBlockingDeque1.offerLast((Object) integer1, duration0); Object object1 = linkedBlockingDeque1.takeLast(); Duration duration1 = duration0.plus((-3932L), (TemporalUnit) chronoUnit0); LinkedBlockingDeque<String> linkedBlockingDeque2 = new LinkedBlockingDeque<String>(); }
+Code: public LinkedBlockingDeque() { this(Integer.MAX_VALUE); }
+[[0.18877485 0.2618447  0.21511179 0.2618447  0.07242395]
+[0.15826353 0.2686846  0.22581923 0.2686846  0.07854807]
+[0.17396262 0.23986343 0.2528699  0.23986343 0.09344059]
+[0.15826353 0.2686846  0.22581923 0.2686846  0.07854807]
+[0.13051036 0.24960408 0.30344182 0.24960408 0.06683967]]

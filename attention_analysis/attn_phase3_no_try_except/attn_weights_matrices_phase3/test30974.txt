@@ -1,0 +1,2 @@
+30974
+Test: public void test5() throws Throwable { Integer integer0 = CollectionUtil.getLast((Collection<Integer>) null); ArrayList<Object> arrayList0 = new ArrayList<Object>(); arrayList0.add((Object) integer0); arrayList0.add((Object) null); Object object0 = CollectionUtil.getLast((Collection<Object>) arrayList0); }

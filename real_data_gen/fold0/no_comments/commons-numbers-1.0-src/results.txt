@@ -1,0 +1,16 @@
+num_rows: 39866
+Number in Pass Class: 39617, 0.9938
+tp: 39571, 0.9926
+fp: 235, 0.0059
+pass accuracy: 39571/39617 = 0.9988
+
+Number in Fail Class: 249, 0.0062
+tn: 14, 0.0004
+fn: 46, 0.0012
+fail accuracy: 14/249 = 0.0562
+
+accuracy: 39585/39866 = 0.993
+precision: 39571/39806 = 0.9941
+recall: 39571/39617 = 0.9988
+f1: 79142/79423 = 0.9965
+

@@ -1,0 +1,23 @@
+28702
+Test: public void test17() throws Throwable { Vector2D.Unit vector2D_Unit0 = Vector2D.Unit.PLUS_Y; Precision.DoubleEquivalence precision_DoubleEquivalence0 = mock(Precision.DoubleEquivalence.class, new ViolatedAssumptionAnswer()); doReturn("sK]cK)Iwj~&WxMb").when(precision_DoubleEquivalence0).toString(); Line line0 = mock(Line.class, new ViolatedAssumptionAnswer()); doReturn(precision_DoubleEquivalence0).when(line0).getPrecision(); doReturn(vector2D_Unit0).when(line0).getOffsetDirection(); LineSpanningSubset lineSpanningSubset0 = new LineSpanningSubset(line0); Precision.DoubleEquivalence precision_DoubleEquivalence1 = lineSpanningSubset0.getPrecision(); Line line1 = new Line(vector2D_Unit0, (-1.0), precision_DoubleEquivalence1); boolean boolean0 = lineSpanningSubset0.splitterPlusIsPositiveFacing(line1); }
+Code: boolean splitterPlusIsPositiveFacing(final Line splitterLine) { return line.getOffsetDirection().dot(splitterLine.getDirection()) <= 0; }
+[[0.17837276 0.07356457 0.09053499 0.07356457 0.11649707 0.07080073
+ 0.07356457 0.22898461 0.07307551 0.02104067]
+[0.17064545 0.07970176 0.11245067 0.07970176 0.08890712 0.05973832
+ 0.07970176 0.21327847 0.08646931 0.02940531]
+[0.16710338 0.087706   0.10876132 0.087706   0.08688106 0.07314783
+ 0.087706   0.1613468  0.09278072 0.04686087]
+[0.17064545 0.07970176 0.11245067 0.07970176 0.08890712 0.05973832
+ 0.07970176 0.21327847 0.08646931 0.02940531]
+[0.13540527 0.0830966  0.12481149 0.0830966  0.11692309 0.07552099
+ 0.0830966  0.17043063 0.08793253 0.03968615]
+[0.16886967 0.07329988 0.11100482 0.07329988 0.08889566 0.0555018
+ 0.07329988 0.25499332 0.07705689 0.02377817]
+[0.17064545 0.07970176 0.11245067 0.07970176 0.08890712 0.05973832
+ 0.07970176 0.21327847 0.08646931 0.02940531]
+[0.19165431 0.07460713 0.08636979 0.07460713 0.11999845 0.05029919
+ 0.07460713 0.21891521 0.07818252 0.03075905]
+[0.17958394 0.07535474 0.09099668 0.07535474 0.10842754 0.06891134
+ 0.07535474 0.20004414 0.09797896 0.02799319]
+[0.13254091 0.07479878 0.08443244 0.07479878 0.13234147 0.0990821
+ 0.07479878 0.20240614 0.09747197 0.02732862]]
