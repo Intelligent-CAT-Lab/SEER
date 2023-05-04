@@ -322,7 +322,7 @@ public class phase3_analysis_main {
 //                    	System.out.println("Test2 " + file);
                     	try {
 //                    		System.out.println("Test3 " + file);
-                    		myWriter = new FileWriter(System.getProperty("user.dir")+"/attention_analysis/main_analysis.txt", true);
+                    		myWriter = new FileWriter(System.getProperty("user.dir")+"/attention_analysis/phase3_main_analysis.txt", true);
                     		bw = new BufferedWriter(myWriter);
                     		pw = new PrintWriter(bw);
                 			pw.println(file.getAbsolutePath());
