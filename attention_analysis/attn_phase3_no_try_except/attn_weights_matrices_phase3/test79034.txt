@@ -1,0 +1,2 @@
+79034
+Test: public void test50() throws Throwable { ObjectType objectType0 = ObjectType.getInstance("java.lang.Cloneable"); ObjectType objectType1 = Type.OBJECT; boolean boolean0 = objectType0.isAssignmentCompatibleWith(objectType1); }

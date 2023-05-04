@@ -1,0 +1,9 @@
+36699
+Test: public void test77() throws Throwable { CopticChronology copticChronology0 = CopticChronology.getInstanceUTC(); StrictChronology strictChronology0 = StrictChronology.getInstance(copticChronology0); LocalTime localTime0 = null;  localTime0 = new LocalTime(strictChronology0, strictChronology0);   }
+Code: public LocalTime() { this(DateTimeUtils.currentTimeMillis(), ISOChronology.getInstance()); }
+[[0.15093814 0.20938113 0.19163652 0.20938113 0.17645806 0.06220498]
+[0.11503257 0.19070464 0.18949194 0.19070464 0.25017938 0.06388684]
+[0.1360141  0.17772773 0.21970701 0.17772773 0.21151917 0.07730424]
+[0.11503257 0.19070464 0.18949194 0.19070464 0.25017938 0.06388684]
+[0.15163414 0.19367787 0.21573435 0.19367787 0.18825284 0.05702296]
+[0.10394433 0.19327803 0.27354264 0.19327803 0.17740104 0.05855595]]

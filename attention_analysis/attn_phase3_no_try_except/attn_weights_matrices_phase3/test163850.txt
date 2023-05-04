@@ -1,0 +1,19 @@
+163850
+Test: public void test2630() throws Throwable { LinkedBlockingDeque<Object> linkedBlockingDeque0 = new LinkedBlockingDeque<Object>(Integer.MAX_VALUE, false); LinkedBlockingDeque<Object> linkedBlockingDeque1 = new LinkedBlockingDeque<Object>(false); int int0 = (-650); Integer integer0 = new Integer((-650)); boolean boolean0 = linkedBlockingDeque0.remove((Object) null); linkedBlockingDeque1.putLast(integer0); Object object0 = linkedBlockingDeque1.peekFirst(); linkedBlockingDeque0.putLast(object0); Iterator<Object> iterator0 = linkedBlockingDeque0.iterator(); }
+Code: public Iterator<E> iterator() { return new Itr(); }
+[[0.12350611 0.2284768  0.09580798 0.1374926  0.13256536 0.06416854
+ 0.17130904 0.04667356]
+[0.12464508 0.2622198  0.07158159 0.16326511 0.12186265 0.0543582
+ 0.15969966 0.04236796]
+[0.10419421 0.22070032 0.09659235 0.16880117 0.1410541  0.04325687
+ 0.18798481 0.03741623]
+[0.11340569 0.20980395 0.09796746 0.16079347 0.13332939 0.06639522
+ 0.15817326 0.06013146]
+[0.08861469 0.25392625 0.09772964 0.13585502 0.13507088 0.05475443
+ 0.19492081 0.03912828]
+[0.10172372 0.20894755 0.11202283 0.14820948 0.14210883 0.07026531
+ 0.17112772 0.04559454]
+[0.09702608 0.2718743  0.11068806 0.12121834 0.11690242 0.07091399
+ 0.16783705 0.0435398 ]
+[0.08597932 0.23835897 0.07081915 0.17405277 0.17422183 0.04793798
+ 0.16891377 0.03971621]]

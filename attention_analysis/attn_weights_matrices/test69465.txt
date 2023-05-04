@@ -1,11 +1,19 @@
 69465
 Test: public void test46() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test46"); org.jsoup.select.Evaluator.AttributeWithValueEnding attributeWithValueEnding2 = new org.jsoup.select.Evaluator.AttributeWithValueEnding("hi!", "#document"); org.jsoup.safety.Whitelist whitelist4 = org.jsoup.safety.Whitelist.simpleText(); boolean boolean5 = org.jsoup.Jsoup.isValid("hi!", whitelist4); org.jsoup.safety.Cleaner cleaner6 = new org.jsoup.safety.Cleaner(whitelist4); org.jsoup.nodes.Document document8 = org.jsoup.Jsoup.parse("[[hi!^=hi!]]"); org.jsoup.nodes.Document document9 = cleaner6.clean(document8); org.jsoup.nodes.Document document12 = org.jsoup.Jsoup.parse("", "hi!"); org.jsoup.nodes.Element element13 = document12.parent(); java.lang.String str14 = document12.nodeName(); org.jsoup.nodes.Document document15 = document12.normalise(); java.util.List<org.jsoup.nodes.Node> nodeList16 = document15.childNodes(); org.jsoup.nodes.Document document18 = org.jsoup.Jsoup.parse("#document"); org.jsoup.nodes.Element element19 = document15.appendChild((org.jsoup.nodes.Node) document18); org.jsoup.select.Elements elements21 = document18.select("#text"); boolean boolean22 = cleaner6.isValid(document18); java.util.List<org.jsoup.nodes.TextNode> textNodeList23 = document18.textNodes(); org.jsoup.select.Evaluator.AttributeWithValueStarting attributeWithValueStarting26 = new org.jsoup.select.Evaluator.AttributeWithValueStarting("[hi!$=#document]", "body"); org.jsoup.nodes.Document document29 = org.jsoup.Jsoup.parse("", "hi!"); org.jsoup.nodes.Element element30 = document29.parent(); java.lang.String str31 = document29.nodeName(); org.jsoup.nodes.Element element32 = document29.clone(); org.jsoup.nodes.Document document35 = org.jsoup.Jsoup.parse("", "hi!"); org.jsoup.nodes.Element element36 = document35.parent(); java.lang.String str37 = document35.nodeName(); org.jsoup.nodes.Document document38 = document35.normalise(); org.jsoup.select.Elements elements41 = document35.getElementsByAttributeValueNot("#document", "#document"); boolean boolean42 = document29.equals((java.lang.Object) document35); org.jsoup.nodes.Element element43 = document29.body(); org.jsoup.select.Elements elements45 = element43.getElementsByClass("[]"); org.jsoup.nodes.Document document48 = org.jsoup.Jsoup.parseBodyFragment("#document", ""); document48.setBaseUri("#root"); org.jsoup.nodes.Element element52 = document48.append("hi!"); org.jsoup.select.Elements elements54 = element52.getElementsMatchingOwnText("[hi!$=#document]"); boolean boolean55 = attributeWithValueStarting26.matches(element43, element52); boolean boolean56 = attributeWithValueEnding2.matches((org.jsoup.nodes.Element) document18, element43); }
 Code: public Document clean(Document dirtyDocument){;Document clean = Document.createShell(dirtyDocument.baseUri());;return clean;}
-tensor([[0.0717, 0.2616, 0.0721, 0.0553, 0.1921, 0.0461, 0.2210, 0.0801],
-        [0.0669, 0.2763, 0.0597, 0.0479, 0.1887, 0.0389, 0.2377, 0.0838],
-        [0.0578, 0.2717, 0.0716, 0.0414, 0.1623, 0.0399, 0.2808, 0.0745],
-        [0.0659, 0.2931, 0.0683, 0.0527, 0.1806, 0.0571, 0.2108, 0.0714],
-        [0.0747, 0.2567, 0.0755, 0.0501, 0.1885, 0.0472, 0.2265, 0.0809],
-        [0.0864, 0.1985, 0.0728, 0.0792, 0.1795, 0.0724, 0.2264, 0.0850],
-        [0.0496, 0.2695, 0.0765, 0.0504, 0.1979, 0.0415, 0.2308, 0.0839],
-        [0.0712, 0.2452, 0.0591, 0.0609, 0.1680, 0.0544, 0.2515, 0.0896]])
+[[0.07166708 0.26161504 0.07213589 0.05526156 0.19211084 0.0461171
+ 0.22101474 0.08007774]
+[0.06692339 0.2763254  0.05971137 0.04789264 0.1886994  0.0389004
+ 0.23773459 0.08381283]
+[0.05782536 0.27173156 0.07155922 0.04138974 0.16226786 0.03994612
+ 0.28076068 0.0745195 ]
+[0.06587343 0.29311126 0.06831126 0.05274617 0.18060315 0.05714565
+ 0.210825   0.07138412]
+[0.07468183 0.2566928  0.07545564 0.05010776 0.18846196 0.04721083
+ 0.22650276 0.08088638]
+[0.08635265 0.19845608 0.07280102 0.07918102 0.17946044 0.07235785
+ 0.22644076 0.08495016]
+[0.04958168 0.2694707  0.07649092 0.05038562 0.19791044 0.04146368
+ 0.23083337 0.08386354]
+[0.07118735 0.24524024 0.05913416 0.06090122 0.16800943 0.05437893
+ 0.2515179  0.08963078]]

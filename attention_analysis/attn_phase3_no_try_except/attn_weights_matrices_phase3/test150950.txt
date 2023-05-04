@@ -1,0 +1,17 @@
+150950
+Test: public void test13() throws Throwable { OS2FTPEntryParser oS2FTPEntryParser0 = new OS2FTPEntryParser(); FTPClientConfig fTPClientConfig0 = UnixFTPEntryParser.NUMERIC_DATE_CONFIG; FTPListParseEngine fTPListParseEngine0 = new FTPListParseEngine(oS2FTPEntryParser0, fTPClientConfig0); byte[] byteArray0 = new byte[6]; ByteArrayInputStream byteArrayInputStream0 = new ByteArrayInputStream(byteArray0); fTPListParseEngine0.readServerList((InputStream) byteArrayInputStream0); FTPFileFilter fTPFileFilter0 = mock(FTPFileFilter.class, new ViolatedAssumptionAnswer()); doReturn(false).when(fTPFileFilter0).accept(any(org.apache.commons.net.ftp.FTPFile.class)); fTPListParseEngine0.getFiles(fTPFileFilter0); }
+Code: public boolean hasNext() { return internalIterator.hasNext(); }
+[[0.11997025 0.2892873  0.0678858  0.1698772  0.13325596 0.16643931
+ 0.05328415]
+[0.07524107 0.36950198 0.04574101 0.20178321 0.1283245  0.14224139
+ 0.03716689]
+[0.09384872 0.2972801  0.07478742 0.19670895 0.14581716 0.1465247
+ 0.04503287]
+[0.11841186 0.25122324 0.07647907 0.19845396 0.13522115 0.15152466
+ 0.06868612]
+[0.0811745  0.3680807  0.05933003 0.1756582  0.11494231 0.15353595
+ 0.04727833]
+[0.09463155 0.33555162 0.07722132 0.16689534 0.11530168 0.15489173
+ 0.05550675]
+[0.07830898 0.26285475 0.07590248 0.21754049 0.17573854 0.1436263
+ 0.04602841]]

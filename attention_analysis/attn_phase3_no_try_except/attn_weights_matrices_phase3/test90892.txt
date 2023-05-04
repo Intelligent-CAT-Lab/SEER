@@ -1,0 +1,19 @@
+90892
+Test: public void test15() throws Throwable { ObjectType objectType0 = new ObjectType("IgT!?v7PxV{dpOK "); IDIV iDIV0 = new IDIV(); InstructionList instructionList0 = new InstructionList(iDIV0); ConstantPoolGen constantPoolGen0 = new ConstantPoolGen(); MethodGen methodGen0 = new MethodGen((-10), objectType0, objectType0.NO_ARGS, (String[]) null, "org.apache.bcel.generic.MONITORENTER", "org.apache.bcel.generic.MONITORENTER", instructionList0, constantPoolGen0); InstructionHandle instructionHandle0 = instructionList0.append((Instruction) iDIV0); methodGen0.addExceptionHandler(instructionHandle0, instructionHandle0, instructionHandle0, objectType0); Subroutines subroutines0 = new Subroutines(methodGen0, true); }
+Code: public Subroutines(final MethodGen mg) { this(mg, true); }
+[[0.09062282 0.12572281 0.12572281 0.12572281 0.12655409 0.12572281
+ 0.24006882 0.03986296]
+[0.07700038 0.12635732 0.12635732 0.12635732 0.13400896 0.12635732
+ 0.23887634 0.04468502]
+[0.07700038 0.12635732 0.12635732 0.12635732 0.13400896 0.12635732
+ 0.23887634 0.04468502]
+[0.07700038 0.12635732 0.12635732 0.12635732 0.13400896 0.12635732
+ 0.23887634 0.04468502]
+[0.09570485 0.12064722 0.12064722 0.12064722 0.1644799  0.12064722
+ 0.2009237  0.05630273]
+[0.07700038 0.12635732 0.12635732 0.12635732 0.13400896 0.12635732
+ 0.23887634 0.04468502]
+[0.08417928 0.12898721 0.12898721 0.12898721 0.14219946 0.12898721
+ 0.21725148 0.04042089]
+[0.06380767 0.11434094 0.11434094 0.11434094 0.19278347 0.11434094
+ 0.24594724 0.04009783]]

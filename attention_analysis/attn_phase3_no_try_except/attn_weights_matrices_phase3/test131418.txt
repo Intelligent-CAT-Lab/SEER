@@ -1,0 +1,21 @@
+131418
+Test: public void test26() throws Throwable { Locale.Category locale_Category0 = Locale.Category.FORMAT; FluentIterable<Locale.Category> fluentIterable0 = FluentIterable.of(locale_Category0); Predicate<Object>[] predicateArray0 = (Predicate<Object>[]) Array.newInstance(Predicate.class, 5); Vector<Predicate<Object>> vector0 = new Vector<Predicate<Object>>(); Predicate<Object> predicate0 = AllPredicate.allPredicate((Collection<? extends Predicate<? super Object>>) vector0); predicateArray0[0] = predicate0; Integer integer0 = new Integer((-1150)); FluentIterable<Integer> fluentIterable1 = FluentIterable.of(integer0); FluentIterable<Integer> fluentIterable2 = fluentIterable1.unmodifiable(); DefaultEquator<Object> defaultEquator0 = DefaultEquator.defaultEquator(); EqualPredicate<Object> equalPredicate0 = new EqualPredicate<Object>(fluentIterable2, defaultEquator0); predicateArray0[1] = (Predicate<Object>) equalPredicate0; Class<String> class0 = String.class; Predicate<Object> predicate1 = InstanceofPredicate.instanceOfPredicate(class0); predicateArray0[2] = predicate1; NullIsTruePredicate<Object> nullIsTruePredicate0 = new NullIsTruePredicate<Object>(predicate1); predicateArray0[3] = (Predicate<Object>) nullIsTruePredicate0; NotPredicate<Object> notPredicate0 = new NotPredicate<Object>(predicateArray0[3]); predicateArray0[4] = (Predicate<Object>) notPredicate0; NonePredicate<Object> nonePredicate0 = new NonePredicate<Object>(predicateArray0); FluentIterable<Locale.Category> fluentIterable3 = fluentIterable0.filter(nonePredicate0); fluentIterable3.allMatch(predicate1); fluentIterable0.spliterator(); fluentIterable0.toString(); fluentIterable3.anyMatch(predicateArray0[4]); Integer[] integerArray0 = new Integer[1]; integerArray0[0] = integer0; FluentIterable<Integer> fluentIterable4 = fluentIterable1.append(integerArray0); }
+Code: public FluentIterable<E> append(final E... elements) { return append(Arrays.asList(elements)); }
+[[0.10364355 0.14376888 0.14376888 0.14376888 0.04117296 0.12604447
+ 0.11256289 0.14376888 0.04150057]
+[0.08711448 0.14594847 0.14594847 0.14594847 0.04226092 0.13505918
+ 0.10565241 0.14594847 0.04611909]
+[0.08711448 0.14594847 0.14594847 0.14594847 0.04226092 0.13505918
+ 0.10565241 0.14594847 0.04611909]
+[0.08711448 0.14594847 0.14594847 0.14594847 0.04226092 0.13505918
+ 0.10565241 0.14594847 0.04611909]
+[0.09083305 0.14671567 0.14671567 0.14671567 0.04601307 0.12440529
+ 0.11896023 0.14671567 0.03292571]
+[0.09976169 0.13080883 0.13080883 0.13080883 0.04551724 0.16013497
+ 0.11484633 0.13080883 0.05650454]
+[0.07286566 0.15115961 0.15115961 0.15115961 0.0479162  0.1303751
+ 0.10786246 0.15115961 0.03634214]
+[0.08711448 0.14594847 0.14594847 0.14594847 0.04226092 0.13505918
+ 0.10565241 0.14594847 0.04611909]
+[0.06996483 0.13046515 0.13046515 0.13046515 0.03369689 0.18198504
+ 0.1534355  0.13046515 0.0390572 ]]

@@ -1,0 +1,21 @@
+142056
+Test: public void test31() throws Throwable { RemoteCacheAttributes remoteCacheAttributes0 = new RemoteCacheAttributes(); CacheEventLoggerDebugLogger cacheEventLoggerDebugLogger0 = new CacheEventLoggerDebugLogger(); EncryptingSerializer encryptingSerializer0 = new EncryptingSerializer(); RemoteCacheFactory remoteCacheFactory0 = new RemoteCacheFactory(); ArrayList<RemoteCacheNoWait<ForkJoinTask<Delayed>, Integer>> arrayList0 = new ArrayList<RemoteCacheNoWait<ForkJoinTask<Delayed>, Integer>>(); RemoteCacheNoWaitFacade<ForkJoinTask<Delayed>, Integer> remoteCacheNoWaitFacade0 = new RemoteCacheNoWaitFacade<ForkJoinTask<Delayed>, Integer>(arrayList0, remoteCacheAttributes0, cacheEventLoggerDebugLogger0, encryptingSerializer0, remoteCacheFactory0); int int0 = remoteCacheNoWaitFacade0.getSize(); }
+Code: public int getSize() { return 0; // cache.getSize(); }
+[[0.09029445 0.05701718 0.2209886  0.12090991 0.09943588 0.12224546
+ 0.12526232 0.12526232 0.03858393]
+[0.05856671 0.04208884 0.22177966 0.13341627 0.0946409  0.12068884
+ 0.15005547 0.15005547 0.02870785]
+[0.08636194 0.04241141 0.2355925  0.15654673 0.08560106 0.113266
+ 0.12240824 0.12240824 0.03540386]
+[0.09272815 0.0441334  0.18986154 0.1518911  0.1063512  0.1214703
+ 0.12022774 0.12022774 0.05310886]
+[0.06255838 0.03713711 0.28949    0.1229037  0.09072201 0.11470321
+ 0.12441723 0.12441723 0.03365118]
+[0.0867638  0.04849018 0.18021461 0.14392868 0.10669762 0.14506352
+ 0.12491921 0.12491921 0.03900323]
+[0.07600789 0.04858808 0.2329701  0.12716994 0.09242855 0.12878965
+ 0.12565325 0.12565325 0.04273929]
+[0.07600789 0.04858808 0.2329701  0.12716994 0.09242855 0.12878965
+ 0.12565325 0.12565325 0.04273929]
+[0.06576464 0.04981839 0.14824775 0.16843805 0.14346641 0.14181629
+ 0.12308691 0.12308691 0.03627463]]

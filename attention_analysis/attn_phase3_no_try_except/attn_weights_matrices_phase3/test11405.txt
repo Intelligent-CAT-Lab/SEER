@@ -1,0 +1,7 @@
+11405
+Test: public void test0() throws Throwable { ConcurrentException concurrentException0 = null;  concurrentException0 = new ConcurrentException((Throwable) null);   }
+Code: protected ConcurrentException() { }
+[[0.33062232 0.27711943 0.32600522 0.06625303]
+[0.3590302  0.27103412 0.27699733 0.09293833]
+[0.3471717  0.23274186 0.3126359  0.10745057]
+[0.31067288 0.26171052 0.3516347  0.0759819 ]]

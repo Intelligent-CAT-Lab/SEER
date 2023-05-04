@@ -1,0 +1,2 @@
+31982
+Test: public void test2() throws Throwable { Class<Character> class0 = Character.class; Class<Annotation> class1 = Annotation.class; Set<Method> set0 = ClassUtil.getAnnotatedPublicMethods((Class<?>) class0, class1); }

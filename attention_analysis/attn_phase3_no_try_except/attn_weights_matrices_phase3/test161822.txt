@@ -1,0 +1,8 @@
+161822
+Test: public void test302() throws Throwable { int int0 = 2; LinkedBlockingDeque<String> linkedBlockingDeque0 = new LinkedBlockingDeque<String>(2); String string0 = "'4y,DH|]Y?"; TimeUnit timeUnit0 = TimeUnit.MICROSECONDS; boolean boolean0 = linkedBlockingDeque0.offer("'4y,DH|]Y?", (long) 2, timeUnit0); LinkedBlockingDeque<String> linkedBlockingDeque1 = new LinkedBlockingDeque<String>(linkedBlockingDeque0); String string1 = linkedBlockingDeque1.remove(); boolean boolean1 = linkedBlockingDeque1.hasTakeWaiters(); int int1 = linkedBlockingDeque0.drainTo((Collection<? super String>) linkedBlockingDeque1, 2); LinkedBlockingDeque<Object> linkedBlockingDeque2 = new LinkedBlockingDeque<Object>(linkedBlockingDeque0); }
+Code: public LinkedBlockingDeque() { this(Integer.MAX_VALUE); }
+[[0.18877485 0.2618447  0.21511179 0.2618447  0.07242395]
+[0.15826353 0.2686846  0.22581923 0.2686846  0.07854807]
+[0.17396262 0.23986343 0.2528699  0.23986343 0.09344059]
+[0.15826353 0.2686846  0.22581923 0.2686846  0.07854807]
+[0.13051036 0.24960408 0.30344182 0.24960408 0.06683967]]

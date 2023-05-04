@@ -1,0 +1,19 @@
+145188
+Test: public void test26() throws Throwable { CompositeCacheManager compositeCacheManager0 = CompositeCacheManager.createInstance(); LateralCacheAttributes lateralCacheAttributes0 = new LateralCacheAttributes(); ZombieCacheServiceNonLocal<IElementEventHandler, IElementEventHandler> zombieCacheServiceNonLocal0 = new ZombieCacheServiceNonLocal<IElementEventHandler, IElementEventHandler>(); LateralTCPCacheFactory lateralTCPCacheFactory0 = new LateralTCPCacheFactory(); LateralCacheMonitor lateralCacheMonitor0 = new LateralCacheMonitor(lateralTCPCacheFactory0); LateralCache<IElementEventHandler, IElementEventHandler> lateralCache0 = new LateralCache<IElementEventHandler, IElementEventHandler>(lateralCacheAttributes0, zombieCacheServiceNonLocal0, lateralCacheMonitor0); LateralCacheNoWait<IElementEventHandler, IElementEventHandler> lateralCacheNoWait0 = new LateralCacheNoWait<IElementEventHandler, IElementEventHandler>(lateralCache0); compositeCacheManager0.addCache("@F;KFiCBLb^og}r;O\"", lateralCacheNoWait0); // Undeclared exception!  compositeCacheManager0.release();   }
+Code: public void release() { release( false ); }
+[[0.12080151 0.09669027 0.16757518 0.15288648 0.16757518 0.07488172
+ 0.16991134 0.04967833]
+[0.09372813 0.08116169 0.18290754 0.16037807 0.18290754 0.08355332
+ 0.16643359 0.0489301 ]
+[0.10253153 0.0889398  0.17257394 0.15455884 0.17257394 0.08561632
+ 0.17010434 0.05310132]
+[0.11770169 0.10146316 0.16054735 0.1749962  0.16054735 0.0842212
+ 0.13654774 0.06397533]
+[0.10253153 0.0889398  0.17257394 0.15455884 0.17257394 0.08561632
+ 0.17010434 0.05310132]
+[0.10971582 0.08635738 0.16734675 0.20470285 0.16734675 0.08458781
+ 0.1338318  0.04611087]
+[0.0938668  0.07758841 0.17405938 0.21363994 0.17405938 0.07344761
+ 0.15615635 0.03718216]
+[0.09193531 0.08409844 0.17398053 0.22442523 0.17398053 0.07919408
+ 0.12351985 0.04886598]]

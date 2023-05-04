@@ -1,33 +1,48 @@
 69354
 Test: public void test51() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test51"); org.jsoup.select.Evaluator.IndexEquals indexEquals1 = new org.jsoup.select.Evaluator.IndexEquals(0); java.lang.String str2 = indexEquals1.toString(); org.jsoup.safety.Whitelist whitelist4 = org.jsoup.safety.Whitelist.simpleText(); boolean boolean5 = org.jsoup.Jsoup.isValid("hi!", whitelist4); org.jsoup.safety.Cleaner cleaner6 = new org.jsoup.safety.Cleaner(whitelist4); org.jsoup.nodes.Document document9 = org.jsoup.Jsoup.parse("", "hi!"); org.jsoup.nodes.Element element10 = document9.parent(); java.lang.String str11 = document9.nodeName(); org.jsoup.nodes.Element element12 = document9.clone(); org.jsoup.nodes.Document document15 = org.jsoup.Jsoup.parse("", "hi!"); org.jsoup.nodes.Element element16 = document15.parent(); java.lang.String str17 = document15.nodeName(); org.jsoup.nodes.Element element18 = document15.body(); org.jsoup.nodes.Element element19 = element12.appendChild((org.jsoup.nodes.Node) document15); org.jsoup.nodes.Node node20 = element19.clone(); org.jsoup.nodes.Document document21 = node20.ownerDocument(); org.jsoup.nodes.Document document22 = cleaner6.clean(document21); org.jsoup.select.Evaluator.Class class24 = new org.jsoup.select.Evaluator.Class("#root"); org.jsoup.nodes.Document document27 = org.jsoup.Jsoup.parse("", "hi!"); java.util.List<org.jsoup.nodes.TextNode> textNodeList28 = document27.textNodes(); org.jsoup.nodes.Document document31 = org.jsoup.Jsoup.parseBodyFragment("#document", ""); org.jsoup.nodes.Document document32 = document31.ownerDocument(); java.lang.String str33 = document32.val(); boolean boolean34 = class24.matches((org.jsoup.nodes.Element) document27, (org.jsoup.nodes.Element) document32); boolean boolean35 = cleaner6.isValid(document27); java.util.List<org.jsoup.nodes.TextNode> textNodeList36 = document27.textNodes(); org.jsoup.select.Elements elements38 = document27.getElementsByAttributeStarting(" "); org.jsoup.nodes.Document document41 = org.jsoup.Jsoup.parse("", "hi!"); org.jsoup.nodes.Element element42 = document41.parent(); java.lang.String str43 = document41.nodeName(); org.jsoup.nodes.Document document44 = document41.normalise(); java.util.List<org.jsoup.nodes.Node> nodeList45 = document44.childNodes(); org.jsoup.nodes.Document document47 = org.jsoup.Jsoup.parse("#document"); org.jsoup.nodes.Element element48 = document44.appendChild((org.jsoup.nodes.Node) document47); org.jsoup.nodes.Document document51 = org.jsoup.Jsoup.parseBodyFragment("#document", ""); org.jsoup.nodes.Document document52 = document51.ownerDocument(); org.jsoup.nodes.Node node53 = document47.after((org.jsoup.nodes.Node) document51); org.jsoup.select.Elements elements56 = document51.getElementsByAttributeValueNot("<html>\n <head></head>\n <body>\n #document\n </body>\n</html>", "[hi!^=hi!]"); boolean boolean57 = indexEquals1.matches((org.jsoup.nodes.Element) document27, (org.jsoup.nodes.Element) document51); java.lang.String str58 = indexEquals1.toString(); org.jsoup.select.Evaluator.Attribute attribute60 = new org.jsoup.select.Evaluator.Attribute("#text"); org.jsoup.nodes.Document document63 = org.jsoup.parser.Parser.parseBodyFragment("", "hi!"); org.jsoup.nodes.Document document66 = org.jsoup.Jsoup.parseBodyFragment("#document", ""); document66.setBaseUri("#root"); org.jsoup.nodes.Element element70 = document66.append("hi!"); boolean boolean71 = attribute60.matches((org.jsoup.nodes.Element) document63, (org.jsoup.nodes.Element) document66); org.jsoup.select.Elements elements74 = document63.getElementsByAttributeValueStarting(" #document=\"hi!\"", ":eq(0)"); org.jsoup.nodes.Document document77 = org.jsoup.Jsoup.parseBodyFragment("<#root #root=\"&lt;html&gt;\n &lt;head&gt;&lt;/head&gt;\n &lt;body&gt;&lt;/body&gt;\n&lt;/html&gt;\">\n [hi!$=#document]\n</#root>\n<html>\n <head></head>\n <body></body>\n</html>\n<#root>\n <html>\n <head></head>\n <body></body>\n </html>\n</#root>", "<html>\n <head>\n <title>#text</title>\n </head>\n <body>\n #document\n </body>\n</html>"); boolean boolean78 = indexEquals1.matches((org.jsoup.nodes.Element) document63, (org.jsoup.nodes.Element) document77); }
 Code: public Document clean(Document dirtyDocument) { Validate.notNull(dirtyDocument); Document clean = Document.createShell(dirtyDocument.baseUri()); copySafeNodes(dirtyDocument.body(), clean.body()); return clean; }
-tensor([[0.0449, 0.1624, 0.0445, 0.0455, 0.0712, 0.0705, 0.1624, 0.1206, 0.0290,
-         0.0876, 0.0286, 0.0245, 0.0508, 0.0357, 0.0216],
-        [0.0427, 0.1744, 0.0376, 0.0485, 0.0929, 0.0688, 0.1744, 0.1196, 0.0248,
-         0.0747, 0.0207, 0.0207, 0.0519, 0.0315, 0.0168],
-        [0.0380, 0.1782, 0.0460, 0.0503, 0.0599, 0.0760, 0.1782, 0.1064, 0.0263,
-         0.0823, 0.0244, 0.0232, 0.0563, 0.0381, 0.0165],
-        [0.0432, 0.1463, 0.0484, 0.0570, 0.0822, 0.0780, 0.1463, 0.0801, 0.0409,
-         0.0894, 0.0295, 0.0319, 0.0666, 0.0343, 0.0260],
-        [0.0494, 0.1439, 0.0548, 0.0424, 0.0857, 0.0662, 0.1439, 0.1090, 0.0414,
-         0.0754, 0.0299, 0.0318, 0.0560, 0.0408, 0.0292],
-        [0.0399, 0.1607, 0.0482, 0.0535, 0.0812, 0.0785, 0.1607, 0.0959, 0.0257,
-         0.0806, 0.0273, 0.0304, 0.0571, 0.0383, 0.0219],
-        [0.0427, 0.1744, 0.0376, 0.0485, 0.0929, 0.0688, 0.1744, 0.1196, 0.0248,
-         0.0747, 0.0207, 0.0207, 0.0519, 0.0315, 0.0168],
-        [0.0461, 0.1598, 0.0471, 0.0542, 0.0811, 0.0660, 0.1598, 0.1164, 0.0290,
-         0.0769, 0.0357, 0.0292, 0.0462, 0.0290, 0.0233],
-        [0.0567, 0.1303, 0.0476, 0.0499, 0.0660, 0.0757, 0.1303, 0.1177, 0.0476,
-         0.0716, 0.0384, 0.0394, 0.0626, 0.0382, 0.0283],
-        [0.0284, 0.1808, 0.0350, 0.0575, 0.0819, 0.0687, 0.1808, 0.1057, 0.0337,
-         0.0854, 0.0248, 0.0199, 0.0574, 0.0248, 0.0152],
-        [0.0349, 0.1823, 0.0398, 0.0467, 0.0900, 0.0602, 0.1823, 0.1080, 0.0232,
-         0.0795, 0.0237, 0.0197, 0.0571, 0.0396, 0.0130],
-        [0.0426, 0.1664, 0.0545, 0.0387, 0.0871, 0.0822, 0.1664, 0.1019, 0.0287,
-         0.0764, 0.0262, 0.0275, 0.0535, 0.0269, 0.0209],
-        [0.0324, 0.1763, 0.0428, 0.0401, 0.0693, 0.0771, 0.1763, 0.1285, 0.0320,
-         0.0870, 0.0206, 0.0265, 0.0460, 0.0265, 0.0187],
-        [0.0358, 0.1689, 0.0434, 0.0385, 0.0840, 0.0815, 0.1689, 0.1058, 0.0353,
-         0.0778, 0.0218, 0.0231, 0.0661, 0.0306, 0.0186],
-        [0.0355, 0.1579, 0.0448, 0.0514, 0.0904, 0.0634, 0.1579, 0.1030, 0.0320,
-         0.0899, 0.0235, 0.0197, 0.0772, 0.0339, 0.0195]])
+[[0.04492828 0.16244388 0.04454054 0.04551495 0.07120509 0.07053137
+ 0.16244388 0.1205532  0.02899105 0.08757682 0.02857253 0.02450756
+ 0.05084074 0.03573548 0.02161462]
+[0.04270343 0.1744491  0.0376111  0.04851268 0.09293403 0.06876022
+ 0.1744491  0.11959687 0.02484163 0.07466039 0.02072919 0.02066113
+ 0.05186638 0.03147328 0.01675152]
+[0.03798094 0.17820814 0.04597203 0.05031841 0.05987988 0.07595908
+ 0.17820814 0.10644272 0.02628327 0.0823126  0.02437613 0.02316681
+ 0.05630551 0.03807428 0.01651213]
+[0.04319436 0.14625534 0.04844257 0.05696106 0.08216905 0.07797334
+ 0.14625534 0.08010776 0.04088238 0.08943779 0.02949012 0.03185406
+ 0.06664161 0.03428995 0.02604539]
+[0.04941452 0.14392172 0.05482487 0.04243106 0.08574449 0.06619756
+ 0.14392172 0.10897747 0.0414229  0.0753946  0.02986551 0.03183321
+ 0.05604664 0.04077511 0.02922862]
+[0.03989265 0.16066104 0.0481798  0.05346499 0.08121885 0.07850841
+ 0.16066104 0.09593758 0.02572971 0.08062471 0.02734191 0.03044292
+ 0.05707434 0.03834765 0.02191444]
+[0.04270343 0.1744491  0.0376111  0.04851268 0.09293403 0.06876022
+ 0.1744491  0.11959687 0.02484163 0.07466039 0.02072919 0.02066113
+ 0.05186638 0.03147328 0.01675152]
+[0.04614206 0.15981415 0.04710725 0.05423258 0.0811366  0.06603694
+ 0.15981415 0.11637986 0.02904738 0.07690151 0.03573122 0.02915942
+ 0.04622142 0.0290174  0.02325809]
+[0.05665313 0.13026252 0.04759992 0.04991488 0.06600877 0.07570837
+ 0.13026252 0.11767007 0.04755431 0.07156923 0.03839203 0.03943073
+ 0.06256777 0.03815176 0.02825395]
+[0.02839649 0.18083055 0.03503721 0.05748299 0.08186468 0.06868261
+ 0.18083055 0.10566574 0.03367177 0.08538603 0.02475372 0.01994156
+ 0.05738646 0.02482504 0.01524462]
+[0.03493795 0.18227193 0.03977392 0.04670241 0.08996355 0.06021719
+ 0.18227193 0.10804546 0.02323817 0.07950103 0.02367926 0.01970062
+ 0.05711828 0.0396143  0.01296391]
+[0.04259684 0.16643712 0.05453305 0.03868598 0.08706675 0.08222909
+ 0.16643712 0.10188597 0.0287426  0.07636853 0.02620937 0.02751382
+ 0.05350431 0.02692402 0.02086551]
+[0.03236932 0.1762857  0.04282936 0.04014089 0.06932892 0.07706584
+ 0.1762857  0.12850039 0.03201469 0.08695049 0.0205606  0.02653377
+ 0.04595768 0.02648388 0.01869272]
+[0.03576211 0.16888987 0.04335366 0.03849803 0.0840112  0.0815173
+ 0.16888987 0.1057637  0.03528579 0.07784767 0.0217643  0.02312086
+ 0.06611845 0.03057966 0.01859754]
+[0.03546378 0.15787715 0.04481528 0.05137214 0.09039415 0.06342132
+ 0.15787715 0.10303706 0.03198729 0.08988747 0.02351343 0.01974481
+ 0.07723852 0.03388225 0.0194883 ]]

@@ -1,29 +1,42 @@
 15583
 Test: public void test036() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test036"); org.apache.commons.cli.PosixParser posixParser0 = new org.apache.commons.cli.PosixParser(); org.apache.commons.cli.PosixParser posixParser1 = new org.apache.commons.cli.PosixParser(); org.apache.commons.cli.Options options2 = new org.apache.commons.cli.Options(); java.util.Collection collection3 = options2.getOptionGroups(); org.apache.commons.cli.Option option5 = options2.getOption(""); java.util.List list6 = options2.getRequiredOptions(); org.apache.commons.cli.PosixParser posixParser7 = new org.apache.commons.cli.PosixParser(); org.apache.commons.cli.Options options8 = new org.apache.commons.cli.Options(); java.lang.String[] strArray12 = new java.lang.String[] { "4", "hi!", "4" }; java.lang.String[] strArray14 = posixParser7.flatten(options8, strArray12, false); java.util.Properties properties15 = null; posixParser7.processProperties(properties15); org.apache.commons.cli.Options options17 = new org.apache.commons.cli.Options(); java.util.Collection collection18 = options17.getOptionGroups(); org.apache.commons.cli.Option option20 = options17.getOption(""); java.lang.String[] strArray23 = new java.lang.String[] { "hi!", "arg" }; org.apache.commons.cli.CommandLine commandLine24 = posixParser7.parse(options17, strArray23); org.apache.commons.cli.CommandLine commandLine25 = posixParser1.parse(options2, strArray23); org.apache.commons.cli.Options options26 = new org.apache.commons.cli.Options(); java.util.Collection collection27 = options26.getOptionGroups(); java.lang.String[] strArray28 = null; org.apache.commons.cli.CommandLine commandLine30 = posixParser1.parse(options26, strArray28, false); org.apache.commons.cli.Option option32 = options26.getOption("4"); posixParser0.setOptions(options26); org.apache.commons.cli.CommandLine commandLine34 = posixParser0.cmd; }
 Code: protected void setOptions(final Options options) { this.options = options; this.requiredOptions = options.getRequiredOptions(); }
-tensor([[0.1686, 0.0669, 0.0675, 0.0496, 0.0637, 0.1440, 0.0628, 0.0645, 0.0424,
-         0.0807, 0.0645, 0.0950, 0.0299],
-        [0.2010, 0.0641, 0.0478, 0.0673, 0.0395, 0.1235, 0.0790, 0.0601, 0.0450,
-         0.0719, 0.0601, 0.1027, 0.0379],
-        [0.1250, 0.0762, 0.0663, 0.0639, 0.0530, 0.1103, 0.0756, 0.0678, 0.0540,
-         0.0951, 0.0678, 0.1018, 0.0432],
-        [0.1741, 0.0666, 0.0573, 0.0583, 0.0406, 0.1373, 0.0779, 0.0647, 0.0523,
-         0.0826, 0.0647, 0.0865, 0.0371],
-        [0.1793, 0.0600, 0.0615, 0.0584, 0.0445, 0.1361, 0.0646, 0.0611, 0.0541,
-         0.0931, 0.0611, 0.0936, 0.0326],
-        [0.1616, 0.0691, 0.0578, 0.0536, 0.0440, 0.1267, 0.0980, 0.0659, 0.0529,
-         0.0853, 0.0659, 0.0744, 0.0448],
-        [0.1793, 0.0631, 0.0510, 0.0519, 0.0450, 0.1327, 0.0794, 0.0586, 0.0417,
-         0.1126, 0.0586, 0.0959, 0.0302],
-        [0.1309, 0.0691, 0.0667, 0.0707, 0.0493, 0.0971, 0.0940, 0.0704, 0.0557,
-         0.1023, 0.0704, 0.0817, 0.0418],
-        [0.1806, 0.0583, 0.0749, 0.0568, 0.0385, 0.1293, 0.0872, 0.0589, 0.0499,
-         0.0926, 0.0589, 0.0848, 0.0294],
-        [0.1556, 0.0651, 0.0611, 0.0652, 0.0506, 0.1696, 0.0666, 0.0577, 0.0540,
-         0.0924, 0.0577, 0.0769, 0.0275],
-        [0.1309, 0.0691, 0.0667, 0.0707, 0.0493, 0.0971, 0.0940, 0.0704, 0.0557,
-         0.1023, 0.0704, 0.0817, 0.0418],
-        [0.1843, 0.0615, 0.0554, 0.0542, 0.0497, 0.1452, 0.0740, 0.0610, 0.0492,
-         0.0857, 0.0610, 0.0879, 0.0309],
-        [0.1448, 0.0580, 0.0618, 0.0504, 0.0589, 0.1537, 0.0857, 0.0564, 0.0509,
-         0.1079, 0.0564, 0.0816, 0.0335]])
+[[0.16862196 0.06688123 0.06748001 0.04961221 0.06372014 0.14402546
+ 0.0628148  0.06445444 0.04235567 0.08072482 0.06445444 0.09498215
+ 0.0298726 ]
+[0.20096746 0.06413013 0.04778293 0.0672517  0.0395381  0.12351964
+ 0.07895298 0.06011484 0.04504737 0.07193227 0.06011483 0.10272691
+ 0.03792072]
+[0.12498049 0.07622169 0.06631412 0.06393607 0.05296022 0.11031958
+ 0.07562567 0.06777367 0.05401517 0.09507155 0.06777366 0.1017649
+ 0.04324311]
+[0.17407787 0.06661688 0.05733626 0.05826974 0.04058149 0.13733266
+ 0.07786646 0.06469843 0.05228742 0.08261344 0.06469843 0.08653741
+ 0.0370835 ]
+[0.1792714  0.05998611 0.0615203  0.05837273 0.04453776 0.13613883
+ 0.06458746 0.06111618 0.05413561 0.09310348 0.06111619 0.09356171
+ 0.03255219]
+[0.16156475 0.06905966 0.05780781 0.05358291 0.04404165 0.12668036
+ 0.09803992 0.06591041 0.05287403 0.08530822 0.06591041 0.07444622
+ 0.04477362]
+[0.17930603 0.06314641 0.05100096 0.05186959 0.04504804 0.13267475
+ 0.07939703 0.05858068 0.04165095 0.11261448 0.05858067 0.09591117
+ 0.03021921]
+[0.13094908 0.0690966  0.06672573 0.07066242 0.04925954 0.09706818
+ 0.09402078 0.07040424 0.05567421 0.10226877 0.07040425 0.08171289
+ 0.04175325]
+[0.18064025 0.0583311  0.0748558  0.05677163 0.03846414 0.12929767
+ 0.08716032 0.05892862 0.04988001 0.09256444 0.05892862 0.08479729
+ 0.02938022]
+[0.15560347 0.06513167 0.06111902 0.06516913 0.05062781 0.1696155
+ 0.06657042 0.05766249 0.05402961 0.09240623 0.05766249 0.07685771
+ 0.02754447]
+[0.13094908 0.0690966  0.06672573 0.07066242 0.04925954 0.09706818
+ 0.09402078 0.07040424 0.05567421 0.10226877 0.07040425 0.08171289
+ 0.04175325]
+[0.18427648 0.0614748  0.05543885 0.05418473 0.04973185 0.14515682
+ 0.07398294 0.06100127 0.04921856 0.08573877 0.06100127 0.08787584
+ 0.03091781]
+[0.14480771 0.05801278 0.06178441 0.05036086 0.05888878 0.15373549
+ 0.08565279 0.0564415  0.05086756 0.10787976 0.0564415  0.08157838
+ 0.03354844]]

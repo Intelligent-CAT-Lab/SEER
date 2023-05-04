@@ -1,0 +1,19 @@
+140977
+Test: public void test14() throws Throwable { ArrayList<LateralCacheNoWait<Delayed, Integer>> arrayList0 = new ArrayList<LateralCacheNoWait<Delayed, Integer>>(); TCPLateralCacheAttributes tCPLateralCacheAttributes0 = new TCPLateralCacheAttributes(); LateralCacheNoWaitFacade<Delayed, Integer> lateralCacheNoWaitFacade0 = new LateralCacheNoWaitFacade<Delayed, Integer>((ILateralCacheListener<Delayed, Integer>) null, arrayList0, tCPLateralCacheAttributes0); lateralCacheNoWaitFacade0.get((Delayed) null); lateralCacheNoWaitFacade0.update((ICacheElement<Delayed, Integer>) null); }
+Code: public int getSize() { return 0; //cache.getSize(); }
+[[0.10333656 0.06552886 0.25421256 0.13698186 0.11362642 0.13910753
+ 0.14335382 0.04385237]
+[0.06901065 0.05067427 0.26673064 0.15091868 0.11075704 0.13925678
+ 0.17953406 0.03311791]
+[0.09830846 0.04891323 0.27419344 0.17183349 0.09739457 0.12822586
+ 0.14184952 0.03928139]
+[0.10517281 0.05058482 0.22061571 0.16696574 0.12131807 0.13740024
+ 0.13873132 0.05921125]
+[0.07121102 0.04264602 0.33437195 0.13793294 0.10360809 0.12977612
+ 0.14258817 0.03786568]
+[0.09920787 0.05620203 0.21039845 0.15873547 0.12221974 0.16446719
+ 0.14520279 0.04356649]
+[0.08699659 0.05586849 0.27005926 0.14281793 0.105719   0.14603953
+ 0.14431448 0.04818473]
+[0.07605926 0.0581301  0.17471212 0.18321595 0.16257429 0.1609294
+ 0.14436123 0.04001765]]

@@ -1,0 +1,17 @@
+36824
+Test: public void test38() throws Throwable { DateTimeZone dateTimeZone0 = DateTimeZone.getDefault(); GJChronology gJChronology0 = GJChronology.getInstanceUTC(); LocalDateTime localDateTime0 = LocalDateTime.now((Chronology) gJChronology0); Date date0 = localDateTime0.toDate(); TimeOfDay timeOfDay0 = TimeOfDay.fromDateFields(date0); TimeOfDay timeOfDay1 = new TimeOfDay(timeOfDay0, (int[]) null); // Undeclared exception!  timeOfDay1.toDateTimeToday(dateTimeZone0);   }
+Code: public DateTime toDateTimeToday() { return toDateTimeToday(null); }
+[[0.13627526 0.13124008 0.18902397 0.15540196 0.14672738 0.18902397
+ 0.05230734]
+[0.12596846 0.10785872 0.18782584 0.20465112 0.13389456 0.18782583
+ 0.05197547]
+[0.11493935 0.13392422 0.19497797 0.16485877 0.13904634 0.19497798
+ 0.05727538]
+[0.12162232 0.15800235 0.16652578 0.17941135 0.14207903 0.16652578
+ 0.06583336]
+[0.09634954 0.14210325 0.2082654  0.15522374 0.14557189 0.20826542
+ 0.04422075]
+[0.11493935 0.13392422 0.19497797 0.16485877 0.13904634 0.19497798
+ 0.05727538]
+[0.09207522 0.10569131 0.17699617 0.20887966 0.1930742  0.17699617
+ 0.04628726]]

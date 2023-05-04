@@ -1,0 +1,23 @@
+131396
+Test: public void test4() throws Throwable { FluentIterable<String> fluentIterable0 = FluentIterable.of("Collection must not be null"); Transformer<String, String> transformer0 = ConstantTransformer.nullTransformer(); IfTransformer<String, String> ifTransformer0 = new IfTransformer<String, String>((Predicate<? super String>) null, transformer0, transformer0); FluentIterable<String> fluentIterable1 = fluentIterable0.transform((Transformer<? super String, ? extends String>) ifTransformer0); FluentIterable<String> fluentIterable2 = fluentIterable1.reverse(); FluentIterable<String> fluentIterable3 = fluentIterable2.zip((Iterable<? extends String>) fluentIterable1); Iterable<String>[] iterableArray0 = (Iterable<String>[]) Array.newInstance(Iterable.class, 3); iterableArray0[0] = (Iterable<String>) fluentIterable3; iterableArray0[1] = (Iterable<String>) fluentIterable0; iterableArray0[2] = (Iterable<String>) fluentIterable2; FluentIterable<String> fluentIterable4 = fluentIterable3.zip(iterableArray0); String[] stringArray0 = new String[7]; stringArray0[0] = "Collection must not be null"; stringArray0[1] = "\"6]};;sx^c]"; stringArray0[2] = "Collection must not be null"; stringArray0[3] = "Collection must not be null"; stringArray0[4] = "Collection must not be null"; stringArray0[5] = "Collection must not be null"; stringArray0[6] = "Collection must not be null"; FluentIterable<String> fluentIterable5 = fluentIterable4.append(stringArray0); // Undeclared exception!  fluentIterable5.get(1456);   }
+Code: public E get(final int position) { return IterableUtils.get(iterable, position); }
+[[0.05937342 0.08105391 0.01520083 0.03424728 0.07370087 0.09586305
+ 0.06740473 0.08238228 0.46182352 0.02895011]
+[0.05657709 0.08993313 0.01081153 0.02935537 0.0766295  0.12203243
+ 0.06234644 0.0823998  0.44574562 0.02416904]
+[0.05269559 0.07988306 0.01216479 0.03394691 0.07052699 0.08695626
+ 0.058996   0.08738226 0.491848   0.02560023]
+[0.0418059  0.07252046 0.01022541 0.02908442 0.07098433 0.10082138
+ 0.06823203 0.10469599 0.48050785 0.0211222 ]
+[0.04683721 0.07400343 0.00768062 0.02174846 0.06236514 0.11651506
+ 0.06676656 0.07177787 0.51421136 0.0180943 ]
+[0.06936377 0.09202309 0.02757194 0.03281604 0.10263209 0.11560149
+ 0.07929528 0.08905048 0.35153595 0.04010981]
+[0.03548812 0.06469526 0.01013478 0.01814485 0.04705347 0.08518057
+ 0.0488118  0.06302636 0.60492295 0.02254185]
+[0.05195934 0.10390665 0.01608945 0.03208945 0.07943735 0.09897544
+ 0.06350235 0.08371907 0.43787742 0.03244347]
+[0.05417351 0.08204967 0.01227523 0.03123917 0.06082608 0.12946501
+ 0.07106583 0.07145207 0.4596221  0.02783136]
+[0.04233861 0.06362352 0.01120061 0.03169077 0.07111933 0.11705936
+ 0.09485415 0.07774945 0.46557128 0.02479286]]

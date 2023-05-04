@@ -1,0 +1,8 @@
+62538
+Test: public void test115() throws Throwable { DateTimeFormat.StyleFormatter dateTimeFormat_StyleFormatter0 = new DateTimeFormat.StyleFormatter(0, 0, 2); Locale locale0 = Locale.UK; }
+Code: protected DateTimeFormat() { super(); }
+[[0.28802952 0.24003655 0.2773365  0.13805443 0.056543  ]
+[0.29132104 0.21983796 0.22452296 0.18897724 0.07534075]
+[0.29058847 0.19341473 0.2555084  0.17226705 0.08822138]
+[0.27158564 0.2498394  0.24269687 0.16641313 0.069465  ]
+[0.26132378 0.22025254 0.29659453 0.15776677 0.06406233]]

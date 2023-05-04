@@ -1,0 +1,6 @@
+7587
+Test: public void test2() throws Throwable { JettyServerFactory jettyServerFactory0 = mock(JettyServerFactory.class, new ViolatedAssumptionAnswer()); ServletHandler servletHandler0 = new ServletHandler(); EmbeddedJettyServer embeddedJettyServer0 = new EmbeddedJettyServer(jettyServerFactory0, servletHandler0); int int0 = embeddedJettyServer0.activeThreadCount(); }
+Code: int activeThreadCount(); }
+[[0.18211491 0.6687536  0.14913152]
+[0.22335756 0.5780005  0.19864196]
+[0.23200679 0.56107336 0.20691983]]

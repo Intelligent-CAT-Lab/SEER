@@ -1,12 +1,21 @@
 101307
 Test: public void test283() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test283"); org.joda.time.DateTimeUtils.SystemMillisProvider systemMillisProvider0 = new org.joda.time.DateTimeUtils.SystemMillisProvider(); long long1 = systemMillisProvider0.getMillis(); org.joda.time.chrono.ISOChronology iSOChronology2 = org.joda.time.chrono.ISOChronology.getInstance(); org.joda.time.MutableDateTime mutableDateTime3 = new org.joda.time.MutableDateTime((java.lang.Object) long1, (org.joda.time.Chronology) iSOChronology2); org.joda.time.DateTimeZone dateTimeZone4 = iSOChronology2.getZone(); org.joda.time.DurationField durationField5 = iSOChronology2.eras(); org.joda.time.DateTimeField dateTimeField6 = iSOChronology2.weekyearOfCentury(); org.joda.time.DateTimeField dateTimeField7 = iSOChronology2.era(); org.joda.time.DurationField durationField8 = iSOChronology2.eras(); org.joda.time.DateTimeField dateTimeField9 = iSOChronology2.dayOfWeek(); org.joda.time.ReadableInterval readableInterval11 = null; org.joda.time.ReadableInterval readableInterval12 = org.joda.time.DateTimeUtils.getReadableInterval(readableInterval11); org.joda.time.ReadableInstant readableInstant13 = null; boolean boolean14 = readableInterval12.contains(readableInstant13); org.joda.time.DateTime dateTime15 = readableInterval12.getStart(); org.joda.time.ReadableInterval readableInterval16 = null; org.joda.time.ReadableInterval readableInterval17 = org.joda.time.DateTimeUtils.getReadableInterval(readableInterval16); org.joda.time.ReadableInstant readableInstant18 = null; boolean boolean19 = readableInterval17.contains(readableInstant18); org.joda.time.DateTime dateTime20 = readableInterval17.getStart(); java.util.Date date21 = dateTime20.toDate(); boolean boolean22 = dateTime15.isBefore((org.joda.time.ReadableInstant) dateTime20); org.joda.time.DateTimeZone dateTimeZone23 = dateTime15.getZone(); org.joda.time.MutableDateTime mutableDateTime24 = new org.joda.time.MutableDateTime((long) (short) 100, dateTimeZone23); mutableDateTime24.addWeeks(0); org.joda.time.ReadableInterval readableInterval28 = null; org.joda.time.ReadableInterval readableInterval29 = org.joda.time.DateTimeUtils.getReadableInterval(readableInterval28); org.joda.time.ReadableInstant readableInstant30 = null; boolean boolean31 = readableInterval29.contains(readableInstant30); org.joda.time.DateTime dateTime32 = readableInterval29.getStart(); org.joda.time.ReadableInterval readableInterval33 = null; org.joda.time.ReadableInterval readableInterval34 = org.joda.time.DateTimeUtils.getReadableInterval(readableInterval33); org.joda.time.ReadableInstant readableInstant35 = null; boolean boolean36 = readableInterval34.contains(readableInstant35); org.joda.time.DateTime dateTime37 = readableInterval34.getStart(); java.util.Date date38 = dateTime37.toDate(); boolean boolean39 = dateTime32.isBefore((org.joda.time.ReadableInstant) dateTime37); org.joda.time.DateTimeZone dateTimeZone40 = dateTime32.getZone(); org.joda.time.MutableDateTime mutableDateTime41 = new org.joda.time.MutableDateTime((long) (short) 100, dateTimeZone40); java.util.TimeZone timeZone42 = dateTimeZone40.toTimeZone(); mutableDateTime24.setZone(dateTimeZone40); java.util.Locale locale45 = null; java.lang.String str46 = dateTimeZone40.getShortName((long) (byte) 12, locale45); try { org.joda.time.MutableDateTime mutableDateTime47 = new org.joda.time.MutableDateTime((java.lang.Object) dateTimeField9, dateTimeZone40); } catch (java.lang.IllegalArgumentException e) { } }
 Code: public void addWeeks(final int weeks) { setMillis(getChronology().weeks().add(getMillis(), weeks)); }
-tensor([[0.0747, 0.0645, 0.3003, 0.0409, 0.0777, 0.1319, 0.0871, 0.1840, 0.0389],
-        [0.0569, 0.0580, 0.3664, 0.0275, 0.0776, 0.1373, 0.0781, 0.1580, 0.0402],
-        [0.0810, 0.0711, 0.2692, 0.0435, 0.1174, 0.1353, 0.0653, 0.1797, 0.0373],
-        [0.0543, 0.0531, 0.3447, 0.0331, 0.0811, 0.1581, 0.0839, 0.1611, 0.0305],
-        [0.0667, 0.0568, 0.3014, 0.0346, 0.0748, 0.1257, 0.0808, 0.2245, 0.0347],
-        [0.0793, 0.0711, 0.2779, 0.0358, 0.0785, 0.1495, 0.0958, 0.1629, 0.0492],
-        [0.0746, 0.0550, 0.2859, 0.0426, 0.1074, 0.1477, 0.0682, 0.1826, 0.0359],
-        [0.0475, 0.0344, 0.3594, 0.0236, 0.0730, 0.1287, 0.0804, 0.2224, 0.0307],
-        [0.0545, 0.0537, 0.3038, 0.0399, 0.0817, 0.1718, 0.0741, 0.1850, 0.0354]])
+[[0.07474551 0.06447437 0.3002559  0.04089127 0.07767022 0.13188945
+ 0.08714008 0.18403573 0.03889746]
+[0.05688207 0.05797768 0.36638168 0.02752775 0.07757759 0.13733181
+ 0.07807736 0.15802124 0.04022284]
+[0.08101565 0.07112363 0.26921085 0.04353236 0.11744455 0.13532183
+ 0.06531444 0.1796883  0.03734841]
+[0.05430883 0.05314871 0.3447357  0.03311648 0.08110861 0.15814887
+ 0.08387739 0.16105133 0.03050402]
+[0.06666658 0.0568331  0.3014352  0.03461976 0.07479256 0.1256639
+ 0.08076153 0.22451921 0.03470815]
+[0.07930283 0.07112807 0.27786517 0.03579018 0.07848756 0.14952935
+ 0.09577927 0.16290838 0.0492092 ]
+[0.07460687 0.05501538 0.28589603 0.04264858 0.1073848  0.14767769
+ 0.06823739 0.1826067  0.03592652]
+[0.04750068 0.03435186 0.359393   0.02363656 0.07298463 0.12872142
+ 0.0803676  0.22236861 0.03067565]
+[0.0545014  0.05369657 0.30384946 0.03985894 0.08173802 0.17181596
+ 0.07410394 0.18499209 0.03544359]]

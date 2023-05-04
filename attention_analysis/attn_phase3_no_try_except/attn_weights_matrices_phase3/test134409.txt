@@ -1,0 +1,19 @@
+134409
+Test: public void test123() throws Throwable { Document document0 = new Document("[^tjIl?YL\"^.,^"); Document.QuirksMode document_QuirksMode0 = Document.QuirksMode.limitedQuirks; Document document1 = document0.quirksMode(document_QuirksMode0); document1.attributesSize(); HashSet<String> hashSet0 = new HashSet<String>(1); Element element0 = document1.prepend("[^tjIl?YL\"^.,^"); Node[] nodeArray0 = new Node[3]; nodeArray0[0] = (Node) document0; nodeArray0[2] = (Node) document1; document0.childNodesCopy(); Comment comment0 = new Comment("[^tjIl?YL\"^.,^"); comment0.getData(); org.jsoup.helper.Consumer<Element> consumer0 = (org.jsoup.helper.Consumer<Element>) mock(org.jsoup.helper.Consumer.class, new ViolatedAssumptionAnswer()); element0.forEach(consumer0); document1.parent(); }
+Code: public @Nullable Node parent() { return parentNode; }
+[[0.09776117 0.20755145 0.16727105 0.13560344 0.11293027 0.10543814
+ 0.13560344 0.03784106]
+[0.08404386 0.15887381 0.14563665 0.15312874 0.15828466 0.10494064
+ 0.15312874 0.04196293]
+[0.06890982 0.20665091 0.18297993 0.14023046 0.12719928 0.10807794
+ 0.14023046 0.02572125]
+[0.08142724 0.21563362 0.17066272 0.1381017  0.11694612 0.09850961
+ 0.1381017  0.04061728]
+[0.09655872 0.17687213 0.1550234  0.13319431 0.14022864 0.11308856
+ 0.13319431 0.05183993]
+[0.06813335 0.24062413 0.15200776 0.14263359 0.11926514 0.10131076
+ 0.14263359 0.03339176]
+[0.08142724 0.21563362 0.17066272 0.1381017  0.11694612 0.09850961
+ 0.1381017  0.04061728]
+[0.0624534  0.17933726 0.22080855 0.12110628 0.13560379 0.12920314
+ 0.12110628 0.03038128]]

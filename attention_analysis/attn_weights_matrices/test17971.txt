@@ -1,33 +1,48 @@
 17971
 Test: public void test07() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test07"); com.google.javascript.jscomp.AbstractCompiler abstractCompiler0 = null; com.google.javascript.jscomp.FoldConstants foldConstants1 = new com.google.javascript.jscomp.FoldConstants(abstractCompiler0); com.google.javascript.jscomp.AbstractCompiler abstractCompiler2 = null; com.google.javascript.jscomp.VarCheck varCheck4 = new com.google.javascript.jscomp.VarCheck(abstractCompiler2, true); com.google.javascript.jscomp.AbstractCompiler abstractCompiler5 = null; com.google.javascript.jscomp.AbstractCompiler abstractCompiler6 = null; com.google.javascript.jscomp.VarCheck varCheck8 = new com.google.javascript.jscomp.VarCheck(abstractCompiler6, true); com.google.javascript.jscomp.NodeTraversal nodeTraversal9 = new com.google.javascript.jscomp.NodeTraversal(abstractCompiler5, (com.google.javascript.jscomp.NodeTraversal.Callback) varCheck8); boolean boolean10 = nodeTraversal9.inGlobalScope(); com.google.javascript.rhino.Node node12 = com.google.javascript.rhino.Node.newString(""); boolean boolean13 = com.google.javascript.jscomp.NodeUtil.isString(node12); boolean boolean14 = com.google.javascript.jscomp.NodeUtil.isNew(node12); com.google.javascript.rhino.Node node16 = com.google.javascript.rhino.Node.newString(""); boolean boolean17 = com.google.javascript.jscomp.NodeUtil.isString(node16); com.google.javascript.jscomp.CodePrinter.Builder builder18 = new com.google.javascript.jscomp.CodePrinter.Builder(node16); com.google.javascript.rhino.Node node20 = com.google.javascript.rhino.Node.newString(""); java.lang.String str21 = node16.checkTreeEquals(node20); com.google.javascript.jscomp.NodeUtil.setDebugInformation(node12, node16, "<No stack trace available>"); com.google.javascript.jscomp.GoogleCodingConvention googleCodingConvention24 = new com.google.javascript.jscomp.GoogleCodingConvention(); com.google.javascript.rhino.jstype.ObjectType objectType25 = null; com.google.javascript.rhino.jstype.ObjectType objectType26 = null; com.google.javascript.rhino.jstype.ObjectType objectType27 = null; com.google.javascript.rhino.jstype.FunctionType functionType28 = null; com.google.javascript.rhino.jstype.FunctionType functionType29 = null; googleCodingConvention24.applyDelegateRelationship(objectType25, objectType26, objectType27, functionType28, functionType29); com.google.javascript.rhino.Node node32 = com.google.javascript.rhino.Node.newString(""); boolean boolean33 = com.google.javascript.jscomp.NodeUtil.isString(node32); com.google.javascript.jscomp.CodePrinter.Builder builder34 = new com.google.javascript.jscomp.CodePrinter.Builder(node32); com.google.javascript.rhino.Node node36 = com.google.javascript.rhino.Node.newString(""); boolean boolean37 = com.google.javascript.jscomp.NodeUtil.isString(node36); boolean boolean38 = com.google.javascript.jscomp.NodeUtil.isNew(node36); java.lang.String str39 = googleCodingConvention24.extractClassNameIfRequire(node32, node36); varCheck4.visit(nodeTraversal9, node12, node32); com.google.javascript.rhino.Node node42 = com.google.javascript.rhino.Node.newString(""); boolean boolean43 = com.google.javascript.jscomp.NodeUtil.isString(node42); com.google.javascript.jscomp.CodePrinter.Builder builder44 = new com.google.javascript.jscomp.CodePrinter.Builder(node42); node42.setType((int) (short) 0); com.google.javascript.jscomp.AbstractCompiler abstractCompiler47 = null; com.google.javascript.jscomp.VarCheck varCheck49 = new com.google.javascript.jscomp.VarCheck(abstractCompiler47, true); com.google.javascript.jscomp.AbstractCompiler abstractCompiler50 = null; com.google.javascript.jscomp.AbstractCompiler abstractCompiler51 = null; com.google.javascript.jscomp.VarCheck varCheck53 = new com.google.javascript.jscomp.VarCheck(abstractCompiler51, true); com.google.javascript.jscomp.NodeTraversal nodeTraversal54 = new com.google.javascript.jscomp.NodeTraversal(abstractCompiler50, (com.google.javascript.jscomp.NodeTraversal.Callback) varCheck53); boolean boolean55 = nodeTraversal54.inGlobalScope(); com.google.javascript.rhino.Node node57 = com.google.javascript.rhino.Node.newString(""); boolean boolean58 = com.google.javascript.jscomp.NodeUtil.isString(node57); boolean boolean59 = com.google.javascript.jscomp.NodeUtil.isNew(node57); com.google.javascript.rhino.Node node61 = com.google.javascript.rhino.Node.newString(""); boolean boolean62 = com.google.javascript.jscomp.NodeUtil.isString(node61); com.google.javascript.jscomp.CodePrinter.Builder builder63 = new com.google.javascript.jscomp.CodePrinter.Builder(node61); com.google.javascript.rhino.Node node65 = com.google.javascript.rhino.Node.newString(""); java.lang.String str66 = node61.checkTreeEquals(node65); com.google.javascript.jscomp.NodeUtil.setDebugInformation(node57, node61, "<No stack trace available>"); com.google.javascript.jscomp.GoogleCodingConvention googleCodingConvention69 = new com.google.javascript.jscomp.GoogleCodingConvention(); com.google.javascript.rhino.jstype.ObjectType objectType70 = null; com.google.javascript.rhino.jstype.ObjectType objectType71 = null; com.google.javascript.rhino.jstype.ObjectType objectType72 = null; com.google.javascript.rhino.jstype.FunctionType functionType73 = null; com.google.javascript.rhino.jstype.FunctionType functionType74 = null; googleCodingConvention69.applyDelegateRelationship(objectType70, objectType71, objectType72, functionType73, functionType74); com.google.javascript.rhino.Node node77 = com.google.javascript.rhino.Node.newString(""); boolean boolean78 = com.google.javascript.jscomp.NodeUtil.isString(node77); com.google.javascript.jscomp.CodePrinter.Builder builder79 = new com.google.javascript.jscomp.CodePrinter.Builder(node77); com.google.javascript.rhino.Node node81 = com.google.javascript.rhino.Node.newString(""); boolean boolean82 = com.google.javascript.jscomp.NodeUtil.isString(node81); boolean boolean83 = com.google.javascript.jscomp.NodeUtil.isNew(node81); java.lang.String str84 = googleCodingConvention69.extractClassNameIfRequire(node77, node81); varCheck49.visit(nodeTraversal54, node57, node77); try { foldConstants1.tryFoldRegularExpressionConstructor(nodeTraversal9, node42, node57); } catch (java.lang.NullPointerException e) { } }
 Code: public void visit(NodeTraversal t, Node n, Node parent) { lower[0] |= NodeUtil.precedence(n.getType()) < precedence; }
-tensor([[0.0510, 0.0413, 0.0253, 0.1660, 0.0962, 0.1103, 0.0962, 0.0647, 0.0686,
-         0.0393, 0.0310, 0.1221, 0.0404, 0.0256, 0.0219],
-        [0.0365, 0.0330, 0.0127, 0.2155, 0.1027, 0.1375, 0.1027, 0.0455, 0.0689,
-         0.0374, 0.0346, 0.1068, 0.0265, 0.0192, 0.0207],
-        [0.0406, 0.0291, 0.0176, 0.1969, 0.0949, 0.1258, 0.0949, 0.0542, 0.0793,
-         0.0416, 0.0311, 0.1298, 0.0315, 0.0197, 0.0131],
-        [0.0436, 0.0259, 0.0167, 0.1985, 0.1084, 0.0996, 0.1084, 0.0645, 0.0827,
-         0.0360, 0.0330, 0.1121, 0.0318, 0.0235, 0.0153],
-        [0.0344, 0.0354, 0.0173, 0.2010, 0.1031, 0.1380, 0.1031, 0.0466, 0.0792,
-         0.0352, 0.0310, 0.1161, 0.0236, 0.0212, 0.0149],
-        [0.0421, 0.0283, 0.0245, 0.2107, 0.0923, 0.1295, 0.0923, 0.0396, 0.0896,
-         0.0395, 0.0340, 0.1128, 0.0246, 0.0211, 0.0190],
-        [0.0344, 0.0354, 0.0173, 0.2010, 0.1031, 0.1380, 0.1031, 0.0466, 0.0792,
-         0.0352, 0.0310, 0.1161, 0.0236, 0.0212, 0.0149],
-        [0.0436, 0.0332, 0.0152, 0.2133, 0.1049, 0.1160, 0.1049, 0.0394, 0.0812,
-         0.0348, 0.0270, 0.1151, 0.0344, 0.0200, 0.0170],
-        [0.0524, 0.0456, 0.0279, 0.1389, 0.0866, 0.1109, 0.0866, 0.0465, 0.0832,
-         0.0557, 0.0424, 0.1168, 0.0414, 0.0355, 0.0295],
-        [0.0384, 0.0271, 0.0208, 0.1831, 0.0964, 0.1038, 0.0964, 0.0513, 0.0909,
-         0.0556, 0.0404, 0.1247, 0.0286, 0.0230, 0.0196],
-        [0.0390, 0.0283, 0.0195, 0.1730, 0.1136, 0.1085, 0.1136, 0.0527, 0.0667,
-         0.0491, 0.0315, 0.1323, 0.0273, 0.0250, 0.0199],
-        [0.0441, 0.0345, 0.0182, 0.2034, 0.0921, 0.1034, 0.0921, 0.0512, 0.0811,
-         0.0491, 0.0362, 0.1226, 0.0322, 0.0207, 0.0191],
-        [0.0351, 0.0313, 0.0242, 0.1597, 0.1167, 0.1120, 0.1167, 0.0663, 0.0662,
-         0.0432, 0.0399, 0.1074, 0.0333, 0.0275, 0.0206],
-        [0.0389, 0.0345, 0.0285, 0.1510, 0.1041, 0.1113, 0.1041, 0.0582, 0.0716,
-         0.0397, 0.0349, 0.1443, 0.0336, 0.0264, 0.0188],
-        [0.0311, 0.0289, 0.0167, 0.1745, 0.1232, 0.0852, 0.1232, 0.0559, 0.0808,
-         0.0478, 0.0322, 0.1325, 0.0266, 0.0242, 0.0173]])
+[[0.05101044 0.04132695 0.02526902 0.16598496 0.0962313  0.11033925
+ 0.0962313  0.06472152 0.06855371 0.03929837 0.03100389 0.12214421
+ 0.04044097 0.0255926  0.02185155]
+[0.0364617  0.03298584 0.01268915 0.2155066  0.10269117 0.1374509
+ 0.10269117 0.04546304 0.06886843 0.03741826 0.03462945 0.10676271
+ 0.02648071 0.01916107 0.02073976]
+[0.04061088 0.02914827 0.01758288 0.19693707 0.09491412 0.12577617
+ 0.09491412 0.05421508 0.07925746 0.04157032 0.03107154 0.12976131
+ 0.03145626 0.01970349 0.01308103]
+[0.04363621 0.02589443 0.01670646 0.19849955 0.10839328 0.09958456
+ 0.10839328 0.06447591 0.08272443 0.03595539 0.03295933 0.11210191
+ 0.0318317  0.02351901 0.01532451]
+[0.03443217 0.03538645 0.01726179 0.20103428 0.10313044 0.13797453
+ 0.10313044 0.04655338 0.07920609 0.03519233 0.03095505 0.11609292
+ 0.02361373 0.0211684  0.01486795]
+[0.04209634 0.02828237 0.02445986 0.21069592 0.09234681 0.12947375
+ 0.09234681 0.03959971 0.08963647 0.03953367 0.03397923 0.11283699
+ 0.02456739 0.02111178 0.01903296]
+[0.03443217 0.03538645 0.01726179 0.20103428 0.10313044 0.13797453
+ 0.10313044 0.04655338 0.07920609 0.03519233 0.03095505 0.11609292
+ 0.02361373 0.0211684  0.01486795]
+[0.04361331 0.03318583 0.01523576 0.21327007 0.10492782 0.11599138
+ 0.10492782 0.03937085 0.08118566 0.03475332 0.02701496 0.1150872
+ 0.03444665 0.0199634  0.01702596]
+[0.05242119 0.04564847 0.02785708 0.13888569 0.08662808 0.11088531
+ 0.08662808 0.04651193 0.08319175 0.05567841 0.04241437 0.11680292
+ 0.0414329  0.03550678 0.02950704]
+[0.03839523 0.02712225 0.02076485 0.18308362 0.09635814 0.10378483
+ 0.09635814 0.05127839 0.09090551 0.05560289 0.04037564 0.12468688
+ 0.02864529 0.02304973 0.01958862]
+[0.03902896 0.02834271 0.01952905 0.17295778 0.11358109 0.10846242
+ 0.11358109 0.05268558 0.06667019 0.0490685  0.03153765 0.13232855
+ 0.02729188 0.02499663 0.01993784]
+[0.04412895 0.03450333 0.01817637 0.20335935 0.09208156 0.10342223
+ 0.09208156 0.05117299 0.0811239  0.04912359 0.03620458 0.12262562
+ 0.03221418 0.02067096 0.01911087]
+[0.03508243 0.03132795 0.02420399 0.15967304 0.1166935  0.11196566
+ 0.1166935  0.06633805 0.06616488 0.04321781 0.03989625 0.10739204
+ 0.03327098 0.0275124  0.02056742]
+[0.03894878 0.03450917 0.02854981 0.15097018 0.10414685 0.11125828
+ 0.10414685 0.05816727 0.07162315 0.03973821 0.03487908 0.14428958
+ 0.0335502  0.02643337 0.01878926]
+[0.03106437 0.028904   0.016658   0.17447338 0.12321112 0.08519158
+ 0.12321112 0.05589339 0.08075429 0.04777133 0.0322162  0.13250408
+ 0.02658728 0.02422641 0.01733354]]

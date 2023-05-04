@@ -1,0 +1,9 @@
+83034
+Test: public void test7() throws Throwable { ClassLoader classLoader0 = ClassLoader.getSystemClassLoader(); ClassLoaderRepository classLoaderRepository0 = new ClassLoaderRepository(classLoader0); Class<Object> class0 = Object.class; JavaClass javaClass0 = classLoaderRepository0.loadClass(class0); EmptyVisitor emptyVisitor0 = new EmptyVisitor(); DescendingVisitor descendingVisitor0 = new DescendingVisitor(javaClass0, emptyVisitor0); descendingVisitor0.visit(); }
+Code: public void visit() { clazz.accept(this); }
+[[0.16401619 0.12892938 0.22750431 0.18872175 0.22750433 0.06332405]
+[0.12662017 0.10623181 0.25207683 0.20101164 0.25207683 0.06198274]
+[0.14093259 0.11606516 0.24057081 0.19385338 0.24057084 0.06800722]
+[0.15142353 0.12997365 0.20939462 0.21874288 0.20939462 0.08107075]
+[0.14093259 0.11606516 0.24057081 0.19385338 0.24057084 0.06800722]
+[0.11676887 0.10545267 0.2233574  0.2712946  0.22335738 0.05976907]]

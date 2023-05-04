@@ -1,0 +1,17 @@
+134346
+Test: public void test37() throws Throwable { CDataNode cDataNode0 = new CDataNode("$F-Pi@ x169`5B"); Document document0 = new Document("$F-Pi@ x169`5B"); FileSystemHandling.appendLineToFile((EvoSuiteFile) null, ":{aQ{A>`e!"); Element element0 = document0.body(); LeafNode leafNode0 = cDataNode0.doClone(element0); Element element1 = element0.clearAttributes(); leafNode0.shallowClone(); document0.nodelistChanged(); leafNode0.nextSibling(); cDataNode0.clone(); document0.outerHtml(); document0.normalise(); HttpConnection httpConnection0 = new HttpConnection(); Vector<Element> vector0 = new Vector<Element>(); document0.body(); HttpCookieStore httpCookieStore0 = new HttpCookieStore(); httpConnection0.cookieStore((CookieStore) httpCookieStore0); DocumentType documentType0 = new DocumentType("ScriptDataEscaped", "", "Content-Type"); documentType0.systemId(); element0.remove(); Evaluator.Tag evaluator_Tag0 = new Evaluator.Tag("#text"); element1.is((Evaluator) evaluator_Tag0); }
+Code: public void remove() { Validate.notNull(parentNode); parentNode.removeChild(this); }
+[[0.135505   0.10856113 0.15176997 0.17231445 0.18797259 0.18797259
+ 0.05590424]
+[0.10792623 0.09322591 0.13726568 0.18361636 0.21095085 0.21095085
+ 0.05606418]
+[0.09703226 0.06400599 0.16620627 0.25484306 0.19281144 0.19281144
+ 0.03228956]
+[0.12424913 0.10826571 0.17227697 0.19797446 0.16357143 0.16357143
+ 0.07009085]
+[0.11329514 0.09823672 0.17773573 0.17066444 0.19071212 0.19071212
+ 0.05864372]
+[0.11329514 0.09823672 0.17773573 0.17066444 0.19071212 0.19071212
+ 0.05864372]
+[0.09788904 0.09032703 0.14381807 0.24685626 0.1838801  0.1838801
+ 0.05334936]]

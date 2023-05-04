@@ -1,33 +1,48 @@
 15363
 Test: public void test015() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test015"); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder0 = new org.apache.commons.cli2.builder.DefaultOptionBuilder(); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder1 = defaultOptionBuilder0.reset(); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder3 = defaultOptionBuilder1.withShortName(""); org.apache.commons.cli2.Argument argument4 = null; org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder5 = defaultOptionBuilder1.withArgument(argument4); org.apache.commons.cli2.option.DefaultOption defaultOption6 = defaultOptionBuilder5.create(); org.apache.commons.cli2.OptionException optionException7 = new org.apache.commons.cli2.OptionException((org.apache.commons.cli2.Option) defaultOption6); int int8 = defaultOption6.getId(); org.apache.commons.cli2.Option option10 = defaultOption6.findOption("-"); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder11 = new org.apache.commons.cli2.builder.DefaultOptionBuilder(); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder12 = defaultOptionBuilder11.reset(); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder14 = defaultOptionBuilder12.withShortName(""); org.apache.commons.cli2.Argument argument15 = null; org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder16 = defaultOptionBuilder12.withArgument(argument15); org.apache.commons.cli2.option.DefaultOption defaultOption17 = defaultOptionBuilder16.create(); org.apache.commons.cli2.util.HelpFormatter helpFormatter23 = new org.apache.commons.cli2.util.HelpFormatter("", "hi!", "hi!", (int) '#'); helpFormatter23.printDivider(); java.lang.String str25 = helpFormatter23.getGutterLeft(); java.util.Set set26 = org.apache.commons.cli2.DisplaySetting.NONE; helpFormatter23.setFullUsageSettings(set26); java.util.Set set28 = org.apache.commons.cli2.DisplaySetting.NONE; helpFormatter23.setDisplaySettings(set28); java.util.Comparator comparator30 = null; java.util.List list31 = defaultOption17.helpLines((int) (short) 1, set28, comparator30); org.apache.commons.cli2.commandline.WriteableCommandLineImpl writeableCommandLineImpl32 = new org.apache.commons.cli2.commandline.WriteableCommandLineImpl((org.apache.commons.cli2.Option) defaultOption6, list31); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder33 = new org.apache.commons.cli2.builder.DefaultOptionBuilder(); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder34 = defaultOptionBuilder33.reset(); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder36 = defaultOptionBuilder34.withShortName(""); org.apache.commons.cli2.Argument argument37 = null; org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder38 = defaultOptionBuilder34.withArgument(argument37); org.apache.commons.cli2.option.DefaultOption defaultOption39 = defaultOptionBuilder38.create(); org.apache.commons.cli2.util.HelpFormatter helpFormatter45 = new org.apache.commons.cli2.util.HelpFormatter("", "hi!", "hi!", (int) '#'); helpFormatter45.printDivider(); java.lang.String str47 = helpFormatter45.getGutterLeft(); java.util.Set set48 = org.apache.commons.cli2.DisplaySetting.NONE; helpFormatter45.setFullUsageSettings(set48); java.util.Set set50 = org.apache.commons.cli2.DisplaySetting.NONE; helpFormatter45.setDisplaySettings(set50); java.util.Comparator comparator52 = null; java.util.List list53 = defaultOption39.helpLines((int) (short) 1, set50, comparator52); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder54 = new org.apache.commons.cli2.builder.DefaultOptionBuilder(); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder55 = defaultOptionBuilder54.reset(); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder57 = defaultOptionBuilder55.withShortName(""); org.apache.commons.cli2.Argument argument58 = null; org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder59 = defaultOptionBuilder55.withArgument(argument58); org.apache.commons.cli2.option.DefaultOption defaultOption60 = defaultOptionBuilder59.create(); org.apache.commons.cli2.OptionException optionException61 = new org.apache.commons.cli2.OptionException((org.apache.commons.cli2.Option) defaultOption60); defaultOption39.setParent((org.apache.commons.cli2.Option) defaultOption60); writeableCommandLineImpl32.setCurrentOption((org.apache.commons.cli2.Option) defaultOption39); writeableCommandLineImpl32.addProperty("hi!", "DISPLAY_OPTIONAL"); }
 Code: public WriteableCommandLineImpl(final Option rootOption, final List arguments) { this.prefixes = rootOption.getPrefixes(); this.normalised = arguments; }
-tensor([[0.0509, 0.0773, 0.1326, 0.0652, 0.0405, 0.0708, 0.0640, 0.0652, 0.1076,
-         0.0319, 0.1262, 0.0377, 0.0319, 0.0771, 0.0211],
-        [0.0378, 0.0658, 0.1384, 0.0520, 0.0292, 0.0614, 0.0531, 0.0811, 0.1136,
-         0.0253, 0.2072, 0.0294, 0.0253, 0.0703, 0.0099],
-        [0.0444, 0.0587, 0.1137, 0.0548, 0.0382, 0.0723, 0.0703, 0.0852, 0.0898,
-         0.0384, 0.1595, 0.0323, 0.0384, 0.0853, 0.0187],
-        [0.0579, 0.0737, 0.1137, 0.0638, 0.0446, 0.0906, 0.0733, 0.0752, 0.0884,
-         0.0382, 0.1135, 0.0389, 0.0382, 0.0674, 0.0226],
-        [0.0460, 0.0633, 0.1184, 0.0490, 0.0305, 0.0644, 0.0572, 0.0762, 0.0899,
-         0.0357, 0.2079, 0.0337, 0.0357, 0.0768, 0.0151],
-        [0.0416, 0.0657, 0.1247, 0.0573, 0.0365, 0.0680, 0.0490, 0.0876, 0.0882,
-         0.0299, 0.2006, 0.0251, 0.0299, 0.0782, 0.0177],
-        [0.0431, 0.0813, 0.1108, 0.0535, 0.0387, 0.0779, 0.0638, 0.0966, 0.0861,
-         0.0313, 0.1584, 0.0271, 0.0313, 0.0834, 0.0166],
-        [0.0509, 0.0630, 0.1224, 0.0590, 0.0497, 0.0710, 0.0747, 0.0736, 0.0855,
-         0.0420, 0.1214, 0.0273, 0.0420, 0.0900, 0.0273],
-        [0.0438, 0.0692, 0.1137, 0.0530, 0.0440, 0.0680, 0.0598, 0.0889, 0.1098,
-         0.0301, 0.1632, 0.0360, 0.0301, 0.0740, 0.0163],
-        [0.0600, 0.0714, 0.1310, 0.0697, 0.0503, 0.0892, 0.0689, 0.0624, 0.0787,
-         0.0482, 0.0855, 0.0319, 0.0482, 0.0764, 0.0281],
-        [0.0325, 0.0554, 0.1266, 0.0500, 0.0296, 0.0889, 0.0649, 0.0650, 0.1012,
-         0.0324, 0.1991, 0.0277, 0.0324, 0.0777, 0.0168],
-        [0.0385, 0.0623, 0.1255, 0.0648, 0.0337, 0.0732, 0.0655, 0.0880, 0.0893,
-         0.0273, 0.1869, 0.0242, 0.0273, 0.0769, 0.0163],
-        [0.0600, 0.0714, 0.1310, 0.0697, 0.0503, 0.0892, 0.0689, 0.0624, 0.0787,
-         0.0482, 0.0855, 0.0319, 0.0482, 0.0764, 0.0281],
-        [0.0558, 0.0659, 0.1057, 0.0660, 0.0451, 0.0800, 0.0715, 0.0677, 0.0799,
-         0.0373, 0.1496, 0.0424, 0.0373, 0.0733, 0.0226],
-        [0.0408, 0.0679, 0.1084, 0.0685, 0.0357, 0.0725, 0.0718, 0.0899, 0.0954,
-         0.0353, 0.1508, 0.0334, 0.0353, 0.0742, 0.0201]])
+[[0.05094545 0.07730625 0.13256748 0.06519043 0.04053042 0.07077662
+ 0.06398504 0.06518812 0.10763535 0.03188098 0.1262044  0.03770951
+ 0.03188097 0.07709249 0.02110645]
+[0.03784855 0.06579831 0.13838904 0.0519912  0.02917515 0.06140264
+ 0.05313279 0.08110518 0.11358064 0.02533382 0.2072312  0.02943933
+ 0.02533382 0.07034086 0.00989749]
+[0.04443572 0.05869474 0.11365413 0.05481644 0.03817104 0.07227761
+ 0.07026254 0.08520199 0.08978953 0.03843528 0.15947294 0.0323322
+ 0.03843528 0.08527972 0.01874079]
+[0.05793003 0.07373816 0.11374405 0.06379777 0.04458279 0.09061833
+ 0.0733021  0.07518246 0.08839803 0.03818458 0.11347041 0.03887811
+ 0.03818458 0.06740156 0.02258706]
+[0.04603003 0.06333094 0.11837238 0.04902093 0.03053739 0.06439348
+ 0.0572494  0.07624427 0.08987397 0.03567444 0.20794198 0.03370874
+ 0.03567443 0.07682449 0.01512316]
+[0.04157598 0.0657259  0.12472473 0.05731653 0.03651852 0.06801609
+ 0.04895271 0.08756497 0.08816231 0.0299473  0.2005933  0.02507631
+ 0.0299473  0.078198   0.01767997]
+[0.04311634 0.08131775 0.11078072 0.0534903  0.03867425 0.07785382
+ 0.06378752 0.09664375 0.08606064 0.0313345  0.15842712 0.02713534
+ 0.0313345  0.08340093 0.01664255]
+[0.05093895 0.06301918 0.12243138 0.05895529 0.04968422 0.07102208
+ 0.07474968 0.0735601  0.08552914 0.04202949 0.12143842 0.02734672
+ 0.04202949 0.08999851 0.0272674 ]
+[0.04383145 0.06917258 0.11369145 0.05297659 0.04397934 0.06801999
+ 0.05981923 0.08892696 0.10980432 0.03011866 0.16318981 0.0360136
+ 0.03011866 0.07399969 0.01633766]
+[0.05998689 0.07142527 0.13095587 0.06973827 0.05034509 0.08919352
+ 0.06885267 0.06244417 0.07871301 0.04820815 0.08553868 0.0319182
+ 0.04820814 0.07635149 0.02812057]
+[0.03251789 0.05541734 0.12658972 0.04998348 0.02956815 0.08894939
+ 0.06485686 0.06497268 0.10118118 0.0323901  0.19905187 0.02767158
+ 0.03239009 0.077677   0.01678275]
+[0.03850609 0.06234191 0.12550868 0.06475752 0.03373798 0.07321198
+ 0.06549685 0.08801309 0.08932406 0.02734684 0.1869351  0.02424384
+ 0.02734684 0.07688098 0.01634824]
+[0.0599869  0.07142527 0.13095585 0.06973825 0.05034509 0.08919352
+ 0.06885269 0.06244417 0.07871303 0.04820816 0.0855387  0.0319182
+ 0.04820815 0.0763515  0.02812057]
+[0.05583383 0.06588502 0.10565859 0.06597701 0.04505958 0.08001076
+ 0.07149146 0.06765018 0.07988124 0.03730596 0.14964911 0.04240984
+ 0.03730595 0.07329226 0.02258922]
+[0.04082986 0.0678663  0.10841244 0.06851113 0.03574217 0.07252589
+ 0.07176899 0.08992593 0.09541909 0.03529083 0.15076028 0.03337679
+ 0.03529083 0.07420471 0.02007479]]

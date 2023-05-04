@@ -1,0 +1,23 @@
+62021
+Test: public void test21509() throws Throwable { DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.hourOfDay(); DateTimeFormatterBuilder.Fraction dateTimeFormatterBuilder_Fraction0 = new DateTimeFormatterBuilder.Fraction(dateTimeFieldType0, 2086, 2086); String string0 = ">MX*"; MockPrintWriter mockPrintWriter0 = new MockPrintWriter(">MX*"); TimeZone timeZone0 = TimeZone.getTimeZone("Mexico/G"); DateTimeZone dateTimeZone0 = DateTimeZone.forTimeZone(timeZone0); JulianChronology julianChronology0 = JulianChronology.getInstance(dateTimeZone0); Chronology chronology0 = julianChronology0.withUTC(); dateTimeFormatterBuilder_Fraction0.printTo((Appendable) mockPrintWriter0, 1996L, chronology0); dateTimeFormatterBuilder_Fraction0.estimateParsedLength(); int int0 = (-1472); DateTimeFormatterBuilder.TwoDigitYear dateTimeFormatterBuilder_TwoDigitYear0 = new DateTimeFormatterBuilder.TwoDigitYear(dateTimeFieldType0, (-1472), true); Locale locale0 = new Locale("(kfP-HIvi_u'", "(kfP-HIvi_u'"); dateTimeFormatterBuilder_TwoDigitYear0.printTo((Appendable) mockPrintWriter0, (long) 18, (Chronology) julianChronology0, 6, dateTimeZone0, locale0); MonthDay monthDay0 = MonthDay.now(chronology0); LinkedList<Locale.LanguageRange> linkedList0 = new LinkedList<Locale.LanguageRange>(); LinkedHashSet<Locale> linkedHashSet0 = new LinkedHashSet<Locale>(); linkedHashSet0.add(locale0); FileSystemHandling.shouldAllThrowIOExceptions(); Locale.filter((List<Locale.LanguageRange>) linkedList0, (Collection<Locale>) linkedHashSet0); Locale locale1 = Locale.PRC; dateTimeFormatterBuilder_TwoDigitYear0.printTo((Appendable) mockPrintWriter0, (ReadablePartial) monthDay0, locale1); DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); dateTimeFormatterBuilder0.appendLiteral('v'); String string1 = null; boolean boolean0 = true; int int1 = 15271875; // Undeclared exception!  dateTimeFormatterBuilder0.appendPattern("Mexico/B");   }
+Code: public DateTimeFormatterBuilder appendPattern(String pattern) { DateTimeFormat.appendPatternTo(this, pattern); return this; }
+[[0.09375308 0.13004905 0.13004905 0.13004905 0.11370554 0.13004905
+ 0.05525334 0.10178289 0.0778367  0.03747226]
+[0.07856758 0.13188818 0.13188818 0.13188818 0.12037709 0.13188818
+ 0.06137009 0.09524895 0.07567285 0.04121076]
+[0.07856758 0.13188818 0.13188818 0.13188818 0.12037709 0.13188818
+ 0.06137009 0.09524895 0.07567285 0.04121076]
+[0.07856758 0.13188818 0.13188818 0.13188818 0.12037709 0.13188818
+ 0.06137009 0.09524895 0.07567285 0.04121076]
+[0.08937871 0.1180867  0.1180867  0.1180867  0.14146808 0.1180867
+ 0.0686743  0.10315478 0.07473988 0.05023748]
+[0.07856758 0.13188818 0.13188818 0.13188818 0.12037709 0.13188818
+ 0.06137009 0.09524895 0.07567285 0.04121076]
+[0.07642355 0.12763274 0.12763274 0.12763274 0.1419316  0.12763274
+ 0.05342006 0.11196359 0.06886481 0.03686548]
+[0.06801386 0.14140287 0.14140287 0.14140287 0.12106296 0.14140287
+ 0.05104847 0.10078867 0.05969316 0.03378137]
+[0.09087439 0.12875852 0.12875852 0.12875852 0.14167027 0.12875852
+ 0.04723343 0.11007007 0.05665674 0.03846104]
+[0.06521602 0.12192752 0.12192752 0.12192752 0.16779864 0.12192752
+ 0.03852998 0.14249094 0.06215446 0.0360999 ]]

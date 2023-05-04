@@ -1,0 +1,27 @@
+131424
+Test: public void test33() throws Throwable { FluentIterable<Predicate<Object>> fluentIterable0 = new FluentIterable<Predicate<Object>>(); Class<Object>[] classArray0 = (Class<Object>[]) Array.newInstance(Class.class, 2); Class<Object> class0 = Object.class; classArray0[0] = class0; Class<Object> class1 = Object.class; classArray0[1] = class1; Transformer<Object, Predicate<Object>> transformer0 = InvokerTransformer.invokerTransformer("", (Class<?>[]) classArray0, (Object[]) classArray0); FluentIterable<Predicate<Object>> fluentIterable1 = fluentIterable0.transform((Transformer<? super Predicate<Object>, ? extends Predicate<Object>>) transformer0); fluentIterable1.collate((Iterable<? extends Predicate<Object>>) fluentIterable0); ArrayList<Object> arrayList0 = new ArrayList<Object>(); FluentIterable<Object> fluentIterable2 = FluentIterable.of((Iterable<Object>) arrayList0); FluentIterable<Object> fluentIterable3 = fluentIterable2.loop(); Comparator<Object> comparator0 = (Comparator<Object>) mock(Comparator.class, new ViolatedAssumptionAnswer()); FluentIterable<Object> fluentIterable4 = fluentIterable3.collate((Iterable<?>) fluentIterable0, (Comparator<? super Object>) comparator0); ArrayDeque<String> arrayDeque0 = new ArrayDeque<String>(1446); FluentIterable<Object> fluentIterable5 = fluentIterable4.zip((Iterable<?>) arrayDeque0); Iterable<String>[] iterableArray0 = (Iterable<String>[]) Array.newInstance(Iterable.class, 4); iterableArray0[0] = (Iterable<String>) arrayDeque0; iterableArray0[1] = (Iterable<String>) arrayDeque0; iterableArray0[2] = (Iterable<String>) arrayDeque0; iterableArray0[3] = (Iterable<String>) arrayDeque0; FluentIterable<Object> fluentIterable6 = fluentIterable5.zip(iterableArray0); PriorityQueue<Object> priorityQueue0 = new PriorityQueue<Object>(1446); FluentIterable<Object> fluentIterable7 = fluentIterable6.append((Iterable<?>) priorityQueue0); // Undeclared exception!  fluentIterable7.anyMatch((Predicate<? super Object>) null);   }
+Code: public boolean anyMatch(final Predicate<? super E> predicate) { return IterableUtils.matchesAny(iterable, predicate); }
+[[0.05790017 0.133651   0.08033285 0.08033285 0.07536383 0.15135927
+ 0.08033285 0.08798125 0.06505254 0.08033285 0.08033285 0.02702771]
+[0.03888163 0.17390339 0.0720906  0.0720906  0.06673537 0.1545687
+ 0.0720906  0.11501686 0.06969406 0.0720906  0.0720906  0.02074703]
+[0.04763189 0.16159755 0.07685176 0.07685176 0.08972492 0.13885283
+ 0.07685176 0.09015038 0.05819817 0.07685176 0.07685176 0.02958549]
+[0.04763189 0.16159755 0.07685176 0.07685176 0.08972492 0.13885283
+ 0.07685176 0.09015038 0.05819817 0.07685176 0.07685176 0.02958549]
+[0.05908034 0.15787901 0.08184651 0.08184651 0.08280786 0.10626134
+ 0.08184651 0.09491575 0.06329443 0.08184651 0.08184651 0.02652875]
+[0.04688209 0.14487094 0.08597566 0.08597566 0.07503281 0.12053061
+ 0.08597566 0.10007028 0.05619972 0.08597567 0.08597567 0.02653527]
+[0.04763189 0.16159755 0.07685176 0.07685176 0.08972492 0.13885283
+ 0.07685176 0.09015038 0.05819817 0.07685176 0.07685176 0.02958549]
+[0.06371397 0.12158041 0.07648978 0.07648978 0.09150776 0.11224212
+ 0.07648978 0.11808535 0.07128145 0.07648979 0.07648979 0.03914011]
+[0.03998347 0.16555765 0.07329102 0.07329102 0.09881151 0.15773971
+ 0.07329102 0.09130177 0.05579608 0.07329102 0.07329102 0.02435472]
+[0.04763189 0.16159755 0.07685176 0.07685176 0.08972492 0.13885283
+ 0.07685176 0.09015038 0.05819817 0.07685176 0.07685176 0.02958549]
+[0.04763189 0.16159755 0.07685176 0.07685176 0.08972492 0.13885283
+ 0.07685176 0.09015038 0.05819817 0.07685176 0.07685176 0.02958549]
+[0.04146792 0.12814724 0.07289591 0.07289591 0.08061174 0.12608597
+ 0.07289591 0.13344872 0.09833698 0.07289591 0.07289591 0.02742197]]

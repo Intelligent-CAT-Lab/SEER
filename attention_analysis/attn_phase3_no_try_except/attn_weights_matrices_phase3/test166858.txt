@@ -1,0 +1,21 @@
+166858
+Test: public void test26() throws Throwable { LinkedList<Lookup> linkedList0 = new LinkedList<Lookup>(); FileSystemHandling.shouldThrowIOException((EvoSuiteFile) null); InterpolatorSpecification interpolatorSpecification0 = mock(InterpolatorSpecification.class, new ViolatedAssumptionAnswer()); doReturn((Collection) null).when(interpolatorSpecification0).getDefaultLookups(); doReturn((ConfigurationInterpolator) null).when(interpolatorSpecification0).getInterpolator(); doReturn((ConfigurationInterpolator) null).when(interpolatorSpecification0).getParentInterpolator(); doReturn((Map) null).when(interpolatorSpecification0).getPrefixLookups(); doReturn((Function) null).when(interpolatorSpecification0).getStringConverter(); ConfigurationInterpolator configurationInterpolator0 = ConfigurationInterpolator.fromSpecification(interpolatorSpecification0); configurationInterpolator0.getStringConverter(); InterpolatorSpecification interpolatorSpecification1 = mock(InterpolatorSpecification.class, new ViolatedAssumptionAnswer()); doReturn((Collection) null).when(interpolatorSpecification1).getDefaultLookups(); doReturn((ConfigurationInterpolator) null).when(interpolatorSpecification1).getInterpolator(); doReturn((ConfigurationInterpolator) null).when(interpolatorSpecification1).getParentInterpolator(); doReturn((Map) null).when(interpolatorSpecification1).getPrefixLookups(); doReturn((Function) null).when(interpolatorSpecification1).getStringConverter(); FileSystemHandling.createFolder((EvoSuiteFile) null); ConfigurationInterpolator configurationInterpolator1 = ConfigurationInterpolator.fromSpecification(interpolatorSpecification1); InterpolatorSpecification interpolatorSpecification2 = mock(InterpolatorSpecification.class, new ViolatedAssumptionAnswer()); doReturn(configurationInterpolator0, (ConfigurationInterpolator) null).when(interpolatorSpecification2).getInterpolator(); ConfigurationInterpolator configurationInterpolator2 = ConfigurationInterpolator.fromSpecification(interpolatorSpecification2); configurationInterpolator1.setParentInterpolator(configurationInterpolator2); configurationInterpolator1.getDefaultLookups(); configurationInterpolator1.resolve(")LFXV2nF c$b;qSu"); configurationInterpolator1.getStringConverter(); FileSystemHandling.shouldAllThrowIOExceptions(); configurationInterpolator1.getLookups(); configurationInterpolator1.getDefaultLookups(); configurationInterpolator1.fetchLookupForPrefix("org.apache.commons.configuration2.interpol.ConfigurationInterpolator.defaultPrefixLookups"); configurationInterpolator1.getDefaultLookups(); configurationInterpolator1.fetchLookupForPrefix(")LFXV2nF c$b;qSu"); }
+Code: protected Lookup fetchLookupForPrefix(final String prefix) { return nullSafeLookup(prefixLookups.get(prefix)); }
+[[0.1348108  0.12088299 0.12088299 0.11745532 0.0765496  0.17098391
+ 0.10383408 0.12088299 0.03371723]
+[0.14866965 0.119498   0.119498   0.12798995 0.09468965 0.13556586
+ 0.08987192 0.119498   0.04471893]
+[0.14866965 0.119498   0.119498   0.12798995 0.09468965 0.13556586
+ 0.08987192 0.119498   0.04471893]
+[0.12851258 0.12775573 0.12775573 0.10445721 0.09493355 0.15467176
+ 0.09600714 0.12775573 0.0381506 ]
+[0.15548284 0.1168987  0.1168987  0.10335676 0.08262807 0.13953537
+ 0.12718229 0.1168987  0.04111859]
+[0.152327   0.10943284 0.10943284 0.1184046  0.07317358 0.16955979
+ 0.10208544 0.10943284 0.05615108]
+[0.15800673 0.12371537 0.12371537 0.13104229 0.0713622  0.13874705
+ 0.09226967 0.12371537 0.03742587]
+[0.14866965 0.119498   0.119498   0.12798995 0.09468965 0.13556586
+ 0.08987192 0.119498   0.04471893]
+[0.12788382 0.11243668 0.11243668 0.11326997 0.06469464 0.17852129
+ 0.1408382  0.11243668 0.03748208]]

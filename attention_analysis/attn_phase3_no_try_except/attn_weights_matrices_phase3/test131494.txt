@@ -1,0 +1,17 @@
+131494
+Test: public void test12() throws Throwable { ListIterator<Object> listIterator0 = (ListIterator<Object>) mock(ListIterator.class, new ViolatedAssumptionAnswer()); doReturn((Object) null).when(listIterator0).previous(); AbstractListIteratorDecorator<Object> abstractListIteratorDecorator0 = new AbstractListIteratorDecorator<Object>(listIterator0); Object object0 = abstractListIteratorDecorator0.previous(); }
+Code: public E previous() { return iterator.previous(); }
+[[0.125782   0.18087392 0.1744813  0.156277   0.13701524 0.1744813
+ 0.05108921]
+[0.11464474 0.18298218 0.16976477 0.20050007 0.11909707 0.16976479
+ 0.04324634]
+[0.10522586 0.20309198 0.17771998 0.15524143 0.12740944 0.17771998
+ 0.05359128]
+[0.12076363 0.16291618 0.16265124 0.18419577 0.14028513 0.16265124
+ 0.06653675]
+[0.09190753 0.1807585  0.1927905  0.16008891 0.13679762 0.19279051
+ 0.04486647]
+[0.10522586 0.20309198 0.17771998 0.15524143 0.12740944 0.17771998
+ 0.05359128]
+[0.0885641  0.13144822 0.16894458 0.2084349  0.18788558 0.16894457
+ 0.04577807]]

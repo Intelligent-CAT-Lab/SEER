@@ -1,0 +1,25 @@
+131413
+Test: public void test21() throws Throwable { Locale.Category[] locale_CategoryArray0 = new Locale.Category[9]; Locale.Category locale_Category0 = Locale.Category.FORMAT; locale_CategoryArray0[0] = locale_Category0; Locale.Category locale_Category1 = Locale.Category.DISPLAY; locale_CategoryArray0[1] = locale_Category1; Locale.Category locale_Category2 = Locale.Category.FORMAT; locale_CategoryArray0[2] = locale_Category2; Locale.Category locale_Category3 = Locale.Category.FORMAT; locale_CategoryArray0[3] = locale_Category3; Locale.Category locale_Category4 = Locale.Category.FORMAT; locale_CategoryArray0[4] = locale_Category4; Locale.Category locale_Category5 = Locale.Category.FORMAT; locale_CategoryArray0[5] = locale_Category5; Locale.Category locale_Category6 = Locale.Category.DISPLAY; locale_CategoryArray0[6] = locale_Category6; Locale.Category locale_Category7 = Locale.Category.FORMAT; locale_CategoryArray0[7] = locale_Category7; Locale.Category locale_Category8 = Locale.Category.DISPLAY; locale_CategoryArray0[8] = locale_Category8; FluentIterable.of(locale_CategoryArray0); FluentIterable<Predicate<Object>> fluentIterable0 = FluentIterable.empty(); Predicate<Object>[] predicateArray0 = (Predicate<Object>[]) Array.newInstance(Predicate.class, 3); Predicate<Object> predicate0 = ExceptionPredicate.exceptionPredicate(); predicateArray0[0] = predicate0; NullIsExceptionPredicate<Object> nullIsExceptionPredicate0 = new NullIsExceptionPredicate<Object>(predicate0); predicateArray0[1] = (Predicate<Object>) nullIsExceptionPredicate0; TransformedPredicate<Object> transformedPredicate0 = new TransformedPredicate<Object>((Transformer<? super Object, ?>) null, predicate0); predicateArray0[2] = (Predicate<Object>) transformedPredicate0; FluentIterable<Predicate<Object>> fluentIterable1 = FluentIterable.of(predicateArray0); FluentIterable<Predicate<Object>> fluentIterable2 = fluentIterable0.collate((Iterable<? extends Predicate<Object>>) fluentIterable1); FluentIterable<Predicate<Object>> fluentIterable3 = fluentIterable2.reverse(); FluentIterable<Predicate<Object>> fluentIterable4 = fluentIterable3.unique(); FluentIterable<Predicate<Object>> fluentIterable5 = fluentIterable0.unmodifiable(); FluentIterable<Predicate<Object>> fluentIterable6 = fluentIterable4.zip((Iterable<? extends Predicate<Object>>) fluentIterable5); Closure<Object> closure0 = NOPClosure.nopClosure(); Closure<Object> closure1 = IfClosure.ifClosure((Predicate<? super Object>) transformedPredicate0, (Closure<? super Object>) closure0, (Closure<? super Object>) closure0); Closure<Object> closure2 = WhileClosure.whileClosure((Predicate<? super Object>) predicateArray0[1], (Closure<? super Object>) closure1, true); // Undeclared exception!  fluentIterable6.forEach(closure2);   }
+Code: public void forEach(final Closure<? super E> closure) { IterableUtils.forEach(iterable, closure); }
+[[0.06813188 0.05603222 0.09452365 0.09452365 0.0887215  0.1855902
+ 0.09452365 0.09825575 0.09452367 0.09452367 0.03065016]
+[0.05354054 0.05143262 0.09707969 0.09707969 0.08811953 0.17257065
+ 0.09707969 0.11486734 0.0970797  0.0970797  0.03407079]
+[0.05722938 0.05481026 0.09351496 0.09351496 0.10858585 0.17619649
+ 0.09351496 0.10180173 0.09351499 0.09351499 0.03380141]
+[0.05722938 0.05481026 0.09351496 0.09351496 0.10858585 0.17619649
+ 0.09351496 0.10180173 0.09351499 0.09351499 0.03380141]
+[0.07093881 0.05697104 0.09970255 0.09970255 0.09999173 0.13540095
+ 0.09970255 0.10721697 0.09970257 0.09970257 0.03096771]
+[0.05450678 0.05018737 0.1027569  0.1027569  0.08934422 0.1509637
+ 0.1027569  0.11132321 0.10275693 0.10275693 0.02989023]
+[0.05722938 0.05481026 0.09351496 0.09351496 0.10858585 0.17619649
+ 0.09351496 0.10180173 0.09351499 0.09351499 0.03380141]
+[0.07265414 0.0644467  0.08984107 0.08984107 0.10561633 0.135795
+ 0.08984107 0.12878384 0.08984108 0.08984108 0.04349873]
+[0.05722938 0.05481026 0.09351498 0.09351498 0.10858583 0.17619647
+ 0.09351498 0.10180174 0.09351498 0.09351498 0.03380142]
+[0.05722938 0.05481026 0.09351498 0.09351498 0.10858583 0.17619647
+ 0.09351498 0.10180174 0.09351498 0.09351498 0.03380142]
+[0.05085648 0.04986531 0.09039749 0.09039749 0.09797417 0.1587472
+ 0.09039749 0.15790103 0.09039751 0.09039751 0.03266836]]

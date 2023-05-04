@@ -1,31 +1,45 @@
 69329
 Test: public void test511() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest1.test511"); org.jsoup.parser.HtmlTreeBuilder htmlTreeBuilder0 = new org.jsoup.parser.HtmlTreeBuilder(); htmlTreeBuilder0.generateImpliedEndTags(); org.jsoup.parser.ParseErrorList parseErrorList2 = htmlTreeBuilder0.errors; java.util.ArrayList<org.jsoup.nodes.Element> elementList3 = htmlTreeBuilder0.getStack(); org.jsoup.parser.HtmlTreeBuilder htmlTreeBuilder4 = new org.jsoup.parser.HtmlTreeBuilder(); java.util.List<java.lang.String> strList5 = htmlTreeBuilder4.getPendingTableCharacters(); org.jsoup.parser.HtmlTreeBuilderState htmlTreeBuilderState6 = org.jsoup.parser.HtmlTreeBuilderState.InTableBody; htmlTreeBuilder4.transition(htmlTreeBuilderState6); org.jsoup.parser.Parser parser8 = new org.jsoup.parser.Parser((org.jsoup.parser.TreeBuilder) htmlTreeBuilder4); org.jsoup.nodes.Element element9 = null; htmlTreeBuilder4.removeFromActiveFormattingElements(element9); htmlTreeBuilder4.newPendingTableCharacters(); java.util.ArrayList<org.jsoup.nodes.Element> elementList12 = htmlTreeBuilder4.stack; org.jsoup.select.Evaluator.ContainsOwnText containsOwnText15 = new org.jsoup.select.Evaluator.ContainsOwnText("[]"); org.jsoup.nodes.Document document18 = org.jsoup.parser.Parser.parse("SYSTEM", ":last-of-type"); org.jsoup.nodes.Document document21 = org.jsoup.Jsoup.parseBodyFragment("#text", "#text"); boolean boolean23 = document21.hasClass("hi!"); org.jsoup.nodes.Document document24 = document21.clone(); org.jsoup.nodes.Element element26 = document21.tagName(":root"); boolean boolean27 = containsOwnText15.matches((org.jsoup.nodes.Element) document18, (org.jsoup.nodes.Element) document21); org.jsoup.nodes.Element element28 = document21.clone(); org.jsoup.parser.ParseErrorList parseErrorList31 = org.jsoup.parser.ParseErrorList.tracking((int) (byte) 100); org.jsoup.parser.ParseSettings parseSettings34 = new org.jsoup.parser.ParseSettings(false, false); java.util.List<org.jsoup.nodes.Node> nodeList35 = htmlTreeBuilder4.parseFragment("", (org.jsoup.nodes.Element) document21, "hi!", parseErrorList31, parseSettings34); htmlTreeBuilder0.settings = parseSettings34; org.jsoup.nodes.Document document37 = htmlTreeBuilder0.getDocument(); org.jsoup.parser.Token.Comment comment38 = new org.jsoup.parser.Token.Comment(); java.lang.StringBuilder stringBuilder39 = comment38.data; java.lang.String str40 = comment38.toString(); java.lang.StringBuilder stringBuilder41 = comment38.data; org.jsoup.parser.Token token42 = comment38.reset(); boolean boolean43 = comment38.isStartTag(); try { htmlTreeBuilder0.insert(comment38); } catch (java.lang.IllegalArgumentException e) { } }
 Code: static void reset(StringBuilder sb) { if (sb != null) { sb.delete(0, sb.length()); } }
-tensor([[0.1450, 0.0364, 0.1187, 0.0386, 0.0820, 0.1771, 0.0423, 0.0357, 0.0339,
-         0.0820, 0.1088, 0.0506, 0.0244, 0.0244],
-        [0.1464, 0.0414, 0.1754, 0.0522, 0.0633, 0.1811, 0.0311, 0.0277, 0.0284,
-         0.0633, 0.0938, 0.0546, 0.0207, 0.0207],
-        [0.1227, 0.0319, 0.1319, 0.0427, 0.0788, 0.2367, 0.0402, 0.0214, 0.0270,
-         0.0788, 0.1108, 0.0510, 0.0131, 0.0131],
-        [0.1847, 0.0346, 0.1621, 0.0457, 0.0540, 0.1621, 0.0459, 0.0273, 0.0304,
-         0.0540, 0.0966, 0.0603, 0.0211, 0.0211],
-        [0.1320, 0.0531, 0.1409, 0.0602, 0.0795, 0.1114, 0.0412, 0.0408, 0.0450,
-         0.0795, 0.0976, 0.0556, 0.0315, 0.0315],
-        [0.1842, 0.0284, 0.1689, 0.0384, 0.0551, 0.2327, 0.0308, 0.0129, 0.0174,
-         0.0551, 0.1124, 0.0438, 0.0099, 0.0099],
-        [0.1569, 0.0466, 0.1186, 0.0363, 0.0725, 0.1979, 0.0478, 0.0281, 0.0321,
-         0.0725, 0.0987, 0.0611, 0.0154, 0.0154],
-        [0.1919, 0.0304, 0.1556, 0.0332, 0.0644, 0.1655, 0.0364, 0.0174, 0.0273,
-         0.0644, 0.1308, 0.0530, 0.0148, 0.0148],
-        [0.1567, 0.0341, 0.1238, 0.0379, 0.0720, 0.2160, 0.0455, 0.0232, 0.0319,
-         0.0720, 0.1123, 0.0487, 0.0130, 0.0130],
-        [0.1320, 0.0531, 0.1409, 0.0602, 0.0795, 0.1114, 0.0412, 0.0408, 0.0450,
-         0.0795, 0.0976, 0.0556, 0.0315, 0.0315],
-        [0.1751, 0.0365, 0.1501, 0.0443, 0.0617, 0.1920, 0.0401, 0.0214, 0.0268,
-         0.0617, 0.1090, 0.0479, 0.0167, 0.0167],
-        [0.1547, 0.0432, 0.1379, 0.0469, 0.0589, 0.1665, 0.0418, 0.0429, 0.0368,
-         0.0589, 0.1095, 0.0580, 0.0220, 0.0220],
-        [0.1499, 0.0391, 0.1370, 0.0418, 0.0800, 0.1702, 0.0467, 0.0295, 0.0303,
-         0.0800, 0.1011, 0.0562, 0.0191, 0.0191],
-        [0.1499, 0.0391, 0.1370, 0.0418, 0.0800, 0.1702, 0.0467, 0.0295, 0.0303,
-         0.0800, 0.1011, 0.0562, 0.0191, 0.0191]])
+[[0.14503296 0.03643813 0.11866269 0.03864246 0.08200154 0.17708413
+ 0.04229499 0.03570885 0.03390016 0.08200154 0.10884787 0.05057024
+ 0.02440721 0.02440721]
+[0.14636108 0.04141301 0.17538743 0.05219591 0.06329644 0.18107454
+ 0.03114135 0.02770025 0.02840972 0.06329643 0.09381934 0.05455264
+ 0.02067593 0.02067593]
+[0.12274542 0.0318549  0.1318935  0.04267706 0.07884271 0.23666069
+ 0.04016453 0.02135354 0.02701475 0.07884271 0.11079033 0.05099975
+ 0.01308007 0.01308007]
+[0.18468371 0.03459965 0.16209257 0.04572215 0.05401901 0.16213046
+ 0.04592855 0.0273367  0.03038546 0.05401902 0.09661777 0.06030152
+ 0.02108172 0.02108172]
+[0.13202618 0.05309669 0.1408767  0.06018074 0.07953728 0.11143029
+ 0.04121268 0.04080378 0.04504574 0.07953729 0.09758877 0.05561671
+ 0.03152359 0.03152359]
+[0.18421403 0.02842805 0.16889589 0.03837277 0.05509222 0.23271292
+ 0.03079893 0.01293499 0.01737813 0.05509221 0.1124254  0.04384475
+ 0.00990485 0.00990485]
+[0.156895   0.04658952 0.11859396 0.03628499 0.07245583 0.19789073
+ 0.0477917  0.02813286 0.03213881 0.07245584 0.09873523 0.06114188
+ 0.01544682 0.01544682]
+[0.19194114 0.03036296 0.15562907 0.03322241 0.06444786 0.1654661
+ 0.03635633 0.01742125 0.02733419 0.06444786 0.13080451 0.05299453
+ 0.01478587 0.01478587]
+[0.15672164 0.03409771 0.12379961 0.03791271 0.07197427 0.21603727
+ 0.04554868 0.02316708 0.03187697 0.07197427 0.11228213 0.04867547
+ 0.01296605 0.01296605]
+[0.13202618 0.05309669 0.1408767  0.06018074 0.07953728 0.11143029
+ 0.04121268 0.04080378 0.04504574 0.07953729 0.09758877 0.05561671
+ 0.03152359 0.03152359]
+[0.17507061 0.03654018 0.15013343 0.04431912 0.06165536 0.19203445
+ 0.04010829 0.02140762 0.02675379 0.06165536 0.10898627 0.04789769
+ 0.01671894 0.01671894]
+[0.15468036 0.04324909 0.13788609 0.0469308  0.05889443 0.1665219
+ 0.04183749 0.04290183 0.03677937 0.05889443 0.10952769 0.05795204
+ 0.02197222 0.02197222]
+[0.14988866 0.03909321 0.13703695 0.04176921 0.08002498 0.17017917
+ 0.04672186 0.02946148 0.03032075 0.08002498 0.10106418 0.0562133
+ 0.01910063 0.01910063]
+[0.14988866 0.03909321 0.13703695 0.04176921 0.08002498 0.17017917
+ 0.04672186 0.02946148 0.03032075 0.08002498 0.10106418 0.0562133
+ 0.01910063 0.01910063]]

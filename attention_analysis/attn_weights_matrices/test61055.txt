@@ -1,10 +1,17 @@
 61055
 Test: public void test641() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest1.test641"); java.lang.String[] strArray5 = new java.lang.String[] { "\u2029", "\u2029", "hi!", "\u2029", "\u2029" }; java.util.Map<java.lang.String, java.lang.Integer> strMap6 = null; org.apache.commons.csv.CSVRecord cSVRecord9 = new org.apache.commons.csv.CSVRecord(strArray5, strMap6, "hi!", (long) (byte) 100); boolean boolean10 = cSVRecord9.isConsistent(); boolean boolean12 = cSVRecord9.isMapped("\u2029"); java.lang.String str13 = cSVRecord9.toString(); int int14 = cSVRecord9.size(); java.util.Iterator<java.lang.String> strItor15 = cSVRecord9.iterator(); java.util.Spliterator<java.lang.String> strSpliterator16 = cSVRecord9.spliterator(); java.util.Iterator<java.lang.String> strItor17 = cSVRecord9.iterator(); boolean boolean19 = cSVRecord9.isMapped("\u2029\u2029\u2029\u2029], Delimiter=<,> QuoteChar=<\"> RecordSeparator=<\r\n\u2029\u2029\u2029\u2029\u2029\u2029\u2029\u2029]]"); java.lang.String[] strArray20 = cSVRecord9.values(); java.util.Map<java.lang.String, java.lang.Integer> strMap21 = null; org.apache.commons.csv.CSVRecord cSVRecord24 = new org.apache.commons.csv.CSVRecord(strArray20, strMap21, "[INVALID []]", (long) '\f'); boolean boolean26 = cSVRecord24.isSet("\u2029\u2029\u2029\u2029], Delimiter=<,> QuoteChar=<\"> RecordSeparator=<\r\n\u2029\u2029\u2029\u2029\u2029\u2029\u2029\u2029]]"); int int27 = cSVRecord24.size(); }
 Code: public Iterator<String> iterator() { return toList().iterator(); }
-tensor([[0.1813, 0.1146, 0.1325, 0.1826, 0.1922, 0.1325, 0.0643],
-        [0.1662, 0.1128, 0.1148, 0.2453, 0.2159, 0.1035, 0.0414],
-        [0.1723, 0.1287, 0.1312, 0.2159, 0.2193, 0.0800, 0.0526],
-        [0.1557, 0.1429, 0.1240, 0.1918, 0.1869, 0.1218, 0.0770],
-        [0.1444, 0.1463, 0.1421, 0.1901, 0.2254, 0.0949, 0.0568],
-        [0.1528, 0.1383, 0.1063, 0.2174, 0.2435, 0.0927, 0.0490],
-        [0.1342, 0.1430, 0.0991, 0.2273, 0.2592, 0.0825, 0.0546]])
+[[0.1812854  0.11461314 0.13251834 0.18259686 0.19220923 0.13247323
+ 0.06430378]
+[0.16620386 0.11281678 0.11482486 0.24532959 0.21590522 0.10347968
+ 0.04143997]
+[0.17234041 0.1286773  0.13115087 0.21587856 0.21932235 0.08002666
+ 0.0526039 ]
+[0.15572537 0.1428858  0.12397139 0.19175915 0.18687874 0.12181467
+ 0.07696486]
+[0.14437567 0.14634565 0.14214584 0.19006488 0.22543183 0.0948706
+ 0.05676553]
+[0.1528409  0.13828143 0.10628543 0.21742824 0.24350712 0.09268016
+ 0.04897677]
+[0.13423805 0.14301783 0.09911649 0.22732863 0.25917014 0.08253807
+ 0.05459078]]

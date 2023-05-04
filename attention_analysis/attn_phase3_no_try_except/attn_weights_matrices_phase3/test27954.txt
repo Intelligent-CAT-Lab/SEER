@@ -1,0 +1,19 @@
+27954
+Test: public void test29() throws Throwable { Vector2D.Unit vector2D_Unit0 = Vector2D.Unit.from((-268.656), (-268.656)); RegionBSPTree2D.PartitionedRegionBuilder2D regionBSPTree2D_PartitionedRegionBuilder2D0 = RegionBSPTree2D.partitionedRegionBuilder(); Precision.DoubleEquivalence precision_DoubleEquivalence0 = mock(Precision.DoubleEquivalence.class, new ViolatedAssumptionAnswer()); Line line0 = new Line(vector2D_Unit0, 1.0, precision_DoubleEquivalence0); ArrayList<Ray> arrayList0 = new ArrayList<Ray>(); Ray ray0 = line0.rayFrom((Vector2D) vector2D_Unit0); arrayList0.add(ray0); RegionBSPTree2D.PartitionedRegionBuilder2D regionBSPTree2D_PartitionedRegionBuilder2D1 = regionBSPTree2D_PartitionedRegionBuilder2D0.insertBoundaries((Iterable<? extends LineConvexSubset>) arrayList0); }
+Code: public void add(final ConvexArea area) { union(area.toTree()); }
+[[0.11128984 0.08866034 0.15437749 0.15437749 0.15437749 0.13750468
+ 0.15437749 0.04503515]
+[0.08380216 0.0750215  0.15995298 0.15995298 0.15995298 0.15465282
+ 0.15995298 0.04671162]
+[0.09391071 0.08228534 0.1576162  0.1576162  0.1576162  0.14403921
+ 0.1576162  0.04929995]
+[0.09391071 0.08228534 0.1576162  0.1576162  0.1576162  0.14403921
+ 0.1576162  0.04929995]
+[0.09391071 0.08228534 0.1576162  0.1576162  0.1576162  0.14403921
+ 0.1576162  0.04929995]
+[0.10764715 0.09389572 0.1412242  0.1412242  0.1412242  0.17262238
+ 0.1412242  0.06093798]
+[0.09391071 0.08228534 0.1576162  0.1576162  0.1576162  0.14403921
+ 0.1576162  0.04929995]
+[0.07925351 0.07469707 0.14613718 0.14613718 0.14613718 0.21566801
+ 0.14613718 0.04583269]]

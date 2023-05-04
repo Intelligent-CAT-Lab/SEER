@@ -1,0 +1,2 @@
+31710
+Test: public void test47() throws Throwable { MockFile mockFile0 = new MockFile("erNiKctW%", "erNiKctW%"); // Undeclared exception!  FileUtil.deleteDir(mockFile0);   }

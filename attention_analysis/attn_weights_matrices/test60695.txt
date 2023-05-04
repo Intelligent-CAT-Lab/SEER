@@ -1,10 +1,290 @@
 60695
 Test: public void testBackslashEscapingOld() throws IOException { final String code = "one,two,three\n" + "on\\\"e,two\n" + "on\"e,two\n" + "one,\"tw\\\"o\"\n" + "one,\"t\\,wo\"\n" + "one,two,\"th,ree\"\n" + "\"a\\\\\"\n" + "a\\,b\n" + "\"a\\\\,b\""; final String[][] res = { { "one", "two", "three" }, { "on\\\"e", "two" }, { "on\"e", "two" }, { "one", "tw\"o" }, { "one", "t\\,wo" }, { "one", "two", "th,ree" }, { "a\\\\" }, { "a\\", "b" }, { "a\\\\,b" } }; try (final CSVParser parser = CSVParser.parse(code, CSVFormat.DEFAULT)) { final List<CSVRecord> records = parser.getRecords(); for (int i = 0; i < res.length; i++) { } } } @Test @Ignore("CSV-107") public void testBOM() throws IOException { final URL url = ClassLoader.getSystemClassLoader().getResource("CSVFileParser/bom.csv"); try (final CSVParser parser = CSVParser.parse(url, Charset.forName(UTF_8_NAME), CSVFormat.EXCEL.withHeader())) { for (final CSVRecord record : parser) { final String string = record.get("Date"); } } } @Test public void testBOMInputStream_ParserWithReader() {} @Test public void testBOMInputStream_parseWithReader() {} @Test public void testBOMInputStream_ParserWithInputStream() {} @Test public void testCarriageReturnEndings() throws IOException { final String code = "foo\rbaar,\rhello,world\r,kanu"; try (final CSVParser parser = CSVParser.parse(code, CSVFormat.DEFAULT)) { final List<CSVRecord> records = parser.getRecords(); } } @Test public void testCarriageReturnLineFeedEndings() throws IOException { final String code = "foo\r\nbaar,\r\nhello,world\r\n,kanu"; try (final CSVParser parser = CSVParser.parse(code, CSVFormat.DEFAULT)) { final List<CSVRecord> records = parser.getRecords(); } } @Test public void testFirstEndOfLineCrLf() throws IOException { final String data = "foo\r\nbaar,\r\nhello,world\r\n,kanu"; try (final CSVParser parser = CSVParser.parse(data, CSVFormat.DEFAULT)) { final List<CSVRecord> records = parser.getRecords(); } } @Test public void testFirstEndOfLineLf() throws IOException { final String data = "foo\nbaar,\nhello,world\n,kanu"; try (final CSVParser parser = CSVParser.parse(data, CSVFormat.DEFAULT)) { final List<CSVRecord> records = parser.getRecords(); } } @Test public void testFirstEndOfLineCr() throws IOException { final String data = "foo\rbaar,\rhello,world\r,kanu"; try (final CSVParser parser = CSVParser.parse(data, CSVFormat.DEFAULT)) { final List<CSVRecord> records = parser.getRecords(); } } @Test(expected = NoSuchElementException.class) public void testClose() throws Exception { final Reader in = new StringReader("# comment\na,b,c\n1,2,3\nx,y,z"); final Iterator<CSVRecord> records; try (final CSVParser parser = CSVFormat.DEFAULT.withCommentMarker('#').withHeader().parse(in)) { records = parser.iterator(); } records.next(); } @Test public void testCSV57() throws Exception { try (final CSVParser parser = CSVParser.parse("", CSVFormat.DEFAULT)) { final List<CSVRecord> list = parser.getRecords(); } } @Test public void testDefaultFormat() throws IOException { final String code = "" + "a,b#\n" + "\"\n\",\" \",#\n" + "#,\"\"\n" + "# Final comment\n" ; final String[][] res = { { "a", "b#" }, { "\n", " ", "#" }, { "#", "" }, { "# Final comment" } }; CSVFormat format = CSVFormat.DEFAULT; final String[][] res_comments = { { "a", "b#" }, { "\n", " ", "#" }, }; try (final CSVParser parser = CSVParser.parse(code, format)) { final List<CSVRecord> records = parser.getRecords(); Utils.compare("Failed to parse without comments", res, records); format = CSVFormat.DEFAULT.withCommentMarker('#'); } try (final CSVParser parser = CSVParser.parse(code, format)) { final List<CSVRecord> records = parser.getRecords(); Utils.compare("Failed to parse with comments", res_comments, records); } } @Test(expected = IllegalArgumentException.class) public void testDuplicateHeaders() throws Exception { CSVParser.parse("a,b,a\n1,2,3\nx,y,z", CSVFormat.DEFAULT.withHeader(new String[] {})); } @Test public void testEmptyFile() throws Exception { try (final CSVParser parser = CSVParser.parse("", CSVFormat.DEFAULT)) { } } @Test public void testEmptyLineBehaviourCSV() throws Exception { final String[] codes = { "hello,\r\n\r\n\r\n", "hello,\n\n\n", "hello,\"\"\r\n\r\n\r\n", "hello,\"\"\n\n\n" }; final String[][] res = { { "hello", "" } }; for (final String code : codes) { try (final CSVParser parser = CSVParser.parse(code, CSVFormat.DEFAULT)) { final List<CSVRecord> records = parser.getRecords(); for (int i = 0; i < res.length; i++) { } } } } @Test public void testEmptyLineBehaviourExcel() throws Exception { final String[] codes = { "hello,\r\n\r\n\r\n", "hello,\n\n\n", "hello,\"\"\r\n\r\n\r\n", "hello,\"\"\n\n\n" }; final String[][] res = { { "hello", "" }, { "" }, { "" } }; for (final String code : codes) { try (final CSVParser parser = CSVParser.parse(code, CSVFormat.EXCEL)) { final List<CSVRecord> records = parser.getRecords(); for (int i = 0; i < res.length; i++) { } } } } @Test public void testEndOfFileBehaviorCSV() throws Exception { final String[] codes = { "hello,\r\n\r\nworld,\r\n", "hello,\r\n\r\nworld,", "hello,\r\n\r\nworld,\"\"\r\n", "hello,\r\n\r\nworld,\"\"", "hello,\r\n\r\nworld,\n", "hello,\r\n\r\nworld,", "hello,\r\n\r\nworld,\"\"\n", "hello,\r\n\r\nworld,\"\"" }; final String[][] res = { { "hello", "" }, { "world", "" } }; for (final String code : codes) { try (final CSVParser parser = CSVParser.parse(code, CSVFormat.DEFAULT)) { final List<CSVRecord> records = parser.getRecords(); for (int i = 0; i < res.length; i++) { } } } } @Test public void testEndOfFileBehaviourExcel() throws Exception { final String[] codes = { "hello,\r\n\r\nworld,\r\n", "hello,\r\n\r\nworld,", "hello,\r\n\r\nworld,\"\"\r\n", "hello,\r\n\r\nworld,\"\"", "hello,\r\n\r\nworld,\n", "hello,\r\n\r\nworld,", "hello,\r\n\r\nworld,\"\"\n", "hello,\r\n\r\nworld,\"\"" }; final String[][] res = { { "hello", "" }, { "" }, { "world", "" } }; for (final String code : codes) { try (final CSVParser parser = CSVParser.parse(code, CSVFormat.EXCEL)) { final List<CSVRecord> records = parser.getRecords(); for (int i = 0; i < res.length; i++) { } } } } @Test public void testExcelFormat1() throws IOException { final String code = "value1,value2,value3,value4\r\na,b,c,d\r\n x,,," + "\r\n\r\n\"\"\"hello\"\"\",\" \"\"world\"\"\",\"abc\ndef\",\r\n"; final String[][] res = { { "value1", "value2", "value3", "value4" }, { "a", "b", "c", "d" }, { " x", "", "", "" }, { "" }, { "\"hello\"", " \"world\"", "abc\ndef", "" } }; try (final CSVParser parser = CSVParser.parse(code, CSVFormat.EXCEL)) { final List<CSVRecord> records = parser.getRecords(); for (int i = 0; i < res.length; i++) { } } } @Test public void testExcelFormat2() throws Exception { final String code = "foo,baar\r\n\r\nhello,\r\n\r\nworld,\r\n"; final String[][] res = { { "foo", "baar" }, { "" }, { "hello", "" }, { "" }, { "world", "" } }; try (final CSVParser parser = CSVParser.parse(code, CSVFormat.EXCEL)) { final List<CSVRecord> records = parser.getRecords(); for (int i = 0; i < res.length; i++) { } } } @Test public void testExcelHeaderCountLessThanData() throws Exception { final String code = "A,B,C,,\r\na,b,c,d,e\r\n"; try (final CSVParser parser = CSVParser.parse(code, CSVFormat.EXCEL.withHeader())) { for (final CSVRecord record : parser.getRecords()) { } } } @Test public void testForEach() throws Exception { final List<CSVRecord> records = new ArrayList<>(); try (final Reader in = new StringReader("a,b,c\n1,2,3\nx,y,z")) { for (final CSVRecord record : CSVFormat.DEFAULT.parse(in)) { records.add(record); } } } @Test public void testGetHeaderMap() throws Exception { try (final CSVParser parser = CSVParser.parse("a,b,c\n1,2,3\nx,y,z", CSVFormat.DEFAULT.withHeader("A", "B", "C"))) { final Map<String, Integer> headerMap = parser.getHeaderMap(); final Iterator<String> columnNames = headerMap.keySet().iterator(); final Iterator<CSVRecord> records = parser.iterator(); for (int i = 0; i < 3; i++) { final CSVRecord record = records.next(); } } } @Test public void testGetLine() throws IOException { try (final CSVParser parser = CSVParser.parse(CSV_INPUT, CSVFormat.DEFAULT.withIgnoreSurroundingSpaces())) { for (final String[] re : RESULT) { } } } @Test public void testGetLineNumberWithCR() throws Exception { this.validateLineNumbers(String.valueOf(CR)); } @Test public void testGetLineNumberWithCRLF() throws Exception { this.validateLineNumbers(CRLF); } @Test public void testGetLineNumberWithLF() throws Exception { this.validateLineNumbers(String.valueOf(LF)); } @Test public void testGetOneLine() throws IOException { try (final CSVParser parser = CSVParser.parse(CSV_INPUT_1, CSVFormat.DEFAULT)) { final CSVRecord record = parser.getRecords().get(0); } } @Test public void testGetOneLineOneParser() throws IOException { final CSVFormat format = CSVFormat.DEFAULT; try (final PipedWriter writer = new PipedWriter(); final CSVParser parser = new CSVParser(new PipedReader(writer), format)) { writer.append(CSV_INPUT_1); writer.append(format.getRecordSeparator()); final CSVRecord record1 = parser.nextRecord(); writer.append(CSV_INPUT_2); writer.append(format.getRecordSeparator()); final CSVRecord record2 = parser.nextRecord(); } } @Test public void testGetRecordNumberWithCR() throws Exception { this.validateRecordNumbers(String.valueOf(CR)); } @Test public void testGetRecordNumberWithCRLF() throws Exception { this.validateRecordNumbers(CRLF); } @Test public void testGetRecordNumberWithLF() throws Exception { this.validateRecordNumbers(String.valueOf(LF)); } @Test public void testGetRecordPositionWithCRLF() throws Exception { this.validateRecordPosition(CRLF); } @Test public void testGetRecordPositionWithLF() throws Exception { this.validateRecordPosition(String.valueOf(LF)); } @Test public void testGetRecords() throws IOException { try (final CSVParser parser = CSVParser.parse(CSV_INPUT, CSVFormat.DEFAULT.withIgnoreSurroundingSpaces())) { final List<CSVRecord> records = parser.getRecords(); for (int i = 0; i < RESULT.length; i++) { } } } @Test public void testGetRecordWithMultiLineValues() throws Exception { try (final CSVParser parser = CSVParser.parse( "\"a\r\n1\",\"a\r\n2\"" + CRLF + "\"b\r\n1\",\"b\r\n2\"" + CRLF + "\"c\r\n1\",\"c\r\n2\"", CSVFormat.DEFAULT.withRecordSeparator(CRLF))) { CSVRecord record; } } @Test public void testHeader() throws Exception { final Reader in = new StringReader("a,b,c\n1,2,3\nx,y,z"); final Iterator<CSVRecord> records = CSVFormat.DEFAULT.withHeader().parse(in).iterator(); for (int i = 0; i < 2; i++) { final CSVRecord record = records.next(); } } @Test public void testHeaderComment() throws Exception { final Reader in = new StringReader("# comment\na,b,c\n1,2,3\nx,y,z"); final Iterator<CSVRecord> records = CSVFormat.DEFAULT.withCommentMarker('#').withHeader().parse(in).iterator(); for (int i = 0; i < 2; i++) { final CSVRecord record = records.next(); } } @Test public void testHeaderMissing() throws Exception { final Reader in = new StringReader("a,,c\n1,2,3\nx,y,z"); final Iterator<CSVRecord> records = CSVFormat.DEFAULT.withHeader().parse(in).iterator(); for (int i = 0; i < 2; i++) { final CSVRecord record = records.next(); } } @Test public void testHeaderMissingWithNull() throws Exception { final Reader in = new StringReader("a,,c,,d\n1,2,3,4\nx,y,z,zz"); CSVFormat.DEFAULT.withHeader().withNullString("").withAllowMissingColumnNames().parse(in).iterator(); } @Test public void testHeadersMissing() throws Exception { final Reader in = new StringReader("a,,c,,d\n1,2,3,4\nx,y,z,zz"); CSVFormat.DEFAULT.withHeader().withAllowMissingColumnNames().parse(in).iterator(); } @Test(expected = IllegalArgumentException.class) public void testHeadersMissingException() throws Exception { final Reader in = new StringReader("a,,c,,d\n1,2,3,4\nx,y,z,zz"); CSVFormat.DEFAULT.withHeader().parse(in).iterator(); } @Test public void testIgnoreCaseHeaderMapping() throws Exception { final Reader in = new StringReader("1,2,3"); final Iterator<CSVRecord> records = CSVFormat.DEFAULT.withHeader("One", "TWO", "three").withIgnoreHeaderCase() .parse(in).iterator(); final CSVRecord record = records.next(); } @Test public void testIgnoreEmptyLines() throws IOException { final String code = "\nfoo,baar\n\r\n,\n\n,world\r\n\n"; try (final CSVParser parser = CSVParser.parse(code, CSVFormat.DEFAULT)) { final List<CSVRecord> records = parser.getRecords(); } } @Test(expected = IllegalArgumentException.class) public void testInvalidFormat() throws Exception { final CSVFormat invalidFormat = CSVFormat.DEFAULT.withDelimiter(CR); try (final CSVParser parser = new CSVParser(null, invalidFormat)) { } } @Test public void testIterator() throws Exception { final Reader in = new StringReader("a,b,c\n1,2,3\nx,y,z"); final Iterator<CSVRecord> iterator = CSVFormat.DEFAULT.parse(in).iterator(); try { iterator.remove(); fail("expected UnsupportedOperationException"); } catch (final UnsupportedOperationException expected) { } try { iterator.next(); fail("NoSuchElementException expected"); } catch (final NoSuchElementException e) { } } @Test public void testLineFeedEndings() throws IOException { final String code = "foo\nbaar,\nhello,world\n,kanu"; try (final CSVParser parser = CSVParser.parse(code, CSVFormat.DEFAULT)) { final List<CSVRecord> records = parser.getRecords(); } } @Test public void testMappedButNotSetAsOutlook2007ContactExport() throws Exception { final Reader in = new StringReader("a,b,c\n1,2\nx,y,z"); final Iterator<CSVRecord> records = CSVFormat.DEFAULT.withHeader("A", "B", "C").withSkipHeaderRecord().parse(in) .iterator(); CSVRecord record; record = records.next(); record = records.next(); } @Test public void testMultipleIterators() throws Exception { try (final CSVParser parser = CSVParser.parse("a,b,c" + CR + "d,e,f", CSVFormat.DEFAULT)) { final Iterator<CSVRecord> itr1 = parser.iterator(); final Iterator<CSVRecord> itr2 = parser.iterator(); final CSVRecord first = itr1.next(); final CSVRecord second = itr2.next(); } } @Test(expected = IllegalArgumentException.class) public void testNewCSVParserNullReaderFormat() throws Exception { try (final CSVParser parser = new CSVParser(null, CSVFormat.DEFAULT)) { } } @Test(expected = IllegalArgumentException.class) public void testNewCSVParserReaderNullFormat() throws Exception { try (final CSVParser parser = new CSVParser(new StringReader(""), null)) { } } @Test public void testNoHeaderMap() throws Exception { try (final CSVParser parser = CSVParser.parse("a,b,c\n1,2,3\nx,y,z", CSVFormat.DEFAULT)) { } } @Test(expected = IllegalArgumentException.class) public void testParseFileNullFormat() throws Exception { CSVParser.parse(new File(""), Charset.defaultCharset(), null); } @Test(expected = IllegalArgumentException.class) public void testParseNullFileFormat() throws Exception { CSVParser.parse((File) null, Charset.defaultCharset(), CSVFormat.DEFAULT); } @Test(expected = IllegalArgumentException.class) public void testParseNullStringFormat() throws Exception { CSVParser.parse((String) null, CSVFormat.DEFAULT); } @Test(expected = IllegalArgumentException.class) public void testParseNullUrlCharsetFormat() throws Exception { CSVParser.parse((File) null, Charset.defaultCharset(), CSVFormat.DEFAULT); } @Test(expected = IllegalArgumentException.class) public void testParserUrlNullCharsetFormat() throws Exception { try (final CSVParser parser = CSVParser.parse(new URL("http: } } @Test(expected = IllegalArgumentException.class) public void testParseStringNullFormat() throws Exception { CSVParser.parse("csv data", null); } @Test(expected = IllegalArgumentException.class) public void testParseUrlCharsetNullFormat() throws Exception { try (final CSVParser parser = CSVParser.parse(new URL("http: } } @Test public void testProvidedHeader() throws Exception { final Reader in = new StringReader("a,b,c\n1,2,3\nx,y,z"); final Iterator<CSVRecord> records = CSVFormat.DEFAULT.withHeader("A", "B", "C").parse(in).iterator(); for (int i = 0; i < 3; i++) { final CSVRecord record = records.next(); } } @Test public void testProvidedHeaderAuto() throws Exception { final Reader in = new StringReader("a,b,c\n1,2,3\nx,y,z"); final Iterator<CSVRecord> records = CSVFormat.DEFAULT.withHeader().parse(in).iterator(); for (int i = 0; i < 2; i++) { final CSVRecord record = records.next(); } } @Test public void testRoundtrip() throws Exception { final StringWriter out = new StringWriter(); try (final CSVPrinter printer = new CSVPrinter(out, CSVFormat.DEFAULT)) { final String input = "a,b,c\r\n1,2,3\r\nx,y,z\r\n"; for (final CSVRecord record : CSVParser.parse(input, CSVFormat.DEFAULT)) { printer.printRecord(record); } } } @Test public void testSkipAutoHeader() throws Exception { final Reader in = new StringReader("a,b,c\n1,2,3\nx,y,z"); final Iterator<CSVRecord> records = CSVFormat.DEFAULT.withHeader().parse(in).iterator(); final CSVRecord record = records.next(); } @Test public void testSkipHeaderOverrideDuplicateHeaders() throws Exception { final Reader in = new StringReader("a,a,a\n1,2,3\nx,y,z"); final Iterator<CSVRecord> records = CSVFormat.DEFAULT.withHeader("X", "Y", "Z").withSkipHeaderRecord().parse(in) .iterator(); final CSVRecord record = records.next(); } @Test public void testSkipSetAltHeaders() throws Exception { final Reader in = new StringReader("a,b,c\n1,2,3\nx,y,z"); final Iterator<CSVRecord> records = CSVFormat.DEFAULT.withHeader("X", "Y", "Z").withSkipHeaderRecord().parse(in) .iterator(); final CSVRecord record = records.next(); } @Test public void testSkipSetHeader() throws Exception { final Reader in = new StringReader("a,b,c\n1,2,3\nx,y,z"); final Iterator<CSVRecord> records = CSVFormat.DEFAULT.withHeader("a", "b", "c").withSkipHeaderRecord().parse(in) .iterator(); final CSVRecord record = records.next(); } @Test @Ignore public void testStartWithEmptyLinesThenHeaders() throws Exception { final String[] codes = { "\r\n\r\n\r\nhello,\r\n\r\n\r\n", "hello,\n\n\n", "hello,\"\"\r\n\r\n\r\n", "hello,\"\"\n\n\n" }; final String[][] res = { { "hello", "" }, { "" }, { "" } }; for (final String code : codes) { try (final CSVParser parser = CSVParser.parse(code, CSVFormat.EXCEL)) { final List<CSVRecord> records = parser.getRecords(); for (int i = 0; i < res.length; i++) { } } } } @Test public void testTrailingDelimiter() throws Exception { final Reader in = new StringReader("a,a,a,\n\"1\",\"2\",\"3\",\nx,y,z,"); final Iterator<CSVRecord> records = CSVFormat.DEFAULT.withHeader("X", "Y", "Z").withSkipHeaderRecord() .withTrailingDelimiter().parse(in).iterator(); final CSVRecord record = records.next(); } @Test public void testTrim() throws Exception { final Reader in = new StringReader("a,a,a\n\" 1 \",\" 2 \",\" 3 \"\nx,y,z"); final Iterator<CSVRecord> records = CSVFormat.DEFAULT.withHeader("X", "Y", "Z").withSkipHeaderRecord() .withTrim().parse(in).iterator(); final CSVRecord record = records.next(); } @Test public void testIteratorSequenceBreaking() throws IOException { final String fiveRows = "1\n2\n3\n4\n5\n"; CSVParser parser = CSVFormat.DEFAULT.parse(new StringReader(fiveRows)); int recordNumber = 0; Iterator<CSVRecord> iter = parser.iterator(); recordNumber = 0; while (iter.hasNext()) { CSVRecord record = iter.next(); recordNumber++; if (recordNumber >= 2) { break; } } iter.hasNext(); while (iter.hasNext()) { CSVRecord record = iter.next(); recordNumber++; } parser = CSVFormat.DEFAULT.parse(new StringReader(fiveRows)); recordNumber = 0; for (CSVRecord record : parser) { recordNumber++; if (recordNumber >= 2) { break; } } for (CSVRecord record : parser) { recordNumber++; } parser = CSVFormat.DEFAULT.parse(new StringReader(fiveRows)); recordNumber = 0; for (CSVRecord record : parser) { recordNumber++; if (recordNumber >= 2) { break; } } parser.iterator().hasNext(); for (CSVRecord record : parser) { recordNumber++; } } private void validateLineNumbers(final String lineSeparator) throws IOException { try (final CSVParser parser = CSVParser.parse("a" + lineSeparator + "b" + lineSeparator + "c", CSVFormat.DEFAULT.withRecordSeparator(lineSeparator))) { } } private void validateRecordNumbers(final String lineSeparator) throws IOException { try (final CSVParser parser = CSVParser.parse("a" + lineSeparator + "b" + lineSeparator + "c", CSVFormat.DEFAULT.withRecordSeparator(lineSeparator))) { CSVRecord record; } } private void validateRecordPosition(final String lineSeparator) throws IOException { final String nl = lineSeparator; final String code = "a,b,c" + lineSeparator + "1,2,3" + lineSeparator + "'A" + nl + "A','B" + nl + "B',CC" + lineSeparator + "\u00c4,\u00d6,\u00dc" + lineSeparator + "EOF,EOF,EOF"; final CSVFormat format = CSVFormat.newFormat(',').withQuote('\'').withRecordSeparator(lineSeparator); CSVParser parser = CSVParser.parse(code, format); CSVRecord record; final long positionRecord3 = record.getCharacterPosition(); parser.close(); parser = new CSVParser(new StringReader(code.substring((int) positionRecord3)), format, positionRecord3, 3); parser.close(); }}
 Code: public CSVParser(final Reader reader, final CSVFormat format, final long characterOffset, final long recordNumber) throws IOException { Assertions.notNull(reader, "reader"); Assertions.notNull(format, "format"); this.format = format; this.lexer = new Lexer(format, new ExtendedBufferedReader(reader)); this.headerMap = this.initializeHeader(); this.characterOffset = characterOffset; this.recordNumber = recordNumber - 1; }
-tensor([[0.0220, 0.0402, 0.0230,  ..., 0.0655, 0.0127, 0.0104],
-        [0.0228, 0.0511, 0.0177,  ..., 0.0841, 0.0106, 0.0109],
-        [0.0202, 0.0384, 0.0217,  ..., 0.0558, 0.0096, 0.0096],
-        ...,
-        [0.0247, 0.0343, 0.0180,  ..., 0.0572, 0.0117, 0.0118],
-        [0.0187, 0.0509, 0.0191,  ..., 0.0689, 0.0094, 0.0092],
-        [0.0169, 0.0393, 0.0176,  ..., 0.0731, 0.0105, 0.0099]])
+[[0.02203842 0.04015453 0.02300619 0.02634932 0.01829874 0.00930629
+ 0.03077438 0.01829874 0.03502748 0.04117697 0.01829874 0.03502748
+ 0.00930311 0.04883514 0.01257869 0.03400655 0.01471254 0.03102189
+ 0.02462228 0.02733094 0.02967371 0.01416201 0.02750732 0.02508758
+ 0.01416201 0.01079611 0.0120543  0.01079611 0.02222072 0.01311575
+ 0.01416201 0.05128858 0.02863429 0.01416201 0.02646747 0.03428933
+ 0.01416201 0.0285144  0.06552084 0.01265413 0.01040093]
+[0.02278307 0.05109923 0.01770597 0.02778717 0.02164685 0.0089438
+ 0.02648427 0.02164685 0.03038815 0.02880985 0.02164685 0.03038815
+ 0.010982   0.04959577 0.01318664 0.04252894 0.01282926 0.02336564
+ 0.02193013 0.01942241 0.02343126 0.01622778 0.01506678 0.02664838
+ 0.01622778 0.01068488 0.01480322 0.01068488 0.02221183 0.01285029
+ 0.01622778 0.06278501 0.03084638 0.01622778 0.01895216 0.03296367
+ 0.01622778 0.02812119 0.08413729 0.01063137 0.01087148]
+[0.02015788 0.03844548 0.02169533 0.02652081 0.01960366 0.00789447
+ 0.02934277 0.01960366 0.03534155 0.03703821 0.01960366 0.03534155
+ 0.0100435  0.05192307 0.01135965 0.03190897 0.01415038 0.03125558
+ 0.01993795 0.02792915 0.03034638 0.01581948 0.02464605 0.02800272
+ 0.01581948 0.00977407 0.01282789 0.00977407 0.02264694 0.01199885
+ 0.01581948 0.05132572 0.03398216 0.01581948 0.03260056 0.04249012
+ 0.01581948 0.02646381 0.05577638 0.00957531 0.00957423]
+[0.01663936 0.03422273 0.01891218 0.03300704 0.01698013 0.00726265
+ 0.02513143 0.01698013 0.03721065 0.04025248 0.01698013 0.03721065
+ 0.00885512 0.04740322 0.01402741 0.04119829 0.01179013 0.02687773
+ 0.01707171 0.02762887 0.02685287 0.01548762 0.02898402 0.02802728
+ 0.01548762 0.0106698  0.01298372 0.0106698  0.02114861 0.01538256
+ 0.01548762 0.05541752 0.02350025 0.01548762 0.03445476 0.03542401
+ 0.01548762 0.02626421 0.07735457 0.01039438 0.00939146]
+[0.02254324 0.04323177 0.01790943 0.03193757 0.01533219 0.00721601
+ 0.02241851 0.01533219 0.03233102 0.0308744  0.01533219 0.03233102
+ 0.0084341  0.05658475 0.01478687 0.04087331 0.01143734 0.02367137
+ 0.01809193 0.02711437 0.0226859  0.01740242 0.01761864 0.02501127
+ 0.01740242 0.0098471  0.01159767 0.0098471  0.02141916 0.01294204
+ 0.01740242 0.05569096 0.02817113 0.01740242 0.02309265 0.03767039
+ 0.01740242 0.02326718 0.10461774 0.0138058  0.00791964]
+[0.01718607 0.0464052  0.01832789 0.03010501 0.01699814 0.0072401
+ 0.02676319 0.01699814 0.03106121 0.03380445 0.01699814 0.03106121
+ 0.00644017 0.06461152 0.01302822 0.05379317 0.01227715 0.02802351
+ 0.01856709 0.02349834 0.02733066 0.01370846 0.01663342 0.02504766
+ 0.01370846 0.00889324 0.01063604 0.00889324 0.02129856 0.00958459
+ 0.01370846 0.07936227 0.02415924 0.01370846 0.02438443 0.03282236
+ 0.01370846 0.02633536 0.08668438 0.00772011 0.00848412]
+[0.01980256 0.04058814 0.01959797 0.02836611 0.01970978 0.00789599
+ 0.02001806 0.01970978 0.03260765 0.03741717 0.01970978 0.03260765
+ 0.00999019 0.06195242 0.01519434 0.02765374 0.01426337 0.02539905
+ 0.01732471 0.02221257 0.02356387 0.01739061 0.02193445 0.03019496
+ 0.01739061 0.01261945 0.01264399 0.01261945 0.01925304 0.01156339
+ 0.01739061 0.05230226 0.04055727 0.01739061 0.02704304 0.04098189
+ 0.01739061 0.02043569 0.07433626 0.01015535 0.01082147]
+[0.02254324 0.04323177 0.01790943 0.03193757 0.01533219 0.00721601
+ 0.02241851 0.01533219 0.03233102 0.0308744  0.01533219 0.03233102
+ 0.0084341  0.05658475 0.01478687 0.04087331 0.01143734 0.02367137
+ 0.01809193 0.02711437 0.0226859  0.01740242 0.01761864 0.02501127
+ 0.01740242 0.0098471  0.01159767 0.0098471  0.02141916 0.01294204
+ 0.01740242 0.05569096 0.02817113 0.01740242 0.02309265 0.03767039
+ 0.01740242 0.02326718 0.10461774 0.0138058  0.00791964]
+[0.01592058 0.04143241 0.01673782 0.03895652 0.0156604  0.0055962
+ 0.02606261 0.0156604  0.03093939 0.03651815 0.0156604  0.03093939
+ 0.00600429 0.06628164 0.01364635 0.04350957 0.00911259 0.02498078
+ 0.02260305 0.02246736 0.02360521 0.01231597 0.01796174 0.0256981
+ 0.01231597 0.00898816 0.01066973 0.00898816 0.01988941 0.0089808
+ 0.01231597 0.1039415  0.0310679  0.01231597 0.02459751 0.03823508
+ 0.01231597 0.02337655 0.07519603 0.00849023 0.01004416]
+[0.02013499 0.04697888 0.02257974 0.02730383 0.02082756 0.00860183
+ 0.0269328  0.02082756 0.03077367 0.03345535 0.02082756 0.03077367
+ 0.01047111 0.05837217 0.01146036 0.02800558 0.0139066  0.0314039
+ 0.02206272 0.03006334 0.02740713 0.0148326  0.02019528 0.0306657
+ 0.0148326  0.00868787 0.01355239 0.00868787 0.02051185 0.01145275
+ 0.0148326  0.0748399  0.02977346 0.0148326  0.02527744 0.03701562
+ 0.0148326  0.02299324 0.06079943 0.00900648 0.0092074 ]
+[0.02254324 0.04323177 0.01790943 0.03193757 0.01533219 0.00721601
+ 0.02241851 0.01533219 0.03233102 0.0308744  0.01533219 0.03233102
+ 0.0084341  0.05658475 0.01478687 0.04087331 0.01143734 0.02367137
+ 0.01809193 0.02711437 0.0226859  0.01740242 0.01761864 0.02501127
+ 0.01740242 0.0098471  0.01159767 0.0098471  0.02141916 0.01294204
+ 0.01740242 0.05569096 0.02817113 0.01740242 0.02309265 0.03767039
+ 0.01740242 0.02326718 0.10461774 0.0138058  0.00791964]
+[0.01592058 0.04143241 0.01673782 0.03895652 0.0156604  0.0055962
+ 0.02606261 0.0156604  0.03093939 0.03651815 0.0156604  0.03093939
+ 0.00600429 0.06628164 0.01364635 0.04350957 0.00911259 0.02498078
+ 0.02260305 0.02246736 0.02360521 0.01231597 0.01796174 0.0256981
+ 0.01231597 0.00898816 0.01066973 0.00898816 0.01988941 0.0089808
+ 0.01231597 0.1039415  0.0310679  0.01231597 0.02459751 0.03823508
+ 0.01231597 0.02337655 0.07519603 0.00849023 0.01004416]
+[0.01909881 0.05260229 0.02083586 0.02417355 0.0191526  0.0062865
+ 0.02895366 0.0191526  0.03348421 0.03965522 0.0191526  0.03348421
+ 0.00684034 0.05088108 0.01140316 0.03620592 0.01196928 0.028636
+ 0.01650479 0.03639369 0.0280288  0.01355889 0.02407174 0.02639786
+ 0.01355889 0.00798442 0.00896436 0.00798442 0.01802975 0.01187395
+ 0.01355889 0.0771022  0.02794972 0.01355889 0.03162951 0.03418197
+ 0.01355889 0.025252   0.07174748 0.00986804 0.00627299]
+[0.01618068 0.04958555 0.01568974 0.03687769 0.01374598 0.00803188
+ 0.01897758 0.01374598 0.03289821 0.0376504  0.01374598 0.03289821
+ 0.00497834 0.07317798 0.01140727 0.04470266 0.01248586 0.02587921
+ 0.01501236 0.02248084 0.02373758 0.01466994 0.0187191  0.02204054
+ 0.01466994 0.00847156 0.01050956 0.00847156 0.02015693 0.00942043
+ 0.01466994 0.07419674 0.03067764 0.01466994 0.0306787  0.0329766
+ 0.01466994 0.02149453 0.09693958 0.00962805 0.00837883]
+[0.01819602 0.04898444 0.01749192 0.02942345 0.01673347 0.00725724
+ 0.02476773 0.01673347 0.03615017 0.02968575 0.01673347 0.03615017
+ 0.00777376 0.06899802 0.01133745 0.03702129 0.0122977  0.0254875
+ 0.02521537 0.02977012 0.02786009 0.01467118 0.01766343 0.02081974
+ 0.01467118 0.00975169 0.01144103 0.00975169 0.02266765 0.00961477
+ 0.01467118 0.08248596 0.02908646 0.01467118 0.01983339 0.03149021
+ 0.01467118 0.02264213 0.07772838 0.0100797  0.00751932]
+[0.02254513 0.04149091 0.01798206 0.02563914 0.02222201 0.01170964
+ 0.02185736 0.02222201 0.03472962 0.02743294 0.02222201 0.03472962
+ 0.01317988 0.03937516 0.01550141 0.03840474 0.01671931 0.02857143
+ 0.02004437 0.0247182  0.02685249 0.01886659 0.02324113 0.02452602
+ 0.01886659 0.01226646 0.01381789 0.01226646 0.01875873 0.01407691
+ 0.01886659 0.06859759 0.02256545 0.01886659 0.02002341 0.02985445
+ 0.01886659 0.02802898 0.06325051 0.01304642 0.01319724]
+[0.01599225 0.04879276 0.01688134 0.03251023 0.01460655 0.00539677
+ 0.02126554 0.01460655 0.03510991 0.03800751 0.01460655 0.03510991
+ 0.00696396 0.06506613 0.01083017 0.04268588 0.00913192 0.02393475
+ 0.02085567 0.03088619 0.0193383  0.01647564 0.01444897 0.02481722
+ 0.01647564 0.0093457  0.01116327 0.0093457  0.01809252 0.01092535
+ 0.01647564 0.08224053 0.03032502 0.01647564 0.02068795 0.03264843
+ 0.01647564 0.02420607 0.09120508 0.00868811 0.00690314]
+[0.01881275 0.05077716 0.0171487  0.03847105 0.0165588  0.00681189
+ 0.02435312 0.0165588  0.03532523 0.03644377 0.0165588  0.03532523
+ 0.00623709 0.05555143 0.01370151 0.03526795 0.01106403 0.02473427
+ 0.01740083 0.02573188 0.02394196 0.01468914 0.01969313 0.02394058
+ 0.01468914 0.00737512 0.01090544 0.00737512 0.01858202 0.00949288
+ 0.01468914 0.08215244 0.0249402  0.01468914 0.02048031 0.03710385
+ 0.01468914 0.0265033  0.09378646 0.00773238 0.00971485]
+[0.01870223 0.04795653 0.01849506 0.02501402 0.0206771  0.00795024
+ 0.02467116 0.0206771  0.03088969 0.03724826 0.0206771  0.03088969
+ 0.01024878 0.05305219 0.0131309  0.03611036 0.0140047  0.02401125
+ 0.01848445 0.02929899 0.02677028 0.01628494 0.02175382 0.02408948
+ 0.01628494 0.01087581 0.01208114 0.01087581 0.0201807  0.01222344
+ 0.01628494 0.07210708 0.02822097 0.01628494 0.0261481  0.03664815
+ 0.01628494 0.0252808  0.0668234  0.01083835 0.01146819]
+[0.0174892  0.05587928 0.01829514 0.02874503 0.01532661 0.00918967
+ 0.02689887 0.01532661 0.02399972 0.03068088 0.01532661 0.02399972
+ 0.00757191 0.06360953 0.01298626 0.0350518  0.01312974 0.02412445
+ 0.0189958  0.02713886 0.02628302 0.01845058 0.01691438 0.02060278
+ 0.01845058 0.01054171 0.015552   0.01054171 0.02357766 0.01098811
+ 0.01845058 0.06701422 0.02697799 0.01845058 0.01969618 0.04003578
+ 0.01845058 0.02310115 0.09354012 0.00836586 0.01024866]
+[0.01863175 0.04608611 0.01899954 0.0246411  0.01701407 0.00609389
+ 0.0213139  0.01701407 0.02793384 0.03852462 0.01701407 0.02793384
+ 0.00841149 0.06787538 0.00917623 0.0299655  0.01199482 0.02860176
+ 0.01964882 0.02734153 0.02600711 0.0192251  0.01820831 0.02903857
+ 0.0192251  0.01140075 0.01099719 0.01140075 0.02131825 0.00977763
+ 0.0192251  0.07079703 0.03413282 0.0192251  0.02932547 0.03598397
+ 0.0192251  0.02650838 0.06749812 0.00858969 0.00867421]
+[0.02530035 0.03790584 0.02059772 0.02700938 0.02134442 0.01309965
+ 0.02491556 0.02134442 0.03114292 0.02879933 0.02134442 0.03114292
+ 0.01107493 0.03846014 0.01654885 0.02950981 0.01978002 0.03074959
+ 0.02515891 0.02334755 0.03082072 0.021246   0.02209376 0.02063884
+ 0.021246   0.01195802 0.01920354 0.01195802 0.02013944 0.01382962
+ 0.021246   0.05584329 0.02910096 0.021246   0.022491   0.03005094
+ 0.021246   0.02471127 0.05426293 0.01546556 0.01262531]
+[0.01477756 0.055412   0.01598823 0.03012866 0.01533532 0.00650428
+ 0.02994752 0.01533532 0.03413307 0.02732123 0.01533532 0.03413307
+ 0.0052494  0.06474641 0.0126635  0.04801967 0.00927516 0.02235178
+ 0.01576388 0.03014476 0.02565676 0.01473196 0.01624412 0.02891779
+ 0.01473196 0.00906525 0.01050341 0.00906525 0.01791193 0.01223783
+ 0.01473196 0.07786746 0.02781303 0.01473196 0.02974286 0.04074188
+ 0.01473196 0.02306345 0.07981834 0.00861911 0.00650556]
+[0.02333919 0.04011361 0.01890221 0.02415372 0.01996855 0.0085662
+ 0.02500024 0.01996855 0.03959189 0.03296548 0.01996855 0.03959189
+ 0.01094228 0.04576555 0.01579395 0.03356629 0.01491631 0.02621343
+ 0.01826146 0.02251408 0.03253876 0.0150886  0.02564614 0.02657091
+ 0.0150886  0.01259437 0.01303079 0.01259437 0.01828023 0.01201207
+ 0.0150886  0.06262137 0.03029077 0.0150886  0.02524754 0.03733973
+ 0.0150886  0.02412024 0.07035197 0.01105972 0.01015457]
+[0.02530035 0.03790584 0.02059772 0.02700938 0.02134442 0.01309965
+ 0.02491556 0.02134442 0.03114292 0.02879933 0.02134442 0.03114292
+ 0.01107493 0.03846014 0.01654885 0.02950981 0.01978002 0.03074959
+ 0.02515891 0.02334755 0.03082072 0.021246   0.02209376 0.02063884
+ 0.021246   0.01195802 0.01920354 0.01195802 0.02013944 0.01382962
+ 0.021246   0.05584329 0.02910096 0.021246   0.022491   0.03005094
+ 0.021246   0.02471127 0.05426293 0.01546556 0.01262531]
+[0.01949862 0.05126006 0.01957021 0.0253302  0.01587749 0.00762837
+ 0.02077365 0.01587749 0.03748101 0.03538787 0.01587749 0.03748101
+ 0.00711065 0.06176349 0.01431881 0.03886868 0.0134238  0.02723967
+ 0.01955796 0.0232007  0.02526189 0.01530032 0.01871957 0.02304693
+ 0.01530032 0.01226652 0.01212889 0.01226652 0.02102766 0.01256945
+ 0.01530032 0.05775635 0.03426319 0.01530032 0.02443409 0.03141336
+ 0.01530032 0.02485104 0.08231896 0.0126128  0.01103389]
+[0.0189645  0.05826882 0.01847841 0.03670179 0.01967791 0.00856179
+ 0.02172117 0.01967791 0.03385542 0.0299722  0.01967791 0.03385542
+ 0.00837517 0.04735439 0.01433613 0.03782111 0.01057099 0.02800228
+ 0.01755778 0.03691385 0.0227553  0.01320205 0.02242376 0.02932059
+ 0.01320205 0.00871666 0.01223906 0.00871666 0.02199637 0.0112464
+ 0.01320205 0.07674336 0.03018152 0.01320205 0.03072905 0.03647178
+ 0.01320205 0.02153155 0.06206517 0.00799025 0.01051732]
+[0.01949862 0.05126006 0.01957021 0.0253302  0.01587749 0.00762837
+ 0.02077365 0.01587749 0.03748101 0.03538787 0.01587749 0.03748101
+ 0.00711065 0.06176349 0.01431881 0.03886868 0.0134238  0.02723967
+ 0.01955796 0.0232007  0.02526189 0.01530032 0.01871957 0.02304693
+ 0.01530032 0.01226652 0.01212889 0.01226652 0.02102766 0.01256945
+ 0.01530032 0.05775635 0.03426319 0.01530032 0.02443409 0.03141336
+ 0.01530032 0.02485104 0.08231896 0.0126128  0.01103389]
+[0.01807721 0.04537093 0.01984837 0.0330354  0.01774308 0.00941142
+ 0.02299069 0.01774308 0.03409569 0.03352552 0.01774308 0.03409569
+ 0.00741131 0.0530013  0.01387415 0.03881524 0.01402692 0.02742737
+ 0.01745912 0.03134713 0.02575228 0.01612628 0.01795559 0.02265286
+ 0.01612628 0.00988253 0.01481839 0.00988253 0.02177409 0.01168803
+ 0.01612628 0.07275416 0.03068825 0.01612628 0.02208431 0.03064805
+ 0.01612628 0.02701698 0.07576379 0.00941842 0.00954564]
+[0.01657311 0.05567842 0.01606642 0.03522766 0.01542118 0.00840968
+ 0.02435729 0.01542118 0.0261871  0.02669086 0.01542118 0.0261871
+ 0.00612938 0.08100792 0.0129983  0.03785311 0.01086131 0.02406702
+ 0.01900969 0.02991191 0.02488994 0.01513509 0.01814722 0.02460378
+ 0.01513509 0.01064202 0.01336167 0.01064202 0.02350334 0.01112881
+ 0.01513509 0.07508171 0.02617149 0.01513509 0.02396939 0.03377988
+ 0.01513509 0.02441013 0.08372928 0.00857591 0.00820816]
+[0.02530035 0.03790584 0.02059772 0.02700938 0.02134442 0.01309965
+ 0.02491556 0.02134442 0.03114292 0.02879933 0.02134442 0.03114292
+ 0.01107493 0.03846014 0.01654885 0.02950981 0.01978002 0.03074959
+ 0.02515891 0.02334755 0.03082072 0.021246   0.02209376 0.02063884
+ 0.021246   0.01195802 0.01920354 0.01195802 0.02013944 0.01382962
+ 0.021246   0.05584329 0.02910096 0.021246   0.022491   0.03005094
+ 0.021246   0.02471127 0.05426293 0.01546556 0.01262531]
+[0.01992889 0.0531887  0.01817974 0.02764775 0.01732841 0.00579372
+ 0.026833   0.01732841 0.03700016 0.03177992 0.01732841 0.03700016
+ 0.00614058 0.05336111 0.01109272 0.04013969 0.01190845 0.02439608
+ 0.02004639 0.02225725 0.02350492 0.01349488 0.02227026 0.02382615
+ 0.01349488 0.00835359 0.00996679 0.00835359 0.02071975 0.00903192
+ 0.01349488 0.08213872 0.03124574 0.01349488 0.0250133  0.04434165
+ 0.01349488 0.02478771 0.07955556 0.01044388 0.0102926 ]
+[0.0210968  0.05955836 0.01892519 0.02984423 0.01737712 0.00827963
+ 0.02664357 0.01737712 0.03110249 0.03345518 0.01737712 0.03110249
+ 0.00872211 0.05660576 0.01253303 0.04046296 0.01455159 0.02852378
+ 0.01816716 0.02345099 0.02424537 0.01370727 0.02177224 0.02408572
+ 0.01370727 0.01058216 0.01060069 0.01058216 0.01738975 0.01064683
+ 0.01370727 0.083712   0.02610165 0.01370727 0.0229452  0.03277189
+ 0.01370727 0.02334606 0.07704029 0.01160674 0.00887822]
+[0.02530035 0.03790584 0.02059772 0.02700938 0.02134442 0.01309965
+ 0.02491556 0.02134442 0.03114292 0.02879933 0.02134442 0.03114292
+ 0.01107493 0.03846014 0.01654885 0.02950981 0.01978002 0.03074959
+ 0.02515891 0.02334755 0.03082072 0.021246   0.02209376 0.02063884
+ 0.021246   0.01195802 0.01920354 0.01195802 0.02013944 0.01382962
+ 0.021246   0.05584329 0.02910096 0.021246   0.022491   0.03005094
+ 0.021246   0.02471127 0.05426293 0.01546556 0.01262531]
+[0.02137192 0.044896   0.01689394 0.03063594 0.01718299 0.00799741
+ 0.02334886 0.01718299 0.03291273 0.03558052 0.01718299 0.03291273
+ 0.00888535 0.05870377 0.01509809 0.03740668 0.01278198 0.02945314
+ 0.02210011 0.03189867 0.02849746 0.01613851 0.02595565 0.02882131
+ 0.01613851 0.01074572 0.01129019 0.01074572 0.02113979 0.01261961
+ 0.01613851 0.05854672 0.03369173 0.01613851 0.02143215 0.03769002
+ 0.01613851 0.01887675 0.06611097 0.01082382 0.00789308]
+[0.02475728 0.04508198 0.01844548 0.03529126 0.01548978 0.00846542
+ 0.02148849 0.01548978 0.03191568 0.03284726 0.01548978 0.03191568
+ 0.00924275 0.06237092 0.0138175  0.04918834 0.01432513 0.02473163
+ 0.02210552 0.02517118 0.02428474 0.01269645 0.01878662 0.03036589
+ 0.01269645 0.01270858 0.01331405 0.01270858 0.02412661 0.01169441
+ 0.01269645 0.06880978 0.03184938 0.01269645 0.02139992 0.03160799
+ 0.01269645 0.02547771 0.07434361 0.01005585 0.00735314]
+[0.02530035 0.03790584 0.02059772 0.02700938 0.02134442 0.01309965
+ 0.02491556 0.02134442 0.03114292 0.02879933 0.02134442 0.03114292
+ 0.01107493 0.03846014 0.01654885 0.02950981 0.01978002 0.03074959
+ 0.02515891 0.02334755 0.03082072 0.021246   0.02209376 0.02063884
+ 0.021246   0.01195802 0.01920354 0.01195802 0.02013944 0.01382962
+ 0.021246   0.05584329 0.02910096 0.021246   0.022491   0.03005094
+ 0.021246   0.02471127 0.05426293 0.01546556 0.01262531]
+[0.01724159 0.03950602 0.01762716 0.03413577 0.0202395  0.0064648
+ 0.03285913 0.0202395  0.02554481 0.03896557 0.0202395  0.02554481
+ 0.0074819  0.06892714 0.01558477 0.04038669 0.01209072 0.02994579
+ 0.01927853 0.02100021 0.02447619 0.01207959 0.01914084 0.02539628
+ 0.01207959 0.01105373 0.01025946 0.01105373 0.02442031 0.01169668
+ 0.01207959 0.07268481 0.03156429 0.01207959 0.02756235 0.04028201
+ 0.01207959 0.02278915 0.08008107 0.00730155 0.00653568]
+[0.02466426 0.03428981 0.01800708 0.03422438 0.01973714 0.01368122
+ 0.03132191 0.01973714 0.02968866 0.02451755 0.01973714 0.02968866
+ 0.01162191 0.0536816  0.01561259 0.03984965 0.01638539 0.02552193
+ 0.02193917 0.0239209  0.02997489 0.01804399 0.0258987  0.02354833
+ 0.01804399 0.01232427 0.01813601 0.01232427 0.02418257 0.01321814
+ 0.01804399 0.04270975 0.02444138 0.01804399 0.02624342 0.03618143
+ 0.01804399 0.03196535 0.05723485 0.01174046 0.0118282 ]
+[0.01867576 0.05093185 0.0191042  0.03263661 0.01752982 0.0087994
+ 0.02967594 0.01752982 0.03557605 0.0293382  0.01752982 0.03557605
+ 0.0075944  0.05832207 0.01390664 0.03603858 0.01482777 0.02863557
+ 0.01851338 0.02389696 0.0291962  0.01531855 0.02236963 0.02538264
+ 0.01531855 0.01246466 0.01138344 0.01246466 0.01904619 0.01085838
+ 0.01531855 0.05531107 0.03670279 0.01531855 0.02269539 0.0386192
+ 0.01531855 0.02469181 0.06892304 0.00944861 0.00921053]
+[0.01690068 0.03930702 0.01761922 0.04010037 0.01552612 0.00885849
+ 0.0237877  0.01552612 0.02745145 0.03554537 0.01552612 0.02745145
+ 0.00838173 0.0709323  0.01418148 0.04667729 0.01322337 0.02556629
+ 0.02052373 0.03255843 0.0259529  0.01563483 0.01436599 0.02911922
+ 0.01563483 0.00948963 0.01378003 0.00948963 0.02619018 0.01119465
+ 0.01563483 0.063149   0.0250825  0.01563483 0.02421864 0.03311879
+ 0.01563483 0.02755069 0.07314037 0.01045056 0.00988838]]

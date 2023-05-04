@@ -1,0 +1,17 @@
+152875
+Test: public void test10() throws Throwable { FloatConverter floatConverter0 = new FloatConverter(); floatConverter0.getDefaultType(); FileSystemHandling.appendDataToFile((EvoSuiteFile) null, (byte[]) null); BigDecimalConverter bigDecimalConverter0 = new BigDecimalConverter(); Class<BigInteger> class0 = BigInteger.class; byte[] byteArray0 = new byte[7]; byteArray0[0] = (byte) (-1); byteArray0[1] = (byte) (-1); byteArray0[2] = (byte) (-121); byteArray0[3] = (byte)76; byteArray0[4] = (byte)0; byteArray0[5] = (byte)22; byteArray0[6] = (byte)0; BigInteger bigInteger0 = new BigInteger(byteArray0); bigInteger0.negate(); bigInteger0.doubleValue(); BigDecimal bigDecimal0 = new BigDecimal(bigInteger0); bigDecimalConverter0.convertToType(class0, (Object) bigDecimal0); bigDecimalConverter0.toString(); bigDecimalConverter0.isAllowDecimals(); DoubleConverter doubleConverter0 = new DoubleConverter(); Locale locale0 = Locale.ITALIAN; doubleConverter0.setLocale(locale0); doubleConverter0.getDefaultType(); doubleConverter0.setUseLocaleFormat(true); bigDecimalConverter0.getDefaultType(); doubleConverter0.getLocale(); bigDecimalConverter0.getDefaultType(); }
+Code: public Locale getLocale() { return locale; }
+[[0.13874741 0.09885714 0.19246486 0.17058735 0.15091643 0.19246486
+ 0.05596191]
+[0.12364835 0.07498866 0.18833908 0.20121484 0.1764313  0.18833907
+ 0.04703873]
+[0.11866178 0.09448057 0.19908246 0.1824164  0.14387195 0.19908246
+ 0.06240444]
+[0.13280526 0.0791674  0.17813334 0.20421311 0.15405756 0.17813334
+ 0.07348997]
+[0.10398249 0.07305811 0.21768062 0.18202025 0.15461612 0.21768063
+ 0.05096176]
+[0.11866178 0.09448057 0.19908246 0.1824164  0.14387195 0.19908246
+ 0.06240444]
+[0.09576812 0.05836548 0.1823074  0.22758147 0.20380229 0.18230739
+ 0.04986783]]

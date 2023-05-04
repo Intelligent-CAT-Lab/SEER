@@ -1,0 +1,17 @@
+161511
+Test: public void test3() throws Throwable { PooledSoftReference<Integer> pooledSoftReference0 = new PooledSoftReference<Integer>((SoftReference<Integer>) null); pooledSoftReference0.getLastUsedInstant(); pooledSoftReference0.getCreateTime(); pooledSoftReference0.getIdleDuration(); pooledSoftReference0.getLastUsedTime(); // Undeclared exception!  pooledSoftReference0.getObject();   }
+Code: public T getObject() { return reference.get(); }
+[[0.1403911  0.09337351 0.19474122 0.16874585 0.15222727 0.19474122
+ 0.05577981]
+[0.12760632 0.07367864 0.21252647 0.17473143 0.14648092 0.21252647
+ 0.05244967]
+[0.1217472  0.07876842 0.20577817 0.17876047 0.14739121 0.20577818
+ 0.0617764 ]
+[0.1338687  0.07246009 0.18130358 0.20193838 0.15580213 0.18130358
+ 0.0733236 ]
+[0.10540533 0.06065518 0.2224986  0.18074603 0.15737787 0.22249861
+ 0.05081838]
+[0.1217472  0.07876842 0.20577817 0.17876047 0.14739121 0.20577818
+ 0.0617764 ]
+[0.09582335 0.06615481 0.18371257 0.22020453 0.20174944 0.18371256
+ 0.04864275]]

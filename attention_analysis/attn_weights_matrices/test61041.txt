@@ -1,10 +1,17 @@
 61041
 Test: public void test589() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest1.test589"); org.apache.commons.csv.CSVFormat.Predefined predefined0 = org.apache.commons.csv.CSVFormat.Predefined.MySQL; org.apache.commons.csv.CSVFormat cSVFormat1 = predefined0.getFormat(); org.apache.commons.csv.CSVFormat cSVFormat2 = cSVFormat1.withIgnoreEmptyLines(); org.apache.commons.csv.CSVFormat cSVFormat4 = cSVFormat1.withDelimiter('a'); org.apache.commons.csv.CSVFormat cSVFormat6 = cSVFormat1.withRecordSeparator("\n"); org.apache.commons.csv.CSVFormat cSVFormat8 = cSVFormat6.withCommentMarker('\037'); }
 Code: public CSVFormat getFormat() { return format; }
-tensor([[0.1533, 0.0595, 0.1861, 0.1826, 0.1661, 0.1919, 0.0605],
-        [0.1473, 0.0510, 0.1541, 0.2556, 0.2061, 0.1399, 0.0460],
-        [0.1549, 0.0614, 0.1836, 0.2027, 0.1823, 0.1551, 0.0600],
-        [0.1531, 0.0797, 0.1405, 0.2044, 0.1817, 0.1620, 0.0787],
-        [0.1294, 0.0542, 0.1653, 0.1955, 0.1977, 0.2014, 0.0565],
-        [0.1246, 0.0462, 0.1642, 0.2405, 0.2533, 0.1317, 0.0395],
-        [0.1331, 0.0692, 0.1406, 0.2394, 0.2610, 0.1003, 0.0565]])
+[[0.15334374 0.05954479 0.18605818 0.18256131 0.16605541 0.19189411
+ 0.06054252]
+[0.14734977 0.05096353 0.15412566 0.25556055 0.20613855 0.13987282
+ 0.04598916]
+[0.15485422 0.06143218 0.18356635 0.20274197 0.18234292 0.15508066
+ 0.05998175]
+[0.15310094 0.07965958 0.14049855 0.20440085 0.1816549  0.16195294
+ 0.07873221]
+[0.1294029  0.05421929 0.16525334 0.19551852 0.19773458 0.20137346
+ 0.05649791]
+[0.1245746  0.04624513 0.16416173 0.24046725 0.25328436 0.1317417
+ 0.0395252 ]
+[0.1330936  0.06924507 0.14057451 0.2393658  0.26100034 0.10026149
+ 0.05645918]]

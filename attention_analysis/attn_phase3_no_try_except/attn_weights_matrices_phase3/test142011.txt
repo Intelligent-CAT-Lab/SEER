@@ -1,0 +1,17 @@
+142011
+Test: public void test22() throws Throwable { RemoteCacheAttributes remoteCacheAttributes0 = new RemoteCacheAttributes(); ZombieCacheServiceNonLocal<ZombieCacheServiceNonLocal<ZombieCacheWatch, Object>, ZombieCacheServiceNonLocal<String, Integer>> zombieCacheServiceNonLocal0 = new ZombieCacheServiceNonLocal<ZombieCacheServiceNonLocal<ZombieCacheWatch, Object>, ZombieCacheServiceNonLocal<String, Integer>>(); RemoteCacheMonitor remoteCacheMonitor0 = new RemoteCacheMonitor(); RemoteCache<ZombieCacheServiceNonLocal<ZombieCacheWatch, Object>, ZombieCacheServiceNonLocal<String, Integer>> remoteCache0 = new RemoteCache<ZombieCacheServiceNonLocal<ZombieCacheWatch, Object>, ZombieCacheServiceNonLocal<String, Integer>>(remoteCacheAttributes0, zombieCacheServiceNonLocal0, (IRemoteCacheListener<ZombieCacheServiceNonLocal<ZombieCacheWatch, Object>, ZombieCacheServiceNonLocal<String, Integer>>) null, remoteCacheMonitor0); remoteCache0.setListenerId((-1744L)); }
+Code: public int getSize() { return 0; }
+[[0.12083266 0.07705353 0.2992843  0.15800713 0.13259703 0.16142239
+ 0.05080289]
+[0.08473749 0.06412177 0.33701682 0.17425025 0.13465942 0.16579662
+ 0.03941765]
+[0.11482594 0.05812068 0.3296269  0.1907834  0.11368407 0.14866649
+ 0.04429246]
+[0.12215365 0.05956766 0.2643746  0.18572813 0.14197665 0.15901014
+ 0.06718913]
+[0.08274886 0.05013675 0.39610368 0.15720703 0.12092254 0.14956681
+ 0.04331431]
+[0.11659962 0.06724517 0.2541016  0.17738572 0.14399007 0.19109473
+ 0.04958316]
+[0.09112372 0.07043948 0.21436888 0.20153067 0.18957861 0.18801656
+ 0.04494215]]

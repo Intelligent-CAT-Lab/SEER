@@ -1,60 +1,79 @@
 67889
 Test: public void test354() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test354"); com.fasterxml.jackson.dataformat.xml.util.XmlRootNameLookup xmlRootNameLookup0 = null; com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider xmlSerializerProvider1 = new com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider(xmlRootNameLookup0); com.fasterxml.jackson.dataformat.xml.XmlFactory xmlFactory2 = null; com.fasterxml.jackson.dataformat.xml.XmlMapper xmlMapper3 = new com.fasterxml.jackson.dataformat.xml.XmlMapper(xmlFactory2); com.fasterxml.jackson.databind.ser.FilterProvider filterProvider4 = null; com.fasterxml.jackson.databind.ObjectMapper objectMapper5 = xmlMapper3.setFilterProvider(filterProvider4); java.util.Locale locale6 = null; com.fasterxml.jackson.databind.ObjectMapper objectMapper7 = objectMapper5.setLocale(locale6); com.fasterxml.jackson.dataformat.xml.XmlFactory xmlFactory8 = null; com.fasterxml.jackson.dataformat.xml.XmlMapper xmlMapper9 = new com.fasterxml.jackson.dataformat.xml.XmlMapper(xmlFactory8); com.fasterxml.jackson.dataformat.xml.JacksonXmlAnnotationIntrospector jacksonXmlAnnotationIntrospector11 = new com.fasterxml.jackson.dataformat.xml.JacksonXmlAnnotationIntrospector(true); com.fasterxml.jackson.databind.ObjectMapper objectMapper12 = xmlMapper9.setAnnotationIntrospector((com.fasterxml.jackson.databind.AnnotationIntrospector) jacksonXmlAnnotationIntrospector11); com.fasterxml.jackson.databind.InjectableValues injectableValues13 = objectMapper12.getInjectableValues(); com.fasterxml.jackson.core.Base64Variant base64Variant14 = null; com.fasterxml.jackson.databind.ObjectMapper objectMapper15 = objectMapper12.setBase64Variant(base64Variant14); com.fasterxml.jackson.dataformat.xml.XmlFactory xmlFactory16 = null; com.fasterxml.jackson.dataformat.xml.XmlMapper xmlMapper17 = new com.fasterxml.jackson.dataformat.xml.XmlMapper(xmlFactory16); com.fasterxml.jackson.databind.JavaType javaType18 = null; com.fasterxml.jackson.databind.ObjectWriter objectWriter19 = xmlMapper17.writerFor(javaType18); javax.xml.stream.XMLInputFactory xMLInputFactory20 = null; javax.xml.stream.XMLOutputFactory xMLOutputFactory21 = null; com.fasterxml.jackson.dataformat.xml.XmlFactory xmlFactory22 = new com.fasterxml.jackson.dataformat.xml.XmlFactory((com.fasterxml.jackson.core.ObjectCodec) xmlMapper17, xMLInputFactory20, xMLOutputFactory21); boolean boolean23 = xmlFactory22.requiresCustomCodec(); java.lang.Class<com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser.Feature> featureClass24 = xmlFactory22.getFormatReadFeatureType(); com.fasterxml.jackson.databind.ObjectWriter objectWriter25 = objectMapper12.writerWithView(featureClass24); com.fasterxml.jackson.databind.ObjectReader objectReader26 = objectMapper5.reader(featureClass24); com.fasterxml.jackson.dataformat.xml.util.XmlRootNameLookup xmlRootNameLookup27 = null; com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider xmlSerializerProvider28 = new com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider(xmlRootNameLookup27); com.fasterxml.jackson.databind.ObjectMapper objectMapper29 = objectMapper5.setSerializerProvider((com.fasterxml.jackson.databind.ser.DefaultSerializerProvider) xmlSerializerProvider28); com.fasterxml.jackson.databind.JsonSerializer<java.lang.Object> objJsonSerializer30 = com.fasterxml.jackson.databind.SerializerProvider.DEFAULT_NULL_KEY_SERIALIZER; xmlSerializerProvider28.setDefaultKeySerializer(objJsonSerializer30); xmlSerializerProvider1.setNullKeySerializer(objJsonSerializer30); com.fasterxml.jackson.dataformat.xml.XmlFactory xmlFactory33 = null; com.fasterxml.jackson.dataformat.xml.XmlMapper xmlMapper34 = new com.fasterxml.jackson.dataformat.xml.XmlMapper(xmlFactory33); com.fasterxml.jackson.databind.JavaType javaType35 = null; com.fasterxml.jackson.databind.ObjectWriter objectWriter36 = xmlMapper34.writerFor(javaType35); javax.xml.stream.XMLInputFactory xMLInputFactory37 = null; javax.xml.stream.XMLOutputFactory xMLOutputFactory38 = null; com.fasterxml.jackson.dataformat.xml.XmlFactory xmlFactory39 = new com.fasterxml.jackson.dataformat.xml.XmlFactory((com.fasterxml.jackson.core.ObjectCodec) xmlMapper34, xMLInputFactory37, xMLOutputFactory38); boolean boolean40 = xmlFactory39.requiresCustomCodec(); java.lang.Class<com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser.Feature> featureClass41 = xmlFactory39.getFormatReadFeatureType(); xmlFactory39.setXMLTextElementName("<null/>"); com.fasterxml.jackson.core.io.OutputDecorator outputDecorator44 = xmlFactory39.getOutputDecorator(); java.io.DataOutput dataOutput45 = null; com.fasterxml.jackson.core.JsonGenerator jsonGenerator46 = xmlFactory39.createGenerator(dataOutput45); try { xmlSerializerProvider1._serializeXmlNull(jsonGenerator46); } catch (java.lang.NullPointerException e) { } }
 Code: protected void _serializeXmlNull(JsonGenerator jgen) throws IOException { if (jgen instanceof ToXmlGenerator) { _initWithRootName((ToXmlGenerator) jgen, ROOT_NAME_FOR_NULL); } super.serializeValue(jgen, null); }
-tensor([[0.0789, 0.0318, 0.0654, 0.0700, 0.1112, 0.0236, 0.0691, 0.1249, 0.0291,
-         0.0237, 0.0306, 0.0691, 0.0592, 0.0224, 0.0525, 0.0143, 0.0494, 0.0603,
-         0.0143],
-        [0.0900, 0.0296, 0.0742, 0.0680, 0.1232, 0.0189, 0.0581, 0.1143, 0.0218,
-         0.0219, 0.0372, 0.0581, 0.0520, 0.0212, 0.0534, 0.0178, 0.0544, 0.0682,
-         0.0178],
-        [0.0679, 0.0303, 0.0683, 0.0843, 0.1002, 0.0246, 0.0625, 0.1074, 0.0313,
-         0.0230, 0.0323, 0.0625, 0.0675, 0.0319, 0.0610, 0.0164, 0.0484, 0.0637,
-         0.0164],
-        [0.0738, 0.0272, 0.0640, 0.0705, 0.1220, 0.0196, 0.0618, 0.1285, 0.0252,
-         0.0179, 0.0317, 0.0618, 0.0669, 0.0266, 0.0449, 0.0131, 0.0569, 0.0746,
-         0.0131],
-        [0.0829, 0.0269, 0.0603, 0.0879, 0.1371, 0.0176, 0.0664, 0.1246, 0.0218,
-         0.0169, 0.0317, 0.0664, 0.0502, 0.0190, 0.0542, 0.0130, 0.0519, 0.0582,
-         0.0130],
-        [0.0834, 0.0269, 0.0585, 0.0663, 0.1323, 0.0187, 0.0585, 0.1395, 0.0240,
-         0.0242, 0.0362, 0.0585, 0.0503, 0.0227, 0.0542, 0.0126, 0.0560, 0.0645,
-         0.0126],
-        [0.0971, 0.0400, 0.0656, 0.0609, 0.0820, 0.0305, 0.0714, 0.0796, 0.0368,
-         0.0337, 0.0446, 0.0714, 0.0477, 0.0376, 0.0449, 0.0256, 0.0573, 0.0477,
-         0.0256],
-        [0.0824, 0.0202, 0.0575, 0.0779, 0.1619, 0.0163, 0.0538, 0.1531, 0.0162,
-         0.0178, 0.0225, 0.0538, 0.0522, 0.0203, 0.0566, 0.0084, 0.0504, 0.0705,
-         0.0084],
-        [0.0705, 0.0253, 0.0694, 0.0774, 0.1050, 0.0217, 0.0744, 0.1156, 0.0261,
-         0.0239, 0.0334, 0.0744, 0.0629, 0.0254, 0.0481, 0.0137, 0.0581, 0.0611,
-         0.0137],
-        [0.0696, 0.0273, 0.0733, 0.0859, 0.1129, 0.0210, 0.0547, 0.1068, 0.0292,
-         0.0195, 0.0408, 0.0547, 0.0542, 0.0336, 0.0825, 0.0161, 0.0448, 0.0570,
-         0.0161],
-        [0.0678, 0.0245, 0.0698, 0.0775, 0.1363, 0.0181, 0.0561, 0.1180, 0.0235,
-         0.0210, 0.0275, 0.0561, 0.0556, 0.0240, 0.0646, 0.0121, 0.0719, 0.0634,
-         0.0121],
-        [0.0971, 0.0400, 0.0656, 0.0609, 0.0820, 0.0305, 0.0714, 0.0796, 0.0368,
-         0.0337, 0.0446, 0.0714, 0.0477, 0.0376, 0.0449, 0.0256, 0.0573, 0.0477,
-         0.0256],
-        [0.0944, 0.0260, 0.0584, 0.0745, 0.0962, 0.0216, 0.0693, 0.1219, 0.0309,
-         0.0245, 0.0407, 0.0693, 0.0477, 0.0276, 0.0540, 0.0152, 0.0545, 0.0582,
-         0.0152],
-        [0.0729, 0.0291, 0.0728, 0.0703, 0.1079, 0.0199, 0.0570, 0.1199, 0.0276,
-         0.0234, 0.0302, 0.0570, 0.0553, 0.0263, 0.0559, 0.0153, 0.0749, 0.0690,
-         0.0153],
-        [0.0767, 0.0292, 0.0548, 0.0582, 0.1308, 0.0242, 0.0654, 0.1269, 0.0300,
-         0.0192, 0.0300, 0.0654, 0.0597, 0.0273, 0.0615, 0.0139, 0.0541, 0.0587,
-         0.0139],
-        [0.0718, 0.0282, 0.0594, 0.0602, 0.1315, 0.0236, 0.0733, 0.1186, 0.0217,
-         0.0204, 0.0352, 0.0733, 0.0604, 0.0220, 0.0425, 0.0161, 0.0753, 0.0505,
-         0.0161],
-        [0.0859, 0.0271, 0.0700, 0.0675, 0.1040, 0.0226, 0.0650, 0.1311, 0.0255,
-         0.0233, 0.0328, 0.0650, 0.0594, 0.0228, 0.0580, 0.0135, 0.0523, 0.0605,
-         0.0135],
-        [0.0720, 0.0298, 0.0688, 0.0630, 0.1335, 0.0190, 0.0655, 0.1333, 0.0246,
-         0.0187, 0.0301, 0.0655, 0.0547, 0.0227, 0.0615, 0.0110, 0.0632, 0.0519,
-         0.0110],
-        [0.0718, 0.0282, 0.0594, 0.0602, 0.1315, 0.0236, 0.0733, 0.1186, 0.0217,
-         0.0204, 0.0352, 0.0733, 0.0604, 0.0220, 0.0425, 0.0161, 0.0753, 0.0505,
-         0.0161]])
+[[0.07893795 0.03179118 0.06543866 0.06998007 0.11121912 0.02363419
+ 0.06911907 0.12490934 0.02913809 0.02373726 0.03061213 0.06911907
+ 0.05918023 0.02240782 0.05253364 0.01428307 0.04941338 0.06026271
+ 0.01428307]
+[0.08998767 0.02964601 0.07422426 0.06796217 0.12319457 0.01888083
+ 0.05807737 0.11433755 0.02176693 0.02185141 0.0371981  0.05807737
+ 0.05204595 0.02120645 0.05341454 0.01775607 0.05438065 0.06823603
+ 0.01775606]
+[0.06791665 0.03031565 0.06834999 0.0842832  0.10015739 0.02457619
+ 0.06252559 0.10736299 0.03128918 0.02298035 0.0322991  0.06252559
+ 0.06748898 0.03194774 0.06100119 0.01644134 0.04835487 0.06374268
+ 0.01644134]
+[0.07384394 0.02718226 0.0639743  0.0704562  0.12200831 0.01962143
+ 0.06179042 0.12854591 0.02517577 0.01788042 0.03169465 0.06179042
+ 0.06685734 0.0265637  0.04493038 0.01305821 0.05692465 0.07464355
+ 0.01305821]
+[0.08285553 0.0268616  0.06030307 0.08793141 0.13713156 0.01759227
+ 0.06640216 0.12461275 0.02184466 0.01692698 0.03165894 0.06640216
+ 0.05016968 0.01897686 0.05415943 0.01304209 0.05185486 0.0582319
+ 0.01304209]
+[0.08337382 0.02693985 0.05850938 0.06630595 0.13227612 0.01871135
+ 0.05847145 0.13950253 0.02401961 0.02423364 0.0362298  0.05847145
+ 0.05031706 0.02274324 0.05415863 0.01262672 0.05597198 0.0645107
+ 0.01262672]
+[0.09712087 0.03995311 0.06563875 0.06092489 0.08196992 0.03049335
+ 0.07142313 0.07964956 0.03676512 0.03374182 0.04455882 0.07142313
+ 0.04772442 0.03760583 0.04487554 0.02559997 0.05727761 0.04765423
+ 0.02559997]
+[0.08240984 0.02016001 0.05748057 0.07794376 0.16188398 0.01634701
+ 0.0537611  0.15307051 0.01615538 0.01780562 0.02246083 0.0537611
+ 0.05215089 0.02034765 0.05657777 0.00838849 0.0503625  0.07054448
+ 0.00838849]
+[0.07053693 0.02534955 0.06940506 0.07735154 0.10496357 0.02167333
+ 0.07439934 0.11558441 0.0260673  0.02386355 0.0334181  0.07439934
+ 0.06289424 0.0254096  0.04807313 0.01370814 0.05811524 0.06107947
+ 0.01370814]
+[0.06962937 0.02730408 0.07331746 0.08590709 0.11285892 0.02097328
+ 0.05466725 0.10681011 0.029203   0.01954866 0.04078919 0.05466725
+ 0.05424809 0.03355887 0.08248601 0.01610747 0.04479259 0.05702378
+ 0.01610747]
+[0.0678226  0.02445205 0.06980752 0.07753339 0.13632554 0.01810592
+ 0.05609833 0.11801311 0.02347036 0.02095819 0.02752457 0.05609833
+ 0.05559165 0.02397651 0.06459329 0.01214203 0.07190493 0.06343965
+ 0.01214203]
+[0.09712087 0.03995311 0.06563875 0.06092489 0.08196992 0.03049335
+ 0.07142313 0.07964956 0.03676512 0.03374182 0.04455882 0.07142313
+ 0.04772442 0.03760583 0.04487554 0.02559997 0.05727761 0.04765423
+ 0.02559997]
+[0.09443338 0.02604386 0.05835027 0.07448996 0.09617093 0.02157975
+ 0.06927958 0.12192405 0.03086204 0.02449341 0.04065378 0.06927958
+ 0.04773845 0.02758559 0.05397712 0.0152214  0.05450912 0.05818629
+ 0.0152214 ]
+[0.07286448 0.02913702 0.07275194 0.07026161 0.10793538 0.01988485
+ 0.05701382 0.11994702 0.02756279 0.02343564 0.03024098 0.05701382
+ 0.05530995 0.02630427 0.05592249 0.01526077 0.07492049 0.06897201
+ 0.01526077]
+[0.07668894 0.02922637 0.05481769 0.05819141 0.13081872 0.02421168
+ 0.06539784 0.12691626 0.02998617 0.01922324 0.03002767 0.06539784
+ 0.05973766 0.02725389 0.06153503 0.01389179 0.05405425 0.0587317
+ 0.0138918 ]
+[0.07176621 0.02819656 0.05935354 0.0601835  0.1315456  0.02364655
+ 0.07327159 0.1186109  0.02167214 0.0204478  0.03518828 0.07327159
+ 0.06036345 0.02204449 0.04247628 0.01609018 0.07531103 0.05047019
+ 0.01609018]
+[0.08586139 0.02714405 0.0700107  0.06748467 0.10399733 0.02259255
+ 0.06501491 0.13111222 0.02551557 0.02325622 0.03284629 0.06501491
+ 0.05941451 0.02282078 0.05797924 0.01352139 0.05234598 0.06054582
+ 0.01352139]
+[0.07204939 0.02980836 0.06878217 0.06296692 0.13352975 0.01902451
+ 0.06554183 0.13329588 0.02455777 0.0187451  0.03014297 0.06554183
+ 0.05468457 0.02266042 0.06152769 0.0110321  0.06321594 0.05186066
+ 0.0110321 ]
+[0.07176621 0.02819656 0.05935356 0.0601835  0.13154559 0.02364655
+ 0.07327159 0.11861087 0.02167214 0.02044781 0.03518828 0.07327159
+ 0.06036344 0.02204449 0.04247629 0.01609018 0.07531103 0.05047019
+ 0.01609018]]

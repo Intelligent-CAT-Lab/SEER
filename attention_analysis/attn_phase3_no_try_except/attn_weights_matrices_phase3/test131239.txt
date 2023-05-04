@@ -1,0 +1,21 @@
+131239
+Test: public void test48() throws Throwable { Complex complex0 = Complex.ofCis(0.0); complex0.ONE.nthRoot(744); Complex complex1 = complex0.add(0.0); Complex complex2 = complex1.proj(); Complex complex3 = complex2.ZERO.cosh(); Complex complex4 = complex0.divide(complex1); complex4.I.addImaginary((-1688.157352390292)); complex4.ZERO.toString(); Complex complex5 = complex0.multiply(complex1); complex5.ONE.toString(); Complex complex6 = complex5.ONE.exp(); Complex complex7 = complex1.ZERO.sinh(); Complex complex8 = complex7.ZERO.multiply(0.0); Complex complex9 = complex8.ONE.multiply(complex3); Complex complex10 = complex5.divideImaginary(744); Complex complex11 = Complex.ofCis(3246.9817985024); complex11.conj(); complex11.hashCode(); complex1.divide(complex11); Complex complex12 = Complex.parse("(1.0,0.0)"); complex3.log(); Complex complex13 = Complex.ofCis(3246.9817985024); complex10.nthRoot(1024); complex7.exp(); complex9.multiply(complex10); complex13.abs(); complex0.add(complex12); complex3.asinh(); complex6.tanh(); }
+Code: public Complex tanh() { return tanh(real, imaginary, Complex::ofCartesian); }
+[[0.09632561 0.1585601  0.09561519 0.10845842 0.10354236 0.1336095
+ 0.1336095  0.1336095  0.0366698 ]
+[0.07882874 0.17466515 0.09854825 0.11312906 0.09998979 0.1334936
+ 0.1334936  0.1334936  0.03435817]
+[0.08733671 0.16041148 0.08249579 0.13255824 0.10972477 0.1311892
+ 0.1311892  0.1311892  0.03390538]
+[0.09186056 0.16373181 0.07384573 0.13300079 0.10763904 0.1268942
+ 0.1268942  0.1268942  0.04923944]
+[0.06826311 0.15811941 0.08723059 0.1117142  0.10283843 0.14670524
+ 0.14670524 0.14670524 0.03171849]
+[0.0800808  0.1685471  0.0921161  0.11496308 0.09687941 0.13582703
+ 0.13582703 0.13582703 0.03993244]
+[0.0800808  0.1685471  0.0921161  0.11496308 0.09687941 0.13582703
+ 0.13582703 0.13582703 0.03993244]
+[0.0800808  0.1685471  0.0921161  0.11496308 0.09687941 0.13582703
+ 0.13582703 0.13582703 0.03993244]
+[0.06521151 0.15311685 0.09681448 0.13867614 0.13406612 0.12695962
+ 0.12695962 0.12695962 0.03123599]]

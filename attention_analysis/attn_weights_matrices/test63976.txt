@@ -1,27 +1,27 @@
 63976
 Test: public void test42() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test42"); com.fasterxml.jackson.core.util.BufferRecycler bufferRecycler0 = null; com.fasterxml.jackson.core.json.JsonReadContext jsonReadContext1 = null; com.fasterxml.jackson.core.json.DupDetector dupDetector2 = null; com.fasterxml.jackson.core.json.JsonReadContext jsonReadContext6 = new com.fasterxml.jackson.core.json.JsonReadContext(jsonReadContext1, dupDetector2, (int) (short) -1, (int) (short) 100, 100); java.lang.Object obj7 = jsonReadContext6.getCurrentValue(); java.lang.String str8 = jsonReadContext6.typeDesc(); boolean boolean9 = jsonReadContext6.inObject(); com.fasterxml.jackson.core.io.IOContext iOContext11 = new com.fasterxml.jackson.core.io.IOContext(bufferRecycler0, (java.lang.Object) jsonReadContext6, true); java.io.Reader reader13 = null; com.fasterxml.jackson.core.ObjectCodec objectCodec14 = null; com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer charsToNameCanonicalizer15 = com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer.createRoot(); int int16 = charsToNameCanonicalizer15.collisionCount(); char[] charArray19 = new char[] { '#', '#' }; com.fasterxml.jackson.core.json.ReaderBasedJsonParser readerBasedJsonParser23 = new com.fasterxml.jackson.core.json.ReaderBasedJsonParser(iOContext11, (int) (short) 0, reader13, objectCodec14, charsToNameCanonicalizer15, charArray19, 57343, 31, false); readerBasedJsonParser23.overrideCurrentName("com.fasterxml.jackson.core.JsonParseException: {"); int int26 = readerBasedJsonParser23.getTextLength(); com.fasterxml.jackson.core.util.JsonParserDelegate jsonParserDelegate27 = new com.fasterxml.jackson.core.util.JsonParserDelegate((com.fasterxml.jackson.core.JsonParser) readerBasedJsonParser23); com.fasterxml.jackson.core.util.BufferRecycler bufferRecycler28 = null; com.fasterxml.jackson.core.json.JsonReadContext jsonReadContext29 = null; com.fasterxml.jackson.core.json.DupDetector dupDetector30 = null; com.fasterxml.jackson.core.json.JsonReadContext jsonReadContext34 = new com.fasterxml.jackson.core.json.JsonReadContext(jsonReadContext29, dupDetector30, (int) (short) -1, (int) (short) 100, 100); java.lang.Object obj35 = jsonReadContext34.getCurrentValue(); java.lang.String str36 = jsonReadContext34.typeDesc(); boolean boolean37 = jsonReadContext34.inObject(); com.fasterxml.jackson.core.io.IOContext iOContext39 = new com.fasterxml.jackson.core.io.IOContext(bufferRecycler28, (java.lang.Object) jsonReadContext34, true); java.io.Reader reader41 = null; com.fasterxml.jackson.core.ObjectCodec objectCodec42 = null; com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer charsToNameCanonicalizer43 = com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer.createRoot(); int int44 = charsToNameCanonicalizer43.collisionCount(); char[] charArray47 = new char[] { '#', '#' }; com.fasterxml.jackson.core.json.ReaderBasedJsonParser readerBasedJsonParser51 = new com.fasterxml.jackson.core.json.ReaderBasedJsonParser(iOContext39, (int) (short) 0, reader41, objectCodec42, charsToNameCanonicalizer43, charArray47, 57343, 31, false); java.io.Writer writer52 = null; int int53 = readerBasedJsonParser51.getText(writer52); int int54 = readerBasedJsonParser51.getValueAsInt(); com.fasterxml.jackson.core.FormatSchema formatSchema55 = readerBasedJsonParser51.getSchema(); long long56 = readerBasedJsonParser51.getValueAsLong(); com.fasterxml.jackson.core.JsonParser.Feature feature57 = com.fasterxml.jackson.core.JsonParser.Feature.ALLOW_SINGLE_QUOTES; boolean boolean58 = feature57.enabledByDefault(); com.fasterxml.jackson.core.JsonParser jsonParser59 = readerBasedJsonParser51.disable(feature57); com.fasterxml.jackson.core.JsonParser[] jsonParserArray60 = new com.fasterxml.jackson.core.JsonParser[] { readerBasedJsonParser23, readerBasedJsonParser51 }; com.fasterxml.jackson.core.util.JsonParserSequence jsonParserSequence61 = new com.fasterxml.jackson.core.util.JsonParserSequence(jsonParserArray60); java.lang.Object obj62 = jsonParserSequence61.getEmbeddedObject(); boolean boolean63 = jsonParserSequence61.switchToNext(); jsonParserSequence61._nextParser = (-1972756169); jsonParserSequence61._suppressNextToken = true; java.lang.Boolean boolean68 = jsonParserSequence61.nextBooleanValue(); boolean boolean69 = jsonParserSequence61.getValueAsBoolean(); try { com.fasterxml.jackson.core.JsonToken jsonToken70 = jsonParserSequence61.nextToken(); } catch (java.lang.ArrayIndexOutOfBoundsException e) { } }
 Code: protected JsonParserSequence(JsonParser[] parsers) { super(parsers[0]); _parsers = parsers; _nextParser = 1; }
-tensor([[0.1052, 0.2385, 0.1036, 0.1296, 0.0644, 0.0668, 0.0484, 0.0341, 0.1019,
-         0.0484, 0.0333, 0.0256],
-        [0.1265, 0.2138, 0.1023, 0.1277, 0.0715, 0.0708, 0.0380, 0.0455, 0.0995,
-         0.0380, 0.0324, 0.0341],
-        [0.0958, 0.2096, 0.1222, 0.1124, 0.0750, 0.0791, 0.0473, 0.0410, 0.0979,
-         0.0473, 0.0391, 0.0332],
-        [0.1349, 0.1633, 0.0909, 0.1159, 0.0772, 0.0812, 0.0580, 0.0445, 0.0960,
-         0.0580, 0.0399, 0.0402],
-        [0.1007, 0.2602, 0.1165, 0.1063, 0.0586, 0.0829, 0.0441, 0.0371, 0.1043,
-         0.0441, 0.0227, 0.0225],
-        [0.0883, 0.2576, 0.0908, 0.1368, 0.0648, 0.0797, 0.0449, 0.0338, 0.1094,
-         0.0449, 0.0241, 0.0248],
-        [0.1144, 0.1734, 0.0933, 0.0877, 0.0817, 0.0796, 0.0629, 0.0546, 0.1061,
-         0.0629, 0.0459, 0.0374],
-        [0.1095, 0.2644, 0.1068, 0.1170, 0.0546, 0.0626, 0.0447, 0.0359, 0.1132,
-         0.0447, 0.0232, 0.0232],
-        [0.1238, 0.1923, 0.1169, 0.1383, 0.0678, 0.0611, 0.0451, 0.0485, 0.0903,
-         0.0451, 0.0383, 0.0324],
-        [0.1144, 0.1734, 0.0933, 0.0877, 0.0817, 0.0796, 0.0629, 0.0546, 0.1061,
-         0.0629, 0.0459, 0.0374],
-        [0.0934, 0.2336, 0.1148, 0.1103, 0.0706, 0.0828, 0.0447, 0.0355, 0.1135,
-         0.0447, 0.0284, 0.0278],
-        [0.1073, 0.2050, 0.1025, 0.1371, 0.0691, 0.0700, 0.0463, 0.0371, 0.1195,
-         0.0463, 0.0308, 0.0291]])
+[[0.1052217  0.23853636 0.1035759  0.12960312 0.06435034 0.06681608
+ 0.04844241 0.03414226 0.10191441 0.04844242 0.03331674 0.02563829]
+[0.1265398  0.21377489 0.10226721 0.1276599  0.07146762 0.07076392
+ 0.03797841 0.04554898 0.0994997  0.03797841 0.03244394 0.03407722]
+[0.09576663 0.20964915 0.12219948 0.11243494 0.07499338 0.07914659
+ 0.04731354 0.04099429 0.09786765 0.04731354 0.03912359 0.03319724]
+[0.13487753 0.16331339 0.09093449 0.11590587 0.07717078 0.08115195
+ 0.05803864 0.04447638 0.09601563 0.05803864 0.0398763  0.04020046]
+[0.10069739 0.26021266 0.1164753  0.10627907 0.05857552 0.08291444
+ 0.04410559 0.03707019 0.10433925 0.04410559 0.02270218 0.02252285]
+[0.08833805 0.2576116  0.09081064 0.13679497 0.06483467 0.0796798
+ 0.04485292 0.0338196  0.10944544 0.04485292 0.02413803 0.02482137]
+[0.11444075 0.17342395 0.09329147 0.08770689 0.08168277 0.07957973
+ 0.06294688 0.05461439 0.10605444 0.06294688 0.04587378 0.03743806]
+[0.10954027 0.26441932 0.10680853 0.11696552 0.05461816 0.06261277
+ 0.04471329 0.03591258 0.1132243  0.04471328 0.02324323 0.02322875]
+[0.12383723 0.1922739  0.1169338  0.13834551 0.06782323 0.06113995
+ 0.04510196 0.04847877 0.09025798 0.04510196 0.03825636 0.03244941]
+[0.11444075 0.17342395 0.09329147 0.08770689 0.08168277 0.07957973
+ 0.06294688 0.05461439 0.10605444 0.06294688 0.04587378 0.03743806]
+[0.0933646  0.23360056 0.1147947  0.11030182 0.07060469 0.08277176
+ 0.04467339 0.03548478 0.11345769 0.04467339 0.02843754 0.02783505]
+[0.10725354 0.20502508 0.10246491 0.137104   0.06906722 0.06996451
+ 0.04628912 0.03709649 0.1195008  0.04628911 0.03082791 0.02911728]]

@@ -1,0 +1,17 @@
+83358
+Test: public void test4() throws Throwable { byte[] byteArray0 = new byte[7]; ByteArrayInputStream byteArrayInputStream0 = new ByteArrayInputStream(byteArray0); PushbackInputStream pushbackInputStream0 = new PushbackInputStream(byteArrayInputStream0); DataInputStream dataInputStream0 = new DataInputStream(pushbackInputStream0); ConstantPool constantPool0 = new ConstantPool(dataInputStream0); SimpleElementValue simpleElementValue0 = new SimpleElementValue((byte)0, 822, constantPool0); int int0 = simpleElementValue0.getType(); }
+Code: final int getType() { return type; }
+[[0.08890451 0.06627625 0.1873167  0.19680679 0.20180833 0.21802911
+ 0.04085828]
+[0.1338276  0.08494512 0.18541586 0.19483265 0.16656741 0.18755294
+ 0.04685836]
+[0.09026812 0.08212134 0.17488445 0.217716   0.17310624 0.2192649
+ 0.04263895]
+[0.1374489  0.07095665 0.19513437 0.19432566 0.16693391 0.16143599
+ 0.07376448]
+[0.0957316  0.07253823 0.19622554 0.17623018 0.16580918 0.24323036
+ 0.05023495]
+[0.11337579 0.08268194 0.17366925 0.18222667 0.17963411 0.21340199
+ 0.05501032]
+[0.08792739 0.07838069 0.18647611 0.21624349 0.20804985 0.17430127
+ 0.04862121]]

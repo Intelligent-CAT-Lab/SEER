@@ -1,0 +1,17 @@
+63112
+Test: public void test202() throws Throwable { JSONObject jSONObject0 = new JSONObject(); JSONArray jSONArray0 = new JSONArray(); ArrayList<Byte> arrayList0 = new ArrayList<Byte>(); JSONArray jSONArray1 = jSONArray0.put(1774, (Collection<?>) arrayList0); long long0 = jSONArray0.optLong(574); Number number0 = jSONArray1.optNumber(815); JSONArray jSONArray2 = jSONArray1.put(2438, (Collection<?>) arrayList0); JSONArray jSONArray3 = jSONArray0.put(true); int int0 = jSONArray0.length(); MockFile mockFile0 = new MockFile("|", "|"); MockPrintWriter mockPrintWriter0 = new MockPrintWriter(mockFile0); Object[] objectArray0 = new Object[9]; objectArray0[0] = (Object) mockPrintWriter0; objectArray0[1] = (Object) jSONObject0; objectArray0[2] = (Object) jSONArray2; objectArray0[3] = (Object) mockFile0; objectArray0[4] = (Object) mockPrintWriter0; objectArray0[5] = (Object) mockPrintWriter0; objectArray0[6] = (Object) mockFile0; objectArray0[7] = (Object) null; objectArray0[8] = (Object) arrayList0; PrintWriter printWriter0 = mockPrintWriter0.format("|", objectArray0); }
+Code: public int length() { return this.myArrayList.size(); }
+[[0.14005756 0.09168129 0.19428128 0.17120624 0.152219   0.19428128
+ 0.05627332]
+[0.08921845 0.06556281 0.2322315  0.19481936 0.14315376 0.2322315
+ 0.04278267]
+[0.12119697 0.07944629 0.20417215 0.18169    0.14682373 0.20417216
+ 0.06249871]
+[0.13480824 0.06582753 0.1822551  0.20407528 0.15680158 0.1822551
+ 0.07397714]
+[0.10471454 0.06661788 0.21977326 0.18215512 0.1559014  0.21977329
+ 0.0510645 ]
+[0.12119697 0.07944629 0.20417215 0.18169    0.14682373 0.20417216
+ 0.06249871]
+[0.09448293 0.0724026  0.1800794  0.22326528 0.20070246 0.18007939
+ 0.04898785]]

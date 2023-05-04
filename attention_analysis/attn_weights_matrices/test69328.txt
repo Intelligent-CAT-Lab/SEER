@@ -1,10 +1,17 @@
 69328
 Test: public void test268() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test268"); org.jsoup.select.Evaluator.AttributeWithValueNot attributeWithValueNot2 = new org.jsoup.select.Evaluator.AttributeWithValueNot("#document", "#document"); org.jsoup.nodes.Document document5 = org.jsoup.Jsoup.parseBodyFragment("#text", "#text"); org.jsoup.select.Elements elements8 = document5.getElementsByAttributeValueMatching(":root", "#text"); java.lang.String str9 = document5.nodeName(); org.jsoup.nodes.Document.OutputSettings outputSettings10 = document5.outputSettings(); org.jsoup.select.Elements elements12 = document5.getElementsByAttributeStarting("#comment"); org.jsoup.nodes.Element element14 = document5.toggleClass("EndTag"); org.jsoup.select.Evaluator.Id id16 = new org.jsoup.select.Evaluator.Id("#text"); org.jsoup.parser.HtmlTreeBuilder htmlTreeBuilder17 = new org.jsoup.parser.HtmlTreeBuilder(); htmlTreeBuilder17.generateImpliedEndTags(); boolean boolean19 = htmlTreeBuilder17.framesetOk(); org.jsoup.nodes.Document document22 = org.jsoup.Jsoup.parseBodyFragment("#text", "#text"); boolean boolean24 = document22.hasClass("hi!"); org.jsoup.nodes.Element element26 = document22.removeClass(""); org.jsoup.nodes.Document document29 = org.jsoup.Jsoup.parseBodyFragment("#text", "#text"); boolean boolean31 = document29.hasClass("hi!"); org.jsoup.nodes.Document document32 = document29.clone(); org.jsoup.nodes.Element element33 = document22.appendChild((org.jsoup.nodes.Node) document32); org.jsoup.select.Elements elements35 = element33.getElementsByIndexLessThan(0); htmlTreeBuilder17.pushActiveFormattingElements(element33); org.jsoup.parser.HtmlTreeBuilderState htmlTreeBuilderState37 = htmlTreeBuilder17.originalState(); org.jsoup.nodes.Document document40 = org.jsoup.Jsoup.parseBodyFragment("#text", "#text"); boolean boolean42 = document40.hasClass("hi!"); org.jsoup.nodes.Document.QuirksMode quirksMode43 = document40.quirksMode(); org.jsoup.nodes.Node node44 = document40.parentNode(); boolean boolean45 = htmlTreeBuilder17.isInActiveFormattingElements((org.jsoup.nodes.Element) document40); java.lang.String str46 = document40.html(); org.jsoup.nodes.Document document49 = org.jsoup.Jsoup.parseBodyFragment("#text", "#text"); boolean boolean51 = document49.hasClass("hi!"); org.jsoup.nodes.Document document52 = document49.clone(); org.jsoup.nodes.Element element54 = document52.appendElement("[]"); org.jsoup.nodes.Element element55 = element54.clone(); boolean boolean56 = id16.matches((org.jsoup.nodes.Element) document40, element54); org.jsoup.nodes.Element element58 = document40.createElement(":root"); boolean boolean59 = attributeWithValueNot2.matches(element14, element58); org.jsoup.nodes.Node node60 = element14.parentNode(); }
 Code: public String nodeName() { return "#doctype"; }
-tensor([[0.0945, 0.1192, 0.2936, 0.1414, 0.1059, 0.2017, 0.0436],
-        [0.0933, 0.1051, 0.3021, 0.1535, 0.0961, 0.2120, 0.0379],
-        [0.0777, 0.1477, 0.2741, 0.1663, 0.0861, 0.2083, 0.0398],
-        [0.0976, 0.1369, 0.2669, 0.1649, 0.1112, 0.1655, 0.0569],
-        [0.0647, 0.1199, 0.2817, 0.1476, 0.0903, 0.2565, 0.0394],
-        [0.0758, 0.1108, 0.3006, 0.1411, 0.1039, 0.2273, 0.0405],
-        [0.0605, 0.1108, 0.2882, 0.1622, 0.1341, 0.2096, 0.0346]])
+[[0.09451137 0.11916012 0.29359424 0.1414488  0.10591899 0.20172223
+ 0.04364421]
+[0.09328005 0.10510759 0.30207235 0.15345386 0.0961246  0.21201326
+ 0.0379483 ]
+[0.0777262  0.14770207 0.27410847 0.16629177 0.08607925 0.20826824
+ 0.03982399]
+[0.09757708 0.13694644 0.26688352 0.16494247 0.11124489 0.16553333
+ 0.05687227]
+[0.06470042 0.11985601 0.2816887  0.14759772 0.09031291 0.25646627
+ 0.03937795]
+[0.07583357 0.11081336 0.30055332 0.141064   0.10388017 0.2273345
+ 0.04052107]
+[0.06051251 0.11078851 0.2882437  0.16219433 0.13409247 0.20958707
+ 0.03458139]]

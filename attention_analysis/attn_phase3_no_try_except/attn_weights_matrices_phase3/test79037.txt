@@ -1,0 +1,2 @@
+79037
+Test: public void test53() throws Throwable { ArrayType arrayType0 = new ArrayType("tacMap", 213); ReferenceType referenceType0 = ((Type) ((org.apache.bcel.generic.Type) arrayType0).OBJECT).OBJECT.firstCommonSuperclass(((Type) ((org.apache.bcel.generic.Type) arrayType0).OBJECT).STRING); boolean boolean0 = arrayType0.CLASS.isAssignmentCompatibleWith(referenceType0); }

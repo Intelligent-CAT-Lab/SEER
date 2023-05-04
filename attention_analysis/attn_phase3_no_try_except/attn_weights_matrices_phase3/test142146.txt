@@ -1,0 +1,17 @@
+142146
+Test: public void test6() throws Throwable { CompositeCacheManager compositeCacheManager0 = CompositeCacheManager.getUnconfiguredInstance(); RemoteHttpCacheServerAttributes remoteHttpCacheServerAttributes0 = new RemoteHttpCacheServerAttributes(); CacheEventLoggerDebugLogger cacheEventLoggerDebugLogger0 = new CacheEventLoggerDebugLogger(); RemoteHttpCacheService<Object, CacheElementSerialized<Object, Object>> remoteHttpCacheService0 = new RemoteHttpCacheService<Object, CacheElementSerialized<Object, Object>>(compositeCacheManager0, remoteHttpCacheServerAttributes0, cacheEventLoggerDebugLogger0); String string0 = remoteHttpCacheService0.getEventLogSourceName(); }
+Code: protected String getEventLogSourceName() { return eventLogSourceName; }
+[[0.17550582 0.1494661  0.15302545 0.20162022 0.12715645 0.15302543
+ 0.04020053]
+[0.17393215 0.13608894 0.1665234  0.18789323 0.12208152 0.16652341
+ 0.04695739]
+[0.19478531 0.16453925 0.15263218 0.16632418 0.1138708  0.15263219
+ 0.05521601]
+[0.19222608 0.1468145  0.13491425 0.1998807  0.12431002 0.13491425
+ 0.06694023]
+[0.19961023 0.1647962  0.15388629 0.16812164 0.11421609 0.15388629
+ 0.04548329]
+[0.19478531 0.16453925 0.15263218 0.16632418 0.1138708  0.15263219
+ 0.05521601]
+[0.16331199 0.13901848 0.14034837 0.20475139 0.16862264 0.14034836
+ 0.0435988 ]]

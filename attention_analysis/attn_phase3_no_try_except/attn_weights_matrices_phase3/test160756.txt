@@ -1,0 +1,17 @@
+160756
+Test: public void test16() throws Throwable { KeyedPooledObjectFactory<Object, String> keyedPooledObjectFactory0 = (KeyedPooledObjectFactory<Object, String>) mock(KeyedPooledObjectFactory.class, new ViolatedAssumptionAnswer()); GenericKeyedObjectPoolConfig<String> genericKeyedObjectPoolConfig0 = new GenericKeyedObjectPoolConfig<String>(); GenericKeyedObjectPoolConfig<String> genericKeyedObjectPoolConfig1 = genericKeyedObjectPoolConfig0.clone(); GenericKeyedObjectPool<Object, String> genericKeyedObjectPool0 = new GenericKeyedObjectPool<Object, String>(keyedPooledObjectFactory0, genericKeyedObjectPoolConfig1); genericKeyedObjectPool0.setMinIdlePerKey(3); genericKeyedObjectPool0.getMaxTotalPerKey(); KeyedPooledObjectFactory<LinkedList<Integer>, Object> keyedPooledObjectFactory1 = (KeyedPooledObjectFactory<LinkedList<Integer>, Object>) mock(KeyedPooledObjectFactory.class, new ViolatedAssumptionAnswer()); GenericKeyedObjectPoolConfig<Object> genericKeyedObjectPoolConfig2 = new GenericKeyedObjectPoolConfig<Object>(); GenericKeyedObjectPool<LinkedList<Integer>, Object> genericKeyedObjectPool1 = new GenericKeyedObjectPool<LinkedList<Integer>, Object>(keyedPooledObjectFactory1, genericKeyedObjectPoolConfig2); genericKeyedObjectPool1.close(); }
+Code: int getMaxTotalPerKey(); /** * See {@link GenericKeyedObjectPool#getMaxWaitDuration()}
+[[0.03880768 0.1432655  0.1432655  0.08926699 0.29886335 0.14326552
+ 0.14326552]
+[0.0508025  0.1319094  0.1319094  0.08341256 0.33814728 0.13190942
+ 0.13190942]
+[0.0508025  0.1319094  0.1319094  0.08341256 0.33814728 0.13190942
+ 0.13190942]
+[0.0498375  0.13268626 0.13268626 0.13440354 0.2850139  0.13268626
+ 0.13268626]
+[0.03713848 0.12854168 0.12854168 0.08363678 0.365058   0.12854168
+ 0.12854168]
+[0.0508025  0.1319094  0.1319094  0.08341256 0.33814728 0.13190942
+ 0.13190942]
+[0.0508025  0.1319094  0.1319094  0.08341256 0.33814728 0.13190942
+ 0.13190942]]

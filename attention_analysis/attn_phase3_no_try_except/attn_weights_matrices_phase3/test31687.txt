@@ -1,0 +1,2 @@
+31687
+Test: public void test24() throws Throwable { File file0 = MockFile.createTempFile("erNiKctW%", "erNiKctW%"); // Undeclared exception!  FileUtil.deleteDir(file0);   }

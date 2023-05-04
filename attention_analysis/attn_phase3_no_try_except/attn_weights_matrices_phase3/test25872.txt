@@ -1,0 +1,17 @@
+25872
+Test: public void test14() throws Throwable { Vector2D.Unit vector2D_Unit0 = Vector2D.Unit.MINUS_Y; Vector2D[] vector2DArray0 = new Vector2D[7]; vector2DArray0[0] = (Vector2D) vector2D_Unit0; vector2DArray0[1] = (Vector2D) vector2D_Unit0; vector2DArray0[2] = (Vector2D) vector2D_Unit0; vector2DArray0[3] = (Vector2D) vector2D_Unit0; vector2DArray0[4] = (Vector2D) vector2D_Unit0; vector2DArray0[5] = (Vector2D) vector2D_Unit0; vector2DArray0[6] = vector2DArray0[5]; Bounds2D bounds2D0 = Bounds2D.from((Vector2D) vector2D_Unit0, vector2DArray0); Vector2D vector2D0 = bounds2D0.getMax(); }
+Code: public P getMax() { return max; }
+[[0.11909071 0.16519856 0.16519856 0.14714721 0.12962556 0.22554657
+ 0.0481928 ]
+[0.09760725 0.16442877 0.16442877 0.14634494 0.11824655 0.25860462
+ 0.05033908]
+[0.09760725 0.16442877 0.16442877 0.14634494 0.11824655 0.25860462
+ 0.05033908]
+[0.11057976 0.14636041 0.14636041 0.17443533 0.12770066 0.23252316
+ 0.06204021]
+[0.08546515 0.17737001 0.17737001 0.15276968 0.12653893 0.23789328
+ 0.04259292]
+[0.11218268 0.16289505 0.16289505 0.1865884  0.11744538 0.21909742
+ 0.03889607]
+[0.08431174 0.16129614 0.16129614 0.19575098 0.17809081 0.17612106
+ 0.04313318]]

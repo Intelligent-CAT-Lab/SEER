@@ -1,0 +1,21 @@
+67654
+Test: public void test4967() throws Throwable { ArrayDeque<SQLTransactionRollbackException> arrayDeque0 = new ArrayDeque<SQLTransactionRollbackException>(); ArrayDeque<SQLTransactionRollbackException> arrayDeque1 = arrayDeque0.clone(); JSONArray jSONArray0 = new JSONArray((Iterable<?>) arrayDeque1); int int0 = 11; boolean boolean0 = FileSystemHandling.createFolder((EvoSuiteFile) null); boolean boolean1 = jSONArray0.optBoolean(11, true); int int1 = jSONArray0.optInt((-583), 11); JSONArray jSONArray1 = jSONArray0.put(11, 0.0F); JSONTokener jSONTokener0 = new JSONTokener("Y1fzc;/\"HpT+Zr"); JSONException jSONException0 = jSONTokener0.syntaxError("number"); SQLTransactionRollbackException sQLTransactionRollbackException0 = new SQLTransactionRollbackException("Y1fzc;/\"HpT+Zr", jSONException0); boolean boolean2 = arrayDeque0.offer(sQLTransactionRollbackException0); HashMap<SQLIntegrityConstraintViolationException, SQLException> hashMap0 = new HashMap<SQLIntegrityConstraintViolationException, SQLException>(); JSONArray jSONArray2 = jSONArray1.put(0, (Map<?, ?>) hashMap0); List<Object> list0 = jSONArray0.toList(); float float0 = jSONArray1.getFloat(11); int int2 = jSONArray2.optInt(11, (-1227)); }
+Code: public int optInt(int index) { return this.optInt(index, 0); }
+[[0.08589163 0.05786064 0.11913698 0.28841305 0.09674452 0.0923309
+ 0.11913698 0.10778004 0.03270524]
+[0.0540355  0.04201586 0.14646356 0.29520833 0.10455524 0.0850762
+ 0.14646356 0.10178576 0.02439595]
+[0.07865573 0.0520163  0.13338901 0.22692245 0.11303297 0.09515845
+ 0.13338901 0.12818323 0.03925284]
+[0.0806881  0.05272303 0.13252452 0.24016665 0.11968391 0.10454664
+ 0.13252452 0.0987514  0.03839128]
+[0.0922056  0.04590391 0.12859942 0.22491813 0.1307457  0.10840333
+ 0.12859942 0.09173192 0.04889259]
+[0.06612733 0.04295371 0.14107299 0.24942185 0.11035225 0.09925481
+ 0.14107299 0.11854157 0.03120247]
+[0.07865573 0.0520163  0.13338901 0.22692245 0.11303297 0.09515845
+ 0.13338901 0.12818323 0.03925284]
+[0.06860276 0.04412484 0.12459973 0.31050956 0.10599042 0.09292699
+ 0.12459973 0.1055368  0.02310925]
+[0.06093377 0.04753752 0.11943507 0.27277893 0.12493738 0.12392985
+ 0.11943507 0.10260059 0.02841179]]

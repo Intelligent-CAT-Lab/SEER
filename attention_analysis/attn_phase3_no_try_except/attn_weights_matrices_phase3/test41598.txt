@@ -1,0 +1,27 @@
+41598
+Test: public void test629() throws Throwable { DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendLiteral("W"); DateTimeFormatterBuilder dateTimeFormatterBuilder2 = dateTimeFormatterBuilder1.appendFractionOfSecond(50, 15); DateTimeFormatterBuilder dateTimeFormatterBuilder3 = dateTimeFormatterBuilder2.appendMinuteOfHour(50); DateTimeFormatterBuilder.TimeZoneId dateTimeFormatterBuilder_TimeZoneId0 = DateTimeFormatterBuilder.TimeZoneId.INSTANCE; DateTimePrinter dateTimePrinter0 = InternalPrinterDateTimePrinter.of(dateTimeFormatterBuilder_TimeZoneId0); DateTimeParser dateTimeParser0 = InternalParserDateTimeParser.of(dateTimeFormatterBuilder_TimeZoneId0); DateTimeFormatter dateTimeFormatter0 = new DateTimeFormatter(dateTimePrinter0, dateTimeParser0); Integer integer0 = new Integer(2326); DateTimeFormatter dateTimeFormatter1 = dateTimeFormatter0.withPivotYear(integer0); DateTimeZone dateTimeZone0 = DateTimeZone.forOffsetMillis(15); DateTimeFormatter dateTimeFormatter2 = dateTimeFormatter1.withZone(dateTimeZone0); DateTimeFormatterBuilder dateTimeFormatterBuilder4 = dateTimeFormatterBuilder2.appendMillisOfDay(2326); Integer integer1 = Integer.getInteger("Pacific/M", (-290)); DateTimeFormatterBuilder dateTimeFormatterBuilder5 = dateTimeFormatterBuilder4.appendDayOfMonth(57); DateTimeFormatter dateTimeFormatter3 = dateTimeFormatterBuilder5.toFormatter(); DateTimeFormatterBuilder dateTimeFormatterBuilder6 = dateTimeFormatterBuilder3.appendFractionOfDay(50, 57); DateTimeFormatterBuilder dateTimeFormatterBuilder7 = dateTimeFormatterBuilder4.appendTwoDigitWeekyear(57); DateTimeFormatterBuilder dateTimeFormatterBuilder8 = dateTimeFormatterBuilder6.appendCenturyOfEra(1000, 4); }
+Code: public DateTimeFormatterBuilder appendCenturyOfEra(int minDigits, int maxDigits) { return appendSignedDecimal(DateTimeFieldType.centuryOfEra(), minDigits, maxDigits); }
+[[0.07045451 0.0977381  0.0977381  0.0977381  0.0446879  0.0977381
+ 0.09334061 0.07746354 0.0977381  0.0977381  0.0977381  0.02988677]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.04239925 0.10441163 0.10441163 0.10441163 0.02879433 0.10441163
+ 0.10634575 0.06969559 0.10441165 0.10441165 0.10441165 0.02188366]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.07308374 0.09133645 0.09133645 0.09133645 0.03402039 0.09133645
+ 0.12738362 0.08281835 0.09133646 0.09133646 0.09133646 0.04333861]
+[0.05131359 0.10224862 0.10224862 0.10224862 0.0305373  0.10224862
+ 0.10041224 0.07448341 0.10224862 0.10224862 0.10224862 0.02751317]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.04941742 0.088955   0.088955   0.088955   0.03653049 0.088955
+ 0.14699095 0.11370802 0.08895499 0.08895499 0.08895499 0.03066816]]

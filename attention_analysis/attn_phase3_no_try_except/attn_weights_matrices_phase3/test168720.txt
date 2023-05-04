@@ -1,0 +1,17 @@
+168720
+Test: public void test27() throws Throwable { DataSource dataSource0 = mock(DataSource.class, new ViolatedAssumptionAnswer()); QueryRunner queryRunner0 = new QueryRunner(dataSource0, true); RowSetMetaDataImpl rowSetMetaDataImpl0 = new RowSetMetaDataImpl(); ResultSet resultSet0 = mock(ResultSet.class, new ViolatedAssumptionAnswer()); doReturn((String) null, (String) null).when(resultSet0).toString(); doReturn(rowSetMetaDataImpl0).when(resultSet0).getMetaData(); doReturn(true).when(resultSet0).next(); ResultSet resultSet1 = queryRunner0.wrap(resultSet0); ParameterMetaData parameterMetaData0 = mock(ParameterMetaData.class, new ViolatedAssumptionAnswer()); doReturn(0).when(parameterMetaData0).getParameterCount(); CallableStatement callableStatement0 = mock(CallableStatement.class, new ViolatedAssumptionAnswer()); doReturn((String) null, (String) null, (String) null).when(callableStatement0).toString(); doReturn(resultSet1).when(callableStatement0).executeQuery(); doReturn(0).when(callableStatement0).executeUpdate(); doReturn(parameterMetaData0).when(callableStatement0).getParameterMetaData(); Connection connection0 = mock(Connection.class, new ViolatedAssumptionAnswer()); doReturn(callableStatement0).when(connection0).prepareCall(anyString()); CallableStatement callableStatement1 = queryRunner0.prepareCall(connection0, "ekjf 1"); Connection connection1 = mock(Connection.class, new ViolatedAssumptionAnswer()); doReturn((String) null).when(connection1).toString(); doReturn(callableStatement1, callableStatement1).when(connection1).prepareStatement(anyString()); DataSource dataSource1 = mock(DataSource.class, new ViolatedAssumptionAnswer()); doReturn((String) null, (String) null).when(dataSource1).toString(); doReturn(connection1).when(dataSource1).getConnection(); QueryRunner queryRunner1 = new QueryRunner(dataSource1, false); Connection connection2 = queryRunner1.prepareConnection(); Class<String> class0 = String.class; BeanHandler<String> beanHandler0 = new BeanHandler<String>(class0); queryRunner0.update(connection2, "org.apache.commons.dbutils.AbstractQueryRunner", (Object) null); queryRunner1.query(connection2, "3,S}9", (ResultSetHandler<String>) beanHandler0); }
+Code: public boolean isPmdKnownBroken() { return pmdKnownBroken; }
+[[0.10934648 0.26729727 0.15169707 0.1511886  0.12100547 0.15169705
+ 0.04776807]
+[0.06855693 0.34035894 0.12991077 0.18153623 0.11619409 0.12991078
+ 0.03353223]
+[0.0877424  0.31477123 0.14417115 0.15167442 0.1068267  0.14417115
+ 0.05064295]
+[0.11026365 0.23269044 0.14063604 0.18583335 0.12578093 0.14063604
+ 0.06415956]
+[0.07348293 0.34289712 0.14042537 0.15607165 0.10455605 0.14042538
+ 0.04214151]
+[0.0877424  0.31477123 0.14417115 0.15167442 0.1068267  0.14417115
+ 0.05064295]
+[0.07333571 0.24605852 0.13447544 0.20389462 0.16462673 0.13447544
+ 0.04313356]]

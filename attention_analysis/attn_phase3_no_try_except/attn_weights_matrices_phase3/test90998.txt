@@ -1,0 +1,19 @@
+90998
+Test: public void test3() throws Throwable { BasicType basicType0 = Type.CHAR; String[] stringArray0 = new String[0]; byte[] byteArray0 = new byte[2]; InstructionList instructionList0 = new InstructionList(byteArray0); MethodGen methodGen0 = new MethodGen(0, basicType0, basicType0.NO_ARGS, stringArray0, "q~eVv]5:xI;rBI", "q~eVv]5:xI;rBI", instructionList0, (ConstantPoolGen) null); InstructionHandle instructionHandle0 = instructionList0.getStart(); JSR jSR0 = new JSR(instructionHandle0); instructionList0.insert(instructionHandle0, (BranchInstruction) jSR0); ControlFlowGraph controlFlowGraph0 = null;  controlFlowGraph0 = new ControlFlowGraph(methodGen0, false);   }
+Code: public ControlFlowGraph(final MethodGen method_gen) { this(method_gen, true); }
+[[0.09062282 0.12572281 0.12572281 0.12572281 0.12655409 0.12572281
+ 0.24006882 0.03986296]
+[0.07700038 0.12635732 0.12635732 0.12635732 0.13400896 0.12635732
+ 0.23887634 0.04468502]
+[0.07700038 0.12635732 0.12635732 0.12635732 0.13400896 0.12635732
+ 0.23887634 0.04468502]
+[0.07700038 0.12635732 0.12635732 0.12635732 0.13400896 0.12635732
+ 0.23887634 0.04468502]
+[0.09570485 0.12064722 0.12064722 0.12064722 0.1644799  0.12064722
+ 0.2009237  0.05630273]
+[0.07700038 0.12635732 0.12635732 0.12635732 0.13400896 0.12635732
+ 0.23887634 0.04468502]
+[0.08417928 0.12898721 0.12898721 0.12898721 0.14219946 0.12898721
+ 0.21725148 0.04042089]
+[0.06380767 0.11434094 0.11434094 0.11434094 0.19278347 0.11434094
+ 0.24594724 0.04009783]]

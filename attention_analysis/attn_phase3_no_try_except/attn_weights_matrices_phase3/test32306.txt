@@ -1,0 +1,2 @@
+32306
+Test: public void test11() throws Throwable { MetricRegistry metricRegistry0 = new MetricRegistry(); Reporter[] reporterArray0 = new Reporter[1]; ReportScheduler reportScheduler0 = new ReportScheduler(metricRegistry0, reporterArray0); Gauge<Integer> gauge0 = (Gauge<Integer>) mock(Gauge.class, new ViolatedAssumptionAnswer()); metricRegistry0.registerGauge("200.42.42.0", gauge0); // Undeclared exception!  reportScheduler0.report();   }

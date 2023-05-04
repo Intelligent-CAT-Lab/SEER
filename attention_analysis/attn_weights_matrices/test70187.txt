@@ -1,10 +1,17 @@
 70187
 Test: public void test367() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test367"); org.apache.commons.jxpath.ri.QName qName0 = null; java.util.Locale locale1 = null; org.apache.commons.jxpath.ri.model.beans.NullPointer nullPointer2 = new org.apache.commons.jxpath.ri.model.beans.NullPointer(qName0, locale1); org.apache.commons.jxpath.ri.parser.TokenMgrError tokenMgrError3 = new org.apache.commons.jxpath.ri.parser.TokenMgrError(); nullPointer2.handle((java.lang.Throwable) tokenMgrError3); java.lang.Object obj5 = nullPointer2.getBaseValue(); boolean boolean6 = nullPointer2.isCollection(); int int7 = nullPointer2.getLength(); org.apache.commons.jxpath.ri.QName qName10 = null; java.util.Locale locale11 = null; org.apache.commons.jxpath.ri.model.beans.NullPointer nullPointer12 = new org.apache.commons.jxpath.ri.model.beans.NullPointer(qName10, locale11); org.apache.commons.jxpath.ri.parser.TokenMgrError tokenMgrError13 = new org.apache.commons.jxpath.ri.parser.TokenMgrError(); nullPointer12.handle((java.lang.Throwable) tokenMgrError13); java.lang.Object obj15 = nullPointer12.getBaseValue(); boolean boolean16 = nullPointer12.isCollection(); org.apache.commons.jxpath.ri.model.beans.LangAttributePointer langAttributePointer17 = new org.apache.commons.jxpath.ri.model.beans.LangAttributePointer((org.apache.commons.jxpath.ri.model.NodePointer) nullPointer12); try { org.apache.commons.jxpath.ri.model.beans.PropertyIterator propertyIterator18 = new org.apache.commons.jxpath.ri.model.beans.PropertyIterator((org.apache.commons.jxpath.ri.model.beans.PropertyOwnerPointer) nullPointer2, "", false, (org.apache.commons.jxpath.ri.model.NodePointer) langAttributePointer17); } catch (org.apache.commons.jxpath.JXPathException e) { } }
 Code: public int getLength() { return ValueUtils.getLength(getBaseValue()); }
-tensor([[0.1035, 0.0667, 0.3440, 0.1316, 0.1131, 0.1984, 0.0427],
-        [0.0799, 0.0604, 0.3023, 0.1650, 0.1271, 0.2280, 0.0373],
-        [0.0853, 0.0555, 0.2997, 0.1800, 0.1069, 0.2323, 0.0404],
-        [0.1152, 0.0563, 0.2571, 0.1732, 0.1341, 0.2011, 0.0630],
-        [0.0713, 0.0441, 0.3655, 0.1306, 0.1051, 0.2471, 0.0362],
-        [0.0823, 0.0475, 0.3504, 0.1298, 0.1125, 0.2432, 0.0343],
-        [0.0827, 0.0637, 0.2466, 0.1872, 0.1733, 0.2049, 0.0415]])
+[[0.10345884 0.06669699 0.344025   0.13164528 0.11308175 0.19839098
+ 0.04270119]
+[0.07994388 0.06039837 0.30234772 0.16495211 0.12710936 0.22799772
+ 0.03725086]
+[0.08526704 0.05546489 0.2996505  0.18003917 0.10685791 0.2323316
+ 0.04038883]
+[0.11515376 0.05633986 0.25714564 0.17321955 0.13408463 0.20107783
+ 0.06297876]
+[0.07133114 0.04414823 0.36547017 0.13059896 0.1050813  0.24713029
+ 0.03623989]
+[0.0823234  0.04747894 0.35038397 0.12977326 0.11253434 0.24316019
+ 0.03434588]
+[0.08271106 0.06374682 0.24663092 0.18720585 0.17331389 0.20488353
+ 0.0415079 ]]

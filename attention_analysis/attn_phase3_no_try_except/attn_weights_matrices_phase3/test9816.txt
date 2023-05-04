@@ -1,0 +1,7 @@
+9816
+Test: public void test5() throws Throwable { StringEscapeUtils.CsvEscaper stringEscapeUtils_CsvEscaper0 = new StringEscapeUtils.CsvEscaper(); StringWriter stringWriter0 = new StringWriter(0); stringEscapeUtils_CsvEscaper0.translate((CharSequence) "\u001E", 0, (Writer) stringWriter0); }
+Code: public StringEscapeUtils() { }
+[[0.26360175 0.36561108 0.27517086 0.09561627]
+[0.22469527 0.38783675 0.285387   0.102081  ]
+[0.23549548 0.34202406 0.30348468 0.11899572]
+[0.18661417 0.3696179  0.36045745 0.08331049]]

@@ -1,0 +1,9 @@
+166907
+Test: public void test8() throws Throwable { HierarchicalConfiguration<CombinedConfiguration> hierarchicalConfiguration0 = (HierarchicalConfiguration<CombinedConfiguration>) mock(HierarchicalConfiguration.class, new ViolatedAssumptionAnswer()); OverrideCombiner overrideCombiner0 = new OverrideCombiner(); DynamicCombinedConfiguration dynamicCombinedConfiguration0 = new DynamicCombinedConfiguration(overrideCombiner0); NodeHandler<CombinedConfiguration> nodeHandler0 = (NodeHandler<CombinedConfiguration>) mock(NodeHandler.class, new ViolatedAssumptionAnswer()); XMLBeanDeclaration.NodeData<CombinedConfiguration> xMLBeanDeclaration_NodeData0 = new XMLBeanDeclaration.NodeData<CombinedConfiguration>(dynamicCombinedConfiguration0, nodeHandler0); XMLBeanDeclaration xMLBeanDeclaration0 = new XMLBeanDeclaration(hierarchicalConfiguration0, xMLBeanDeclaration_NodeData0); XMLBeanDeclaration.NodeData<?> xMLBeanDeclaration_NodeData1 = xMLBeanDeclaration0.getNode(); }
+Code: NodeData<?> getNode() { return nodeData; }
+[[0.20265809 0.20265809 0.18311131 0.14610806 0.2026581  0.06280632]
+[0.20265809 0.20265809 0.18311131 0.14610806 0.2026581  0.06280632]
+[0.18202463 0.18202463 0.2176526  0.1589381  0.18202463 0.0773354 ]
+[0.2073949  0.2073949  0.17967321 0.14808911 0.2073949  0.050053  ]
+[0.20265809 0.20265809 0.18311131 0.14610806 0.2026581  0.06280632]
+[0.17505208 0.17505208 0.22662593 0.19890663 0.17505206 0.04931121]]

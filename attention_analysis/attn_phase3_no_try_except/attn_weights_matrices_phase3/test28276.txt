@@ -1,0 +1,17 @@
+28276
+Test: public void test25() throws Throwable { Vector2D.Unit vector2D_Unit0 = Vector2D.Unit.PLUS_X; Precision.DoubleEquivalence precision_DoubleEquivalence0 = mock(Precision.DoubleEquivalence.class, new ViolatedAssumptionAnswer()); Line line0 = mock(Line.class, new ViolatedAssumptionAnswer()); doReturn(precision_DoubleEquivalence0).when(line0).getPrecision(); Segment segment0 = new Segment(line0, vector2D_Unit0, vector2D_Unit0); Precision.DoubleEquivalence precision_DoubleEquivalence1 = segment0.getPrecision(); Line line1 = new Line(vector2D_Unit0, 0.0, precision_DoubleEquivalence1); Segment segment1 = new Segment(line1, vector2D_Unit0, (Vector2D) null); // Undeclared exception!  segment1.getSize();   }
+Code: public double getSize() { return startPoint.distance(endPoint); }
+[[0.10590567 0.18201941 0.25397685 0.14738446 0.11731553 0.14692451
+ 0.04647353]
+[0.08371904 0.17879874 0.261885   0.1564928  0.1303044  0.1483449
+ 0.04045513]
+[0.10093713 0.1551702  0.28134075 0.17662324 0.10000023 0.1455655
+ 0.04036297]
+[0.11036094 0.14898652 0.2287109  0.17800885 0.12693584 0.144323
+ 0.06267396]
+[0.07376492 0.15481232 0.33070612 0.14925021 0.10623063 0.14458951
+ 0.04064624]
+[0.09078582 0.16821808 0.2716752  0.1571887  0.11053877 0.14912602
+ 0.05246743]
+[0.08114398 0.17600001 0.18895924 0.18633248 0.17080304 0.15559328
+ 0.04116794]]

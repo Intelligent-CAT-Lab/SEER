@@ -1,78 +1,128 @@
 67270
 Test: public void test63() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test63"); com.fasterxml.jackson.databind.JavaType javaType0 = null; com.fasterxml.jackson.databind.deser.std.UUIDDeserializer uUIDDeserializer1 = new com.fasterxml.jackson.databind.deser.std.UUIDDeserializer(); com.fasterxml.jackson.databind.deser.ValueInstantiator valueInstantiator2 = null; com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer stringCollectionDeserializer3 = new com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer(javaType0, (com.fasterxml.jackson.databind.JsonDeserializer<java.util.UUID>) uUIDDeserializer1, valueInstantiator2); com.fasterxml.jackson.databind.util.NameTransformer nameTransformer4 = null; com.fasterxml.jackson.databind.JsonDeserializer<java.util.Collection<java.lang.String>> strCollectionJsonDeserializer5 = stringCollectionDeserializer3.unwrappingDeserializer(nameTransformer4); com.fasterxml.jackson.databind.JavaType javaType6 = null; com.fasterxml.jackson.databind.deser.std.UUIDDeserializer uUIDDeserializer7 = new com.fasterxml.jackson.databind.deser.std.UUIDDeserializer(); com.fasterxml.jackson.databind.deser.ValueInstantiator valueInstantiator8 = null; com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer stringCollectionDeserializer9 = new com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer(javaType6, (com.fasterxml.jackson.databind.JsonDeserializer<java.util.UUID>) uUIDDeserializer7, valueInstantiator8); boolean boolean10 = stringCollectionDeserializer9.isCachable(); com.fasterxml.jackson.databind.JavaType javaType11 = null; com.fasterxml.jackson.databind.deser.std.UUIDDeserializer uUIDDeserializer12 = new com.fasterxml.jackson.databind.deser.std.UUIDDeserializer(); com.fasterxml.jackson.databind.deser.ValueInstantiator valueInstantiator13 = null; com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer stringCollectionDeserializer14 = new com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer(javaType11, (com.fasterxml.jackson.databind.JsonDeserializer<java.util.UUID>) uUIDDeserializer12, valueInstantiator13); com.fasterxml.jackson.databind.JsonDeserializer<?> wildcardJsonDeserializer15 = uUIDDeserializer12.getDelegatee(); com.fasterxml.jackson.databind.JavaType javaType16 = null; com.fasterxml.jackson.databind.deser.std.UUIDDeserializer uUIDDeserializer17 = new com.fasterxml.jackson.databind.deser.std.UUIDDeserializer(); com.fasterxml.jackson.databind.deser.ValueInstantiator valueInstantiator18 = null; com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer stringCollectionDeserializer19 = new com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer(javaType16, (com.fasterxml.jackson.databind.JsonDeserializer<java.util.UUID>) uUIDDeserializer17, valueInstantiator18); com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer stringCollectionDeserializer21 = stringCollectionDeserializer9.withResolved((com.fasterxml.jackson.databind.JsonDeserializer<java.util.UUID>) uUIDDeserializer12, (com.fasterxml.jackson.databind.JsonDeserializer<java.util.UUID>) uUIDDeserializer17, (java.lang.Boolean) true); com.fasterxml.jackson.databind.deser.std.UUIDDeserializer uUIDDeserializer22 = new com.fasterxml.jackson.databind.deser.std.UUIDDeserializer(); boolean boolean23 = uUIDDeserializer22.isCachable(); com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer stringCollectionDeserializer25 = stringCollectionDeserializer3.withResolved((com.fasterxml.jackson.databind.JsonDeserializer<java.util.UUID>) uUIDDeserializer12, (com.fasterxml.jackson.databind.JsonDeserializer<java.util.UUID>) uUIDDeserializer22, (java.lang.Boolean) false); java.util.UUID uUID26 = uUIDDeserializer12._deserializeFromEmptyString(); com.fasterxml.jackson.databind.JavaType javaType27 = com.fasterxml.jackson.databind.type.TypeFactory.unknownType(); com.fasterxml.jackson.databind.ser.BeanSerializer beanSerializer28 = com.fasterxml.jackson.databind.ser.BeanSerializer.createDummy(javaType27); com.fasterxml.jackson.databind.SerializerProvider serializerProvider29 = null; java.lang.Object obj30 = null; boolean boolean31 = beanSerializer28.isEmpty(serializerProvider29, obj30); com.fasterxml.jackson.databind.ser.std.BeanSerializerBase beanSerializerBase33 = beanSerializer28.withFilterId((java.lang.Object) 0); com.fasterxml.jackson.databind.JavaType javaType34 = null; com.fasterxml.jackson.databind.deser.std.UUIDDeserializer uUIDDeserializer35 = new com.fasterxml.jackson.databind.deser.std.UUIDDeserializer(); com.fasterxml.jackson.databind.deser.ValueInstantiator valueInstantiator36 = null; com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer stringCollectionDeserializer37 = new com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer(javaType34, (com.fasterxml.jackson.databind.JsonDeserializer<java.util.UUID>) uUIDDeserializer35, valueInstantiator36); boolean boolean38 = stringCollectionDeserializer37.isCachable(); com.fasterxml.jackson.databind.JsonDeserializer<?> wildcardJsonDeserializer39 = stringCollectionDeserializer37.getDelegatee(); com.fasterxml.jackson.core.ObjectCodec objectCodec40 = null; com.fasterxml.jackson.databind.util.TokenBuffer tokenBuffer42 = new com.fasterxml.jackson.databind.util.TokenBuffer(objectCodec40, true); boolean boolean43 = tokenBuffer42.canWriteFormattedNumbers(); com.fasterxml.jackson.databind.SerializerProvider serializerProvider44 = null; beanSerializer28.serialize((java.lang.Object) wildcardJsonDeserializer39, (com.fasterxml.jackson.core.JsonGenerator) tokenBuffer42, serializerProvider44); com.fasterxml.jackson.databind.deser.std.UUIDDeserializer uUIDDeserializer46 = new com.fasterxml.jackson.databind.deser.std.UUIDDeserializer(); com.fasterxml.jackson.core.ObjectCodec objectCodec47 = null; com.fasterxml.jackson.databind.util.TokenBuffer tokenBuffer49 = new com.fasterxml.jackson.databind.util.TokenBuffer(objectCodec47, true); boolean boolean50 = tokenBuffer49.canWriteFormattedNumbers(); boolean boolean51 = tokenBuffer49.canWriteBinaryNatively(); com.fasterxml.jackson.databind.node.JsonNodeFactory jsonNodeFactory52 = null; com.fasterxml.jackson.databind.node.ObjectNode objectNode53 = new com.fasterxml.jackson.databind.node.ObjectNode(jsonNodeFactory52); java.util.Iterator<java.lang.String> strItor54 = objectNode53.fieldNames(); com.fasterxml.jackson.databind.node.JsonNodeFactory jsonNodeFactory55 = null; com.fasterxml.jackson.databind.node.ObjectNode objectNode56 = new com.fasterxml.jackson.databind.node.ObjectNode(jsonNodeFactory55); com.fasterxml.jackson.core.JsonParser.NumberType numberType57 = objectNode56.numberType(); long long58 = objectNode56.asLong(); com.fasterxml.jackson.databind.JsonNode jsonNode59 = objectNode53.putAll(objectNode56); tokenBuffer49.writeTypeId((java.lang.Object) objectNode56); tokenBuffer49.writeNumberField("", (double) (short) -1); tokenBuffer49.writeEndArray(); java.lang.String str65 = tokenBuffer49.toString(); com.fasterxml.jackson.databind.SerializerProvider serializerProvider66 = null; beanSerializer28.serialize((java.lang.Object) uUIDDeserializer46, (com.fasterxml.jackson.core.JsonGenerator) tokenBuffer49, serializerProvider66); boolean boolean68 = uUIDDeserializer12.isDefaultDeserializer((com.fasterxml.jackson.databind.JsonDeserializer<java.util.UUID>) uUIDDeserializer46); }]FIELD_NAME()[typeId={}], VALUE_NUMBER_FLOAT[typeId={}], END_ARRAY]" + "'", str65, "[TokenBuffer: [typeId={}]FIELD_NAME()[typeId={}], VALUE_NUMBER_FLOAT[typeId={}], END_ARRAY]"); }
 Code: protected Object _deserializeFromEmptyString() throws IOException { if (_kind == STD_URI) { return URI.create(""); } if (_kind == STD_LOCALE) { return Locale.ROOT; } return super._deserializeFromEmptyString(); }
-tensor([[0.0402, 0.0143, 0.0242, 0.0587, 0.0133, 0.0400, 0.0671, 0.0472, 0.0342,
-         0.0491, 0.0400, 0.0267, 0.0556, 0.0081, 0.0671, 0.0472, 0.0342, 0.0478,
-         0.0400, 0.0267, 0.1619, 0.0081, 0.0267, 0.0136, 0.0081],
-        [0.0424, 0.0151, 0.0269, 0.0720, 0.0128, 0.0463, 0.0664, 0.0419, 0.0355,
-         0.0484, 0.0463, 0.0266, 0.0442, 0.0085, 0.0664, 0.0419, 0.0355, 0.0460,
-         0.0463, 0.0266, 0.1471, 0.0085, 0.0266, 0.0136, 0.0085],
-        [0.0466, 0.0159, 0.0334, 0.0580, 0.0138, 0.0394, 0.0583, 0.0672, 0.0325,
-         0.0408, 0.0394, 0.0285, 0.0447, 0.0096, 0.0583, 0.0672, 0.0325, 0.0526,
-         0.0394, 0.0285, 0.1292, 0.0096, 0.0285, 0.0161, 0.0096],
-        [0.0470, 0.0144, 0.0238, 0.0772, 0.0098, 0.0368, 0.0698, 0.0583, 0.0244,
-         0.0462, 0.0368, 0.0254, 0.0366, 0.0073, 0.0698, 0.0583, 0.0244, 0.0448,
-         0.0368, 0.0254, 0.1760, 0.0073, 0.0254, 0.0107, 0.0073],
-        [0.0485, 0.0167, 0.0267, 0.0771, 0.0109, 0.0342, 0.0814, 0.0511, 0.0392,
-         0.0498, 0.0342, 0.0285, 0.0332, 0.0074, 0.0814, 0.0511, 0.0392, 0.0461,
-         0.0342, 0.0285, 0.1208, 0.0074, 0.0285, 0.0166, 0.0074],
-        [0.0637, 0.0174, 0.0378, 0.0524, 0.0192, 0.0440, 0.0508, 0.0543, 0.0320,
-         0.0450, 0.0440, 0.0341, 0.0491, 0.0160, 0.0508, 0.0543, 0.0320, 0.0500,
-         0.0440, 0.0341, 0.0883, 0.0160, 0.0341, 0.0205, 0.0160],
-        [0.0371, 0.0105, 0.0238, 0.0800, 0.0090, 0.0303, 0.0779, 0.0455, 0.0276,
-         0.0516, 0.0303, 0.0182, 0.0584, 0.0046, 0.0779, 0.0455, 0.0276, 0.0481,
-         0.0303, 0.0182, 0.2091, 0.0046, 0.0182, 0.0117, 0.0046],
-        [0.0427, 0.0163, 0.0321, 0.0622, 0.0149, 0.0400, 0.0739, 0.0576, 0.0321,
-         0.0505, 0.0400, 0.0270, 0.0302, 0.0099, 0.0739, 0.0576, 0.0321, 0.0509,
-         0.0400, 0.0270, 0.1267, 0.0099, 0.0270, 0.0155, 0.0099],
-        [0.0364, 0.0151, 0.0268, 0.0668, 0.0106, 0.0356, 0.0783, 0.0520, 0.0353,
-         0.0588, 0.0356, 0.0233, 0.0385, 0.0073, 0.0783, 0.0520, 0.0353, 0.0493,
-         0.0356, 0.0233, 0.1580, 0.0073, 0.0233, 0.0098, 0.0073],
-        [0.0376, 0.0160, 0.0297, 0.0716, 0.0131, 0.0345, 0.0662, 0.0497, 0.0307,
-         0.0578, 0.0345, 0.0270, 0.0508, 0.0096, 0.0662, 0.0497, 0.0307, 0.0357,
-         0.0345, 0.0270, 0.1668, 0.0096, 0.0270, 0.0141, 0.0096],
-        [0.0637, 0.0174, 0.0378, 0.0524, 0.0192, 0.0440, 0.0508, 0.0543, 0.0320,
-         0.0450, 0.0440, 0.0341, 0.0491, 0.0160, 0.0508, 0.0543, 0.0320, 0.0500,
-         0.0440, 0.0341, 0.0883, 0.0160, 0.0341, 0.0205, 0.0160],
-        [0.0455, 0.0159, 0.0259, 0.0625, 0.0132, 0.0333, 0.0692, 0.0584, 0.0323,
-         0.0541, 0.0333, 0.0244, 0.0408, 0.0091, 0.0692, 0.0584, 0.0323, 0.0533,
-         0.0333, 0.0244, 0.1566, 0.0091, 0.0244, 0.0118, 0.0091],
-        [0.0487, 0.0131, 0.0239, 0.0657, 0.0124, 0.0368, 0.0855, 0.0508, 0.0336,
-         0.0423, 0.0368, 0.0270, 0.0526, 0.0075, 0.0855, 0.0508, 0.0336, 0.0481,
-         0.0368, 0.0270, 0.1237, 0.0075, 0.0270, 0.0158, 0.0075],
-        [0.0381, 0.0164, 0.0207, 0.0697, 0.0125, 0.0386, 0.0628, 0.0571, 0.0282,
-         0.0449, 0.0386, 0.0349, 0.0381, 0.0085, 0.0628, 0.0571, 0.0282, 0.0418,
-         0.0386, 0.0349, 0.1584, 0.0085, 0.0349, 0.0173, 0.0085],
-        [0.0371, 0.0105, 0.0238, 0.0800, 0.0090, 0.0303, 0.0779, 0.0455, 0.0276,
-         0.0516, 0.0303, 0.0182, 0.0584, 0.0046, 0.0779, 0.0455, 0.0276, 0.0481,
-         0.0303, 0.0182, 0.2091, 0.0046, 0.0182, 0.0117, 0.0046],
-        [0.0427, 0.0163, 0.0321, 0.0622, 0.0149, 0.0400, 0.0739, 0.0576, 0.0321,
-         0.0505, 0.0400, 0.0270, 0.0302, 0.0099, 0.0739, 0.0576, 0.0321, 0.0509,
-         0.0400, 0.0270, 0.1267, 0.0099, 0.0270, 0.0155, 0.0099],
-        [0.0364, 0.0151, 0.0268, 0.0668, 0.0106, 0.0356, 0.0783, 0.0520, 0.0353,
-         0.0588, 0.0356, 0.0233, 0.0385, 0.0073, 0.0783, 0.0520, 0.0353, 0.0493,
-         0.0356, 0.0233, 0.1580, 0.0073, 0.0233, 0.0098, 0.0073],
-        [0.0502, 0.0117, 0.0316, 0.0580, 0.0089, 0.0367, 0.0842, 0.0507, 0.0339,
-         0.0597, 0.0367, 0.0294, 0.0365, 0.0072, 0.0842, 0.0507, 0.0339, 0.0435,
-         0.0367, 0.0294, 0.1315, 0.0072, 0.0294, 0.0110, 0.0072],
-        [0.0637, 0.0174, 0.0378, 0.0524, 0.0192, 0.0440, 0.0508, 0.0543, 0.0320,
-         0.0450, 0.0440, 0.0341, 0.0491, 0.0160, 0.0508, 0.0543, 0.0320, 0.0500,
-         0.0440, 0.0341, 0.0883, 0.0160, 0.0341, 0.0205, 0.0160],
-        [0.0455, 0.0159, 0.0259, 0.0625, 0.0132, 0.0333, 0.0692, 0.0584, 0.0323,
-         0.0541, 0.0333, 0.0244, 0.0408, 0.0091, 0.0692, 0.0584, 0.0323, 0.0533,
-         0.0333, 0.0244, 0.1566, 0.0091, 0.0244, 0.0118, 0.0091],
-        [0.0358, 0.0151, 0.0264, 0.0655, 0.0104, 0.0382, 0.0749, 0.0554, 0.0328,
-         0.0550, 0.0382, 0.0265, 0.0403, 0.0067, 0.0749, 0.0554, 0.0328, 0.0484,
-         0.0382, 0.0265, 0.1502, 0.0067, 0.0265, 0.0125, 0.0067],
-        [0.0381, 0.0164, 0.0207, 0.0697, 0.0125, 0.0386, 0.0628, 0.0571, 0.0282,
-         0.0449, 0.0386, 0.0349, 0.0381, 0.0085, 0.0628, 0.0571, 0.0282, 0.0418,
-         0.0386, 0.0349, 0.1584, 0.0085, 0.0349, 0.0173, 0.0085],
-        [0.0455, 0.0159, 0.0259, 0.0625, 0.0132, 0.0333, 0.0692, 0.0584, 0.0323,
-         0.0541, 0.0333, 0.0244, 0.0408, 0.0091, 0.0692, 0.0584, 0.0323, 0.0533,
-         0.0333, 0.0244, 0.1566, 0.0091, 0.0244, 0.0118, 0.0091],
-        [0.0471, 0.0169, 0.0262, 0.0647, 0.0140, 0.0369, 0.0782, 0.0480, 0.0384,
-         0.0507, 0.0369, 0.0269, 0.0401, 0.0081, 0.0782, 0.0480, 0.0384, 0.0468,
-         0.0369, 0.0269, 0.1316, 0.0081, 0.0269, 0.0168, 0.0081],
-        [0.0381, 0.0164, 0.0207, 0.0697, 0.0125, 0.0386, 0.0628, 0.0571, 0.0282,
-         0.0449, 0.0386, 0.0349, 0.0381, 0.0085, 0.0628, 0.0571, 0.0282, 0.0418,
-         0.0386, 0.0349, 0.1584, 0.0085, 0.0349, 0.0173, 0.0085]])
+[[0.04018013 0.0143378  0.0242028  0.05865424 0.01326958 0.03995875
+ 0.06712493 0.04718534 0.03418414 0.04906239 0.03995875 0.02674028
+ 0.05557323 0.00811149 0.06712493 0.04718534 0.03418414 0.0477727
+ 0.03995875 0.02674028 0.1619491  0.00811149 0.02674028 0.01357768
+ 0.00811149]
+[0.0423943  0.01510275 0.02691324 0.07196157 0.01279029 0.04626211
+ 0.06635424 0.0418508  0.03546511 0.04844537 0.04626211 0.02657445
+ 0.04422705 0.00853842 0.06635424 0.0418508  0.03546511 0.04599186
+ 0.04626211 0.02657445 0.14710788 0.00853842 0.02657445 0.01360047
+ 0.00853842]
+[0.04656102 0.01591148 0.03341034 0.05800196 0.0137524  0.03944148
+ 0.05831563 0.06718715 0.03253171 0.04084032 0.03944148 0.02852684
+ 0.04471769 0.00963832 0.05831563 0.06718715 0.03253171 0.05261512
+ 0.03944148 0.02852684 0.12916465 0.00963832 0.02852684 0.01613619
+ 0.00963831]
+[0.0469904  0.01444555 0.02384051 0.07724322 0.00977558 0.03678898
+ 0.06981128 0.05830145 0.02444769 0.04619034 0.03678898 0.02539684
+ 0.03657027 0.00725233 0.06981128 0.05830145 0.02444769 0.04481352
+ 0.03678898 0.02539684 0.17597874 0.00725233 0.02539684 0.01071664
+ 0.00725232]
+[0.04853708 0.0166809  0.02668548 0.07712781 0.01093589 0.03419966
+ 0.08141021 0.05111802 0.03915182 0.04982788 0.03419966 0.0284731
+ 0.03321852 0.00737758 0.08141021 0.05111802 0.03915182 0.04607319
+ 0.03419966 0.0284731  0.12078013 0.00737758 0.0284731  0.01662197
+ 0.00737758]
+[0.06373604 0.01742987 0.03776658 0.0524115  0.01915178 0.04400939
+ 0.05081243 0.05431616 0.03202197 0.04500882 0.04400939 0.03408419
+ 0.0490873  0.01600417 0.05081243 0.05431616 0.03202197 0.05003855
+ 0.04400939 0.03408419 0.08829546 0.01600417 0.03408419 0.02047967
+ 0.01600417]
+[0.03708568 0.01046672 0.02382817 0.07998063 0.00899189 0.03025546
+ 0.07785065 0.04549972 0.02757908 0.05159627 0.03025546 0.01815068
+ 0.05841793 0.00457775 0.07785065 0.04549972 0.02757908 0.04809003
+ 0.03025546 0.01815068 0.20907131 0.00457775 0.01815068 0.01166097
+ 0.00457775]
+[0.04269033 0.01627884 0.03213531 0.06221972 0.0148843  0.04002092
+ 0.07394394 0.05758501 0.03209302 0.05049194 0.04002092 0.02704466
+ 0.03021676 0.00985415 0.07394394 0.05758501 0.03209302 0.05092563
+ 0.04002092 0.02704466 0.1266508  0.00985415 0.02704466 0.01550326
+ 0.00985415]
+[0.03638344 0.01512558 0.02678735 0.06680588 0.01063911 0.03557349
+ 0.07827099 0.05203123 0.03529182 0.05877503 0.03557349 0.02327715
+ 0.03851894 0.00733594 0.07827099 0.05203123 0.03529182 0.0493452
+ 0.03557349 0.02327715 0.15803823 0.00733594 0.02327715 0.00983347
+ 0.00733595]
+[0.03762799 0.01602815 0.02974436 0.07159266 0.01307517 0.03453372
+ 0.06623158 0.04972989 0.03074562 0.05783115 0.03453372 0.02698181
+ 0.05084639 0.00961293 0.06623158 0.04972989 0.03074562 0.03565222
+ 0.03453372 0.02698181 0.16675167 0.00961293 0.02698181 0.01405067
+ 0.00961292]
+[0.06373604 0.01742987 0.03776658 0.0524115  0.01915178 0.04400939
+ 0.05081243 0.05431616 0.03202197 0.04500882 0.04400939 0.03408419
+ 0.0490873  0.01600417 0.05081243 0.05431616 0.03202197 0.05003855
+ 0.04400939 0.03408419 0.08829546 0.01600417 0.03408419 0.02047967
+ 0.01600417]
+[0.04551017 0.01588083 0.025909   0.06253883 0.01318162 0.03330348
+ 0.06923094 0.05842512 0.03231931 0.05410121 0.03330348 0.02439128
+ 0.04082588 0.00910788 0.06923094 0.05842512 0.03231931 0.05331521
+ 0.03330348 0.02439128 0.15662271 0.00910788 0.02439128 0.01175586
+ 0.00910788]
+[0.04871231 0.0130858  0.02386869 0.0657003  0.01244775 0.03680231
+ 0.08547631 0.05076379 0.03360498 0.04231394 0.03680231 0.02699269
+ 0.05258931 0.00754836 0.08547631 0.05076379 0.03360498 0.04811632
+ 0.03680231 0.02699269 0.12368427 0.00754836 0.02699269 0.01576104
+ 0.00754836]
+[0.03810618 0.01636056 0.02069738 0.06968696 0.01248297 0.038596
+ 0.06277403 0.05711767 0.02823848 0.04490999 0.038596   0.03490607
+ 0.03808145 0.00848665 0.06277403 0.05711767 0.02823848 0.04180196
+ 0.038596   0.03490607 0.15835609 0.00848665 0.03490607 0.01728985
+ 0.00848665]
+[0.03708568 0.01046672 0.02382817 0.07998063 0.00899189 0.03025546
+ 0.07785065 0.04549972 0.02757908 0.05159627 0.03025546 0.01815068
+ 0.05841793 0.00457775 0.07785065 0.04549972 0.02757908 0.04809003
+ 0.03025546 0.01815068 0.20907131 0.00457775 0.01815068 0.01166097
+ 0.00457775]
+[0.04269033 0.01627884 0.03213531 0.06221972 0.0148843  0.04002092
+ 0.07394394 0.05758501 0.03209302 0.05049194 0.04002092 0.02704466
+ 0.03021676 0.00985415 0.07394394 0.05758501 0.03209302 0.05092563
+ 0.04002092 0.02704466 0.1266508  0.00985415 0.02704466 0.01550326
+ 0.00985415]
+[0.03638344 0.01512558 0.02678735 0.06680588 0.01063911 0.03557349
+ 0.07827099 0.05203123 0.03529182 0.05877503 0.03557349 0.02327715
+ 0.03851894 0.00733594 0.07827099 0.05203123 0.03529182 0.0493452
+ 0.03557349 0.02327715 0.15803823 0.00733594 0.02327715 0.00983347
+ 0.00733595]
+[0.05015008 0.01171247 0.03161399 0.05801609 0.00886106 0.03671155
+ 0.08417709 0.05069743 0.03393572 0.0596652  0.03671155 0.02938299
+ 0.03649241 0.00719193 0.08417709 0.05069743 0.03393572 0.04351585
+ 0.03671155 0.02938299 0.13149442 0.00719193 0.02938299 0.01099854
+ 0.00719193]
+[0.06373604 0.01742987 0.03776658 0.0524115  0.01915178 0.04400939
+ 0.05081243 0.05431616 0.03202197 0.04500882 0.04400939 0.03408419
+ 0.0490873  0.01600417 0.05081243 0.05431616 0.03202197 0.05003855
+ 0.04400939 0.03408419 0.08829546 0.01600417 0.03408419 0.02047967
+ 0.01600417]
+[0.04551017 0.01588083 0.025909   0.06253883 0.01318162 0.03330348
+ 0.06923094 0.05842512 0.03231931 0.05410121 0.03330348 0.02439128
+ 0.04082588 0.00910788 0.06923094 0.05842512 0.03231931 0.05331521
+ 0.03330348 0.02439128 0.15662271 0.00910788 0.02439128 0.01175586
+ 0.00910788]
+[0.0358456  0.01510404 0.02642986 0.06549738 0.01035103 0.03816532
+ 0.0749146  0.05541884 0.0328473  0.05498684 0.03816532 0.02652388
+ 0.04031059 0.00667728 0.0749146  0.05541884 0.0328473  0.04835569
+ 0.03816532 0.02652388 0.15016834 0.00667728 0.02652388 0.01248965
+ 0.00667727]
+[0.03810618 0.01636056 0.02069738 0.06968696 0.01248297 0.038596
+ 0.06277403 0.05711767 0.02823848 0.04490999 0.038596   0.03490607
+ 0.03808145 0.00848665 0.06277403 0.05711767 0.02823848 0.04180196
+ 0.038596   0.03490607 0.15835609 0.00848665 0.03490607 0.01728985
+ 0.00848665]
+[0.04551017 0.01588083 0.025909   0.06253883 0.01318162 0.03330348
+ 0.06923094 0.05842512 0.03231931 0.05410121 0.03330348 0.02439128
+ 0.04082588 0.00910788 0.06923094 0.05842512 0.03231931 0.05331521
+ 0.03330348 0.02439128 0.15662271 0.00910788 0.02439128 0.01175586
+ 0.00910788]
+[0.04712086 0.01691752 0.0262283  0.06467697 0.01400586 0.03688002
+ 0.07823025 0.04804756 0.03843904 0.05074495 0.03688002 0.02685577
+ 0.04006555 0.00810351 0.07823025 0.04804756 0.03843904 0.04681826
+ 0.03688002 0.02685577 0.13162053 0.00810351 0.02685577 0.01684965
+ 0.00810351]
+[0.03810618 0.01636056 0.02069738 0.06968695 0.01248297 0.03859601
+ 0.06277402 0.05711766 0.02823848 0.04491    0.03859601 0.03490607
+ 0.03808147 0.00848665 0.06277402 0.05711766 0.02823848 0.04180195
+ 0.03859601 0.03490607 0.15835613 0.00848665 0.03490607 0.01728985
+ 0.00848665]]

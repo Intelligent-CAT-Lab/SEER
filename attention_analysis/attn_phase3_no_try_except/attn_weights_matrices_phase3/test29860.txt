@@ -1,0 +1,21 @@
+29860
+Test: public void test14() throws Throwable { TimeUnit timeUnit0 = TimeUnit.MILLISECONDS; QueuableCachedThreadPool.ControllableQueue queuableCachedThreadPool_ControllableQueue0 = new QueuableCachedThreadPool.ControllableQueue(1); MockThread mockThread0 = new MockThread(); ThreadFactory threadFactory0 = mock(ThreadFactory.class, new ViolatedAssumptionAnswer()); doReturn(mockThread0).when(threadFactory0).newThread(any(java.lang.Runnable.class)); ThreadPoolExecutor.DiscardPolicy threadPoolExecutor_DiscardPolicy0 = new ThreadPoolExecutor.DiscardPolicy(); QueuableCachedThreadPool queuableCachedThreadPool0 = new QueuableCachedThreadPool(1, 1, 1684L, timeUnit0, queuableCachedThreadPool_ControllableQueue0, threadFactory0, threadPoolExecutor_DiscardPolicy0); SocketReceiver socketReceiver0 = new SocketReceiver(); queuableCachedThreadPool0.execute((Runnable) socketReceiver0); boolean boolean0 = queuableCachedThreadPool_ControllableQueue0.offer((Runnable) socketReceiver0); }
+Code: public void execute(Runnable command) { execute(command, 0, TimeUnit.MILLISECONDS); }
+[[0.09140611 0.07275321 0.12679492 0.12679492 0.11240347 0.12679492
+ 0.17938545 0.12679492 0.0368721 ]
+[0.07076122 0.06123739 0.13814183 0.13814183 0.1209114  0.13814183
+ 0.15762654 0.13814183 0.03689616]
+[0.07499791 0.0635075  0.12707326 0.12707326 0.10839898 0.12707326
+ 0.20720828 0.12707326 0.03759423]
+[0.07499791 0.0635075  0.12707326 0.12707326 0.10839898 0.12707326
+ 0.20720828 0.12707326 0.03759423]
+[0.09162226 0.07970291 0.12129727 0.12129727 0.1444667  0.12129727
+ 0.14762723 0.12129727 0.05139187]
+[0.07499791 0.0635075  0.12707326 0.12707326 0.10839898 0.12707326
+ 0.20720828 0.12707326 0.03759423]
+[0.07839236 0.06923798 0.12188448 0.12188448 0.16900459 0.12188448
+ 0.15909775 0.12188448 0.0367294 ]
+[0.07499791 0.0635075  0.12707326 0.12707326 0.10839898 0.12707326
+ 0.20720828 0.12707326 0.03759423]
+[0.06654169 0.06159401 0.12465872 0.12465872 0.16974996 0.12465872
+ 0.16688953 0.12465872 0.03658997]]

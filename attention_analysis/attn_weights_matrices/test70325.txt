@@ -1,23 +1,23 @@
 70325
 Test: public void test002() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test002"); org.apache.commons.jxpath.ri.compiler.Expression expression0 = null; org.apache.commons.jxpath.ri.compiler.Expression expression1 = null; org.apache.commons.jxpath.ri.compiler.CoreOperationLessThanOrEqual coreOperationLessThanOrEqual2 = new org.apache.commons.jxpath.ri.compiler.CoreOperationLessThanOrEqual(expression0, expression1); boolean boolean3 = coreOperationLessThanOrEqual2.isSymmetric(); org.apache.commons.jxpath.ri.EvalContext evalContext4 = null; org.apache.commons.jxpath.ri.compiler.NodeTest nodeTest5 = null; org.apache.commons.jxpath.ri.axes.ParentContext parentContext6 = new org.apache.commons.jxpath.ri.axes.ParentContext(evalContext4, nodeTest5); org.apache.commons.jxpath.ri.EvalContext evalContext7 = null; org.apache.commons.jxpath.ri.compiler.NodeTest nodeTest8 = null; org.apache.commons.jxpath.ri.axes.ParentContext parentContext9 = new org.apache.commons.jxpath.ri.axes.ParentContext(evalContext7, nodeTest8); org.apache.commons.jxpath.ri.compiler.NodeTest nodeTest10 = null; org.apache.commons.jxpath.ri.axes.ChildContext childContext13 = new org.apache.commons.jxpath.ri.axes.ChildContext((org.apache.commons.jxpath.ri.EvalContext) parentContext9, nodeTest10, false, true); org.apache.commons.jxpath.ri.EvalContext[] evalContextArray14 = new org.apache.commons.jxpath.ri.EvalContext[] { childContext13 }; org.apache.commons.jxpath.ri.axes.UnionContext unionContext15 = new org.apache.commons.jxpath.ri.axes.UnionContext((org.apache.commons.jxpath.ri.EvalContext) parentContext6, evalContextArray14); try { java.lang.Object obj16 = coreOperationLessThanOrEqual2.computeValue((org.apache.commons.jxpath.ri.EvalContext) unionContext15); } catch (java.lang.NullPointerException e) { } }
 Code: public final Object computeValue(EvalContext context){return compute(args[1].computeValue(context), args[-1].computeValue(context))? Boolean.TRUE : Boolean.FALSE;}
-tensor([[0.0701, 0.0622, 0.0550, 0.1046, 0.2536, 0.0752, 0.0630, 0.1739, 0.0836,
-         0.0588],
-        [0.0788, 0.0566, 0.0528, 0.1251, 0.2530, 0.0854, 0.0603, 0.1683, 0.0675,
-         0.0521],
-        [0.0787, 0.0605, 0.0505, 0.1317, 0.2390, 0.0766, 0.0477, 0.1898, 0.0734,
-         0.0519],
-        [0.0509, 0.0854, 0.0506, 0.1027, 0.2516, 0.0914, 0.0654, 0.1817, 0.0556,
-         0.0647],
-        [0.0575, 0.0629, 0.0501, 0.0935, 0.2984, 0.0930, 0.0436, 0.1699, 0.0795,
-         0.0516],
-        [0.0598, 0.0711, 0.0547, 0.1047, 0.2463, 0.0970, 0.0582, 0.1837, 0.0660,
-         0.0585],
-        [0.0695, 0.0590, 0.0599, 0.1072, 0.2468, 0.1028, 0.0428, 0.1964, 0.0719,
-         0.0437],
-        [0.0550, 0.0682, 0.0527, 0.1031, 0.2599, 0.0774, 0.0703, 0.1921, 0.0717,
-         0.0496],
-        [0.0821, 0.0586, 0.0527, 0.1022, 0.2146, 0.0922, 0.0713, 0.2012, 0.0661,
-         0.0590],
-        [0.0665, 0.0615, 0.0533, 0.1019, 0.2203, 0.1118, 0.0696, 0.1883, 0.0688,
-         0.0581]])
+[[0.07006285 0.06217894 0.05503025 0.10464278 0.25363967 0.07523885
+ 0.06295171 0.17385665 0.08356738 0.05883096]
+[0.07882926 0.05664426 0.05278951 0.12512249 0.2530151  0.08544299
+ 0.06026524 0.16831031 0.06747524 0.05210567]
+[0.07870324 0.06053035 0.05050857 0.13173364 0.23898324 0.07657979
+ 0.04774233 0.18984872 0.07343011 0.05194003]
+[0.05091625 0.0854039  0.05058092 0.1026776  0.25159985 0.09137427
+ 0.06544654 0.18171021 0.05557298 0.06471747]
+[0.05754401 0.06288872 0.0500564  0.09347465 0.29841983 0.09296013
+ 0.04364169 0.16991165 0.07948605 0.05161686]
+[0.05976105 0.07108638 0.05469532 0.10470044 0.2463235  0.09703961
+ 0.05817539 0.18373165 0.06596878 0.05851788]
+[0.06954356 0.05899831 0.05991926 0.10722195 0.24681348 0.10280485
+ 0.04276486 0.19635054 0.07185155 0.0437317 ]
+[0.05496171 0.06824281 0.05274598 0.10306205 0.25991467 0.07741414
+ 0.07025109 0.19207922 0.07172693 0.04960136]
+[0.08211136 0.05862386 0.05274357 0.10219112 0.2146109  0.09218614
+ 0.07127331 0.20116177 0.06612404 0.05897397]
+[0.06648879 0.06152405 0.05326736 0.10189909 0.22027463 0.11176057
+ 0.06961252 0.18832797 0.06877901 0.05806607]]

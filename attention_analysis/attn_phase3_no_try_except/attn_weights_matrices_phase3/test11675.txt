@@ -1,0 +1,19 @@
+11675
+Test: public void test1() throws Throwable { FailableBiPredicate<Object, Throwable, Throwable> failableBiPredicate0 = FailableBiPredicate.falsePredicate(); FailableBiPredicate<Object, Object, Throwable> failableBiPredicate1 = FailableBiPredicate.truePredicate(); FailableBiPredicate<Object, Throwable, Throwable> failableBiPredicate2 = failableBiPredicate0.or(failableBiPredicate1); MockThrowable mockThrowable0 = new MockThrowable((String) null); boolean boolean0 = failableBiPredicate2.test((Object) null, mockThrowable0); }
+Code: boolean test(T object1, U object2) throws E; }
+[[0.24311543 0.10589736 0.10589736 0.10589736 0.10589736 0.19515817
+ 0.10589736 0.03223963]
+[0.22110483 0.10500765 0.10500765 0.10500765 0.10500765 0.2135591
+ 0.10500765 0.04029779]
+[0.22110483 0.10500765 0.10500765 0.10500765 0.10500765 0.2135591
+ 0.10500765 0.04029779]
+[0.22110483 0.10500765 0.10500765 0.10500765 0.10500765 0.2135591
+ 0.10500765 0.04029779]
+[0.22110483 0.10500765 0.10500765 0.10500765 0.10500765 0.2135591
+ 0.10500765 0.04029779]
+[0.2280477  0.09372871 0.09372871 0.09372871 0.09372871 0.2673949
+ 0.09372871 0.03591384]
+[0.22110483 0.10500765 0.10500765 0.10500765 0.10500765 0.2135591
+ 0.10500765 0.04029779]
+[0.17593022 0.10451499 0.10451499 0.10451499 0.10451499 0.2561573
+ 0.10451499 0.04533752]]

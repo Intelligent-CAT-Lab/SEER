@@ -1,10 +1,17 @@
 70185
 Test: public void test338() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test338"); org.apache.commons.jxpath.ri.model.beans.BeanPointerFactory beanPointerFactory0 = new org.apache.commons.jxpath.ri.model.beans.BeanPointerFactory(); org.apache.commons.jxpath.ri.QName qName2 = new org.apache.commons.jxpath.ri.QName("<<unknown namespace>>"); java.util.Locale locale4 = null; org.apache.commons.jxpath.ri.model.NodePointer nodePointer5 = beanPointerFactory0.createNodePointer(qName2, (java.lang.Object) 31, locale4); org.apache.commons.jxpath.ri.model.NodePointer nodePointer6 = null; org.apache.commons.jxpath.ri.model.beans.NullPropertyPointer nullPropertyPointer7 = new org.apache.commons.jxpath.ri.model.beans.NullPropertyPointer(nodePointer6); int int8 = nullPropertyPointer7.getLength(); java.lang.Object obj9 = nullPropertyPointer7.getBaseValue(); java.lang.Object obj10 = nullPropertyPointer7.getBaseValue(); java.lang.Object obj11 = nullPropertyPointer7.getBaseValue(); org.apache.commons.jxpath.ri.QName qName13 = new org.apache.commons.jxpath.ri.QName("<<unknown namespace>>"); org.apache.commons.jxpath.ri.model.VariablePointer variablePointer14 = new org.apache.commons.jxpath.ri.model.VariablePointer(qName13); org.apache.commons.jxpath.ri.QName qName15 = variablePointer14.getName(); java.lang.String str16 = qName15.getPrefix(); org.apache.commons.jxpath.ri.compiler.TreeCompiler treeCompiler17 = new org.apache.commons.jxpath.ri.compiler.TreeCompiler(); org.apache.commons.jxpath.ri.compiler.TreeCompiler treeCompiler18 = new org.apache.commons.jxpath.ri.compiler.TreeCompiler(); java.lang.Object obj20 = treeCompiler18.nodeTypeTest((int) (short) 100); org.apache.commons.jxpath.ri.compiler.Step step22 = null; org.apache.commons.jxpath.ri.compiler.Step[] stepArray23 = new org.apache.commons.jxpath.ri.compiler.Step[] { step22 }; org.apache.commons.jxpath.ri.compiler.LocationPath locationPath24 = new org.apache.commons.jxpath.ri.compiler.LocationPath(false, stepArray23); java.lang.Object obj25 = treeCompiler18.and((java.lang.Object[]) stepArray23); java.lang.Object obj26 = treeCompiler17.and((java.lang.Object[]) stepArray23); org.apache.commons.jxpath.ri.compiler.TreeCompiler treeCompiler27 = new org.apache.commons.jxpath.ri.compiler.TreeCompiler(); org.apache.commons.jxpath.ri.compiler.TreeCompiler treeCompiler28 = new org.apache.commons.jxpath.ri.compiler.TreeCompiler(); java.lang.Object obj30 = treeCompiler28.nodeTypeTest((int) (short) 100); org.apache.commons.jxpath.ri.compiler.Step step32 = null; org.apache.commons.jxpath.ri.compiler.Step[] stepArray33 = new org.apache.commons.jxpath.ri.compiler.Step[] { step32 }; org.apache.commons.jxpath.ri.compiler.LocationPath locationPath34 = new org.apache.commons.jxpath.ri.compiler.LocationPath(false, stepArray33); java.lang.Object obj35 = treeCompiler28.and((java.lang.Object[]) stepArray33); java.lang.Object obj36 = treeCompiler27.and((java.lang.Object[]) stepArray33); java.lang.Object obj37 = treeCompiler17.or((java.lang.Object[]) stepArray33); org.apache.commons.jxpath.ri.compiler.Step step40 = null; org.apache.commons.jxpath.ri.compiler.Step[] stepArray41 = new org.apache.commons.jxpath.ri.compiler.Step[] { step40 }; org.apache.commons.jxpath.ri.compiler.LocationPath locationPath42 = new org.apache.commons.jxpath.ri.compiler.LocationPath(false, stepArray41); java.lang.Object obj43 = treeCompiler17.function(41, (java.lang.Object[]) stepArray41); org.apache.commons.jxpath.ri.model.NodePointer nodePointer44 = beanPointerFactory0.createNodePointer((org.apache.commons.jxpath.ri.model.NodePointer) nullPropertyPointer7, qName15, obj43); java.lang.String[] strArray45 = nullPropertyPointer7.getPropertyNames(); }
 Code: public int getLength() { return ValueUtils.getLength(getBaseValue()); }
-tensor([[0.1035, 0.0667, 0.3440, 0.1316, 0.1131, 0.1984, 0.0427],
-        [0.0799, 0.0604, 0.3023, 0.1650, 0.1271, 0.2280, 0.0373],
-        [0.0853, 0.0555, 0.2997, 0.1800, 0.1069, 0.2323, 0.0404],
-        [0.1152, 0.0563, 0.2571, 0.1732, 0.1341, 0.2011, 0.0630],
-        [0.0713, 0.0441, 0.3655, 0.1306, 0.1051, 0.2471, 0.0362],
-        [0.0823, 0.0475, 0.3504, 0.1298, 0.1125, 0.2432, 0.0343],
-        [0.0827, 0.0637, 0.2466, 0.1872, 0.1733, 0.2049, 0.0415]])
+[[0.10345884 0.06669699 0.344025   0.13164528 0.11308175 0.19839098
+ 0.04270119]
+[0.07994388 0.06039837 0.30234772 0.16495211 0.12710936 0.22799772
+ 0.03725086]
+[0.08526704 0.05546489 0.2996505  0.18003917 0.10685791 0.2323316
+ 0.04038883]
+[0.11515376 0.05633986 0.25714564 0.17321955 0.13408463 0.20107783
+ 0.06297876]
+[0.07133114 0.04414823 0.36547017 0.13059896 0.1050813  0.24713029
+ 0.03623989]
+[0.0823234  0.04747894 0.35038397 0.12977326 0.11253434 0.24316019
+ 0.03434588]
+[0.08271106 0.06374682 0.24663092 0.18720585 0.17331389 0.20488353
+ 0.0415079 ]]

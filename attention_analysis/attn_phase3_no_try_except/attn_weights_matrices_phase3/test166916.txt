@@ -1,0 +1,17 @@
+166916
+Test: public void test17() throws Throwable { YAMLConfiguration yAMLConfiguration0 = new YAMLConfiguration(); Vector<AbstractYAMLBasedConfiguration> vector0 = new Vector<AbstractYAMLBasedConfiguration>(); ConstructorArg constructorArg0 = ConstructorArg.forValue((Object) vector0, ""); Set<String> set0 = ZoneId.getAvailableZoneIds(); NodeHandler<ConstructorArg> nodeHandler0 = (NodeHandler<ConstructorArg>) mock(NodeHandler.class, new ViolatedAssumptionAnswer()); doReturn(set0).when(nodeHandler0).getAttributes(any(org.apache.commons.configuration2.beanutils.ConstructorArg.class)); XMLBeanDeclaration.NodeData<ConstructorArg> xMLBeanDeclaration_NodeData0 = new XMLBeanDeclaration.NodeData<ConstructorArg>(constructorArg0, nodeHandler0); XMLBeanDeclaration xMLBeanDeclaration0 = new XMLBeanDeclaration(yAMLConfiguration0, xMLBeanDeclaration_NodeData0); Set<String> set1 = xMLBeanDeclaration0.getAttributeNames(); }
+Code: protected Set<String> getAttributeNames() { return getNode().getAttributes(); }
+[[0.19698131 0.10131496 0.16587536 0.19794779 0.13187766 0.16587533
+ 0.04012758]
+[0.20374608 0.13033293 0.1570059  0.19721165 0.11807108 0.1570059
+ 0.03662641]
+[0.21256965 0.13294433 0.15991402 0.16240385 0.11770564 0.15991402
+ 0.05454849]
+[0.20713821 0.12525548 0.14046437 0.19361813 0.12697941 0.14046437
+ 0.06608008]
+[0.22079578 0.13292742 0.1617482  0.16073996 0.11806232 0.1617482
+ 0.04397812]
+[0.21256965 0.13294433 0.15991402 0.16240385 0.11770564 0.15991402
+ 0.05454849]
+[0.16931874 0.13559452 0.14348774 0.1977692  0.16780601 0.14348774
+ 0.04253609]]

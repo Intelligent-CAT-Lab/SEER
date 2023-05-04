@@ -1,0 +1,17 @@
+1657
+Test: public void test9() throws Throwable { LinkedList<ColorCount> linkedList0 = new LinkedList<ColorCount>(); ColorCount colorCount0 = new ColorCount(5509); linkedList0.add(colorCount0); ColorGroup colorGroup0 = new ColorGroup(linkedList0, true); LinkedList<Object> linkedList1 = new LinkedList<Object>(); linkedList0.retainAll(linkedList1); List<ColorCount> list0 = colorGroup0.getColorCounts(); }
+Code: List<ColorCount> getColorCounts() { return new ArrayList<>(colorCounts); }
+[[0.18590516 0.18590516 0.16748647 0.13396417 0.08335541 0.18590516
+ 0.05747853]
+[0.18590516 0.18590516 0.16748647 0.13396417 0.08335541 0.18590516
+ 0.05747853]
+[0.16788939 0.16788939 0.20510755 0.14733091 0.07147644 0.16788939
+ 0.07241689]
+[0.1953856  0.1953856  0.16991456 0.13959432 0.05702499 0.1953856
+ 0.04730939]
+[0.17817634 0.17817634 0.18157545 0.15549222 0.07430923 0.17817633
+ 0.05409409]
+[0.18590516 0.18590516 0.16748647 0.13396417 0.08335541 0.18590516
+ 0.05747853]
+[0.16570474 0.16570474 0.21720853 0.18935062 0.04917544 0.16570473
+ 0.04715118]]

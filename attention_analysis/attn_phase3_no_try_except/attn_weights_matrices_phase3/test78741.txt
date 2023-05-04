@@ -1,0 +1,17 @@
+78741
+Test: public void test7() throws Throwable { GOTO gOTO0 = new GOTO(); InstructionList instructionList0 = new InstructionList((BranchInstruction) gOTO0); InstructionHandle instructionHandle0 = instructionList0.insert(instructionList0); ReturnaddressType returnaddressType0 = null;  returnaddressType0 = new ReturnaddressType(instructionHandle0);   }
+Code: private ReturnaddressType() { super(Const.T_ADDRESS, "<return address>"); }
+[[0.17049849 0.14761117 0.18698646 0.14761117 0.14761116 0.14761116
+ 0.05207038]
+[0.16584781 0.16147518 0.13988392 0.16147518 0.1614752  0.1614752
+ 0.04836755]
+[0.13983876 0.15247028 0.1848647  0.15247028 0.15247028 0.15247028
+ 0.06541537]
+[0.16584781 0.16147518 0.13988392 0.16147518 0.1614752  0.1614752
+ 0.04836755]
+[0.16584781 0.16147518 0.13988392 0.16147518 0.1614752  0.1614752
+ 0.04836755]
+[0.16584781 0.16147518 0.13988392 0.16147518 0.1614752  0.1614752
+ 0.04836755]
+[0.13025178 0.1514555  0.2174881  0.1514555  0.15145549 0.15145549
+ 0.04643806]]

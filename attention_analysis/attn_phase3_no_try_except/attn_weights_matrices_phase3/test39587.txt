@@ -1,0 +1,19 @@
+39587
+Test: public void test21() throws Throwable { DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.secondOfDay(); BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance(); DurationField durationField0 = buddhistChronology0.seconds(); UnsupportedDateTimeField unsupportedDateTimeField0 = UnsupportedDateTimeField.getInstance(dateTimeFieldType0, durationField0); Locale locale0 = Locale.SIMPLIFIED_CHINESE; // Undeclared exception!  unsupportedDateTimeField0.getMaximumTextLength(locale0);   }
+Code: public int getMaximumTextLength(Locale locale) { throw unsupported(); }
+[[0.12702313 0.08183576 0.17620689 0.09575655 0.16189419 0.12859169
+ 0.17620689 0.05248494]
+[0.08362759 0.06178628 0.21851477 0.08769862 0.18067816 0.10929619
+ 0.21851477 0.0398837 ]
+[0.10727035 0.07056464 0.18118979 0.12051881 0.1581651  0.12649384
+ 0.18118979 0.05460772]
+[0.11089049 0.06565341 0.20538881 0.09766254 0.17559908 0.09698127
+ 0.20538881 0.04243559]
+[0.12589185 0.06179482 0.17164    0.09886095 0.18734998 0.11436132
+ 0.17164    0.06846113]
+[0.10351665 0.06625778 0.17445926 0.0849698  0.23347528 0.12176366
+ 0.17445926 0.04109832]
+[0.10727035 0.07056464 0.18118979 0.12051881 0.1581651  0.12649384
+ 0.18118979 0.05460772]
+[0.09296203 0.07131442 0.17748271 0.09246215 0.21792673 0.12246129
+ 0.17748271 0.04790793]]

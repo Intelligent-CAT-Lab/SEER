@@ -1,0 +1,23 @@
+144913
+Test: public void test10() throws Throwable { LHMLRUMemoryCache<LRUMemoryCache<Object, Object>, Integer> lHMLRUMemoryCache0 = new LHMLRUMemoryCache<LRUMemoryCache<Object, Object>, Integer>(); LRUMemoryCache<Object, Object> lRUMemoryCache0 = new LRUMemoryCache<Object, Object>(); byte[] byteArray0 = new byte[6]; ElementAttributes elementAttributes0 = new ElementAttributes(); CacheElementSerialized<LRUMemoryCache<Object, Object>, Integer> cacheElementSerialized0 = new CacheElementSerialized<LRUMemoryCache<Object, Object>, Integer>("(`[~Gm?Kt@#f=?S\".", lRUMemoryCache0, byteArray0, elementAttributes0); MemoryElementDescriptor<LRUMemoryCache<Object, Object>, Integer> memoryElementDescriptor0 = new MemoryElementDescriptor<LRUMemoryCache<Object, Object>, Integer>(cacheElementSerialized0); lHMLRUMemoryCache0.lockedRemoveElement(memoryElementDescriptor0); }
+Code: protected void lockedRemoveElement(final MemoryElementDescriptor<K, V> me) { // empty }
+[[0.10076956 0.05390136 0.0918733  0.0918733  0.0918733  0.21221977
+ 0.13511594 0.0918733  0.10400992 0.02649028]
+[0.10472865 0.04693466 0.08891825 0.08891825 0.08891825 0.2299616
+ 0.10459089 0.08891825 0.12707342 0.03103773]
+[0.12075102 0.05454883 0.09385579 0.09385579 0.09385579 0.19802079
+ 0.10091445 0.09385579 0.11676754 0.03357416]
+[0.12075102 0.05454883 0.09385579 0.09385579 0.09385579 0.19802079
+ 0.10091445 0.09385579 0.11676754 0.03357416]
+[0.12075102 0.05454883 0.09385579 0.09385579 0.09385579 0.19802079
+ 0.10091445 0.09385579 0.11676754 0.03357416]
+[0.13648929 0.05200204 0.08768895 0.08768895 0.08768895 0.2131154
+ 0.12519579 0.08768895 0.09434548 0.02809622]
+[0.1250294  0.06369512 0.08754581 0.08754581 0.08754581 0.20069876
+ 0.1290946  0.08754581 0.08801312 0.04328583]
+[0.12075102 0.05454883 0.09385579 0.09385579 0.09385579 0.19802079
+ 0.10091445 0.09385579 0.11676754 0.03357416]
+[0.10847647 0.04174517 0.09416565 0.09416565 0.09416565 0.20566477
+ 0.11641156 0.09416565 0.12863715 0.02240232]
+[0.10390853 0.04986261 0.09255938 0.09255938 0.09255938 0.17567778
+ 0.15367687 0.09255938 0.11459727 0.03203947]]

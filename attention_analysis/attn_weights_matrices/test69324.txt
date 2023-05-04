@@ -1,29 +1,42 @@
 69324
 Test: public void test421() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test421"); org.jsoup.parser.Tag tag1 = org.jsoup.parser.Tag.valueOf("#document"); org.jsoup.helper.DescendableLinkedList<org.jsoup.select.Evaluator.Matches> matchesList2 = new org.jsoup.helper.DescendableLinkedList<org.jsoup.select.Evaluator.Matches>(); org.jsoup.nodes.Document document4 = new org.jsoup.nodes.Document(""); org.jsoup.nodes.Element element5 = document4.empty(); org.jsoup.select.Elements elements7 = document4.getElementsMatchingOwnText(""); org.jsoup.nodes.Element element8 = elements7.first(); org.jsoup.select.Elements elements9 = new org.jsoup.select.Elements((java.util.List<org.jsoup.nodes.Element>) elements7); int int10 = elements9.size(); boolean boolean11 = matchesList2.contains((java.lang.Object) elements9); java.util.regex.Pattern pattern12 = null; org.jsoup.select.Evaluator.Matches matches13 = new org.jsoup.select.Evaluator.Matches(pattern12); org.jsoup.select.Evaluator.Matches[] matchesArray14 = new org.jsoup.select.Evaluator.Matches[] { matches13 }; java.util.LinkedList<org.jsoup.select.Evaluator.Matches> matchesList15 = new java.util.LinkedList<org.jsoup.select.Evaluator.Matches>(); boolean boolean16 = java.util.Collections.addAll((java.util.Collection<org.jsoup.select.Evaluator.Matches>) matchesList15, matchesArray14); org.jsoup.select.Evaluator.Matches matches17 = matchesList15.peek(); java.util.regex.Pattern pattern18 = null; org.jsoup.select.Evaluator.Matches matches19 = new org.jsoup.select.Evaluator.Matches(pattern18); org.jsoup.select.Evaluator.Matches[] matchesArray20 = new org.jsoup.select.Evaluator.Matches[] { matches19 }; java.util.LinkedList<org.jsoup.select.Evaluator.Matches> matchesList21 = new java.util.LinkedList<org.jsoup.select.Evaluator.Matches>(); boolean boolean22 = java.util.Collections.addAll((java.util.Collection<org.jsoup.select.Evaluator.Matches>) matchesList21, matchesArray20); org.jsoup.select.Evaluator.Matches matches23 = matchesList21.peek(); boolean boolean24 = matchesList15.offerLast(matches23); matchesList2.push(matches23); org.jsoup.helper.DescendableLinkedList<org.jsoup.select.Evaluator.Matches> matchesList26 = new org.jsoup.helper.DescendableLinkedList<org.jsoup.select.Evaluator.Matches>(); org.jsoup.nodes.Document document28 = new org.jsoup.nodes.Document(""); org.jsoup.nodes.Element element29 = document28.empty(); org.jsoup.select.Elements elements31 = document28.getElementsMatchingOwnText(""); org.jsoup.nodes.Element element32 = elements31.first(); org.jsoup.select.Elements elements33 = new org.jsoup.select.Elements((java.util.List<org.jsoup.nodes.Element>) elements31); int int34 = elements33.size(); boolean boolean35 = matchesList26.contains((java.lang.Object) elements33); java.util.Iterator<org.jsoup.select.Evaluator.Matches> matchesItor36 = matchesList26.descendingIterator(); java.lang.Object[] objArray37 = matchesList26.toArray(); java.lang.Object obj38 = matchesList26.clone(); java.util.regex.Pattern pattern39 = null; org.jsoup.select.Evaluator.Matches matches40 = new org.jsoup.select.Evaluator.Matches(pattern39); org.jsoup.select.Evaluator.Matches[] matchesArray41 = new org.jsoup.select.Evaluator.Matches[] { matches40 }; java.util.LinkedList<org.jsoup.select.Evaluator.Matches> matchesList42 = new java.util.LinkedList<org.jsoup.select.Evaluator.Matches>(); boolean boolean43 = java.util.Collections.addAll((java.util.Collection<org.jsoup.select.Evaluator.Matches>) matchesList42, matchesArray41); org.jsoup.select.Evaluator.Matches matches44 = matchesList42.peek(); java.lang.String str45 = matches44.toString(); matchesList26.push(matches44); boolean boolean47 = matchesList2.offer(matches44); boolean boolean48 = tag1.equals((java.lang.Object) boolean47); }
 Code: public Element clone() { Element clone = (Element) super.clone(); clone.classNames(); return clone; }
-tensor([[0.0565, 0.0256, 0.0628, 0.0847, 0.0256, 0.0552, 0.0361, 0.1218, 0.0770,
-         0.2727, 0.0633, 0.0926, 0.0261],
-        [0.0518, 0.0224, 0.0501, 0.0931, 0.0224, 0.0413, 0.0315, 0.1165, 0.0814,
-         0.3304, 0.0623, 0.0759, 0.0207],
-        [0.0451, 0.0173, 0.0542, 0.0918, 0.0173, 0.0509, 0.0307, 0.1390, 0.0895,
-         0.2953, 0.0742, 0.0794, 0.0153],
-        [0.0631, 0.0329, 0.0765, 0.1001, 0.0329, 0.0539, 0.0525, 0.1078, 0.0884,
-         0.1952, 0.0728, 0.0883, 0.0355],
-        [0.0518, 0.0224, 0.0501, 0.0931, 0.0224, 0.0413, 0.0315, 0.1165, 0.0814,
-         0.3304, 0.0623, 0.0759, 0.0207],
-        [0.0402, 0.0138, 0.0624, 0.0922, 0.0138, 0.0398, 0.0276, 0.1307, 0.0773,
-         0.3413, 0.0534, 0.0902, 0.0173],
-        [0.0677, 0.0411, 0.0655, 0.0781, 0.0411, 0.0650, 0.0566, 0.1209, 0.0884,
-         0.1532, 0.0746, 0.1141, 0.0336],
-        [0.0471, 0.0260, 0.0654, 0.0977, 0.0260, 0.0624, 0.0332, 0.1048, 0.0951,
-         0.2760, 0.0598, 0.0845, 0.0218],
-        [0.0480, 0.0171, 0.0533, 0.1042, 0.0171, 0.0532, 0.0390, 0.1319, 0.0803,
-         0.2999, 0.0584, 0.0771, 0.0206],
-        [0.0478, 0.0206, 0.0712, 0.0860, 0.0206, 0.0451, 0.0348, 0.1056, 0.1166,
-         0.2941, 0.0551, 0.0808, 0.0216],
-        [0.0398, 0.0176, 0.0619, 0.0818, 0.0176, 0.0543, 0.0392, 0.1424, 0.0751,
-         0.3084, 0.0571, 0.0825, 0.0222],
-        [0.0440, 0.0266, 0.0617, 0.0878, 0.0266, 0.0555, 0.0374, 0.1091, 0.1128,
-         0.2858, 0.0564, 0.0772, 0.0191],
-        [0.0449, 0.0248, 0.0774, 0.1079, 0.0248, 0.0371, 0.0398, 0.1439, 0.0880,
-         0.1879, 0.0959, 0.1041, 0.0236]])
+[[0.05646103 0.02559124 0.06284191 0.0847286  0.02559124 0.05519227
+ 0.03612936 0.12180965 0.07700659 0.27265343 0.06330398 0.09256797
+ 0.02612272]
+[0.05184763 0.02242118 0.05011892 0.09314927 0.02242118 0.0412944
+ 0.03148029 0.11654571 0.08143042 0.33035535 0.06234292 0.07585411
+ 0.02073866]
+[0.04509418 0.01731079 0.05415468 0.09175958 0.01731079 0.05088421
+ 0.03065656 0.13901055 0.08953613 0.29534796 0.07419313 0.07944454
+ 0.01529693]
+[0.06313845 0.03289287 0.07653472 0.1000962  0.03289287 0.05393595
+ 0.05249898 0.10779196 0.08835865 0.19519708 0.07284902 0.08829369
+ 0.03551959]
+[0.05184763 0.02242118 0.05011892 0.09314927 0.02242118 0.0412944
+ 0.03148029 0.11654571 0.08143042 0.33035535 0.06234292 0.07585411
+ 0.02073866]
+[0.04017365 0.01377786 0.06244132 0.09217454 0.01377786 0.03979449
+ 0.02763283 0.13069499 0.07730652 0.34130546 0.05343391 0.09021205
+ 0.01727453]
+[0.06769159 0.04112171 0.06552725 0.07811724 0.04112171 0.06501979
+ 0.05660319 0.12093634 0.08839235 0.1531635  0.07461582 0.11411197
+ 0.03357751]
+[0.0470832  0.0260381  0.06543522 0.09770121 0.0260381  0.06236529
+ 0.03324519 0.10482781 0.09509791 0.276042   0.05983327 0.08447213
+ 0.02182052]
+[0.04796635 0.01708144 0.0532603  0.10422898 0.01708144 0.05320235
+ 0.03904743 0.13193873 0.08026853 0.2998679  0.05836034 0.07705201
+ 0.02064419]
+[0.04783849 0.02057414 0.07122711 0.08595687 0.02057414 0.04508194
+ 0.0348445  0.10559814 0.11664448 0.2941354  0.05511751 0.08080741
+ 0.02159989]
+[0.03981927 0.01761895 0.06191404 0.08180155 0.01761895 0.05428869
+ 0.03917057 0.1424202  0.07509679 0.3083701  0.0571329  0.08253092
+ 0.022217  ]
+[0.0439931  0.02657933 0.06173476 0.08776266 0.02657933 0.05554289
+ 0.03743947 0.10907719 0.11280899 0.28581768 0.05637773 0.0772066
+ 0.01908026]
+[0.04492023 0.02476797 0.07740153 0.1078761  0.02476797 0.03711871
+ 0.03979748 0.14388059 0.08800088 0.18786514 0.0959201  0.1041043
+ 0.02357907]]

@@ -1,0 +1,17 @@
+983
+Test: public void test1358() throws Throwable { LinkedList<String> linkedList0 = new LinkedList<String>(); ImageFormats imageFormats0 = ImageFormats.JBIG2; ImageInfo.ColorType imageInfo_ColorType0 = ImageInfo.ColorType.YCCK; ImageInfo.CompressionAlgorithm imageInfo_CompressionAlgorithm0 = ImageInfo.CompressionAlgorithm.CCITT_1D; ImageInfo imageInfo0 = new ImageInfo("", 3975, linkedList0, imageFormats0, "", 3975, (String) null, 3975, 3975, 3975, 3975, 3975, 0, true, true, false, imageInfo_ColorType0, imageInfo_CompressionAlgorithm0); int int0 = imageInfo0.getBitsPerPixel(); }
+Code: public int getWidth() { return width; }
+[[0.15650214 0.10252933 0.21709207 0.19088735 0.17003953 0.10016103
+ 0.06278849]
+[0.10559937 0.07943328 0.27948648 0.21991532 0.16814633 0.09798525
+ 0.04943397]
+[0.12865755 0.08418789 0.21645233 0.19446738 0.15590388 0.15355818
+ 0.06677284]
+[0.14485276 0.07139116 0.19878751 0.21266067 0.16934995 0.12474687
+ 0.0782111 ]
+[0.11695221 0.07560714 0.24856897 0.1970744  0.175214   0.13097318
+ 0.05561012]
+[0.14539641 0.06728066 0.2115195  0.22496787 0.1656523  0.12844858
+ 0.05673467]
+[0.10448065 0.08074109 0.201782   0.23160005 0.21751997 0.11225804
+ 0.05161812]]

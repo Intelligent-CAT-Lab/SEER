@@ -1,12 +1,21 @@
 69040
 Test: public void test184() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test184"); org.jsoup.parser.Tag tag1 = org.jsoup.parser.Tag.valueOf("<html>\n <head></head>\n <body>\n hi!\n </body>\n</html>"); boolean boolean2 = tag1.canContainBlock(); boolean boolean3 = tag1.isData(); boolean boolean4 = tag1.isSelfClosing(); boolean boolean5 = tag1.isBlock(); boolean boolean6 = tag1.isKnownTag(); org.jsoup.nodes.Document document10 = org.jsoup.parser.Parser.parseBodyFragment("hi!", "hi!"); org.jsoup.nodes.Node node11 = document10.previousSibling(); org.jsoup.nodes.Element element12 = document10.clearAttributes(); org.jsoup.nodes.Node node13 = element12.clearAttributes(); org.jsoup.select.Elements elements15 = element12.getElementsMatchingOwnText("hi!"); org.jsoup.nodes.Attributes attributes16 = element12.attributes(); java.lang.String str18 = attributes16.getIgnoreCase("1: hi!"); boolean boolean19 = attributes16.isEmpty(); org.jsoup.nodes.Element element20 = new org.jsoup.nodes.Element(tag1, "", attributes16); }
 Code: public boolean isEmpty() { return size == 0; }
-tensor([[0.0909, 0.2295, 0.1353, 0.1183, 0.0997, 0.0230, 0.1442, 0.1211, 0.0381],
-        [0.0614, 0.3327, 0.1175, 0.1448, 0.0984, 0.0196, 0.0935, 0.1045, 0.0275],
-        [0.0695, 0.2897, 0.1202, 0.1300, 0.0977, 0.0252, 0.1242, 0.1056, 0.0378],
-        [0.0939, 0.2144, 0.1312, 0.1448, 0.1089, 0.0306, 0.1019, 0.1224, 0.0520],
-        [0.0613, 0.3237, 0.1281, 0.1187, 0.0892, 0.0158, 0.1191, 0.1117, 0.0326],
-        [0.0757, 0.2545, 0.0959, 0.1409, 0.1109, 0.0257, 0.1438, 0.1144, 0.0383],
-        [0.0464, 0.3675, 0.1159, 0.1280, 0.0769, 0.0178, 0.1133, 0.1084, 0.0258],
-        [0.0792, 0.2879, 0.0940, 0.1319, 0.0973, 0.0306, 0.1110, 0.1325, 0.0357],
-        [0.0651, 0.2369, 0.1053, 0.1503, 0.1372, 0.0246, 0.1113, 0.1360, 0.0332]])
+[[0.09089039 0.2295433  0.13526218 0.11827184 0.09966777 0.02299177
+ 0.1441958  0.12109011 0.03808679]
+[0.06136799 0.33274296 0.11751422 0.14480114 0.09843984 0.01959796
+ 0.09352246 0.10453557 0.02747786]
+[0.06954954 0.2897086  0.12022759 0.12996966 0.09766383 0.02523159
+ 0.12422442 0.10559995 0.03782482]
+[0.09389848 0.21437897 0.13117272 0.14476392 0.10887536 0.03060554
+ 0.10190228 0.12236962 0.05203311]
+[0.06127413 0.32369795 0.12805513 0.11867608 0.0891521  0.01576426
+ 0.11913744 0.11166315 0.03257973]
+[0.07568475 0.25446138 0.09586939 0.14092262 0.11090395 0.02567832
+ 0.14379022 0.11441784 0.03827156]
+[0.04638353 0.3675263  0.11593843 0.12796982 0.07690942 0.01782713
+ 0.11325303 0.10835999 0.02583239]
+[0.07915612 0.2878535  0.09398283 0.1318994  0.09731991 0.03062138
+ 0.11099333 0.13248587 0.03568767]
+[0.06508569 0.23693354 0.10533541 0.1502952  0.13724348 0.02461624
+ 0.11134634 0.13598335 0.03316074]]

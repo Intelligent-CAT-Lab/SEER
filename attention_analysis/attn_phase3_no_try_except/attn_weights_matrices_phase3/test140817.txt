@@ -1,0 +1,17 @@
+140817
+Test: public void test29() throws Throwable { LateralCacheAttributes lateralCacheAttributes0 = new LateralCacheAttributes(); LateralTCPCacheFactory lateralTCPCacheFactory0 = new LateralTCPCacheFactory(); LateralCacheMonitor lateralCacheMonitor0 = new LateralCacheMonitor(lateralTCPCacheFactory0); ZombieCacheServiceNonLocal<CacheElementSerialized<LinkOption, Integer>, IOException> zombieCacheServiceNonLocal0 = new ZombieCacheServiceNonLocal<CacheElementSerialized<LinkOption, Integer>, IOException>(); LateralCache<CacheElementSerialized<LinkOption, Integer>, IOException> lateralCache0 = new LateralCache<CacheElementSerialized<LinkOption, Integer>, IOException>(lateralCacheAttributes0, zombieCacheServiceNonLocal0, lateralCacheMonitor0); String string0 = lateralCache0.getStats(); }
+Code: public String getStats() { return ""; }
+[[0.12710561 0.16724473 0.17630106 0.14082989 0.13634616 0.20428532
+ 0.04788727]
+[0.11768293 0.1429463  0.17528944 0.13405351 0.11429199 0.27917936
+ 0.03655643]
+[0.09561987 0.18692946 0.16501774 0.12159996 0.11526455 0.27208665
+ 0.0434818 ]
+[0.11058841 0.17817928 0.15687302 0.15090401 0.13078752 0.21516824
+ 0.05749958]
+[0.08468226 0.21843308 0.18168746 0.13920753 0.12746698 0.2090359
+ 0.03948677]
+[0.11290275 0.1901559  0.16062756 0.15400273 0.1290669  0.2154116
+ 0.03783249]
+[0.08338493 0.15314469 0.16563073 0.1583252  0.16593662 0.23680943
+ 0.03676841]]

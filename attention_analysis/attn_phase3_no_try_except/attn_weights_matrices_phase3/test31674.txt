@@ -1,0 +1,2 @@
+31674
+Test: public void test11() throws Throwable { String string0 = "ynl"; File file0 = MockFile.createTempFile("ynl", "ynl"); FileUtil.makesureParentDirExists(file0); // Undeclared exception!  FileUtil.deleteDir(file0);   }

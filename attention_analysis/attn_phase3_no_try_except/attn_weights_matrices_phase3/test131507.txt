@@ -1,0 +1,17 @@
+131507
+Test: public void test6() throws Throwable { TransformIterator<String, Object> transformIterator0 = new TransformIterator<String, Object>(); Transformer<Object, String> transformer0 = (Transformer<Object, String>) mock(Transformer.class, new ViolatedAssumptionAnswer()); TransformIterator<Object, String> transformIterator1 = new TransformIterator<Object, String>(transformIterator0, transformer0); // Undeclared exception!  transformIterator1.next();   }
+Code: public O next() { return transform(iterator.next()); }
+[[0.14629638 0.11845787 0.16742796 0.15521096 0.15608215 0.20291293
+ 0.05361172]
+[0.14171042 0.08876411 0.1933771  0.1579728  0.15426081 0.21056181
+ 0.05335289]
+[0.09479751 0.07777674 0.20797604 0.19443163 0.15889004 0.22216988
+ 0.0439582 ]
+[0.13691133 0.09982556 0.15284666 0.18078136 0.16270792 0.19690755
+ 0.0700196 ]
+[0.10869445 0.09373081 0.1763608  0.16985957 0.16512482 0.2375158
+ 0.04871371]
+[0.12462805 0.11594743 0.17459401 0.1624022  0.15033558 0.21437144
+ 0.05772127]
+[0.097367   0.10550167 0.17794698 0.18815674 0.19471014 0.19283532
+ 0.04348209]]

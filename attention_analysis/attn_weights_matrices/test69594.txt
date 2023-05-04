@@ -1,8 +1,8 @@
 69594
 Test: public void testMetaCharsetUpdateCleanup() { final Document doc = createHtmlDocument("dontTouch"); doc.updateMetaCharsetElement(true); doc.charset(Charset.forName(charsetUtf8)); final String htmlCharsetUTF8 = "<html>\n" + " <head>\n" + " <meta charset=\"" + charsetUtf8 + "\">\n" + " </head>\n" + " <body></body>\n" + "</html>"; }
 Code: public String toString(){return String.format("%s", tagName);}
-tensor([[0.1411, 0.1846, 0.2236, 0.2617, 0.1890],
-        [0.1647, 0.1970, 0.2167, 0.2795, 0.1421],
-        [0.1488, 0.2102, 0.2314, 0.2410, 0.1686],
-        [0.1319, 0.2068, 0.2213, 0.2761, 0.1640],
-        [0.0855, 0.2336, 0.2637, 0.3184, 0.0988]])
+[[0.14111467 0.18461064 0.22357899 0.2616618  0.18903391]
+[0.16471937 0.19697441 0.21666886 0.27952048 0.14211687]
+[0.14882033 0.21021223 0.23135635 0.24101132 0.16859978]
+[0.13185915 0.20681328 0.22126569 0.27606288 0.16399899]
+[0.08547521 0.23362911 0.26372883 0.31837675 0.09879006]]

@@ -1,0 +1,21 @@
+144084
+Test: public void test2() throws Throwable { UDPDiscoveryAttributes uDPDiscoveryAttributes0 = new UDPDiscoveryAttributes(); UDPDiscoveryAttributes uDPDiscoveryAttributes1 = uDPDiscoveryAttributes0.clone(); uDPDiscoveryAttributes0.setUdpDiscoveryPort((-111)); uDPDiscoveryAttributes1.setDark(false); uDPDiscoveryAttributes1.setServiceName("0=zsS"); MockThread mockThread0 = new MockThread(); Callable<Integer> callable0 = (Callable<Integer>) mock(Callable.class, new ViolatedAssumptionAnswer()); IDiscoveryListener iDiscoveryListener0 = null; UDPDiscoveryMessage uDPDiscoveryMessage0 = new UDPDiscoveryMessage(); uDPDiscoveryMessage0.toString(); Callable<String> callable1 = (Callable<String>) mock(Callable.class, new ViolatedAssumptionAnswer()); FileSystemHandling.appendLineToFile((EvoSuiteFile) null, ""); DiscoveredService discoveredService0 = new DiscoveredService(uDPDiscoveryMessage0); DiscoveredService discoveredService1 = new DiscoveredService(uDPDiscoveryMessage0); EncryptingSerializer encryptingSerializer0 = new EncryptingSerializer(); UDPDiscoveryService uDPDiscoveryService0 = null;  uDPDiscoveryService0 = new UDPDiscoveryService(uDPDiscoveryAttributes0, encryptingSerializer0);   }
+Code: public UDPDiscoveryService(final UDPDiscoveryAttributes attributes) { this(attributes, new StandardSerializer()); }
+[[0.09861559 0.13680053 0.13680053 0.13680053 0.12639113 0.13680053
+ 0.05008963 0.13680053 0.04090099]
+[0.08167243 0.13583745 0.13583745 0.13583745 0.1321151  0.13583745
+ 0.06231521 0.13583745 0.04470997]
+[0.08167243 0.13583745 0.13583745 0.13583745 0.1321151  0.13583745
+ 0.06231521 0.13583745 0.04470997]
+[0.08167243 0.13583745 0.13583745 0.13583745 0.1321151  0.13583745
+ 0.06231521 0.13583745 0.04470997]
+[0.09815688 0.12506752 0.12506752 0.12506752 0.16571373 0.12506752
+ 0.05362193 0.12506752 0.05716989]
+[0.08167243 0.13583745 0.13583745 0.13583745 0.1321151  0.13583745
+ 0.06231521 0.13583745 0.04470997]
+[0.08535828 0.13308042 0.13308042 0.13308042 0.14940493 0.13308042
+ 0.05608321 0.13308042 0.04375147]
+[0.08167243 0.13583745 0.13583745 0.13583745 0.1321151  0.13583745
+ 0.06231521 0.13583745 0.04470997]
+[0.07076176 0.12842095 0.12842095 0.12842095 0.2044462  0.12842095
+ 0.03978046 0.12842095 0.04290684]]

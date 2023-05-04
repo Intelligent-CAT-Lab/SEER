@@ -1,0 +1,2 @@
+79033
+Test: public void test49() throws Throwable { ObjectType objectType0 = Type.STRING; ArrayType arrayType0 = new ArrayType(objectType0, 32); boolean boolean0 = arrayType0.isAssignmentCompatibleWith(arrayType0.OBJECT); }

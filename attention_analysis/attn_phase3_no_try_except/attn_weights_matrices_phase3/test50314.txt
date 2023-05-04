@@ -1,0 +1,17 @@
+50314
+Test: public void test9559() throws Throwable { DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); int int0 = 66; DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendMinuteOfDay(66); DateTimeParser dateTimeParser0 = InternalParserDateTimeParser.of((InternalParser) null); boolean boolean0 = dateTimeFormatterBuilder1.canBuildParser(); DateTimeFormatterBuilder dateTimeFormatterBuilder2 = dateTimeFormatterBuilder1.appendDayOfWeek(66); InternalParser[] internalParserArray0 = new InternalParser[9]; internalParserArray0[0] = null; internalParserArray0[1] = null; internalParserArray0[2] = null; internalParserArray0[3] = null; internalParserArray0[4] = null; internalParserArray0[5] = null; internalParserArray0[6] = null; internalParserArray0[7] = null; internalParserArray0[8] = null; DateTimeFormatterBuilder.MatchingParser dateTimeFormatterBuilder_MatchingParser0 = new DateTimeFormatterBuilder.MatchingParser(internalParserArray0); EthiopicChronology ethiopicChronology0 = EthiopicChronology.getInstance(); Locale locale0 = Locale.CHINA; DateTimeParserBucket dateTimeParserBucket0 = new DateTimeParserBucket(66, ethiopicChronology0, locale0, (Integer) 1, 115); StringBuilder stringBuilder0 = new StringBuilder(); StringBuilder stringBuilder1 = stringBuilder0.append('y'); StringBuilder stringBuilder2 = stringBuilder1.append(true); DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.weekyear(); DateTimeFormatterBuilder.FixedNumber dateTimeFormatterBuilder_FixedNumber0 = new DateTimeFormatterBuilder.FixedNumber(dateTimeFieldType0, 1, true); StringBuilder stringBuilder3 = stringBuilder2.append((Object) dateTimeFormatterBuilder_FixedNumber0); int int1 = dateTimeFormatterBuilder_MatchingParser0.parseInto(dateTimeParserBucket0, stringBuilder3, 66); DateTimeFieldType dateTimeFieldType1 = DateTimeFieldType.year(); DateTimeFormatterBuilder.PaddedNumber dateTimeFormatterBuilder_PaddedNumber0 = new DateTimeFormatterBuilder.PaddedNumber(dateTimeFieldType1, 66, false, 1352); DateTimeFormatterBuilder dateTimeFormatterBuilder3 = dateTimeFormatterBuilder2.appendEraText(); DateTimeFormatterBuilder dateTimeFormatterBuilder4 = dateTimeFormatterBuilder3.appendMillisOfDay(66); boolean boolean1 = dateTimeFormatterBuilder4.canBuildPrinter(); }
+Code: public boolean canBuildPrinter() { return isPrinter(getFormatter()); }
+[[0.10934648 0.26729727 0.15169707 0.1511886  0.12100547 0.15169705
+ 0.04776807]
+[0.06855693 0.34035894 0.12991077 0.18153623 0.11619409 0.12991078
+ 0.03353223]
+[0.0877424  0.31477123 0.14417115 0.15167442 0.1068267  0.14417115
+ 0.05064295]
+[0.11026365 0.23269044 0.14063604 0.18583335 0.12578093 0.14063604
+ 0.06415956]
+[0.07348293 0.34289712 0.14042537 0.15607165 0.10455605 0.14042538
+ 0.04214151]
+[0.0877424  0.31477123 0.14417115 0.15167442 0.1068267  0.14417115
+ 0.05064295]
+[0.07333571 0.24605852 0.13447544 0.20389462 0.16462673 0.13447544
+ 0.04313356]]

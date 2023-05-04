@@ -1,0 +1,19 @@
+31408
+Test: public void test691() throws Throwable { LongObjectHashMap<String> longObjectHashMap0 = new LongObjectHashMap<String>(); boolean boolean0 = longObjectHashMap0.containsKey((-2316L)); LongObjectHashMap<Integer> longObjectHashMap1 = new LongObjectHashMap<Integer>(); Integer integer0 = new Integer(8); Integer integer1 = longObjectHashMap1.put((-2316L), integer0); String string0 = longObjectHashMap1.toString(); LongObjectHashMap<Integer> longObjectHashMap2 = new LongObjectHashMap<Integer>(8, 0.5F); BiConsumer<Object, Object> biConsumer0 = (BiConsumer<Object, Object>) mock(BiConsumer.class, new ViolatedAssumptionAnswer()); longObjectHashMap2.forEach(biConsumer0); Long long0 = new Long((-2316L)); Integer integer2 = longObjectHashMap1.replace(long0, (Integer) 8); Integer integer3 = longObjectHashMap1.get((-2316L)); String string1 = longObjectHashMap0.get((-1011L)); boolean boolean1 = longObjectHashMap0.containsKey(0L); LongObjectHashMap<Object> longObjectHashMap3 = new LongObjectHashMap<Object>(); String string2 = longObjectHashMap3.keyToString((-1055L)); }
+Code: protected String keyToString(long key) { return Long.toString(key); }
+[[0.16304052 0.13603495 0.13860355 0.10766406 0.17015736 0.11157002
+ 0.13860355 0.03432599]
+[0.155264   0.11839187 0.14491764 0.13775177 0.15518911 0.10438477
+ 0.14491764 0.03918318]
+[0.17528245 0.1443611  0.13272841 0.13486469 0.13640067 0.09791192
+ 0.13272841 0.04572237]
+[0.12764142 0.14072269 0.13768868 0.12889877 0.17227826 0.11163635
+ 0.13768868 0.04344508]
+[0.17624894 0.13265118 0.12130433 0.10683108 0.17265612 0.11057824
+ 0.12130433 0.05842578]
+[0.1818022  0.14843002 0.13482353 0.12662874 0.13723883 0.09881508
+ 0.13482353 0.03743803]
+[0.17528245 0.1443611  0.13272841 0.13486469 0.13640067 0.09791192
+ 0.13272841 0.04572237]
+[0.15019353 0.12449065 0.12714247 0.11066499 0.17444219 0.14837375
+ 0.12714247 0.03754992]]

@@ -1,33 +1,48 @@
 70241
 Test: public void test10() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test10"); org.apache.commons.jxpath.ri.compiler.Expression expression0 = null; org.apache.commons.jxpath.ri.compiler.Expression expression1 = null; org.apache.commons.jxpath.ri.compiler.NameAttributeTest nameAttributeTest2 = new org.apache.commons.jxpath.ri.compiler.NameAttributeTest(expression0, expression1); boolean boolean5 = nameAttributeTest2.equal((java.lang.Object) 56, (java.lang.Object) '#'); org.apache.commons.jxpath.ri.compiler.Expression expression6 = null; org.apache.commons.jxpath.ri.compiler.Expression expression7 = null; org.apache.commons.jxpath.ri.compiler.NameAttributeTest nameAttributeTest8 = new org.apache.commons.jxpath.ri.compiler.NameAttributeTest(expression6, expression7); boolean boolean11 = nameAttributeTest8.equal((java.lang.Object) 56, (java.lang.Object) '#'); org.apache.commons.jxpath.ri.QName qName13 = new org.apache.commons.jxpath.ri.QName("/null"); org.apache.commons.jxpath.ri.compiler.VariableReference variableReference14 = new org.apache.commons.jxpath.ri.compiler.VariableReference(qName13); org.apache.commons.jxpath.ri.compiler.NameAttributeTest nameAttributeTest15 = new org.apache.commons.jxpath.ri.compiler.NameAttributeTest((org.apache.commons.jxpath.ri.compiler.Expression) nameAttributeTest8, (org.apache.commons.jxpath.ri.compiler.Expression) variableReference14); boolean boolean16 = variableReference14.computeContextDependent(); java.lang.String str17 = variableReference14.toString(); org.apache.commons.jxpath.ri.compiler.CoreOperationLessThanOrEqual coreOperationLessThanOrEqual18 = new org.apache.commons.jxpath.ri.compiler.CoreOperationLessThanOrEqual((org.apache.commons.jxpath.ri.compiler.Expression) nameAttributeTest2, (org.apache.commons.jxpath.ri.compiler.Expression) variableReference14); org.apache.commons.jxpath.JXPathContext jXPathContext19 = null; org.apache.commons.jxpath.ri.model.NodePointer nodePointer21 = null; org.apache.commons.jxpath.ri.QName qName22 = null; org.apache.commons.beanutils.DynaBean dynaBean23 = null; org.apache.commons.jxpath.ri.model.dynabeans.DynaBeanPointer dynaBeanPointer24 = new org.apache.commons.jxpath.ri.model.dynabeans.DynaBeanPointer(nodePointer21, qName22, dynaBean23); org.apache.commons.jxpath.ri.model.beans.PropertyPointer propertyPointer25 = dynaBeanPointer24.getPropertyPointer(); org.apache.commons.jxpath.ri.JXPathContextReferenceImpl jXPathContextReferenceImpl26 = new org.apache.commons.jxpath.ri.JXPathContextReferenceImpl(jXPathContext19, (java.lang.Object) (-1.0d), (org.apache.commons.jxpath.Pointer) dynaBeanPointer24); java.lang.String str28 = jXPathContextReferenceImpl26.getNamespaceURI(""); org.apache.commons.jxpath.Variables variables29 = jXPathContextReferenceImpl26.getVariables(); org.apache.commons.jxpath.ri.model.dynamic.DynamicPointerFactory dynamicPointerFactory31 = new org.apache.commons.jxpath.ri.model.dynamic.DynamicPointerFactory(); org.apache.commons.jxpath.ri.QName qName33 = new org.apache.commons.jxpath.ri.QName("/null"); org.apache.commons.jxpath.ri.compiler.VariableReference variableReference34 = new org.apache.commons.jxpath.ri.compiler.VariableReference(qName33); org.apache.commons.jxpath.ri.compiler.Constant constant36 = new org.apache.commons.jxpath.ri.compiler.Constant((java.lang.Number) (byte) 10); java.util.Locale locale37 = null; org.apache.commons.jxpath.ri.model.NodePointer nodePointer38 = dynamicPointerFactory31.createNodePointer(qName33, (java.lang.Object) constant36, locale37); java.util.Iterator iterator39 = jXPathContextReferenceImpl26.iteratePointers("hi!", (org.apache.commons.jxpath.ri.compiler.Expression) constant36); org.apache.commons.jxpath.ri.model.NodePointer nodePointer40 = null; org.apache.commons.jxpath.ri.QName qName41 = null; org.apache.commons.beanutils.DynaBean dynaBean42 = null; org.apache.commons.jxpath.ri.model.dynabeans.DynaBeanPointer dynaBeanPointer43 = new org.apache.commons.jxpath.ri.model.dynabeans.DynaBeanPointer(nodePointer40, qName41, dynaBean42); org.apache.commons.jxpath.ri.NamespaceResolver namespaceResolver44 = dynaBeanPointer43.getNamespaceResolver(); java.lang.Object obj45 = dynaBeanPointer43.clone(); dynaBeanPointer43.printPointerChain(); boolean boolean47 = dynaBeanPointer43.isNode(); org.apache.commons.jxpath.ri.axes.RootContext rootContext48 = new org.apache.commons.jxpath.ri.axes.RootContext(jXPathContextReferenceImpl26, (org.apache.commons.jxpath.ri.model.NodePointer) dynaBeanPointer43); try { java.lang.Object obj49 = coreOperationLessThanOrEqual18.computeValue((org.apache.commons.jxpath.ri.EvalContext) rootContext48); } catch (java.lang.NullPointerException e) { } }
 Code: public final Object computeValue(EvalContext context) { return compute(args[0].computeValue(context), args[1] .computeValue(context)) ? Boolean.TRUE : Boolean.FALSE; }
-tensor([[0.0549, 0.0460, 0.0427, 0.1101, 0.0434, 0.0876, 0.0622, 0.0614, 0.0543,
-         0.0450, 0.0843, 0.1652, 0.0567, 0.0595, 0.0265],
-        [0.0543, 0.0365, 0.0393, 0.1159, 0.0390, 0.0949, 0.0790, 0.0513, 0.0681,
-         0.0488, 0.0956, 0.1628, 0.0432, 0.0529, 0.0186],
-        [0.0497, 0.0365, 0.0339, 0.1378, 0.0383, 0.1177, 0.0607, 0.0407, 0.0620,
-         0.0339, 0.0842, 0.1828, 0.0391, 0.0617, 0.0211],
-        [0.0377, 0.0512, 0.0324, 0.1014, 0.0517, 0.1058, 0.0524, 0.0515, 0.0857,
-         0.0477, 0.0921, 0.1857, 0.0339, 0.0498, 0.0211],
-        [0.0448, 0.0487, 0.0377, 0.1080, 0.0372, 0.0904, 0.0711, 0.0497, 0.0703,
-         0.0477, 0.0960, 0.1835, 0.0369, 0.0596, 0.0184],
-        [0.0593, 0.0584, 0.0353, 0.1234, 0.0483, 0.0993, 0.0677, 0.0668, 0.0575,
-         0.0561, 0.0746, 0.1123, 0.0491, 0.0575, 0.0344],
-        [0.0397, 0.0375, 0.0376, 0.1250, 0.0319, 0.0856, 0.0562, 0.0485, 0.0625,
-         0.0434, 0.0985, 0.2169, 0.0386, 0.0549, 0.0231],
-        [0.0424, 0.0431, 0.0429, 0.0985, 0.0449, 0.0816, 0.0690, 0.0422, 0.0719,
-         0.0460, 0.1076, 0.1935, 0.0440, 0.0477, 0.0248],
-        [0.0465, 0.0381, 0.0416, 0.1324, 0.0356, 0.0737, 0.0645, 0.0503, 0.0639,
-         0.0434, 0.0853, 0.1963, 0.0408, 0.0612, 0.0265],
-        [0.0388, 0.0389, 0.0432, 0.1107, 0.0422, 0.1051, 0.0783, 0.0502, 0.0611,
-         0.0425, 0.0883, 0.1776, 0.0435, 0.0628, 0.0169],
-        [0.0442, 0.0366, 0.0319, 0.0843, 0.0410, 0.1269, 0.0631, 0.0429, 0.0583,
-         0.0393, 0.0879, 0.2264, 0.0515, 0.0422, 0.0234],
-        [0.0419, 0.0422, 0.0374, 0.1047, 0.0388, 0.1077, 0.0642, 0.0438, 0.0755,
-         0.0426, 0.0883, 0.1868, 0.0412, 0.0659, 0.0190],
-        [0.0560, 0.0403, 0.0367, 0.0867, 0.0381, 0.0954, 0.0702, 0.0522, 0.0638,
-         0.0422, 0.1127, 0.1746, 0.0407, 0.0583, 0.0319],
-        [0.0421, 0.0392, 0.0341, 0.1259, 0.0304, 0.0978, 0.0675, 0.0485, 0.0604,
-         0.0443, 0.1149, 0.1994, 0.0353, 0.0378, 0.0225],
-        [0.0393, 0.0363, 0.0411, 0.0966, 0.0492, 0.1103, 0.0885, 0.0497, 0.0602,
-         0.0372, 0.0944, 0.1632, 0.0391, 0.0714, 0.0233]])
+[[0.05489562 0.04596647 0.0426769  0.11013593 0.04339326 0.08763454
+ 0.06219789 0.06143969 0.05434807 0.04498291 0.08432922 0.16521066
+ 0.0567133  0.05952734 0.02654824]
+[0.05425896 0.03652762 0.03925509 0.11587284 0.03903717 0.0948569
+ 0.07898584 0.05130099 0.06805746 0.04877217 0.09561285 0.16280463
+ 0.04315734 0.05294976 0.01855036]
+[0.04969466 0.03650197 0.03387012 0.1377666  0.03825581 0.11769092
+ 0.06065977 0.04068182 0.06201239 0.03386135 0.08421618 0.1828308
+ 0.03909135 0.06173912 0.02112708]
+[0.03767406 0.05120122 0.03239859 0.10137688 0.05168945 0.10581847
+ 0.0523731  0.05149434 0.08565206 0.04773121 0.0920618  0.18572481
+ 0.03393959 0.04976106 0.0211033 ]
+[0.0448103  0.04871267 0.03765678 0.10797179 0.03717842 0.09038638
+ 0.07108534 0.049736   0.07031326 0.04769447 0.09597763 0.18348129
+ 0.03694372 0.05963673 0.01841514]
+[0.05928587 0.05836969 0.03530692 0.12335074 0.04827041 0.09931721
+ 0.06770757 0.06680484 0.05754273 0.05612987 0.07459609 0.11231223
+ 0.04914741 0.05747738 0.03438099]
+[0.03966128 0.03750273 0.03762524 0.12504956 0.03190396 0.0856048
+ 0.05619784 0.0485447  0.06246764 0.04344492 0.09849669 0.21692804
+ 0.0386033  0.05491866 0.02305061]
+[0.04238007 0.04307475 0.04291715 0.0984887  0.04490298 0.08164453
+ 0.06899987 0.04220168 0.07189026 0.046004   0.10760797 0.19345918
+ 0.04395918 0.04766271 0.02480697]
+[0.04647785 0.03811333 0.04157162 0.13235754 0.03560265 0.07365514
+ 0.06445511 0.0502991  0.06386785 0.04343743 0.08532822 0.1963306
+ 0.04080465 0.06116364 0.02653526]
+[0.0388     0.03889441 0.04315313 0.11072306 0.04216791 0.10508389
+ 0.0783003  0.05024085 0.06108553 0.04252489 0.08830046 0.17757772
+ 0.04350071 0.06275608 0.01689101]
+[0.04423181 0.03658582 0.03192883 0.08433681 0.04095092 0.1268991
+ 0.06312114 0.04289223 0.05832607 0.03933883 0.08787901 0.22642793
+ 0.05149712 0.04221501 0.02336943]
+[0.04191396 0.0421912  0.0374193  0.10473732 0.03883735 0.10773572
+ 0.06417312 0.04376255 0.07552332 0.04263302 0.08834021 0.18675199
+ 0.04115205 0.06587829 0.01895059]
+[0.0559673  0.04030177 0.03666034 0.0867368  0.03810214 0.09543293
+ 0.07021228 0.05223254 0.06382208 0.04224962 0.1126978  0.17462507
+ 0.04073441 0.058333   0.03189189]
+[0.04206672 0.03916955 0.03411302 0.1258782  0.03035314 0.09777737
+ 0.06749643 0.04853188 0.06035467 0.04430114 0.11490028 0.19940987
+ 0.03532871 0.03778642 0.02253264]
+[0.03931277 0.03625112 0.04109705 0.09661554 0.04920144 0.11033075
+ 0.08854845 0.04974803 0.06023832 0.0371768  0.09438178 0.16321512
+ 0.03914342 0.071445   0.0232944 ]]

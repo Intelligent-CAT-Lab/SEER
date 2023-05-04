@@ -1,0 +1,9 @@
+165028
+Test: public void test29() throws Throwable { MockRandom mockRandom0 = new MockRandom(); JDKRandomWrapper jDKRandomWrapper0 = new JDKRandomWrapper(mockRandom0); ContinuousUniformSampler continuousUniformSampler0 = new ContinuousUniformSampler(jDKRandomWrapper0, 535.99298214164, (-2066.19)); double double0 = continuousUniformSampler0.getHi(); }
+Code: double getHi() { return hi; }
+[[0.26651984 0.2168892  0.15051058 0.16109383 0.16129029 0.04369619]
+[0.24121639 0.21727306 0.16538666 0.1524764  0.16492596 0.05872153]
+[0.20228395 0.20684057 0.19400942 0.17160906 0.1506802  0.07457678]
+[0.23813131 0.22737128 0.15454268 0.15706816 0.17818624 0.0447003 ]
+[0.21348143 0.22103848 0.14960985 0.18393861 0.19096246 0.04096922]
+[0.2085383  0.21431187 0.18554914 0.20704447 0.14038463 0.04417156]]

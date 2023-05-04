@@ -1,0 +1,17 @@
+37136
+Test: public void test82() throws Throwable { BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance(); YearMonth yearMonth0 = new YearMonth((-1356), 1, buddhistChronology0); GJChronology gJChronology0 = GJChronology.getInstanceUTC(); DateTimeZone dateTimeZone0 = gJChronology0.getZone(); // Undeclared exception!  yearMonth0.toInterval(dateTimeZone0);   }
+Code: public Interval toInterval() { return toInterval(null); }
+[[0.13303334 0.14692613 0.18453074 0.15541081 0.14369449 0.18453074
+ 0.05187378]
+[0.10996398 0.16168226 0.17687605 0.17293979 0.15777929 0.17687604
+ 0.04388262]
+[0.10898884 0.17686594 0.18451609 0.15835671 0.13190143 0.1845161
+ 0.05485491]
+[0.12244447 0.15170042 0.16605422 0.18420541 0.14257145 0.16605422
+ 0.06696977]
+[0.09464449 0.1565207  0.1995719  0.16272718 0.14123675 0.19957191
+ 0.04572713]
+[0.10898884 0.17686594 0.18451609 0.15835671 0.13190143 0.1845161
+ 0.05485491]
+[0.08461349 0.18204592 0.1632579  0.18845566 0.17641684 0.16325788
+ 0.04195227]]

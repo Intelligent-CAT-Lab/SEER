@@ -1,0 +1,21 @@
+26492
+Test: public void test10() throws Throwable { Vector3D.Unit vector3D_Unit0 = Vector3D.Unit.PLUS_Y; Precision.DoubleEquivalence precision_DoubleEquivalence0 = mock(Precision.DoubleEquivalence.class, new ViolatedAssumptionAnswer()); doReturn(false, true, true, false, false).when(precision_DoubleEquivalence0).eq(anyDouble() , anyDouble()); doReturn(false, false, false, true, false).when(precision_DoubleEquivalence0).eqZero(anyDouble()); Plane plane0 = new Plane(vector3D_Unit0, (-1024.24), precision_DoubleEquivalence0); QuaternionRotation quaternionRotation0 = QuaternionRotation.of(3.141592653589793, (-1024.24), 3.141592653589793, 3.141592653589793); Plane plane1 = plane0.rotate(vector3D_Unit0, quaternionRotation0); Line3D line3D0 = plane1.intersection(plane0); Plane plane2 = plane1.transform(quaternionRotation0); plane1.contains(plane0); Vector3D vector3D0 = plane0.intersection(line3D0); plane1.project(vector3D0); }
+Code: public Vector3D project(final Vector3D point) { return getOrigin().add(point.reject(normal)); }
+[[0.07857776 0.18121941 0.10902141 0.18121941 0.09697594 0.11910259
+ 0.08824748 0.10902141 0.03661456]
+[0.08283906 0.15807995 0.10975249 0.15807995 0.1033686  0.13418344
+ 0.09509745 0.10975249 0.04884655]
+[0.0679289  0.1704104  0.11156645 0.1704104  0.1284336  0.11769377
+ 0.08271081 0.11156645 0.03927929]
+[0.08283906 0.15807995 0.10975249 0.15807995 0.1033686  0.13418344
+ 0.09509745 0.10975249 0.04884655]
+[0.07455119 0.1480504  0.11289053 0.1480504  0.1248368  0.12709329
+ 0.11118281 0.11289053 0.04045407]
+[0.08452369 0.14722879 0.10794699 0.14722879 0.11740752 0.14213617
+ 0.09645993 0.10794699 0.0491211 ]
+[0.05577584 0.18510112 0.10862318 0.18510112 0.13134682 0.11429606
+ 0.08007643 0.10862318 0.03105617]
+[0.0679289  0.1704104  0.11156645 0.1704104  0.1284336  0.11769377
+ 0.08271081 0.11156645 0.03927929]
+[0.05723124 0.15240124 0.10633634 0.15240124 0.11574031 0.1510824
+ 0.12615158 0.10633634 0.03231929]]

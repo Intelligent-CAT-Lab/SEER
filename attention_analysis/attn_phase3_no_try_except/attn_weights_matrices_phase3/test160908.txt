@@ -1,0 +1,19 @@
+160908
+Test: public void test12() throws Throwable { Integer integer0 = new Integer(5433); DefaultPooledObject<Integer> defaultPooledObject0 = new DefaultPooledObject<Integer>(integer0); PooledObjectFactory<Integer> pooledObjectFactory0 = (PooledObjectFactory<Integer>) mock(PooledObjectFactory.class, new ViolatedAssumptionAnswer()); doReturn(defaultPooledObject0).when(pooledObjectFactory0).makeObject(); doReturn(true).when(pooledObjectFactory0).validateObject(nullable(org.apache.commons.pool2.PooledObject.class)); SoftReferenceObjectPool<Integer> softReferenceObjectPool0 = new SoftReferenceObjectPool<Integer>(pooledObjectFactory0); softReferenceObjectPool0.addObject(); softReferenceObjectPool0.clear(); }
+Code: public synchronized int getNumActive() { return numActive; }
+[[0.10926123 0.2095629  0.06973574 0.15157068 0.14256746 0.11986092
+ 0.15157068 0.04587035]
+[0.10274173 0.23331723 0.05485247 0.15388945 0.12461414 0.13628858
+ 0.15388945 0.04040695]
+[0.06694654 0.24746016 0.0473027  0.16948989 0.15721285 0.10875168
+ 0.16948989 0.0333463 ]
+[0.09150673 0.23805794 0.05921341 0.1526641  0.14542364 0.11107314
+ 0.1526641  0.04939697]
+[0.11117503 0.17480092 0.0535724  0.14710003 0.17548253 0.12837392
+ 0.14710003 0.06239507]
+[0.07625244 0.27299723 0.04654406 0.15495439 0.14304838 0.11174097
+ 0.15495439 0.03950813]
+[0.09150673 0.23805794 0.05921341 0.1526641  0.14542364 0.11107314
+ 0.1526641  0.04939697]
+[0.07224499 0.22561693 0.05495641 0.13611096 0.17986527 0.1561088
+ 0.13611096 0.03898564]]

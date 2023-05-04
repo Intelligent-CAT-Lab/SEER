@@ -1,0 +1,21 @@
+161946
+Test: public void test443() throws Throwable { LinkedBlockingDeque<Integer> linkedBlockingDeque0 = new LinkedBlockingDeque<Integer>(true); LinkedBlockingDeque<Object> linkedBlockingDeque1 = new LinkedBlockingDeque<Object>(linkedBlockingDeque0); Predicate<Integer> predicate0 = Predicate.isEqual((Object) null); boolean boolean0 = linkedBlockingDeque0.removeIf(predicate0); boolean boolean1 = linkedBlockingDeque1.contains((Object) null); Integer integer0 = new Integer((-2485)); Stream<Object> stream0 = linkedBlockingDeque1.stream(); boolean boolean2 = linkedBlockingDeque0.offer(integer0); TimeUnit timeUnit0 = TimeUnit.NANOSECONDS; Object object0 = linkedBlockingDeque1.pollLast(1L, timeUnit0); Integer integer1 = new Integer((-514)); ChronoUnit chronoUnit0 = ChronoUnit.MICROS; Duration duration0 = chronoUnit0.getDuration(); boolean boolean3 = linkedBlockingDeque1.offerLast((Object) integer1, duration0); Object object1 = linkedBlockingDeque1.takeLast(); Duration duration1 = duration0.plus((-3932L), (TemporalUnit) chronoUnit0); LinkedBlockingDeque<String> linkedBlockingDeque2 = new LinkedBlockingDeque<String>(); LinkedBlockingDeque<String> linkedBlockingDeque3 = new LinkedBlockingDeque<String>(linkedBlockingDeque2); linkedBlockingDeque3.putLast(""); TimeUnit timeUnit1 = TimeUnit.MICROSECONDS; boolean boolean4 = linkedBlockingDeque2.offerFirst("org.apache.commons.pool2.impl.LinkedBlockingDeque", 3563L, timeUnit1); boolean boolean5 = linkedBlockingDeque1.offer((Object) linkedBlockingDeque3, 1L, timeUnit0); }
+Code: public boolean offer(final E e) { return offerLast(e); }
+[[0.07638723 0.18125272 0.10597773 0.10667089 0.19282785 0.11112039
+ 0.0852116  0.10597773 0.03457384]
+[0.05253527 0.2551568  0.09908101 0.08217034 0.15292482 0.14268029
+ 0.09016284 0.09908101 0.02620758]
+[0.06193179 0.2260825  0.102356   0.12154441 0.17177975 0.10376949
+ 0.07531545 0.102356   0.03486461]
+[0.06855682 0.2320019  0.09985419 0.10897757 0.13819727 0.14775579
+ 0.07552983 0.09985419 0.02927243]
+[0.06296761 0.24117023 0.09539033 0.09571039 0.15603918 0.12044417
+ 0.08828443 0.09539033 0.0446033 ]
+[0.08187211 0.17444557 0.10504322 0.10859423 0.14745998 0.1365951
+ 0.0935753  0.10504322 0.04737122]
+[0.05365454 0.2564764  0.10343888 0.10145415 0.16241518 0.11210456
+ 0.07666103 0.10343888 0.03035635]
+[0.06193179 0.2260825  0.102356   0.12154441 0.17177975 0.10376949
+ 0.07531545 0.102356   0.03486461]
+[0.05628755 0.18707184 0.10270323 0.08475702 0.14622098 0.15944727
+ 0.12720957 0.10270323 0.0335993 ]]

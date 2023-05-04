@@ -1,0 +1,21 @@
+51362
+Test: public void test10624() throws Throwable { DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendHourOfHalfday(70); DateTimeFormatterBuilder dateTimeFormatterBuilder2 = dateTimeFormatterBuilder1.appendMonthOfYear(19); DateTimeFormatterBuilder dateTimeFormatterBuilder3 = dateTimeFormatterBuilder2.appendHalfdayOfDayText(); DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.millisOfDay(); DateTimeFormatterBuilder dateTimeFormatterBuilder4 = dateTimeFormatterBuilder3.appendSignedDecimal(dateTimeFieldType0, 70, (-1155)); DateTimeFormatterBuilder dateTimeFormatterBuilder5 = dateTimeFormatterBuilder4.appendLiteral("KA-3I2"); }
+Code: public DateTimeFormatterBuilder appendLiteral(char c) { return append0(new CharacterLiteral(c)); }
+[[0.09165082 0.12714598 0.12714598 0.13410863 0.12483994 0.10119063
+ 0.12714598 0.12714598 0.039626  ]
+[0.07606315 0.12489931 0.12489931 0.15576223 0.13193569 0.09261908
+ 0.12489931 0.12489931 0.04402264]
+[0.07606315 0.12489931 0.12489931 0.15576223 0.13193569 0.09261908
+ 0.12489931 0.12489931 0.04402264]
+[0.08272777 0.12465143 0.12465143 0.13440008 0.15940036 0.09071907
+ 0.12465143 0.12465143 0.03414702]
+[0.09483936 0.1213344  0.1213344  0.09749894 0.15900545 0.10829479
+ 0.1213344  0.1213344  0.05502386]
+[0.06573138 0.12979954 0.12979954 0.15325344 0.1310373  0.09499747
+ 0.12979954 0.12979954 0.03578223]
+[0.07606315 0.12489931 0.12489931 0.15576223 0.13193569 0.09261908
+ 0.12489931 0.12489931 0.04402264]
+[0.07606315 0.12489931 0.12489931 0.15576223 0.13193569 0.09261908
+ 0.12489931 0.12489931 0.04402264]
+[0.0638569  0.11655866 0.11655866 0.10695764 0.18063362 0.1442424
+ 0.11655866 0.11655866 0.03807494]]

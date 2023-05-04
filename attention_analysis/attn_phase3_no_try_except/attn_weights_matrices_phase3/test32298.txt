@@ -1,0 +1,2 @@
+32298
+Test: public void test0() throws Throwable { Reporter[] reporterArray0 = new Reporter[1]; Slf4jReporter slf4jReporter0 = new Slf4jReporter(); reporterArray0[0] = (Reporter) slf4jReporter0; MetricRegistry metricRegistry0 = new MetricRegistry(); ReportScheduler reportScheduler0 = new ReportScheduler(metricRegistry0, reporterArray0); reportScheduler0.report(); }

@@ -1,0 +1,17 @@
+27332
+Test: public void test9() throws Throwable { Vector3D vector3D0 = Vector3D.of(1210.59, 1210.59, 821.4); Precision.DoubleEquivalence precision_DoubleEquivalence0 = mock(Precision.DoubleEquivalence.class, new ViolatedAssumptionAnswer()); Line3D line3D0 = new Line3D(vector3D0, vector3D0, precision_DoubleEquivalence0); LineSpanningSubset3D lineSpanningSubset3D0 = new LineSpanningSubset3D(line3D0); double double0 = lineSpanningSubset3D0.getSubspaceEnd(); }
+Code: public double getSubspaceEnd() { return Double.POSITIVE_INFINITY; }
+[[0.12767234 0.22259784 0.17709379 0.14840361 0.13781193 0.13679996
+ 0.04962049]
+[0.10392016 0.23595072 0.19279449 0.14852415 0.1487341  0.12832652
+ 0.04174982]
+[0.10897127 0.20694667 0.18591675 0.15042321 0.13167149 0.16334358
+ 0.05272701]
+[0.12585658 0.17367947 0.17418937 0.18147366 0.14757222 0.12991107
+ 0.06731761]
+[0.09524839 0.2162045  0.205516   0.1542054  0.1437785  0.14116311
+ 0.0438841 ]
+[0.12790559 0.19428276 0.20495182 0.15271756 0.1460204  0.12267959
+ 0.05144232]
+[0.09140346 0.18542182 0.18112043 0.17607881 0.18262449 0.14262457
+ 0.04072643]]

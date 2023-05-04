@@ -1,0 +1,21 @@
+131231
+Test: public void test40() throws Throwable { Complex complex0 = Complex.ZERO; Complex complex1 = Complex.ofCartesian(0.0, 1297.4106636017073); Complex complex2 = complex0.subtract(complex1); Complex complex3 = complex1.divideImaginary(2707.78536); Complex complex4 = complex0.negate(); complex4.ONE.subtractFromImaginary(617.45660489); complex2.I.exp(); Complex complex5 = complex1.ONE.multiply(2824.211232015); complex2.ONE.subtractImaginary(1297.4106636017073); Complex complex6 = complex3.I.tanh(); Complex complex7 = complex2.sin(); Complex complex8 = complex3.cos(); complex8.exp(); Complex complex9 = complex3.subtract(2707.78536); Complex complex10 = complex6.cosh(); complex9.subtractFromImaginary(0.0); complex7.ONE.subtract(2707.78536); complex6.pow(complex5); complex7.pow(complex6); Complex complex11 = complex9.acos(); complex9.subtract(complex10); complex3.subtractFromImaginary((-626.4510147769244)); complex11.tan(); complex4.isFinite(); complex9.ONE.exp(); complex11.subtractFrom(0.0); complex0.negate(); }
+Code: public Complex negate() { return new Complex(-real, -imaginary); }
+[[0.10043417 0.16742475 0.13931048 0.11531445 0.10823415 0.05193919
+ 0.13931048 0.13931048 0.03872177]
+[0.08305319 0.18428168 0.14058295 0.11938271 0.10539307 0.04990785
+ 0.14058295 0.14058295 0.0362327 ]
+[0.08297067 0.17322709 0.14099447 0.11764194 0.1003367  0.06186059
+ 0.14099447 0.14099447 0.04097963]
+[0.09369629 0.1687472  0.12852362 0.13769095 0.1095245  0.05415436
+ 0.12852362 0.12852362 0.05061578]
+[0.07148403 0.16629721 0.15327309 0.11771045 0.10756631 0.04374569
+ 0.15327309 0.15327309 0.03337702]
+[0.08553138 0.14250156 0.1398755  0.13417093 0.11975479 0.05798257
+ 0.1398755  0.1398755  0.04043228]
+[0.08297067 0.17322709 0.14099447 0.11764194 0.1003367  0.06186059
+ 0.14099447 0.14099447 0.04097963]
+[0.08297067 0.17322709 0.14099447 0.11764194 0.1003367  0.06186059
+ 0.14099447 0.14099447 0.04097963]
+[0.06897621 0.16515307 0.13374111 0.14984658 0.14272061 0.03851245
+ 0.13374111 0.13374111 0.03356773]]

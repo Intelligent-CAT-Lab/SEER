@@ -1,0 +1,17 @@
+167011
+Test: public void test4() throws Throwable { Object object0 = new Object(); EventType<ConfigurationErrorEvent> eventType0 = ConfigurationErrorEvent.READ; MockThrowable mockThrowable0 = new MockThrowable(); ConfigurationErrorEvent configurationErrorEvent0 = new ConfigurationErrorEvent(object0, eventType0, eventType0, "2$)biaG4jDQeo@-A", object0, mockThrowable0); Throwable throwable0 = configurationErrorEvent0.getCause(); }
+Code: public Throwable getCause() { return cause; }
+[[0.11370313 0.25693646 0.15771277 0.12757488 0.12216626 0.17871973
+ 0.04318675]
+[0.0901756  0.20767882 0.14537677 0.17195529 0.11874944 0.1874948
+ 0.0785693 ]
+[0.10241312 0.22209069 0.1733951  0.1487386  0.12394164 0.17789271
+ 0.05152819]
+[0.11656874 0.20517993 0.16327544 0.16373013 0.13725048 0.15248558
+ 0.06150974]
+[0.07087715 0.26982796 0.14842191 0.12397718 0.10540621 0.24677342
+ 0.03471619]
+[0.08029732 0.23124743 0.17123713 0.17229505 0.11653534 0.20065881
+ 0.02772896]
+[0.07612789 0.25600612 0.15007639 0.15112655 0.15339725 0.17859846
+ 0.03466735]]

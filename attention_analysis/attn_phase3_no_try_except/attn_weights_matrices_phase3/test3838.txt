@@ -1,0 +1,17 @@
+3838
+Test: public void test963() throws Throwable { Service service0 = Service.ignite(); Service service1 = service0.secure(" exists", " exists", " exists", "", true); Service service2 = service1.threadPool(1249, 4567, 4603); boolean boolean0 = false; Service service3 = service2.webSocketIdleTimeoutMillis(4567); service2.initialized = boolean0; Service.StaticFiles service_StaticFiles0 = service2.staticFiles; service_StaticFiles0.expireTime(service3.SPARK_DEFAULT_PORT); String string0 = "Uc7(QT*"; String string1 = "U*QWVX|Z%(DG|<7Q]?7"; service_StaticFiles0.registerMimeType(string0, string1); service0.init(); String string2 = ""; LinkedBlockingDeque<String> linkedBlockingDeque0 = new LinkedBlockingDeque<String>(); HttpMethod httpMethod0 = HttpMethod.trace; FilterImpl filterImpl0 = mock(FilterImpl.class, new ViolatedAssumptionAnswer()); doReturn((String) null).when(filterImpl0).toString(); doReturn((String) null).when(filterImpl0).getAcceptType(); doReturn((String) null).when(filterImpl0).getPath(); FilterImpl filterImpl1 = mock(FilterImpl.class, new ViolatedAssumptionAnswer()); doReturn(filterImpl0).when(filterImpl1).withPrefix(anyString()); List<RouteMatch> list0 = service0.routes(); }
+Code: public List<RouteMatch> routes() { return routes.findAll(); }
+[[0.12731326 0.17660138 0.17660138 0.1539395  0.13815959 0.17660138
+ 0.05078347]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.1209935  0.16031049 0.16031049 0.19048879 0.13977559 0.16031049
+ 0.06781061]
+[0.09097192 0.18878669 0.18878669 0.16263722 0.13468806 0.18878669
+ 0.04534269]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.08439702 0.15890288 0.15890288 0.21071318 0.18253878 0.15890287
+ 0.04564238]]

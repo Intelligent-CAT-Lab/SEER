@@ -1,0 +1,19 @@
+90885
+Test: public void test8() throws Throwable { ObjectType objectType0 = Type.STRINGBUFFER; ConstantPoolGen constantPoolGen0 = new ConstantPoolGen(); int[] intArray0 = new int[9]; InstructionHandle[] instructionHandleArray0 = new InstructionHandle[9]; SWITCH sWITCH0 = new SWITCH(intArray0, instructionHandleArray0, instructionHandleArray0[7]); InstructionList instructionList0 = sWITCH0.getInstructionList(); MethodGen methodGen0 = new MethodGen((-4261), objectType0, objectType0.NO_ARGS, (String[]) null, "yU638hsQ<tHjUZ", "yU638hsQ<tHjUZ", instructionList0, constantPoolGen0); Subroutines subroutines0 = new Subroutines(methodGen0); }
+Code: public Subroutines(final MethodGen mg) { this(mg, true); }
+[[0.09062282 0.12572281 0.12572281 0.12572281 0.12655409 0.12572281
+ 0.24006882 0.03986296]
+[0.07700038 0.12635732 0.12635732 0.12635732 0.13400896 0.12635732
+ 0.23887634 0.04468502]
+[0.07700038 0.12635732 0.12635732 0.12635732 0.13400896 0.12635732
+ 0.23887634 0.04468502]
+[0.07700038 0.12635732 0.12635732 0.12635732 0.13400896 0.12635732
+ 0.23887634 0.04468502]
+[0.09570485 0.12064722 0.12064722 0.12064722 0.1644799  0.12064722
+ 0.2009237  0.05630273]
+[0.07700038 0.12635732 0.12635732 0.12635732 0.13400896 0.12635732
+ 0.23887634 0.04468502]
+[0.08417928 0.12898721 0.12898721 0.12898721 0.14219946 0.12898721
+ 0.21725148 0.04042089]
+[0.06380767 0.11434094 0.11434094 0.11434094 0.19278347 0.11434094
+ 0.24594724 0.04009783]]

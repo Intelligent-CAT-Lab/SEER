@@ -1,0 +1,21 @@
+128206
+Test: public void test38161() throws Throwable { BigFraction bigFraction0 = BigFraction.from(0.0, 1); BigFraction bigFraction1 = BigFraction.from((double) 1); BigFraction bigFraction2 = bigFraction0.ONE.multiply(bigFraction1); float float0 = bigFraction2.floatValue(); BigFraction bigFraction3 = bigFraction1.ZERO.add((-2305)); BigFraction bigFraction4 = bigFraction1.ZERO.abs(); bigFraction0.hashCode(); BigFraction bigFraction5 = bigFraction2.ZERO.subtract(1); int int0 = bigFraction5.ONE.intValue(); BigFraction bigFraction6 = bigFraction5.negate(); BigDecimal bigDecimal0 = bigFraction1.bigDecimalValue(); double double0 = bigFraction2.doubleValue(); BigFraction bigFraction7 = bigFraction0.multiply(bigFraction1); BigFraction bigFraction8 = bigFraction4.add(bigFraction7); BigFraction bigFraction9 = bigFraction7.divide((-3035)); BigInteger bigInteger0 = BigInteger.ONE; int int1 = bigFraction0.getDenominatorAsInt(); long long0 = bigFraction7.ZERO.longValue(); BigFraction bigFraction10 = bigFraction7.multiply(bigInteger0); int int2 = bigFraction10.ZERO.hashCode(); BigFraction bigFraction11 = bigFraction8.ONE.subtract(bigFraction5); BigFraction bigFraction12 = bigFraction4.divide(bigInteger0); boolean boolean0 = bigFraction12.equals(bigFraction4); BigFraction bigFraction13 = bigFraction12.subtract(1); BigFraction bigFraction14 = bigFraction13.ONE.multiply(1); BigFraction bigFraction15 = BigFraction.from((double) 1, (double) 1, 1); BigFraction bigFraction16 = bigFraction13.multiply(9218868437227405312L); BigFraction bigFraction17 = bigFraction3.divide(bigFraction2); double double1 = bigFraction17.doubleValue(); BigFraction bigFraction18 = bigFraction7.divide(bigInteger0); boolean boolean1 = bigFraction18.equals((Object) null); int int3 = bigFraction6.getDenominatorAsInt(); float float1 = bigFraction8.floatValue(); }
+Code: public float floatValue() { return Float.intBitsToFloat((int) toFloatingPointBits(8, 23)); }
+[[0.10423181 0.08894362 0.0917897  0.12644945 0.11316344 0.14458458
+ 0.14458458 0.14458458 0.0416682 ]
+[0.09491613 0.08074082 0.07771538 0.14549975 0.11865018 0.14615364
+ 0.14615364 0.14615364 0.0440168 ]
+[0.08935264 0.09398772 0.07591613 0.13027658 0.11836378 0.15387419
+ 0.15387419 0.15387419 0.03048062]
+[0.09977196 0.08389713 0.09028435 0.15267915 0.11583465 0.13415498
+ 0.13415498 0.13415498 0.05506778]
+[0.07484874 0.10391389 0.07108381 0.12841456 0.11174331 0.15796486
+ 0.15796486 0.15796486 0.03610109]
+[0.08525527 0.10618803 0.10512841 0.12448552 0.10319458 0.1442248
+ 0.1442248  0.1442248  0.04307383]
+[0.08525527 0.10618803 0.10512841 0.12448552 0.10319458 0.1442248
+ 0.1442248  0.1442248  0.04307383]
+[0.08525527 0.10618803 0.10512841 0.12448552 0.10319458 0.1442248
+ 0.1442248  0.1442248  0.04307383]
+[0.07176897 0.08005745 0.07805739 0.17012244 0.15260646 0.13669589
+ 0.13669589 0.13669589 0.03729966]]

@@ -1,10 +1,17 @@
 69327
 Test: public void test662() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest1.test662"); org.jsoup.nodes.Document document2 = org.jsoup.Jsoup.parseBodyFragment("#text", "#text"); org.jsoup.select.Elements elements5 = document2.getElementsByAttributeValueMatching(":root", "#text"); java.lang.String str6 = document2.nodeName(); org.jsoup.nodes.Document.OutputSettings outputSettings7 = document2.outputSettings(); java.nio.charset.Charset charset8 = null; org.jsoup.nodes.Document.OutputSettings outputSettings9 = outputSettings7.charset(charset8); org.jsoup.select.Evaluator.ContainsText containsText11 = new org.jsoup.select.Evaluator.ContainsText("<html>\n <head></head>\n <body>\n #text\n </body>\n</html>"); org.jsoup.select.Evaluator.IsRoot isRoot12 = new org.jsoup.select.Evaluator.IsRoot(); java.lang.String str13 = isRoot12.toString(); org.jsoup.nodes.Document document16 = org.jsoup.Jsoup.parseBodyFragment("#text", "#text"); boolean boolean18 = document16.hasClass("hi!"); java.lang.String str19 = document16.toString(); org.jsoup.nodes.Element element21 = document16.createElement("SYSTEM"); org.jsoup.select.Elements elements23 = document16.select(":root"); org.jsoup.nodes.Document document26 = org.jsoup.Jsoup.parseBodyFragment("#text", "#text"); boolean boolean28 = document26.hasClass("hi!"); org.jsoup.nodes.Document document29 = document26.clone(); boolean boolean30 = isRoot12.matches((org.jsoup.nodes.Element) document16, (org.jsoup.nodes.Element) document26); org.jsoup.nodes.Document document33 = org.jsoup.Jsoup.parseBodyFragment("#text", "#text"); boolean boolean35 = document33.hasClass("hi!"); org.jsoup.nodes.Element element37 = document33.removeClass(""); boolean boolean38 = containsText11.matches((org.jsoup.nodes.Element) document16, element37); java.lang.String str39 = document16.nodeName(); java.nio.charset.Charset charset40 = document16.charset(); org.jsoup.nodes.Document.OutputSettings outputSettings41 = outputSettings9.charset(charset40); org.jsoup.nodes.Document document44 = org.jsoup.Jsoup.parseBodyFragment("#text", "#text"); org.jsoup.select.Elements elements47 = document44.getElementsByAttributeValueMatching(":root", "#text"); java.lang.String str48 = document44.nodeName(); org.jsoup.nodes.Document.OutputSettings outputSettings49 = document44.outputSettings(); java.nio.charset.Charset charset50 = null; org.jsoup.nodes.Document.OutputSettings outputSettings51 = outputSettings49.charset(charset50); org.jsoup.nodes.Document.OutputSettings outputSettings53 = outputSettings51.indentAmount((int) '4'); org.jsoup.nodes.Document.OutputSettings.Syntax syntax54 = outputSettings51.syntax(); org.jsoup.nodes.Document.OutputSettings outputSettings55 = outputSettings9.syntax(syntax54); java.nio.charset.Charset charset56 = outputSettings9.charset(); }
 Code: public String nodeName() { return "#doctype"; }
-tensor([[0.0945, 0.1192, 0.2936, 0.1414, 0.1059, 0.2017, 0.0436],
-        [0.0933, 0.1051, 0.3021, 0.1535, 0.0961, 0.2120, 0.0379],
-        [0.0777, 0.1477, 0.2741, 0.1663, 0.0861, 0.2083, 0.0398],
-        [0.0976, 0.1369, 0.2669, 0.1649, 0.1112, 0.1655, 0.0569],
-        [0.0647, 0.1199, 0.2817, 0.1476, 0.0903, 0.2565, 0.0394],
-        [0.0758, 0.1108, 0.3006, 0.1411, 0.1039, 0.2273, 0.0405],
-        [0.0605, 0.1108, 0.2882, 0.1622, 0.1341, 0.2096, 0.0346]])
+[[0.09451137 0.11916012 0.29359424 0.1414488  0.10591899 0.20172223
+ 0.04364421]
+[0.09328005 0.10510759 0.30207235 0.15345386 0.0961246  0.21201326
+ 0.0379483 ]
+[0.0777262  0.14770207 0.27410847 0.16629177 0.08607925 0.20826824
+ 0.03982399]
+[0.09757708 0.13694644 0.26688352 0.16494247 0.11124489 0.16553333
+ 0.05687227]
+[0.06470042 0.11985601 0.2816887  0.14759772 0.09031291 0.25646627
+ 0.03937795]
+[0.07583357 0.11081336 0.30055332 0.141064   0.10388017 0.2273345
+ 0.04052107]
+[0.06051251 0.11078851 0.2882437  0.16219433 0.13409247 0.20958707
+ 0.03458139]]

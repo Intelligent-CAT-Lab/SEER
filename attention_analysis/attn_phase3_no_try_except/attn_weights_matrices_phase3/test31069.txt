@@ -1,0 +1,2 @@
+31069
+Test: public void test38() throws Throwable { LinkedList<String> linkedList0 = ListUtil.newLinkedList(); // Undeclared exception!  ListUtil.intersection((List<? extends String>) null, (List<? extends String>) linkedList0);   }

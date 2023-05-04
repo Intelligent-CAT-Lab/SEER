@@ -1,0 +1,17 @@
+123558
+Test: public void test33327() throws Throwable { BigInteger bigInteger0 = BigInteger.TEN; BigFraction bigFraction0 = BigFraction.of(bigInteger0, bigInteger0); BigFraction bigFraction1 = bigFraction0.abs(); BigFraction bigFraction2 = bigFraction0.divide(bigInteger0); RoundingMode roundingMode0 = RoundingMode.DOWN; BigDecimal bigDecimal0 = bigFraction2.bigDecimalValue((-1389), roundingMode0); BigFraction bigFraction3 = bigFraction1.ZERO.divide(873L); BigFraction bigFraction4 = BigFraction.from(0.0); int int0 = bigFraction1.compareTo(bigFraction0); BigFraction bigFraction5 = bigFraction0.zero(); BigFraction bigFraction6 = bigFraction0.multiply(bigFraction1); RoundingMode roundingMode1 = RoundingMode.FLOOR; BigDecimal bigDecimal1 = bigFraction6.bigDecimalValue(roundingMode1); BigFraction bigFraction7 = bigFraction5.ONE.multiply(0); RoundingMode roundingMode2 = RoundingMode.HALF_DOWN; int int1 = bigFraction6.compareTo(bigFraction2); BigDecimal bigDecimal2 = bigFraction7.bigDecimalValue(roundingMode2); BigFraction bigFraction8 = bigFraction3.multiply(bigFraction5); BigFraction bigFraction9 = bigFraction8.ONE.multiply((-8L)); BigFraction bigFraction10 = BigFraction.of(2); int int2 = bigFraction8.intValue(); }
+Code: public int intValue() { return numerator.divide(denominator).intValue(); }
+[[0.14005756 0.09168129 0.19428128 0.17120624 0.152219   0.19428128
+ 0.05627332]
+[0.08921845 0.06556281 0.2322315  0.19481936 0.14315376 0.2322315
+ 0.04278267]
+[0.12119697 0.07944629 0.20417215 0.18169    0.14682373 0.20417216
+ 0.06249871]
+[0.13480824 0.06582753 0.1822551  0.20407528 0.15680158 0.1822551
+ 0.07397714]
+[0.10471454 0.06661788 0.21977326 0.18215512 0.1559014  0.21977329
+ 0.0510645 ]
+[0.12119697 0.07944629 0.20417215 0.18169    0.14682373 0.20417216
+ 0.06249871]
+[0.09448293 0.0724026  0.1800794  0.22326528 0.20070246 0.18007939
+ 0.04898785]]

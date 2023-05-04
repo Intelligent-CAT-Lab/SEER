@@ -1,0 +1,19 @@
+151965
+Test: public void test10() throws Throwable { ResultSetMetaData resultSetMetaData0 = mock(ResultSetMetaData.class, new ViolatedAssumptionAnswer()); doReturn(0).when(resultSetMetaData0).getColumnCount(); ResultSet resultSet0 = mock(ResultSet.class, new ViolatedAssumptionAnswer()); doReturn(resultSetMetaData0).when(resultSet0).getMetaData(); ResultSetDynaClass resultSetDynaClass0 = new ResultSetDynaClass(resultSet0); Iterator<DynaBean> iterator0 = resultSetDynaClass0.iterator(); }
+Code: public Iterator<DynaBean> iterator() { return (new ResultSetIterator(this)); }
+[[0.12539536 0.17393324 0.098919   0.14349456 0.1350747  0.10100926
+ 0.17393324 0.04824054]
+[0.10528159 0.1798701  0.1279979  0.14395739 0.12717701 0.08527207
+ 0.1798701  0.0505739 ]
+[0.1021204  0.17884372 0.10198434 0.18162763 0.14182144 0.07571424
+ 0.17884372 0.03904452]
+[0.11563739 0.15861243 0.10207421 0.1699521  0.1351698  0.09746966
+ 0.15861243 0.06247203]
+[0.09025156 0.1956583  0.10273513 0.14422472 0.13656026 0.09375206
+ 0.1956583  0.04115965]
+[0.08828644 0.18521585 0.11543754 0.1658506  0.13497066 0.08424087
+ 0.18521585 0.04078218]
+[0.10528159 0.1798701  0.1279979  0.14395739 0.12717701 0.08527207
+ 0.1798701  0.0505739 ]
+[0.08684232 0.16738662 0.0763287  0.19441138 0.18135053 0.08307097
+ 0.16738662 0.04322292]]

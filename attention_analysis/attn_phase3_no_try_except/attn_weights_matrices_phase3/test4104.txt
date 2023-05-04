@@ -1,0 +1,21 @@
+4104
+Test: public void test1339() throws Throwable { Service service0 = Service.ignite(); int int0 = (-43); Service service1 = service0.threadPool((-43)); String string0 = ""; Service service2 = service1.externalStaticFileLocation(""); String string1 = "RP*jz/"; HttpMethod httpMethod0 = HttpMethod.afterafter; TemplateViewRoute templateViewRoute0 = mock(TemplateViewRoute.class, new ViolatedAssumptionAnswer()); TemplateEngine templateEngine0 = mock(TemplateEngine.class, new ViolatedAssumptionAnswer()); TemplateViewRouteImpl templateViewRouteImpl0 = TemplateViewRouteImpl.create("", templateViewRoute0, templateEngine0); ResponseTransformer responseTransformer0 = mock(ResponseTransformer.class, new ViolatedAssumptionAnswer()); ResponseTransformerRouteImpl responseTransformerRouteImpl0 = ResponseTransformerRouteImpl.create("ignite failed", "jNtY%XXr-Q<M", (Route) templateViewRouteImpl0, responseTransformer0); RouteImpl routeImpl0 = responseTransformerRouteImpl0.withPrefix("jNtY%XXr-Q<M"); service2.addRoute(httpMethod0, routeImpl0); Route route0 = null; service1.internalServerError((Route) null); }
+Code: public synchronized void internalServerError(String page) { CustomErrorPages.add(500, page); }
+[[0.09096098 0.17453353 0.07321742 0.12618373 0.12618373 0.11842355
+ 0.12618373 0.12618373 0.03812947]
+[0.08600895 0.19443488 0.06715885 0.12813307 0.12813307 0.10583091
+ 0.12813307 0.12813307 0.03403416]
+[0.0667384  0.20300594 0.06038953 0.12644333 0.12644333 0.12611544
+ 0.12644333 0.12644333 0.03797742]
+[0.07515503 0.1952759  0.06753635 0.12522128 0.12522128 0.12033662
+ 0.12522128 0.12522128 0.040811  ]
+[0.07515503 0.1952759  0.06753635 0.12522128 0.12522128 0.12033662
+ 0.12522128 0.12522128 0.040811  ]
+[0.09245808 0.14297318 0.08097231 0.11963855 0.11963855 0.15198462
+ 0.11963855 0.11963855 0.05305763]
+[0.07515503 0.1952759  0.06753635 0.12522128 0.12522128 0.12033662
+ 0.12522128 0.12522128 0.040811  ]
+[0.07515503 0.1952759  0.06753635 0.12522128 0.12522128 0.12033662
+ 0.12522128 0.12522128 0.040811  ]
+[0.06337904 0.19869678 0.0600122  0.11638188 0.11638188 0.17526521
+ 0.11638188 0.11638188 0.03711925]]

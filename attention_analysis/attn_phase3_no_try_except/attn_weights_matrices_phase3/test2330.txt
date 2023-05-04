@@ -1,0 +1,17 @@
+2330
+Test: public void test98() throws Throwable { FieldTypeShort fieldTypeShort0 = new FieldTypeShort(4, "7&&>I<{MC"); byte[] byteArray0 = new byte[7]; byteArray0[1] = (byte) (-90); CharBuffer charBuffer0 = CharBuffer.wrap((CharSequence) "7&&>I<{MC"); ByteOrder byteOrder0 = charBuffer0.order(); TiffField tiffField0 = new TiffField(4, 4, fieldTypeShort0, 1L, 4, byteArray0, byteOrder0, 1280); tiffField0.getDoubleValue(); }
+Code: public int getTag() { return tag; }
+[[0.13601813 0.08540776 0.18869549 0.1845668  0.15008876 0.19656914
+ 0.05865391]
+[0.09641506 0.07020593 0.24933852 0.21429247 0.15515557 0.1679349
+ 0.04665752]
+[0.12479055 0.08128774 0.20923105 0.19257796 0.15132234 0.17496458
+ 0.06582584]
+[0.13250849 0.0644642  0.17806879 0.20300895 0.15381101 0.19495717
+ 0.07318138]
+[0.10290287 0.06319632 0.21010646 0.19100732 0.15114427 0.22878128
+ 0.0528615 ]
+[0.10465547 0.06173716 0.19218028 0.20111537 0.15696189 0.23012139
+ 0.05322842]
+[0.0942089  0.07201145 0.17884883 0.22670844 0.20130286 0.17739058
+ 0.0495289 ]]

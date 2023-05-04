@@ -1,0 +1,17 @@
+29068
+Test: public void test25() throws Throwable { Vector2D.Unit vector2D_Unit0 = Vector2D.Unit.MINUS_Y; Ray ray0 = new Ray((Line) null, vector2D_Unit0); AffineTransformMatrix2D affineTransformMatrix2D0 = AffineTransformMatrix2D.fromColumnVectors((Vector2D) vector2D_Unit0, (Vector2D) vector2D_Unit0); // Undeclared exception!  ray0.transform(affineTransformMatrix2D0);   }
+Code: public abstract LineConvexSubset transform(Transform<Vector2D> transform); /** {@inheritDoc}
+[[0.11910273 0.05472831 0.16523379 0.16523379 0.16523379 0.16523379
+ 0.16523379]
+[0.10615112 0.04321878 0.17012602 0.17012602 0.170126   0.170126
+ 0.170126  ]
+[0.10300218 0.05981149 0.16743727 0.16743727 0.16743729 0.16743729
+ 0.16743729]
+[0.10300218 0.05981149 0.16743727 0.16743727 0.16743729 0.16743729
+ 0.16743729]
+[0.10300218 0.05981149 0.16743727 0.16743727 0.16743729 0.16743729
+ 0.16743729]
+[0.10300218 0.05981149 0.16743727 0.16743727 0.16743729 0.16743729
+ 0.16743729]
+[0.10300218 0.05981149 0.16743727 0.16743727 0.16743729 0.16743729
+ 0.16743729]]

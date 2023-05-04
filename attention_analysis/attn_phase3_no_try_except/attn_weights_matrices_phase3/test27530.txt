@@ -1,0 +1,9 @@
+27530
+Test: public void test6() throws Throwable { AxisSequence axisSequence0 = AxisSequence.XZX; Vector3D vector3D0 = axisSequence0.getAxis3(); Line3D line3D0 = new Line3D(vector3D0, vector3D0, (Precision.DoubleEquivalence) null); Segment3D segment3D0 = new Segment3D(line3D0, vector3D0, vector3D0); double double0 = segment3D0.getSubspaceEnd(); }
+Code: public abstract double getSubspaceEnd(); /** {@inheritDoc}
+[[0.13621908 0.06304611 0.23378983 0.18898167 0.18898165 0.18898165]
+[0.13061717 0.05357753 0.18898894 0.20893879 0.20893878 0.20893878]
+[0.11255268 0.06147959 0.23592088 0.19668227 0.19668227 0.19668227]
+[0.12031308 0.0692689  0.22187668 0.19618043 0.19618045 0.19618045]
+[0.12031308 0.0692689  0.22187668 0.19618043 0.19618045 0.19618045]
+[0.12031308 0.0692689  0.22187668 0.19618043 0.19618045 0.19618045]]

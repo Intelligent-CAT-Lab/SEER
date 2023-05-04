@@ -1,0 +1,17 @@
+151211
+Test: public void test10() throws Throwable { POP3 pOP3_0 = new POP3(); MockPrintStream mockPrintStream0 = new MockPrintStream("\r\n"); MockPrintWriter mockPrintWriter0 = new MockPrintWriter(mockPrintStream0); pOP3_0._commandSupport_ = null; PrintCommandListener printCommandListener0 = new PrintCommandListener(mockPrintWriter0, false, 'H'); // Undeclared exception!  pOP3_0.removeProtocolCommandistener(printCommandListener0);   }
+Code: public void removeProtocolCommandistener(final org.apache.commons.net.ProtocolCommandListener listener){ removeProtocolCommandListener(listener); }
+[[0.1282368  0.10437436 0.17790267 0.17790267 0.17790267 0.17790267
+ 0.05577817]
+[0.10143021 0.09717959 0.18428877 0.18428877 0.18428877 0.18428877
+ 0.06423512]
+[0.10997804 0.10288332 0.18103808 0.18103808 0.18103808 0.18103808
+ 0.06298627]
+[0.10997804 0.10288332 0.18103808 0.18103808 0.18103808 0.18103808
+ 0.06298627]
+[0.10997804 0.10288332 0.18103808 0.18103808 0.18103808 0.18103808
+ 0.06298627]
+[0.10997804 0.10288332 0.18103808 0.18103808 0.18103808 0.18103808
+ 0.06298627]
+[0.10391988 0.10455164 0.1800738  0.1800738  0.18007377 0.18007377
+ 0.07123335]]

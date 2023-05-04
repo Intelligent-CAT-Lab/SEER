@@ -1,0 +1,21 @@
+36787
+Test: public void test1() throws Throwable { GJChronology gJChronology0 = GJChronology.getInstance(); DateTimeZone dateTimeZone0 = gJChronology0.getZone(); Days days0 = Days.ONE; Duration duration0 = days0.toStandardDuration(); DateTime dateTime0 = DateTime.now((Chronology) gJChronology0); MonthDay monthDay0 = new MonthDay(dateTimeZone0); Minutes minutes0 = Minutes.minutesBetween((ReadablePartial) monthDay0, (ReadablePartial) monthDay0); PeriodType periodType0 = minutes0.getPeriodType(); MutablePeriod mutablePeriod0 = new MutablePeriod(duration0, dateTime0, periodType0); TimeOfDay timeOfDay0 = new TimeOfDay(dateTimeZone0); TimeOfDay timeOfDay1 = timeOfDay0.minus(mutablePeriod0); }
+Code: public TimeOfDay minus(ReadablePeriod period) { return withPeriodAdded(period, -1); }
+[[0.0980863  0.13299865 0.13605914 0.13605914 0.11822735 0.10639664
+ 0.13605914 0.09706991 0.0390437 ]
+[0.09642729 0.1245324  0.14135459 0.14135459 0.1317636  0.10672919
+ 0.14135459 0.08068198 0.03580178]
+[0.07802334 0.18078059 0.1323205  0.1323205  0.11210234 0.0943928
+ 0.1323205  0.09880807 0.03893139]
+[0.07802334 0.18078059 0.1323205  0.1323205  0.11210234 0.0943928
+ 0.1323205  0.09880807 0.03893139]
+[0.09317295 0.15266961 0.12672251 0.12672251 0.13935061 0.10859534
+ 0.12672251 0.07524198 0.05080194]
+[0.06953821 0.12868983 0.14436406 0.14436406 0.12420195 0.10297452
+ 0.14436406 0.10686977 0.03463355]
+[0.07802334 0.18078059 0.1323205  0.1323205  0.11210234 0.0943928
+ 0.1323205  0.09880807 0.03893139]
+[0.09336221 0.13439806 0.13027057 0.13027057 0.13099971 0.10495786
+ 0.13027057 0.09841383 0.04705663]
+[0.06717902 0.1398379  0.12864299 0.12864299 0.15526085 0.14169568
+ 0.12864299 0.07584837 0.03424929]]

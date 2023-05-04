@@ -1,11 +1,19 @@
 69288
 Test: public void test1429() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest2.test1429"); java.nio.charset.CharsetEncoder charsetEncoder1 = null; java.nio.charset.CharsetEncoder charsetEncoder3 = null; java.nio.charset.CharsetEncoder charsetEncoder5 = null; java.nio.charset.CharsetEncoder charsetEncoder7 = null; java.nio.charset.CharsetEncoder charsetEncoder9 = null; java.nio.charset.CharsetEncoder charsetEncoder11 = null; org.jsoup.nodes.Entities.EscapeMode escapeMode12 = org.jsoup.nodes.Entities.EscapeMode.extended; java.lang.String str13 = org.jsoup.nodes.Entities.escape("", charsetEncoder11, escapeMode12); java.util.Map<java.lang.Character, java.lang.String> charMap14 = escapeMode12.getMap(); java.lang.String str15 = org.jsoup.nodes.Entities.escape("", charsetEncoder9, escapeMode12); java.util.Map<java.lang.Character, java.lang.String> charMap16 = escapeMode12.getMap(); java.util.Map<java.lang.Character, java.lang.String> charMap17 = escapeMode12.getMap(); java.lang.String str18 = org.jsoup.nodes.Entities.escape("", charsetEncoder7, escapeMode12); java.util.Map<java.lang.Character, java.lang.String> charMap19 = escapeMode12.getMap(); java.util.Map<java.lang.Character, java.lang.String> charMap20 = escapeMode12.getMap(); java.lang.String str21 = org.jsoup.nodes.Entities.escape("", charsetEncoder5, escapeMode12); java.lang.String str22 = org.jsoup.nodes.Entities.escape("", charsetEncoder3, escapeMode12); java.util.Map<java.lang.Character, java.lang.String> charMap23 = escapeMode12.getMap(); java.lang.String str24 = org.jsoup.nodes.Entities.escape("", charsetEncoder1, escapeMode12); java.util.Map<java.lang.Character, java.lang.String> charMap25 = escapeMode12.getMap(); java.lang.Class<?> wildcardClass26 = escapeMode12.getClass(); }
 Code: public Map<Character, String> getMap() { return map; }
-tensor([[0.1482, 0.1357, 0.0527, 0.1566, 0.1705, 0.1597, 0.1193, 0.0572],
-        [0.1031, 0.1126, 0.0617, 0.1939, 0.1782, 0.1655, 0.1320, 0.0530],
-        [0.1575, 0.1005, 0.0529, 0.1654, 0.1772, 0.1605, 0.1384, 0.0478],
-        [0.1234, 0.1314, 0.0604, 0.1556, 0.1667, 0.1929, 0.1262, 0.0433],
-        [0.1340, 0.1225, 0.0758, 0.1464, 0.1769, 0.1592, 0.1167, 0.0685],
-        [0.1153, 0.1200, 0.0519, 0.1899, 0.1713, 0.1767, 0.1253, 0.0497],
-        [0.1393, 0.1345, 0.0543, 0.1363, 0.1732, 0.2014, 0.1127, 0.0482],
-        [0.1037, 0.1219, 0.0379, 0.1666, 0.2024, 0.2080, 0.1127, 0.0467]])
+[[0.14818981 0.13567021 0.05271794 0.15664648 0.17052704 0.15974575
+ 0.11928564 0.05721714]
+[0.1031197  0.11256155 0.06169158 0.19391114 0.17815784 0.16546999
+ 0.13204864 0.05303958]
+[0.15751341 0.10049422 0.0528659  0.16535035 0.17717353 0.16046444
+ 0.13837652 0.04776161]
+[0.12344424 0.13143173 0.06040531 0.15558963 0.16670866 0.19293165
+ 0.12617096 0.04331782]
+[0.1339671  0.12247325 0.07581992 0.14640674 0.17688872 0.15920958
+ 0.11672177 0.06851289]
+[0.11529623 0.11997472 0.0519167  0.18987764 0.17128527 0.17667979
+ 0.12528263 0.04968703]
+[0.1393221  0.13448256 0.05434442 0.1363062  0.17320073 0.20140871
+ 0.11273591 0.04819931]
+[0.10374526 0.12188143 0.03789691 0.16664569 0.20241696 0.20802432
+ 0.11273585 0.04665355]]

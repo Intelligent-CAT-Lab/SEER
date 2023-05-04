@@ -1,0 +1,25 @@
+166859
+Test: public void test27() throws Throwable { ConfigurationInterpolator.DefaultPrefixLookupsHolder configurationInterpolator_DefaultPrefixLookupsHolder0 = ConfigurationInterpolator.DefaultPrefixLookupsHolder.INSTANCE; Map<String, Lookup> map0 = configurationInterpolator_DefaultPrefixLookupsHolder0.getDefaultPrefixLookups(); LinkedList<Lookup> linkedList0 = new LinkedList<Lookup>(); ExprLookup.Variables exprLookup_Variables0 = new ExprLookup.Variables(); ExprLookup exprLookup0 = new ExprLookup(exprLookup_Variables0); Function<Object, String> function0 = (Function<Object, String>) mock(Function.class, new ViolatedAssumptionAnswer()); InterpolatorSpecification interpolatorSpecification0 = mock(InterpolatorSpecification.class, new ViolatedAssumptionAnswer()); doReturn(linkedList0).when(interpolatorSpecification0).getDefaultLookups(); doReturn((ConfigurationInterpolator) null).when(interpolatorSpecification0).getInterpolator(); doReturn((ConfigurationInterpolator) null).when(interpolatorSpecification0).getParentInterpolator(); doReturn(map0).when(interpolatorSpecification0).getPrefixLookups(); doReturn(function0).when(interpolatorSpecification0).getStringConverter(); ConfigurationInterpolator configurationInterpolator0 = ConfigurationInterpolator.fromSpecification(interpolatorSpecification0); configurationInterpolator0.registerLookup("org.apache.commons.configuration2.interpol.ConfigurationInterpolator.defaultPrefixLookups", exprLookup0); boolean boolean0 = configurationInterpolator0.deregisterLookup("org.apache.commons.configuration2.interpol.ConfigurationInterpolator.defaultPrefixLookups"); }
+Code: public boolean deregisterLookup(final String prefix) { return prefixLookups.remove(prefix) != null; }
+[[0.06983039 0.16535313 0.09688127 0.08840808 0.08510813 0.10192531
+ 0.0779397  0.09688127 0.03924489 0.14674658 0.03168121]
+[0.04775694 0.22648712 0.08961585 0.08931073 0.05751956 0.13314626
+ 0.08304577 0.08961585 0.02561753 0.13356668 0.02431769]
+[0.05375351 0.1898406  0.08786694 0.094769   0.0705737  0.09544361
+ 0.0655117  0.08786694 0.03742938 0.18524304 0.03170153]
+[0.06752123 0.21002334 0.09288947 0.07594655 0.06914534 0.11186182
+ 0.06967212 0.09288947 0.04127186 0.14116071 0.02761802]
+[0.07259715 0.15996918 0.0934286  0.08249041 0.06592483 0.11246108
+ 0.10205541 0.0934286  0.03887217 0.14571261 0.03305992]
+[0.07145937 0.14422563 0.08870472 0.09703469 0.06014641 0.12590137
+ 0.08080132 0.08870472 0.05259253 0.14779341 0.04263579]
+[0.04865897 0.21796706 0.09163852 0.09572333 0.05231683 0.10610768
+ 0.06876136 0.09163852 0.03135175 0.16731441 0.02852162]
+[0.05375351 0.1898406  0.08786694 0.094769   0.0705737  0.09544361
+ 0.0655117  0.08786694 0.03742938 0.18524304 0.03170153]
+[0.04829016 0.19582148 0.08521935 0.11826439 0.0501784  0.13570017
+ 0.07005703 0.08521935 0.02249226 0.16605833 0.02269909]
+[0.06216987 0.19152182 0.10557149 0.09988567 0.07072774 0.09818535
+ 0.07711851 0.10557149 0.03805863 0.12111393 0.03007546]
+[0.04800776 0.1612652  0.08808541 0.08786127 0.05073119 0.13316514
+ 0.10767989 0.08808541 0.03616718 0.17076689 0.02818469]]

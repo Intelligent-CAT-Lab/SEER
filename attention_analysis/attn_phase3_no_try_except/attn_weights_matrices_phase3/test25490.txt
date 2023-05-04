@@ -1,0 +1,9 @@
+25490
+Test: public void test24() throws Throwable { byte[] byteArray0 = new byte[84]; ByteArrayInputStream byteArrayInputStream0 = new ByteArrayInputStream(byteArray0); BinaryStlFacetDefinitionReader binaryStlFacetDefinitionReader0 = new BinaryStlFacetDefinitionReader(byteArrayInputStream0); binaryStlFacetDefinitionReader0.close(); }
+Code: public void close() { GeometryIOUtils.closeUnchecked(in); }
+[[0.17397997 0.13584158 0.19050142 0.19280358 0.24131787 0.06555559]
+[0.1482566  0.11567016 0.17074926 0.19539459 0.30787385 0.06205557]
+[0.16339171 0.11033884 0.1996938  0.21444495 0.26747054 0.04466023]
+[0.15941982 0.13524121 0.1828717  0.21204768 0.22859022 0.08182932]
+[0.15798673 0.12468991 0.17180486 0.20101857 0.27262917 0.07187081]
+[0.13095473 0.11348495 0.1817249  0.25601608 0.25884452 0.05897478]]

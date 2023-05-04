@@ -1,0 +1,17 @@
+168248
+Test: public void test13() throws Throwable { HashMap<String, String> hashMap0 = new HashMap<String, String>(); MockFile mockFile0 = new MockFile("cHQX^f(; 5yc", ""); File file0 = MockFile.createTempFile("com.github.scribejava.core.model.Response", "", (File) mockFile0); MockFileInputStream mockFileInputStream0 = new MockFileInputStream(file0); Closeable[] closeableArray0 = new Closeable[3]; Response response0 = new Response(125, (String) null, hashMap0, mockFileInputStream0, closeableArray0); String string0 = response0.getBody(); }
+Code: public int getCode() { return code; }
+[[0.13336363 0.08744013 0.18499511 0.16231443 0.14485624 0.23360181
+ 0.05342863]
+[0.08746186 0.06667246 0.2337051  0.17700396 0.13864425 0.25614864
+ 0.0403637 ]
+[0.11405809 0.07574093 0.19403104 0.1605652  0.13790032 0.26168007
+ 0.05602442]
+[0.13493605 0.06748265 0.18956573 0.18826482 0.15904166 0.18975149
+ 0.07095764]
+[0.09793506 0.06327482 0.20805153 0.16523063 0.14668849 0.27220684
+ 0.04661262]
+[0.1076517  0.05512373 0.1788218  0.21945336 0.14269108 0.25966433
+ 0.03659401]
+[0.09046642 0.07068577 0.17774507 0.18304402 0.18328747 0.2529977
+ 0.04177353]]

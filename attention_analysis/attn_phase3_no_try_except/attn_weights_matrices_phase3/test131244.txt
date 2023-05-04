@@ -1,0 +1,23 @@
+131244
+Test: public void test53() throws Throwable { Complex complex0 = Complex.ONE; complex0.imag(); Complex complex1 = complex0.proj(); Complex complex2 = complex1.ZERO.cos(); Complex complex3 = complex2.I.cos(); Complex complex4 = complex2.ONE.cosh(); complex4.ONE.log(); Complex complex5 = complex1.ZERO.multiply(0.0); complex5.ZERO.acosh(); Complex complex6 = complex1.ZERO.cos(); Complex complex7 = complex2.ONE.acosh(); complex7.I.proj(); Complex complex8 = complex1.tan(); complex8.hashCode(); complex8.isFinite(); Complex complex9 = complex3.I.proj(); complex8.imag(); Complex complex10 = complex7.tanh(); complex10.ZERO.divideImaginary(0.0); Complex complex11 = complex5.acosh(); Complex complex12 = complex7.ZERO.pow(1.0); complex5.toString(); Complex.ofPolar(0.0, 1.0); complex11.equals(complex7); complex5.I.tanh(); complex5.conj(); complex3.abs(); complex2.ZERO.add(complex6); Complex.ofPolar(1.543080634815244, 0.0); complex12.cosh(); complex11.tanh(); complex9.getReal(); complex6.log(); }
+Code: public Complex log() { return log(Math::log, HALF, LN_2, Complex::ofCartesian); }
+[[0.08121735 0.1386949  0.11265851 0.0967571  0.08795799 0.11265851
+ 0.11265851 0.11265851 0.11265852 0.03208008]
+[0.06681761 0.16020638 0.11008762 0.10495573 0.08688043 0.11008762
+ 0.11008762 0.11008762 0.11008764 0.03070166]
+[0.06737869 0.14717644 0.11326582 0.10234969 0.08166112 0.11326582
+ 0.11326582 0.11326582 0.11326584 0.03510491]
+[0.07806563 0.14675203 0.10388254 0.12189674 0.0903156  0.10388254
+ 0.10388254 0.10388254 0.10388257 0.04355723]
+[0.05675389 0.13838749 0.11854845 0.09988368 0.08429776 0.11854845
+ 0.11854845 0.11854845 0.11854847 0.02793487]
+[0.06737869 0.14717644 0.11326582 0.10234969 0.08166112 0.11326582
+ 0.11326582 0.11326582 0.11326584 0.03510491]
+[0.06737869 0.14717644 0.11326582 0.10234969 0.08166112 0.11326582
+ 0.11326582 0.11326582 0.11326584 0.03510491]
+[0.06737869 0.14717644 0.11326582 0.10234969 0.08166112 0.11326582
+ 0.11326582 0.11326582 0.11326584 0.03510491]
+[0.0673787  0.14717644 0.11326583 0.1023497  0.08166112 0.11326583
+ 0.11326583 0.11326583 0.11326583 0.03510491]
+[0.05479801 0.14613084 0.103692   0.13382073 0.11765516 0.103692
+ 0.103692   0.103692   0.10369202 0.02913526]]

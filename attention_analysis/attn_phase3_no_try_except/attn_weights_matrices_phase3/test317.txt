@@ -1,0 +1,17 @@
+317
+Test: public void test403() throws Throwable { LinkedList<String> linkedList0 = new LinkedList<String>(); ImageFormats imageFormats0 = ImageFormats.UNKNOWN; ImageInfo.ColorType imageInfo_ColorType0 = ImageInfo.ColorType.YCCK; ImageInfo.CompressionAlgorithm imageInfo_CompressionAlgorithm0 = ImageInfo.CompressionAlgorithm.NONE; ImageInfo imageInfo0 = new ImageInfo("", 20, linkedList0, imageFormats0, "", (-345), "", (-345), 20, 20, 2751, 2751, 2751, true, true, true, imageInfo_ColorType0, imageInfo_CompressionAlgorithm0); int int0 = imageInfo0.getPhysicalWidthDpi(); }
+Code: public String getMimeType() { return mimeType; }
+[[0.12830108 0.1666011  0.17797421 0.15782064 0.1395634  0.17797421
+ 0.05176535]
+[0.12820424 0.14977588 0.1834282  0.1802996  0.12852609 0.18342823
+ 0.04633773]
+[0.10518022 0.1933394  0.1756843  0.16600226 0.12763993 0.1756843
+ 0.0564696 ]
+[0.11900765 0.17346033 0.15602481 0.19107194 0.13699669 0.15602481
+ 0.06741381]
+[0.08912516 0.20455416 0.18036592 0.1687272  0.13034222 0.18036592
+ 0.04651939]
+[0.10518022 0.1933394  0.1756843  0.16600226 0.12763993 0.1756843
+ 0.0564696 ]
+[0.08551911 0.15674725 0.16242397 0.20538047 0.18261436 0.16242395
+ 0.04489082]]

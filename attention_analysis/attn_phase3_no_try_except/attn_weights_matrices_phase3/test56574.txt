@@ -1,0 +1,27 @@
+56574
+Test: public void test15948() throws Throwable { DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); HashMap<String, DateTimeZone> hashMap0 = new HashMap<String, DateTimeZone>(); HashMap<String, DateTimeZone> hashMap1 = new HashMap<String, DateTimeZone>(hashMap0); DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendTimeZoneName((Map<String, DateTimeZone>) hashMap1); DateTimeFormatterBuilder dateTimeFormatterBuilder2 = dateTimeFormatterBuilder1.appendFractionOfHour(2747, 2747); DateTimeFormatterBuilder dateTimeFormatterBuilder3 = dateTimeFormatterBuilder2.appendFractionOfDay(2747, 2028); DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.millisOfDay(); DateTimeFormatterBuilder dateTimeFormatterBuilder4 = dateTimeFormatterBuilder1.appendShortText(dateTimeFieldType0); DateTimeFieldType dateTimeFieldType1 = DateTimeFieldType.millisOfSecond(); DateTimeFormatterBuilder dateTimeFormatterBuilder5 = dateTimeFormatterBuilder3.appendFraction(dateTimeFieldType1, 867, 48); int int0 = 83; int int1 = 11; IslamicChronology islamicChronology0 = IslamicChronology.getInstance(); DateTimeField dateTimeField0 = dateTimeFieldType1.getField(islamicChronology0); DateTimeFormatterBuilder dateTimeFormatterBuilder6 = dateTimeFormatterBuilder5.appendCenturyOfEra(83, 11); }
+Code: public DateTimeFormatterBuilder appendCenturyOfEra(int minDigits, int maxDigits) { return appendSignedDecimal(DateTimeFieldType.centuryOfEra(), minDigits, maxDigits); }
+[[0.07045451 0.0977381  0.0977381  0.0977381  0.0446879  0.0977381
+ 0.09334061 0.07746354 0.0977381  0.0977381  0.0977381  0.02988677]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.04239925 0.10441163 0.10441163 0.10441163 0.02879433 0.10441163
+ 0.10634575 0.06969559 0.10441165 0.10441165 0.10441165 0.02188366]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.07308374 0.09133645 0.09133645 0.09133645 0.03402039 0.09133645
+ 0.12738362 0.08281835 0.09133646 0.09133646 0.09133646 0.04333861]
+[0.05131359 0.10224862 0.10224862 0.10224862 0.0305373  0.10224862
+ 0.10041224 0.07448341 0.10224862 0.10224862 0.10224862 0.02751317]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.06001871 0.0989942  0.0989942  0.0989942  0.03825001 0.0989942
+ 0.10166976 0.07301812 0.09899421 0.09899421 0.09899421 0.03408394]
+[0.04941742 0.088955   0.088955   0.088955   0.03653049 0.088955
+ 0.14699095 0.11370802 0.08895499 0.08895499 0.08895499 0.03066816]]

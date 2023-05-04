@@ -1,0 +1,2 @@
+31078
+Test: public void test47() throws Throwable { Vector<String> vector0 = new Vector<String>(); vector0.add("O4Ea6T4_09zp[},&"); List<String> list0 = ListUtil.difference((List<? extends String>) vector0, (List<? extends String>) vector0); List<String> list1 = ListUtil.intersection((List<? extends String>) vector0, (List<? extends String>) list0); }

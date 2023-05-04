@@ -1,0 +1,17 @@
+151935
+Test: public void test6() throws Throwable { RowSetMetaDataImpl rowSetMetaDataImpl0 = new RowSetMetaDataImpl(); ResultSet resultSet0 = mock(ResultSet.class, new ViolatedAssumptionAnswer()); doReturn(rowSetMetaDataImpl0).when(resultSet0).getMetaData(); doReturn(false).when(resultSet0).next(); RowSetDynaClass rowSetDynaClass0 = new RowSetDynaClass(resultSet0, false); rowSetDynaClass0.properties = null; DynaProperty[] dynaPropertyArray0 = rowSetDynaClass0.getDynaProperties(); }
+Code: public DynaProperty[] getDynaProperties() { return (properties); }
+[[0.12731326 0.17660138 0.17660138 0.1539395  0.13815959 0.17660138
+ 0.05078347]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.1209935  0.16031049 0.16031049 0.19048879 0.13977559 0.16031049
+ 0.06781061]
+[0.09097192 0.18878669 0.18878669 0.16263722 0.13468806 0.18878669
+ 0.04534269]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.08439702 0.15890288 0.15890288 0.21071318 0.18253878 0.15890287
+ 0.04564238]]

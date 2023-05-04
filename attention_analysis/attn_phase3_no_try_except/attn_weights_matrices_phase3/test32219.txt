@@ -1,0 +1,2 @@
+32219
+Test: public void test91() throws Throwable { MockDate mockDate0 = new MockDate((-22), (-22), (-22), (-22), (-22), (-22)); Date date0 = DateUtil.endOfMinute(mockDate0); boolean boolean0 = DateUtil.isSameTime(mockDate0, date0); }

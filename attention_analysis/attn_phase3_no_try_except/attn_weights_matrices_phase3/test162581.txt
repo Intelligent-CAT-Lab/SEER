@@ -1,0 +1,17 @@
+162581
+Test: public void test1156() throws Throwable { LinkedBlockingDeque<String> linkedBlockingDeque0 = new LinkedBlockingDeque<String>(); LinkedBlockingDeque<Object> linkedBlockingDeque1 = new LinkedBlockingDeque<Object>(linkedBlockingDeque0); Duration duration0 = Duration.ofNanos(0L); Duration duration1 = Duration.ofMinutes(0L); Duration duration2 = duration1.withSeconds(78180000000000L); long long0 = duration1.toDays(); Duration duration3 = duration0.minus(duration1); boolean boolean0 = linkedBlockingDeque1.offerFirst((Object) duration0, duration0); LinkedBlockingDeque<Integer> linkedBlockingDeque2 = new LinkedBlockingDeque<Integer>(); Integer integer0 = new Integer((-2144)); boolean boolean1 = linkedBlockingDeque1.removeLastOccurrence(linkedBlockingDeque2); boolean boolean2 = linkedBlockingDeque2.add(integer0); Object object0 = linkedBlockingDeque1.pollFirst(duration0); boolean boolean3 = linkedBlockingDeque1.contains(integer0); Integer integer1 = linkedBlockingDeque2.pop(); }
+Code: public E pop() { return removeFirst(); }
+[[0.125782   0.18087392 0.1744813  0.156277   0.13701524 0.1744813
+ 0.05108921]
+[0.11464474 0.18298218 0.16976477 0.20050007 0.11909707 0.16976479
+ 0.04324634]
+[0.10522586 0.20309198 0.17771998 0.15524143 0.12740944 0.17771998
+ 0.05359128]
+[0.12076363 0.16291618 0.16265124 0.18419577 0.14028513 0.16265124
+ 0.06653675]
+[0.09190753 0.1807585  0.1927905  0.16008891 0.13679762 0.19279051
+ 0.04486647]
+[0.10522586 0.20309198 0.17771998 0.15524143 0.12740944 0.17771998
+ 0.05359128]
+[0.0885641  0.13144822 0.16894458 0.2084349  0.18788558 0.16894457
+ 0.04577807]]

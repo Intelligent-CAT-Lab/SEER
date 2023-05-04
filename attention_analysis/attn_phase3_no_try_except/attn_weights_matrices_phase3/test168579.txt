@@ -1,0 +1,8 @@
+168579
+Test: public void test0() throws Throwable { GenerousBeanProcessor generousBeanProcessor0 = new GenerousBeanProcessor(); ResultSetMetaData resultSetMetaData0 = mock(ResultSetMetaData.class, new ViolatedAssumptionAnswer()); doReturn(593).when(resultSetMetaData0).getColumnCount(); doReturn("lf'*|7=a}il-&", "lf'*|7=a}il-&", "_", "_", "Gh`").when(resultSetMetaData0).getColumnLabel(anyInt()); ResultSet resultSet0 = mock(ResultSet.class, new ViolatedAssumptionAnswer()); doReturn(resultSetMetaData0).when(resultSet0).getMetaData(); Class<Object> class0 = Object.class; Object object0 = generousBeanProcessor0.toBean(resultSet0, (Class<?>) class0); }
+Code: public GenerousBeanProcessor() { super(); }
+[[0.20406577 0.28304708 0.22494683 0.21131042 0.07662988]
+[0.1675357  0.28637528 0.22827277 0.23755404 0.08026222]
+[0.18350667 0.2612983  0.24818875 0.21202128 0.09498501]
+[0.19557407 0.3027959  0.2330634  0.19744998 0.07111667]
+[0.1477819  0.28988656 0.30172595 0.19191307 0.06869251]]

@@ -1,0 +1,23 @@
+144863
+Test: public void test16() throws Throwable { FIFOMemoryCache<Integer, FIFOMemoryCache<Integer, String>> fIFOMemoryCache0 = new FIFOMemoryCache<Integer, FIFOMemoryCache<Integer, String>>(); MRUMemoryCache<MemoryElementDescriptor<Object, Object>, GroupAttrName<Object>> mRUMemoryCache0 = new MRUMemoryCache<MemoryElementDescriptor<Object, Object>, GroupAttrName<Object>>(); Integer integer0 = new Integer(827); ElementAttributes elementAttributes0 = new ElementAttributes(); CacheElement<Object, Object> cacheElement0 = new CacheElement<Object, Object>("", integer0, "", elementAttributes0); MemoryElementDescriptor<Object, Object> memoryElementDescriptor0 = new MemoryElementDescriptor<Object, Object>(cacheElement0); byte[] byteArray0 = new byte[1]; DoubleLinkedListNode<ICacheElement<Object, Object>> doubleLinkedListNode0 = new DoubleLinkedListNode<ICacheElement<Object, Object>>(cacheElement0); DoubleLinkedList<MemoryElementDescriptor<MemoryElementDescriptor<Object, Object>, GroupAttrName<Object>>> doubleLinkedList0 = new DoubleLinkedList<MemoryElementDescriptor<MemoryElementDescriptor<Object, Object>, GroupAttrName<Object>>>(); ((AbstractDoubleLinkedListMemoryCache)mRUMemoryCache0).list = doubleLinkedList0; memoryElementDescriptor0.prev = doubleLinkedListNode0; mRUMemoryCache0.createMap(); byteArray0[0] = (byte) (-41); memoryElementDescriptor0.prev = doubleLinkedListNode0; LRUMemoryCache<Object, MemoryElementDescriptor<Object, String>> lRUMemoryCache0 = new LRUMemoryCache<Object, MemoryElementDescriptor<Object, String>>(); CacheElementSerialized<MemoryElementDescriptor<Object, Object>, GroupAttrName<Object>> cacheElementSerialized0 = new CacheElementSerialized<MemoryElementDescriptor<Object, Object>, GroupAttrName<Object>>("AttrName.class={0}", memoryElementDescriptor0, byteArray0, elementAttributes0); ((AbstractDoubleLinkedListMemoryCache)mRUMemoryCache0).addLast(cacheElementSerialized0); MRUMemoryCache<MemoryElementDescriptor<Integer, Integer>, GroupAttrName<String>> mRUMemoryCache1 = new MRUMemoryCache<MemoryElementDescriptor<Integer, Integer>, GroupAttrName<String>>(); }
+Code: public ConcurrentMap<K, MemoryElementDescriptor<K, V>> createMap() { return new ConcurrentHashMap<>(); }
+[[0.09400697 0.13040781 0.13040781 0.07374262 0.13040781 0.12090746
+ 0.10290997 0.04771957 0.13040783 0.03908211]
+[0.07826188 0.13026938 0.13026938 0.0772485  0.13026938 0.12602133
+ 0.09503967 0.05966271 0.13026941 0.04268837]
+[0.07826188 0.13026938 0.13026938 0.0772485  0.13026938 0.12602133
+ 0.09503967 0.05966271 0.13026941 0.04268837]
+[0.05847622 0.1398516  0.1398516  0.07577109 0.1398516  0.13955571
+ 0.10382058 0.03145368 0.13985163 0.03151628]
+[0.07826188 0.13026938 0.13026938 0.0772485  0.13026938 0.12602133
+ 0.09503967 0.05966271 0.13026941 0.04268837]
+[0.09094082 0.1163466  0.1163466  0.08476439 0.1163466  0.15246953
+ 0.10384309 0.0498337  0.11634663 0.05276205]
+[0.06820728 0.13880098 0.13880098 0.07281743 0.13880098 0.12755592
+ 0.10002014 0.04094478 0.13880101 0.03525046]
+[0.07980427 0.12546882 0.12546882 0.07598142 0.12546882 0.13718937
+ 0.11207131 0.05272071 0.12546885 0.04035761]
+[0.07826189 0.13026938 0.13026938 0.0772485  0.13026938 0.12602131
+ 0.09503967 0.0596627  0.13026938 0.04268837]
+[0.06451674 0.11940725 0.11940725 0.06878121 0.11940725 0.17300436
+ 0.14298797 0.03619807 0.11940727 0.03688262]]

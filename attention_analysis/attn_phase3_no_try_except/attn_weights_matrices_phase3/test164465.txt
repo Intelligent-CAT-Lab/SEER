@@ -1,0 +1,17 @@
+164465
+Test: public void test252() throws Throwable { MockRandom mockRandom0 = new MockRandom(); JDKRandomWrapper jDKRandomWrapper0 = new JDKRandomWrapper(mockRandom0); int int0 = jDKRandomWrapper0.nextInt(); float float0 = jDKRandomWrapper0.nextFloat(); double double0 = mockRandom0.nextGaussian(); UnitSphereSampler unitSphereSampler0 = new UnitSphereSampler(2705, jDKRandomWrapper0); boolean boolean0 = jDKRandomWrapper0.nextBoolean(); double[] doubleArray0 = unitSphereSampler0.nextVector(); UnitSphereSampler unitSphereSampler1 = unitSphereSampler0.withUniformRandomProvider(jDKRandomWrapper0); double[] doubleArray1 = unitSphereSampler1.sample(); }
+Code: public double[] sample() { return delegate.sample(); }
+[[0.10912238 0.28762332 0.15137279 0.13687468 0.1190279  0.15137279
+ 0.04460615]
+[0.09312123 0.2668894  0.15856968 0.14997974 0.12915725 0.15856966
+ 0.04371302]
+[0.09726807 0.26094547 0.1638117  0.14608896 0.11784231 0.16381171
+ 0.05023183]
+[0.10976993 0.23974887 0.14949055 0.1637364  0.12799665 0.14949055
+ 0.059767  ]
+[0.08137389 0.27446812 0.16948515 0.1442163  0.12069429 0.16948517
+ 0.04027703]
+[0.09726807 0.26094547 0.1638117  0.14608896 0.11784231 0.16381171
+ 0.05023183]
+[0.0767285  0.25273103 0.14718    0.1758847  0.16141954 0.14717999
+ 0.03887627]]

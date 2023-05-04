@@ -1,0 +1,17 @@
+160759
+Test: public void test19() throws Throwable { KeyedPooledObjectFactory<Object, String> keyedPooledObjectFactory0 = (KeyedPooledObjectFactory<Object, String>) mock(KeyedPooledObjectFactory.class, new ViolatedAssumptionAnswer()); GenericKeyedObjectPool<Object, String> genericKeyedObjectPool0 = new GenericKeyedObjectPool<Object, String>(keyedPooledObjectFactory0); genericKeyedObjectPool0.close(); KeyedPooledObjectFactory<DefaultPooledObjectInfo, String> keyedPooledObjectFactory1 = (KeyedPooledObjectFactory<DefaultPooledObjectInfo, String>) mock(KeyedPooledObjectFactory.class, new ViolatedAssumptionAnswer()); GenericKeyedObjectPool<DefaultPooledObjectInfo, String> genericKeyedObjectPool1 = new GenericKeyedObjectPool<DefaultPooledObjectInfo, String>(keyedPooledObjectFactory1); genericKeyedObjectPool1.setMaxTotalPerKey(100); long long0 = genericKeyedObjectPool1.getReturnedCount(); }
+Code: long getReturnedCount(); /** * See {@link GenericKeyedObjectPool#getTestOnBorrow()}
+[[0.13640465 0.12781873 0.12781873 0.05659391 0.2957265  0.12781873
+ 0.12781873]
+[0.12082127 0.12167798 0.12167798 0.07936922 0.31309757 0.12167799
+ 0.12167799]
+[0.12082127 0.12167798 0.12167798 0.07936922 0.31309757 0.12167799
+ 0.12167799]
+[0.13888034 0.11938646 0.11938646 0.12537442 0.25819942 0.11938646
+ 0.11938646]
+[0.12385447 0.11702807 0.11702807 0.07462848 0.33340472 0.11702807
+ 0.11702807]
+[0.12082127 0.12167798 0.12167798 0.07936922 0.31309757 0.12167799
+ 0.12167799]
+[0.12082127 0.12167798 0.12167798 0.07936922 0.31309757 0.12167799
+ 0.12167799]]

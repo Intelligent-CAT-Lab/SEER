@@ -1,0 +1,17 @@
+160753
+Test: public void test13() throws Throwable { KeyedPooledObjectFactory<Integer, DefaultPooledObjectInfo> keyedPooledObjectFactory0 = (KeyedPooledObjectFactory<Integer, DefaultPooledObjectInfo>) mock(KeyedPooledObjectFactory.class, new ViolatedAssumptionAnswer()); GenericKeyedObjectPool<Integer, DefaultPooledObjectInfo> genericKeyedObjectPool0 = new GenericKeyedObjectPool<Integer, DefaultPooledObjectInfo>(keyedPooledObjectFactory0); genericKeyedObjectPool0.setMaxTotalPerKey(5); genericKeyedObjectPool0.getDestroyedByBorrowValidationCount(); KeyedPooledObjectFactory<LinkedList<Object>, String> keyedPooledObjectFactory1 = (KeyedPooledObjectFactory<LinkedList<Object>, String>) mock(KeyedPooledObjectFactory.class, new ViolatedAssumptionAnswer()); GenericKeyedObjectPoolConfig<String> genericKeyedObjectPoolConfig0 = new GenericKeyedObjectPoolConfig<String>(); GenericKeyedObjectPoolConfig<String> genericKeyedObjectPoolConfig1 = genericKeyedObjectPoolConfig0.clone(); GenericKeyedObjectPool<LinkedList<Object>, String> genericKeyedObjectPool1 = new GenericKeyedObjectPool<LinkedList<Object>, String>(keyedPooledObjectFactory1, genericKeyedObjectPoolConfig1, (AbandonedConfig) null); genericKeyedObjectPool1.getMaxTotalPerKey(); KeyedPooledObjectFactory<String, String> keyedPooledObjectFactory2 = (KeyedPooledObjectFactory<String, String>) mock(KeyedPooledObjectFactory.class, new ViolatedAssumptionAnswer()); GenericKeyedObjectPool<String, String> genericKeyedObjectPool2 = new GenericKeyedObjectPool<String, String>(keyedPooledObjectFactory2, genericKeyedObjectPoolConfig1); genericKeyedObjectPoolConfig1.setMaxIdlePerKey(3); DestroyMode destroyMode0 = DestroyMode.ABANDONED;  genericKeyedObjectPool2.invalidateObject(", evictionKey=", "RN|UA2~.dRAtb1wz;i", destroyMode0);   }
+Code: int getMaxTotalPerKey(); /** * See {@link GenericKeyedObjectPool#getMaxWaitDuration()}
+[[0.03880768 0.1432655  0.1432655  0.08926699 0.29886335 0.14326552
+ 0.14326552]
+[0.0508025  0.1319094  0.1319094  0.08341256 0.33814728 0.13190942
+ 0.13190942]
+[0.0508025  0.1319094  0.1319094  0.08341256 0.33814728 0.13190942
+ 0.13190942]
+[0.0498375  0.13268626 0.13268626 0.13440354 0.2850139  0.13268626
+ 0.13268626]
+[0.03713848 0.12854168 0.12854168 0.08363678 0.365058   0.12854168
+ 0.12854168]
+[0.0508025  0.1319094  0.1319094  0.08341256 0.33814728 0.13190942
+ 0.13190942]
+[0.0508025  0.1319094  0.1319094  0.08341256 0.33814728 0.13190942
+ 0.13190942]]

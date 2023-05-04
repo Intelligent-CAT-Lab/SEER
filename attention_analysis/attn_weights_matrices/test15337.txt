@@ -1,37 +1,54 @@
 15337
 Test: public void test222() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test222"); org.apache.commons.cli.PosixParser posixParser0 = new org.apache.commons.cli.PosixParser(); org.apache.commons.cli.PosixParser posixParser1 = new org.apache.commons.cli.PosixParser(); org.apache.commons.cli.Options options2 = new org.apache.commons.cli.Options(); java.lang.String[] strArray7 = new java.lang.String[] { "hi!", "[ option: +ARG :: ]", "hi!", "hi!" }; java.util.Properties properties8 = null; org.apache.commons.cli.CommandLine commandLine9 = posixParser1.parse(options2, strArray7, properties8); java.lang.String[] strArray15 = new java.lang.String[] { "", "[ option: +ARG :: ]", "[ option: +ARG :: ]", "hi!", "" }; org.apache.commons.cli.CommandLine commandLine16 = posixParser0.parse(options2, strArray15); org.apache.commons.cli.PosixParser posixParser17 = new org.apache.commons.cli.PosixParser(); org.apache.commons.cli.PosixParser posixParser18 = new org.apache.commons.cli.PosixParser(); org.apache.commons.cli.Options options19 = new org.apache.commons.cli.Options(); java.lang.String[] strArray24 = new java.lang.String[] { "hi!", "[ option: +ARG :: ]", "hi!", "hi!" }; java.util.Properties properties25 = null; org.apache.commons.cli.CommandLine commandLine26 = posixParser18.parse(options19, strArray24, properties25); java.lang.String[] strArray28 = new java.lang.String[] { "" }; java.util.Properties properties29 = null; org.apache.commons.cli.CommandLine commandLine31 = posixParser17.parse(options19, strArray28, properties29, true); org.apache.commons.cli.PosixParser posixParser32 = new org.apache.commons.cli.PosixParser(); org.apache.commons.cli.PosixParser posixParser33 = new org.apache.commons.cli.PosixParser(); org.apache.commons.cli.Options options34 = new org.apache.commons.cli.Options(); java.lang.String[] strArray39 = new java.lang.String[] { "hi!", "[ option: +ARG :: ]", "hi!", "hi!" }; java.util.Properties properties40 = null; org.apache.commons.cli.CommandLine commandLine41 = posixParser33.parse(options34, strArray39, properties40); java.lang.String[] strArray47 = new java.lang.String[] { "", "[ option: +ARG :: ]", "[ option: +ARG :: ]", "hi!", "" }; org.apache.commons.cli.CommandLine commandLine48 = posixParser32.parse(options34, strArray47); org.apache.commons.cli.CommandLine commandLine49 = posixParser0.parse(options19, strArray47); posixParser0.burstToken("hi!", true); org.apache.commons.cli.PosixParser posixParser53 = new org.apache.commons.cli.PosixParser(); org.apache.commons.cli.PosixParser posixParser54 = new org.apache.commons.cli.PosixParser(); org.apache.commons.cli.Options options55 = new org.apache.commons.cli.Options(); java.lang.String[] strArray60 = new java.lang.String[] { "hi!", "[ option: +ARG :: ]", "hi!", "hi!" }; java.util.Properties properties61 = null; org.apache.commons.cli.CommandLine commandLine62 = posixParser54.parse(options55, strArray60, properties61); java.lang.String[] strArray64 = new java.lang.String[] { "" }; java.util.Properties properties65 = null; org.apache.commons.cli.CommandLine commandLine67 = posixParser53.parse(options55, strArray64, properties65, true); org.apache.commons.cli.Option option69 = options55.getOption("[ option: +ARG :: ]"); org.apache.commons.cli.Option option71 = org.apache.commons.cli.OptionBuilder.create('a'); option71.setDescription(""); org.apache.commons.cli.OptionGroup optionGroup74 = options55.getOptionGroup(option71); org.apache.commons.cli.PosixParser posixParser75 = new org.apache.commons.cli.PosixParser(); org.apache.commons.cli.Options options76 = new org.apache.commons.cli.Options(); java.lang.String[] strArray81 = new java.lang.String[] { "hi!", "[ option: +ARG :: ]", "hi!", "hi!" }; java.util.Properties properties82 = null; org.apache.commons.cli.CommandLine commandLine83 = posixParser75.parse(options76, strArray81, properties82); java.lang.String[] strArray85 = posixParser0.flatten(options55, strArray81, true); java.util.Collection collection86 = options55.getOptions(); java.lang.String str87 = options55.toString(); } ] [ long {} ]" + "'", str87, "[ Options: [ short {} ] [ long {} ]"); }
 Code: public Option[] getOptions() { Collection processed = options; Option[] optionsArray = new Option[processed.size()]; return (Option[]) processed.toArray(optionsArray); }
-tensor([[0.0434, 0.0405, 0.0869, 0.0619, 0.0783, 0.0333, 0.0276, 0.0281, 0.0405,
-         0.0395, 0.0276, 0.0216, 0.1857, 0.0483, 0.1186, 0.0989, 0.0194],
-        [0.0370, 0.0366, 0.1028, 0.0901, 0.0899, 0.0272, 0.0299, 0.0199, 0.0366,
-         0.0370, 0.0299, 0.0183, 0.1354, 0.0585, 0.1490, 0.0866, 0.0150],
-        [0.0466, 0.0271, 0.0774, 0.0756, 0.1320, 0.0314, 0.0369, 0.0298, 0.0271,
-         0.0395, 0.0369, 0.0222, 0.1521, 0.0477, 0.1409, 0.0532, 0.0235],
-        [0.0504, 0.0400, 0.0705, 0.0785, 0.1077, 0.0292, 0.0418, 0.0340, 0.0400,
-         0.0474, 0.0418, 0.0285, 0.1148, 0.0583, 0.1097, 0.0793, 0.0281],
-        [0.0407, 0.0314, 0.0733, 0.0821, 0.1014, 0.0309, 0.0323, 0.0229, 0.0314,
-         0.0424, 0.0323, 0.0237, 0.1532, 0.0488, 0.1320, 0.0983, 0.0230],
-        [0.0348, 0.0480, 0.1098, 0.0574, 0.1015, 0.0234, 0.0294, 0.0198, 0.0480,
-         0.0280, 0.0294, 0.0159, 0.2279, 0.0448, 0.1006, 0.0668, 0.0146],
-        [0.0553, 0.0477, 0.0798, 0.0592, 0.1074, 0.0270, 0.0449, 0.0372, 0.0477,
-         0.0471, 0.0449, 0.0258, 0.1002, 0.0601, 0.1050, 0.0844, 0.0263],
-        [0.0331, 0.0409, 0.0932, 0.0639, 0.0837, 0.0291, 0.0279, 0.0232, 0.0409,
-         0.0361, 0.0279, 0.0177, 0.1861, 0.0494, 0.1511, 0.0819, 0.0141],
-        [0.0370, 0.0366, 0.1028, 0.0901, 0.0899, 0.0272, 0.0299, 0.0199, 0.0366,
-         0.0370, 0.0299, 0.0183, 0.1354, 0.0585, 0.1490, 0.0866, 0.0150],
-        [0.0384, 0.0404, 0.0823, 0.0711, 0.0845, 0.0307, 0.0311, 0.0215, 0.0404,
-         0.0388, 0.0311, 0.0194, 0.1642, 0.0510, 0.1528, 0.0874, 0.0148],
-        [0.0553, 0.0477, 0.0798, 0.0592, 0.1074, 0.0270, 0.0449, 0.0372, 0.0477,
-         0.0471, 0.0449, 0.0258, 0.1002, 0.0601, 0.1050, 0.0844, 0.0263],
-        [0.0377, 0.0320, 0.0762, 0.0762, 0.1017, 0.0282, 0.0295, 0.0267, 0.0320,
-         0.0305, 0.0295, 0.0236, 0.2108, 0.0532, 0.1156, 0.0749, 0.0216],
-        [0.0356, 0.0269, 0.0991, 0.0642, 0.1126, 0.0335, 0.0366, 0.0323, 0.0269,
-         0.0352, 0.0366, 0.0270, 0.1836, 0.0561, 0.1098, 0.0645, 0.0194],
-        [0.0291, 0.0314, 0.0867, 0.0615, 0.1239, 0.0226, 0.0288, 0.0220, 0.0314,
-         0.0303, 0.0288, 0.0171, 0.2178, 0.0415, 0.1323, 0.0779, 0.0166],
-        [0.0322, 0.0479, 0.0878, 0.0638, 0.0951, 0.0340, 0.0275, 0.0211, 0.0479,
-         0.0337, 0.0275, 0.0166, 0.1925, 0.0530, 0.1131, 0.0950, 0.0113],
-        [0.0394, 0.0488, 0.0918, 0.0751, 0.0918, 0.0297, 0.0274, 0.0199, 0.0488,
-         0.0369, 0.0274, 0.0202, 0.1574, 0.0447, 0.1512, 0.0740, 0.0157],
-        [0.0316, 0.0329, 0.0905, 0.0789, 0.0906, 0.0270, 0.0283, 0.0252, 0.0329,
-         0.0371, 0.0283, 0.0177, 0.1514, 0.0683, 0.1494, 0.0931, 0.0171]])
+[[0.04339268 0.0404926  0.08692542 0.06188118 0.0783478  0.03328438
+ 0.02756036 0.02811651 0.0404926  0.03949264 0.02756036 0.02160761
+ 0.18572462 0.04825208 0.11855116 0.09894976 0.01936832]
+[0.03699403 0.0366143  0.10284757 0.09014296 0.08991777 0.02720662
+ 0.02989668 0.01994007 0.0366143  0.0370216  0.02989668 0.01833626
+ 0.13542145 0.05851115 0.14901894 0.08659528 0.01502428]
+[0.04661173 0.02710928 0.0774187  0.07561662 0.1320226  0.03144214
+ 0.03686379 0.02981307 0.02710928 0.03951449 0.03686379 0.02219632
+ 0.15212291 0.04772796 0.14085685 0.05324524 0.02346525]
+[0.05035225 0.0400454  0.07050152 0.07846978 0.10765915 0.02921379
+ 0.041806   0.03400343 0.0400454  0.04744665 0.041806   0.02845408
+ 0.1148354  0.05827351 0.10971679 0.07930612 0.02806474]
+[0.04069737 0.03138321 0.07326805 0.08205634 0.10141186 0.0308927
+ 0.03232348 0.02287089 0.03138321 0.04242582 0.03232348 0.02374554
+ 0.15320155 0.04880688 0.13195036 0.09828937 0.0229699 ]
+[0.03479989 0.04801869 0.10979505 0.05744008 0.10146227 0.02344614
+ 0.02935367 0.01980458 0.04801869 0.02795796 0.02935367 0.0158505
+ 0.22785401 0.0448047  0.10062023 0.06683222 0.01458764]
+[0.05529458 0.04769311 0.07982425 0.05915254 0.1074319  0.02699414
+ 0.04489579 0.03716281 0.04769311 0.04708739 0.04489579 0.02583606
+ 0.10024767 0.06006692 0.10499366 0.08442539 0.02630498]
+[0.03312153 0.04088395 0.09315126 0.06392896 0.08371215 0.02906838
+ 0.02786081 0.02324808 0.04088395 0.03610448 0.02786081 0.01765879
+ 0.18607743 0.04938052 0.15110528 0.08185425 0.01409936]
+[0.03699403 0.0366143  0.10284757 0.09014296 0.08991777 0.02720662
+ 0.02989668 0.01994007 0.0366143  0.0370216  0.02989668 0.01833626
+ 0.13542145 0.05851115 0.14901894 0.08659528 0.01502428]
+[0.0383891  0.04043391 0.08234565 0.07113947 0.08447599 0.03074154
+ 0.03107224 0.02149971 0.04043391 0.03875291 0.03107224 0.01937276
+ 0.16423647 0.05098072 0.15276699 0.08744568 0.01484076]
+[0.05529458 0.04769311 0.07982425 0.05915254 0.1074319  0.02699414
+ 0.04489579 0.03716281 0.04769311 0.04708739 0.04489579 0.02583606
+ 0.10024767 0.06006692 0.10499366 0.08442539 0.02630498]
+[0.03769242 0.03201867 0.07619956 0.07615754 0.10172065 0.0282221
+ 0.0294905  0.02673382 0.03201867 0.03051298 0.0294905  0.02359482
+ 0.21082513 0.05324978 0.1155809  0.07493861 0.0215534 ]
+[0.03561892 0.02691527 0.09912775 0.06415517 0.11256832 0.03353877
+ 0.03659935 0.03233581 0.02691527 0.03518977 0.03659935 0.02703798
+ 0.18361634 0.0561212  0.10975169 0.06453633 0.01937268]
+[0.02914115 0.0314316  0.08667889 0.06150877 0.12392323 0.02264763
+ 0.02876664 0.02201076 0.0314316  0.03031408 0.02876664 0.01712739
+ 0.21781594 0.04152984 0.13234165 0.07793796 0.01662619]
+[0.03224921 0.04792847 0.08779436 0.06380784 0.09507647 0.03399666
+ 0.02746367 0.02114334 0.04792847 0.03366639 0.02746367 0.01658086
+ 0.19253665 0.05295758 0.11310072 0.09504721 0.01125849]
+[0.03939274 0.04879289 0.09179805 0.07512167 0.09177602 0.02965247
+ 0.02736084 0.01992218 0.04879289 0.03688966 0.02736084 0.02018873
+ 0.15736024 0.04469892 0.15117246 0.07401886 0.01570054]
+[0.0315598  0.03285912 0.09049614 0.07888997 0.090571   0.02703856
+ 0.0282973  0.02516512 0.03285912 0.03707394 0.0282973  0.01767642
+ 0.15135588 0.06828681 0.14943984 0.09305009 0.01708357]]

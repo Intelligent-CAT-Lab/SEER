@@ -1,0 +1,23 @@
+44561
+Test: public void test3723() throws Throwable { DateTimeFormatterBuilder.CharacterLiteral dateTimeFormatterBuilder_CharacterLiteral0 = new DateTimeFormatterBuilder.CharacterLiteral('o'); CopticChronology copticChronology0 = CopticChronology.getInstanceUTC(); Locale locale0 = Locale.JAPAN; DateTimeParserBucket dateTimeParserBucket0 = new DateTimeParserBucket((-2425L), copticChronology0, locale0, (Integer) 1, 1); byte[] byteArray0 = new byte[6]; byteArray0[0] = (byte)6; byteArray0[1] = (byte)9; byteArray0[2] = (byte)1; byteArray0[3] = (byte)29; byteArray0[4] = (byte)50; byteArray0[5] = (byte) (-71); boolean boolean0 = FileSystemHandling.appendDataToFile((EvoSuiteFile) null, byteArray0); StringBuilder stringBuilder0 = new StringBuilder("No formatter supplied"); int int0 = dateTimeFormatterBuilder_CharacterLiteral0.parseInto(dateTimeParserBucket0, stringBuilder0, 1); DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendWeekOfWeekyear(37); DateTimePrinter dateTimePrinter0 = InternalPrinterDateTimePrinter.of(dateTimeFormatterBuilder_CharacterLiteral0); DateTimeParser dateTimeParser0 = InternalParserDateTimeParser.of(dateTimeFormatterBuilder_CharacterLiteral0); DateTimeFormatterBuilder dateTimeFormatterBuilder2 = dateTimeFormatterBuilder1.append(dateTimePrinter0, dateTimeParser0); DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.weekyear(); DateTimeFormatterBuilder dateTimeFormatterBuilder3 = dateTimeFormatterBuilder2.appendText(dateTimeFieldType0); DateTimeFormatterBuilder dateTimeFormatterBuilder4 = dateTimeFormatterBuilder3.append(dateTimeParser0); DateTimeFormatterBuilder dateTimeFormatterBuilder5 = dateTimeFormatterBuilder4.appendTimeZoneShortName(); HashMap<String, DateTimeZone> hashMap0 = new HashMap<String, DateTimeZone>(); DateTimeFormatterBuilder dateTimeFormatterBuilder6 = dateTimeFormatterBuilder5.appendTimeZoneName((Map<String, DateTimeZone>) hashMap0); }
+Code: public DateTimeFormatterBuilder appendTimeZoneName() { return append0(new TimeZoneName(TimeZoneName.LONG_NAME, null), null); }
+[[0.08012262 0.11115308 0.11115308 0.10916809 0.0884663  0.11115308
+ 0.11115308 0.09912787 0.14385425 0.03464847]
+[0.07042983 0.11656789 0.11656789 0.11708504 0.08562556 0.11656789
+ 0.11656789 0.09413633 0.12705052 0.03940118]
+[0.07042983 0.11656789 0.11656789 0.11708504 0.08562556 0.11656789
+ 0.11656789 0.09413633 0.12705052 0.03940118]
+[0.08487944 0.10984352 0.10984352 0.13950083 0.09728849 0.10984352
+ 0.10984352 0.10558198 0.08467154 0.04870359]
+[0.05754321 0.11578456 0.11578456 0.11030475 0.08392026 0.11578456
+ 0.11578456 0.11597976 0.13877359 0.03034024]
+[0.07042983 0.11656789 0.11656789 0.11708504 0.08562556 0.11656789
+ 0.11656789 0.09413633 0.12705052 0.03940118]
+[0.07042983 0.11656789 0.11656789 0.11708504 0.08562556 0.11656789
+ 0.11656789 0.09413633 0.12705052 0.03940118]
+[0.07080813 0.12333415 0.12333415 0.12378629 0.0818281  0.12333415
+ 0.12333415 0.09085685 0.10461998 0.03476402]
+[0.06017945 0.1197181  0.1197181  0.12990889 0.10868198 0.1197181
+ 0.1197181  0.09163325 0.10846609 0.02225792]
+[0.05653403 0.10466577 0.10466577 0.15140845 0.12524104 0.10466577
+ 0.10466577 0.12644745 0.08941863 0.03228738]]

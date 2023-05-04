@@ -1,0 +1,17 @@
+116323
+Test: public void test25764() throws Throwable { BigInteger bigInteger0 = BigInteger.TEN; BigFraction bigFraction0 = BigFraction.of(bigInteger0); int int0 = bigFraction0.intValue(); BigFraction bigFraction1 = bigFraction0.multiply(0L); BigFraction bigFraction2 = bigFraction0.reciprocal(); long long0 = bigFraction1.getDenominatorAsLong(); BigFraction bigFraction3 = bigFraction1.ONE.divide(bigInteger0); BigFraction bigFraction4 = bigFraction1.ONE.subtract(bigInteger0); int int1 = bigFraction0.intValue(); BigFraction bigFraction5 = bigFraction2.divide(10); BigInteger bigInteger1 = bigFraction3.getNumerator(); }
+Code: public BigInteger getNumerator() { return numerator; }
+[[0.12181346 0.20477727 0.16897765 0.15279016 0.13287061 0.16897765
+ 0.0497932 ]
+[0.10719919 0.13110533 0.18543826 0.1994181  0.16679916 0.18543826
+ 0.02460171]
+[0.10693721 0.1812264  0.1788832  0.16731483 0.12973358 0.17888321
+ 0.05702156]
+[0.1234308  0.14443326 0.16625583 0.1882363  0.14338705 0.16625583
+ 0.06800094]
+[0.09041837 0.19347088 0.18598759 0.16502564 0.13328883 0.18598759
+ 0.04582112]
+[0.10693721 0.1812264  0.1788832  0.16731483 0.12973358 0.17888321
+ 0.05702156]
+[0.08863683 0.13893181 0.17036223 0.20121987 0.18590477 0.17036222
+ 0.0445822 ]]

@@ -1,0 +1,21 @@
+162496
+Test: public void test1054() throws Throwable { LinkedBlockingDeque<Integer> linkedBlockingDeque0 = new LinkedBlockingDeque<Integer>(6, false); LinkedBlockingDeque<ChronoLocalDate> linkedBlockingDeque1 = new LinkedBlockingDeque<ChronoLocalDate>(); boolean boolean0 = linkedBlockingDeque1.removeAll(linkedBlockingDeque0); boolean boolean1 = linkedBlockingDeque0.containsAll(linkedBlockingDeque1); Integer integer0 = new Integer(6); boolean boolean2 = linkedBlockingDeque0.add(integer0); LinkedBlockingDeque<Object> linkedBlockingDeque2 = new LinkedBlockingDeque<Object>(3710, true); linkedBlockingDeque2.push(""); LinkedBlockingDeque<Object> linkedBlockingDeque3 = new LinkedBlockingDeque<Object>(linkedBlockingDeque2); Object object0 = linkedBlockingDeque3.element(); Object object1 = linkedBlockingDeque2.take(); Locale locale0 = new Locale("", "", "defaultValue"); }
+Code: public E take() throws InterruptedException { return takeFirst(); }
+[[0.08450632 0.11913636 0.11723647 0.19693184 0.11723647 0.1171706
+ 0.09355718 0.11723647 0.03698825]
+[0.07681777 0.12245089 0.11316563 0.205595   0.11316563 0.14414486
+ 0.08131739 0.11316563 0.03017726]
+[0.06899481 0.13400173 0.1155943  0.22307071 0.1155943  0.10695126
+ 0.08367646 0.1155943  0.03652215]
+[0.05820428 0.09196787 0.10081194 0.28224662 0.10081194 0.14201954
+ 0.09546329 0.10081194 0.02766256]
+[0.06899481 0.13400173 0.1155943  0.22307071 0.1155943  0.10695126
+ 0.08367646 0.1155943  0.03652215]
+[0.08803663 0.11760708 0.11530833 0.15560411 0.11530833 0.14159769
+ 0.10131131 0.11530833 0.04991824]
+[0.06016541 0.11575676 0.12044767 0.22661658 0.12044767 0.11658613
+ 0.08752908 0.12044767 0.03200304]
+[0.06899481 0.13400173 0.1155943  0.22307071 0.1155943  0.10695126
+ 0.08367646 0.1155943  0.03652215]
+[0.05641918 0.08457275 0.10441478 0.23713177 0.10441478 0.15132251
+ 0.1250507  0.10441478 0.0322588 ]]

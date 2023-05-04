@@ -1,0 +1,17 @@
+167045
+Test: public void test0() throws Throwable { FileHandlerReloadingDetector fileHandlerReloadingDetector0 = new FileHandlerReloadingDetector(); ReloadingController reloadingController0 = new ReloadingController(fileHandlerReloadingDetector0); ReloadingEvent reloadingEvent0 = new ReloadingEvent(reloadingController0, "2S&`n^%g01"); Object object0 = reloadingEvent0.getData(); }
+Code: public Object getData() { return data; }
+[[0.08607194 0.06685237 0.11942293 0.13448584 0.09716091 0.45501894
+ 0.04098706]
+[0.07242486 0.04937221 0.0896512  0.17134754 0.08840731 0.49802986
+ 0.03076704]
+[0.06137324 0.05192455 0.09803905 0.12159622 0.0751313  0.55235773
+ 0.03957791]
+[0.09335235 0.05559757 0.11487888 0.16672094 0.10526273 0.4080556
+ 0.05613194]
+[0.05434536 0.0519284  0.09730243 0.12883419 0.07502486 0.5584041
+ 0.03416067]
+[0.06941953 0.05038477 0.09877253 0.13623829 0.07816747 0.54034126
+ 0.02667618]
+[0.06073255 0.06227853 0.11294018 0.15975733 0.13370511 0.4363847
+ 0.03420168]]

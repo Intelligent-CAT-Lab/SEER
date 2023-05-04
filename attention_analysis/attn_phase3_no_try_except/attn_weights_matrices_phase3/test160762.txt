@@ -1,0 +1,17 @@
+160762
+Test: public void test22() throws Throwable { KeyedPooledObjectFactory<Object, Object> keyedPooledObjectFactory0 = (KeyedPooledObjectFactory<Object, Object>) mock(KeyedPooledObjectFactory.class, new ViolatedAssumptionAnswer()); GenericKeyedObjectPool<Object, Object> genericKeyedObjectPool0 = new GenericKeyedObjectPool<Object, Object>(keyedPooledObjectFactory0); boolean boolean0 = genericKeyedObjectPool0.getLogAbandoned(); }
+Code: default boolean getLogAbandoned() { return false; }
+[[0.20116147 0.25085273 0.11407515 0.17939536 0.11163474 0.11160921
+ 0.03127137]
+[0.17560968 0.27980697 0.11270988 0.17227057 0.10620447 0.12209308
+ 0.03130539]
+[0.19052166 0.25857943 0.12150057 0.13787438 0.09138295 0.15466246
+ 0.04547856]
+[0.16445766 0.20332083 0.12562722 0.18151107 0.1149749  0.14892623
+ 0.06118201]
+[0.23055391 0.25432375 0.11242349 0.13977945 0.08555363 0.14007226
+ 0.03729346]
+[0.15952235 0.23507372 0.13219127 0.13768902 0.11116517 0.16938224
+ 0.05497623]
+[0.17825782 0.20315412 0.11244977 0.18189421 0.14218488 0.14398184
+ 0.0380773 ]]

@@ -1,0 +1,8 @@
+62884
+Test: public void test0() throws Throwable { MockThrowable mockThrowable0 = new MockThrowable("org.apache.commons.io.filefilter.NameFileFilter"); NtlmEngineException ntlmEngineException0 = new NtlmEngineException("org.apache.commons.io.filefilter.NameFileFilter", mockThrowable0); }
+Code: NtlmEngineException(String message) { super(message); }
+[[0.23840512 0.23840512 0.21188247 0.23840512 0.07290222]
+[0.23840512 0.23840512 0.21188247 0.23840512 0.07290222]
+[0.21778135 0.21778135 0.25538266 0.21778135 0.0912733 ]
+[0.23840512 0.23840512 0.21188247 0.23840512 0.07290222]
+[0.21568443 0.21568443 0.2902475  0.21568443 0.06269918]]

@@ -1,0 +1,6 @@
+76937
+Test: public void test15() throws Throwable { int[] intArray0 = new int[3]; ConstantPoolGen constantPoolGen0 = new ConstantPoolGen(); PUSH pUSH0 = new PUSH(constantPoolGen0, (long) 3199); InstructionList instructionList0 = pUSH0.getInstructionList(); InstructionHandle instructionHandle0 = instructionList0.getEnd(); TABLESWITCH tABLESWITCH0 = null;  tABLESWITCH0 = new TABLESWITCH(intArray0, (InstructionHandle[]) null, instructionHandle0);   }
+Code: TABLESWITCH() { }
+[[0.5234282  0.34890088 0.12767084]
+[0.46439818 0.38162568 0.15397614]
+[0.48506725 0.4157069  0.09922581]]

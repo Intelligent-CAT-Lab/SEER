@@ -1,0 +1,17 @@
+39407
+Test: public void test100() throws Throwable { BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstanceUTC(); DurationField durationField0 = buddhistChronology0.weekyears(); DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.era(); DelegatedDateTimeField delegatedDateTimeField0 = null;  delegatedDateTimeField0 = new DelegatedDateTimeField((DateTimeField) null, durationField0, dateTimeFieldType0);   }
+Code: public DelegatedDateTimeField(DateTimeField field) { this(field, null); }
+[[0.10804889 0.14990231 0.20150077 0.15504342 0.1499023  0.18716513
+ 0.04843717]
+[0.09082782 0.1498568  0.24210784 0.15360272 0.1498568  0.16223674
+ 0.0515113 ]
+[0.10416301 0.15688948 0.1947765  0.19654821 0.1568895  0.14632049
+ 0.04441283]
+[0.11781558 0.15673903 0.19750172 0.18405257 0.15673903 0.12139919
+ 0.06575291]
+[0.09082782 0.1498568  0.24210784 0.15360272 0.1498568  0.16223674
+ 0.0515113 ]
+[0.08395498 0.16545281 0.21936947 0.186484   0.1654528  0.14787477
+ 0.03141117]
+[0.08338223 0.1563862  0.21315041 0.21167968 0.15638618 0.1333372
+ 0.04567808]]

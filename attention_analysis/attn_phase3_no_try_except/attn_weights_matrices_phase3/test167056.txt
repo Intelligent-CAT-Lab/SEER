@@ -1,0 +1,19 @@
+167056
+Test: public void test7() throws Throwable { ManagedReloadingDetector managedReloadingDetector0 = new ManagedReloadingDetector(); managedReloadingDetector0.refresh(); ReloadingController reloadingController0 = new ReloadingController(managedReloadingDetector0); PropertiesConfigurationLayout propertiesConfigurationLayout0 = new PropertiesConfigurationLayout(); reloadingController0.checkForReloading(propertiesConfigurationLayout0); boolean boolean0 = reloadingController0.checkForReloading(managedReloadingDetector0); }
+Code: public synchronized boolean isInReloadingState() { return reloadingState; }
+[[0.09053018 0.17075735 0.2175333  0.1255967  0.1289586  0.10065053
+ 0.1255967  0.04037661]
+[0.08311028 0.18378696 0.23894691 0.12060083 0.10926963 0.10983348
+ 0.12060083 0.03385105]
+[0.05681865 0.17107332 0.2826752  0.10771663 0.15008035 0.09618191
+ 0.10771663 0.02773732]
+[0.07170524 0.18329662 0.25481227 0.11745068 0.12599505 0.08735533
+ 0.11745068 0.04193411]
+[0.09471278 0.14382564 0.1966204  0.11959545 0.16232908 0.10768817
+ 0.11959545 0.05563304]
+[0.05933301 0.1964105  0.27292955 0.11280081 0.1272141  0.08421749
+ 0.11280081 0.03429372]
+[0.07170524 0.18329662 0.25481227 0.11745068 0.12599505 0.08735533
+ 0.11745068 0.04193411]
+[0.05956487 0.1868583  0.19875097 0.10890827 0.16743049 0.13424037
+ 0.10890827 0.03533842]]

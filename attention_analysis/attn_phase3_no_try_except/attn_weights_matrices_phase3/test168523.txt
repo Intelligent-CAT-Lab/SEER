@@ -1,0 +1,21 @@
+168523
+Test: public void test4() throws Throwable { Class<Integer> class0 = Integer.class; OutParameter<Integer> outParameter0 = new OutParameter<Integer>(967, class0); CallableStatement callableStatement0 = mock(CallableStatement.class, new ViolatedAssumptionAnswer()); outParameter0.register(callableStatement0, 0); outParameter0.getSqlType(); int int0 = 0; Class<Object> class1 = Object.class; OutParameter<Object> outParameter1 = new OutParameter<Object>(0, class1, (Object) null); outParameter1.setValue(class1); Class<String> class2 = String.class; CallableStatement callableStatement1 = mock(CallableStatement.class, new ViolatedAssumptionAnswer()); doReturn((Object) null).when(callableStatement1).getObject(anyInt()); outParameter1.setValue(callableStatement1, 0); OutParameter<String> outParameter2 = new OutParameter<String>(0, class2); outParameter2.setValue("[ULY3>CpEH"); outParameter2.getJavaType(); outParameter1.getValue(); outParameter1.toString(); CallableStatement callableStatement2 = mock(CallableStatement.class, new ViolatedAssumptionAnswer()); // Undeclared exception!  outParameter2.setValue((CallableStatement) null, 0);   }
+Code: public void setValue(T value) { this.value = value; }
+[[0.12466012 0.09862304 0.172919   0.15827303 0.1484968  0.07237937
+ 0.07730758 0.09810482 0.04923623]
+[0.10489894 0.08481465 0.21349667 0.16780344 0.15188266 0.08004707
+ 0.08021489 0.06934666 0.04749505]
+[0.10226417 0.08428393 0.17452928 0.17591809 0.14085768 0.07855029
+ 0.10538206 0.08881506 0.04939941]
+[0.12058213 0.08053422 0.18563372 0.15398706 0.17923531 0.07256015
+ 0.08795895 0.07337514 0.0461333 ]
+[0.11744398 0.10065954 0.16316064 0.13673145 0.16796552 0.07950126
+ 0.09682856 0.07515718 0.06255191]
+[0.11809249 0.08191468 0.17490986 0.1643792  0.16640256 0.07943954
+ 0.07498497 0.08140165 0.05847508]
+[0.12131964 0.09708631 0.17185703 0.13471615 0.12786627 0.10403978
+ 0.09795188 0.08791065 0.05725227]
+[0.1018551  0.07237893 0.17527589 0.17650142 0.15642434 0.09540945
+ 0.09420829 0.09188835 0.0360582 ]
+[0.09738999 0.08574869 0.19013965 0.1213544  0.20403257 0.08053951
+ 0.0830413  0.09161778 0.04613614]]

@@ -1,23 +1,23 @@
 67219
 Test: public void test062() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test062"); com.fasterxml.jackson.databind.node.DoubleNode doubleNode1 = new com.fasterxml.jackson.databind.node.DoubleNode((double) 1); com.fasterxml.jackson.core.ObjectCodec objectCodec2 = null; com.fasterxml.jackson.core.JsonParser jsonParser3 = doubleNode1.traverse(objectCodec2); com.fasterxml.jackson.databind.util.TokenBuffer tokenBuffer4 = new com.fasterxml.jackson.databind.util.TokenBuffer(jsonParser3); tokenBuffer4.writeBoolean(false); com.fasterxml.jackson.core.ObjectCodec objectCodec7 = tokenBuffer4._objectCodec; tokenBuffer4.writeOmittedField(""); com.fasterxml.jackson.databind.node.DoubleNode doubleNode11 = new com.fasterxml.jackson.databind.node.DoubleNode((double) 1); com.fasterxml.jackson.databind.MappingJsonFactory mappingJsonFactory12 = new com.fasterxml.jackson.databind.MappingJsonFactory(); boolean boolean13 = doubleNode11.equals((java.lang.Object) mappingJsonFactory12); int int14 = doubleNode11.asInt(); java.math.BigDecimal bigDecimal15 = doubleNode11.decimalValue(); tokenBuffer4.writeNumber(bigDecimal15); com.fasterxml.jackson.databind.node.DoubleNode doubleNode18 = new com.fasterxml.jackson.databind.node.DoubleNode((double) 1); com.fasterxml.jackson.core.ObjectCodec objectCodec19 = null; com.fasterxml.jackson.core.JsonParser jsonParser20 = doubleNode18.traverse(objectCodec19); com.fasterxml.jackson.databind.util.TokenBuffer tokenBuffer21 = new com.fasterxml.jackson.databind.util.TokenBuffer(jsonParser20); tokenBuffer21.writeBoolean(false); byte[] byteArray28 = new byte[] { (byte) 100, (byte) 10, (byte) 10, (byte) 10 }; tokenBuffer21.writeBinary(byteArray28); com.fasterxml.jackson.databind.node.BinaryNode binaryNode30 = new com.fasterxml.jackson.databind.node.BinaryNode(byteArray28); boolean boolean32 = binaryNode30.equals((java.lang.Object) 13); com.fasterxml.jackson.core.JsonToken jsonToken33 = binaryNode30.asToken(); com.fasterxml.jackson.databind.node.TextNode textNode35 = new com.fasterxml.jackson.databind.node.TextNode("1.0"); com.fasterxml.jackson.databind.node.DoubleNode doubleNode37 = new com.fasterxml.jackson.databind.node.DoubleNode((double) 1); com.fasterxml.jackson.core.ObjectCodec objectCodec38 = null; com.fasterxml.jackson.core.JsonParser jsonParser39 = doubleNode37.traverse(objectCodec38); com.fasterxml.jackson.databind.util.TokenBuffer tokenBuffer40 = new com.fasterxml.jackson.databind.util.TokenBuffer(jsonParser39); tokenBuffer40._forceBigDecimal = false; int int43 = tokenBuffer40.getFeatureMask(); com.fasterxml.jackson.databind.SerializerProvider serializerProvider44 = null; textNode35.serialize((com.fasterxml.jackson.core.JsonGenerator) tokenBuffer40, serializerProvider44); tokenBuffer40.writeObject((java.lang.Object) (-1.0d)); com.fasterxml.jackson.core.JsonParser jsonParser48 = tokenBuffer40.asParser(); tokenBuffer4._append(jsonToken33, (java.lang.Object) tokenBuffer40); }
 Code: public void writeNumber(short i) throws IOException { _appendValue(JsonToken.VALUE_NUMBER_INT, Short.valueOf(i)); }
-tensor([[0.0750, 0.0622, 0.1005, 0.0809, 0.1684, 0.0420, 0.1127, 0.2280, 0.0957,
-         0.0347],
-        [0.0571, 0.0536, 0.0713, 0.0711, 0.1964, 0.0361, 0.1170, 0.3005, 0.0619,
-         0.0349],
-        [0.0574, 0.0431, 0.0935, 0.0828, 0.1746, 0.0463, 0.1424, 0.2603, 0.0752,
-         0.0242],
-        [0.0684, 0.0542, 0.0883, 0.0614, 0.1719, 0.0374, 0.1240, 0.2713, 0.0949,
-         0.0281],
-        [0.0496, 0.0490, 0.0833, 0.0664, 0.2348, 0.0330, 0.1268, 0.2645, 0.0682,
-         0.0243],
-        [0.0586, 0.0469, 0.0873, 0.0584, 0.2234, 0.0353, 0.1141, 0.2775, 0.0750,
-         0.0235],
-        [0.0814, 0.0707, 0.0846, 0.0894, 0.1445, 0.0542, 0.1278, 0.2146, 0.0873,
-         0.0456],
-        [0.0530, 0.0513, 0.1075, 0.0812, 0.2195, 0.0323, 0.1051, 0.2659, 0.0631,
-         0.0210],
-        [0.0694, 0.0502, 0.0746, 0.0757, 0.1797, 0.0434, 0.1465, 0.2649, 0.0689,
-         0.0267],
-        [0.0510, 0.0473, 0.0881, 0.0619, 0.2150, 0.0408, 0.1305, 0.2593, 0.0779,
-         0.0281]])
+[[0.07498503 0.06223204 0.10045139 0.08089468 0.16838619 0.04201754
+ 0.11266226 0.22797193 0.09567604 0.03472283]
+[0.05705994 0.05363907 0.07129754 0.07110298 0.196444   0.03606269
+ 0.11703195 0.30054036 0.06192861 0.03489282]
+[0.05737727 0.04311282 0.09354316 0.08284236 0.1746436  0.04633114
+ 0.14242105 0.2603153  0.07517925 0.02423408]
+[0.06841929 0.05415481 0.08833268 0.06143994 0.17187983 0.03742911
+ 0.12400214 0.27130753 0.09492927 0.0281054 ]
+[0.04961697 0.04902557 0.08328535 0.0663712  0.23479    0.03297922
+ 0.12681004 0.26454085 0.06824189 0.02433886]
+[0.05858468 0.04692578 0.08733009 0.05836777 0.22340465 0.03532087
+ 0.11413004 0.27745697 0.07495381 0.02352534]
+[0.08136586 0.07074097 0.08455589 0.0893822  0.1444823  0.05415419
+ 0.12783957 0.21463886 0.08728908 0.04555106]
+[0.05299113 0.05134688 0.10752957 0.08120153 0.21952406 0.03226804
+ 0.1051022  0.26588458 0.0631301  0.0210219 ]
+[0.06937024 0.05022685 0.07455383 0.07573138 0.17972472 0.04339392
+ 0.14652258 0.26491636 0.06885519 0.02670491]
+[0.05104647 0.04728025 0.08806433 0.06191926 0.2150334  0.04079855
+ 0.1305171  0.25930804 0.07791376 0.02811887]]

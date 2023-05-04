@@ -1,0 +1,23 @@
+42238
+Test: public void test1274() throws Throwable { InternalParser[] internalParserArray0 = new InternalParser[7]; DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.clockhourOfHalfday(); DateTimeFormatterBuilder.Fraction dateTimeFormatterBuilder_Fraction0 = new DateTimeFormatterBuilder.Fraction(dateTimeFieldType0, (-1981), (-1981)); internalParserArray0[0] = (InternalParser) dateTimeFormatterBuilder_Fraction0; DateTimeFormatterBuilder.UnpaddedNumber dateTimeFormatterBuilder_UnpaddedNumber0 = new DateTimeFormatterBuilder.UnpaddedNumber(dateTimeFieldType0, (-1981), true); internalParserArray0[1] = (InternalParser) dateTimeFormatterBuilder_UnpaddedNumber0; DateTimeFormatterBuilder.Fraction dateTimeFormatterBuilder_Fraction1 = new DateTimeFormatterBuilder.Fraction(dateTimeFieldType0, (-1981), (-1981)); internalParserArray0[2] = (InternalParser) dateTimeFormatterBuilder_Fraction1; DateTimeFormatterBuilder.PaddedNumber dateTimeFormatterBuilder_PaddedNumber0 = new DateTimeFormatterBuilder.PaddedNumber(dateTimeFieldType0, 1278, true, (-1981)); internalParserArray0[3] = (InternalParser) dateTimeFormatterBuilder_PaddedNumber0; DateTimeFormatterBuilder.TextField dateTimeFormatterBuilder_TextField0 = new DateTimeFormatterBuilder.TextField(dateTimeFieldType0, true); internalParserArray0[4] = (InternalParser) dateTimeFormatterBuilder_TextField0; DateTimeFormatterBuilder.PaddedNumber dateTimeFormatterBuilder_PaddedNumber1 = new DateTimeFormatterBuilder.PaddedNumber(dateTimeFieldType0, 341, true, 1278); internalParserArray0[5] = (InternalParser) dateTimeFormatterBuilder_PaddedNumber1; DateTimeFormatterBuilder.TimeZoneOffset dateTimeFormatterBuilder_TimeZoneOffset0 = new DateTimeFormatterBuilder.TimeZoneOffset("America/Indiana/Indianapolis", "America/Indiana/Indianapolis", true, 442, 442); internalParserArray0[6] = (InternalParser) dateTimeFormatterBuilder_TimeZoneOffset0; DateTimeFormatterBuilder.MatchingParser dateTimeFormatterBuilder_MatchingParser0 = new DateTimeFormatterBuilder.MatchingParser(internalParserArray0); EthiopicChronology ethiopicChronology0 = EthiopicChronology.getInstance((DateTimeZone) null); EthiopicChronology ethiopicChronology1 = (EthiopicChronology)ethiopicChronology0.withZone((DateTimeZone) null); Locale locale0 = new Locale("America/Indiana/Indianapolis", "Europe/U", "America/Indiana/Indianapolis"); DateTimeParserBucket dateTimeParserBucket0 = new DateTimeParserBucket(0L, ethiopicChronology1, locale0, (Integer) 1, 1); int int0 = dateTimeFormatterBuilder_MatchingParser0.parseInto(dateTimeParserBucket0, "America/Indiana/Indianapolis", 1); DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); InternalParserDateTimeParser internalParserDateTimeParser0 = (InternalParserDateTimeParser)InternalParserDateTimeParser.of(dateTimeFormatterBuilder_Fraction0); DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendSecondOfMinute(341); }
+Code: public DateTimeFormatterBuilder appendSecondOfMinute(int minDigits) { return appendDecimal(DateTimeFieldType.secondOfMinute(), minDigits, 2); }
+[[0.08205512 0.11382069 0.11382069 0.11382069 0.09785184 0.08887724
+ 0.11382069 0.11382069 0.12968028 0.03243214]
+[0.06842582 0.11517966 0.11517966 0.11517966 0.10309129 0.08290781
+ 0.11517966 0.11517966 0.1342538  0.03542297]
+[0.06842582 0.11517966 0.11517966 0.11517966 0.10309129 0.08290781
+ 0.11517966 0.11517966 0.1342538  0.03542297]
+[0.06842582 0.11517966 0.11517966 0.11517966 0.10309129 0.08290781
+ 0.11517966 0.11517966 0.1342538  0.03542297]
+[0.08026189 0.10609328 0.10609328 0.10609328 0.12692222 0.09264792
+ 0.10609328 0.10609328 0.12461083 0.04509079]
+[0.05550785 0.11613241 0.11613241 0.11613241 0.09730859 0.08251259
+ 0.11613241 0.11613241 0.15677267 0.02723623]
+[0.06842582 0.11517966 0.11517966 0.11517966 0.10309129 0.08290781
+ 0.11517966 0.11517966 0.1342538  0.03542297]
+[0.06842582 0.11517966 0.11517966 0.11517966 0.10309129 0.08290781
+ 0.11517966 0.11517966 0.1342538  0.03542297]
+[0.06725104 0.10889164 0.10889164 0.10889164 0.15426037 0.09336461
+ 0.10889164 0.10889164 0.11452725 0.02613861]
+[0.05639288 0.10541715 0.10541715 0.10541715 0.1451817  0.12323768
+ 0.10541715 0.10541715 0.11687201 0.03123005]]

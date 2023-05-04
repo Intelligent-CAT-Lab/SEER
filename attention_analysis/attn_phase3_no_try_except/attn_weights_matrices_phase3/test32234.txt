@@ -1,0 +1,2 @@
+32234
+Test: public void test107() throws Throwable { MockDate mockDate0 = new MockDate((-22), (-22), (-22), (-22), (-22), (-22)); Date date0 = DateUtil.addSeconds(mockDate0, (-22)); boolean boolean0 = DateUtil.isSameTime(mockDate0, date0); }

@@ -1,0 +1,23 @@
+43542
+Test: public void test2618() throws Throwable { DateTimeFormatterBuilder.TimeZoneOffset dateTimeFormatterBuilder_TimeZoneOffset0 = new DateTimeFormatterBuilder.TimeZoneOffset("Europe/H", "Europe/H", true, 3552, 3552); IslamicChronology islamicChronology0 = IslamicChronology.getInstance(); LenientChronology lenientChronology0 = LenientChronology.getInstance(islamicChronology0); Chronology chronology0 = lenientChronology0.withUTC(); LocalDate localDate0 = LocalDate.now(); Locale locale0 = Locale.forLanguageTag("Europe/H"); Locale locale1 = Locale.FRENCH; String string0 = locale0.getDisplayVariant(locale1); dateTimeFormatterBuilder_TimeZoneOffset0.printTo((Appendable) null, (ReadablePartial) localDate0, locale0); DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); String[] stringArray0 = Locale.getISOLanguages(); DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendPattern(""); UTCProvider uTCProvider0 = new UTCProvider(); DateTimeZone dateTimeZone0 = uTCProvider0.getZone((String) null); dateTimeFormatterBuilder_TimeZoneOffset0.printTo((Appendable) null, 2514L, (Chronology) lenientChronology0, 3552, (DateTimeZone) null, locale0); DateTimeFormatterBuilder dateTimeFormatterBuilder2 = dateTimeFormatterBuilder1.appendFractionOfMinute(3552, Integer.MAX_VALUE); DateTimePrinter dateTimePrinter0 = InternalPrinterDateTimePrinter.of(dateTimeFormatterBuilder_TimeZoneOffset0); DateTimeFormatterBuilder dateTimeFormatterBuilder3 = dateTimeFormatterBuilder2.append(dateTimePrinter0); DateTimeParser dateTimeParser0 = InternalParserDateTimeParser.of(dateTimeFormatterBuilder_TimeZoneOffset0); DateTimeFormatterBuilder dateTimeFormatterBuilder4 = dateTimeFormatterBuilder3.append(dateTimeParser0); DateTimeFormatterBuilder dateTimeFormatterBuilder5 = dateTimeFormatterBuilder4.appendMinuteOfDay(Integer.MAX_VALUE); }
+Code: public DateTimeFormatterBuilder appendMinuteOfDay(int minDigits) { return appendDecimal(DateTimeFieldType.minuteOfDay(), minDigits, 4); }
+[[0.07768738 0.10777028 0.10777028 0.10777028 0.10122381 0.08520609
+ 0.10777028 0.10777028 0.16444808 0.03258318]
+[0.06415337 0.10669993 0.10669993 0.10669993 0.10377503 0.07791902
+ 0.10669993 0.10669993 0.18553355 0.03511928]
+[0.06415337 0.10669993 0.10669993 0.10669993 0.10377503 0.07791902
+ 0.10669993 0.10669993 0.18553355 0.03511928]
+[0.06415337 0.10669993 0.10669993 0.10669993 0.10377503 0.07791902
+ 0.10669993 0.10669993 0.18553355 0.03511928]
+[0.07961232 0.10195087 0.10195087 0.10195087 0.13325764 0.09093595
+ 0.10195087 0.10195087 0.14029253 0.04614725]
+[0.05544559 0.11273946 0.11273946 0.11273946 0.10387761 0.08127403
+ 0.11273946 0.11273946 0.16700852 0.02869693]
+[0.06415337 0.10669993 0.10669993 0.10669993 0.10377503 0.07791902
+ 0.10669993 0.10669993 0.18553355 0.03511928]
+[0.06415337 0.10669993 0.10669993 0.10669993 0.10377503 0.07791902
+ 0.10669993 0.10669993 0.18553355 0.03511928]
+[0.06853571 0.09634797 0.09634797 0.09634797 0.15276301 0.08782747
+ 0.09634797 0.09634797 0.17956313 0.02957077]
+[0.05146992 0.09495669 0.09495669 0.09495669 0.13977198 0.1145792
+ 0.09495669 0.09495669 0.18967858 0.02971686]]

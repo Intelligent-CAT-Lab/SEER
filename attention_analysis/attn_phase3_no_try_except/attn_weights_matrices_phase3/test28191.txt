@@ -1,0 +1,21 @@
+28191
+Test: public void test165() throws Throwable { Vector2D.Unit vector2D_Unit0 = Vector2D.Unit.PLUS_X; Precision.DoubleEquivalence precision_DoubleEquivalence0 = mock(Precision.DoubleEquivalence.class, new ViolatedAssumptionAnswer()); Line line0 = new Line(vector2D_Unit0, 0.0, precision_DoubleEquivalence0); Precision.DoubleEquivalence precision_DoubleEquivalence1 = mock(Precision.DoubleEquivalence.class, new ViolatedAssumptionAnswer()); doReturn(false).when(precision_DoubleEquivalence1).eqZero(anyDouble()); Line line1 = new Line(vector2D_Unit0, 0.0, precision_DoubleEquivalence1); Vector2D vector2D0 = line1.intersection(line0); line0.project(vector2D0); }
+Code: public Vector2D project(final Vector2D point) { return toSpace(toSubspace(point)); }
+[[0.09581007 0.12525183 0.13291262 0.12525183 0.11496413 0.1269178
+ 0.10533973 0.13291262 0.04063936]
+[0.09683624 0.1091799  0.13197994 0.1091799  0.13284983 0.15013708
+ 0.10023049 0.13197994 0.03762668]
+[0.07818335 0.12971158 0.1305878  0.12971158 0.14094725 0.12341174
+ 0.09487876 0.1305878  0.04198015]
+[0.09683624 0.1091799  0.13197994 0.1091799  0.13284983 0.15013708
+ 0.10023049 0.13197994 0.03762668]
+[0.08647627 0.09452627 0.1333313  0.09452627 0.14323004 0.14105828
+ 0.1283059  0.1333313  0.0452144 ]
+[0.09374289 0.11061662 0.12465867 0.11061662 0.12836874 0.14656848
+ 0.10842779 0.12465867 0.05234158]
+[0.06933273 0.11513405 0.14439487 0.11513405 0.15155768 0.12289873
+ 0.10283089 0.14439487 0.03432215]
+[0.07818335 0.12971158 0.1305878  0.12971158 0.14094725 0.12341174
+ 0.09487876 0.1305878  0.04198015]
+[0.06668738 0.10164241 0.12547049 0.10164241 0.13154349 0.1670096
+ 0.14438331 0.12547049 0.03615039]]

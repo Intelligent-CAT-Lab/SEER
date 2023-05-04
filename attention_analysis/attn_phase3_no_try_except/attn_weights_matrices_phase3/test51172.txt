@@ -1,0 +1,21 @@
+51172
+Test: public void test10434() throws Throwable { DateTimeFormatterBuilder.TimeZoneId[] dateTimeFormatterBuilder_TimeZoneIdArray0 = DateTimeFormatterBuilder.TimeZoneId.values(); DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendFractionOfSecond(1456, 1456); DateTimeFormatterBuilder dateTimeFormatterBuilder2 = dateTimeFormatterBuilder1.appendDayOfWeekText(); DateTimeFormatterBuilder dateTimeFormatterBuilder3 = dateTimeFormatterBuilder2.appendTwoDigitWeekyear(90, true); }
+Code: public DateTimeFormatterBuilder appendTwoDigitWeekyear(int pivot) { return appendTwoDigitWeekyear(pivot, false); }
+[[0.09398533 0.13036358 0.13036358 0.13036358 0.10601261 0.10105013
+ 0.13036358 0.14167733 0.03582029]
+[0.07588169 0.12925531 0.12925531 0.12925531 0.10589145 0.09171913
+ 0.12925531 0.17246348 0.03702302]
+[0.07588169 0.12925531 0.12925531 0.12925531 0.10589145 0.09171913
+ 0.12925531 0.17246348 0.03702302]
+[0.07588169 0.12925531 0.12925531 0.12925531 0.10589145 0.09171913
+ 0.12925531 0.17246348 0.03702302]
+[0.0884898  0.11971799 0.11971799 0.11971799 0.13377039 0.10295095
+ 0.11971799 0.14739352 0.04852339]
+[0.06536734 0.1389665  0.1389665  0.1389665  0.11007702 0.09794368
+ 0.1389665  0.1396804  0.03106561]
+[0.07588169 0.12925531 0.12925531 0.12925531 0.10589145 0.09171913
+ 0.12925531 0.17246348 0.03702302]
+[0.08371039 0.1297092  0.1297092  0.1297092  0.12147221 0.08990787
+ 0.1297092  0.15369625 0.03237646]
+[0.06275073 0.11922731 0.11922731 0.11922731 0.1504311  0.13391773
+ 0.11922731 0.14309703 0.03289422]]

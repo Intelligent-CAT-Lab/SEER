@@ -1,0 +1,19 @@
+160778
+Test: public void test0() throws Throwable { KeyedPooledObjectFactory<WeakReference<String>, Integer> keyedPooledObjectFactory0 = (KeyedPooledObjectFactory<WeakReference<String>, Integer>) mock(KeyedPooledObjectFactory.class, new ViolatedAssumptionAnswer()); GenericKeyedObjectPoolConfig<Integer> genericKeyedObjectPoolConfig0 = new GenericKeyedObjectPoolConfig<Integer>(); AbandonedConfig abandonedConfig0 = new AbandonedConfig(); GenericKeyedObjectPool<WeakReference<String>, Integer> genericKeyedObjectPool0 = new GenericKeyedObjectPool<WeakReference<String>, Integer>(keyedPooledObjectFactory0, genericKeyedObjectPoolConfig0, abandonedConfig0); BaseGenericObjectPool.Evictor baseGenericObjectPool_Evictor0 = genericKeyedObjectPool0.new Evictor(); EvictionTimer.schedule(baseGenericObjectPool_Evictor0, genericKeyedObjectPoolConfig0.DEFAULT_TIME_BETWEEN_EVICTION_RUNS, genericKeyedObjectPoolConfig0.DEFAULT_MIN_EVICTABLE_IDLE_DURATION); int int0 = EvictionTimer.getNumTasks(); }
+Code: static synchronized int getNumTasks() { return taskMap.size(); }
+[[0.23309258 0.18374452 0.05052442 0.12890661 0.14619471 0.08764462
+ 0.12890661 0.04098592]
+[0.29005924 0.18855226 0.04619387 0.12509848 0.08753667 0.10720344
+ 0.12509848 0.03025759]
+[0.28329647 0.20098773 0.03920801 0.13690922 0.09957523 0.08004978
+ 0.13690922 0.02306443]
+[0.25378928 0.19951528 0.04987737 0.12802252 0.110809   0.0916432
+ 0.12802252 0.03832074]
+[0.21886095 0.1571562  0.04793006 0.13344167 0.14291847 0.11370857
+ 0.13344167 0.05254232]
+[0.2531805  0.22921854 0.03929933 0.12906186 0.10086229 0.09079237
+ 0.12906186 0.02852321]
+[0.25378928 0.19951528 0.04987737 0.12802252 0.110809   0.0916432
+ 0.12802252 0.03832074]
+[0.22986902 0.19213283 0.04798058 0.12019591 0.13245901 0.12738845
+ 0.12019591 0.02977827]]

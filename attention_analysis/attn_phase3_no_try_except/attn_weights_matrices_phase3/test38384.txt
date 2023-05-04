@@ -1,0 +1,17 @@
+38384
+Test: public void test6() throws Throwable { DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.centuryOfEra(); DateTimeZone dateTimeZone0 = DateTimeZone.getDefault(); GJChronology gJChronology0 = GJChronology.getInstance(dateTimeZone0); Chronology chronology0 = gJChronology0.withUTC(); dateTimeFieldType0.isSupported(chronology0); dateTimeFieldType0.getRangeDurationType(); DateTimeFieldType dateTimeFieldType1 = DateTimeFieldType.minuteOfHour(); }
+Code: public String toString() { return getName(); }
+[[0.11927305 0.15174064 0.15052727 0.16888924 0.13248146 0.22411399
+ 0.05297434]
+[0.12382169 0.14344549 0.17267707 0.18110557 0.12494947 0.20792216
+ 0.04607859]
+[0.08350138 0.19882677 0.12976217 0.1615205  0.1264326  0.25809383
+ 0.04186277]
+[0.11914216 0.17407283 0.12255988 0.19063467 0.1372369  0.18898964
+ 0.06736389]
+[0.08754815 0.18547016 0.11580306 0.17930025 0.12570919 0.25744528
+ 0.04872393]
+[0.10470681 0.1616533  0.11482744 0.19553892 0.14878078 0.23224798
+ 0.04224477]
+[0.07980984 0.14619637 0.15891004 0.20339216 0.1738117  0.19402835
+ 0.0438516 ]]

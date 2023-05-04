@@ -1,0 +1,17 @@
+31392
+Test: public void test310() throws Throwable { Comparator<Integer> comparator0 = (Comparator<Integer>) mock(Comparator.class, new ViolatedAssumptionAnswer()); doReturn((String) null).when(comparator0).toString(); SortedArrayList<Integer> sortedArrayList0 = new SortedArrayList<Integer>(comparator0); Comparator<Object> comparator1 = sortedArrayList0.getComparator(); }
+Code: public Comparator getComparator() { return comparator; }
+[[0.13691393 0.18991178 0.18991178 0.15813138 0.1476622  0.12447865
+ 0.05299032]
+[0.11355364 0.1929959  0.1929959  0.1608336  0.13731624 0.14626583
+ 0.05603885]
+[0.11355364 0.1929959  0.1929959  0.1608336  0.13731624 0.14626583
+ 0.05603885]
+[0.12802628 0.17511132 0.17511132 0.189268   0.14950655 0.11359753
+ 0.0693789 ]
+[0.09869908 0.21042156 0.21042156 0.16499081 0.14809522 0.12073684
+ 0.04663486]
+[0.10874359 0.18533683 0.18533683 0.19678195 0.14453436 0.12209077
+ 0.05717564]
+[0.09116367 0.17725746 0.17725746 0.19518264 0.18780117 0.12745059
+ 0.043887  ]]

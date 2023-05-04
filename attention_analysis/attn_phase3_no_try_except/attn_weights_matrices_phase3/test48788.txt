@@ -1,0 +1,17 @@
+48788
+Test: public void test8021() throws Throwable { HashMap<String, DateTimeZone> hashMap0 = new HashMap<String, DateTimeZone>(); HashMap<String, DateTimeZone> hashMap1 = new HashMap<String, DateTimeZone>(hashMap0); DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.clockhourOfDay(); DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral("US/H"); DateTimePrinter dateTimePrinter0 = InternalPrinterDateTimePrinter.of(dateTimeFormatterBuilder_StringLiteral0); DateTimeParser[] dateTimeParserArray0 = new DateTimeParser[1]; DateTimeParser dateTimeParser0 = InternalParserDateTimeParser.of(dateTimeFormatterBuilder_StringLiteral0); GJChronology gJChronology0 = GJChronology.getInstance(); StrictChronology strictChronology0 = StrictChronology.getInstance(gJChronology0); DateTimeZone dateTimeZone0 = gJChronology0.getZone(); ZonedChronology zonedChronology0 = ZonedChronology.getInstance(strictChronology0, dateTimeZone0); Chronology chronology0 = zonedChronology0.withUTC(); DateTimeField dateTimeField0 = dateTimeFieldType0.getField(chronology0); dateTimeParserArray0[0] = dateTimeParser0; boolean boolean0 = DateTimeFormatterBuilder.csStartsWith("org/joda/time/tz/data", 2311, ""); DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendDayOfMonth(2243); DateTimeFormatterBuilder dateTimeFormatterBuilder2 = dateTimeFormatterBuilder1.appendFixedSignedDecimal(dateTimeFieldType0, 2311); DateTimeFormatterBuilder dateTimeFormatterBuilder3 = dateTimeFormatterBuilder2.appendHalfdayOfDayText(); }
+Code: public DateTimeFormatterBuilder appendHalfdayOfDayText() { return appendText(DateTimeFieldType.halfdayOfDay()); }
+[[0.12731326 0.17660138 0.17660138 0.1539395  0.13815959 0.17660138
+ 0.05078347]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.1209935  0.16031049 0.16031049 0.19048879 0.13977559 0.16031049
+ 0.06781061]
+[0.09097192 0.18878669 0.18878669 0.16263722 0.13468806 0.18878669
+ 0.04534269]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.08439702 0.15890288 0.15890288 0.21071318 0.18253878 0.15890287
+ 0.04564238]]

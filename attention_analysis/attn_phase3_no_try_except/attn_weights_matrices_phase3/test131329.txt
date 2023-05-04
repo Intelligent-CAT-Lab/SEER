@@ -1,0 +1,17 @@
+131329
+Test: public void test138() throws Throwable { Complex complex0 = Complex.ofCartesian(1881.6, 2.2250738585072014E-308); Complex complex1 = Complex.ONE; Complex complex2 = complex1.I.addImaginary(16.0); complex1.I.multiplyImaginary(Double.NaN); complex2.ONE.cosh(); complex1.ZERO.subtractFromImaginary(2.2250738585072014E-308); complex0.ONE.nthRoot((-1028)); Complex complex3 = Complex.ofCartesian((-3977.3161231594), 2.2250738585072014E-308); Complex complex4 = complex0.pow(complex1); Complex complex5 = complex4.ONE.subtract(16.0); complex0.I.hashCode(); complex3.exp(); Complex complex6 = complex0.subtractImaginary((-2587.9874383044976)); Complex complex7 = complex6.I.pow((-2944.826)); complex6.nthRoot((-1028)); Complex complex8 = complex3.ZERO.acosh(); Complex complex9 = complex3.cosh(); complex3.isNaN(); complex3.asinh(); complex8.tan(); Complex complex10 = complex6.pow(complex8); complex3.isInfinite(); complex8.exp(); Complex complex11 = complex5.atan(); }
+Code: public double getReal() { return real; }
+[[0.13427636 0.23419952 0.1862534  0.15527123 0.14484054 0.09314869
+ 0.05201022]
+[0.10844769 0.24619132 0.20116983 0.15512265 0.15525037 0.09022571
+ 0.04359239]
+[0.11798197 0.22391713 0.20109513 0.16393884 0.14258769 0.0931036
+ 0.05737562]
+[0.12908094 0.1793744  0.18182066 0.17901833 0.15228136 0.1107536
+ 0.06767067]
+[0.10167214 0.2307944  0.21938638 0.16458495 0.15347874 0.08324419
+ 0.04683919]
+[0.11974851 0.19145258 0.19068167 0.18044364 0.16852298 0.10090006
+ 0.04825053]
+[0.09716647 0.19739547 0.1924111  0.18792577 0.1943544  0.08732818
+ 0.04341868]]

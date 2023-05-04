@@ -1,60 +1,79 @@
 15303
 Test: public void test060() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test060"); org.apache.commons.cli2.option.PropertyOption propertyOption3 = new org.apache.commons.cli2.option.PropertyOption("", "hi!", (int) 'a'); org.apache.commons.cli2.WriteableCommandLine writeableCommandLine4 = null; propertyOption3.defaults(writeableCommandLine4); java.util.prefs.Preferences preferences6 = null; org.apache.commons.cli2.commandline.PreferencesCommandLine preferencesCommandLine8 = new org.apache.commons.cli2.commandline.PreferencesCommandLine((org.apache.commons.cli2.Option) propertyOption3, preferences6, 'a'); org.apache.commons.cli2.Option option10 = preferencesCommandLine8.getOption("<property>=<value>"); org.apache.commons.cli2.option.PropertyOption propertyOption14 = new org.apache.commons.cli2.option.PropertyOption("", "hi!", (int) 'a'); java.util.List list15 = null; org.apache.commons.cli2.commandline.WriteableCommandLineImpl writeableCommandLineImpl16 = new org.apache.commons.cli2.commandline.WriteableCommandLineImpl((org.apache.commons.cli2.Option) propertyOption14, list15); org.apache.commons.cli2.option.PropertyOption propertyOption20 = new org.apache.commons.cli2.option.PropertyOption("", "hi!", (int) 'a'); java.util.List list21 = null; org.apache.commons.cli2.commandline.WriteableCommandLineImpl writeableCommandLineImpl22 = new org.apache.commons.cli2.commandline.WriteableCommandLineImpl((org.apache.commons.cli2.Option) propertyOption20, list21); org.apache.commons.cli2.option.PropertyOption propertyOption26 = new org.apache.commons.cli2.option.PropertyOption("", "hi!", (int) 'a'); java.lang.String str27 = propertyOption26.getPreferredName(); writeableCommandLineImpl22.addOption((org.apache.commons.cli2.Option) propertyOption26); java.lang.Boolean boolean30 = writeableCommandLineImpl16.getSwitch((org.apache.commons.cli2.Option) propertyOption26, (java.lang.Boolean) true); org.apache.commons.cli2.option.PropertyOption propertyOption34 = new org.apache.commons.cli2.option.PropertyOption("", "hi!", (int) 'a'); java.lang.Object obj35 = null; boolean boolean36 = propertyOption34.equals(obj35); java.util.List list37 = writeableCommandLineImpl16.getValues((org.apache.commons.cli2.Option) propertyOption34); org.apache.commons.cli2.option.PropertyOption propertyOption41 = new org.apache.commons.cli2.option.PropertyOption("", "hi!", (int) 'a'); java.lang.String str42 = propertyOption41.getPreferredName(); org.apache.commons.cli2.WriteableCommandLine writeableCommandLine43 = null; boolean boolean45 = propertyOption41.canProcess(writeableCommandLine43, "hi!"); org.apache.commons.cli2.option.PropertyOption propertyOption49 = new org.apache.commons.cli2.option.PropertyOption("", "hi!", (int) 'a'); java.util.List list50 = null; org.apache.commons.cli2.commandline.WriteableCommandLineImpl writeableCommandLineImpl51 = new org.apache.commons.cli2.commandline.WriteableCommandLineImpl((org.apache.commons.cli2.Option) propertyOption49, list50); org.apache.commons.cli2.option.PropertyOption propertyOption55 = new org.apache.commons.cli2.option.PropertyOption("", "hi!", (int) 'a'); java.lang.String str56 = propertyOption55.getPreferredName(); writeableCommandLineImpl51.addOption((org.apache.commons.cli2.Option) propertyOption55); java.util.List list58 = writeableCommandLineImpl51.getOptions(); java.util.List list59 = writeableCommandLineImpl16.getValues((org.apache.commons.cli2.Option) propertyOption41, list58); org.apache.commons.cli2.option.PropertyOption propertyOption63 = new org.apache.commons.cli2.option.PropertyOption("", "hi!", (int) 'a'); java.util.List list64 = null; org.apache.commons.cli2.commandline.WriteableCommandLineImpl writeableCommandLineImpl65 = new org.apache.commons.cli2.commandline.WriteableCommandLineImpl((org.apache.commons.cli2.Option) propertyOption63, list64); org.apache.commons.cli2.option.PropertyOption propertyOption69 = new org.apache.commons.cli2.option.PropertyOption("", "hi!", (int) 'a'); java.lang.String str70 = propertyOption69.getPreferredName(); writeableCommandLineImpl65.addOption((org.apache.commons.cli2.Option) propertyOption69); org.apache.commons.cli2.option.PropertyOption propertyOption75 = new org.apache.commons.cli2.option.PropertyOption("", "hi!", (int) 'a'); org.apache.commons.cli2.WriteableCommandLine writeableCommandLine76 = null; propertyOption75.defaults(writeableCommandLine76); java.util.List list78 = null; java.util.List list79 = writeableCommandLineImpl65.getValues((org.apache.commons.cli2.Option) propertyOption75, list78); int int80 = propertyOption75.getId(); java.lang.Boolean boolean81 = writeableCommandLineImpl16.getSwitch((org.apache.commons.cli2.Option) propertyOption75); try { java.lang.Boolean boolean83 = preferencesCommandLine8.getSwitch((org.apache.commons.cli2.Option) propertyOption75, (java.lang.Boolean) true); } catch (java.lang.NullPointerException e) { } }
 Code: public void addOption(Option option) { options.add(option); nameToOption.put(option.getPreferredName(), option); for (Iterator i = option.getTriggers().iterator(); i.hasNext();) { nameToOption.put(i.next(), option); } }
-tensor([[0.0443, 0.0356, 0.1443, 0.0454, 0.0567, 0.0556, 0.1051, 0.0423, 0.0434,
-         0.0419, 0.0344, 0.0277, 0.0530, 0.0855, 0.0567, 0.0489, 0.0423, 0.0184,
-         0.0184],
-        [0.0333, 0.0283, 0.2189, 0.0283, 0.0548, 0.0506, 0.1386, 0.0329, 0.0368,
-         0.0382, 0.0326, 0.0266, 0.0356, 0.0808, 0.0548, 0.0424, 0.0329, 0.0168,
-         0.0168],
-        [0.0311, 0.0305, 0.1835, 0.0359, 0.0654, 0.0676, 0.0958, 0.0379, 0.0417,
-         0.0353, 0.0390, 0.0286, 0.0438, 0.0903, 0.0654, 0.0396, 0.0379, 0.0154,
-         0.0154],
-        [0.0400, 0.0253, 0.1457, 0.0477, 0.0546, 0.0739, 0.0934, 0.0357, 0.0410,
-         0.0508, 0.0426, 0.0325, 0.0480, 0.0860, 0.0546, 0.0552, 0.0357, 0.0188,
-         0.0188],
-        [0.0446, 0.0382, 0.1100, 0.0412, 0.0629, 0.0637, 0.0865, 0.0488, 0.0462,
-         0.0441, 0.0418, 0.0368, 0.0541, 0.0739, 0.0629, 0.0483, 0.0488, 0.0236,
-         0.0236],
-        [0.0407, 0.0319, 0.1509, 0.0388, 0.0702, 0.0575, 0.1034, 0.0345, 0.0463,
-         0.0476, 0.0363, 0.0333, 0.0480, 0.0702, 0.0702, 0.0503, 0.0345, 0.0176,
-         0.0176],
-        [0.0243, 0.0219, 0.1941, 0.0391, 0.0611, 0.0567, 0.1327, 0.0360, 0.0441,
-         0.0362, 0.0357, 0.0235, 0.0468, 0.0834, 0.0611, 0.0402, 0.0360, 0.0135,
-         0.0135],
-        [0.0265, 0.0238, 0.1847, 0.0269, 0.0628, 0.0553, 0.1130, 0.0313, 0.0474,
-         0.0480, 0.0373, 0.0279, 0.0406, 0.0974, 0.0628, 0.0571, 0.0313, 0.0130,
-         0.0130],
-        [0.0430, 0.0333, 0.1610, 0.0416, 0.0663, 0.0659, 0.0940, 0.0345, 0.0448,
-         0.0385, 0.0408, 0.0290, 0.0472, 0.0920, 0.0663, 0.0442, 0.0345, 0.0116,
-         0.0116],
-        [0.0370, 0.0266, 0.1649, 0.0370, 0.0590, 0.0582, 0.1146, 0.0394, 0.0406,
-         0.0469, 0.0404, 0.0194, 0.0505, 0.0997, 0.0590, 0.0405, 0.0394, 0.0134,
-         0.0134],
-        [0.0503, 0.0410, 0.1314, 0.0442, 0.0548, 0.0763, 0.0775, 0.0431, 0.0471,
-         0.0458, 0.0485, 0.0324, 0.0560, 0.0615, 0.0548, 0.0376, 0.0431, 0.0273,
-         0.0273],
-        [0.0480, 0.0386, 0.1227, 0.0545, 0.0514, 0.0666, 0.0752, 0.0416, 0.0462,
-         0.0351, 0.0434, 0.0390, 0.0594, 0.0764, 0.0514, 0.0631, 0.0416, 0.0229,
-         0.0229],
-        [0.0393, 0.0315, 0.1794, 0.0405, 0.0652, 0.0591, 0.0982, 0.0347, 0.0382,
-         0.0441, 0.0384, 0.0262, 0.0478, 0.0734, 0.0652, 0.0483, 0.0347, 0.0178,
-         0.0178],
-        [0.0302, 0.0252, 0.1872, 0.0258, 0.0682, 0.0482, 0.1073, 0.0385, 0.0464,
-         0.0405, 0.0300, 0.0203, 0.0515, 0.0891, 0.0682, 0.0635, 0.0385, 0.0108,
-         0.0108],
-        [0.0446, 0.0382, 0.1100, 0.0412, 0.0629, 0.0637, 0.0865, 0.0488, 0.0462,
-         0.0441, 0.0418, 0.0368, 0.0541, 0.0739, 0.0629, 0.0483, 0.0488, 0.0236,
-         0.0236],
-        [0.0354, 0.0296, 0.2013, 0.0290, 0.0589, 0.0479, 0.1217, 0.0458, 0.0369,
-         0.0432, 0.0303, 0.0243, 0.0388, 0.0752, 0.0589, 0.0465, 0.0458, 0.0153,
-         0.0153],
-        [0.0265, 0.0238, 0.1847, 0.0269, 0.0628, 0.0553, 0.1130, 0.0313, 0.0474,
-         0.0480, 0.0373, 0.0279, 0.0406, 0.0974, 0.0628, 0.0571, 0.0313, 0.0130,
-         0.0130],
-        [0.0321, 0.0288, 0.1489, 0.0333, 0.0731, 0.0506, 0.1180, 0.0386, 0.0424,
-         0.0389, 0.0352, 0.0280, 0.0440, 0.0950, 0.0731, 0.0489, 0.0386, 0.0162,
-         0.0162],
-        [0.0321, 0.0288, 0.1489, 0.0333, 0.0731, 0.0506, 0.1180, 0.0386, 0.0424,
-         0.0389, 0.0352, 0.0280, 0.0440, 0.0950, 0.0731, 0.0489, 0.0386, 0.0162,
-         0.0162]])
+[[0.04432204 0.03555276 0.14431655 0.04543516 0.05671283 0.05564414
+ 0.10505392 0.04233097 0.04342167 0.04185472 0.0344038  0.02773613
+ 0.0530407  0.08549476 0.05671283 0.04891135 0.04233098 0.01836236
+ 0.01836236]
+[0.03327429 0.02834372 0.21888891 0.02829546 0.05478295 0.05062293
+ 0.13860227 0.03294834 0.03678647 0.03817236 0.03260422 0.02655727
+ 0.03560321 0.08078755 0.05478295 0.04239065 0.03294834 0.01680405
+ 0.01680405]
+[0.03107351 0.03054377 0.1835469  0.03593329 0.06539447 0.06759848
+ 0.09583628 0.03785425 0.04165935 0.03527098 0.03904723 0.02858372
+ 0.04380438 0.09026238 0.06539447 0.03960342 0.03785426 0.01536944
+ 0.01536944]
+[0.0399719  0.02525829 0.14565529 0.04767226 0.05456736 0.07393776
+ 0.09337832 0.03565715 0.04096507 0.05080686 0.04256119 0.03253341
+ 0.04796628 0.08602816 0.05456736 0.05521021 0.03565716 0.01880298
+ 0.01880298]
+[0.04464321 0.03818291 0.10995539 0.04122446 0.0629314  0.06365547
+ 0.08645105 0.04878565 0.0462404  0.04408099 0.04180428 0.03676533
+ 0.0540931  0.07394217 0.0629314  0.04832608 0.04878565 0.02360057
+ 0.02360057]
+[0.04073284 0.03191276 0.15088399 0.03881168 0.07022735 0.05749722
+ 0.10340919 0.03446373 0.0463435  0.04762734 0.03627469 0.03329672
+ 0.04800954 0.0702362  0.07022735 0.05034634 0.03446373 0.0176179
+ 0.0176179 ]
+[0.02425751 0.02187801 0.19411534 0.03914596 0.06108827 0.05670756
+ 0.13273367 0.03604535 0.04407001 0.03621395 0.03565851 0.02354816
+ 0.04682139 0.08340105 0.06108827 0.04015383 0.03604535 0.01351391
+ 0.01351391]
+[0.02649752 0.02378594 0.18466476 0.02685067 0.06280606 0.05534477
+ 0.11297379 0.03127482 0.0474436  0.04801743 0.03732565 0.02794802
+ 0.0406044  0.09735207 0.06280606 0.05709878 0.03127482 0.01296544
+ 0.01296544]
+[0.0430023  0.03326768 0.1609711  0.04164857 0.06626782 0.06585965
+ 0.09404482 0.03453804 0.04477914 0.03853916 0.04078041 0.02896909
+ 0.04719224 0.09204328 0.06626782 0.04418148 0.03453805 0.01155464
+ 0.01155464]
+[0.03695125 0.02659231 0.1649451  0.03704426 0.05904795 0.05822961
+ 0.11461353 0.03936214 0.04064744 0.04692823 0.04039846 0.01937448
+ 0.05051116 0.09970267 0.05904795 0.04052532 0.03936215 0.013358
+ 0.013358  ]
+[0.05030952 0.0409747  0.13138413 0.04419994 0.05480973 0.07633921
+ 0.07747295 0.04313318 0.04706396 0.04577466 0.04854158 0.03238526
+ 0.05597237 0.06146725 0.05480973 0.03756429 0.04313319 0.02733219
+ 0.02733219]
+[0.04801518 0.03858818 0.12268856 0.05449463 0.05141578 0.06660265
+ 0.0751598  0.04158198 0.04618901 0.0351493  0.04343389 0.03899991
+ 0.05943344 0.07639506 0.05141578 0.06314652 0.04158198 0.02285417
+ 0.02285417]
+[0.03932048 0.03154229 0.17942841 0.04053973 0.06517705 0.05909
+ 0.09823642 0.03474677 0.03819073 0.04405151 0.03842818 0.0262205
+ 0.04780752 0.07342537 0.06517705 0.04832048 0.03474678 0.01777536
+ 0.01777536]
+[0.03017269 0.02519015 0.187187   0.02577477 0.06822158 0.04817561
+ 0.10727342 0.03845679 0.04643757 0.04052084 0.02996126 0.02034056
+ 0.05149595 0.08905505 0.06822158 0.06348158 0.03845679 0.01078841
+ 0.01078841]
+[0.04464321 0.03818291 0.10995539 0.04122446 0.0629314  0.06365547
+ 0.08645105 0.04878565 0.0462404  0.04408099 0.04180428 0.03676533
+ 0.0540931  0.07394217 0.0629314  0.04832608 0.04878565 0.02360057
+ 0.02360057]
+[0.03540707 0.02959082 0.20132026 0.02898138 0.05888665 0.04794866
+ 0.12167263 0.0458409  0.03686345 0.04318434 0.03030908 0.02425884
+ 0.03876216 0.0752328  0.05888665 0.04648236 0.0458409  0.01526552
+ 0.01526552]
+[0.02649753 0.02378594 0.18466479 0.02685067 0.06280605 0.05534477
+ 0.11297379 0.03127482 0.04744361 0.04801745 0.03732566 0.02794802
+ 0.0406044  0.09735208 0.06280605 0.05709879 0.03127482 0.01296544
+ 0.01296544]
+[0.03208952 0.0288383  0.14889418 0.03328579 0.0731279  0.05064312
+ 0.11801712 0.03862351 0.04240448 0.03886888 0.0351529  0.02800257
+ 0.04403304 0.09498671 0.0731279  0.04890661 0.03862352 0.01618694
+ 0.01618694]
+[0.03208952 0.0288383  0.14889418 0.03328579 0.0731279  0.05064312
+ 0.11801712 0.03862351 0.04240448 0.03886888 0.0351529  0.02800257
+ 0.04403304 0.09498671 0.0731279  0.04890661 0.03862352 0.01618694
+ 0.01618694]]

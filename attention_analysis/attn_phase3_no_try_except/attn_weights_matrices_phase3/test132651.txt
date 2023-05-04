@@ -1,0 +1,21 @@
+132651
+Test: public void test1() throws Throwable { AbstractReferenceMap.ReferenceStrength abstractReferenceMap_ReferenceStrength0 = AbstractReferenceMap.ReferenceStrength.HARD; AbstractReferenceMap.ReferenceStrength abstractReferenceMap_ReferenceStrength1 = AbstractReferenceMap.ReferenceStrength.WEAK; ReferenceIdentityMap<Integer, Integer> referenceIdentityMap0 = new ReferenceIdentityMap<Integer, Integer>(abstractReferenceMap_ReferenceStrength0, abstractReferenceMap_ReferenceStrength1, 3618, 3440.3123F); ReferenceIdentityMap<Object, Integer> referenceIdentityMap1 = new ReferenceIdentityMap<Object, Integer>(); referenceIdentityMap1.isEqualKey(abstractReferenceMap_ReferenceStrength0, referenceIdentityMap0); referenceIdentityMap1.isEqualValue(abstractReferenceMap_ReferenceStrength0, "null values not allowed"); ReferenceIdentityMap<PhantomReference<String>, String> referenceIdentityMap2 = new ReferenceIdentityMap<PhantomReference<String>, String>(); BiFunction<Object, Object, String> biFunction0 = (BiFunction<Object, Object, String>) mock(BiFunction.class, new ViolatedAssumptionAnswer()); referenceIdentityMap2.replaceAll(biFunction0); referenceIdentityMap2.purgeBeforeRead(); int int0 = AbstractHashedMap.MAXIMUM_CAPACITY; ReferenceIdentityMap<Object, PhantomReference<Object>> referenceIdentityMap3 = new ReferenceIdentityMap<Object, PhantomReference<Object>>(); referenceIdentityMap3.isEqualValue(referenceIdentityMap0, referenceIdentityMap0); AbstractReferenceMap.ReferenceStrength abstractReferenceMap_ReferenceStrength2 = AbstractReferenceMap.ReferenceStrength.SOFT; AbstractReferenceMap.ReferenceStrength abstractReferenceMap_ReferenceStrength3 = AbstractReferenceMap.ReferenceStrength.WEAK; ReferenceIdentityMap<Integer, WeakReference<Integer>> referenceIdentityMap4 = new ReferenceIdentityMap<Integer, WeakReference<Integer>>(abstractReferenceMap_ReferenceStrength2, abstractReferenceMap_ReferenceStrength3, 1073741824, 1073741824, true); }
+Code: public ReferenceIdentityMap() { super(ReferenceStrength.HARD, ReferenceStrength.SOFT, DEFAULT_CAPACITY, DEFAULT_LOAD_FACTOR, false); }
+[[0.09087306 0.12604854 0.10445839 0.12604854 0.12604854 0.12604854
+ 0.12604854 0.1393637  0.03506216]
+[0.07276398 0.12346776 0.10417736 0.12346776 0.12346776 0.12346776
+ 0.12346776 0.16951153 0.03620839]
+[0.08708692 0.11630353 0.13504982 0.11630353 0.11630353 0.11630353
+ 0.11630353 0.14793503 0.04841053]
+[0.07276398 0.12346776 0.10417736 0.12346776 0.12346776 0.12346776
+ 0.12346776 0.16951153 0.03620839]
+[0.07276398 0.12346776 0.10417736 0.12346776 0.12346776 0.12346776
+ 0.12346776 0.16951153 0.03620839]
+[0.07276398 0.12346776 0.10417736 0.12346776 0.12346776 0.12346776
+ 0.12346776 0.16951153 0.03620839]
+[0.07276398 0.12346776 0.10417736 0.12346776 0.12346776 0.12346776
+ 0.12346776 0.16951153 0.03620839]
+[0.07956467 0.12256828 0.12177338 0.12256828 0.12256828 0.12256828
+ 0.12256828 0.15371093 0.03210964]
+[0.06291366 0.11753887 0.16236076 0.11753887 0.11753887 0.11753887
+ 0.11753887 0.15212467 0.0349066 ]]

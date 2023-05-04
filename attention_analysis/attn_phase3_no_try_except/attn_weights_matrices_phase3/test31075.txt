@@ -1,0 +1,2 @@
+31075
+Test: public void test44() throws Throwable { ArrayList<Locale.FilteringMode> arrayList0 = new ArrayList<Locale.FilteringMode>(); Locale.FilteringMode locale_FilteringMode0 = Locale.FilteringMode.EXTENDED_FILTERING; arrayList0.add(locale_FilteringMode0); List<Object> list0 = ListUtil.intersection((List<?>) arrayList0, (List<?>) arrayList0); }

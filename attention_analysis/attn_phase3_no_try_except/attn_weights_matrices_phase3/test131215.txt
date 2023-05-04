@@ -1,0 +1,2 @@
+131215
+Test: public void test24() throws Throwable { Complex complex0 = Complex.ofPolar(176.05, 0.5); Complex complex1 = complex0.add((-2486.0863638198375)); Complex complex2 = complex1.subtractFrom((-7.5097389567322)); Complex complex3 = Complex.ofCis(0.0); Complex complex4 = complex2.multiply((-1174.6772450304136)); complex4.addImaginary(1.0); Complex complex5 = complex0.asin(); Complex complex6 = complex5.acosh(); complex6.cosh(); complex1.multiply(complex2); Complex complex7 = Complex.ofPolar(4.0, 0.5); complex3.pow(complex7); complex7.asin(); complex2.exp(); }

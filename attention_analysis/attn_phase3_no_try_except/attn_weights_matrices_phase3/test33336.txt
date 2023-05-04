@@ -1,0 +1,23 @@
+33336
+Test: public void test276() throws Throwable { MathContext mathContext0 = MathContext.DECIMAL64; Boolean boolean0 = Boolean.FALSE; mathContext0.equals(boolean0); JexlArithmetic jexlArithmetic0 = new JexlArithmetic(false, mathContext0, Integer.MIN_VALUE); JexlArithmetic jexlArithmetic1 = jexlArithmetic0.createWithOptions(false, mathContext0, Integer.MIN_VALUE); BigDecimal bigDecimal0 = new BigDecimal((long) Integer.MIN_VALUE); bigDecimal0.toPlainString(); jexlArithmetic1.narrowBigDecimal((Object) null, mathContext0, bigDecimal0); Pattern pattern0 = JexlArithmetic.FLOAT_PATTERN; pattern0.split((CharSequence) "-2147483648"); Double double0 = new Double(1.0); Double.min(1.0, 0.0); jexlArithmetic1.narrowLong(pattern0, double0, 16380L); jexlArithmetic1.toString((Object) pattern0); Double double1 = new Double(1038.679142239); jexlArithmetic0.subtract((Object) null, double1); jexlArithmetic0.logicalNot((Object) null); Character character0 = Character.valueOf('Z'); jexlArithmetic1.isFloatingPoint(character0); jexlArithmetic1.narrow(double1); }
+Code: public Number narrow(final Number original) { return narrowNumber(original, null); }
+[[0.08887446 0.06435323 0.12328492 0.06435323 0.12328492 0.11117437
+ 0.09690458 0.12328492 0.16822228 0.0362631 ]
+[0.08566394 0.05003387 0.12493016 0.05003387 0.12493016 0.13002102
+ 0.1204214  0.12493016 0.15826209 0.03077334]
+[0.07841836 0.06133932 0.13181356 0.06133932 0.13181356 0.11917633
+ 0.09504241 0.13181356 0.14837167 0.04087199]
+[0.08566394 0.05003387 0.12493016 0.05003387 0.12493016 0.13002102
+ 0.1204214  0.12493016 0.15826209 0.03077334]
+[0.07841836 0.06133932 0.13181356 0.06133932 0.13181356 0.11917633
+ 0.09504241 0.13181356 0.14837167 0.04087199]
+[0.09573376 0.05437413 0.12805367 0.05437413 0.12805367 0.14800514
+ 0.11094957 0.12805367 0.09927267 0.05312961]
+[0.06573814 0.05504633 0.13581067 0.05504633 0.13581067 0.11877436
+ 0.09711392 0.13581067 0.16780443 0.03304455]
+[0.07841836 0.06133932 0.13181356 0.06133932 0.13181356 0.11917633
+ 0.09504241 0.13181356 0.14837167 0.04087199]
+[0.06772384 0.05376515 0.13846327 0.05376515 0.13846327 0.13364203
+ 0.12122922 0.13846327 0.13029628 0.02418851]
+[0.06778148 0.04570849 0.12832063 0.04570849 0.12832063 0.16517761
+ 0.14543049 0.12832063 0.10925161 0.03597997]]

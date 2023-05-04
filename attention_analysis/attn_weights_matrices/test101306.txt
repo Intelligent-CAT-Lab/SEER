@@ -1,33 +1,48 @@
 101306
 Test: public void test283() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test283"); org.joda.time.DateTimeUtils.SystemMillisProvider systemMillisProvider0 = new org.joda.time.DateTimeUtils.SystemMillisProvider(); long long1 = systemMillisProvider0.getMillis(); org.joda.time.chrono.ISOChronology iSOChronology2 = org.joda.time.chrono.ISOChronology.getInstance(); org.joda.time.MutableDateTime mutableDateTime3 = new org.joda.time.MutableDateTime((java.lang.Object) long1, (org.joda.time.Chronology) iSOChronology2); org.joda.time.DateTimeZone dateTimeZone4 = iSOChronology2.getZone(); org.joda.time.DurationField durationField5 = iSOChronology2.eras(); org.joda.time.DateTimeField dateTimeField6 = iSOChronology2.weekyearOfCentury(); org.joda.time.DateTimeField dateTimeField7 = iSOChronology2.era(); org.joda.time.DurationField durationField8 = iSOChronology2.eras(); org.joda.time.DateTimeField dateTimeField9 = iSOChronology2.dayOfWeek(); org.joda.time.ReadableInterval readableInterval11 = null; org.joda.time.ReadableInterval readableInterval12 = org.joda.time.DateTimeUtils.getReadableInterval(readableInterval11); org.joda.time.ReadableInstant readableInstant13 = null; boolean boolean14 = readableInterval12.contains(readableInstant13); org.joda.time.DateTime dateTime15 = readableInterval12.getStart(); org.joda.time.ReadableInterval readableInterval16 = null; org.joda.time.ReadableInterval readableInterval17 = org.joda.time.DateTimeUtils.getReadableInterval(readableInterval16); org.joda.time.ReadableInstant readableInstant18 = null; boolean boolean19 = readableInterval17.contains(readableInstant18); org.joda.time.DateTime dateTime20 = readableInterval17.getStart(); java.util.Date date21 = dateTime20.toDate(); boolean boolean22 = dateTime15.isBefore((org.joda.time.ReadableInstant) dateTime20); org.joda.time.DateTimeZone dateTimeZone23 = dateTime15.getZone(); org.joda.time.MutableDateTime mutableDateTime24 = new org.joda.time.MutableDateTime((long) (short) 100, dateTimeZone23); mutableDateTime24.addWeeks(0); org.joda.time.ReadableInterval readableInterval28 = null; org.joda.time.ReadableInterval readableInterval29 = org.joda.time.DateTimeUtils.getReadableInterval(readableInterval28); org.joda.time.ReadableInstant readableInstant30 = null; boolean boolean31 = readableInterval29.contains(readableInstant30); org.joda.time.DateTime dateTime32 = readableInterval29.getStart(); org.joda.time.ReadableInterval readableInterval33 = null; org.joda.time.ReadableInterval readableInterval34 = org.joda.time.DateTimeUtils.getReadableInterval(readableInterval33); org.joda.time.ReadableInstant readableInstant35 = null; boolean boolean36 = readableInterval34.contains(readableInstant35); org.joda.time.DateTime dateTime37 = readableInterval34.getStart(); java.util.Date date38 = dateTime37.toDate(); boolean boolean39 = dateTime32.isBefore((org.joda.time.ReadableInstant) dateTime37); org.joda.time.DateTimeZone dateTimeZone40 = dateTime32.getZone(); org.joda.time.MutableDateTime mutableDateTime41 = new org.joda.time.MutableDateTime((long) (short) 100, dateTimeZone40); java.util.TimeZone timeZone42 = dateTimeZone40.toTimeZone(); mutableDateTime24.setZone(dateTimeZone40); java.util.Locale locale45 = null; java.lang.String str46 = dateTimeZone40.getShortName((long) (byte) 12, locale45); try { org.joda.time.MutableDateTime mutableDateTime47 = new org.joda.time.MutableDateTime((java.lang.Object) dateTimeField9, dateTimeZone40); } catch (java.lang.IllegalArgumentException e) { } }
 Code: public void addWeeks(final int weeks) { if (weeks != 0) { setMillis(getChronology().weeks().add(getMillis(), weeks)); } }
-tensor([[0.0473, 0.0394, 0.2298, 0.0281, 0.0500, 0.0723, 0.1284, 0.0498, 0.0270,
-         0.0288, 0.0723, 0.0567, 0.1260, 0.0222, 0.0222],
-        [0.0363, 0.0337, 0.2990, 0.0186, 0.0496, 0.0725, 0.1220, 0.0453, 0.0246,
-         0.0265, 0.0725, 0.0480, 0.1080, 0.0217, 0.0217],
-        [0.0491, 0.0415, 0.1936, 0.0286, 0.0729, 0.0726, 0.1563, 0.0579, 0.0302,
-         0.0292, 0.0726, 0.0394, 0.1149, 0.0207, 0.0207],
-        [0.0314, 0.0288, 0.2585, 0.0213, 0.0490, 0.0787, 0.1817, 0.0425, 0.0205,
-         0.0263, 0.0787, 0.0485, 0.1018, 0.0162, 0.0162],
-        [0.0430, 0.0347, 0.2360, 0.0227, 0.0499, 0.0707, 0.1226, 0.0431, 0.0273,
-         0.0311, 0.0707, 0.0520, 0.1561, 0.0200, 0.0200],
-        [0.0504, 0.0442, 0.2157, 0.0239, 0.0532, 0.0834, 0.0866, 0.0527, 0.0362,
-         0.0347, 0.0834, 0.0644, 0.1131, 0.0290, 0.0290],
-        [0.0260, 0.0220, 0.3871, 0.0119, 0.0337, 0.0745, 0.1539, 0.0506, 0.0122,
-         0.0289, 0.0745, 0.0276, 0.0760, 0.0106, 0.0106],
-        [0.0407, 0.0346, 0.2104, 0.0284, 0.0579, 0.0742, 0.1450, 0.0633, 0.0259,
-         0.0315, 0.0742, 0.0540, 0.1213, 0.0193, 0.0193],
-        [0.0313, 0.0233, 0.3032, 0.0176, 0.0439, 0.0898, 0.1355, 0.0492, 0.0147,
-         0.0323, 0.0898, 0.0365, 0.1030, 0.0149, 0.0149],
-        [0.0384, 0.0403, 0.2510, 0.0226, 0.0459, 0.0745, 0.1300, 0.0493, 0.0311,
-         0.0283, 0.0745, 0.0559, 0.1077, 0.0252, 0.0252],
-        [0.0504, 0.0442, 0.2157, 0.0239, 0.0532, 0.0834, 0.0866, 0.0527, 0.0362,
-         0.0347, 0.0834, 0.0644, 0.1131, 0.0290, 0.0290],
-        [0.0444, 0.0321, 0.2029, 0.0281, 0.0680, 0.0781, 0.1569, 0.0538, 0.0275,
-         0.0358, 0.0781, 0.0406, 0.1144, 0.0196, 0.0196],
-        [0.0302, 0.0202, 0.2947, 0.0158, 0.0468, 0.0688, 0.1311, 0.0489, 0.0168,
-         0.0281, 0.0688, 0.0489, 0.1474, 0.0168, 0.0168],
-        [0.0347, 0.0324, 0.2228, 0.0262, 0.0528, 0.0908, 0.1344, 0.0614, 0.0255,
-         0.0262, 0.0908, 0.0445, 0.1186, 0.0195, 0.0195],
-        [0.0347, 0.0324, 0.2228, 0.0262, 0.0528, 0.0908, 0.1344, 0.0614, 0.0255,
-         0.0262, 0.0908, 0.0445, 0.1186, 0.0195, 0.0195]])
+[[0.04728217 0.03939388 0.2297795  0.02808057 0.0499514  0.07226871
+ 0.12838648 0.04977976 0.02698776 0.02876204 0.0722687  0.05673034
+ 0.1260016  0.02216354 0.02216354]
+[0.03625005 0.03366876 0.29901427 0.01859879 0.04964504 0.07247888
+ 0.12204377 0.04532478 0.02461027 0.02650853 0.07247885 0.0480149
+ 0.1080135  0.02167483 0.02167483]
+[0.04913251 0.04146194 0.1936     0.02855742 0.07289062 0.0725529
+ 0.15632741 0.05786214 0.03023506 0.02922541 0.0725529  0.03935066
+ 0.11485387 0.02069855 0.02069855]
+[0.03140808 0.02877204 0.25847182 0.02134679 0.04904851 0.07867977
+ 0.18170238 0.04245012 0.02048433 0.02628824 0.07867975 0.04848213
+ 0.10178663 0.0161997  0.0161997 ]
+[0.04296836 0.03468248 0.2359501  0.0227426  0.04992216 0.07072986
+ 0.12258752 0.04310094 0.02732043 0.03112826 0.07072987 0.0520319
+ 0.15606414 0.02002072 0.02002072]
+[0.05044818 0.04422019 0.21567729 0.023937   0.05322951 0.08337397
+ 0.08658882 0.05273459 0.03615223 0.03466353 0.08337398 0.06443747
+ 0.11309102 0.02903613 0.02903613]
+[0.02598858 0.02197629 0.387141   0.01187761 0.03366675 0.07446966
+ 0.1539462  0.05062598 0.01217864 0.0288827  0.07446963 0.02755069
+ 0.07599122 0.01061754 0.01061754]
+[0.04066078 0.03456566 0.21043076 0.02840181 0.05791352 0.07422586
+ 0.14504535 0.06328651 0.02593354 0.03147149 0.07422587 0.05397714
+ 0.12127984 0.01929095 0.01929095]
+[0.03127703 0.02328568 0.30321777 0.01758861 0.04393621 0.08982164
+ 0.13549903 0.04917565 0.01473009 0.03229052 0.08982164 0.0364984
+ 0.10299565 0.01493101 0.01493101]
+[0.03840598 0.04033094 0.25099152 0.02260343 0.04586967 0.0745343
+ 0.129953   0.04929375 0.03114481 0.02829518 0.0745343  0.05588728
+ 0.10773048 0.02521269 0.02521269]
+[0.05044818 0.04422019 0.21567729 0.023937   0.05322951 0.08337397
+ 0.08658882 0.05273459 0.03615223 0.03466353 0.08337398 0.06443747
+ 0.11309102 0.02903613 0.02903613]
+[0.04440597 0.03210648 0.20286599 0.02807054 0.06799303 0.07812508
+ 0.15687567 0.0537511  0.02750389 0.03582815 0.07812509 0.04061714
+ 0.11444496 0.01964348 0.01964348]
+[0.03019641 0.0202397  0.2946751  0.01581155 0.04680434 0.06878388
+ 0.13109794 0.04891529 0.01675886 0.02808729 0.06878388 0.04889853
+ 0.14743738 0.01675492 0.01675492]
+[0.03472925 0.03236794 0.22283322 0.02622519 0.05277485 0.09082583
+ 0.13437358 0.06136411 0.02554643 0.02616601 0.09082583 0.04447492
+ 0.11855407 0.0194694  0.0194694 ]
+[0.03472925 0.03236794 0.22283322 0.02622519 0.05277485 0.09082583
+ 0.13437358 0.06136411 0.02554643 0.02616601 0.09082583 0.04447492
+ 0.11855407 0.0194694  0.0194694 ]]

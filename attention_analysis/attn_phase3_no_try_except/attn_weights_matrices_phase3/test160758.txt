@@ -1,0 +1,7 @@
+160758
+Test: public void test18() throws Throwable { KeyedPooledObjectFactory<String, Object> keyedPooledObjectFactory0 = (KeyedPooledObjectFactory<String, Object>) mock(KeyedPooledObjectFactory.class, new ViolatedAssumptionAnswer()); GenericKeyedObjectPoolConfig<Object> genericKeyedObjectPoolConfig0 = new GenericKeyedObjectPoolConfig<Object>(); GenericKeyedObjectPoolConfig<Object> genericKeyedObjectPoolConfig1 = genericKeyedObjectPoolConfig0.clone(); GenericKeyedObjectPool<String, Object> genericKeyedObjectPool0 = new GenericKeyedObjectPool<String, Object>(keyedPooledObjectFactory0, genericKeyedObjectPoolConfig1); Map<String, List<DefaultPooledObjectInfo>> map0 = genericKeyedObjectPool0.listAllObjects(); }
+Code: Map<String, List<DefaultPooledObjectInfo>> listAllObjects(); }
+[[0.32475066 0.29844746 0.29844746 0.07835445]
+[0.35808003 0.27599415 0.27599415 0.08993169]
+[0.35808003 0.27599415 0.27599415 0.08993169]
+[0.40755355 0.25152922 0.25152922 0.08938803]]

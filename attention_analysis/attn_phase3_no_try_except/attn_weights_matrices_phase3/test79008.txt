@@ -1,0 +1,2 @@
+79008
+Test: public void test19() throws Throwable { ArrayType arrayType0 = new ArrayType((byte)4, (byte)4); ObjectType objectType0 = ObjectType.getInstance("java.lang.Cloneable"); boolean boolean0 = arrayType0.isAssignmentCompatibleWith(objectType0); }

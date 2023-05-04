@@ -1,0 +1,23 @@
+25065
+Test: public void test16() throws Throwable { Vector3D.Unit vector3D_Unit0 = Vector3D.Unit.PLUS_Y; Vector3D.Unit vector3D_Unit1 = Vector3D.Unit.PLUS_X; Precision.DoubleEquivalence precision_DoubleEquivalence0 = mock(Precision.DoubleEquivalence.class, new ViolatedAssumptionAnswer()); doReturn(false, false, false, true, true).when(precision_DoubleEquivalence0).eq(anyDouble() , anyDouble()); doReturn(false, false, true, false, false).when(precision_DoubleEquivalence0).eqZero(anyDouble()); doReturn(false).when(precision_DoubleEquivalence0).lte(anyDouble() , anyDouble()); doReturn(0.0, 0.0, 0.0).when(precision_DoubleEquivalence0).signum(anyDouble()); GreatCircle greatCircle0 = new GreatCircle(vector3D_Unit1, vector3D_Unit1, vector3D_Unit0, precision_DoubleEquivalence0); Transform2S transform2S0 = Transform2S.identity(); GreatCircle greatCircle1 = greatCircle0.transform(transform2S0); EmbeddedTreeGreatCircleSubset embeddedTreeGreatCircleSubset0 = new EmbeddedTreeGreatCircleSubset(greatCircle1, true); EmbeddedTreeGreatCircleSubset embeddedTreeGreatCircleSubset1 = embeddedTreeGreatCircleSubset0.transform(transform2S0); embeddedTreeGreatCircleSubset1.split(greatCircle0); embeddedTreeGreatCircleSubset1.add(embeddedTreeGreatCircleSubset0); }
+Code: public void add(final GreatArc arc) { GreatCircles.validateGreatCirclesEquivalent(getCircle(), arc.getCircle()); region.add(arc.getSubspaceRegion()); }
+[[0.08459095 0.06787263 0.11734538 0.11734538 0.11734538 0.10838635
+ 0.11734538 0.11734538 0.11734539 0.03507768]
+[0.06372319 0.05890565 0.11891371 0.11891371 0.11891371 0.1261251
+ 0.11891371 0.11891371 0.11891373 0.03776379]
+[0.07118215 0.06436136 0.1183869  0.1183869  0.1183869  0.11516313
+ 0.1183869  0.1183869  0.11838692 0.03897192]
+[0.07118215 0.06436136 0.1183869  0.1183869  0.1183869  0.11516313
+ 0.1183869  0.1183869  0.11838692 0.03897192]
+[0.07118215 0.06436136 0.1183869  0.1183869  0.1183869  0.11516313
+ 0.1183869  0.1183869  0.11838692 0.03897192]
+[0.08481095 0.07462803 0.10794412 0.10794412 0.10794412 0.1434482
+ 0.10794412 0.10794412 0.10794415 0.04944808]
+[0.07118215 0.06436136 0.1183869  0.1183869  0.1183869  0.11516313
+ 0.1183869  0.1183869  0.11838692 0.03897192]
+[0.07118215 0.06436136 0.1183869  0.1183869  0.1183869  0.11516313
+ 0.1183869  0.1183869  0.11838692 0.03897192]
+[0.07118215 0.06436135 0.1183869  0.1183869  0.1183869  0.11516313
+ 0.1183869  0.1183869  0.11838691 0.03897192]
+[0.06113774 0.05898068 0.11035992 0.11035992 0.11035992 0.18007687
+ 0.11035992 0.11035992 0.11035995 0.03764515]]

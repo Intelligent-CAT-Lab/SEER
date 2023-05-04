@@ -1,0 +1,19 @@
+62299
+Test: public void test267() throws Throwable { DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.era(); DateTimeFormatterBuilder.FixedNumber dateTimeFormatterBuilder_FixedNumber0 = new DateTimeFormatterBuilder.FixedNumber(dateTimeFieldType0, 981, false); DateTimePrinter dateTimePrinter0 = InternalPrinterDateTimePrinter.of(dateTimeFormatterBuilder_FixedNumber0); DateTimeFormatter dateTimeFormatter0 = new DateTimeFormatter(dateTimePrinter0, (DateTimeParser) null); // Undeclared exception!  dateTimeFormatter0.parseLocalDate((String) null);   }
+Code: public LocalDate parseLocalDate(String text) { return parseLocalDateTime(text).toLocalDate(); }
+[[0.12167546 0.05231811 0.16878545 0.15447341 0.15178877 0.13261777
+ 0.16878545 0.04955556]
+[0.10385339 0.05056944 0.15313768 0.16166723 0.17634691 0.16252072
+ 0.15313768 0.03876692]
+[0.10720838 0.06765808 0.18056697 0.11783434 0.16093835 0.1298831
+ 0.18056697 0.05534379]
+[0.0853311  0.04922745 0.17721272 0.17043334 0.16862762 0.12843566
+ 0.17721272 0.04351936]
+[0.11973392 0.0606099  0.16096261 0.10932865 0.18330178 0.13900054
+ 0.16096261 0.06610004]
+[0.08767072 0.04022612 0.17923981 0.17758629 0.16225408 0.12885348
+ 0.17923981 0.04492963]
+[0.10720838 0.06765808 0.18056697 0.11783434 0.16093835 0.1298831
+ 0.18056697 0.05534379]
+[0.08113012 0.06536418 0.15400875 0.13415174 0.1952982  0.17337474
+ 0.15400875 0.04266346]]

@@ -1,29 +1,42 @@
 67218
 Test: public void test145() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test145"); com.fasterxml.jackson.databind.node.DoubleNode doubleNode1 = new com.fasterxml.jackson.databind.node.DoubleNode((double) 1); com.fasterxml.jackson.databind.MappingJsonFactory mappingJsonFactory2 = new com.fasterxml.jackson.databind.MappingJsonFactory(); boolean boolean3 = doubleNode1.equals((java.lang.Object) mappingJsonFactory2); java.io.Reader reader4 = null; com.fasterxml.jackson.core.JsonParser jsonParser5 = mappingJsonFactory2.createJsonParser(reader4); com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer untypedObjectDeserializer6 = com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer.instance; java.lang.Class<?> wildcardClass7 = untypedObjectDeserializer6.handledType(); java.util.Iterator<java.lang.Object> objItor8 = jsonParser5.readValuesAs((java.lang.Class<java.lang.Object>) wildcardClass7); com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer untypedObjectDeserializer9 = com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer.instance; com.fasterxml.jackson.databind.node.DoubleNode doubleNode11 = new com.fasterxml.jackson.databind.node.DoubleNode((double) 1); com.fasterxml.jackson.core.ObjectCodec objectCodec12 = null; com.fasterxml.jackson.core.JsonParser jsonParser13 = doubleNode11.traverse(objectCodec12); com.fasterxml.jackson.databind.util.TokenBuffer tokenBuffer14 = new com.fasterxml.jackson.databind.util.TokenBuffer(jsonParser13); tokenBuffer14._forceBigDecimal = false; tokenBuffer14._forceBigDecimal = true; com.fasterxml.jackson.databind.util.TokenBuffer.Segment segment19 = tokenBuffer14._last; com.fasterxml.jackson.databind.node.TextNode textNode22 = new com.fasterxml.jackson.databind.node.TextNode("1.0"); com.fasterxml.jackson.core.JsonToken jsonToken23 = textNode22.asToken(); com.fasterxml.jackson.databind.node.DoubleNode doubleNode25 = new com.fasterxml.jackson.databind.node.DoubleNode((double) 1); com.fasterxml.jackson.databind.MappingJsonFactory mappingJsonFactory26 = new com.fasterxml.jackson.databind.MappingJsonFactory(); boolean boolean27 = doubleNode25.equals((java.lang.Object) mappingJsonFactory26); com.fasterxml.jackson.databind.util.TokenBuffer.Segment segment29 = segment19.append(100, jsonToken23, (java.lang.Object) mappingJsonFactory26, (java.lang.Object) (byte) -1); boolean boolean30 = mappingJsonFactory26.requiresCustomCodec(); com.fasterxml.jackson.databind.ser.DefaultSerializerProvider defaultSerializerProvider31 = null; com.fasterxml.jackson.databind.deser.DefaultDeserializationContext defaultDeserializationContext32 = null; com.fasterxml.jackson.databind.ObjectMapper objectMapper33 = new com.fasterxml.jackson.databind.ObjectMapper((com.fasterxml.jackson.core.JsonFactory) mappingJsonFactory26, defaultSerializerProvider31, defaultDeserializationContext32); com.fasterxml.jackson.databind.ser.std.StringSerializer stringSerializer34 = new com.fasterxml.jackson.databind.ser.std.StringSerializer(); java.lang.Class<java.lang.Object> objClass35 = stringSerializer34.handledType(); int int36 = com.fasterxml.jackson.databind.util.TypeKey.typedHash(objClass35); com.fasterxml.jackson.databind.ObjectWriter objectWriter37 = objectMapper33.writerFor(objClass35); java.io.Writer writer38 = null; com.fasterxml.jackson.databind.SequenceWriter sequenceWriter39 = objectWriter37.writeValues(writer38); com.fasterxml.jackson.core.PrettyPrinter prettyPrinter40 = null; com.fasterxml.jackson.databind.ObjectWriter objectWriter41 = objectWriter37.with(prettyPrinter40); com.fasterxml.jackson.databind.cfg.ContextAttributes contextAttributes42 = objectWriter37.getAttributes(); com.fasterxml.jackson.core.PrettyPrinter prettyPrinter43 = null; com.fasterxml.jackson.databind.ObjectWriter objectWriter44 = objectWriter37.with(prettyPrinter43); com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig deserializerFactoryConfig45 = null; com.fasterxml.jackson.databind.deser.BeanDeserializerFactory beanDeserializerFactory46 = new com.fasterxml.jackson.databind.deser.BeanDeserializerFactory(deserializerFactoryConfig45); com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig deserializerFactoryConfig47 = null; com.fasterxml.jackson.databind.deser.DeserializerFactory deserializerFactory48 = beanDeserializerFactory46.withConfig(deserializerFactoryConfig47); com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.Impl impl49 = new com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.Impl(deserializerFactory48); com.fasterxml.jackson.databind.ObjectWriter objectWriter50 = objectWriter44.withoutAttribute((java.lang.Object) impl49); com.fasterxml.jackson.databind.BeanProperty beanProperty51 = null; com.fasterxml.jackson.databind.JsonDeserializer<?> wildcardJsonDeserializer52 = untypedObjectDeserializer9.createContextual((com.fasterxml.jackson.databind.DeserializationContext) impl49, beanProperty51); com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer untypedObjectDeserializer53 = com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer.instance; java.lang.Class<?> wildcardClass54 = untypedObjectDeserializer53.handledType(); com.fasterxml.jackson.databind.JavaType javaType55 = com.fasterxml.jackson.databind.type.TypeFactory.unknownType(); int int56 = com.fasterxml.jackson.databind.util.TypeKey.untypedHash(javaType55); com.fasterxml.jackson.databind.JavaType javaType57 = javaType55.withStaticTyping(); com.fasterxml.jackson.databind.type.CollectionType collectionType58 = com.fasterxml.jackson.databind.type.CollectionType.construct((java.lang.Class<java.lang.Object>) wildcardClass54, javaType55); com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer untypedObjectDeserializer59 = com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer.instance; java.lang.Class<?> wildcardClass60 = untypedObjectDeserializer59.handledType(); com.fasterxml.jackson.databind.JavaType javaType61 = collectionType58.widenContentsBy((java.lang.Class<java.lang.Object>) wildcardClass60); java.lang.Class<?> wildcardClass62 = javaType61.getParameterSource(); com.fasterxml.jackson.databind.node.DoubleNode doubleNode64 = new com.fasterxml.jackson.databind.node.DoubleNode((double) 1); com.fasterxml.jackson.core.ObjectCodec objectCodec65 = null; com.fasterxml.jackson.core.JsonParser jsonParser66 = doubleNode64.traverse(objectCodec65); com.fasterxml.jackson.databind.util.TokenBuffer tokenBuffer67 = new com.fasterxml.jackson.databind.util.TokenBuffer(jsonParser66); tokenBuffer67.writeBoolean(false); com.fasterxml.jackson.core.ObjectCodec objectCodec70 = tokenBuffer67._objectCodec; tokenBuffer67.writeOmittedField(""); com.fasterxml.jackson.core.JsonToken jsonToken73 = tokenBuffer67.firstToken(); com.fasterxml.jackson.databind.node.TextNode textNode75 = new com.fasterxml.jackson.databind.node.TextNode("1.0"); com.fasterxml.jackson.core.JsonToken jsonToken76 = textNode75.asToken(); com.fasterxml.jackson.core.JsonToken jsonToken77 = textNode75.asToken(); tokenBuffer67._appendValue(jsonToken77); com.fasterxml.jackson.databind.JsonMappingException jsonMappingException79 = impl49.mappingException((java.lang.Class<java.lang.Object>) wildcardClass62, jsonToken77); com.fasterxml.jackson.databind.util.TokenBuffer tokenBuffer80 = new com.fasterxml.jackson.databind.util.TokenBuffer(jsonParser5, (com.fasterxml.jackson.databind.DeserializationContext) impl49); }
 Code: public void writeBoolean(boolean state) throws IOException { _append(state ? JsonToken.VALUE_TRUE : JsonToken.VALUE_FALSE); }
-tensor([[0.0620, 0.0520, 0.0797, 0.0770, 0.1361, 0.0358, 0.0975, 0.0914, 0.0966,
-         0.0947, 0.0634, 0.0842, 0.0297],
-        [0.0485, 0.0453, 0.0891, 0.0631, 0.1674, 0.0303, 0.0981, 0.1056, 0.0964,
-         0.1156, 0.0460, 0.0652, 0.0293],
-        [0.0460, 0.0358, 0.0651, 0.0983, 0.1745, 0.0316, 0.0880, 0.1063, 0.1034,
-         0.0901, 0.0402, 0.1012, 0.0194],
-        [0.0704, 0.0558, 0.0537, 0.0669, 0.1332, 0.0395, 0.0886, 0.0891, 0.1159,
-         0.1030, 0.0555, 0.1033, 0.0253],
-        [0.0403, 0.0404, 0.0607, 0.0688, 0.1866, 0.0275, 0.1068, 0.0997, 0.1067,
-         0.1127, 0.0508, 0.0787, 0.0203],
-        [0.0496, 0.0399, 0.0645, 0.0869, 0.1884, 0.0306, 0.0996, 0.0838, 0.1007,
-         0.0961, 0.0443, 0.0955, 0.0203],
-        [0.0611, 0.0535, 0.0826, 0.0773, 0.1073, 0.0415, 0.1012, 0.0989, 0.0775,
-         0.1185, 0.0505, 0.0950, 0.0352],
-        [0.0728, 0.0570, 0.0813, 0.0718, 0.1185, 0.0446, 0.0715, 0.0913, 0.1040,
-         0.1305, 0.0524, 0.0817, 0.0226],
-        [0.0464, 0.0339, 0.0856, 0.0678, 0.1307, 0.0321, 0.1294, 0.1113, 0.0939,
-         0.1210, 0.0529, 0.0711, 0.0239],
-        [0.0554, 0.0391, 0.0627, 0.0842, 0.1459, 0.0327, 0.1010, 0.0992, 0.0944,
-         0.1165, 0.0486, 0.0883, 0.0319],
-        [0.0577, 0.0463, 0.0577, 0.0723, 0.1269, 0.0413, 0.0985, 0.0883, 0.1160,
-         0.1360, 0.0420, 0.0842, 0.0329],
-        [0.0584, 0.0599, 0.0841, 0.0625, 0.1379, 0.0297, 0.1036, 0.0946, 0.0966,
-         0.1250, 0.0414, 0.0786, 0.0277],
-        [0.0424, 0.0405, 0.0526, 0.0756, 0.1779, 0.0363, 0.1205, 0.0795, 0.1013,
-         0.1138, 0.0426, 0.0917, 0.0254]])
+[[0.06199848 0.05199166 0.0796694  0.07699727 0.1360696  0.03584721
+ 0.09746325 0.09136697 0.09663141 0.09471849 0.06341719 0.08417629
+ 0.02965285]
+[0.04848115 0.04528764 0.08912344 0.06305464 0.16738555 0.03033808
+ 0.09812045 0.10562475 0.09639721 0.11564481 0.04604286 0.06519897
+ 0.0293004 ]
+[0.04599707 0.03575971 0.06514914 0.09827836 0.17454422 0.03158552
+ 0.08799269 0.10634461 0.10344198 0.0900768  0.04024523 0.10117976
+ 0.01940494]
+[0.07038902 0.05575903 0.05368868 0.06692737 0.1331513  0.03947742
+ 0.0885519  0.08910158 0.11588433 0.10299023 0.05546767 0.1032629
+ 0.02534859]
+[0.04026347 0.04035459 0.06071082 0.06881329 0.18657915 0.02752226
+ 0.10680591 0.09970949 0.10673606 0.11272535 0.05077725 0.07873715
+ 0.02026521]
+[0.04958645 0.03987452 0.06450739 0.08687042 0.18835256 0.03059081
+ 0.09957952 0.08375442 0.10071628 0.09610717 0.04428563 0.09546047
+ 0.0203144 ]
+[0.06106181 0.05354565 0.08261274 0.07732505 0.10727365 0.04151049
+ 0.10116761 0.09885646 0.07750748 0.11847325 0.05048002 0.094992
+ 0.03519376]
+[0.07284734 0.05701132 0.08131213 0.0717563  0.11853068 0.04462503
+ 0.07152477 0.09125586 0.10400862 0.13046248 0.05242088 0.08166978
+ 0.02257478]
+[0.04636259 0.03388904 0.0856437  0.06783631 0.13067484 0.03208732
+ 0.12941912 0.11127422 0.09386289 0.12101187 0.0529162  0.07109371
+ 0.02392825]
+[0.05541065 0.03912938 0.06269905 0.0842379  0.14585382 0.03274657
+ 0.10095864 0.09919903 0.09440362 0.11653838 0.04862053 0.08830243
+ 0.03190004]
+[0.05768681 0.0463015  0.05773877 0.07229429 0.12687007 0.04132773
+ 0.09848006 0.08828129 0.11599009 0.13595203 0.04201397 0.08416644
+ 0.03289695]
+[0.05844812 0.05992857 0.08405288 0.06248876 0.13788824 0.02969823
+ 0.10363287 0.09460856 0.09662154 0.12496538 0.04139792 0.07856195
+ 0.0277069 ]
+[0.04244985 0.04050297 0.05256424 0.07558839 0.17791614 0.03625352
+ 0.12049907 0.07949799 0.10127669 0.11378329 0.04261135 0.0916755
+ 0.02538106]]

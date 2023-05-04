@@ -1,0 +1,21 @@
+131503
+Test: public void test1() throws Throwable { TransformIterator<String, Object> transformIterator0 = new TransformIterator<String, Object>(); Transformer<Object, String> transformer0 = (Transformer<Object, String>) mock(Transformer.class, new ViolatedAssumptionAnswer()); TransformIterator<Object, String> transformIterator1 = new TransformIterator<Object, String>(transformIterator0, transformer0); TransformIterator<String, String> transformIterator2 = new TransformIterator<String, String>(transformIterator1); Iterator<? extends String> iterator0 = transformIterator2.getIterator(); }
+Code: public Iterator<? extends I> getIterator() { return iterator; }
+[[0.10087465 0.14989585 0.06194968 0.13992438 0.13992438 0.11886422
+ 0.1090848  0.13992438 0.03955761]
+[0.07970048 0.14784135 0.09692188 0.1329199  0.1329199  0.14953814
+ 0.0961912  0.1329199  0.03104727]
+[0.08667386 0.14480017 0.05911393 0.14264019 0.14264019 0.13583383
+ 0.10576065 0.14264019 0.03989701]
+[0.08246733 0.1601955  0.07839438 0.1398653  0.1398653  0.11844221
+ 0.09976796 0.1398653  0.0411367 ]
+[0.08246733 0.1601955  0.07839438 0.1398653  0.1398653  0.11844221
+ 0.09976796 0.1398653  0.0411367 ]
+[0.09594899 0.12728363 0.07772145 0.1303404  0.1303404  0.14385621
+ 0.11178467 0.1303404  0.05238385]
+[0.06943037 0.15302126 0.08080195 0.1475884  0.1475884  0.11695139
+ 0.10402599 0.1475884  0.03300377]
+[0.08246733 0.1601955  0.07839438 0.1398653  0.1398653  0.11844221
+ 0.09976796 0.1398653  0.0411367 ]
+[0.06786232 0.12792635 0.07555489 0.12916991 0.12916991 0.16135366
+ 0.14444163 0.12916991 0.0353514 ]]

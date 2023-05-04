@@ -1,0 +1,51 @@
+160678
+Test: public void test8010() throws Throwable { KeyedPooledObjectFactory<ThreadDeath, Object> keyedPooledObjectFactory0 = (KeyedPooledObjectFactory<ThreadDeath, Object>) mock(KeyedPooledObjectFactory.class, new ViolatedAssumptionAnswer()); doReturn("{keyedPool=", "org.apache.commons.pool2.PoolUtils$SynchronizedKeyedObjectPool").when(keyedPooledObjectFactory0).toString(); KeyedPooledObjectFactory<ThreadDeath, Object> keyedPooledObjectFactory1 = PoolUtils.synchronizedKeyedPooledFactory(keyedPooledObjectFactory0); GenericKeyedObjectPoolConfig<Object> genericKeyedObjectPoolConfig0 = new GenericKeyedObjectPoolConfig<Object>(); AbandonedConfig abandonedConfig0 = new AbandonedConfig(); AbandonedConfig abandonedConfig1 = AbandonedConfig.copy(abandonedConfig0); GenericKeyedObjectPool<ThreadDeath, Object> genericKeyedObjectPool0 = new GenericKeyedObjectPool<ThreadDeath, Object>(keyedPooledObjectFactory1, genericKeyedObjectPoolConfig0, abandonedConfig1); KeyedObjectPool<ThreadDeath, Object> keyedObjectPool0 = PoolUtils.synchronizedPool((KeyedObjectPool<ThreadDeath, Object>) genericKeyedObjectPool0); genericKeyedObjectPoolConfig0.setTestOnReturn(false); genericKeyedObjectPoolConfig0.setTestOnBorrow(true); LinkedList<ThreadDeath> linkedList0 = new LinkedList<ThreadDeath>(); Map<ThreadDeath, TimerTask> map0 = PoolUtils.checkMinIdle(keyedObjectPool0, (Collection<ThreadDeath>) linkedList0, 6, 34L); KeyedPooledObjectFactory<Object, String> keyedPooledObjectFactory2 = (KeyedPooledObjectFactory<Object, String>) mock(KeyedPooledObjectFactory.class, new ViolatedAssumptionAnswer()); doReturn((String) null, ".x", "<C1~uTe}", "org.apache.commons.pool2.impl.DefaultEvictionPolicy").when(keyedPooledObjectFactory2).toString(); KeyedPooledObjectFactory<Object, String> keyedPooledObjectFactory3 = PoolUtils.synchronizedKeyedPooledFactory(keyedPooledObjectFactory2); GenericKeyedObjectPoolConfig<String> genericKeyedObjectPoolConfig1 = new GenericKeyedObjectPoolConfig<String>(); GenericKeyedObjectPool<Object, String> genericKeyedObjectPool1 = new GenericKeyedObjectPool<Object, String>(keyedPooledObjectFactory3, genericKeyedObjectPoolConfig1); String string0 = abandonedConfig1.toString(); KeyedObjectPool<Object, String> keyedObjectPool1 = PoolUtils.erodingPool((KeyedObjectPool<Object, String>) genericKeyedObjectPool1); }
+Code: public static <K, V> KeyedObjectPool<K, V> erodingPool( final KeyedObjectPool<K, V> keyedPool) { return erodingPool(keyedPool, 1f); }
+[[0.04717362 0.13269097 0.06543749 0.06543749 0.06543749 0.06543749
+ 0.06543749 0.0372365  0.06543749 0.06543749 0.06543749 0.05813843
+ 0.05132825 0.06543749 0.06543749 0.01905734]
+[0.04721842 0.12914112 0.06322531 0.06322531 0.06322531 0.06322531
+ 0.06322531 0.03525924 0.06322531 0.06322531 0.06322531 0.08762547
+ 0.0449854  0.06322531 0.06322531 0.02351722]
+[0.03920752 0.13807525 0.06514756 0.06514756 0.06514756 0.06514756
+ 0.06514756 0.03828886 0.06514756 0.06514756 0.06514756 0.06376755
+ 0.04762955 0.06514756 0.06514756 0.02155573]
+[0.03920752 0.13807525 0.06514756 0.06514756 0.06514756 0.06514756
+ 0.06514756 0.03828886 0.06514756 0.06514756 0.06514756 0.06376755
+ 0.04762955 0.06514756 0.06514756 0.02155573]
+[0.03920752 0.13807525 0.06514756 0.06514756 0.06514756 0.06514756
+ 0.06514756 0.03828886 0.06514756 0.06514756 0.06514756 0.06376755
+ 0.04762955 0.06514756 0.06514756 0.02155573]
+[0.03920752 0.13807525 0.06514756 0.06514756 0.06514756 0.06514756
+ 0.06514756 0.03828886 0.06514756 0.06514756 0.06514756 0.06376755
+ 0.04762955 0.06514756 0.06514756 0.02155573]
+[0.03920752 0.13807525 0.06514756 0.06514756 0.06514756 0.06514756
+ 0.06514756 0.03828886 0.06514756 0.06514756 0.06514756 0.06376755
+ 0.04762955 0.06514756 0.06514756 0.02155573]
+[0.04321224 0.12924525 0.0643672  0.0643672  0.0643672  0.0643672
+ 0.0643672  0.02922053 0.0643672  0.0643672  0.0643672  0.07676145
+ 0.06293821 0.0643672  0.0643672  0.01495035]
+[0.03920752 0.13807525 0.06514756 0.06514756 0.06514756 0.06514756
+ 0.06514756 0.03828886 0.06514756 0.06514756 0.06514756 0.06376755
+ 0.04762955 0.06514756 0.06514756 0.02155573]
+[0.03920752 0.13807525 0.06514756 0.06514756 0.06514756 0.06514756
+ 0.06514756 0.03828886 0.06514756 0.06514756 0.06514756 0.06376755
+ 0.04762955 0.06514756 0.06514756 0.02155573]
+[0.03920752 0.13807525 0.06514756 0.06514756 0.06514756 0.06514756
+ 0.06514756 0.03828886 0.06514756 0.06514756 0.06514756 0.06376755
+ 0.04762955 0.06514756 0.06514756 0.02155573]
+[0.0487495  0.11822729 0.06179176 0.06179176 0.06179176 0.06179176
+ 0.06179176 0.04805012 0.06179176 0.06179176 0.06179176 0.08302546
+ 0.05549689 0.06179176 0.06179176 0.02853312]
+[0.03261657 0.14566877 0.06672906 0.06672906 0.06672906 0.06672906
+ 0.06672906 0.02950466 0.06672906 0.06672906 0.06672906 0.06027085
+ 0.04795401 0.06672906 0.06672906 0.01669455]
+[0.03920752 0.13807525 0.06514756 0.06514756 0.06514756 0.06514756
+ 0.06514756 0.03828886 0.06514756 0.06514756 0.06514756 0.06376755
+ 0.04762955 0.06514756 0.06514756 0.02155573]
+[0.03920752 0.13807525 0.06514756 0.06514756 0.06514756 0.06514756
+ 0.06514756 0.03828886 0.06514756 0.06514756 0.06514756 0.06376755
+ 0.04762955 0.06514756 0.06514756 0.02155573]
+[0.03293232 0.14827208 0.06017558 0.06017558 0.06017558 0.06017558
+ 0.06017558 0.03039569 0.06017558 0.06017558 0.06017558 0.09278755
+ 0.07428214 0.06017558 0.06017558 0.01957442]]

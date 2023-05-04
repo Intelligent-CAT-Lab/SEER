@@ -1,31 +1,45 @@
 16345
 Test: public void test479() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test479"); org.apache.commons.cli.DefaultParser defaultParser0 = new org.apache.commons.cli.DefaultParser(); boolean boolean1 = defaultParser0.stopAtNonOption; defaultParser0.currentToken = ""; org.apache.commons.cli.Options options4 = new org.apache.commons.cli.Options(); org.apache.commons.cli.Options options7 = options4.addOption("", ""); java.util.Collection<org.apache.commons.cli.OptionGroup> optionGroupCollection8 = options4.getOptionGroups(); java.lang.String[] strArray9 = new java.lang.String[] {}; org.apache.commons.cli.CommandLine commandLine10 = defaultParser0.parse(options4, strArray9); defaultParser0.handleConcatenatedOptions("hi!"); defaultParser0.currentToken = "[ option: [ARG] :: hi! :: class java.lang.String ]"; java.lang.String str15 = defaultParser0.currentToken; org.apache.commons.cli.Options options16 = defaultParser0.options; org.apache.commons.cli.DefaultParser defaultParser17 = new org.apache.commons.cli.DefaultParser(); org.apache.commons.cli.Options options18 = new org.apache.commons.cli.Options(); org.apache.commons.cli.Options options23 = options18.addOption("", "hi!", false, ""); boolean boolean25 = options18.hasLongOption(""); org.apache.commons.cli.Options options29 = options18.addOption("", false, "[ Options: [ short {=[ option: :: :: class java.lang.String ]} ] [ long {} ]"); java.lang.String[] strArray30 = null; org.apache.commons.cli.CommandLine commandLine32 = defaultParser17.parse(options29, strArray30, true); org.apache.commons.cli.Options options33 = new org.apache.commons.cli.Options(); org.apache.commons.cli.Options options38 = options33.addOption("", "hi!", false, ""); boolean boolean40 = options33.hasLongOption(""); org.apache.commons.cli.Options options44 = options33.addOption("", false, "[ Options: [ short {=[ option: :: :: class java.lang.String ]} ] [ long {} ]"); java.util.List list45 = options44.getRequiredOptions(); defaultParser17.expectedOpts = list45; defaultParser0.expectedOpts = list45; defaultParser0.stopAtNonOption = false; org.apache.commons.cli.CommandLine commandLine50 = null; defaultParser0.cmd = commandLine50; org.apache.commons.cli.Options options52 = new org.apache.commons.cli.Options(); org.apache.commons.cli.Options options55 = options52.addOption("", ""); java.util.List<java.lang.String> strList57 = options55.getMatchingOptions("[ Options: [ short {=[ option: hi! :: :: class java.lang.String ]} ] [ long {hi!=[ option: hi! :: :: class java.lang.String ]} ]"); java.util.List<org.apache.commons.cli.Option> optionList58 = options55.helpOptions(); org.apache.commons.cli.DefaultParser defaultParser59 = new org.apache.commons.cli.DefaultParser(); boolean boolean60 = defaultParser59.stopAtNonOption; defaultParser59.currentToken = ""; org.apache.commons.cli.Options options63 = new org.apache.commons.cli.Options(); org.apache.commons.cli.Options options66 = options63.addOption("", ""); java.util.Collection<org.apache.commons.cli.OptionGroup> optionGroupCollection67 = options63.getOptionGroups(); java.lang.String[] strArray68 = new java.lang.String[] {}; org.apache.commons.cli.CommandLine commandLine69 = defaultParser59.parse(options63, strArray68); org.apache.commons.cli.CommandLine commandLine70 = defaultParser0.parse(options55, strArray68); java.util.List list71 = defaultParser0.expectedOpts; }
 Code: public List<String> getMatchingOptions(String opt){;List<String> matchingOpts = new ArrayList<String>();for (String longOpt : longOpts.keySet()){if (longOpt.startsWith(opt)){;}}return matchingOpts;}
-tensor([[0.0693, 0.0621, 0.1286, 0.0445, 0.0978, 0.0441, 0.0344, 0.0621, 0.0428,
-         0.0734, 0.0673, 0.1184, 0.1222, 0.0329],
-        [0.0702, 0.0631, 0.1145, 0.0452, 0.0796, 0.0647, 0.0345, 0.0558, 0.0421,
-         0.0921, 0.0617, 0.1098, 0.1264, 0.0404],
-        [0.0516, 0.0525, 0.1340, 0.0417, 0.0980, 0.0612, 0.0374, 0.0618, 0.0413,
-         0.0990, 0.0470, 0.1101, 0.1252, 0.0393],
-        [0.0677, 0.0574, 0.1277, 0.0440, 0.0796, 0.0505, 0.0382, 0.0584, 0.0487,
-         0.0983, 0.0485, 0.1162, 0.1321, 0.0327],
-        [0.0751, 0.0625, 0.1269, 0.0478, 0.0965, 0.0596, 0.0425, 0.0546, 0.0379,
-         0.0820, 0.0616, 0.1064, 0.1033, 0.0431],
-        [0.0788, 0.0603, 0.0878, 0.0507, 0.0805, 0.0645, 0.0369, 0.0575, 0.0603,
-         0.0872, 0.0661, 0.1010, 0.1226, 0.0457],
-        [0.0639, 0.0472, 0.1322, 0.0429, 0.0892, 0.0509, 0.0412, 0.0585, 0.0375,
-         0.0733, 0.0754, 0.1226, 0.1277, 0.0375],
-        [0.0653, 0.0553, 0.1153, 0.0432, 0.1019, 0.0471, 0.0384, 0.0577, 0.0408,
-         0.0691, 0.0644, 0.1333, 0.1308, 0.0374],
-        [0.0594, 0.0552, 0.1325, 0.0540, 0.0843, 0.0477, 0.0378, 0.0528, 0.0403,
-         0.0858, 0.0476, 0.1166, 0.1498, 0.0363],
-        [0.0773, 0.0522, 0.1130, 0.0520, 0.0856, 0.0440, 0.0411, 0.0639, 0.0555,
-         0.0953, 0.0643, 0.1058, 0.1195, 0.0305],
-        [0.0683, 0.0568, 0.1322, 0.0523, 0.0841, 0.0522, 0.0345, 0.0585, 0.0405,
-         0.0983, 0.0462, 0.1111, 0.1279, 0.0370],
-        [0.0643, 0.0519, 0.1275, 0.0393, 0.0836, 0.0563, 0.0344, 0.0581, 0.0294,
-         0.1164, 0.0516, 0.1229, 0.1279, 0.0364],
-        [0.0766, 0.0537, 0.0902, 0.0490, 0.0740, 0.0633, 0.0596, 0.0763, 0.0422,
-         0.0788, 0.0621, 0.1059, 0.1246, 0.0436],
-        [0.0678, 0.0608, 0.1167, 0.0517, 0.0881, 0.0514, 0.0360, 0.0613, 0.0408,
-         0.0951, 0.0656, 0.0965, 0.1231, 0.0452]])
+[[0.06934164 0.06208397 0.12860352 0.0445294  0.09777328 0.04413984
+ 0.03442268 0.06211913 0.04275493 0.07337788 0.06732526 0.1184417
+ 0.12219653 0.03289022]
+[0.07016167 0.06310885 0.11449149 0.04521778 0.07962362 0.06469192
+ 0.0345196  0.05577092 0.0420889  0.092097   0.06168531 0.10978238
+ 0.12638658 0.040374  ]
+[0.05161594 0.05246885 0.1340463  0.04173043 0.09796924 0.06122196
+ 0.03743636 0.06176547 0.04127225 0.09899196 0.04697159 0.11006121
+ 0.1251755  0.03927299]
+[0.06768071 0.0573821  0.12773764 0.04402168 0.07955829 0.05051947
+ 0.03820818 0.05839366 0.04867186 0.09834981 0.04845206 0.1161906
+ 0.13212511 0.03270884]
+[0.07511973 0.06254859 0.12691778 0.0478387  0.09654211 0.05957266
+ 0.04247777 0.05461261 0.03793921 0.08200883 0.06155759 0.10642701
+ 0.10333832 0.04309906]
+[0.07876977 0.06033523 0.08781436 0.0506814  0.08051678 0.0645421
+ 0.03691842 0.05747932 0.06032538 0.08723926 0.06611475 0.10097449
+ 0.12255372 0.04573506]
+[0.06392749 0.04721191 0.13218103 0.04293604 0.08922748 0.05085582
+ 0.04115905 0.05853284 0.03750596 0.07327095 0.07536298 0.12262689
+ 0.12767908 0.03752254]
+[0.06526602 0.0553178  0.1153366  0.04323851 0.10190854 0.04711049
+ 0.03844799 0.05765481 0.04076281 0.06907785 0.06444118 0.13328928
+ 0.13077378 0.03737432]
+[0.05937865 0.05524189 0.13247398 0.05398384 0.08425028 0.04774867
+ 0.03783145 0.05276434 0.04025358 0.08581267 0.04763251 0.11655033
+ 0.14982754 0.03625034]
+[0.07730851 0.05224754 0.11300941 0.05202239 0.08556922 0.04404808
+ 0.04111475 0.06389977 0.05545963 0.09530152 0.06432612 0.10577958
+ 0.119458   0.03045547]
+[0.06827527 0.05684079 0.13219118 0.05230801 0.08411489 0.0522176
+ 0.03446123 0.05845108 0.0404856  0.09834652 0.04623627 0.11113733
+ 0.12794307 0.03699113]
+[0.06430594 0.05192683 0.12751476 0.0392568  0.08357887 0.05629949
+ 0.03440505 0.05807304 0.02944911 0.11638839 0.05161164 0.12290213
+ 0.12791635 0.03637155]
+[0.07664271 0.05368391 0.09016828 0.04903207 0.07402898 0.06325815
+ 0.05964693 0.07633189 0.04223241 0.07878678 0.0621178  0.10591571
+ 0.12457624 0.04357812]
+[0.06778751 0.06078518 0.11671015 0.05169483 0.08806684 0.05142275
+ 0.036029   0.06126511 0.04080081 0.09505872 0.06561413 0.09653798
+ 0.12307528 0.0451517 ]]

@@ -1,0 +1,17 @@
+39372
+Test: public void test113() throws Throwable { BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance(); DateTimeField dateTimeField0 = buddhistChronology0.centuryOfEra(); DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.secondOfDay(); DividedDateTimeField dividedDateTimeField0 = new DividedDateTimeField(dateTimeField0, dateTimeFieldType0, 136); ScaledDurationField scaledDurationField0 = (ScaledDurationField)dividedDateTimeField0.getDurationField(); }
+Code: public DurationField getDurationField() { return iDurationField; }
+[[0.10740988 0.29270476 0.14900157 0.13926323 0.11772023 0.14900157
+ 0.04489871]
+[0.08352166 0.29333946 0.15244569 0.17660303 0.11122876 0.15244569
+ 0.03041564]
+[0.09164661 0.30243886 0.15410799 0.13895318 0.11106628 0.154108
+ 0.04767904]
+[0.10498411 0.27166057 0.1397418  0.16384245 0.12146942 0.1397418
+ 0.05855987]
+[0.07763889 0.30698293 0.156553   0.14814405 0.11334457 0.156553
+ 0.04078357]
+[0.09164661 0.30243886 0.15410799 0.13895318 0.11106628 0.154108
+ 0.04767904]
+[0.07572521 0.25221992 0.14365122 0.18285015 0.16198714 0.14365122
+ 0.0399152 ]]

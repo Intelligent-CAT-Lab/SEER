@@ -1,0 +1,9 @@
+166057
+Test: public void test49() throws Throwable { JSONConfiguration jSONConfiguration0 = new JSONConfiguration(); TrackedNodeModel trackedNodeModel0 = mock(TrackedNodeModel.class, new ViolatedAssumptionAnswer()); doReturn((NodeSelector) null).when(trackedNodeModel0).getSelector(); SubnodeConfiguration subnodeConfiguration0 = new SubnodeConfiguration(jSONConfiguration0, trackedNodeModel0); BaseHierarchicalConfiguration baseHierarchicalConfiguration0 = null;  baseHierarchicalConfiguration0 = new BaseHierarchicalConfiguration(subnodeConfiguration0);   }
+Code: public BaseHierarchicalConfiguration() { this((HierarchicalConfiguration<ImmutableNode>) null); }
+[[0.13572794 0.18829462 0.18599346 0.18829462 0.24276227 0.05892707]
+[0.12013154 0.19971563 0.19480781 0.19971563 0.219737   0.0658924 ]
+[0.146781   0.19615768 0.22732109 0.19615768 0.1520466  0.08153597]
+[0.12013154 0.19971563 0.19480781 0.19971563 0.219737   0.0658924 ]
+[0.10727091 0.21559529 0.22418863 0.21559529 0.19818003 0.03916991]
+[0.10603222 0.1990138  0.26833275 0.1990138  0.16966291 0.05794453]]

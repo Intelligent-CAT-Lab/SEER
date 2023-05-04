@@ -1,0 +1,7 @@
+8591
+Test: public void test236() throws Throwable { CharSequenceUtils charSequenceUtils0 = new CharSequenceUtils(); StringBuilder stringBuilder0 = new StringBuilder(0); StringBuilder stringBuilder1 = stringBuilder0.append(')'); StringBuilder stringBuilder2 = stringBuilder1.replace(0, 0, "org.apache.commons.lang3.CharSequenceUtils"); char[] charArray0 = new char[1]; charArray0[0] = ')'; StringBuilder stringBuilder3 = stringBuilder2.append(charArray0); StringBuilder stringBuilder4 = stringBuilder3.insert(2, charArray0); }
+Code: public CharSequenceUtils() { }
+[[0.26360175 0.36561108 0.27517086 0.09561627]
+[0.22469527 0.38783675 0.285387   0.102081  ]
+[0.23549548 0.34202406 0.30348468 0.11899572]
+[0.18661417 0.3696179  0.36045745 0.08331049]]

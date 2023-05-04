@@ -1,31 +1,45 @@
 70234
 Test: public void test106() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test106"); org.apache.commons.jxpath.ri.compiler.Expression expression0 = null; org.apache.commons.jxpath.ri.compiler.Constant constant2 = new org.apache.commons.jxpath.ri.compiler.Constant((java.lang.Number) 100L); org.apache.commons.jxpath.ri.compiler.Constant constant4 = new org.apache.commons.jxpath.ri.compiler.Constant((java.lang.Number) 100L); org.apache.commons.jxpath.ri.compiler.NameAttributeTest nameAttributeTest5 = new org.apache.commons.jxpath.ri.compiler.NameAttributeTest((org.apache.commons.jxpath.ri.compiler.Expression) constant2, (org.apache.commons.jxpath.ri.compiler.Expression) constant4); boolean boolean6 = nameAttributeTest5.isSymmetric(); java.lang.String str7 = nameAttributeTest5.getSymbol(); org.apache.commons.jxpath.ri.compiler.Constant constant9 = new org.apache.commons.jxpath.ri.compiler.Constant((java.lang.Number) 100L); org.apache.commons.jxpath.ri.compiler.Constant constant11 = new org.apache.commons.jxpath.ri.compiler.Constant((java.lang.Number) 100L); org.apache.commons.jxpath.ri.compiler.Constant constant13 = new org.apache.commons.jxpath.ri.compiler.Constant((java.lang.Number) 100L); org.apache.commons.jxpath.ri.compiler.NameAttributeTest nameAttributeTest14 = new org.apache.commons.jxpath.ri.compiler.NameAttributeTest((org.apache.commons.jxpath.ri.compiler.Expression) constant11, (org.apache.commons.jxpath.ri.compiler.Expression) constant13); org.apache.commons.jxpath.ri.EvalContext evalContext15 = null; org.apache.commons.jxpath.ri.compiler.NodeTest nodeTest16 = null; org.apache.commons.jxpath.ri.axes.SelfContext selfContext17 = new org.apache.commons.jxpath.ri.axes.SelfContext(evalContext15, nodeTest16); java.lang.Object obj18 = constant11.compute((org.apache.commons.jxpath.ri.EvalContext) selfContext17); selfContext17.reset(); java.lang.Object obj20 = constant9.computeValue((org.apache.commons.jxpath.ri.EvalContext) selfContext17); org.apache.commons.jxpath.ri.compiler.NameAttributeTest nameAttributeTest21 = new org.apache.commons.jxpath.ri.compiler.NameAttributeTest((org.apache.commons.jxpath.ri.compiler.Expression) nameAttributeTest5, (org.apache.commons.jxpath.ri.compiler.Expression) constant9); org.apache.commons.jxpath.ri.compiler.NameAttributeTest nameAttributeTest22 = new org.apache.commons.jxpath.ri.compiler.NameAttributeTest(expression0, (org.apache.commons.jxpath.ri.compiler.Expression) constant9); org.apache.commons.jxpath.ri.compiler.Constant constant24 = new org.apache.commons.jxpath.ri.compiler.Constant((java.lang.Number) 100L); org.apache.commons.jxpath.ri.compiler.Constant constant26 = new org.apache.commons.jxpath.ri.compiler.Constant((java.lang.Number) 100L); org.apache.commons.jxpath.ri.compiler.NameAttributeTest nameAttributeTest27 = new org.apache.commons.jxpath.ri.compiler.NameAttributeTest((org.apache.commons.jxpath.ri.compiler.Expression) constant24, (org.apache.commons.jxpath.ri.compiler.Expression) constant26); org.apache.commons.jxpath.ri.compiler.Constant constant29 = new org.apache.commons.jxpath.ri.compiler.Constant((java.lang.Number) 100L); org.apache.commons.jxpath.ri.compiler.Constant constant31 = new org.apache.commons.jxpath.ri.compiler.Constant((java.lang.Number) 100L); org.apache.commons.jxpath.ri.compiler.NameAttributeTest nameAttributeTest32 = new org.apache.commons.jxpath.ri.compiler.NameAttributeTest((org.apache.commons.jxpath.ri.compiler.Expression) constant29, (org.apache.commons.jxpath.ri.compiler.Expression) constant31); org.apache.commons.jxpath.ri.compiler.CoreOperationGreaterThanOrEqual coreOperationGreaterThanOrEqual33 = new org.apache.commons.jxpath.ri.compiler.CoreOperationGreaterThanOrEqual((org.apache.commons.jxpath.ri.compiler.Expression) constant24, (org.apache.commons.jxpath.ri.compiler.Expression) constant29); int int34 = coreOperationGreaterThanOrEqual33.getPrecedence(); java.lang.String str35 = coreOperationGreaterThanOrEqual33.getSymbol(); org.apache.commons.jxpath.ri.compiler.CoreOperationNotEqual coreOperationNotEqual36 = new org.apache.commons.jxpath.ri.compiler.CoreOperationNotEqual((org.apache.commons.jxpath.ri.compiler.Expression) constant9, (org.apache.commons.jxpath.ri.compiler.Expression) coreOperationGreaterThanOrEqual33); org.apache.commons.jxpath.JXPathContext jXPathContext37 = null; org.apache.commons.jxpath.JXPathContext jXPathContext39 = org.apache.commons.jxpath.JXPathContext.newContext(jXPathContext37, (java.lang.Object) (short) 10); java.text.DecimalFormatSymbols decimalFormatSymbols41 = jXPathContext39.getDecimalFormatSymbols("hi!"); org.apache.commons.jxpath.Container container42 = null; java.util.Locale locale43 = null; org.apache.commons.jxpath.ri.model.container.ContainerPointer containerPointer44 = new org.apache.commons.jxpath.ri.model.container.ContainerPointer(container42, locale43); int int45 = containerPointer44.getLength(); java.util.Locale locale46 = null; org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer jDOMNodePointer47 = new org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer((java.lang.Object) containerPointer44, locale46); java.lang.Object obj48 = jDOMNodePointer47.getValue(); org.apache.commons.jxpath.ri.NamespaceResolver namespaceResolver49 = jDOMNodePointer47.getNamespaceResolver(); org.apache.commons.jxpath.Container container50 = null; java.util.Locale locale51 = null; org.apache.commons.jxpath.ri.model.container.ContainerPointer containerPointer52 = new org.apache.commons.jxpath.ri.model.container.ContainerPointer(container50, locale51); int int53 = containerPointer52.getLength(); java.lang.String str55 = containerPointer52.getNamespaceURI(""); java.lang.String str56 = containerPointer52.asPath(); java.lang.String str57 = containerPointer52.asPath(); org.apache.commons.jxpath.ri.JXPathContextReferenceImpl jXPathContextReferenceImpl58 = new org.apache.commons.jxpath.ri.JXPathContextReferenceImpl(jXPathContext39, (java.lang.Object) jDOMNodePointer47, (org.apache.commons.jxpath.Pointer) containerPointer52); org.apache.commons.jxpath.ri.model.NodePointer nodePointer59 = null; org.apache.commons.jxpath.ri.QName qName60 = null; org.apache.commons.jxpath.ri.model.beans.NullPointer nullPointer61 = new org.apache.commons.jxpath.ri.model.beans.NullPointer(nodePointer59, qName60); org.apache.commons.jxpath.ri.compiler.NodeTest nodeTest62 = null; org.apache.commons.jxpath.ri.model.NodePointer nodePointer64 = null; org.apache.commons.jxpath.ri.QName qName65 = null; org.apache.commons.jxpath.ri.model.beans.NullPointer nullPointer66 = new org.apache.commons.jxpath.ri.model.beans.NullPointer(nodePointer64, qName65); org.apache.commons.jxpath.ri.model.NodeIterator nodeIterator67 = nullPointer61.childIterator(nodeTest62, true, nodePointer64); boolean boolean68 = nullPointer61.isLeaf(); nullPointer61.setAttribute(true); boolean boolean71 = nullPointer61.isActual(); jXPathContextReferenceImpl58.setNamespaceContextPointer((org.apache.commons.jxpath.Pointer) nullPointer61); org.apache.commons.jxpath.ri.compiler.Constant constant74 = new org.apache.commons.jxpath.ri.compiler.Constant((java.lang.Number) 100L); org.apache.commons.jxpath.ri.compiler.Expression expression75 = null; org.apache.commons.jxpath.ri.compiler.CoreOperationLessThanOrEqual coreOperationLessThanOrEqual76 = new org.apache.commons.jxpath.ri.compiler.CoreOperationLessThanOrEqual((org.apache.commons.jxpath.ri.compiler.Expression) constant74, expression75); org.apache.commons.jxpath.JXPathContext jXPathContext77 = org.apache.commons.jxpath.JXPathContext.newContext((org.apache.commons.jxpath.JXPathContext) jXPathContextReferenceImpl58, (java.lang.Object) coreOperationLessThanOrEqual76); org.apache.commons.jxpath.ri.compiler.Constant constant79 = new org.apache.commons.jxpath.ri.compiler.Constant((java.lang.Number) 100L); org.apache.commons.jxpath.ri.compiler.Constant constant81 = new org.apache.commons.jxpath.ri.compiler.Constant((java.lang.Number) 100L); org.apache.commons.jxpath.ri.compiler.NameAttributeTest nameAttributeTest82 = new org.apache.commons.jxpath.ri.compiler.NameAttributeTest((org.apache.commons.jxpath.ri.compiler.Expression) constant79, (org.apache.commons.jxpath.ri.compiler.Expression) constant81); boolean boolean83 = nameAttributeTest82.isSymmetric(); java.lang.String str84 = nameAttributeTest82.getSymbol(); boolean boolean85 = nameAttributeTest82.computeContextDependent(); boolean boolean86 = coreOperationNotEqual36.equal((java.lang.Object) coreOperationLessThanOrEqual76, (java.lang.Object) nameAttributeTest82); }
 Code: public Object computeValue(EvalContext context) { return equal(context, args[0], args[1]) ? Boolean.FALSE : Boolean.TRUE; }
-tensor([[0.0578, 0.0446, 0.1332, 0.0520, 0.0794, 0.0639, 0.0834, 0.0911, 0.0609,
-         0.1005, 0.0753, 0.0543, 0.0785, 0.0251],
-        [0.0531, 0.0371, 0.1722, 0.0465, 0.1099, 0.0650, 0.0701, 0.0909, 0.0523,
-         0.1024, 0.0850, 0.0384, 0.0566, 0.0204],
-        [0.0458, 0.0367, 0.1369, 0.0717, 0.1039, 0.0595, 0.0886, 0.0742, 0.0536,
-         0.1224, 0.0823, 0.0374, 0.0653, 0.0218],
-        [0.0493, 0.0412, 0.1364, 0.0460, 0.0852, 0.0787, 0.0806, 0.0910, 0.0581,
-         0.1176, 0.0943, 0.0386, 0.0646, 0.0185],
-        [0.0627, 0.0373, 0.1418, 0.0551, 0.0964, 0.0727, 0.0812, 0.0972, 0.0561,
-         0.0841, 0.0770, 0.0509, 0.0527, 0.0347],
-        [0.0442, 0.0415, 0.1649, 0.0419, 0.0831, 0.0647, 0.0857, 0.0964, 0.0379,
-         0.1288, 0.0819, 0.0403, 0.0657, 0.0229],
-        [0.0468, 0.0450, 0.1490, 0.0522, 0.0885, 0.0665, 0.0804, 0.0925, 0.0616,
-         0.1030, 0.0698, 0.0470, 0.0690, 0.0286],
-        [0.0495, 0.0446, 0.1489, 0.0492, 0.0856, 0.0580, 0.0698, 0.0917, 0.0538,
-         0.1150, 0.0921, 0.0443, 0.0740, 0.0236],
-        [0.0566, 0.0412, 0.1570, 0.0418, 0.1115, 0.0636, 0.0654, 0.0887, 0.0616,
-         0.1001, 0.0797, 0.0514, 0.0637, 0.0176],
-        [0.0528, 0.0381, 0.1226, 0.0583, 0.1149, 0.0714, 0.0721, 0.0703, 0.0451,
-         0.1227, 0.0902, 0.0506, 0.0688, 0.0221],
-        [0.0519, 0.0371, 0.1314, 0.0426, 0.1117, 0.0632, 0.0789, 0.0892, 0.0556,
-         0.1050, 0.0803, 0.0455, 0.0783, 0.0294],
-        [0.0620, 0.0411, 0.1075, 0.0478, 0.0937, 0.0781, 0.0801, 0.0917, 0.0546,
-         0.1425, 0.0711, 0.0422, 0.0549, 0.0327],
-        [0.0466, 0.0358, 0.1483, 0.0562, 0.0876, 0.0675, 0.0804, 0.0848, 0.0559,
-         0.1278, 0.0763, 0.0408, 0.0702, 0.0217],
-        [0.0429, 0.0425, 0.1161, 0.0584, 0.1000, 0.0907, 0.0842, 0.0920, 0.0605,
-         0.1125, 0.0886, 0.0376, 0.0519, 0.0220]])
+[[0.05776951 0.04464121 0.13315198 0.05197298 0.07943209 0.06387439
+ 0.08341231 0.09109119 0.06093662 0.10052472 0.07526115 0.05431145
+ 0.07848079 0.02513964]
+[0.05309648 0.03709626 0.17224328 0.04651925 0.10989992 0.06498927
+ 0.07013877 0.09087362 0.05225351 0.10239692 0.0849848  0.03842998
+ 0.05663502 0.020443  ]
+[0.04580823 0.03669869 0.13688327 0.07165774 0.10390195 0.05947588
+ 0.08855624 0.07423855 0.05359682 0.12235121 0.08230904 0.03741836
+ 0.06531073 0.02179323]
+[0.04925718 0.04124301 0.13644223 0.04597571 0.08516642 0.07867801
+ 0.08055671 0.0910069  0.05807822 0.11755709 0.09430038 0.0386327
+ 0.06461997 0.0184854 ]
+[0.06271337 0.03734578 0.1417536  0.05513728 0.09643201 0.07274935
+ 0.08121101 0.09716529 0.05605984 0.08410035 0.07697143 0.0509177
+ 0.05273983 0.03470316]
+[0.04418327 0.0415175  0.16494903 0.04194354 0.08306585 0.06471586
+ 0.08573068 0.09637705 0.03785435 0.12882498 0.08190054 0.04032304
+ 0.06568207 0.02293227]
+[0.04677567 0.04502656 0.14902079 0.05222485 0.08847709 0.06646577
+ 0.08043361 0.09250841 0.06164439 0.10300307 0.06977101 0.04701556
+ 0.06901672 0.02861647]
+[0.04947099 0.04456557 0.14892891 0.04923363 0.08557605 0.05796789
+ 0.069798   0.09165309 0.05380891 0.1150194  0.09214441 0.04425389
+ 0.07400889 0.02357036]
+[0.05659101 0.04120683 0.15702257 0.04182008 0.11148727 0.06360453
+ 0.06544035 0.08872992 0.06164497 0.10009458 0.07966219 0.05138864
+ 0.0636574  0.01764972]
+[0.0527983  0.03814154 0.12259615 0.05826678 0.11485461 0.07135846
+ 0.07205694 0.07026367 0.04514012 0.12274024 0.0902026  0.05064972
+ 0.06881387 0.02211697]
+[0.05188306 0.03707566 0.13138601 0.04260904 0.11166227 0.06323713
+ 0.07887156 0.08923486 0.05559287 0.10495155 0.08029772 0.04550695
+ 0.07825624 0.02943512]
+[0.06197811 0.04107472 0.10752889 0.0477802  0.09372772 0.07813518
+ 0.08007801 0.09172811 0.05455267 0.14247757 0.07112808 0.0421963
+ 0.05491841 0.03269606]
+[0.04663964 0.03583673 0.14826798 0.05616401 0.08760871 0.06745812
+ 0.08044221 0.08476573 0.05591358 0.12781    0.07631779 0.04084575
+ 0.07021983 0.02170989]
+[0.04289582 0.04253832 0.11610116 0.05844935 0.10003995 0.09073745
+ 0.08416661 0.09195327 0.06054027 0.112479   0.08864854 0.03757478
+ 0.05185577 0.0220197 ]]

@@ -1,0 +1,17 @@
+141035
+Test: public void test6() throws Throwable { LateralTCPCacheFactory lateralTCPCacheFactory0 = new LateralTCPCacheFactory(); TCPLateralCacheAttributes tCPLateralCacheAttributes0 = new TCPLateralCacheAttributes(); EncryptingSerializer encryptingSerializer0 = new EncryptingSerializer(); lateralTCPCacheFactory0.initialize(); lateralTCPCacheFactory0.getCSNLInstance((ITCPLateralCacheAttributes) tCPLateralCacheAttributes0, (IElementSerializer) encryptingSerializer0); lateralTCPCacheFactory0.dispose(); }
+Code: public String getName() { return this.name; }
+[[0.10809216 0.13623616 0.14996901 0.16210373 0.12117967 0.2724315
+ 0.04998774]
+[0.11576642 0.13182616 0.16130443 0.1824943  0.11836464 0.24465935
+ 0.04558465]
+[0.09518363 0.16806701 0.15571107 0.16833507 0.11598665 0.24076118
+ 0.05595546]
+[0.12121366 0.1763383  0.15868095 0.19514304 0.139467   0.14039147
+ 0.06876561]
+[0.08045502 0.15764505 0.15125021 0.17599432 0.11359868 0.27377468
+ 0.04728201]
+[0.09832038 0.1742139  0.16155222 0.21631242 0.12168864 0.18501593
+ 0.04289649]
+[0.07988153 0.14631389 0.14936087 0.20544721 0.17450906 0.20028374
+ 0.04420366]]

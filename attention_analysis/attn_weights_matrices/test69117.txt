@@ -1,10 +1,17 @@
 69117
 Test: public void test685() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest1.test685"); org.jsoup.nodes.Document document1 = org.jsoup.nodes.Document.createShell(""); org.jsoup.nodes.Element element2 = document1.head(); java.lang.String str3 = document1.html(); org.jsoup.nodes.Element element5 = document1.val("hi!"); org.jsoup.select.Elements elements8 = element5.getElementsByAttributeValueStarting("#root", " "); org.jsoup.parser.TokenQueue tokenQueue10 = new org.jsoup.parser.TokenQueue("hi!"); java.lang.String str11 = tokenQueue10.toString(); boolean boolean12 = element5.equals((java.lang.Object) tokenQueue10); boolean boolean13 = tokenQueue10.consumeWhitespace(); java.lang.String str14 = tokenQueue10.toString(); java.lang.String str16 = tokenQueue10.chompTo("[<, h, t, m, l, >, \n, <, h, e, a, d, >, \n, <, /, h, e, a, d, >, \n, <, b, o, d, y, >, \n, <, /, b, o, d, y, >, \n, <, /, h, t, m, l, >]=\"\""); }
 Code: public String toString() { return tagName; }
-tensor([[0.1246, 0.1598, 0.1630, 0.1668, 0.1372, 0.1953, 0.0532],
-        [0.1302, 0.1510, 0.1822, 0.1896, 0.1313, 0.1675, 0.0483],
-        [0.0880, 0.2171, 0.1436, 0.1642, 0.1329, 0.2114, 0.0428],
-        [0.1213, 0.1795, 0.1268, 0.1904, 0.1402, 0.1740, 0.0679],
-        [0.0931, 0.2009, 0.1262, 0.1875, 0.1342, 0.2069, 0.0511],
-        [0.0873, 0.1903, 0.1475, 0.2034, 0.1397, 0.1748, 0.0569],
-        [0.0832, 0.1524, 0.1690, 0.2025, 0.1784, 0.1705, 0.0441]])
+[[0.12457377 0.15984267 0.16303702 0.16679445 0.13718346 0.19534054
+ 0.05322807]
+[0.13020205 0.15098852 0.1822006  0.18956566 0.13128574 0.16747023
+ 0.04828718]
+[0.08802976 0.21705417 0.14358628 0.16415109 0.13292593 0.2114045
+ 0.04284828]
+[0.12126152 0.17950262 0.12684232 0.1903659  0.14015642 0.17401563
+ 0.06785564]
+[0.09311392 0.20089346 0.12623334 0.18751444 0.13424748 0.20688695
+ 0.05111036]
+[0.08730078 0.19034989 0.14745954 0.20342575 0.1397071  0.17480749
+ 0.05694952]
+[0.08316851 0.15241882 0.16901556 0.20245433 0.17838095 0.17045085
+ 0.04411101]]

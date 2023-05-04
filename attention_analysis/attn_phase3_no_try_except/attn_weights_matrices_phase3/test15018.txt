@@ -1,0 +1,7 @@
+15018
+Test: public void test59() throws Throwable { DurationFormatUtils.formatPeriod((-247L), (-247L), "tM*@pKv"); Clock clock0 = MockClock.systemDefaultZone(); MockJapaneseDate.now(clock0); DurationFormatUtils.Token durationFormatUtils_Token0 = new DurationFormatUtils.Token(clock0); boolean boolean0 = true; long long0 = (-641L); String string0 = "Expected type: %s, actual: %s"; int int0 = 109; SimpleTimeZone simpleTimeZone0 = null;  simpleTimeZone0 = new SimpleTimeZone(109, "l]dPv4``n|t~{XZ9Oq+", (-1454), (-1454), Integer.MIN_VALUE, (-1508), (-432), 100, Integer.MIN_VALUE, 139, 139);   }
+Code: public DurationFormatUtils() { }
+[[0.26360175 0.36561108 0.27517086 0.09561627]
+[0.22469527 0.38783675 0.285387   0.102081  ]
+[0.23549548 0.34202406 0.30348468 0.11899572]
+[0.18661417 0.3696179  0.36045745 0.08331049]]

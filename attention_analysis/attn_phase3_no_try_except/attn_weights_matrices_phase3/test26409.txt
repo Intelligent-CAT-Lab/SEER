@@ -1,0 +1,21 @@
+26409
+Test: public void test12() throws Throwable { Vector1D vector1D0 = Vector1D.of((-2251.568622)); Precision.DoubleEquivalence precision_DoubleEquivalence0 = mock(Precision.DoubleEquivalence.class, new ViolatedAssumptionAnswer()); doReturn(false).when(precision_DoubleEquivalence0).eq(anyDouble() , anyDouble()); OrientedPoint orientedPoint0 = new OrientedPoint(vector1D0, false, precision_DoubleEquivalence0); AffineTransformMatrix1D affineTransformMatrix1D0 = AffineTransformMatrix1D.createScale((-2251.568622)); OrientedPoint orientedPoint1 = orientedPoint0.transform(affineTransformMatrix1D0); OrientedPoint orientedPoint2 = orientedPoint1.reverse(); double double0 = orientedPoint2.offset(vector1D0); }
+Code: public double offset(final Vector1D pt) { return offset(pt.getX()); }
+[[0.09030717 0.15625936 0.12527524 0.12527524 0.12527524 0.11598495
+ 0.09883952 0.12527524 0.03750809]
+[0.07106881 0.15507738 0.1279656  0.1279656  0.1279656  0.12208755
+ 0.10755363 0.1279656  0.03235023]
+[0.0775039  0.14471568 0.12883195 0.12883195 0.12883195 0.12577245
+ 0.09414484 0.12883195 0.04253531]
+[0.0775039  0.14471568 0.12883195 0.12883195 0.12883195 0.12577245
+ 0.09414484 0.12883195 0.04253531]
+[0.0775039  0.14471568 0.12883195 0.12883195 0.12883195 0.12577245
+ 0.09414484 0.12883195 0.04253531]
+[0.09186649 0.12354097 0.11892047 0.11892047 0.11892047 0.15090585
+ 0.10530724 0.11892047 0.05269762]
+[0.06603205 0.14259756 0.1340648  0.1340648  0.1340648  0.12412174
+ 0.0967216  0.1340648  0.03426779]
+[0.0775039  0.14471568 0.12883195 0.12883195 0.12883195 0.12577245
+ 0.09414484 0.12883195 0.04253531]
+[0.0623676  0.1412047  0.11688362 0.11688362 0.11688362 0.15884408
+ 0.13579749 0.11688362 0.03425169]]

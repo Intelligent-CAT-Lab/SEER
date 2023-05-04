@@ -1,0 +1,23 @@
+53982
+Test: public void test13283() throws Throwable { DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); DateTimeFormatterBuilder.TimeZoneOffset dateTimeFormatterBuilder_TimeZoneOffset0 = new DateTimeFormatterBuilder.TimeZoneOffset("G%nR{A``l1\"*&d", "G%nR{A``l1\"*&d", true, 8, 355); DateTimePrinter dateTimePrinter0 = InternalPrinterDateTimePrinter.of(dateTimeFormatterBuilder_TimeZoneOffset0); DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.append(dateTimePrinter0); DateTimeFormatterBuilder dateTimeFormatterBuilder2 = dateTimeFormatterBuilder1.appendTimeZoneId(); DateTimeParser dateTimeParser0 = InternalParserDateTimeParser.of(dateTimeFormatterBuilder_TimeZoneOffset0); DateTimeFormatterBuilder dateTimeFormatterBuilder3 = dateTimeFormatterBuilder2.append(dateTimeParser0); DateTimeFormatterBuilder dateTimeFormatterBuilder4 = dateTimeFormatterBuilder3.appendTwoDigitYear(8, false); DateTimeFormatterBuilder dateTimeFormatterBuilder5 = dateTimeFormatterBuilder4.appendDayOfYear(8); }
+Code: public DateTimeFormatterBuilder appendDayOfYear(int minDigits) { return appendDecimal(DateTimeFieldType.dayOfYear(), minDigits, 3); }
+[[0.0698197  0.09687142 0.09687142 0.09687142 0.10712565 0.07857197
+ 0.09687142 0.09687142 0.22730796 0.03281758]
+[0.06274673 0.10142803 0.10142803 0.10142803 0.11771128 0.07663836
+ 0.10142803 0.10142803 0.19707006 0.0386934 ]
+[0.06274673 0.10142803 0.10142803 0.10142803 0.11771128 0.07663836
+ 0.10142803 0.10142803 0.19707006 0.0386934 ]
+[0.06274673 0.10142803 0.10142803 0.10142803 0.11771128 0.07663836
+ 0.10142803 0.10142803 0.19707006 0.0386934 ]
+[0.08160464 0.09993955 0.09993955 0.09993955 0.14682254 0.09187476
+ 0.09993955 0.09993955 0.13072315 0.04927707]
+[0.05120113 0.0944068  0.0944068  0.0944068  0.11578437 0.07164448
+ 0.0944068  0.0944068  0.25840136 0.03093466]
+[0.06274673 0.10142803 0.10142803 0.10142803 0.11771128 0.07663836
+ 0.10142803 0.10142803 0.19707006 0.0386934 ]
+[0.06274673 0.10142803 0.10142803 0.10142803 0.11771128 0.07663836
+ 0.10142803 0.10142803 0.19707006 0.0386934 ]
+[0.03360436 0.10096095 0.10096095 0.10096095 0.12494497 0.07279149
+ 0.10096095 0.10096095 0.24537206 0.01848231]
+[0.04849779 0.08428137 0.08428137 0.08428137 0.16168681 0.11663075
+ 0.08428137 0.08428137 0.2187694  0.0330084 ]]

@@ -1,0 +1,7 @@
+83094
+Test: public void test24() throws Throwable { PipedInputStream pipedInputStream0 = new PipedInputStream(); SequenceInputStream sequenceInputStream0 = new SequenceInputStream(pipedInputStream0, pipedInputStream0); DataInputStream dataInputStream0 = new DataInputStream(sequenceInputStream0); Constant[] constantArray0 = new Constant[0]; ConstantPool constantPool0 = new ConstantPool(constantArray0); Method method0 = null;  method0 = new Method(dataInputStream0, constantPool0);   }
+Code: public Method() { }
+[[0.26360175 0.36561108 0.27517086 0.09561627]
+[0.22469527 0.38783675 0.285387   0.102081  ]
+[0.23549548 0.34202406 0.30348468 0.11899572]
+[0.18661417 0.3696179  0.36045745 0.08331049]]

@@ -1,0 +1,17 @@
+131453
+Test: public void test10() throws Throwable { EmptyOrderedMapIterator<Object, String> emptyOrderedMapIterator0 = new EmptyOrderedMapIterator<Object, String>(); AbstractMapIteratorDecorator<Object, String> abstractMapIteratorDecorator0 = new AbstractMapIteratorDecorator<Object, String>(emptyOrderedMapIterator0); // Undeclared exception!  abstractMapIteratorDecorator0.getValue();   }
+Code: public V getValue() { return iterator.getValue(); }
+[[0.12327866 0.17101476 0.18871664 0.15946019 0.13506562 0.17101476
+ 0.05144939]
+[0.10137732 0.16871735 0.2193347  0.16339976 0.1231147  0.16871735
+ 0.05533883]
+[0.10302051 0.16008331 0.19992094 0.18420656 0.14212678 0.16008332
+ 0.05055859]
+[0.11634159 0.15153798 0.19159809 0.18901452 0.1336371  0.15153798
+ 0.06633275]
+[0.08368284 0.17048039 0.25329942 0.15611464 0.12277934 0.17048039
+ 0.04316304]
+[0.10137732 0.16871735 0.2193347  0.16339976 0.1231147  0.16871735
+ 0.05533883]
+[0.08440818 0.15894818 0.15894729 0.2106008  0.18252236 0.15894815
+ 0.04562499]]

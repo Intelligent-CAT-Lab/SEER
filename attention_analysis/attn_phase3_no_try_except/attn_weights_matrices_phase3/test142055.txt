@@ -1,0 +1,19 @@
+142055
+Test: public void test30() throws Throwable { CacheEventLoggerDebugLogger cacheEventLoggerDebugLogger0 = new CacheEventLoggerDebugLogger(); CompressingSerializer compressingSerializer0 = new CompressingSerializer(); RemoteCacheFactory remoteCacheFactory0 = new RemoteCacheFactory(); LinkedList<RemoteCacheNoWait<CacheElement<String, Object>, Object>> linkedList0 = new LinkedList<RemoteCacheNoWait<CacheElement<String, Object>, Object>>(); RemoteCacheAttributes remoteCacheAttributes0 = new RemoteCacheAttributes(); RemoteCacheNoWaitFacade<CacheElement<String, Object>, Object> remoteCacheNoWaitFacade0 = new RemoteCacheNoWaitFacade<CacheElement<String, Object>, Object>(linkedList0, remoteCacheAttributes0, cacheEventLoggerDebugLogger0, compressingSerializer0, remoteCacheFactory0); // Undeclared exception!  remoteCacheNoWaitFacade0.getPrimaryServer();   }
+Code: public RemoteCacheNoWait<K, V> getPrimaryServer() { return noWaits.get(0); }
+[[0.10769189 0.14938717 0.14938717 0.14938717 0.13373199 0.11730102
+ 0.14938717 0.04372638]
+[0.09077284 0.15143086 0.15143086 0.15143086 0.14430623 0.11018361
+ 0.15143086 0.0490139 ]
+[0.09077284 0.15143086 0.15143086 0.15143086 0.14430623 0.11018361
+ 0.15143086 0.0490139 ]
+[0.09077284 0.15143086 0.15143086 0.15143086 0.14430623 0.11018361
+ 0.15143086 0.0490139 ]
+[0.10474119 0.13602485 0.13602485 0.13602485 0.17107216 0.12019399
+ 0.13602485 0.0598933 ]
+[0.07683693 0.15724705 0.15724705 0.15724705 0.14188328 0.11298558
+ 0.15724705 0.03930595]
+[0.09077284 0.15143086 0.15143086 0.15143086 0.14430623 0.11018361
+ 0.15143086 0.0490139 ]
+[0.07219031 0.13394369 0.13394369 0.13394369 0.19165097 0.15943684
+ 0.13394369 0.04094704]]

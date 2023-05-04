@@ -1,0 +1,17 @@
+152872
+Test: public void test7() throws Throwable { Boolean boolean0 = Boolean.FALSE; FloatConverter floatConverter0 = new FloatConverter(boolean0); Boolean.logicalAnd(true, true); floatConverter0.isAllowDecimals(); Locale locale0 = Locale.CHINA; locale0.getExtensionKeys(); floatConverter0.setLocale(locale0); floatConverter0.toString(); ByteConverter byteConverter0 = new ByteConverter(boolean0); byteConverter0.setPattern(""); byteConverter0.getDefaultType(); byteConverter0.getDefaultType(); floatConverter0.getLocale(); DoubleConverter doubleConverter0 = new DoubleConverter(); doubleConverter0.getDefaultType(); floatConverter0.setPattern(")"); BigDecimalConverter bigDecimalConverter0 = new BigDecimalConverter(); bigDecimalConverter0.getDefaultType(); bigDecimalConverter0.getDefaultType(); byteConverter0.toString(); Class<Float> class0 = Float.class; Short short0 = new Short((short)0); Short.compare((short)0, (short)0); doubleConverter0.convertToType(class0, (Object) short0); floatConverter0.setUseLocaleFormat(false); Byte byte0 = new Byte((byte)1); byteConverter0.convertToString(byte0); doubleConverter0.setLocale(locale0); Double double0 = new Double(0.0); BigIntegerConverter bigIntegerConverter0 = new BigIntegerConverter(double0); bigIntegerConverter0.getDefaultType(); byteConverter0.getPattern(); }
+Code: public String getPattern() { return pattern; }
+[[0.12830108 0.1666011  0.17797421 0.15782064 0.1395634  0.17797421
+ 0.05176535]
+[0.12820424 0.14977588 0.1834282  0.1802996  0.12852609 0.18342823
+ 0.04633773]
+[0.10518022 0.1933394  0.1756843  0.16600226 0.12763993 0.1756843
+ 0.0564696 ]
+[0.11900765 0.17346033 0.15602481 0.19107194 0.13699669 0.15602481
+ 0.06741381]
+[0.08912516 0.20455416 0.18036592 0.1687272  0.13034222 0.18036592
+ 0.04651939]
+[0.10518022 0.1933394  0.1756843  0.16600226 0.12763993 0.1756843
+ 0.0564696 ]
+[0.08551911 0.15674725 0.16242397 0.20538047 0.18261436 0.16242395
+ 0.04489082]]

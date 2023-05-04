@@ -1,0 +1,23 @@
+134369
+Test: public void test70() throws Throwable { CDataNode cDataNode0 = new CDataNode("$F-Pi@ x169`5B"); Document document0 = new Document("$F-Pi@ x169`5B"); Element element0 = document0.body(); LeafNode leafNode0 = cDataNode0.doClone(element0); document0.nodelistChanged(); leafNode0.attr("", "$F-Pi@ x169`5B"); document0.outerHtml(); document0.normalise(); HttpConnection httpConnection0 = new HttpConnection(); SynchronousQueue<Connection.KeyVal> synchronousQueue0 = new SynchronousQueue<Connection.KeyVal>(); Consumer<Object> consumer0 = (Consumer<Object>) mock(Consumer.class, new ViolatedAssumptionAnswer()); httpConnection0.followRedirects(true); synchronousQueue0.forEach(consumer0); Connection connection0 = httpConnection0.data((Collection<Connection.KeyVal>) synchronousQueue0); Document document1 = document0.connection(connection0); NodeFilter.FilterResult nodeFilter_FilterResult0 = NodeFilter.FilterResult.CONTINUE; NodeFilter.FilterResult nodeFilter_FilterResult1 = NodeFilter.FilterResult.SKIP_ENTIRELY; NodeFilter.FilterResult nodeFilter_FilterResult2 = NodeFilter.FilterResult.CONTINUE; NodeFilter nodeFilter0 = mock(NodeFilter.class, new ViolatedAssumptionAnswer()); document1.normalise(); element0.wrap("u'dc2zORfEDMj`,v?5"); org.jsoup.helper.Consumer<Object> consumer1 = (org.jsoup.helper.Consumer<Object>) mock(org.jsoup.helper.Consumer.class, new ViolatedAssumptionAnswer()); document1.forEach(consumer1); // Undeclared exception!  leafNode0.replaceWith(cDataNode0);   }
+Code: public void replaceWith(Node in) { Validate.notNull(in); Validate.notNull(parentNode); parentNode.replaceChild(this, in); }
+[[0.07473044 0.06152588 0.10367878 0.07739471 0.10830896 0.10367878
+ 0.10367878 0.08740784 0.24585974 0.03373615]
+[0.05512765 0.05038708 0.10370997 0.07991962 0.10648499 0.10370997
+ 0.10370997 0.12209414 0.24287829 0.03197841]
+[0.06943901 0.06336962 0.11517006 0.07217047 0.11409955 0.11517006
+ 0.11517006 0.09744862 0.19947435 0.03848827]
+[0.0546951  0.05315732 0.1077632  0.09251738 0.12636802 0.1077632
+ 0.1077632  0.09355693 0.23005922 0.02635653]
+[0.08201993 0.07156064 0.10750969 0.09404542 0.13173684 0.10750969
+ 0.10750969 0.10239244 0.14924437 0.04647123]
+[0.06943901 0.06336962 0.11517006 0.07217047 0.11409955 0.11517006
+ 0.11517006 0.09744862 0.19947435 0.03848827]
+[0.06943901 0.06336962 0.11517006 0.07217047 0.11409955 0.11517006
+ 0.11517006 0.09744862 0.19947435 0.03848827]
+[0.06093676 0.04369929 0.10078204 0.06555149 0.1399984  0.10078204
+ 0.10078204 0.12295534 0.2366201  0.02789261]
+[0.0554751  0.05289111 0.11185682 0.08343172 0.12923482 0.11185682
+ 0.11185682 0.09339052 0.23028946 0.01971681]
+[0.05765853 0.05420285 0.10656379 0.11185424 0.15548186 0.10656379
+ 0.10656379 0.10716337 0.16084088 0.03310692]]

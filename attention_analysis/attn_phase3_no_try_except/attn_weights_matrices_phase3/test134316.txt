@@ -1,0 +1,19 @@
+134316
+Test: public void test3() throws Throwable { Parser parser0 = Parser.xmlParser(); Document document0 = parser0.parseInput("abs:publicId", "abs:publicId"); CDataNode cDataNode0 = new CDataNode("abs:publicId"); Document document1 = (Document)document0.doClone(cDataNode0); document1.hasAttr("abs:publicId"); Document document2 = new Document("abs:publicId"); document0.getElementsByAttributeValueStarting("abg:pzbSsKey", "abs:publicId"); document1.getElementsByAttributeValueStarting("Ij2sZhw,", "Ij2sZhw,"); document2.getElementsByAttributeValueMatching("Ij2sZhw,", "STAR"); Tag tag0 = Tag.valueOf("[DX{;yzO*ZNeRZdNdN"); Attributes attributes0 = document2.attributes; Attributes attributes1 = attributes0.put("abg:pzbSsKey", false); FormElement formElement0 = new FormElement(tag0, "abs:publicId", attributes1); cDataNode0.hasSameValue((Object) null); document0.getElementsByAttributeValueNot("abg:pzbSsKey", "[DX{;yzO*ZNeRZdNdN"); formElement0.isBlock(); // Undeclared exception!  document1.parent();   }
+Code: public @Nullable Node parent() { return parentNode; }
+[[0.09776117 0.20755145 0.16727105 0.13560344 0.11293027 0.10543814
+ 0.13560344 0.03784106]
+[0.08404386 0.15887381 0.14563665 0.15312874 0.15828466 0.10494064
+ 0.15312874 0.04196293]
+[0.06890982 0.20665091 0.18297993 0.14023046 0.12719928 0.10807794
+ 0.14023046 0.02572125]
+[0.08142724 0.21563362 0.17066272 0.1381017  0.11694612 0.09850961
+ 0.1381017  0.04061728]
+[0.09655872 0.17687213 0.1550234  0.13319431 0.14022864 0.11308856
+ 0.13319431 0.05183993]
+[0.06813335 0.24062413 0.15200776 0.14263359 0.11926514 0.10131076
+ 0.14263359 0.03339176]
+[0.08142724 0.21563362 0.17066272 0.1381017  0.11694612 0.09850961
+ 0.1381017  0.04061728]
+[0.0624534  0.17933726 0.22080855 0.12110628 0.13560379 0.12920314
+ 0.12110628 0.03038128]]

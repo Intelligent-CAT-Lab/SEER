@@ -1,0 +1,8 @@
+162636
+Test: public void test1230() throws Throwable { LinkedBlockingDeque<Object> linkedBlockingDeque0 = new LinkedBlockingDeque<Object>(); Object[] objectArray0 = linkedBlockingDeque0.toArray(); Object object0 = new Object(); Integer integer0 = new Integer(734); boolean boolean0 = linkedBlockingDeque0.removeFirstOccurrence(integer0); LinkedBlockingDeque<Integer> linkedBlockingDeque1 = new LinkedBlockingDeque<Integer>(); TimeUnit timeUnit0 = TimeUnit.NANOSECONDS; Integer integer1 = linkedBlockingDeque1.pollLast((long) 734, timeUnit0); Integer integer2 = linkedBlockingDeque1.peekFirst(); String string0 = linkedBlockingDeque1.toString(); LinkedList<Locale.LanguageRange> linkedList0 = new LinkedList<Locale.LanguageRange>(); LinkedBlockingDeque<String> linkedBlockingDeque2 = new LinkedBlockingDeque<String>(734); Locale.FilteringMode locale_FilteringMode0 = Locale.FilteringMode.AUTOSELECT_FILTERING; List<String> list0 = Locale.filterTags((List<Locale.LanguageRange>) linkedList0, (Collection<String>) linkedBlockingDeque2, locale_FilteringMode0); }
+Code: public LinkedBlockingDeque() { this(Integer.MAX_VALUE); }
+[[0.18877485 0.2618447  0.21511179 0.2618447  0.07242395]
+[0.15826353 0.2686846  0.22581923 0.2686846  0.07854807]
+[0.17396262 0.23986343 0.2528699  0.23986343 0.09344059]
+[0.15826353 0.2686846  0.22581923 0.2686846  0.07854807]
+[0.13051036 0.24960408 0.30344182 0.24960408 0.06683967]]

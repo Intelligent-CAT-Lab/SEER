@@ -1,0 +1,6 @@
+140738
+Test: public void test2() throws Throwable { LateralTCPCacheFactory lateralTCPCacheFactory0 = new LateralTCPCacheFactory(); lateralTCPCacheFactory0.initialize(); }
+Code: String getName(); }
+[[0.3568604  0.52313006 0.12000956]
+[0.35357413 0.53405863 0.11236726]
+[0.3815126  0.48439535 0.13409202]]

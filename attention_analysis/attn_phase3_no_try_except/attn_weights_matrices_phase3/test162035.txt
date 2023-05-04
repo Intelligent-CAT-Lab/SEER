@@ -1,0 +1,8 @@
+162035
+Test: public void test538() throws Throwable { LinkedBlockingDeque<Integer> linkedBlockingDeque0 = new LinkedBlockingDeque<Integer>(Integer.MAX_VALUE, true); Integer integer0 = new Integer(5); boolean boolean0 = linkedBlockingDeque0.offerFirst(integer0); Integer integer1 = new Integer(Integer.MAX_VALUE); linkedBlockingDeque0.putFirst(integer1); LinkedList<Locale.LanguageRange> linkedList0 = new LinkedList<Locale.LanguageRange>(); HashMap<String, List<String>> hashMap0 = new HashMap<String, List<String>>(); List<Locale.LanguageRange> list0 = new LinkedList<Locale.LanguageRange>(); boolean boolean1 = linkedBlockingDeque0.retainAll(list0); LinkedBlockingDeque<String> linkedBlockingDeque1 = new LinkedBlockingDeque<String>(true); LinkedBlockingDeque<String> linkedBlockingDeque2 = new LinkedBlockingDeque<String>(); boolean boolean2 = linkedBlockingDeque1.addAll(linkedBlockingDeque2); }
+Code: public LinkedBlockingDeque() { this(Integer.MAX_VALUE); }
+[[0.18877485 0.2618447  0.21511179 0.2618447  0.07242395]
+[0.15826353 0.2686846  0.22581923 0.2686846  0.07854807]
+[0.17396262 0.23986343 0.2528699  0.23986343 0.09344059]
+[0.15826353 0.2686846  0.22581923 0.2686846  0.07854807]
+[0.13051036 0.24960408 0.30344182 0.24960408 0.06683967]]

@@ -1,0 +1,17 @@
+66587
+Test: public void test3878() throws Throwable { ArrayDeque<SQLTimeoutException> arrayDeque0 = new ArrayDeque<SQLTimeoutException>(); SQLDataException sQLDataException0 = new SQLDataException(")."); SQLRecoverableException sQLRecoverableException0 = new SQLRecoverableException(); Object[] objectArray0 = new Object[8]; objectArray0[0] = (Object) ")."; objectArray0[1] = (Object) ")."; objectArray0[3] = (Object) sQLDataException0; objectArray0[5] = (Object) arrayDeque0; objectArray0[7] = (Object) sQLRecoverableException0; Throwable[] throwableArray0 = sQLRecoverableException0.getSuppressed(); sQLDataException0.addSuppressed(sQLRecoverableException0); SQLTimeoutException sQLTimeoutException0 = new SQLTimeoutException(").", "hy/MqSH3U~ESI&~", 432, sQLDataException0); boolean boolean0 = arrayDeque0.add(sQLTimeoutException0); JSONArray jSONArray0 = new JSONArray((Collection<?>) arrayDeque0); JSONArray jSONArray1 = new JSONArray((JSONArray) null); boolean boolean1 = jSONArray1.optBoolean(0, true); }
+Code: public int length() { return this.myArrayList.size(); }
+[[0.14005756 0.09168129 0.19428128 0.17120624 0.152219   0.19428128
+ 0.05627332]
+[0.08921845 0.06556281 0.2322315  0.19481936 0.14315376 0.2322315
+ 0.04278267]
+[0.12119697 0.07944629 0.20417215 0.18169    0.14682373 0.20417216
+ 0.06249871]
+[0.13480824 0.06582753 0.1822551  0.20407528 0.15680158 0.1822551
+ 0.07397714]
+[0.10471454 0.06661788 0.21977326 0.18215512 0.1559014  0.21977329
+ 0.0510645 ]
+[0.12119697 0.07944629 0.20417215 0.18169    0.14682373 0.20417216
+ 0.06249871]
+[0.09448293 0.0724026  0.1800794  0.22326528 0.20070246 0.18007939
+ 0.04898785]]

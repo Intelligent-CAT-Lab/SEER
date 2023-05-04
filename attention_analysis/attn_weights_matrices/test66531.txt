@@ -1,11 +1,19 @@
 66531
 Test: public void testCustomLists() throws Exception { ObjectMapper mapper = new ObjectMapper(); SimpleModule module = new SimpleModule("test", Version.unknownVersion()); JsonSerializer<?> ser = new CollectionSerializer(null, false, null, null); final JsonSerializer<Object> collectionSerializer = (JsonSerializer<Object>) ser; module.addSerializer(Collection.class, new JsonSerializer<Collection>() { @Override public void serialize(Collection value, JsonGenerator jgen, SerializerProvider provider) throws IOException, JsonProcessingException { if (value.size() != 0) { collectionSerializer.serialize(value, jgen, provider); } else { jgen.writeNull(); } } }); mapper.registerModule(module); }
 Code: public void writeNull() throws IOException { _appendValue(JsonToken.VALUE_NULL); }
-tensor([[0.1157, 0.0941, 0.1613, 0.2706, 0.0610, 0.1589, 0.0881, 0.0503],
-        [0.0960, 0.0798, 0.1743, 0.3477, 0.0497, 0.1492, 0.0571, 0.0462],
-        [0.0865, 0.0849, 0.1609, 0.3068, 0.0639, 0.1843, 0.0695, 0.0432],
-        [0.0780, 0.0731, 0.1446, 0.3964, 0.0466, 0.1723, 0.0543, 0.0347],
-        [0.0961, 0.0757, 0.1421, 0.3721, 0.0524, 0.1637, 0.0624, 0.0354],
-        [0.1181, 0.1010, 0.1772, 0.2140, 0.0753, 0.1660, 0.0861, 0.0623],
-        [0.0812, 0.0597, 0.1420, 0.3666, 0.0513, 0.2057, 0.0647, 0.0288],
-        [0.0831, 0.0747, 0.1452, 0.3517, 0.0621, 0.1901, 0.0510, 0.0420]])
+[[0.11566025 0.09413517 0.16134661 0.27060723 0.06099199 0.15889663
+ 0.08805941 0.05030268]
+[0.09597957 0.0798367  0.174337   0.34767726 0.04970233 0.14921257
+ 0.05710171 0.04615284]
+[0.08652313 0.08494767 0.16086194 0.30683243 0.06390567 0.18425621
+ 0.06951304 0.04315988]
+[0.07799035 0.07310385 0.14460103 0.39642167 0.0465715  0.1722928
+ 0.05432739 0.03469143]
+[0.09606005 0.07571402 0.14212021 0.37212253 0.05244673 0.16369736
+ 0.06243115 0.03540794]
+[0.11807071 0.10095056 0.1772206  0.21395628 0.07534596 0.16604783
+ 0.0860656  0.06234245]
+[0.08122955 0.05973285 0.1419964  0.3665975  0.05129546 0.20567496
+ 0.06470638 0.02876688]
+[0.08309023 0.07474898 0.14524227 0.35170427 0.06207044 0.19013144
+ 0.05096884 0.04204343]]

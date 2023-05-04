@@ -1,10 +1,17 @@
 68951
 Test: public void test14() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test14"); org.jsoup.nodes.Attribute attribute2 = org.jsoup.nodes.Attribute.createFromEncoded("hi!", ""); boolean boolean3 = attribute2.isDataAttribute(); org.jsoup.nodes.Attribute attribute4 = attribute2.clone(); java.lang.String str5 = attribute2.toString(); org.jsoup.nodes.DocumentType documentType10 = new org.jsoup.nodes.DocumentType("hi!=\"\"", "#document", "", "[#text^=hi!]"); java.lang.String str11 = documentType10.nodeName(); java.lang.StringBuilder stringBuilder12 = null; org.jsoup.nodes.TextNode textNode16 = org.jsoup.nodes.TextNode.createFromEncoded("hi!", "hi!"); textNode16.setBaseUri(""); java.lang.String str19 = textNode16.getWholeText(); textNode16.setSiblingIndex(100); java.lang.StringBuilder stringBuilder22 = null; org.jsoup.nodes.Document.OutputSettings outputSettings24 = new org.jsoup.nodes.Document.OutputSettings(); textNode16.outerHtmlTail(stringBuilder22, 100, outputSettings24); org.jsoup.nodes.Entities.EscapeMode escapeMode26 = org.jsoup.nodes.Entities.EscapeMode.extended; org.jsoup.nodes.Document.OutputSettings outputSettings27 = outputSettings24.escapeMode(escapeMode26); org.jsoup.nodes.Document.OutputSettings outputSettings28 = outputSettings24.clone(); org.jsoup.nodes.Document.OutputSettings outputSettings29 = outputSettings24.clone(); documentType10.outerHtmlTail(stringBuilder12, (int) (byte) 10, outputSettings24); java.lang.StringBuilder stringBuilder31 = null; org.jsoup.nodes.TextNode textNode35 = org.jsoup.nodes.TextNode.createFromEncoded("hi!", "hi!"); textNode35.setBaseUri(""); java.lang.String str38 = textNode35.getWholeText(); textNode35.setSiblingIndex(100); java.lang.StringBuilder stringBuilder41 = null; org.jsoup.nodes.Document.OutputSettings outputSettings43 = new org.jsoup.nodes.Document.OutputSettings(); textNode35.outerHtmlTail(stringBuilder41, 100, outputSettings43); org.jsoup.nodes.Entities.EscapeMode escapeMode45 = org.jsoup.nodes.Entities.EscapeMode.extended; org.jsoup.nodes.Document.OutputSettings outputSettings46 = outputSettings43.escapeMode(escapeMode45); org.jsoup.nodes.Document.OutputSettings outputSettings47 = outputSettings43.clone(); org.jsoup.nodes.Document.OutputSettings outputSettings48 = outputSettings43.clone(); documentType10.outerHtmlTail(stringBuilder31, (int) 'a', outputSettings48); boolean boolean50 = attribute2.equals((java.lang.Object) documentType10); }
 Code: public String nodeName() { return "#doctype"; }
-tensor([[0.0945, 0.1192, 0.2936, 0.1414, 0.1059, 0.2017, 0.0436],
-        [0.0933, 0.1051, 0.3021, 0.1535, 0.0961, 0.2120, 0.0379],
-        [0.0777, 0.1477, 0.2741, 0.1663, 0.0861, 0.2083, 0.0398],
-        [0.0976, 0.1369, 0.2669, 0.1649, 0.1112, 0.1655, 0.0569],
-        [0.0647, 0.1199, 0.2817, 0.1476, 0.0903, 0.2565, 0.0394],
-        [0.0758, 0.1108, 0.3006, 0.1411, 0.1039, 0.2273, 0.0405],
-        [0.0605, 0.1108, 0.2882, 0.1622, 0.1341, 0.2096, 0.0346]])
+[[0.09451137 0.11916012 0.29359424 0.1414488  0.10591899 0.20172223
+ 0.04364421]
+[0.09328005 0.10510759 0.30207235 0.15345386 0.0961246  0.21201326
+ 0.0379483 ]
+[0.0777262  0.14770207 0.27410847 0.16629177 0.08607925 0.20826824
+ 0.03982399]
+[0.09757708 0.13694644 0.26688352 0.16494247 0.11124489 0.16553333
+ 0.05687227]
+[0.06470042 0.11985601 0.2816887  0.14759772 0.09031291 0.25646627
+ 0.03937795]
+[0.07583357 0.11081336 0.30055332 0.141064   0.10388017 0.2273345
+ 0.04052107]
+[0.06051251 0.11078851 0.2882437  0.16219433 0.13409247 0.20958707
+ 0.03458139]]

@@ -1,0 +1,7 @@
+15732
+Test: public void test1044() throws Throwable { Locale locale0 = Locale.JAPANESE; MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(locale0); Calendar calendar0 = DateUtils.truncate((Calendar) mockGregorianCalendar0, 12); DateUtils.DateIterator dateUtils_DateIterator0 = new DateUtils.DateIterator(calendar0, mockGregorianCalendar0); }
+Code: public DateUtils() { }
+[[0.26360175 0.36561108 0.27517086 0.09561627]
+[0.22469527 0.38783675 0.285387   0.102081  ]
+[0.23549548 0.34202406 0.30348468 0.11899572]
+[0.18661417 0.3696179  0.36045745 0.08331049]]

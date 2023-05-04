@@ -1,0 +1,25 @@
+141756
+Test: public void test20() throws Throwable { JDBCDiskCacheAttributes jDBCDiskCacheAttributes0 = new JDBCDiskCacheAttributes(); JndiDataSourceFactory jndiDataSourceFactory0 = new JndiDataSourceFactory(); TableState tableState0 = new TableState("jcs"); JDBCDiskCache<CacheElement<Object, String>, CacheElement<String, Object>> jDBCDiskCache0 = new JDBCDiskCache<CacheElement<Object, String>, CacheElement<String, Object>>(jDBCDiskCacheAttributes0, jndiDataSourceFactory0, tableState0); ScheduledThreadPoolExecutor scheduledThreadPoolExecutor0 = new ScheduledThreadPoolExecutor(1); MockThread mockThread0 = new MockThread(); MockThread mockThread1 = new MockThread((ThreadGroup) null, mockThread0, "jcs"); TimeUnit timeUnit0 = TimeUnit.HOURS; ScheduledFuture<?> scheduledFuture0 = scheduledThreadPoolExecutor0.scheduleWithFixedDelay(mockThread1, 1000L, 1, timeUnit0); CacheElement<Object, String> cacheElement0 = new CacheElement<Object, String>("|AK0BdcU4|>9(_", scheduledFuture0, "|AK0BdcU4|>9(_"); byte[] byteArray0 = new byte[6]; jndiDataSourceFactory0.initialize(jDBCDiskCacheAttributes0); byteArray0[0] = (byte)0; byteArray0[1] = (byte) (-58); MockThread.interrupted(); byteArray0[2] = (byte)0; byteArray0[3] = (byte)28; byteArray0[4] = (byte)0; byteArray0[5] = (byte) (-59); Integer integer0 = new Integer((byte)28); CacheElement<Integer, String> cacheElement1 = new CacheElement<Integer, String>("v8aWmMjN}", integer0, "|AK0BdcU4|>9(_", (IElementAttributes) null); IElementAttributes iElementAttributes0 = cacheElement1.getElementAttributes(); CacheElementSerialized<CacheElement<Object, String>, CacheElement<String, Object>> cacheElementSerialized0 = new CacheElementSerialized<CacheElement<Object, String>, CacheElement<String, Object>>("v8aWmMjN}", cacheElement0, byteArray0, iElementAttributes0); jDBCDiskCache0.processUpdate(cacheElementSerialized0); }
+Code: public CacheStatus getStatus() { return alive.get() ? CacheStatus.ALIVE : CacheStatus.DISPOSED; }
+[[0.07401338 0.1026769  0.1026769  0.09988636 0.08160257 0.1026769
+ 0.13052297 0.1026769  0.06879319 0.10267691 0.03179701]
+[0.06282668 0.10331614 0.10331614 0.10813739 0.07647941 0.10331614
+ 0.13845357 0.10331614 0.06138525 0.10331616 0.03613704]
+[0.06282668 0.10331614 0.10331614 0.10813739 0.07647941 0.10331614
+ 0.13845357 0.10331614 0.06138525 0.10331616 0.03613704]
+[0.0779045  0.09870062 0.09870062 0.13278292 0.08867368 0.09870062
+ 0.09665363 0.09870062 0.06486457 0.09870064 0.04561754]
+[0.05387659 0.10665531 0.10665531 0.10686128 0.07795768 0.10665531
+ 0.14843604 0.10665531 0.05038428 0.10665533 0.02920754]
+[0.06282668 0.10331614 0.10331614 0.10813739 0.07647941 0.10331614
+ 0.13845357 0.10331614 0.06138525 0.10331616 0.03613704]
+[0.06143074 0.09632849 0.09632849 0.14553688 0.08432159 0.09632849
+ 0.13700877 0.09632849 0.06244821 0.0963285  0.02761135]
+[0.06282668 0.10331614 0.10331614 0.10813739 0.07647941 0.10331614
+ 0.13845357 0.10331614 0.06138525 0.10331616 0.03613704]
+[0.07488877 0.0909981  0.0909981  0.11730564 0.09428193 0.0909981
+ 0.16616355 0.0909981  0.05197391 0.09099811 0.04039569]
+[0.06282669 0.10331613 0.10331613 0.1081374  0.07647941 0.10331613
+ 0.13845354 0.10331613 0.06138525 0.10331614 0.03613704]
+[0.05200041 0.09423387 0.09423387 0.15103944 0.11860076 0.09423387
+ 0.12246171 0.09423387 0.05306409 0.0942339  0.03166419]]

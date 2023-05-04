@@ -1,0 +1,17 @@
+131446
+Test: public void test3() throws Throwable { HashMap<String, String> hashMap0 = new HashMap<String, String>(); hashMap0.put("", "Cannot store a duplicate key (\""); EntrySetMapIterator<String, String> entrySetMapIterator0 = new EntrySetMapIterator<String, String>(hashMap0); AbstractMapIteratorDecorator<String, String> abstractMapIteratorDecorator0 = new AbstractMapIteratorDecorator<String, String>(entrySetMapIterator0); Consumer<Object> consumer0 = (Consumer<Object>) mock(Consumer.class, new ViolatedAssumptionAnswer()); abstractMapIteratorDecorator0.forEachRemaining(consumer0); String string0 = abstractMapIteratorDecorator0.getKey(); }
+Code: public K getKey() { return iterator.getKey(); }
+[[0.13056019 0.18107246 0.20186593 0.1234482  0.13743243 0.18107246
+ 0.04454831]
+[0.11083297 0.19266611 0.18886161 0.1332391  0.13339971 0.19266614
+ 0.04833443]
+[0.0875461  0.19316067 0.20865542 0.15292025 0.13744506 0.19316065
+ 0.02711178]
+[0.12088893 0.1744535  0.16649157 0.15830305 0.14383934 0.1744535
+ 0.06157017]
+[0.08879213 0.2027567  0.21104714 0.12088721 0.13795659 0.20275672
+ 0.03580352]
+[0.11083297 0.19266611 0.18886161 0.1332391  0.13339971 0.19266614
+ 0.04833443]
+[0.08594997 0.17392066 0.22093967 0.14474374 0.16570726 0.17392065
+ 0.03481808]]

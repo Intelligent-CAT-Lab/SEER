@@ -1,33 +1,48 @@
 69435
 Test: public void test343() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test343"); org.jsoup.nodes.Document document1 = org.jsoup.nodes.Document.createShell("hi!"); org.jsoup.nodes.Document document3 = org.jsoup.nodes.Document.createShell("hi!"); document1.setParentNode((org.jsoup.nodes.Node) document3); java.util.Set<java.lang.String> strSet5 = document3.classNames(); org.jsoup.nodes.Document document7 = org.jsoup.nodes.Document.createShell("hi!"); org.jsoup.nodes.Document document9 = org.jsoup.nodes.Document.createShell("hi!"); document7.setParentNode((org.jsoup.nodes.Node) document9); org.jsoup.nodes.Document document12 = org.jsoup.nodes.Document.createShell("hi!"); org.jsoup.nodes.Document document14 = org.jsoup.nodes.Document.createShell("hi!"); document12.setParentNode((org.jsoup.nodes.Node) document14); org.jsoup.nodes.Document document17 = org.jsoup.nodes.Document.createShell("hi!"); org.jsoup.nodes.Document document19 = org.jsoup.nodes.Document.createShell("hi!"); document17.setParentNode((org.jsoup.nodes.Node) document19); org.jsoup.nodes.Document document22 = org.jsoup.nodes.Document.createShell("hi!"); org.jsoup.nodes.Document document24 = org.jsoup.nodes.Document.createShell("hi!"); document22.setParentNode((org.jsoup.nodes.Node) document24); document19.setParentNode((org.jsoup.nodes.Node) document24); org.jsoup.nodes.Document document28 = org.jsoup.nodes.Document.createShell("hi!"); org.jsoup.nodes.Document document30 = org.jsoup.nodes.Document.createShell("hi!"); document28.setParentNode((org.jsoup.nodes.Node) document30); org.jsoup.select.Elements elements33 = document30.getElementsMatchingText(""); org.jsoup.nodes.Document document35 = org.jsoup.nodes.Document.createShell("hi!"); org.jsoup.nodes.Document document37 = org.jsoup.nodes.Document.createShell("hi!"); document35.setParentNode((org.jsoup.nodes.Node) document37); org.jsoup.select.Elements elements40 = document37.getElementsMatchingText(""); document37.baseUri = "hi!"; org.jsoup.nodes.Document document44 = org.jsoup.nodes.Document.createShell("hi!"); org.jsoup.nodes.Document document46 = org.jsoup.nodes.Document.createShell("hi!"); org.jsoup.nodes.Document document48 = org.jsoup.nodes.Document.createShell("hi!"); org.jsoup.nodes.Document document50 = org.jsoup.nodes.Document.createShell("hi!"); document48.setParentNode((org.jsoup.nodes.Node) document50); org.jsoup.nodes.Document document53 = org.jsoup.nodes.Document.createShell("hi!"); org.jsoup.nodes.Document document55 = org.jsoup.nodes.Document.createShell("hi!"); document53.setParentNode((org.jsoup.nodes.Node) document55); document50.setParentNode((org.jsoup.nodes.Node) document55); org.jsoup.nodes.Document document59 = org.jsoup.nodes.Document.createShell("hi!"); org.jsoup.nodes.Document document61 = org.jsoup.nodes.Document.createShell("hi!"); document59.setParentNode((org.jsoup.nodes.Node) document61); org.jsoup.select.Elements elements64 = document61.getElementsMatchingText(""); document61.baseUri = "hi!"; org.jsoup.nodes.Document document68 = org.jsoup.nodes.Document.createShell("hi!"); org.jsoup.nodes.Document document70 = org.jsoup.nodes.Document.createShell("hi!"); document68.setParentNode((org.jsoup.nodes.Node) document70); org.jsoup.nodes.Document document73 = org.jsoup.nodes.Document.createShell("hi!"); org.jsoup.nodes.Document document75 = org.jsoup.nodes.Document.createShell("hi!"); document73.setParentNode((org.jsoup.nodes.Node) document75); document70.setParentNode((org.jsoup.nodes.Node) document75); org.jsoup.nodes.Document document79 = org.jsoup.nodes.Document.createShell("hi!"); org.jsoup.nodes.Element element81 = document79.getElementById("hi!"); org.jsoup.nodes.Node[] nodeArray82 = new org.jsoup.nodes.Node[] { document7, document14, document19, document30, document37, document44, document46, document55, document61, document70, document79 }; java.util.ArrayList<org.jsoup.nodes.Node> nodeList83 = new java.util.ArrayList<org.jsoup.nodes.Node>(); boolean boolean84 = java.util.Collections.addAll((java.util.Collection<org.jsoup.nodes.Node>) nodeList83, nodeArray82); document3.childNodes = nodeList83; org.jsoup.nodes.Document document87 = org.jsoup.nodes.Document.createShell("hi!"); org.jsoup.nodes.Element element89 = document87.html("hi!"); org.jsoup.nodes.Element element90 = document3.prependChild((org.jsoup.nodes.Node) document87); org.jsoup.nodes.Node node91 = document87.unwrap(); org.jsoup.nodes.Element element92 = document87.clone(); java.util.List<org.jsoup.nodes.Node> nodeList93 = document87.siblingNodes(); org.jsoup.nodes.Element element94 = document87.previousElementSibling(); }
 Code: public Element previousElementSibling(){List<Element> siblings = parent().children();Integer index = indexInList(this, siblings);;if (index > 1)return siblings.get(index-1);elsereturn null;}
-tensor([[0.0679, 0.0313, 0.0665, 0.1128, 0.0433, 0.0581, 0.0520, 0.0433, 0.0736,
-         0.0675, 0.0688, 0.1115, 0.0763, 0.0627, 0.0645],
-        [0.0737, 0.0317, 0.0655, 0.1002, 0.0448, 0.0568, 0.0459, 0.0448, 0.0615,
-         0.0685, 0.0792, 0.1423, 0.0756, 0.0578, 0.0518],
-        [0.0530, 0.0255, 0.0533, 0.0933, 0.0575, 0.0646, 0.0456, 0.0575, 0.0569,
-         0.0773, 0.0788, 0.1150, 0.0912, 0.0690, 0.0614],
-        [0.0562, 0.0311, 0.0544, 0.1094, 0.0514, 0.0468, 0.0410, 0.0514, 0.0612,
-         0.0832, 0.0853, 0.1195, 0.0884, 0.0669, 0.0538],
-        [0.0717, 0.0432, 0.0752, 0.0779, 0.0601, 0.0672, 0.0437, 0.0601, 0.0655,
-         0.0655, 0.0743, 0.0966, 0.0813, 0.0678, 0.0497],
-        [0.0657, 0.0232, 0.0725, 0.1034, 0.0419, 0.0468, 0.0391, 0.0419, 0.0831,
-         0.0797, 0.0757, 0.1181, 0.0872, 0.0691, 0.0527],
-        [0.0489, 0.0234, 0.0772, 0.0928, 0.0523, 0.0555, 0.0428, 0.0523, 0.0577,
-         0.0698, 0.0821, 0.1132, 0.1111, 0.0660, 0.0548],
-        [0.0717, 0.0432, 0.0752, 0.0779, 0.0601, 0.0672, 0.0437, 0.0601, 0.0655,
-         0.0655, 0.0743, 0.0966, 0.0813, 0.0678, 0.0497],
-        [0.0485, 0.0200, 0.0641, 0.1327, 0.0437, 0.0552, 0.0402, 0.0437, 0.0652,
-         0.0634, 0.0657, 0.1397, 0.0889, 0.0752, 0.0539],
-        [0.0686, 0.0259, 0.0647, 0.1038, 0.0395, 0.0465, 0.0402, 0.0395, 0.0753,
-         0.0740, 0.0687, 0.1809, 0.0618, 0.0614, 0.0492],
-        [0.0629, 0.0368, 0.0693, 0.1068, 0.0437, 0.0525, 0.0397, 0.0437, 0.0781,
-         0.0734, 0.0801, 0.1201, 0.0799, 0.0565, 0.0566],
-        [0.0772, 0.0280, 0.0592, 0.1287, 0.0420, 0.0597, 0.0390, 0.0420, 0.0601,
-         0.0717, 0.0657, 0.1418, 0.0746, 0.0610, 0.0492],
-        [0.0645, 0.0285, 0.0629, 0.0971, 0.0646, 0.0519, 0.0437, 0.0646, 0.0538,
-         0.0759, 0.0785, 0.0979, 0.1019, 0.0609, 0.0533],
-        [0.0531, 0.0250, 0.0756, 0.1316, 0.0515, 0.0585, 0.0381, 0.0515, 0.0648,
-         0.0626, 0.0681, 0.0862, 0.0993, 0.0720, 0.0620],
-        [0.0631, 0.0260, 0.0660, 0.1043, 0.0413, 0.0494, 0.0353, 0.0413, 0.0559,
-         0.0813, 0.0743, 0.1454, 0.0953, 0.0686, 0.0525]])
+[[0.0678779  0.03128112 0.06653254 0.1127529  0.04326098 0.05805919
+ 0.0520446  0.04326098 0.07358193 0.06753224 0.06880192 0.11153765
+ 0.07628827 0.06266555 0.06452225]
+[0.07371554 0.03172064 0.06546912 0.10020064 0.04476467 0.05684658
+ 0.04585311 0.04476467 0.06146406 0.0685167  0.07924136 0.14226297
+ 0.07556171 0.05784941 0.05176876]
+[0.05295831 0.02547748 0.05333097 0.09334364 0.05753167 0.06459474
+ 0.04559205 0.05753167 0.05690517 0.07728921 0.07881631 0.11496311
+ 0.09122109 0.06902835 0.06141622]
+[0.05618174 0.03114557 0.05437375 0.10937067 0.05135885 0.04681306
+ 0.04099705 0.05135885 0.06123434 0.0831826  0.08532695 0.11954691
+ 0.08840929 0.06688434 0.05381603]
+[0.07168226 0.04323521 0.07524425 0.07788503 0.06014575 0.06721082
+ 0.04368566 0.06014575 0.06545958 0.06551674 0.07433888 0.09662309
+ 0.08134101 0.06782411 0.04966185]
+[0.06568626 0.02316141 0.07253041 0.10343777 0.04188624 0.04680107
+ 0.03908413 0.04188624 0.08306049 0.07970628 0.07573285 0.11809039
+ 0.08718    0.06909509 0.05266136]
+[0.04885509 0.02340516 0.07722549 0.09284928 0.05229963 0.0555098
+ 0.04279558 0.05229963 0.05771141 0.06980857 0.0821487  0.11316437
+ 0.11112041 0.06598882 0.05481809]
+[0.07168226 0.04323521 0.07524425 0.07788503 0.06014575 0.06721082
+ 0.04368566 0.06014575 0.06545958 0.06551674 0.07433888 0.09662309
+ 0.08134101 0.06782411 0.04966185]
+[0.04849176 0.01998316 0.0640521  0.1327299  0.04366269 0.05523801
+ 0.04024895 0.04366269 0.06518661 0.06337102 0.06568908 0.13971451
+ 0.08888078 0.07522102 0.05386772]
+[0.06859262 0.02590999 0.06468034 0.10379536 0.03947917 0.04653449
+ 0.04024746 0.03947917 0.07527302 0.07402575 0.06874582 0.18089753
+ 0.0617879  0.06139844 0.04915293]
+[0.06291097 0.03675454 0.06925066 0.10684969 0.04365165 0.05246083
+ 0.03973009 0.04365165 0.07810405 0.07343109 0.08012743 0.12005258
+ 0.07990445 0.05648735 0.05663298]
+[0.07716686 0.02799647 0.05922721 0.12871043 0.04204771 0.05966207
+ 0.03903905 0.04204771 0.06007268 0.07170765 0.06565554 0.14181265
+ 0.07457912 0.06104367 0.0492311 ]
+[0.06450583 0.02852337 0.06293499 0.09707334 0.06459422 0.05189683
+ 0.0436515  0.06459422 0.05383432 0.07592483 0.07846622 0.0978609
+ 0.1019163  0.06087353 0.05334953]
+[0.05307293 0.0250106  0.07560407 0.13163738 0.0515494  0.05848713
+ 0.03808107 0.0515494  0.06478212 0.06259998 0.06811959 0.08623178
+ 0.09925184 0.07201883 0.0620038 ]
+[0.06308692 0.02603392 0.06599151 0.10425547 0.0413335  0.0494404
+ 0.03525278 0.0413335  0.05592354 0.08128011 0.0742861  0.14539278
+ 0.09532312 0.06856212 0.05250421]]

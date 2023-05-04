@@ -1,12 +1,21 @@
 69006
 Test: public void test15() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test15"); org.jsoup.select.Evaluator.IndexLessThan indexLessThan1 = new org.jsoup.select.Evaluator.IndexLessThan(100); java.lang.String str2 = indexLessThan1.toString(); org.jsoup.nodes.Element element3 = null; org.jsoup.nodes.Document document5 = new org.jsoup.nodes.Document(""); boolean boolean6 = indexLessThan1.matches(element3, (org.jsoup.nodes.Element) document5); org.jsoup.select.Evaluator.IndexGreaterThan indexGreaterThan8 = new org.jsoup.select.Evaluator.IndexGreaterThan((int) 'a'); org.jsoup.select.Evaluator.IndexEquals indexEquals10 = new org.jsoup.select.Evaluator.IndexEquals((int) (short) -1); org.jsoup.nodes.Document document12 = new org.jsoup.nodes.Document(""); java.util.List<org.jsoup.nodes.Node> nodeList13 = document12.childNodes(); org.jsoup.nodes.Node node14 = document12.parent(); org.jsoup.nodes.Document document16 = new org.jsoup.nodes.Document(""); java.lang.String str17 = document16.outerHtml(); java.lang.String str18 = document16.className(); org.jsoup.select.Elements elements21 = document16.getElementsByAttributeValueMatching("", ""); org.jsoup.nodes.Element element23 = document16.val("hi!"); org.jsoup.nodes.Element element26 = document16.attr("#document", ""); org.jsoup.nodes.Document.QuirksMode quirksMode27 = null; org.jsoup.nodes.Document document28 = document16.quirksMode(quirksMode27); java.lang.String str29 = document16.className(); boolean boolean30 = indexEquals10.matches((org.jsoup.nodes.Element) document12, (org.jsoup.nodes.Element) document16); org.jsoup.nodes.Document document32 = new org.jsoup.nodes.Document(""); java.lang.String str33 = document32.outerHtml(); java.lang.String str34 = document32.className(); org.jsoup.select.Elements elements37 = document32.getElementsByAttributeValueMatching("", ""); org.jsoup.nodes.Document document39 = new org.jsoup.nodes.Document(""); java.util.List<org.jsoup.nodes.Node> nodeList40 = document39.childNodes(); org.jsoup.nodes.Node node41 = document39.clone(); org.jsoup.nodes.Element element43 = document39.append(""); org.jsoup.nodes.Document document44 = document39.clone(); boolean boolean45 = elements37.add((org.jsoup.nodes.Element) document39); org.jsoup.nodes.Document document46 = document39.ownerDocument(); java.util.List<org.jsoup.nodes.DataNode> dataNodeList47 = document39.dataNodes(); boolean boolean48 = indexGreaterThan8.matches((org.jsoup.nodes.Element) document16, (org.jsoup.nodes.Element) document39); org.jsoup.select.Evaluator.Id id50 = new org.jsoup.select.Evaluator.Id("#document"); org.jsoup.select.StructuralEvaluator.PreviousSibling previousSibling51 = new org.jsoup.select.StructuralEvaluator.PreviousSibling((org.jsoup.select.Evaluator) id50); org.jsoup.select.Evaluator[] evaluatorArray52 = new org.jsoup.select.Evaluator[] { indexLessThan1, indexGreaterThan8, id50 }; org.jsoup.select.CombiningEvaluator.And and53 = new org.jsoup.select.CombiningEvaluator.And(evaluatorArray52); org.jsoup.select.CombiningEvaluator.And and54 = new org.jsoup.select.CombiningEvaluator.And(evaluatorArray52); java.lang.String str55 = and54.toString(); }
 Code: public String toString() { return StringUtil.join(evaluators, " "); }
-tensor([[0.0927, 0.1171, 0.1135, 0.1372, 0.1037, 0.1736, 0.1382, 0.0813, 0.0425],
-        [0.0952, 0.1075, 0.1214, 0.1550, 0.0979, 0.1680, 0.1273, 0.0893, 0.0384],
-        [0.0673, 0.1550, 0.0998, 0.1346, 0.1022, 0.2111, 0.1281, 0.0674, 0.0347],
-        [0.0935, 0.1306, 0.0908, 0.1591, 0.1065, 0.1541, 0.1264, 0.0844, 0.0547],
-        [0.0660, 0.1343, 0.0826, 0.1400, 0.0939, 0.2112, 0.1603, 0.0740, 0.0378],
-        [0.0879, 0.1141, 0.1168, 0.1688, 0.1198, 0.1666, 0.1205, 0.0713, 0.0342],
-        [0.0674, 0.1514, 0.1078, 0.1685, 0.0949, 0.1873, 0.1097, 0.0873, 0.0257],
-        [0.0896, 0.1262, 0.0879, 0.1450, 0.0859, 0.2201, 0.1376, 0.0748, 0.0328],
-        [0.0615, 0.1126, 0.1196, 0.1645, 0.1362, 0.1704, 0.1429, 0.0572, 0.0351]])
+[[0.0927415  0.1171494  0.1134551  0.13724016 0.10374285 0.1736186
+ 0.13823357 0.08133321 0.04248562]
+[0.09518388 0.10752973 0.12142335 0.15499134 0.09789962 0.1680176
+ 0.12726161 0.08927318 0.03841973]
+[0.06731051 0.15496586 0.09976194 0.13457195 0.10217641 0.2110568
+ 0.12808318 0.06741162 0.03466171]
+[0.09351005 0.13058874 0.09075564 0.15908684 0.10647498 0.1540969
+ 0.12638897 0.08439926 0.05469859]
+[0.06597707 0.13426262 0.0826164  0.13995257 0.09390669 0.21118149
+ 0.16027144 0.07403429 0.03779741]
+[0.08791929 0.11411305 0.11678458 0.16878727 0.11978988 0.16663477
+ 0.12048677 0.07133368 0.03415072]
+[0.06738614 0.15140839 0.10780735 0.16847633 0.09492744 0.18729529
+ 0.10966124 0.0873227  0.02571515]
+[0.08959219 0.12622456 0.08786358 0.14500025 0.08593108 0.22014791
+ 0.13758884 0.07482563 0.03282604]
+[0.06148394 0.11256912 0.11960421 0.1645166  0.13616371 0.17040193
+ 0.14293498 0.05723599 0.03508953]]

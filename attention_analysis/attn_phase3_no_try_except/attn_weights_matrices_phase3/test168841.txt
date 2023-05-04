@@ -1,0 +1,17 @@
+168841
+Test: public void test71() throws Throwable { ResultSet resultSet0 = mock(ResultSet.class, new ViolatedAssumptionAnswer()); doReturn((String) null).when(resultSet0).toString(); Proxy proxy0 = (Proxy)SqlNullCheckedResultSet.wrap(resultSet0); SqlNullCheckedResultSet sqlNullCheckedResultSet0 = new SqlNullCheckedResultSet((ResultSet) proxy0); StringReader stringReader0 = new StringReader("getNullgetNullRef"); sqlNullCheckedResultSet0.setNullCharacterStream(stringReader0); sqlNullCheckedResultSet0.getNullCharacterStream(); }
+Code: public byte getNullByte() { return this.nullByte; }
+[[0.12710682 0.19017398 0.1763063  0.1445861  0.1368112  0.1763063
+ 0.04870927]
+[0.11048195 0.18493271 0.17715453 0.16268335 0.12843753 0.17715451
+ 0.05915546]
+[0.11060898 0.17418936 0.18911305 0.15046032 0.13359168 0.18911305
+ 0.05292359]
+[0.12051345 0.16584648 0.1654455  0.17679359 0.14091197 0.1654455
+ 0.06504355]
+[0.09293917 0.17215315 0.19882205 0.15396968 0.13969159 0.19882207
+ 0.04360237]
+[0.11060898 0.17418936 0.18911305 0.15046032 0.13359168 0.18911305
+ 0.05292359]
+[0.08685519 0.16200215 0.16783695 0.19198278 0.18066704 0.16783693
+ 0.04281896]]

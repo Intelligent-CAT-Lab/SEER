@@ -1,0 +1,27 @@
+166515
+Test: public void test3() throws Throwable { ProvidedURLLocationStrategy providedURLLocationStrategy0 = new ProvidedURLLocationStrategy(); VfsComponentContext vfsComponentContext0 = mock(VfsComponentContext.class, new ViolatedAssumptionAnswer()); FileSystemOptions fileSystemOptions0 = new FileSystemOptions(); DefaultURLStreamHandler defaultURLStreamHandler0 = new DefaultURLStreamHandler(vfsComponentContext0, fileSystemOptions0); URL uRL0 = MockURL.URL("org.apache.log4j.RollingFileAppender", "org.apache.commons.configuration2.io.ProvidedURLLocationStrategy", 0, "w5", (URLStreamHandler) defaultURLStreamHandler0); URLConnectionOptions uRLConnectionOptions0 = mock(URLConnectionOptions.class, new ViolatedAssumptionAnswer()); FileLocator fileLocator0 = mock(FileLocator.class, new ViolatedAssumptionAnswer()); doReturn("org.apache.commons.configuration2.io.ProvidedURLLocationStrategy").when(fileLocator0).getBasePath(); doReturn("w5").when(fileLocator0).getEncoding(); doReturn("w5").when(fileLocator0).getFileName(); doReturn((FileSystem) null).when(fileLocator0).getFileSystem(); doReturn(providedURLLocationStrategy0).when(fileLocator0).getLocationStrategy(); doReturn(uRL0).when(fileLocator0).getSourceURL(); doReturn(uRLConnectionOptions0).when(fileLocator0).getURLConnectionOptions(); FileLocator.FileLocatorBuilder fileLocator_FileLocatorBuilder0 = new FileLocator.FileLocatorBuilder(fileLocator0); FileLocator fileLocator1 = new FileLocator(fileLocator_FileLocatorBuilder0); URL uRL1 = providedURLLocationStrategy0.locate((FileSystem) null, fileLocator1); }
+Code: public URL locate(final FileSystem fileSystem, final FileLocator locator) { return locator.getSourceURL(); }
+[[0.07190177 0.07268441 0.09974226 0.09974226 0.09974226 0.05714111
+ 0.09974226 0.09974226 0.09153725 0.07859524 0.09974226 0.02968662]
+[0.05759528 0.06416002 0.10045923 0.10045923 0.10045923 0.05168955
+ 0.10045923 0.10045923 0.10592724 0.09177411 0.10045923 0.02609843]
+[0.05957927 0.0870891  0.09931102 0.09931102 0.09931102 0.05767599
+ 0.09931102 0.09931102 0.09516672 0.07233153 0.09931102 0.03229127]
+[0.05957927 0.0870891  0.09931102 0.09931102 0.09931102 0.05767599
+ 0.09931102 0.09931102 0.09516672 0.07233153 0.09931102 0.03229127]
+[0.05957927 0.0870891  0.09931102 0.09931102 0.09931102 0.05767599
+ 0.09931102 0.09931102 0.09516672 0.07233153 0.09931102 0.03229127]
+[0.06570432 0.06151688 0.09936288 0.09936288 0.09936288 0.0441821
+ 0.09936288 0.09936288 0.11439091 0.09563406 0.09936287 0.02239436]
+[0.05957927 0.0870891  0.09931102 0.09931102 0.09931102 0.05767599
+ 0.09931102 0.09931102 0.09516672 0.07233153 0.09931102 0.03229127]
+[0.05957927 0.0870891  0.09931102 0.09931102 0.09931102 0.05767599
+ 0.09931102 0.09931102 0.09516672 0.07233153 0.09931102 0.03229127]
+[0.07053238 0.07832179 0.09039693 0.09039693 0.09039693 0.06943194
+ 0.09039693 0.09039693 0.117894   0.08058614 0.09039694 0.04085215]
+[0.05232289 0.06129054 0.10603613 0.10603613 0.10603613 0.04760351
+ 0.10603613 0.10603613 0.09875143 0.07657239 0.10603613 0.02724244]
+[0.05957927 0.0870891  0.09931102 0.09931102 0.09931102 0.05767599
+ 0.09931102 0.09931102 0.09516672 0.07233153 0.09931102 0.03229127]
+[0.04994993 0.07437848 0.09167308 0.09167308 0.09167308 0.04592287
+ 0.09167308 0.09167308 0.13841291 0.11199579 0.09167308 0.02930161]]

@@ -1,0 +1,17 @@
+14561
+Test: public void test14() throws Throwable { Integer integer0 = new Integer(0); MultilineRecursiveToStringStyle multilineRecursiveToStringStyle0 = new MultilineRecursiveToStringStyle(); String string0 = ReflectionToStringBuilder.toString((Object) integer0, (ToStringStyle) multilineRecursiveToStringStyle0, true, true); StringBuffer stringBuffer0 = new StringBuffer((CharSequence) string0); Class<Object> class0 = Object.class; ReflectionToStringBuilder reflectionToStringBuilder0 = new ReflectionToStringBuilder(integer0, (ToStringStyle) multilineRecursiveToStringStyle0, stringBuffer0, (Class<? super Integer>) class0, false, true, false); String[] stringArray0 = new String[3]; stringArray0[0] = string0; StringBuffer stringBuffer1 = stringBuffer0.insert(0, 0.0); stringArray0[1] = "org.apache.commons.lang3.builder.ReflectionToStringBuilder"; stringArray0[2] = "org.apache.commons.lang3.builder.ReflectionToStringBuilder"; ReflectionToStringBuilder reflectionToStringBuilder1 = reflectionToStringBuilder0.setExcludeFieldNames(stringArray0); Integer integer1 = new Integer(0); reflectionToStringBuilder0.append(0); LinkedList<String> linkedList0 = new LinkedList<String>(); ReflectionToStringBuilder.toStringExclude((Object) integer1, (Collection<String>) linkedList0); long[] longArray0 = new long[3]; longArray0[0] = (long) 0; longArray0[1] = (long) 0; longArray0[2] = (long) 0; multilineRecursiveToStringStyle0.appendDetail(stringBuffer1, "<size=", longArray0); ReflectionToStringBuilder reflectionToStringBuilder2 = reflectionToStringBuilder1.setExcludeFieldNames(stringArray0); ReflectionToStringBuilder.toString((Object) stringBuffer1, (ToStringStyle) multilineRecursiveToStringStyle0, false, true); reflectionToStringBuilder2.getExcludeFieldNames(); }
+Code: public String[] getExcludeFieldNames() { return this.excludeFieldNames.clone(); }
+[[0.14365904 0.07788505 0.19927031 0.16849627 0.15525478 0.19927031
+ 0.05616419]
+[0.11382446 0.05462597 0.2147589  0.18202993 0.17085567 0.21475892
+ 0.04914609]
+[0.12240546 0.07181305 0.20650783 0.18184409 0.14824401 0.20650786
+ 0.06267773]
+[0.13207322 0.0845233  0.1778846  0.20144361 0.15342319 0.1778846
+ 0.07276753]
+[0.10475702 0.06657562 0.22206604 0.17771861 0.15673865 0.22206606
+ 0.05007803]
+[0.12240546 0.07181305 0.20650783 0.18184409 0.14824401 0.20650786
+ 0.06267773]
+[0.09706861 0.0514953  0.18570623 0.22534032 0.20502864 0.18570621
+ 0.04965466]]

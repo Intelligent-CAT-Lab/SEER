@@ -1,10 +1,17 @@
 68956
 Test: public void test12() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test12"); org.jsoup.nodes.DocumentType documentType4 = new org.jsoup.nodes.DocumentType("hi!=\"\"", "#document", "", "[#text^=hi!]"); java.lang.StringBuilder stringBuilder5 = null; org.jsoup.nodes.TextNode textNode9 = org.jsoup.nodes.TextNode.createFromEncoded("hi!", "hi!"); textNode9.setBaseUri(""); java.lang.String str12 = textNode9.getWholeText(); textNode9.setSiblingIndex(100); java.lang.StringBuilder stringBuilder15 = null; org.jsoup.nodes.Document.OutputSettings outputSettings17 = new org.jsoup.nodes.Document.OutputSettings(); textNode9.outerHtmlTail(stringBuilder15, 100, outputSettings17); org.jsoup.nodes.Entities.EscapeMode escapeMode19 = org.jsoup.nodes.Entities.EscapeMode.extended; org.jsoup.nodes.Document.OutputSettings outputSettings20 = outputSettings17.escapeMode(escapeMode19); org.jsoup.nodes.Entities.EscapeMode escapeMode21 = org.jsoup.nodes.Entities.EscapeMode.base; org.jsoup.nodes.Document.OutputSettings outputSettings22 = outputSettings20.escapeMode(escapeMode21); java.nio.charset.Charset charset23 = outputSettings20.charset(); org.jsoup.nodes.Document.OutputSettings outputSettings25 = outputSettings20.prettyPrint(true); org.jsoup.nodes.Document.OutputSettings outputSettings27 = outputSettings25.indentAmount((int) (byte) 10); java.nio.charset.CharsetEncoder charsetEncoder28 = outputSettings27.encoder(); org.jsoup.nodes.TextNode textNode31 = org.jsoup.nodes.TextNode.createFromEncoded("hi!", "hi!"); textNode31.setBaseUri(""); java.lang.String str34 = textNode31.getWholeText(); textNode31.setSiblingIndex(100); java.lang.StringBuilder stringBuilder37 = null; org.jsoup.nodes.Document.OutputSettings outputSettings39 = new org.jsoup.nodes.Document.OutputSettings(); textNode31.outerHtmlTail(stringBuilder37, 100, outputSettings39); org.jsoup.nodes.Entities.EscapeMode escapeMode41 = org.jsoup.nodes.Entities.EscapeMode.extended; org.jsoup.nodes.Document.OutputSettings outputSettings42 = outputSettings39.escapeMode(escapeMode41); java.nio.charset.Charset charset43 = outputSettings39.charset(); org.jsoup.nodes.Document.OutputSettings outputSettings44 = outputSettings27.charset(charset43); documentType4.outerHtmlTail(stringBuilder5, 1, outputSettings44); java.lang.String str46 = documentType4.nodeName(); }
 Code: public String nodeName() { return "#doctype"; }
-tensor([[0.0945, 0.1192, 0.2936, 0.1414, 0.1059, 0.2017, 0.0436],
-        [0.0933, 0.1051, 0.3021, 0.1535, 0.0961, 0.2120, 0.0379],
-        [0.0777, 0.1477, 0.2741, 0.1663, 0.0861, 0.2083, 0.0398],
-        [0.0976, 0.1369, 0.2669, 0.1649, 0.1112, 0.1655, 0.0569],
-        [0.0647, 0.1199, 0.2817, 0.1476, 0.0903, 0.2565, 0.0394],
-        [0.0758, 0.1108, 0.3006, 0.1411, 0.1039, 0.2273, 0.0405],
-        [0.0605, 0.1108, 0.2882, 0.1622, 0.1341, 0.2096, 0.0346]])
+[[0.09451137 0.11916012 0.29359424 0.1414488  0.10591899 0.20172223
+ 0.04364421]
+[0.09328005 0.10510759 0.30207235 0.15345386 0.0961246  0.21201326
+ 0.0379483 ]
+[0.0777262  0.14770207 0.27410847 0.16629177 0.08607925 0.20826824
+ 0.03982399]
+[0.09757708 0.13694644 0.26688352 0.16494247 0.11124489 0.16553333
+ 0.05687227]
+[0.06470042 0.11985601 0.2816887  0.14759772 0.09031291 0.25646627
+ 0.03937795]
+[0.07583357 0.11081336 0.30055332 0.141064   0.10388017 0.2273345
+ 0.04052107]
+[0.06051251 0.11078851 0.2882437  0.16219433 0.13409247 0.20958707
+ 0.03458139]]

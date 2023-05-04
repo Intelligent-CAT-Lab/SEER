@@ -1,0 +1,21 @@
+166833
+Test: public void test1() throws Throwable { InterpolatorSpecification interpolatorSpecification0 = mock(InterpolatorSpecification.class, new ViolatedAssumptionAnswer()); doReturn((Collection) null).when(interpolatorSpecification0).getDefaultLookups(); doReturn((ConfigurationInterpolator) null).when(interpolatorSpecification0).getInterpolator(); doReturn((ConfigurationInterpolator) null).when(interpolatorSpecification0).getParentInterpolator(); doReturn((Map) null).when(interpolatorSpecification0).getPrefixLookups(); doReturn((Function) null).when(interpolatorSpecification0).getStringConverter(); ConfigurationInterpolator configurationInterpolator0 = ConfigurationInterpolator.fromSpecification(interpolatorSpecification0); Lookup lookup0 = configurationInterpolator0.fetchLookupForPrefix("version"); configurationInterpolator0.addDefaultLookup(lookup0); boolean boolean0 = configurationInterpolator0.removeDefaultLookup(lookup0); }
+Code: public boolean removeDefaultLookup(final Lookup lookup) { return defaultLookups.remove(lookup); }
+[[0.07417811 0.16548942 0.10292298 0.10292298 0.21314219 0.11848065
+ 0.08405323 0.10292298 0.03588746]
+[0.0481899  0.20710844 0.08864973 0.08864973 0.21636084 0.14786491
+ 0.08805086 0.08864973 0.02647579]
+[0.06138027 0.20371905 0.09834552 0.09834552 0.20564413 0.11997807
+ 0.07509686 0.09834552 0.03914509]
+[0.06138027 0.20371905 0.09834552 0.09834552 0.20564413 0.11997807
+ 0.07509686 0.09834552 0.03914509]
+[0.0589738  0.18601497 0.0887264  0.0887264  0.23618189 0.14060093
+ 0.07671125 0.0887264  0.03533801]
+[0.08170193 0.15702014 0.09849799 0.09849799 0.17374867 0.1504969
+ 0.091527   0.09849799 0.05001138]
+[0.05324377 0.208434   0.09581357 0.09581357 0.2187273  0.12523308
+ 0.07367392 0.09581357 0.03324724]
+[0.06138027 0.20371905 0.09834552 0.09834552 0.20564413 0.11997807
+ 0.07509686 0.09834552 0.03914509]
+[0.05147957 0.15882918 0.09042177 0.09042177 0.19601932 0.16609193
+ 0.12220131 0.09042177 0.03411338]]

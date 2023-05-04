@@ -1,0 +1,42 @@
+30922
+Test: public void test7() throws Throwable { Map<String, Integer> map0 = MapUtil.emptyMapIfNull((Map<String, Integer>) null); ConcurrentHashMap<String, Object> concurrentHashMap0 = new ConcurrentHashMap<String, Object>(map0); String string0 = "org.springside.modules.utils.collection.MapUtil"; concurrentHashMap0.contains("org.springside.modules.utils.collection.MapUtil"); concurrentHashMap0.size(); concurrentHashMap0.put("org.springside.modules.utils.collection.MapUtil", "org.springside.modules.utils.collection.MapUtil"); MapUtil.ValueCreator<String> mapUtil_ValueCreator0 = (MapUtil.ValueCreator<String>) mock(MapUtil.ValueCreator.class, new ViolatedAssumptionAnswer()); MapUtil.createIfAbsent((ConcurrentMap<String, Object>) concurrentHashMap0, "org.springside.modules.utils.collection.MapUtil", (MapUtil.ValueCreator<?>) mapUtil_ValueCreator0); MapUtil.createRangeMap(); HashMap<MutableLong, Integer> hashMap0 = new HashMap<MutableLong, Integer>(); MutableLong mutableLong0 = new MutableLong(1054L); BiFunction<Object, Object, Integer> biFunction0 = (BiFunction<Object, Object, Integer>) mock(BiFunction.class, new ViolatedAssumptionAnswer()); hashMap0.computeIfPresent(mutableLong0, biFunction0); MapUtil.difference((Map<? extends MutableLong, ? extends Integer>) hashMap0, (Map<? extends MutableLong, ? extends Integer>) hashMap0); Comparator<MutableInt> comparator0 = (Comparator<MutableInt>) mock(Comparator.class, new ViolatedAssumptionAnswer()); // Undeclared exception!  MapUtil.createSortedSetValueMap((Comparator<MutableInt>) comparator0);   }
+Code: public static <K, V extends Comparable> SortedSetMultimap<K, V> createSortedSetValueMap() { return MultimapBuilder.hashKeys().treeSetValues().build(); }
+[[0.06018628 0.16128597 0.0834838  0.0834838  0.03631502 0.0834838
+ 0.0834838  0.0834838  0.0834838  0.06959338 0.06492102 0.0834838
+ 0.02331165]
+[0.05928181 0.15565191 0.08018574 0.08018574 0.03746549 0.08018574
+ 0.08018574 0.08018574 0.08018573 0.10239279 0.05595624 0.08018573
+ 0.02795155]
+[0.04889306 0.16724548 0.08209955 0.08209955 0.04951085 0.08209955
+ 0.08209955 0.08209955 0.08209956 0.07477439 0.05927035 0.08209956
+ 0.02560899]
+[0.04889306 0.16724548 0.08209955 0.08209955 0.04951085 0.08209955
+ 0.08209955 0.08209955 0.08209956 0.07477439 0.05927035 0.08209956
+ 0.02560899]
+[0.05241251 0.12748286 0.08563742 0.08563742 0.03860193 0.08563742
+ 0.08563742 0.08563742 0.08563741 0.08999339 0.0661817  0.08563741
+ 0.02586572]
+[0.04889306 0.16724548 0.08209955 0.08209955 0.04951085 0.08209955
+ 0.08209955 0.08209955 0.08209956 0.07477439 0.05927035 0.08209956
+ 0.02560899]
+[0.04889306 0.16724548 0.08209955 0.08209955 0.04951085 0.08209955
+ 0.08209955 0.08209955 0.08209956 0.07477439 0.05927035 0.08209956
+ 0.02560899]
+[0.04889306 0.16724548 0.08209955 0.08209955 0.04951085 0.08209955
+ 0.08209955 0.08209955 0.08209956 0.07477439 0.05927035 0.08209956
+ 0.02560899]
+[0.04889306 0.16724548 0.08209955 0.08209955 0.04951085 0.08209955
+ 0.08209955 0.08209955 0.08209956 0.07477439 0.05927035 0.08209956
+ 0.02560899]
+[0.05983243 0.14051805 0.07857037 0.07857037 0.05112659 0.07857037
+ 0.07857037 0.07857037 0.07857038 0.0957785  0.06891387 0.07857038
+ 0.03383801]
+[0.04014197 0.1714116  0.08459831 0.08459831 0.04784114 0.08459831
+ 0.08459831 0.08459831 0.08459831 0.06911434 0.05988686 0.08459831
+ 0.01941592]
+[0.04889306 0.16724548 0.08209955 0.08209955 0.04951085 0.08209955
+ 0.08209955 0.08209955 0.08209956 0.07477439 0.05927035 0.08209956
+ 0.02560899]
+[0.04042848 0.16855852 0.0758795  0.0758795  0.04760155 0.0758795
+ 0.0758795  0.0758795  0.0758795  0.1023196  0.08784063 0.0758795
+ 0.02209477]]

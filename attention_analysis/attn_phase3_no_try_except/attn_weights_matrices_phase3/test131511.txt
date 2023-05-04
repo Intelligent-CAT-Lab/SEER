@@ -1,0 +1,17 @@
+131511
+Test: public void test0() throws Throwable { Integer integer0 = new Integer(0); Iterator<Integer> iterator0 = (Iterator<Integer>) mock(Iterator.class, new ViolatedAssumptionAnswer()); doReturn(integer0).when(iterator0).next(); IteratorEnumeration<Integer> iteratorEnumeration0 = new IteratorEnumeration<Integer>(iterator0); Integer integer1 = iteratorEnumeration0.nextElement(); }
+Code: public E nextElement() { return iterator.next(); }
+[[0.11851354 0.16749144 0.164413   0.16221787 0.13094673 0.20500478
+ 0.05141265]
+[0.11229442 0.17897382 0.16532229 0.21249665 0.11914775 0.16743284
+ 0.04433216]
+[0.10076343 0.19613414 0.16833872 0.15885523 0.12227535 0.19958201
+ 0.05405109]
+[0.12070172 0.16205713 0.16038314 0.18899974 0.13957307 0.16083695
+ 0.0674483 ]
+[0.08669586 0.16714403 0.17432848 0.16642304 0.12639566 0.23324904
+ 0.04576385]
+[0.09012917 0.1801402  0.17330176 0.19664778 0.14576274 0.1698495
+ 0.04416887]
+[0.08626896 0.12847826 0.16288725 0.21273106 0.18581983 0.1776034
+ 0.04621123]]

@@ -1,31 +1,45 @@
 70229
 Test: public void test134() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test134"); org.apache.commons.jxpath.ri.compiler.Step[] stepArray1 = new org.apache.commons.jxpath.ri.compiler.Step[] {}; org.apache.commons.jxpath.ri.compiler.LocationPath locationPath2 = new org.apache.commons.jxpath.ri.compiler.LocationPath(false, stepArray1); org.apache.commons.jxpath.ri.compiler.Constant constant4 = new org.apache.commons.jxpath.ri.compiler.Constant((java.lang.Number) 100L); org.apache.commons.jxpath.ri.compiler.Constant constant6 = new org.apache.commons.jxpath.ri.compiler.Constant((java.lang.Number) 100L); org.apache.commons.jxpath.ri.compiler.Constant constant8 = new org.apache.commons.jxpath.ri.compiler.Constant((java.lang.Number) 100L); org.apache.commons.jxpath.ri.compiler.NameAttributeTest nameAttributeTest9 = new org.apache.commons.jxpath.ri.compiler.NameAttributeTest((org.apache.commons.jxpath.ri.compiler.Expression) constant6, (org.apache.commons.jxpath.ri.compiler.Expression) constant8); org.apache.commons.jxpath.ri.EvalContext evalContext10 = null; org.apache.commons.jxpath.ri.compiler.NodeTest nodeTest11 = null; org.apache.commons.jxpath.ri.axes.SelfContext selfContext12 = new org.apache.commons.jxpath.ri.axes.SelfContext(evalContext10, nodeTest11); java.lang.Object obj13 = constant6.compute((org.apache.commons.jxpath.ri.EvalContext) selfContext12); selfContext12.reset(); java.lang.Object obj15 = constant4.computeValue((org.apache.commons.jxpath.ri.EvalContext) selfContext12); org.apache.commons.jxpath.ri.EvalContext evalContext16 = locationPath2.evalSteps((org.apache.commons.jxpath.ri.EvalContext) selfContext12); org.apache.commons.jxpath.JXPathContext jXPathContext17 = null; org.apache.commons.jxpath.JXPathContext jXPathContext19 = org.apache.commons.jxpath.JXPathContext.newContext(jXPathContext17, (java.lang.Object) (short) 10); java.text.DecimalFormatSymbols decimalFormatSymbols21 = jXPathContext19.getDecimalFormatSymbols("hi!"); org.apache.commons.jxpath.Container container22 = null; java.util.Locale locale23 = null; org.apache.commons.jxpath.ri.model.container.ContainerPointer containerPointer24 = new org.apache.commons.jxpath.ri.model.container.ContainerPointer(container22, locale23); int int25 = containerPointer24.getLength(); java.util.Locale locale26 = null; org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer jDOMNodePointer27 = new org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer((java.lang.Object) containerPointer24, locale26); java.lang.Object obj28 = jDOMNodePointer27.getValue(); org.apache.commons.jxpath.ri.NamespaceResolver namespaceResolver29 = jDOMNodePointer27.getNamespaceResolver(); org.apache.commons.jxpath.Container container30 = null; java.util.Locale locale31 = null; org.apache.commons.jxpath.ri.model.container.ContainerPointer containerPointer32 = new org.apache.commons.jxpath.ri.model.container.ContainerPointer(container30, locale31); int int33 = containerPointer32.getLength(); java.lang.String str35 = containerPointer32.getNamespaceURI(""); java.lang.String str36 = containerPointer32.asPath(); java.lang.String str37 = containerPointer32.asPath(); org.apache.commons.jxpath.ri.JXPathContextReferenceImpl jXPathContextReferenceImpl38 = new org.apache.commons.jxpath.ri.JXPathContextReferenceImpl(jXPathContext19, (java.lang.Object) jDOMNodePointer27, (org.apache.commons.jxpath.Pointer) containerPointer32); org.apache.commons.jxpath.ri.model.NodePointer nodePointer39 = null; org.apache.commons.jxpath.ri.QName qName40 = null; org.apache.commons.jxpath.ri.model.beans.NullPointer nullPointer41 = new org.apache.commons.jxpath.ri.model.beans.NullPointer(nodePointer39, qName40); org.apache.commons.jxpath.ri.compiler.NodeTest nodeTest42 = null; org.apache.commons.jxpath.ri.model.NodePointer nodePointer44 = null; org.apache.commons.jxpath.ri.QName qName45 = null; org.apache.commons.jxpath.ri.model.beans.NullPointer nullPointer46 = new org.apache.commons.jxpath.ri.model.beans.NullPointer(nodePointer44, qName45); org.apache.commons.jxpath.ri.model.NodeIterator nodeIterator47 = nullPointer41.childIterator(nodeTest42, true, nodePointer44); boolean boolean48 = nullPointer41.isLeaf(); nullPointer41.setAttribute(true); boolean boolean51 = nullPointer41.isActual(); jXPathContextReferenceImpl38.setNamespaceContextPointer((org.apache.commons.jxpath.Pointer) nullPointer41); java.util.Iterator iterator54 = jXPathContextReferenceImpl38.iteratePointers("$null"); org.w3c.dom.Node node55 = null; java.util.Locale locale56 = null; org.apache.commons.jxpath.ri.model.dom.DOMNodePointer dOMNodePointer58 = new org.apache.commons.jxpath.ri.model.dom.DOMNodePointer(node55, locale56, "null()"); org.apache.commons.jxpath.ri.model.NodePointer nodePointer60 = dOMNodePointer58.namespacePointer("http: org.apache.commons.jxpath.ri.axes.RootContext rootContext61 = new org.apache.commons.jxpath.ri.axes.RootContext(jXPathContextReferenceImpl38, (org.apache.commons.jxpath.ri.model.NodePointer) dOMNodePointer58); java.lang.Object obj62 = null; org.apache.commons.jxpath.ri.EvalContext evalContext63 = rootContext61.getConstantContext(obj62); org.apache.commons.jxpath.ri.EvalContext evalContext65 = rootContext61.getConstantContext((java.lang.Object) 77); org.apache.commons.jxpath.Pointer pointer66 = locationPath2.getSingleNodePointerForSteps(evalContext65); org.apache.commons.jxpath.Pointer pointer67 = evalContext65.getContextNodePointer(); java.lang.Object obj68 = org.apache.commons.jxpath.util.ValueUtils.getValue((java.lang.Object) evalContext65); org.apache.commons.jxpath.ri.compiler.NodeTest nodeTest69 = null; org.apache.commons.jxpath.ri.axes.SelfContext selfContext70 = new org.apache.commons.jxpath.ri.axes.SelfContext(evalContext65, nodeTest69); }
 Code: public Object computeValue(EvalContext context) { return equal(context, args[0], args[1]) ? Boolean.TRUE : Boolean.FALSE; }
-tensor([[0.0528, 0.0409, 0.1146, 0.0449, 0.0780, 0.0591, 0.0818, 0.0829, 0.0587,
-         0.0870, 0.1678, 0.0519, 0.0555, 0.0242],
-        [0.0480, 0.0328, 0.1354, 0.0375, 0.1122, 0.0586, 0.0710, 0.0753, 0.0504,
-         0.0825, 0.1793, 0.0374, 0.0593, 0.0202],
-        [0.0391, 0.0331, 0.1079, 0.0554, 0.1051, 0.0536, 0.0894, 0.0625, 0.0523,
-         0.0976, 0.1981, 0.0345, 0.0502, 0.0212],
-        [0.0443, 0.0372, 0.1098, 0.0376, 0.0869, 0.0704, 0.0824, 0.0783, 0.0573,
-         0.0970, 0.1867, 0.0362, 0.0580, 0.0179],
-        [0.0598, 0.0356, 0.1292, 0.0504, 0.0965, 0.0688, 0.0810, 0.0906, 0.0548,
-         0.0774, 0.1163, 0.0491, 0.0566, 0.0340],
-        [0.0388, 0.0367, 0.1259, 0.0321, 0.0820, 0.0553, 0.0849, 0.0775, 0.0361,
-         0.0990, 0.2190, 0.0374, 0.0531, 0.0222],
-        [0.0423, 0.0416, 0.1289, 0.0456, 0.0860, 0.0612, 0.0774, 0.0826, 0.0588,
-         0.0908, 0.1412, 0.0445, 0.0719, 0.0273],
-        [0.0446, 0.0409, 0.1201, 0.0399, 0.0881, 0.0522, 0.0714, 0.0774, 0.0523,
-         0.0922, 0.1923, 0.0439, 0.0614, 0.0234],
-        [0.0528, 0.0383, 0.1332, 0.0360, 0.1157, 0.0602, 0.0671, 0.0792, 0.0620,
-         0.0871, 0.1496, 0.0509, 0.0500, 0.0178],
-        [0.0440, 0.0318, 0.0866, 0.0419, 0.1219, 0.0623, 0.0758, 0.0549, 0.0442,
-         0.0896, 0.2331, 0.0500, 0.0413, 0.0226],
-        [0.0427, 0.0381, 0.1068, 0.0396, 0.1092, 0.0652, 0.0703, 0.0652, 0.0547,
-         0.0901, 0.1904, 0.0418, 0.0668, 0.0192],
-        [0.0548, 0.0360, 0.0877, 0.0387, 0.0906, 0.0689, 0.0774, 0.0777, 0.0501,
-         0.1146, 0.1770, 0.0392, 0.0566, 0.0306],
-        [0.0406, 0.0330, 0.1231, 0.0296, 0.0935, 0.0651, 0.0720, 0.0817, 0.0620,
-         0.1123, 0.1952, 0.0340, 0.0364, 0.0216],
-        [0.0377, 0.0387, 0.0962, 0.0488, 0.0991, 0.0830, 0.0828, 0.0791, 0.0582,
-         0.0937, 0.1601, 0.0358, 0.0658, 0.0212]])
+[[0.0528321  0.04093884 0.11455025 0.04489022 0.07799771 0.05907653
+ 0.08175913 0.08287516 0.05873585 0.08700129 0.16781133 0.05191805
+ 0.05545096 0.02416255]
+[0.04800103 0.03280129 0.13543065 0.03748372 0.11218713 0.05860911
+ 0.0710116  0.07527843 0.0504449  0.08251555 0.17932072 0.03744472
+ 0.05926478 0.02020638]
+[0.03911424 0.0331165  0.10788289 0.05536687 0.10508002 0.0535629
+ 0.08943639 0.06251077 0.05234305 0.09759247 0.19813418 0.03449348
+ 0.05020305 0.02116314]
+[0.04430955 0.03721006 0.10981691 0.03764085 0.0869375  0.0703835
+ 0.08237401 0.07825449 0.05728929 0.096977   0.18669042 0.03619105
+ 0.05801797 0.01790733]
+[0.05979674 0.03561018 0.12917155 0.05040698 0.09653145 0.0687669
+ 0.08095681 0.09057178 0.05478287 0.07743035 0.11626245 0.04911881
+ 0.05661894 0.03397422]
+[0.03879134 0.0367446  0.125877   0.03209557 0.08201462 0.05525906
+ 0.08486229 0.07750892 0.036144   0.09899542 0.21904849 0.0373832
+ 0.05311289 0.0221626 ]
+[0.04226022 0.04156358 0.12891802 0.04562787 0.08600137 0.06124624
+ 0.07738154 0.08258541 0.0587625  0.09076193 0.14121254 0.04445592
+ 0.07192353 0.02729937]
+[0.04456344 0.04088117 0.12012558 0.03989231 0.08806641 0.05216541
+ 0.07138156 0.07740816 0.05232325 0.0921981  0.19230193 0.04388996
+ 0.06144644 0.02335628]
+[0.05284524 0.03825914 0.13324818 0.0360238  0.11574935 0.06020411
+ 0.06711495 0.07919602 0.06198018 0.08709738 0.1495924  0.05086982
+ 0.05004436 0.0177751 ]
+[0.04402638 0.03178402 0.08658011 0.04188859 0.12190862 0.06234877
+ 0.07581525 0.05485008 0.04422273 0.08961504 0.23312022 0.0499575
+ 0.0413163  0.02256645]
+[0.04265141 0.03805195 0.10681984 0.03957834 0.10916456 0.06521653
+ 0.07025408 0.06522943 0.05474211 0.09007344 0.19040708 0.04175187
+ 0.06682793 0.01923151]
+[0.05482334 0.03602434 0.08769014 0.03865024 0.09064256 0.06886795
+ 0.07740006 0.07767857 0.05014972 0.11459315 0.17704225 0.03920987
+ 0.05661043 0.03061743]
+[0.04059511 0.03299822 0.12313478 0.0296024  0.09350657 0.0651121
+ 0.07196394 0.08165017 0.06201688 0.11229368 0.19517946 0.03395453
+ 0.03639304 0.0215991 ]
+[0.03770311 0.03865101 0.0961973  0.04876482 0.09907353 0.08297463
+ 0.08282417 0.07908744 0.05819146 0.09366253 0.1600632  0.03583933
+ 0.06575237 0.0212151 ]]

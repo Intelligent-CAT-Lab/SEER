@@ -1,12 +1,21 @@
 101305
 Test: public void test217() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test217"); org.joda.time.ReadableInterval readableInterval1 = null; org.joda.time.ReadableInterval readableInterval2 = org.joda.time.DateTimeUtils.getReadableInterval(readableInterval1); org.joda.time.ReadableInstant readableInstant3 = null; boolean boolean4 = readableInterval2.contains(readableInstant3); org.joda.time.DateTime dateTime5 = readableInterval2.getStart(); org.joda.time.ReadableInterval readableInterval6 = null; org.joda.time.ReadableInterval readableInterval7 = org.joda.time.DateTimeUtils.getReadableInterval(readableInterval6); org.joda.time.ReadableInstant readableInstant8 = null; boolean boolean9 = readableInterval7.contains(readableInstant8); org.joda.time.DateTime dateTime10 = readableInterval7.getStart(); java.util.Date date11 = dateTime10.toDate(); boolean boolean12 = dateTime5.isBefore((org.joda.time.ReadableInstant) dateTime10); org.joda.time.DateTimeZone dateTimeZone13 = dateTime5.getZone(); org.joda.time.MutableDateTime mutableDateTime14 = new org.joda.time.MutableDateTime((long) (short) 100, dateTimeZone13); mutableDateTime14.addWeeks(0); org.joda.time.ReadableInterval readableInterval18 = null; org.joda.time.ReadableInterval readableInterval19 = org.joda.time.DateTimeUtils.getReadableInterval(readableInterval18); org.joda.time.ReadableInstant readableInstant20 = null; boolean boolean21 = readableInterval19.contains(readableInstant20); org.joda.time.DateTime dateTime22 = readableInterval19.getStart(); org.joda.time.ReadableInterval readableInterval23 = null; org.joda.time.ReadableInterval readableInterval24 = org.joda.time.DateTimeUtils.getReadableInterval(readableInterval23); org.joda.time.ReadableInstant readableInstant25 = null; boolean boolean26 = readableInterval24.contains(readableInstant25); org.joda.time.DateTime dateTime27 = readableInterval24.getStart(); java.util.Date date28 = dateTime27.toDate(); boolean boolean29 = dateTime22.isBefore((org.joda.time.ReadableInstant) dateTime27); org.joda.time.DateTimeZone dateTimeZone30 = dateTime22.getZone(); org.joda.time.MutableDateTime mutableDateTime31 = new org.joda.time.MutableDateTime((long) (short) 100, dateTimeZone30); java.util.TimeZone timeZone32 = dateTimeZone30.toTimeZone(); mutableDateTime14.setZone(dateTimeZone30); org.joda.time.chrono.ISOChronology iSOChronology34 = org.joda.time.chrono.ISOChronology.getInstance(); org.joda.time.DateTimeField dateTimeField35 = iSOChronology34.millisOfSecond(); org.joda.time.DurationField durationField36 = iSOChronology34.millis(); mutableDateTime14.setChronology((org.joda.time.Chronology) iSOChronology34); int int38 = mutableDateTime14.getSecondOfMinute(); mutableDateTime14.addDays((int) (byte) 16); org.joda.time.ReadableDuration readableDuration41 = null; mutableDateTime14.add(readableDuration41, 0); }
 Code: public void addDays(final int days) { setMillis(getChronology().days().add(getMillis(), days)); }
-tensor([[0.0773, 0.0635, 0.2271, 0.0473, 0.2972, 0.1109, 0.0933, 0.0486, 0.0347],
-        [0.0537, 0.0519, 0.1957, 0.0269, 0.4168, 0.1168, 0.0724, 0.0312, 0.0346],
-        [0.0662, 0.0553, 0.2173, 0.0358, 0.3313, 0.1396, 0.0821, 0.0390, 0.0334],
-        [0.0573, 0.0510, 0.2089, 0.0406, 0.3106, 0.1339, 0.1239, 0.0455, 0.0285],
-        [0.0876, 0.0736, 0.1756, 0.0341, 0.3309, 0.1119, 0.0988, 0.0545, 0.0330],
-        [0.0867, 0.0750, 0.2026, 0.0422, 0.2476, 0.1324, 0.0995, 0.0663, 0.0478],
-        [0.0660, 0.0616, 0.1815, 0.0367, 0.3313, 0.1597, 0.0928, 0.0400, 0.0304],
-        [0.0684, 0.0489, 0.2244, 0.0460, 0.3135, 0.1234, 0.1018, 0.0473, 0.0263],
-        [0.0624, 0.0577, 0.2075, 0.0473, 0.3040, 0.1585, 0.0915, 0.0369, 0.0342]])
+[[0.07729762 0.06350325 0.22712883 0.04733644 0.29723006 0.11093684
+ 0.09333222 0.0485788  0.03465597]
+[0.05372372 0.05194586 0.1957248  0.02690478 0.4167703  0.1168071
+ 0.0723585  0.03117052 0.03459445]
+[0.06624406 0.05525494 0.21726032 0.03584894 0.3313098  0.13956115
+ 0.08207034 0.0390191  0.03343131]
+[0.05725096 0.05097795 0.20890464 0.04055069 0.31059593 0.13387005
+ 0.12390098 0.04549669 0.02845212]
+[0.0875502  0.07361691 0.17562398 0.03408471 0.3309303  0.1119086
+ 0.09875414 0.05452272 0.03300851]
+[0.08666335 0.07501478 0.20257932 0.04220117 0.24764033 0.13236816
+ 0.09947944 0.06626929 0.04778418]
+[0.0659633  0.06159852 0.18154588 0.03668047 0.33131075 0.15973099
+ 0.09281471 0.03996766 0.03038775]
+[0.06841653 0.0489253  0.22440502 0.04595979 0.31345528 0.12343131
+ 0.10179999 0.0472988  0.02630796]
+[0.06240663 0.05769718 0.20751412 0.04733373 0.30396587 0.15850249
+ 0.09152614 0.03685439 0.03419948]]

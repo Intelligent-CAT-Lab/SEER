@@ -1,0 +1,19 @@
+151647
+Test: public void test33() throws Throwable { ResultSetMetaData resultSetMetaData0 = mock(ResultSetMetaData.class, new ViolatedAssumptionAnswer()); doReturn((-2071)).when(resultSetMetaData0).getColumnCount(); ResultSet resultSet0 = mock(ResultSet.class, new ViolatedAssumptionAnswer()); doReturn(resultSetMetaData0).when(resultSet0).getMetaData(); doReturn(false).when(resultSet0).next(); RowSetDynaClass rowSetDynaClass0 = new RowSetDynaClass(resultSet0, false, 0); rowSetDynaClass0.createDynaBean(); ResultSet resultSet1 = mock(ResultSet.class, new ViolatedAssumptionAnswer()); doReturn(false).when(resultSet1).next(); rowSetDynaClass0.copy(resultSet1); DynaBean dynaBean0 = rowSetDynaClass0.createDynaBean(); rowSetDynaClass0.getRows(); rowSetDynaClass0.getRows(); rowSetDynaClass0.getRows(); DynaBean dynaBean1 = rowSetDynaClass0.createDynaBean(); }
+Code: protected DynaBean createDynaBean() { return (new BasicDynaBean(this)); }
+[[0.17679717 0.09980562 0.15142956 0.18997224 0.12307076 0.06931156
+ 0.15142956 0.03818352]
+[0.18078391 0.10392233 0.12535557 0.17020726 0.1556074  0.09110692
+ 0.12535557 0.04766103]
+[0.19423291 0.11206794 0.14878187 0.15603945 0.11017767 0.07779099
+ 0.14878187 0.0521273 ]
+[0.18289477 0.11321683 0.12763791 0.186958   0.11724402 0.08161509
+ 0.12763791 0.06279541]
+[0.2098107  0.09510894 0.15345457 0.15200941 0.11194785 0.08260794
+ 0.15345457 0.041606  ]
+[0.19827119 0.10449721 0.13937187 0.18850195 0.1177269  0.06946024
+ 0.13937187 0.04279876]
+[0.19423291 0.11206794 0.14878187 0.15603945 0.11017767 0.07779099
+ 0.14878187 0.0521273 ]
+[0.15769088 0.09445464 0.13569504 0.19897698 0.16343439 0.07172101
+ 0.13569504 0.04233203]]

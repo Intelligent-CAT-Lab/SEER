@@ -1,0 +1,17 @@
+77705
+Test: public void test126() throws Throwable { Class<ISHL> class0 = ISHL.class; Type type0 = Type.getType(class0); InstructionList instructionList0 = new InstructionList(); ConstantPoolGen constantPoolGen0 = new ConstantPoolGen(); MethodGen methodGen0 = new MethodGen((-4012), type0, type0.NO_ARGS, (String[]) null, ")", ")", instructionList0, constantPoolGen0); MethodGen methodGen1 = new MethodGen((-4012), type0, type0.NO_ARGS, (String[]) null, "d0b0KDwviO-9MkNU=PJ@", ")", instructionList0, constantPoolGen0); boolean boolean0 = methodGen1.equals(methodGen0); }
+Code: public String getClassName() { return className; }
+[[0.12830108 0.1666011  0.17797421 0.15782064 0.1395634  0.17797421
+ 0.05176535]
+[0.12820424 0.14977588 0.1834282  0.1802996  0.12852609 0.18342823
+ 0.04633773]
+[0.10518022 0.1933394  0.1756843  0.16600226 0.12763993 0.1756843
+ 0.0564696 ]
+[0.11900765 0.17346033 0.15602481 0.19107194 0.13699669 0.15602481
+ 0.06741381]
+[0.08912516 0.20455416 0.18036592 0.1687272  0.13034222 0.18036592
+ 0.04651939]
+[0.10518022 0.1933394  0.1756843  0.16600226 0.12763993 0.1756843
+ 0.0564696 ]
+[0.08551911 0.15674725 0.16242397 0.20538047 0.18261436 0.16242395
+ 0.04489082]]

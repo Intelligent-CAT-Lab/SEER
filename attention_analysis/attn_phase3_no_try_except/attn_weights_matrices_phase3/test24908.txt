@@ -1,0 +1,17 @@
+24908
+Test: public void test28() throws Throwable { Vector3D.Unit vector3D_Unit0 = Vector3D.Unit.PLUS_X; Precision.DoubleEquivalence precision_DoubleEquivalence0 = mock(Precision.DoubleEquivalence.class, new ViolatedAssumptionAnswer()); GreatCircle greatCircle0 = new GreatCircle(vector3D_Unit0, vector3D_Unit0, vector3D_Unit0, precision_DoubleEquivalence0); Vector3D.Unit vector3D_Unit1 = greatCircle0.getU(); }
+Code: public Vector3D.Unit getU() { return u; }
+[[0.14019868 0.19445664 0.22652388 0.15001123 0.14973336 0.08742129
+ 0.05165492]
+[0.12319052 0.2135942  0.21384656 0.15115568 0.14835416 0.09531514
+ 0.05454377]
+[0.11453354 0.20642664 0.246494   0.18347196 0.14093709 0.07245405
+ 0.0356827 ]
+[0.13330342 0.18911502 0.1754691  0.18185496 0.15765734 0.0932988
+ 0.0693014 ]
+[0.09910056 0.22228628 0.2636     0.14312881 0.15256442 0.07752709
+ 0.04179284]
+[0.13910949 0.2268748  0.19865581 0.16228244 0.13759318 0.08716185
+ 0.04832241]
+[0.10164003 0.2026037  0.18559015 0.18887377 0.2010755  0.07608578
+ 0.04413112]]

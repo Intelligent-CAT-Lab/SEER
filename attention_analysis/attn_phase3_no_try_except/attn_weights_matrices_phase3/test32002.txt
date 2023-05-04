@@ -1,0 +1,2 @@
+32002
+Test: public void test22() throws Throwable { Class<Annotation> class0 = Annotation.class; Class<Method>[] classArray0 = (Class<Method>[]) Array.newInstance(Class.class, 9); // Undeclared exception!  ClassUtil.getAccessibleMethod(class0, ">Zu*l-GS5QJT?(", classArray0);   }

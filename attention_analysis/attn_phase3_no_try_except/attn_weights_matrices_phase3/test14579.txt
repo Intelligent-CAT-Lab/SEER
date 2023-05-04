@@ -1,0 +1,17 @@
+14579
+Test: public void test32() throws Throwable { Integer integer0 = new Integer((-2923)); StringBuffer stringBuffer0 = new StringBuffer(); StringBuffer stringBuffer1 = new StringBuffer(stringBuffer0); Class<Object> class0 = Object.class; ReflectionToStringBuilder reflectionToStringBuilder0 = new ReflectionToStringBuilder((Object) integer0, (ToStringStyle) null, stringBuffer1, (Class<? super Object>) class0, true, true); reflectionToStringBuilder0.getUpToClass(); }
+Code: public Class<?> getUpToClass() { return this.upToClass; }
+[[0.14701563 0.0668162  0.20391878 0.16463958 0.15791973 0.2039188
+ 0.05577127]
+[0.11287992 0.05312664 0.20092873 0.18547903 0.19003224 0.20092873
+ 0.05662472]
+[0.12469966 0.06276032 0.21199667 0.1763053  0.15078638 0.21199669
+ 0.06145498]
+[0.13542464 0.06273655 0.18617871 0.1980796  0.15842399 0.18617871
+ 0.07297776]
+[0.10463516 0.06819368 0.22529422 0.17037559 0.15778093 0.22529423
+ 0.04842621]
+[0.12469966 0.06276032 0.21199667 0.1763053  0.15078638 0.21199669
+ 0.06145498]
+[0.09796172 0.05313063 0.18903166 0.21807617 0.20421594 0.18903165
+ 0.04855219]]

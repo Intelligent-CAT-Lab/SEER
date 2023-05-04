@@ -1,0 +1,17 @@
+140781
+Test: public void test29() throws Throwable { LateralTCPCacheFactory lateralTCPCacheFactory0 = new LateralTCPCacheFactory(); TCPLateralCacheAttributes tCPLateralCacheAttributes0 = new TCPLateralCacheAttributes(); ZombieCacheServiceNonLocal<ForkJoinTask<String>, BufferedInputStream> zombieCacheServiceNonLocal0 = new ZombieCacheServiceNonLocal<ForkJoinTask<String>, BufferedInputStream>(); LateralCacheMonitor lateralCacheMonitor0 = new LateralCacheMonitor(lateralTCPCacheFactory0); LateralCache<ForkJoinTask<String>, BufferedInputStream> lateralCache0 = new LateralCache<ForkJoinTask<String>, BufferedInputStream>(tCPLateralCacheAttributes0, zombieCacheServiceNonLocal0, lateralCacheMonitor0); LateralCacheNoWait<ForkJoinTask<String>, BufferedInputStream> lateralCacheNoWait0 = new LateralCacheNoWait<ForkJoinTask<String>, BufferedInputStream>(lateralCache0); lateralCacheNoWait0.removeAll(); }
+Code: public int getSize() { return cache.getSize(); }
+[[0.11980949 0.07418919 0.28630158 0.16782095 0.13285154 0.16621453
+ 0.05281265]
+[0.080345   0.05741616 0.30263057 0.18491206 0.13006143 0.20503925
+ 0.03959553]
+[0.1128716  0.0558206  0.31160745 0.2006829  0.11184774 0.1615256
+ 0.04564404]
+[0.12207826 0.05845385 0.25346333 0.1964358  0.14047477 0.15985705
+ 0.06923696]
+[0.0831044  0.04835657 0.37185773 0.1684398  0.11963042 0.16275318
+ 0.0458579 ]
+[0.10208029 0.06471487 0.30569193 0.17656893 0.12428603 0.16771017
+ 0.05894782]
+[0.09032723 0.06887153 0.20645049 0.22127011 0.19413674 0.170804
+ 0.04813991]]

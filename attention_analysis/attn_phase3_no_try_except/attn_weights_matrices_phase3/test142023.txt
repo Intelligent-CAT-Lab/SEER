@@ -1,0 +1,21 @@
+142023
+Test: public void test34() throws Throwable { RemoteCacheAttributes remoteCacheAttributes0 = new RemoteCacheAttributes(); RemoteCacheMonitor remoteCacheMonitor0 = new RemoteCacheMonitor(); RemoteCache<SequenceInputStream, ZombieCacheServiceNonLocal<InputStream, String>> remoteCache0 = new RemoteCache<SequenceInputStream, ZombieCacheServiceNonLocal<InputStream, String>>(remoteCacheAttributes0, (ICacheServiceNonLocal<SequenceInputStream, ZombieCacheServiceNonLocal<InputStream, String>>) null, (IRemoteCacheListener<SequenceInputStream, ZombieCacheServiceNonLocal<InputStream, String>>) null, remoteCacheMonitor0); // Undeclared exception!  remoteCache0.getKeySet();   }
+Code: public Set<K> getKeySet() throws IOException { return getRemoteCacheService().getKeySet(cacheName); }
+[[0.09780234 0.06873515 0.13567732 0.23162006 0.05059434 0.13054179
+ 0.10765179 0.13567732 0.04169989]
+[0.08389878 0.07694742 0.12172785 0.27316087 0.04761849 0.14311025
+ 0.10169037 0.12172785 0.03011811]
+[0.08025126 0.07895992 0.1351782  0.25886568 0.05254387 0.12039337
+ 0.09722248 0.1351782  0.041407  ]
+[0.06440518 0.06343465 0.11417572 0.31889158 0.04009064 0.15065482
+ 0.10441877 0.11417572 0.02975298]
+[0.07343422 0.06356946 0.14002302 0.28420764 0.0403436  0.12621236
+ 0.10497393 0.14002302 0.02721281]
+[0.09736508 0.08672206 0.12942459 0.17303166 0.06469768 0.1523458
+ 0.1126025  0.12942459 0.05438604]
+[0.06904302 0.06548193 0.14067203 0.2669085  0.05154225 0.12877025
+ 0.10130551 0.14067203 0.03560454]
+[0.08025126 0.07895992 0.1351782  0.25886568 0.05254387 0.12039337
+ 0.09722248 0.1351782  0.041407  ]
+[0.0633924  0.05005864 0.1192254  0.26727206 0.05007062 0.15902154
+ 0.13732567 0.1192254  0.03440827]]

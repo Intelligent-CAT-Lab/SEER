@@ -1,0 +1,7 @@
+166124
+Test: public void test1() throws Throwable { JSONConfiguration jSONConfiguration0 = new JSONConfiguration(); PatternSubtreeConfigurationWrapper patternSubtreeConfigurationWrapper0 = new PatternSubtreeConfigurationWrapper(jSONConfiguration0, "}@Gf*ym"); TrackedNodeModel trackedNodeModel0 = mock(TrackedNodeModel.class, new ViolatedAssumptionAnswer()); doReturn((NodeSelector) null).when(trackedNodeModel0).getSelector(); SubnodeConfiguration subnodeConfiguration0 = new SubnodeConfiguration(patternSubtreeConfigurationWrapper0, trackedNodeModel0); JSONConfiguration jSONConfiguration1 = null;  jSONConfiguration1 = new JSONConfiguration(subnodeConfiguration0);   }
+Code: public JSONConfiguration() { }
+[[0.26360175 0.36561108 0.27517086 0.09561627]
+[0.22469527 0.38783675 0.285387   0.102081  ]
+[0.23549548 0.34202406 0.30348468 0.11899572]
+[0.18661417 0.3696179  0.36045745 0.08331049]]

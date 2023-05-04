@@ -1,0 +1,19 @@
+7314
+Test: public void test4761() throws Throwable { Service service0 = Service.ignite(); String string0 = "0.0.0.0"; TemplateViewRoute templateViewRoute0 = mock(TemplateViewRoute.class, new ViolatedAssumptionAnswer()); TemplateEngine templateEngine0 = mock(TemplateEngine.class, new ViolatedAssumptionAnswer()); TemplateViewRouteImpl templateViewRouteImpl0 = TemplateViewRouteImpl.create("0.0.0.0", templateViewRoute0, templateEngine0); ResponseTransformer responseTransformer0 = mock(ResponseTransformer.class, new ViolatedAssumptionAnswer()); ResponseTransformerRouteImpl responseTransformerRouteImpl0 = ResponseTransformerRouteImpl.create("0.0.0.0", "0.0.0.0", (Route) templateViewRouteImpl0, responseTransformer0); service0.notFound((Route) responseTransformerRouteImpl0); service0.staticFiles.disableMimeTypeGuessing(); // Undeclared exception!  service0.halt(4567);   }
+Code: public HaltException halt() { throw new HaltException(); }
+[[0.11969921 0.16604546 0.16604546 0.15082419 0.12128384 0.06097736
+ 0.16604546 0.04907904]
+[0.09971121 0.16737193 0.16737193 0.15282318 0.11769521 0.07533988
+ 0.16737193 0.0523148 ]
+[0.09971121 0.16737193 0.16737193 0.15282318 0.11769521 0.07533988
+ 0.16737193 0.0523148 ]
+[0.11646131 0.15466794 0.15466794 0.18254092 0.10621934 0.06566085
+ 0.15466794 0.06511371]
+[0.09540351 0.15979941 0.15979941 0.2216967  0.11253305 0.05253605
+ 0.15979941 0.03843246]
+[0.10252728 0.16303952 0.16303952 0.17185768 0.1173745  0.0682371
+ 0.16303952 0.05088497]
+[0.09971121 0.16737193 0.16737193 0.15282318 0.11769521 0.07533988
+ 0.16737193 0.0523148 ]
+[0.08604941 0.16157416 0.16157416 0.21737882 0.11668129 0.04820783
+ 0.16157416 0.04696018]]

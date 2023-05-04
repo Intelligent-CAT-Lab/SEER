@@ -1,0 +1,17 @@
+152985
+Test: public void test10() throws Throwable { PooledObject<String> pooledObject0 = (PooledObject<String>) mock(PooledObject.class, new ViolatedAssumptionAnswer()); doReturn("SYM<C*>").when(pooledObject0).getObject(); PooledObjectFactory<String> pooledObjectFactory0 = (PooledObjectFactory<String>) mock(PooledObjectFactory.class, new ViolatedAssumptionAnswer()); doReturn(pooledObject0).when(pooledObjectFactory0).makeObject(); doReturn(true).when(pooledObjectFactory0).validateObject(nullable(org.apache.commons.pool2.PooledObject.class)); SoftReferenceObjectPool<String> softReferenceObjectPool0 = new SoftReferenceObjectPool<String>(pooledObjectFactory0); softReferenceObjectPool0.borrowObject(); int int0 = softReferenceObjectPool0.getNumActive(); }
+Code: public int getNumActive() { return -1; }
+[[0.15548313 0.10393761 0.21566851 0.17917827 0.16763973 0.11800297
+ 0.06008972]
+[0.10433008 0.08136261 0.28339106 0.20047581 0.16409354 0.11940138
+ 0.0469455 ]
+[0.13416699 0.08973818 0.22948535 0.18198581 0.16203094 0.13853666
+ 0.0640561 ]
+[0.1479496  0.07425085 0.20901313 0.20380902 0.17472145 0.11295936
+ 0.07729661]
+[0.12134574 0.08135816 0.26542997 0.18907952 0.18443868 0.10408721
+ 0.05426071]
+[0.1608136  0.09636649 0.18419191 0.22247158 0.16616993 0.11598572
+ 0.05400082]
+[0.10788701 0.08459608 0.21314043 0.21154583 0.21663207 0.11750752
+ 0.04869107]]

@@ -1,10 +1,17 @@
 14934
 Test: public void test11458() { Options options = new Options(); options.addOption( OptionBuilder.withValueSeparator( '=' ) .hasArgs() .create( 'D' ) ); options.addOption( OptionBuilder.withValueSeparator( ':' ) .hasArgs() .create( 'p' ) ); String[] args = new String[] { "-DJAVA_HOME=/opt/java" , "-pfile1:file2:file3" }; CommandLineParser parser = new PosixParser(); try { CommandLine cmd = parser.parse( options, args ); String[] values = cmd.getOptionValues( 'D' ); values = cmd.getOptionValues( 'p' ); java.util.Iterator iter = cmd.iterator(); while( iter.hasNext() ) { Option opt = (Option)iter.next(); switch( opt.getId() ) { case 'D': break; case 'p': break; default: fail( "-D option not found" ); } } } catch( ParseException exp ) { fail( "Unexpected Exception:\nMessage:" + exp.getMessage() + "Type: " + exp.getClass().getName() ); } }
 Code: public Iterator iterator() { return options.iterator(); }
-tensor([[0.1026, 0.2889, 0.0758, 0.1053, 0.1090, 0.2816, 0.0368],
-        [0.1106, 0.2303, 0.0881, 0.1176, 0.1085, 0.3109, 0.0340],
-        [0.0864, 0.3078, 0.0687, 0.1148, 0.1114, 0.2835, 0.0273],
-        [0.1079, 0.2252, 0.0887, 0.1407, 0.1285, 0.2541, 0.0548],
-        [0.0708, 0.2831, 0.0703, 0.0944, 0.1104, 0.3429, 0.0281],
-        [0.1045, 0.2273, 0.0967, 0.1275, 0.1394, 0.2565, 0.0481],
-        [0.0740, 0.2677, 0.0557, 0.1294, 0.1440, 0.2985, 0.0308]])
+[[0.1025928  0.28888214 0.07582098 0.10529296 0.10901663 0.28157538
+ 0.0368191 ]
+[0.11055502 0.23025799 0.08813909 0.11759732 0.10854445 0.31094235
+ 0.03396375]
+[0.08639438 0.30776468 0.06873515 0.11483464 0.11140734 0.28352374
+ 0.02734011]
+[0.10789834 0.2252324  0.08874887 0.1407119  0.12845834 0.25410825
+ 0.05484192]
+[0.07083856 0.28305334 0.07034716 0.09435978 0.11041974 0.34288275
+ 0.0280987 ]
+[0.10450795 0.2272858  0.09673743 0.12747368 0.13943882 0.25648224
+ 0.04807404]
+[0.07395962 0.26767987 0.05568647 0.12942728 0.14399992 0.29847172
+ 0.03077507]]

@@ -1,0 +1,17 @@
+131442
+Test: public void test0() throws Throwable { Iterator<Object> iterator0 = (Iterator<Object>) mock(Iterator.class, new ViolatedAssumptionAnswer()); doReturn((String) null, (String) null, (String) null).when(iterator0).toString(); doReturn(true, true, true, false, false).when(iterator0).hasNext(); doReturn((Object) null, (Object) null, (Object) null).when(iterator0).next(); SkippingIterator<Object> skippingIterator0 = new SkippingIterator<Object>(iterator0, 2349L); skippingIterator0.hasNext(); SkippingIterator<Object> skippingIterator1 = new SkippingIterator<Object>(skippingIterator0, 2349L); Iterator<Object> iterator1 = skippingIterator1.getIterator(); }
+Code: protected Iterator<I> getIterator() { return iterator; }
+[[0.1762997  0.15294772 0.15294772 0.1988177  0.12631126 0.15294772
+ 0.03972815]
+[0.20042564 0.15488684 0.15488684 0.16492352 0.115033   0.15488684
+ 0.0549573 ]
+[0.20042564 0.15488684 0.15488684 0.16492352 0.115033   0.15488684
+ 0.0549573 ]
+[0.19748351 0.13710344 0.13710344 0.19870205 0.1255809  0.13710344
+ 0.06692319]
+[0.21010317 0.15664184 0.15664184 0.16107567 0.11500889 0.15664184
+ 0.04388679]
+[0.20042564 0.15488684 0.15488684 0.16492352 0.115033   0.15488684
+ 0.0549573 ]
+[0.15949932 0.13854524 0.13854524 0.21054308 0.16979864 0.13854524
+ 0.04452318]]

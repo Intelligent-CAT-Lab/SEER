@@ -1,0 +1,2 @@
+32300
+Test: public void test2() throws Throwable { MetricRegistry metricRegistry0 = MetricRegistry.INSTANCE; metricRegistry0.counter("G"); Reporter[] reporterArray0 = new Reporter[1]; ReportScheduler reportScheduler0 = new ReportScheduler(metricRegistry0, reporterArray0); System.setCurrentTimeMillis((-3110L)); // Undeclared exception!  reportScheduler0.report();   }

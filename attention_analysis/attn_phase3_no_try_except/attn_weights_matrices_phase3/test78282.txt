@@ -1,0 +1,6 @@
+78282
+Test: public void test8() throws Throwable { NEWARRAY nEWARRAY0 = null;  nEWARRAY0 = new NEWARRAY((BasicType) null);   }
+Code: NEWARRAY() { }
+[[0.5234282  0.34890088 0.12767084]
+[0.46439818 0.38162568 0.15397614]
+[0.48506725 0.4157069  0.09922581]]

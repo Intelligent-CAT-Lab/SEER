@@ -1,0 +1,17 @@
+39605
+Test: public void test39() throws Throwable { DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.weekyearOfCentury(); BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance(); DurationField durationField0 = buddhistChronology0.millis(); UnsupportedDateTimeField unsupportedDateTimeField0 = UnsupportedDateTimeField.getInstance(dateTimeFieldType0, durationField0); // Undeclared exception!  unsupportedDateTimeField0.getMinimumValue(461L);   }
+Code: public int getMinimumValue() { throw unsupported(); }
+[[0.14086555 0.09132838 0.19540635 0.1766399  0.1427828  0.19540635
+ 0.05757072]
+[0.09163961 0.06747574 0.23887047 0.19932744 0.11996047 0.23887049
+ 0.04385584]
+[0.12165615 0.07973897 0.20492962 0.18246731 0.14351898 0.20492962
+ 0.06275933]
+[0.1397498  0.06873171 0.1911372  0.20662032 0.12688771 0.1911372
+ 0.07573603]
+[0.11338045 0.07296292 0.19155887 0.25257695 0.1332153  0.19155887
+ 0.04474659]
+[0.12165615 0.07973897 0.20492962 0.18246731 0.14351898 0.20492962
+ 0.06275933]
+[0.10226705 0.07837995 0.19496378 0.24138059 0.13506758 0.19496377
+ 0.05297723]]

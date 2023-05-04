@@ -1,0 +1,21 @@
+167324
+Test: public void test8() throws Throwable { byte[] byteArray0 = new byte[2]; FileContent fileContent0 = mock(FileContent.class, new ViolatedAssumptionAnswer()); doReturn(byteArray0).when(fileContent0).getByteArray(); FileObject fileObject0 = mock(FileObject.class, new ViolatedAssumptionAnswer()); FileObject fileObject1 = mock(FileObject.class, new ViolatedAssumptionAnswer()); doReturn(fileContent0).when(fileObject1).getContent(); doReturn(fileObject0).when(fileObject1).getParent(); Resource resource0 = new Resource("", fileObject1, fileObject1); byte[] byteArray1 = resource0.getBytes(); }
+Code: public byte[] getBytes() throws IOException { return FileObjectUtils.getContentAsByteArray(resource); }
+[[0.09103346 0.12967622 0.12629098 0.21263619 0.048129   0.12554564
+ 0.10070002 0.12629098 0.03969748]
+[0.08559864 0.10586855 0.11362204 0.26146352 0.05041886 0.11597684
+ 0.12035966 0.11362204 0.03306982]
+[0.07538773 0.12917723 0.12624748 0.24378753 0.05054368 0.11717926
+ 0.09143814 0.12624748 0.03999146]
+[0.06169487 0.10382632 0.10808056 0.3022379  0.03902592 0.14750952
+ 0.10062213 0.10808056 0.02892226]
+[0.07077514 0.09308708 0.1347181  0.2730184  0.0397278  0.1252645
+ 0.10197419 0.1347181  0.02671671]
+[0.09368929 0.12105377 0.12397307 0.16621938 0.06246607 0.14786202
+ 0.1081858  0.12397307 0.05257756]
+[0.0656635  0.11405602 0.13235976 0.2498559  0.04995828 0.12538727
+ 0.0958457  0.13235976 0.03451382]
+[0.07538773 0.12917723 0.12624748 0.24378753 0.05054368 0.11717926
+ 0.09143814 0.12624748 0.03999146]
+[0.06157226 0.07451802 0.11540538 0.2594249  0.04907854 0.1567473
+ 0.13404517 0.11540538 0.03380302]]

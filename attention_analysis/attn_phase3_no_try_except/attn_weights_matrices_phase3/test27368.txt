@@ -1,0 +1,8 @@
+27368
+Test: public void test5() throws Throwable { Precision.DoubleEquivalence precision_DoubleEquivalence0 = mock(Precision.DoubleEquivalence.class, new ViolatedAssumptionAnswer()); Line3D line3D0 = new Line3D((Vector3D) null, (Vector3D) null, precision_DoubleEquivalence0); LineSpanningSubset3D lineSpanningSubset3D0 = new LineSpanningSubset3D(line3D0); HyperplaneBoundedRegion<Vector1D> hyperplaneBoundedRegion0 = lineSpanningSubset3D0.getSubspaceRegion(); }
+Code: public abstract HyperplaneBoundedRegion<Vector1D> getSubspaceRegion(); }
+[[0.21577825 0.09485865 0.29933494 0.29933494 0.09069327]
+[0.19798845 0.07903157 0.3188933  0.3188933  0.08519338]
+[0.18447602 0.10158267 0.30549583 0.30549583 0.1029497 ]
+[0.18447602 0.10158267 0.30549583 0.30549583 0.1029497 ]
+[0.16835375 0.1253825  0.29888326 0.29888326 0.10849721]]

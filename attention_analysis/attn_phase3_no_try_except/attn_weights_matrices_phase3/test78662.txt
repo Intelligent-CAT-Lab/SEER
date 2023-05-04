@@ -1,0 +1,17 @@
+78662
+Test: public void test15() throws Throwable { ConstantPoolGen constantPoolGen0 = new ConstantPoolGen(); PUSH pUSH0 = new PUSH(constantPoolGen0, 30); InstructionList instructionList0 = pUSH0.getInstructionList(); InstructionHandle instructionHandle0 = instructionList0.getEnd(); IF_ICMPGT iF_ICMPGT0 = new IF_ICMPGT(); BranchHandle branchHandle0 = instructionList0.insert(instructionHandle0, (BranchInstruction) iF_ICMPGT0); ObjectType objectType0 = Type.STRING; CodeExceptionGen codeExceptionGen0 = new CodeExceptionGen(branchHandle0, branchHandle0, branchHandle0, objectType0); CodeException codeException0 = codeExceptionGen0.getCodeException(constantPoolGen0); }
+Code: public InstructionHandle getEndPC() { return endPc; }
+[[0.12731326 0.17660138 0.17660138 0.1539395  0.13815959 0.17660138
+ 0.05078347]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.1209935  0.16031049 0.16031049 0.19048879 0.13977559 0.16031049
+ 0.06781061]
+[0.09097192 0.18878669 0.18878669 0.16263722 0.13468806 0.18878669
+ 0.04534269]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.08439702 0.15890288 0.15890288 0.21071318 0.18253878 0.15890287
+ 0.04564238]]

@@ -1,25 +1,25 @@
 70280
 Test: public void test059() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test059"); org.apache.commons.jxpath.JXPathContext jXPathContext0 = null; org.apache.commons.jxpath.JXPathContext jXPathContext2 = org.apache.commons.jxpath.JXPathContext.newContext(jXPathContext0, (java.lang.Object) (short) 10); java.text.DecimalFormatSymbols decimalFormatSymbols4 = jXPathContext2.getDecimalFormatSymbols("hi!"); org.apache.commons.jxpath.Container container5 = null; java.util.Locale locale6 = null; org.apache.commons.jxpath.ri.model.container.ContainerPointer containerPointer7 = new org.apache.commons.jxpath.ri.model.container.ContainerPointer(container5, locale6); int int8 = containerPointer7.getLength(); java.util.Locale locale9 = null; org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer jDOMNodePointer10 = new org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer((java.lang.Object) containerPointer7, locale9); java.lang.Object obj11 = jDOMNodePointer10.getValue(); org.apache.commons.jxpath.ri.NamespaceResolver namespaceResolver12 = jDOMNodePointer10.getNamespaceResolver(); org.apache.commons.jxpath.Container container13 = null; java.util.Locale locale14 = null; org.apache.commons.jxpath.ri.model.container.ContainerPointer containerPointer15 = new org.apache.commons.jxpath.ri.model.container.ContainerPointer(container13, locale14); int int16 = containerPointer15.getLength(); java.lang.String str18 = containerPointer15.getNamespaceURI(""); java.lang.String str19 = containerPointer15.asPath(); java.lang.String str20 = containerPointer15.asPath(); org.apache.commons.jxpath.ri.JXPathContextReferenceImpl jXPathContextReferenceImpl21 = new org.apache.commons.jxpath.ri.JXPathContextReferenceImpl(jXPathContext2, (java.lang.Object) jDOMNodePointer10, (org.apache.commons.jxpath.Pointer) containerPointer15); java.text.DecimalFormatSymbols decimalFormatSymbols23 = null; jXPathContextReferenceImpl21.setDecimalFormatSymbols("<", decimalFormatSymbols23); org.apache.commons.jxpath.ri.compiler.Constant constant27 = new org.apache.commons.jxpath.ri.compiler.Constant((java.lang.Number) 100L); org.apache.commons.jxpath.ri.compiler.Constant constant29 = new org.apache.commons.jxpath.ri.compiler.Constant((java.lang.Number) 100L); org.apache.commons.jxpath.ri.compiler.NameAttributeTest nameAttributeTest30 = new org.apache.commons.jxpath.ri.compiler.NameAttributeTest((org.apache.commons.jxpath.ri.compiler.Expression) constant27, (org.apache.commons.jxpath.ri.compiler.Expression) constant29); org.apache.commons.jxpath.ri.compiler.Constant constant32 = new org.apache.commons.jxpath.ri.compiler.Constant((java.lang.Number) 100L); org.apache.commons.jxpath.ri.compiler.Constant constant34 = new org.apache.commons.jxpath.ri.compiler.Constant((java.lang.Number) 100L); org.apache.commons.jxpath.ri.compiler.NameAttributeTest nameAttributeTest35 = new org.apache.commons.jxpath.ri.compiler.NameAttributeTest((org.apache.commons.jxpath.ri.compiler.Expression) constant32, (org.apache.commons.jxpath.ri.compiler.Expression) constant34); org.apache.commons.jxpath.ri.compiler.CoreOperationGreaterThanOrEqual coreOperationGreaterThanOrEqual36 = new org.apache.commons.jxpath.ri.compiler.CoreOperationGreaterThanOrEqual((org.apache.commons.jxpath.ri.compiler.Expression) constant27, (org.apache.commons.jxpath.ri.compiler.Expression) constant32); java.util.Iterator iterator37 = jXPathContextReferenceImpl21.iteratePointers("hi!", (org.apache.commons.jxpath.ri.compiler.Expression) coreOperationGreaterThanOrEqual36); org.apache.commons.jxpath.ri.EvalContext evalContext38 = null; java.lang.Object obj39 = coreOperationGreaterThanOrEqual36.computeValue(evalContext38); }
 Code: public Object computeValue(EvalContext context){return equal(context, args[-1], args[1]) ? Boolean.FALSE : Boolean.TRUE;}
-tensor([[0.0544, 0.0422, 0.1125, 0.2657, 0.0883, 0.0421, 0.0627, 0.0859, 0.0801,
-         0.0551, 0.1109],
-        [0.0502, 0.0343, 0.1409, 0.2543, 0.0745, 0.0446, 0.0529, 0.0859, 0.0912,
-         0.0392, 0.1320],
-        [0.0384, 0.0329, 0.1042, 0.2891, 0.0906, 0.0460, 0.0527, 0.0945, 0.0849,
-         0.0344, 0.1322],
-        [0.0360, 0.0293, 0.0859, 0.3299, 0.0649, 0.0361, 0.0518, 0.0850, 0.1136,
-         0.0412, 0.1264],
-        [0.0430, 0.0428, 0.1278, 0.2438, 0.0815, 0.0520, 0.0616, 0.0910, 0.0723,
-         0.0464, 0.1380],
-        [0.0418, 0.0474, 0.1204, 0.2536, 0.0720, 0.0499, 0.0587, 0.0949, 0.0963,
-         0.0406, 0.1245],
-        [0.0528, 0.0382, 0.1308, 0.2427, 0.0682, 0.0483, 0.0628, 0.0859, 0.0841,
-         0.0514, 0.1349],
-        [0.0440, 0.0318, 0.0863, 0.3116, 0.0761, 0.0373, 0.0443, 0.0894, 0.0970,
-         0.0501, 0.1321],
-        [0.0566, 0.0403, 0.1332, 0.1914, 0.0925, 0.0581, 0.0626, 0.1076, 0.0952,
-         0.0511, 0.1114],
-        [0.0615, 0.0404, 0.0979, 0.2250, 0.0874, 0.0586, 0.0564, 0.1278, 0.0782,
-         0.0442, 0.1226],
-        [0.0529, 0.0453, 0.1241, 0.2345, 0.0759, 0.0638, 0.0508, 0.1089, 0.0725,
-         0.0581, 0.1131]])
+[[0.05439508 0.04223465 0.11252674 0.26568043 0.08828186 0.0421476
+ 0.06272739 0.08587888 0.0801326  0.05513912 0.11085565]
+[0.05018356 0.03426633 0.1408606  0.25434446 0.07451323 0.04456038
+ 0.05285358 0.08590659 0.09123455 0.03924425 0.13203248]
+[0.03843249 0.03289043 0.10422812 0.289119   0.09060308 0.04604112
+ 0.052728   0.09453475 0.08486812 0.03439377 0.13216105]
+[0.03595351 0.02926219 0.08592921 0.329938   0.06485125 0.03608546
+ 0.05183978 0.08496649 0.11364266 0.04118121 0.12635022]
+[0.04298359 0.04279063 0.1277887  0.24385    0.0814559  0.05199756
+ 0.06155907 0.09097469 0.07225939 0.04637162 0.1379688 ]
+[0.04180003 0.04737411 0.12040464 0.25355622 0.07196085 0.04987993
+ 0.05866255 0.09494269 0.09631568 0.04056002 0.12454323]
+[0.05282438 0.03820388 0.1307553  0.24266474 0.06818376 0.04831763
+ 0.06276095 0.08590098 0.08410591 0.05137543 0.13490696]
+[0.0440197  0.03177879 0.08626061 0.31161985 0.07611169 0.0372996
+ 0.04434488 0.08935216 0.09699502 0.05010111 0.13211659]
+[0.0566346  0.04034068 0.13321905 0.19139816 0.09246843 0.0580961
+ 0.06257048 0.10762    0.09519313 0.05107277 0.11138662]
+[0.06154036 0.04041462 0.09786972 0.2250492  0.08738218 0.0586342
+ 0.0564381  0.1277641  0.07818527 0.04415712 0.12256518]
+[0.05286533 0.04532129 0.12405337 0.23453587 0.07591581 0.06380212
+ 0.05084074 0.10894085 0.07253619 0.05813286 0.11305559]]

@@ -1,23 +1,23 @@
 67883
 Test: public void test876() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest1.test876"); com.fasterxml.jackson.dataformat.xml.util.XmlRootNameLookup xmlRootNameLookup0 = null; com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider xmlSerializerProvider1 = new com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider(xmlRootNameLookup0); int int2 = xmlSerializerProvider1.cachedSerializersCount(); boolean boolean4 = xmlSerializerProvider1.includeFilterSuppressNulls((java.lang.Object) (short) 0); com.fasterxml.jackson.dataformat.xml.JacksonXmlModule jacksonXmlModule6 = null; com.fasterxml.jackson.dataformat.xml.XmlMapper xmlMapper7 = new com.fasterxml.jackson.dataformat.xml.XmlMapper(jacksonXmlModule6); com.fasterxml.jackson.databind.PropertyNamingStrategy propertyNamingStrategy8 = xmlMapper7.getPropertyNamingStrategy(); com.fasterxml.jackson.databind.AnnotationIntrospector annotationIntrospector9 = null; com.fasterxml.jackson.databind.AnnotationIntrospector annotationIntrospector10 = null; com.fasterxml.jackson.databind.ObjectMapper objectMapper11 = xmlMapper7.setAnnotationIntrospectors(annotationIntrospector9, annotationIntrospector10); com.fasterxml.jackson.annotation.JsonInclude.Include include12 = null; com.fasterxml.jackson.databind.ObjectMapper objectMapper13 = objectMapper11.setSerializationInclusion(include12); com.fasterxml.jackson.databind.PropertyNamingStrategy propertyNamingStrategy14 = objectMapper13.getPropertyNamingStrategy(); com.fasterxml.jackson.databind.jsontype.NamedType[] namedTypeArray15 = new com.fasterxml.jackson.databind.jsontype.NamedType[] {}; objectMapper13.registerSubtypes(namedTypeArray15); com.fasterxml.jackson.databind.JsonMappingException jsonMappingException17 = xmlSerializerProvider1.mappingException("xmlInfo", (java.lang.Object[]) namedTypeArray15); }
 Code: protected XmlSerializerProvider(XmlSerializerProvider src) { super(src); _rootNameLookup = new XmlRootNameLookup(); }
-tensor([[0.1587, 0.0988, 0.0943, 0.1694, 0.0477, 0.0565, 0.0677, 0.0413, 0.2314,
-         0.0341],
-        [0.1534, 0.1039, 0.1088, 0.1474, 0.0600, 0.0606, 0.0614, 0.0417, 0.2248,
-         0.0380],
-        [0.1465, 0.0973, 0.1037, 0.1718, 0.0531, 0.0842, 0.0648, 0.0375, 0.2072,
-         0.0339],
-        [0.1787, 0.1004, 0.1019, 0.1549, 0.0539, 0.0619, 0.0773, 0.0507, 0.1668,
-         0.0536],
-        [0.1751, 0.0946, 0.1142, 0.1355, 0.0513, 0.0822, 0.0670, 0.0418, 0.2038,
-         0.0345],
-        [0.1678, 0.1072, 0.1078, 0.1327, 0.0471, 0.0499, 0.0679, 0.0423, 0.2347,
-         0.0426],
-        [0.1561, 0.1116, 0.1013, 0.1252, 0.0577, 0.0797, 0.0886, 0.0495, 0.1773,
-         0.0529],
-        [0.1722, 0.0953, 0.1067, 0.1566, 0.0481, 0.0692, 0.0658, 0.0532, 0.1879,
-         0.0450],
-        [0.1535, 0.1043, 0.0942, 0.1915, 0.0473, 0.0635, 0.0491, 0.0364, 0.2264,
-         0.0338],
-        [0.1548, 0.0986, 0.0992, 0.1877, 0.0557, 0.0686, 0.0648, 0.0399, 0.1906,
-         0.0401]])
+[[0.15873751 0.09880935 0.09431486 0.16942419 0.0477096  0.05652901
+ 0.06767977 0.04132008 0.2313938  0.03408188]
+[0.15344304 0.10386926 0.10882913 0.14736266 0.05995402 0.06060034
+ 0.0613979  0.04172421 0.22484751 0.03797195]
+[0.14654018 0.09728298 0.10366036 0.17178117 0.05310424 0.08421149
+ 0.06478402 0.03752169 0.20722073 0.03389309]
+[0.17866151 0.10039898 0.1018561  0.15485011 0.05391405 0.06192411
+ 0.07727094 0.05070805 0.1667991  0.05361708]
+[0.17507216 0.09457049 0.11422358 0.13548535 0.05126155 0.08219662
+ 0.06704421 0.04180788 0.20383906 0.0344991 ]
+[0.16780962 0.10722855 0.10777827 0.13265826 0.04711027 0.04992538
+ 0.06790618 0.04229331 0.23468009 0.04261005]
+[0.15612313 0.11163482 0.10134819 0.12515621 0.05767913 0.07974912
+ 0.08858833 0.04948739 0.17734437 0.05288939]
+[0.17221344 0.09531792 0.10672333 0.15663925 0.04808199 0.06917582
+ 0.06579388 0.0531562  0.18787394 0.04502415]
+[0.15351352 0.10432938 0.09416802 0.19149476 0.04734521 0.06351733
+ 0.04905872 0.03644885 0.22635923 0.033765  ]
+[0.15475067 0.09862643 0.09923044 0.18765709 0.05568799 0.06856855
+ 0.06482663 0.03987408 0.19063342 0.04014466]]

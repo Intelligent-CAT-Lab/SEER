@@ -1,0 +1,6 @@
+76936
+Test: public void test14() throws Throwable { int[] intArray0 = new int[6]; InstructionHandle[] instructionHandleArray0 = new InstructionHandle[1]; IF_ICMPNE iF_ICMPNE0 = new IF_ICMPNE(); InstructionList instructionList0 = new InstructionList((BranchInstruction) iF_ICMPNE0); InstructionHandle instructionHandle0 = instructionList0.getEnd(); TABLESWITCH tABLESWITCH0 = null;  tABLESWITCH0 = new TABLESWITCH(intArray0, instructionHandleArray0, instructionHandle0);   }
+Code: TABLESWITCH() { }
+[[0.5234282  0.34890088 0.12767084]
+[0.46439818 0.38162568 0.15397614]
+[0.48506725 0.4157069  0.09922581]]

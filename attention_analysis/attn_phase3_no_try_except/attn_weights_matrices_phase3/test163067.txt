@@ -1,0 +1,8 @@
+163067
+Test: public void test1745() throws Throwable { LinkedBlockingDeque<String> linkedBlockingDeque0 = new LinkedBlockingDeque<String>(); long long0 = (-336L); String string0 = linkedBlockingDeque0.pollLast(); TimeUnit timeUnit0 = TimeUnit.DAYS; boolean boolean0 = linkedBlockingDeque0.offerFirst("&9", (-336L), timeUnit0); String string1 = linkedBlockingDeque0.peekFirst(); int int0 = Integer.MAX_VALUE; boolean boolean1 = linkedBlockingDeque0.isEmpty(); LinkedBlockingDeque<Object> linkedBlockingDeque1 = new LinkedBlockingDeque<Object>(Integer.MAX_VALUE, true); Duration duration0 = Duration.ofNanos((-336L)); }
+Code: public LinkedBlockingDeque() { this(Integer.MAX_VALUE); }
+[[0.18877485 0.2618447  0.21511179 0.2618447  0.07242395]
+[0.15826353 0.2686846  0.22581923 0.2686846  0.07854807]
+[0.17396262 0.23986343 0.2528699  0.23986343 0.09344059]
+[0.15826353 0.2686846  0.22581923 0.2686846  0.07854807]
+[0.13051036 0.24960408 0.30344182 0.24960408 0.06683967]]

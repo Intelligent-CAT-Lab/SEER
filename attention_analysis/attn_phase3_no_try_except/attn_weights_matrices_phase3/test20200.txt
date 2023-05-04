@@ -1,0 +1,25 @@
+20200
+Test: public void test0() throws Throwable { Integer integer0 = new Integer((-2856)); MutableTriple<Object, Object, String> mutableTriple0 = new MutableTriple<Object, Object, String>(integer0, integer0, "org.apache.commons.lang3.tuple.Triple$TripleAdapter"); MutableTriple<String, Object, Object> mutableTriple1 = new MutableTriple<String, Object, Object>(); ImmutableTriple<MutableTriple<String, Object, Object>, Object, Object> immutableTriple0 = ImmutableTriple.of(mutableTriple1, (Object) "org.apache.commons.lang3.tuple.Triple$TripleAdapter", (Object) integer0); ImmutableTriple<Object, Object, Object> immutableTriple1 = new ImmutableTriple<Object, Object, Object>("org.apache.commons.lang3.tuple.Triple$TripleAdapter", "org.apache.commons.lang3.tuple.Triple$TripleAdapter", immutableTriple0); MutableTriple<MutableTriple<Object, Object, String>, ImmutableTriple<Object, Object, Object>, Integer> mutableTriple2 = MutableTriple.of(mutableTriple0, immutableTriple1, integer0); mutableTriple2.hashCode(); }
+Code: public int hashCode() { return Objects.hashCode(getLeft()) ^ Objects.hashCode(getMiddle()) ^ Objects.hashCode(getRight()); }
+[[0.07404959 0.04499945 0.10920165 0.10802945 0.08264218 0.10273487
+ 0.11964473 0.10273487 0.11964473 0.10273489 0.03358354]
+[0.05019338 0.03439283 0.1051798  0.12411685 0.08229245 0.12437433
+ 0.10249785 0.12437433 0.10249786 0.12437437 0.02570592]
+[0.05880786 0.03476447 0.12444548 0.13363327 0.09539057 0.10498744
+ 0.10324457 0.10498744 0.10324459 0.10498749 0.03150677]
+[0.07808125 0.03661377 0.11162996 0.1334108  0.08883218 0.09877888
+ 0.10465565 0.09877888 0.10465565 0.0987789  0.04578409]
+[0.05864158 0.03369955 0.09509984 0.1210935  0.084032   0.11375229
+ 0.11665908 0.11375229 0.11665913 0.11375232 0.03285837]
+[0.06224043 0.03915464 0.11701692 0.11090275 0.07586537 0.10166935
+ 0.12650032 0.10166935 0.12650031 0.10166936 0.03681125]
+[0.06877844 0.02812796 0.0963145  0.1374836  0.11338474 0.09954228
+ 0.11810133 0.09954228 0.11810137 0.09954229 0.02108116]
+[0.06224043 0.03915464 0.11701692 0.11090275 0.07586537 0.10166935
+ 0.12650032 0.10166935 0.12650031 0.10166936 0.03681125]
+[0.06877846 0.02812796 0.09631451 0.13748355 0.11338474 0.09954228
+ 0.11810135 0.09954228 0.11810137 0.09954229 0.02108116]
+[0.06224043 0.03915465 0.11701691 0.11090274 0.07586536 0.10166934
+ 0.12650032 0.10166934 0.12650031 0.10166936 0.03681125]
+[0.0554318  0.04153295 0.10815454 0.15231547 0.12391476 0.10195695
+ 0.09023865 0.10195695 0.09023866 0.10195698 0.03230232]]

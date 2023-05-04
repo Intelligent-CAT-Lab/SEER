@@ -1,0 +1,9 @@
+167089
+Test: public void test17() throws Throwable { Hashtable<String, ConfigurationEvent> hashtable0 = new Hashtable<String, ConfigurationEvent>(); FileHandler fileHandler0 = FileHandler.fromMap(hashtable0); VFSFileSystem vFSFileSystem0 = new VFSFileSystem(); fileHandler0.setFileSystem(vFSFileSystem0); FileHandlerReloadingDetector fileHandlerReloadingDetector0 = new FileHandlerReloadingDetector(fileHandler0); // Undeclared exception!  fileHandlerReloadingDetector0.refresh();   }
+Code: public void refresh() { updateLastModified(getLastModificationDate()); }
+[[0.16401619 0.12892938 0.22750431 0.18872175 0.22750433 0.06332405]
+[0.12662017 0.10623181 0.25207683 0.20101164 0.25207683 0.06198274]
+[0.14093259 0.11606516 0.24057081 0.19385338 0.24057084 0.06800722]
+[0.15142353 0.12997365 0.20939462 0.21874288 0.20939462 0.08107075]
+[0.14093259 0.11606516 0.24057081 0.19385338 0.24057084 0.06800722]
+[0.11676887 0.10545267 0.2233574  0.2712946  0.22335738 0.05976907]]

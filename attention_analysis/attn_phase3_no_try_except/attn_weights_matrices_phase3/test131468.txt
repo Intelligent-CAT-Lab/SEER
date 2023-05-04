@@ -1,0 +1,19 @@
+131468
+Test: public void test0() throws Throwable { OrderedMapIterator<Object, String> orderedMapIterator0 = EmptyOrderedMapIterator.emptyOrderedMapIterator(); OrderedMapIterator<Object, String> orderedMapIterator1 = UnmodifiableOrderedMapIterator.unmodifiableOrderedMapIterator((OrderedMapIterator<Object, ? extends String>) orderedMapIterator0); AbstractOrderedMapIteratorDecorator<Object, String> abstractOrderedMapIteratorDecorator0 = new AbstractOrderedMapIteratorDecorator<Object, String>(orderedMapIterator1); OrderedMapIterator<Object, String> orderedMapIterator2 = abstractOrderedMapIteratorDecorator0.getOrderedMapIterator(); }
+Code: protected OrderedMapIterator<K, V> getOrderedMapIterator() { return iterator; }
+[[0.14933228 0.13158467 0.13158467 0.13158467 0.17821118 0.11073967
+ 0.13158467 0.03537818]
+[0.17193629 0.1339346  0.1339346  0.1339346  0.1445359  0.09973104
+ 0.1339346  0.04805835]
+[0.17193629 0.1339346  0.1339346  0.1339346  0.1445359  0.09973104
+ 0.1339346  0.04805835]
+[0.17193629 0.1339346  0.1339346  0.1339346  0.1445359  0.09973104
+ 0.1339346  0.04805835]
+[0.17090826 0.12009021 0.12009021 0.12009021 0.17832473 0.11071973
+ 0.12009021 0.05968642]
+[0.18007171 0.13524991 0.13524991 0.13524991 0.14102384 0.09954491
+ 0.13524991 0.0383598 ]
+[0.17193629 0.1339346  0.1339346  0.1339346  0.1445359  0.09973104
+ 0.1339346  0.04805835]
+[0.13632903 0.12010092 0.12010092 0.12010092 0.19202612 0.15096861
+ 0.12010092 0.04027252]]

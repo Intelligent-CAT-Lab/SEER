@@ -1,0 +1,17 @@
+132040
+Test: public void test419() throws Throwable { LinkedMap<Object, Object> linkedMap0 = new LinkedMap<Object, Object>(); LinkedMap<Object, Object> linkedMap1 = linkedMap0.clone(); LinkedMap.LinkedMapList<Object> linkedMap_LinkedMapList0 = new LinkedMap.LinkedMapList<Object>(linkedMap1); Integer integer0 = new Integer(0); int int0 = linkedMap_LinkedMapList0.indexOf(integer0); LinkedMap<String, Object> linkedMap2 = new LinkedMap<String, Object>(); LinkedMap.LinkedMapList<String> linkedMap_LinkedMapList1 = new LinkedMap.LinkedMapList<String>(linkedMap2); boolean boolean0 = linkedMap_LinkedMapList1.contains(linkedMap1); }
+Code: public LinkedMap() { super(DEFAULT_CAPACITY, DEFAULT_LOAD_FACTOR, DEFAULT_THRESHOLD); }
+[[0.1221019  0.16937566 0.15096317 0.16937566 0.16937566 0.16937566
+ 0.04943221]
+[0.10205227 0.17037542 0.16153106 0.17037542 0.17037544 0.17037544
+ 0.054915  ]
+[0.11898936 0.15491499 0.19347724 0.15491499 0.15491499 0.15491499
+ 0.06787348]
+[0.10205227 0.17037542 0.16153106 0.17037542 0.17037544 0.17037544
+ 0.054915  ]
+[0.10205227 0.17037542 0.16153106 0.17037542 0.17037544 0.17037544
+ 0.054915  ]
+[0.10205227 0.17037542 0.16153106 0.17037542 0.17037544 0.17037544
+ 0.054915  ]
+[0.08553335 0.1572137  0.23566225 0.1572137  0.15721369 0.15721369
+ 0.04994954]]

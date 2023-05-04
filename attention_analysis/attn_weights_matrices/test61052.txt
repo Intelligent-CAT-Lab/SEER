@@ -1,10 +1,17 @@
 61052
 Test: public void test637() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest1.test637"); java.lang.String[] strArray5 = new java.lang.String[] { "\u2029", "\u2029", "hi!", "\u2029", "\u2029" }; java.util.Map<java.lang.String, java.lang.Integer> strMap6 = null; org.apache.commons.csv.CSVRecord cSVRecord9 = new org.apache.commons.csv.CSVRecord(strArray5, strMap6, "hi!", (long) (byte) 100); java.util.Iterator<java.lang.String> strItor10 = cSVRecord9.iterator(); long long11 = cSVRecord9.getRecordNumber(); java.util.Spliterator<java.lang.String> strSpliterator12 = cSVRecord9.spliterator(); int int13 = cSVRecord9.size(); java.util.Spliterator<java.lang.String> strSpliterator14 = cSVRecord9.spliterator(); java.util.Spliterator<java.lang.String> strSpliterator15 = cSVRecord9.spliterator(); int int16 = cSVRecord9.size(); org.apache.commons.csv.CSVFormat cSVFormat18 = org.apache.commons.csv.CSVFormat.DEFAULT; org.apache.commons.csv.Quote quote19 = null; org.apache.commons.csv.CSVFormat cSVFormat20 = cSVFormat18.withQuotePolicy(quote19); org.apache.commons.csv.CSVParser cSVParser21 = org.apache.commons.csv.CSVParser.parse("\u2029", cSVFormat20); org.apache.commons.csv.CSVRecord cSVRecord22 = cSVParser21.nextRecord(); int int23 = cSVRecord22.size(); boolean boolean25 = cSVRecord22.isSet("\u2029\u2029\u2029\u2029]\fDelimiter=<,> QuoteChar=<\"> RecordSeparator=<\r\n> EmptyLines:ignored SkipHeaderRecord:false\f\u2029\u2029\u2029\u2029]\f\f\u2029\u2029\u2029\u2029]"); java.util.Map<java.lang.String, java.lang.String> strMap26 = cSVRecord22.toMap(); java.util.Map<java.lang.String, java.lang.String> strMap27 = cSVRecord9.putIn(strMap26); org.apache.commons.csv.CSVFormat cSVFormat29 = org.apache.commons.csv.CSVFormat.newFormat('\f'); java.lang.String[] strArray35 = new java.lang.String[] { "\u2029\u2029\u2029\u2029]", "Delimiter=<,> QuoteChar=<\"> RecordSeparator=<\r\n> EmptyLines:ignored SkipHeaderRecord:false", "\u2029\u2029\u2029\u2029]", "", "\u2029\u2029\u2029\u2029]" }; java.util.Map<java.lang.String, java.lang.Integer> strMap36 = null; org.apache.commons.csv.CSVRecord cSVRecord39 = new org.apache.commons.csv.CSVRecord(strArray35, strMap36, "Delimiter=<,> QuoteChar=<\"> RecordSeparator=<\r\n> EmptyLines:ignored SkipHeaderRecord:false", (long) (byte) -1); java.lang.String str40 = cSVFormat29.format((java.lang.Object[]) strArray35); java.util.Map<java.lang.String, java.lang.Integer> strMap41 = null; org.apache.commons.csv.CSVRecord cSVRecord44 = new org.apache.commons.csv.CSVRecord(strArray35, strMap41, "INVALID []", (long) '\f'); java.util.Map<java.lang.String, java.lang.String> strMap45 = cSVRecord44.toMap(); java.util.Map<java.lang.String, java.lang.String> strMap46 = cSVRecord9.putIn(strMap45); java.lang.String[] strArray47 = cSVRecord9.values(); }
 Code: public Iterator<String> iterator() { return toList().iterator(); }
-tensor([[0.1813, 0.1146, 0.1325, 0.1826, 0.1922, 0.1325, 0.0643],
-        [0.1662, 0.1128, 0.1148, 0.2453, 0.2159, 0.1035, 0.0414],
-        [0.1723, 0.1287, 0.1312, 0.2159, 0.2193, 0.0800, 0.0526],
-        [0.1557, 0.1429, 0.1240, 0.1918, 0.1869, 0.1218, 0.0770],
-        [0.1444, 0.1463, 0.1421, 0.1901, 0.2254, 0.0949, 0.0568],
-        [0.1528, 0.1383, 0.1063, 0.2174, 0.2435, 0.0927, 0.0490],
-        [0.1342, 0.1430, 0.0991, 0.2273, 0.2592, 0.0825, 0.0546]])
+[[0.1812854  0.11461314 0.13251834 0.18259686 0.19220923 0.13247323
+ 0.06430378]
+[0.16620386 0.11281678 0.11482486 0.24532959 0.21590522 0.10347968
+ 0.04143997]
+[0.17234041 0.1286773  0.13115087 0.21587856 0.21932235 0.08002666
+ 0.0526039 ]
+[0.15572537 0.1428858  0.12397139 0.19175915 0.18687874 0.12181467
+ 0.07696486]
+[0.14437567 0.14634565 0.14214584 0.19006488 0.22543183 0.0948706
+ 0.05676553]
+[0.1528409  0.13828143 0.10628543 0.21742824 0.24350712 0.09268016
+ 0.04897677]
+[0.13423805 0.14301783 0.09911649 0.22732863 0.25917014 0.08253807
+ 0.05459078]]

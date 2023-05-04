@@ -1,0 +1,17 @@
+134459
+Test: public void test182() throws Throwable { XmlDeclaration xmlDeclaration0 = new XmlDeclaration("", false); XmlDeclaration xmlDeclaration1 = xmlDeclaration0.clone(); XmlDeclaration xmlDeclaration2 = xmlDeclaration0.clone(); xmlDeclaration2.getWholeDeclaration(); MockFileWriter mockFileWriter0 = new MockFileWriter("abs:"); xmlDeclaration1.html(mockFileWriter0); CDataNode cDataNode0 = new CDataNode(""); int int0 = 0; cDataNode0.siblingIndex = 0; CDataNode cDataNode1 = cDataNode0.clone(); xmlDeclaration2.coreValue(); cDataNode1.coreValue(); TextNode.normaliseWhitespace("org.jsoup.nodes.Node"); cDataNode1.setParentNode(xmlDeclaration2); cDataNode1.isBlank(); xmlDeclaration1.clone(); xmlDeclaration2.shallowClone(); Document document0 = Parser.parse("org.jsoup.nodes.Node", "org.jsoup.nodes.Node"); document0.normalise(); Node[] nodeArray0 = new Node[1]; PipedReader pipedReader0 = null;  pipedReader0 = new PipedReader((PipedWriter) null, 0);   }
+Code: public Node shallowClone() { return doClone(null); }
+[[0.12606663 0.20675161 0.17485642 0.13600054 0.13477735 0.17485642
+ 0.04669106]
+[0.08842402 0.22558683 0.18254244 0.15090273 0.13858312 0.18254246
+ 0.03141838]
+[0.10562436 0.21281981 0.18086512 0.1421623  0.12753129 0.18086514
+ 0.05013194]
+[0.11738366 0.18801866 0.16248085 0.16921553 0.13764271 0.16248085
+ 0.06277775]
+[0.09061933 0.19322716 0.19654739 0.14462437 0.13714896 0.1965474
+ 0.04128538]
+[0.10562436 0.21281981 0.18086512 0.1421623  0.12753129 0.18086514
+ 0.05013194]
+[0.077965   0.26400763 0.15319017 0.15770647 0.15794683 0.15319015
+ 0.03599373]]

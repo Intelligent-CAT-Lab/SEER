@@ -1,0 +1,9 @@
+164784
+Test: public void test10() throws Throwable { ZigguratSampler.NormalizedGaussian zigguratSampler_NormalizedGaussian0 = ZigguratSampler.NormalizedGaussian.of((UniformRandomProvider) null); // Undeclared exception!  zigguratSampler_NormalizedGaussian0.nextLong();   }
+Code: long nextLong() { return rng.nextLong(); }
+[[0.25584137 0.06552219 0.22455755 0.17201287 0.22580819 0.05625789]
+[0.23971921 0.06312579 0.22786854 0.17955369 0.22939335 0.06033941]
+[0.24655543 0.08511958 0.21535215 0.17185745 0.20184584 0.07926959]
+[0.3145066  0.0717345  0.18543422 0.15645431 0.22001174 0.05185866]
+[0.2506426  0.09026859 0.19665241 0.16429776 0.22996968 0.06816904]
+[0.1900296  0.05738595 0.23210983 0.23601925 0.2311747  0.0532806 ]]

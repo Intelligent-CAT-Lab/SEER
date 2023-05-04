@@ -1,0 +1,19 @@
+39622
+Test: public void test56() throws Throwable { DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.year(); BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstanceUTC(); DurationField durationField0 = buddhistChronology0.eras(); DelegatedDurationField delegatedDurationField0 = new DelegatedDurationField(durationField0); UnsupportedDateTimeField unsupportedDateTimeField0 = UnsupportedDateTimeField.getInstance(dateTimeFieldType0, delegatedDurationField0); // Undeclared exception!  unsupportedDateTimeField0.getLeapAmount((-3697L));   }
+Code: public int getLeapAmount(long instant) { throw unsupported(); }
+[[0.13224179 0.08624063 0.18344119 0.06365829 0.16328843 0.13419741
+ 0.18344119 0.05349103]
+[0.08769529 0.06511246 0.22995156 0.0437353  0.18759786 0.11434303
+ 0.22995156 0.04161293]
+[0.11407071 0.07523736 0.19306189 0.06653938 0.16605991 0.13447058
+ 0.19306189 0.05749825]
+[0.12422172 0.08354191 0.19219911 0.05450272 0.18422663 0.11400363
+ 0.19219911 0.05510521]
+[0.13052034 0.06461463 0.18040578 0.06709272 0.18873292 0.1183124
+ 0.18040578 0.06991536]
+[0.10794476 0.07011373 0.18316354 0.05162001 0.23525791 0.12657888
+ 0.18316354 0.04215769]
+[0.11407071 0.07523736 0.19306189 0.06653938 0.16605991 0.13447058
+ 0.19306189 0.05749825]
+[0.09741028 0.07491953 0.18672863 0.05333843 0.22400382 0.12739682
+ 0.18672863 0.04947378]]

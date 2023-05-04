@@ -1,7 +1,7 @@
 67329
 Test: public void testRawValues() throws Exception { final String RAW = "{\"a\":1}"; TokenBuffer buf = new TokenBuffer(null, false); buf.writeRawValue(RAW); JsonParser p = buf.asParser(); p.close(); buf.close(); }
 Code: public void writeRawValue(String text){;}
-tensor([[0.3074, 0.2533, 0.3317, 0.1077],
-        [0.2784, 0.2464, 0.3849, 0.0902],
-        [0.2761, 0.2779, 0.3610, 0.0849],
-        [0.3235, 0.2319, 0.3333, 0.1114]])
+[[0.3073504  0.2533067  0.33165017 0.10769276]
+[0.27841973 0.24643004 0.3849374  0.0902128 ]
+[0.27613062 0.27788675 0.36103737 0.08494528]
+[0.32345542 0.23191953 0.3332707  0.11135431]]

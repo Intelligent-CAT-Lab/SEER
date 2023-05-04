@@ -1,0 +1,2 @@
+78996
+Test: public void test6() throws Throwable { ReferenceType referenceType0 = Type.NULL; ArrayType arrayType0 = new ArrayType(referenceType0, 215); ArrayType arrayType1 = new ArrayType(arrayType0, 215); // Undeclared exception!  arrayType1.isAssignmentCompatibleWith(arrayType0);   }

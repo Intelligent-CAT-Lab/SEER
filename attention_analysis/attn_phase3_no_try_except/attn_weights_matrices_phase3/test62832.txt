@@ -1,0 +1,25 @@
+62832
+Test: public void test3() throws Throwable { DefaultSslEngineFactory defaultSslEngineFactory0 = new DefaultSslEngineFactory(); defaultSslEngineFactory0.destroy(); AsyncHttpClientConfig asyncHttpClientConfig0 = mock(AsyncHttpClientConfig.class, new ViolatedAssumptionAnswer()); String[] stringArray0 = new String[5]; stringArray0[1] = ""; stringArray0[2] = ""; stringArray0[3] = ""; stringArray0[4] = ""; AsyncHttpClientConfig asyncHttpClientConfig1 = mock(AsyncHttpClientConfig.class, new ViolatedAssumptionAnswer()); doReturn((Object) stringArray0, (Object) null).when(asyncHttpClientConfig1).getEnabledCipherSuites(); doReturn((Object) stringArray0, (Object) null).when(asyncHttpClientConfig1).getEnabledProtocols(); doReturn((SslContext) null).when(asyncHttpClientConfig1).getSslContext(); doReturn(604).when(asyncHttpClientConfig1).getSslSessionCacheSize(); doReturn(1980).when(asyncHttpClientConfig1).getSslSessionTimeout(); doReturn(false).when(asyncHttpClientConfig1).isUseOpenSsl(); // Undeclared exception!  defaultSslEngineFactory0.init(asyncHttpClientConfig1);   }
+Code: default void init(AsyncHttpClientConfig config) throws SSLException { // no op }
+[[0.16559346 0.03678478 0.0824178  0.05015763 0.1678128  0.0824178
+ 0.10243949 0.0824178  0.06594871 0.14496638 0.01904336]
+[0.13448466 0.03990132 0.09088977 0.04475272 0.16581398 0.09088977
+ 0.07816632 0.09088977 0.05660831 0.18370534 0.02389799]
+[0.15745793 0.04572758 0.088088   0.04097723 0.16925949 0.088088
+ 0.0797914  0.088088   0.0788686  0.13629858 0.0273552 ]
+[0.1430336  0.04247015 0.0903196  0.05502905 0.15198573 0.0903196
+ 0.07921206 0.0903196  0.07004619 0.16337095 0.0238934 ]
+[0.16801015 0.03875962 0.06983628 0.04630127 0.1953968  0.06983628
+ 0.09671205 0.06983628 0.06392372 0.162483   0.01890451]
+[0.15745793 0.04572758 0.088088   0.04097723 0.16925949 0.088088
+ 0.0797914  0.088088   0.0788686  0.13629858 0.0273552 ]
+[0.1280161  0.057738   0.09040438 0.05190723 0.11952386 0.09040438
+ 0.10097088 0.09040438 0.0673349  0.16666499 0.03663092]
+[0.15745793 0.04572758 0.088088   0.04097723 0.16925949 0.088088
+ 0.0797914  0.088088   0.0788686  0.13629858 0.0273552 ]
+[0.11432087 0.05406358 0.08313224 0.05520344 0.17085104 0.08313224
+ 0.09325844 0.08313224 0.07138269 0.16211438 0.02940893]
+[0.1484108  0.05186126 0.07607362 0.0511913  0.16048793 0.07607362
+ 0.09146744 0.07607362 0.07392966 0.16929236 0.02513848]
+[0.13425483 0.04003903 0.08057834 0.04886203 0.1815897  0.08057834
+ 0.11123218 0.08057834 0.05871311 0.15965708 0.02391712]]

@@ -1,0 +1,17 @@
+131400
+Test: public void test8() throws Throwable { Locale.Category locale_Category0 = Locale.Category.FORMAT; Locale.Category locale_Category1 = Locale.Category.FORMAT; EnumSet<Locale.Category> enumSet0 = EnumSet.of(locale_Category0, locale_Category1); FluentIterable<Locale.Category> fluentIterable0 = FluentIterable.of((Iterable<Locale.Category>) enumSet0); FluentIterable<Locale.Category> fluentIterable1 = fluentIterable0.limit(0L); FluentIterable<Locale.Category> fluentIterable2 = fluentIterable1.append((Iterable<? extends Locale.Category>) enumSet0); FluentIterable<Locale.Category> fluentIterable3 = fluentIterable2.collate((Iterable<? extends Locale.Category>) enumSet0); FluentIterable<Locale.Category> fluentIterable4 = fluentIterable3.unique(); Iterable<Locale.Category>[] iterableArray0 = (Iterable<Locale.Category>[]) Array.newInstance(Iterable.class, 0); FluentIterable<Locale.Category> fluentIterable5 = fluentIterable4.zip(iterableArray0); String string0 = fluentIterable5.toString(); }
+Code: public String toString() { return IterableUtils.toString(iterable); }
+[[0.12751438 0.16374648 0.16744536 0.16980831 0.1403077  0.17689529
+ 0.05428251]
+[0.12780619 0.14703819 0.17400633 0.19282535 0.12966089 0.17998166
+ 0.04868141]
+[0.09313081 0.22704944 0.14955248 0.17578904 0.14075458 0.16794677
+ 0.04577685]
+[0.1234187  0.17793304 0.12480748 0.20122322 0.14167345 0.16043907
+ 0.07050503]
+[0.09496105 0.2082657  0.13159859 0.1882646  0.13742019 0.18802871
+ 0.05146113]
+[0.10609072 0.19047922 0.15982641 0.17934428 0.12905903 0.17505175
+ 0.06014856]
+[0.08375974 0.15345445 0.16788015 0.21038674 0.18152598 0.15748401
+ 0.04550892]]

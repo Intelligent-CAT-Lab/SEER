@@ -1,0 +1,17 @@
+160770
+Test: public void test30() throws Throwable { KeyedPooledObjectFactory<LinkedList<Object>, String> keyedPooledObjectFactory0 = (KeyedPooledObjectFactory<LinkedList<Object>, String>) mock(KeyedPooledObjectFactory.class, new ViolatedAssumptionAnswer()); GenericKeyedObjectPoolConfig<String> genericKeyedObjectPoolConfig0 = new GenericKeyedObjectPoolConfig<String>(); GenericKeyedObjectPoolConfig<String> genericKeyedObjectPoolConfig1 = genericKeyedObjectPoolConfig0.clone(); AbandonedConfig abandonedConfig0 = new AbandonedConfig(); genericKeyedObjectPoolConfig0.clone(); GenericKeyedObjectPool<LinkedList<Object>, String> genericKeyedObjectPool0 = new GenericKeyedObjectPool<LinkedList<Object>, String>(keyedPooledObjectFactory0, genericKeyedObjectPoolConfig1, abandonedConfig0); genericKeyedObjectPool0.getMeanIdleTimeMillis(); KeyedPooledObjectFactory<Integer, Integer> keyedPooledObjectFactory1 = (KeyedPooledObjectFactory<Integer, Integer>) mock(KeyedPooledObjectFactory.class, new ViolatedAssumptionAnswer()); GenericKeyedObjectPool<Integer, Integer> genericKeyedObjectPool1 = null;  genericKeyedObjectPool1 = new GenericKeyedObjectPool<Integer, Integer>(keyedPooledObjectFactory1, (GenericKeyedObjectPoolConfig<Integer>) null);   }
+Code: long getMeanIdleTimeMillis(); /** * See {@link GenericKeyedObjectPool#getMinEvictableIdleDuration()}
+[[0.13640465 0.12781873 0.12781873 0.05659391 0.2957265  0.12781873
+ 0.12781873]
+[0.12082127 0.12167798 0.12167798 0.07936922 0.31309757 0.12167799
+ 0.12167799]
+[0.12082127 0.12167798 0.12167798 0.07936922 0.31309757 0.12167799
+ 0.12167799]
+[0.13888034 0.11938646 0.11938646 0.12537442 0.25819942 0.11938646
+ 0.11938646]
+[0.12385447 0.11702807 0.11702807 0.07462848 0.33340472 0.11702807
+ 0.11702807]
+[0.12082127 0.12167798 0.12167798 0.07936922 0.31309757 0.12167799
+ 0.12167799]
+[0.12082127 0.12167798 0.12167798 0.07936922 0.31309757 0.12167799
+ 0.12167799]]

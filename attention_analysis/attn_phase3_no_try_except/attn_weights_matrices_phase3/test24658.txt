@@ -1,0 +1,19 @@
+24658
+Test: public void test2() throws Throwable { Precision.DoubleEquivalence precision_DoubleEquivalence0 = mock(Precision.DoubleEquivalence.class, new ViolatedAssumptionAnswer()); doReturn(false, false).when(precision_DoubleEquivalence0).eqZero(anyDouble()); doReturn(0.0).when(precision_DoubleEquivalence0).signum(anyDouble()); AngularInterval angularInterval0 = AngularInterval.of((-1872.919), 0.0, precision_DoubleEquivalence0); RegionBSPTree1S regionBSPTree1S0 = RegionBSPTree1S.fromInterval(angularInterval0); RegionBSPTree1S.RegionNode1S regionBSPTree1S_RegionNode1S0 = regionBSPTree1S0.createNode(); RegionBSPTree1S.RegionNode1S regionBSPTree1S_RegionNode1S1 = regionBSPTree1S_RegionNode1S0.getSelf(); }
+Code: protected RegionNode1S createNode() { return new RegionNode1S(this); }
+[[0.1693534  0.14638151 0.14638151 0.1883791  0.12033837 0.04508065
+ 0.14638151 0.03770402]
+[0.18845767 0.14456797 0.14456797 0.15200263 0.10710871 0.06796957
+ 0.14456797 0.05075749]
+[0.18845767 0.14456797 0.14456797 0.15200263 0.10710871 0.06796957
+ 0.14456797 0.05075749]
+[0.18576148 0.12930483 0.12930483 0.18841077 0.11860833 0.05593608
+ 0.12930483 0.06336879]
+[0.20120442 0.1496461  0.1496461  0.15317753 0.1097848  0.04513705
+ 0.1496461  0.0417579 ]
+[0.19186272 0.13629763 0.13629763 0.1665533  0.12658414 0.05800993
+ 0.13629763 0.04809707]
+[0.18845767 0.14456797 0.14456797 0.15200263 0.10710871 0.06796957
+ 0.14456797 0.05075749]
+[0.15270518 0.13276932 0.13276932 0.20247638 0.16300187 0.04071628
+ 0.13276932 0.0427923 ]]

@@ -1,0 +1,17 @@
+42105
+Test: public void test1138() throws Throwable { DateTimeFormatterBuilder.TimeZoneId[] dateTimeFormatterBuilder_TimeZoneIdArray0 = DateTimeFormatterBuilder.TimeZoneId.values(); DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder(); DateTimeFormatterBuilder dateTimeFormatterBuilder1 = dateTimeFormatterBuilder0.appendCenturyOfEra(1456, 1456); DateTimeFormatterBuilder dateTimeFormatterBuilder2 = dateTimeFormatterBuilder1.appendDayOfWeekText(); DateTimeFormatterBuilder dateTimeFormatterBuilder3 = dateTimeFormatterBuilder2.appendTwoDigitWeekyear(90, false); DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.era(); DateTimeFormatterBuilder.UnpaddedNumber dateTimeFormatterBuilder_UnpaddedNumber0 = new DateTimeFormatterBuilder.UnpaddedNumber(dateTimeFieldType0, 65, true); GJChronology gJChronology0 = GJChronology.getInstanceUTC(); Chronology chronology0 = gJChronology0.withUTC(); DateTimeField dateTimeField0 = dateTimeFieldType0.getField(chronology0); DateTimePrinter dateTimePrinter0 = InternalPrinterDateTimePrinter.of(dateTimeFormatterBuilder_UnpaddedNumber0); DateTimeParser dateTimeParser0 = InternalParserDateTimeParser.of(dateTimeFormatterBuilder_UnpaddedNumber0); StringWriter stringWriter0 = new StringWriter(); StringWriter stringWriter1 = stringWriter0.append('='); StringBuffer stringBuffer0 = new StringBuffer(45); StringWriter stringWriter2 = stringWriter1.append((CharSequence) stringBuffer0); StringBuffer stringBuffer1 = stringWriter2.getBuffer(); LocalDateTime localDateTime0 = new LocalDateTime(264L, (Chronology) gJChronology0); Locale locale0 = Locale.TRADITIONAL_CHINESE; dateTimePrinter0.printTo(stringBuffer1, (ReadablePartial) localDateTime0, locale0); DateTimeFormatterBuilder dateTimeFormatterBuilder4 = dateTimeFormatterBuilder3.append(dateTimePrinter0, dateTimeParser0); DateTimeFormatterBuilder dateTimeFormatterBuilder5 = dateTimeFormatterBuilder2.appendHalfdayOfDayText(); }
+Code: public DateTimeFormatterBuilder appendHalfdayOfDayText() { return appendText(DateTimeFieldType.halfdayOfDay()); }
+[[0.12731326 0.17660138 0.17660138 0.1539395  0.13815959 0.17660138
+ 0.05078347]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.1209935  0.16031049 0.16031049 0.19048879 0.13977559 0.16031049
+ 0.06781061]
+[0.09097192 0.18878669 0.18878669 0.16263722 0.13468806 0.18878669
+ 0.04534269]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.08439702 0.15890288 0.15890288 0.21071318 0.18253878 0.15890287
+ 0.04564238]]

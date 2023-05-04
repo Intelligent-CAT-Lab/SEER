@@ -1,0 +1,17 @@
+131423
+Test: public void test32() throws Throwable { FluentIterable<Object> fluentIterable0 = new FluentIterable<Object>(); Integer integer0 = new Integer(5); FluentIterable<Integer> fluentIterable1 = FluentIterable.of(integer0); FluentIterable<Integer> fluentIterable2 = fluentIterable1.reverse(); fluentIterable2.isEmpty(); Class<Integer> class0 = Integer.class; ClassLoader classLoader0 = ClassLoader.getSystemClassLoader(); ServiceLoader<Integer> serviceLoader0 = ServiceLoader.load(class0, classLoader0); fluentIterable1.collate((Iterable<? extends Integer>) serviceLoader0); Predicate<Integer>[] predicateArray0 = (Predicate<Integer>[]) Array.newInstance(Predicate.class, 9); Predicate<Integer> predicate0 = TruePredicate.truePredicate(); predicateArray0[0] = predicate0; AnyPredicate<Integer> anyPredicate0 = new AnyPredicate<Integer>(predicateArray0); predicateArray0[1] = (Predicate<Integer>) anyPredicate0; NotPredicate<Integer> notPredicate0 = new NotPredicate<Integer>(predicateArray0[1]); predicateArray0[2] = (Predicate<Integer>) notPredicate0; LinkedHashSet<Predicate<Object>> linkedHashSet0 = new LinkedHashSet<Predicate<Object>>(); Predicate<Integer> predicate1 = AllPredicate.allPredicate((Collection<? extends Predicate<? super Integer>>) linkedHashSet0); predicateArray0[3] = predicate1; HashMap<Predicate<Object>, Transformer<Object, Boolean>> hashMap0 = new HashMap<Predicate<Object>, Transformer<Object, Boolean>>(); Transformer<Integer, Boolean> transformer0 = SwitchTransformer.switchTransformer((Map<? extends Predicate<? super Integer>, ? extends Transformer<? super Integer, ? extends Boolean>>) hashMap0); TransformerPredicate<Integer> transformerPredicate0 = new TransformerPredicate<Integer>(transformer0); predicateArray0[4] = (Predicate<Integer>) transformerPredicate0; WhileClosure<Integer> whileClosure0 = new WhileClosure<Integer>(predicate0, (Closure<? super Integer>) null, false); ClosureTransformer<Integer> closureTransformer0 = new ClosureTransformer<Integer>(whileClosure0); TransformedPredicate<Integer> transformedPredicate0 = new TransformedPredicate<Integer>(closureTransformer0, predicateArray0[2]); predicateArray0[5] = (Predicate<Integer>) transformedPredicate0; NullIsFalsePredicate<Integer> nullIsFalsePredicate0 = new NullIsFalsePredicate<Integer>(transformedPredicate0); predicateArray0[6] = (Predicate<Integer>) nullIsFalsePredicate0; Predicate<Integer> predicate2 = AnyPredicate.anyPredicate((Collection<? extends Predicate<? super Integer>>) linkedHashSet0); predicateArray0[7] = predicate2; Predicate<Integer> predicate3 = TruePredicate.truePredicate(); predicateArray0[8] = predicate3; FluentIterable<Predicate<Integer>> fluentIterable3 = FluentIterable.of(predicateArray0); FluentIterable<Predicate<Integer>> fluentIterable4 = fluentIterable3.append(predicateArray0); int int0 = fluentIterable4.size(); }
+Code: public int size() { return IterableUtils.size(iterable); }
+[[0.14005756 0.09168129 0.19428128 0.17120624 0.152219   0.19428128
+ 0.05627332]
+[0.08921845 0.06556281 0.2322315  0.19481936 0.14315376 0.2322315
+ 0.04278267]
+[0.12119697 0.07944629 0.20417215 0.18169    0.14682373 0.20417216
+ 0.06249871]
+[0.13480824 0.06582753 0.1822551  0.20407528 0.15680158 0.1822551
+ 0.07397714]
+[0.10471454 0.06661788 0.21977326 0.18215512 0.1559014  0.21977329
+ 0.0510645 ]
+[0.12119697 0.07944629 0.20417215 0.18169    0.14682373 0.20417216
+ 0.06249871]
+[0.09448293 0.0724026  0.1800794  0.22326528 0.20070246 0.18007939
+ 0.04898785]]

@@ -1,0 +1,17 @@
+142045
+Test: public void test20() throws Throwable { ArrayList<RemoteCacheNoWait<Object, Integer>> arrayList0 = new ArrayList<RemoteCacheNoWait<Object, Integer>>(); RemoteCacheAttributes remoteCacheAttributes0 = new RemoteCacheAttributes(); CacheEventLoggerDebugLogger cacheEventLoggerDebugLogger0 = new CacheEventLoggerDebugLogger(); ZombieCacheServiceNonLocal<Object, Integer> zombieCacheServiceNonLocal0 = new ZombieCacheServiceNonLocal<Object, Integer>(); RemoteCacheMonitor remoteCacheMonitor0 = new RemoteCacheMonitor(); RemoteCache<Object, Integer> remoteCache0 = new RemoteCache<Object, Integer>(remoteCacheAttributes0, zombieCacheServiceNonLocal0, (IRemoteCacheListener<Object, Integer>) null, remoteCacheMonitor0); RemoteCacheNoWait<Object, Integer> remoteCacheNoWait0 = new RemoteCacheNoWait<Object, Integer>(remoteCache0); arrayList0.add(remoteCacheNoWait0); CompressingSerializer compressingSerializer0 = new CompressingSerializer(); RemoteCacheFactory remoteCacheFactory0 = new RemoteCacheFactory(); RemoteCacheNoWaitFacade<Object, Integer> remoteCacheNoWaitFacade0 = new RemoteCacheNoWaitFacade<Object, Integer>(arrayList0, remoteCacheAttributes0, cacheEventLoggerDebugLogger0, compressingSerializer0, remoteCacheFactory0); byte[] byteArray0 = new byte[8]; ByteArrayInputStream byteArrayInputStream0 = new ByteArrayInputStream(byteArray0); PushbackInputStream pushbackInputStream0 = new PushbackInputStream(byteArrayInputStream0, 1379); Integer integer0 = new Integer((byte)0); CacheElement<Object, Integer> cacheElement0 = new CacheElement<Object, Integer>("RemoteCacheNoWaitFacade: null, rca = \n RemoteCacheAttributes \n cacheName = [null]\n remoteType = [LOCAL]\n removeUponRemotePut = [true]\n getOnly = [false]\n receive = [true]\n getTimeoutMillis = [-1]\n threadPoolName = [remote_cache_client]\n localClusterConsistency = [false]\n zombieQueueMaxSize = [1000]", pushbackInputStream0, integer0, (IElementAttributes) null); remoteCacheNoWaitFacade0.update(cacheElement0); }
+Code: public CacheType getCacheType() { return CacheType.REMOTE_CACHE; }
+[[0.12731326 0.17660138 0.17660138 0.1539395  0.13815959 0.17660138
+ 0.05078347]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.1209935  0.16031049 0.16031049 0.19048879 0.13977559 0.16031049
+ 0.06781061]
+[0.09097192 0.18878669 0.18878669 0.16263722 0.13468806 0.18878669
+ 0.04534269]
+[0.10742985 0.18024936 0.18024936 0.16508873 0.13025214 0.18024936
+ 0.05648119]
+[0.08439702 0.15890288 0.15890288 0.21071318 0.18253878 0.15890287
+ 0.04564238]]

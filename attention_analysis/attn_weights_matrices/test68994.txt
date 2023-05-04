@@ -1,10 +1,17 @@
 68994
 Test: public void test256() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test256"); org.jsoup.parser.HtmlTreeBuilder htmlTreeBuilder0 = new org.jsoup.parser.HtmlTreeBuilder(); org.jsoup.select.Evaluator.Attribute attribute2 = new org.jsoup.select.Evaluator.Attribute("hi!"); java.lang.String str3 = attribute2.toString(); org.jsoup.select.Evaluator.IndexEquals indexEquals5 = new org.jsoup.select.Evaluator.IndexEquals((int) '#'); org.jsoup.nodes.Element element6 = null; org.jsoup.nodes.Document document9 = org.jsoup.parser.Parser.parseBodyFragmentRelaxed("", "hi!"); boolean boolean10 = indexEquals5.matches(element6, (org.jsoup.nodes.Element) document9); org.jsoup.nodes.Element element12 = document9.text("EOF"); org.jsoup.select.Elements elements14 = document9.getElementsByClass("#document"); org.jsoup.select.Elements elements16 = document9.select("#document"); org.jsoup.nodes.Document document19 = org.jsoup.Jsoup.parse("", ""); org.jsoup.nodes.Element element21 = document19.prepend("hi!"); boolean boolean22 = attribute2.matches((org.jsoup.nodes.Element) document9, (org.jsoup.nodes.Element) document19); htmlTreeBuilder0.setFormElement((org.jsoup.nodes.Element) document9); org.jsoup.parser.HtmlTreeBuilderState htmlTreeBuilderState24 = org.jsoup.parser.HtmlTreeBuilderState.BeforeHead; htmlTreeBuilder0.transition(htmlTreeBuilderState24); org.jsoup.parser.Token.Character character27 = new org.jsoup.parser.Token.Character(""); java.lang.String str28 = character27.getData(); org.jsoup.parser.HtmlTreeBuilderState htmlTreeBuilderState29 = org.jsoup.parser.HtmlTreeBuilderState.InTableText; boolean boolean30 = htmlTreeBuilder0.process((org.jsoup.parser.Token) character27, htmlTreeBuilderState29); org.jsoup.parser.HtmlTreeBuilderState htmlTreeBuilderState31 = htmlTreeBuilder0.state(); org.jsoup.nodes.Document document34 = org.jsoup.Jsoup.parse("EOF", "#document"); boolean boolean35 = htmlTreeBuilder0.isSpecial((org.jsoup.nodes.Element) document34); org.jsoup.select.Evaluator.Class class37 = new org.jsoup.select.Evaluator.Class("hi!"); org.jsoup.select.Evaluator.ContainsOwnText containsOwnText39 = new org.jsoup.select.Evaluator.ContainsOwnText("#document"); org.jsoup.nodes.Document document42 = org.jsoup.Jsoup.parse("", ""); org.jsoup.nodes.Element element44 = document42.prepend("hi!"); org.jsoup.nodes.Element element47 = element44.attr("[]", "[#text$=[]]"); org.jsoup.nodes.Document document50 = org.jsoup.parser.Parser.parseBodyFragmentRelaxed("", "hi!"); org.jsoup.nodes.Element element52 = document50.prependElement("EOF"); element52.setBaseUri("EOF"); boolean boolean55 = containsOwnText39.matches(element47, element52); boolean boolean57 = element47.hasAttr(""); org.jsoup.nodes.Document document60 = org.jsoup.parser.Parser.parseBodyFragmentRelaxed("", "hi!"); org.jsoup.nodes.Element element62 = document60.prependElement("EOF"); org.jsoup.nodes.Element element64 = document60.text("#"); boolean boolean65 = class37.matches(element47, element64); try { org.jsoup.nodes.Element element66 = htmlTreeBuilder0.aboveOnStack(element47); } catch (java.lang.NullPointerException e) { } }
 Code: public String toString() { return tagName; }
-tensor([[0.1246, 0.1598, 0.1630, 0.1668, 0.1372, 0.1953, 0.0532],
-        [0.1302, 0.1510, 0.1822, 0.1896, 0.1313, 0.1675, 0.0483],
-        [0.0880, 0.2171, 0.1436, 0.1642, 0.1329, 0.2114, 0.0428],
-        [0.1213, 0.1795, 0.1268, 0.1904, 0.1402, 0.1740, 0.0679],
-        [0.0931, 0.2009, 0.1262, 0.1875, 0.1342, 0.2069, 0.0511],
-        [0.0873, 0.1903, 0.1475, 0.2034, 0.1397, 0.1748, 0.0569],
-        [0.0832, 0.1524, 0.1690, 0.2025, 0.1784, 0.1705, 0.0441]])
+[[0.12457377 0.15984267 0.16303702 0.16679445 0.13718346 0.19534054
+ 0.05322807]
+[0.13020205 0.15098852 0.1822006  0.18956566 0.13128574 0.16747023
+ 0.04828718]
+[0.08802976 0.21705417 0.14358628 0.16415109 0.13292593 0.2114045
+ 0.04284828]
+[0.12126152 0.17950262 0.12684232 0.1903659  0.14015642 0.17401563
+ 0.06785564]
+[0.09311392 0.20089346 0.12623334 0.18751444 0.13424748 0.20688695
+ 0.05111036]
+[0.08730078 0.19034989 0.14745954 0.20342575 0.1397071  0.17480749
+ 0.05694952]
+[0.08316851 0.15241882 0.16901556 0.20245433 0.17838095 0.17045085
+ 0.04411101]]

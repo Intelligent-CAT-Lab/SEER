@@ -1,0 +1,19 @@
+39474
+Test: public void test66() throws Throwable { ISOChronology iSOChronology0 = ISOChronology.getInstanceUTC(); BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance(); Object object0 = new Object(); iSOChronology0.equals(object0); DateTimeField dateTimeField0 = buddhistChronology0.hourOfHalfday(); SkipUndoDateTimeField skipUndoDateTimeField0 = new SkipUndoDateTimeField(iSOChronology0, dateTimeField0); OffsetDateTimeField offsetDateTimeField0 = new OffsetDateTimeField(skipUndoDateTimeField0, 1); Integer integer0 = new Integer(1); DurationField durationField0 = buddhistChronology0.eras(); DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.weekyear(); Integer.toUnsignedLong(2458); DividedDateTimeField dividedDateTimeField0 = new DividedDateTimeField(dateTimeField0, durationField0, dateTimeFieldType0, 361); dividedDateTimeField0.add(0L, (int) integer0); dividedDateTimeField0.getLeapAmount(2678399999L); }
+Code: public int getLeapAmount(long instant) { return 0; }
+[[0.13695024 0.09276404 0.18995598 0.06283449 0.15169394 0.14690112
+ 0.16731347 0.05158672]
+[0.09301069 0.07320114 0.25432172 0.04311097 0.1748465  0.14582096
+ 0.17427322 0.04141468]
+[0.11848272 0.07969546 0.20352474 0.06454014 0.15592137 0.14296295
+ 0.17958832 0.05528429]
+[0.11495613 0.08036052 0.18335956 0.04851631 0.1579857  0.15243708
+ 0.21341613 0.0489686 ]
+[0.12827592 0.06425075 0.18065228 0.06447248 0.17797908 0.15132153
+ 0.16578436 0.06726356]
+[0.10582223 0.07152312 0.23295487 0.04431536 0.16186008 0.16136396
+ 0.17551796 0.04664245]
+[0.12146886 0.07155539 0.1863577  0.0510615  0.17321615 0.15043773
+ 0.19629371 0.04960899]
+[0.09199702 0.07164861 0.17984097 0.04723294 0.19140416 0.18790993
+ 0.18660706 0.04335923]]

@@ -1,0 +1,19 @@
+7438
+Test: public void test18() throws Throwable { HttpServletRequest httpServletRequest0 = mock(HttpServletRequest.class, new ViolatedAssumptionAnswer()); doReturn("O5K4N$c}M#')<<Y").when(httpServletRequest0).getParameter(anyString()); HttpServletRequestWrapper httpServletRequestWrapper0 = new HttpServletRequestWrapper(httpServletRequest0); Request request0 = new Request(httpServletRequestWrapper0); String string0 = request0.queryParams("O5K4N$c}M#')<<Y"); }
+Code: public String queryParams(String queryParam) { return servletRequest.getParameter(queryParam); }
+[[0.10849017 0.140416   0.15049641 0.15049641 0.13670513 0.1184153
+ 0.15049641 0.04448412]
+[0.10799952 0.12504388 0.1530928  0.1530928  0.15837726 0.1090317
+ 0.1530928  0.04026924]
+[0.08932593 0.16262376 0.14845565 0.14845565 0.14510985 0.10850921
+ 0.14845565 0.04906435]
+[0.08932593 0.16262376 0.14845565 0.14845565 0.14510985 0.10850921
+ 0.14845565 0.04906435]
+[0.10346744 0.1472705  0.13317493 0.13317493 0.17167279 0.11838198
+ 0.13317493 0.05968253]
+[0.07586838 0.17061046 0.15203094 0.15203094 0.14671423 0.11042546
+ 0.15203094 0.04028862]
+[0.08932593 0.16262376 0.14845565 0.14845565 0.14510985 0.10850921
+ 0.14845565 0.04906435]
+[0.07272619 0.13320827 0.13599052 0.13599052 0.18699487 0.15886322
+ 0.13599052 0.04023586]]

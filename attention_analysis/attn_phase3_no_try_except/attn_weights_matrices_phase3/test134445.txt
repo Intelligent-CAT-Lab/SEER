@@ -1,0 +1,19 @@
+134445
+Test: public void test165() throws Throwable { String string0 = "[^tjIl?YL\"^.,^"; Document document0 = Parser.parse("[^tjIl?YL\"^.,^", "[^tjIl?YL\"^.,^"); Document.QuirksMode document_QuirksMode0 = Document.QuirksMode.limitedQuirks; Document document1 = document0.quirksMode(document_QuirksMode0); document1.classNames(); Element element0 = document1.prepend("[^tjIl?YL\"^.,^"); Node[] nodeArray0 = new Node[3]; nodeArray0[0] = (Node) document0; CDataNode cDataNode0 = new CDataNode("[^tjIl?YL\"^.,^"); CDataNode cDataNode1 = cDataNode0.clone(); nodeArray0[1] = (Node) cDataNode1; cDataNode1.sourceRange(); nodeArray0[2] = (Node) document1; // Undeclared exception!  element0.insertChildren(3539, nodeArray0);   }
+Code: public Range sourceRange() { return Range.of(this, true); }
+[[0.08803365 0.17134658 0.1221395  0.13202563 0.09869294 0.1221395
+ 0.22490981 0.04071229]
+[0.07897477 0.11670792 0.12592188 0.14484562 0.09978792 0.12592188
+ 0.27668518 0.03115479]
+[0.07956116 0.13091579 0.12992454 0.14197631 0.09698331 0.12992454
+ 0.24360245 0.04711183]
+[0.09913614 0.09858401 0.12681448 0.16624765 0.11319616 0.12681448
+ 0.21168298 0.05752416]
+[0.06359406 0.15163974 0.11995469 0.13828842 0.08993301 0.11995469
+ 0.279446   0.03718939]
+[0.07956116 0.13091579 0.12992454 0.14197631 0.09698331 0.12992454
+ 0.24360245 0.04711183]
+[0.08858576 0.12578855 0.13535225 0.15087031 0.0937928  0.13535225
+ 0.22742473 0.04283325]
+[0.06257088 0.10729057 0.11425646 0.1767348  0.14126204 0.11425646
+ 0.24636427 0.03726456]]

@@ -1,35 +1,51 @@
 15357
 Test: public void test188() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test188"); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder0 = new org.apache.commons.cli2.builder.DefaultOptionBuilder(); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder1 = defaultOptionBuilder0.reset(); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder3 = defaultOptionBuilder1.withShortName(""); org.apache.commons.cli2.Argument argument4 = null; org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder5 = defaultOptionBuilder1.withArgument(argument4); org.apache.commons.cli2.option.DefaultOption defaultOption6 = defaultOptionBuilder5.create(); org.apache.commons.cli2.OptionException optionException7 = new org.apache.commons.cli2.OptionException((org.apache.commons.cli2.Option) defaultOption6); int int8 = defaultOption6.getId(); org.apache.commons.cli2.Option option10 = defaultOption6.findOption("-"); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder11 = new org.apache.commons.cli2.builder.DefaultOptionBuilder(); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder12 = defaultOptionBuilder11.reset(); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder14 = defaultOptionBuilder12.withShortName(""); org.apache.commons.cli2.Argument argument15 = null; org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder16 = defaultOptionBuilder12.withArgument(argument15); org.apache.commons.cli2.option.DefaultOption defaultOption17 = defaultOptionBuilder16.create(); org.apache.commons.cli2.util.HelpFormatter helpFormatter23 = new org.apache.commons.cli2.util.HelpFormatter("", "hi!", "hi!", (int) '#'); helpFormatter23.printDivider(); java.lang.String str25 = helpFormatter23.getGutterLeft(); java.util.Set set26 = org.apache.commons.cli2.DisplaySetting.NONE; helpFormatter23.setFullUsageSettings(set26); java.util.Set set28 = org.apache.commons.cli2.DisplaySetting.NONE; helpFormatter23.setDisplaySettings(set28); java.util.Comparator comparator30 = null; java.util.List list31 = defaultOption17.helpLines((int) (short) 1, set28, comparator30); org.apache.commons.cli2.commandline.WriteableCommandLineImpl writeableCommandLineImpl32 = new org.apache.commons.cli2.commandline.WriteableCommandLineImpl((org.apache.commons.cli2.Option) defaultOption6, list31); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder33 = new org.apache.commons.cli2.builder.DefaultOptionBuilder(); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder34 = defaultOptionBuilder33.reset(); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder36 = defaultOptionBuilder34.withShortName(""); org.apache.commons.cli2.Argument argument37 = null; org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder38 = defaultOptionBuilder34.withArgument(argument37); org.apache.commons.cli2.option.DefaultOption defaultOption39 = defaultOptionBuilder38.create(); org.apache.commons.cli2.util.HelpFormatter helpFormatter45 = new org.apache.commons.cli2.util.HelpFormatter("", "hi!", "hi!", (int) '#'); helpFormatter45.printDivider(); java.lang.String str47 = helpFormatter45.getGutterLeft(); java.util.Set set48 = org.apache.commons.cli2.DisplaySetting.NONE; helpFormatter45.setFullUsageSettings(set48); java.util.Set set50 = org.apache.commons.cli2.DisplaySetting.NONE; helpFormatter45.setDisplaySettings(set50); java.util.Comparator comparator52 = null; java.util.List list53 = defaultOption39.helpLines((int) (short) 1, set50, comparator52); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder54 = new org.apache.commons.cli2.builder.DefaultOptionBuilder(); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder55 = defaultOptionBuilder54.reset(); org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder57 = defaultOptionBuilder55.withShortName(""); org.apache.commons.cli2.Argument argument58 = null; org.apache.commons.cli2.builder.DefaultOptionBuilder defaultOptionBuilder59 = defaultOptionBuilder55.withArgument(argument58); org.apache.commons.cli2.option.DefaultOption defaultOption60 = defaultOptionBuilder59.create(); org.apache.commons.cli2.OptionException optionException61 = new org.apache.commons.cli2.OptionException((org.apache.commons.cli2.Option) defaultOption60); defaultOption39.setParent((org.apache.commons.cli2.Option) defaultOption60); writeableCommandLineImpl32.setCurrentOption((org.apache.commons.cli2.Option) defaultOption39); boolean boolean65 = writeableCommandLineImpl32.hasOption(" "); java.util.Set set66 = writeableCommandLineImpl32.getOptionTriggers(); java.util.List list68 = writeableCommandLineImpl32.getValues("-"); org.apache.commons.cli2.option.GroupImpl groupImpl74 = new org.apache.commons.cli2.option.GroupImpl(list68, "DISPLAY_ARGUMENT_NUMBERED", " ", (int) (short) 10, 0, false); java.util.List list75 = groupImpl74.getOptions(); org.apache.commons.cli2.option.GroupImpl groupImpl81 = new org.apache.commons.cli2.option.GroupImpl(list75, "DISPLAY_OPTIONAL_CHILD_GROUP", "DISPLAY_PARENT_CHILDREN", (int) ' ', (int) (short) 1, true); }
 Code: public WriteableCommandLineImpl(final Option rootOption, final List arguments) { this.prefixes = rootOption.getPrefixes(); this.normalised = arguments; setCurrentOption(rootOption); }
-tensor([[0.0472, 0.0716, 0.1240, 0.0607, 0.0377, 0.0654, 0.0593, 0.0611, 0.1003,
-         0.0296, 0.1162, 0.0350, 0.0296, 0.0713, 0.0714, 0.0197],
-        [0.0348, 0.0607, 0.1296, 0.0483, 0.0271, 0.0560, 0.0488, 0.0763, 0.1056,
-         0.0234, 0.1875, 0.0271, 0.0234, 0.0643, 0.0780, 0.0093],
-        [0.0412, 0.0545, 0.1056, 0.0509, 0.0354, 0.0670, 0.0652, 0.0792, 0.0834,
-         0.0357, 0.1479, 0.0300, 0.0357, 0.0791, 0.0718, 0.0174],
-        [0.0540, 0.0689, 0.1066, 0.0597, 0.0417, 0.0845, 0.0684, 0.0705, 0.0827,
-         0.0357, 0.1058, 0.0363, 0.0357, 0.0629, 0.0656, 0.0211],
-        [0.0428, 0.0587, 0.1105, 0.0456, 0.0284, 0.0596, 0.0531, 0.0712, 0.0837,
-         0.0331, 0.1920, 0.0313, 0.0331, 0.0712, 0.0715, 0.0141],
-        [0.0386, 0.0610, 0.1166, 0.0535, 0.0340, 0.0631, 0.0455, 0.0820, 0.0823,
-         0.0278, 0.1855, 0.0233, 0.0278, 0.0724, 0.0699, 0.0165],
-        [0.0396, 0.0748, 0.1028, 0.0493, 0.0357, 0.0713, 0.0586, 0.0899, 0.0796,
-         0.0288, 0.1447, 0.0250, 0.0288, 0.0764, 0.0791, 0.0154],
-        [0.0470, 0.0581, 0.1134, 0.0545, 0.0459, 0.0654, 0.0689, 0.0682, 0.0791,
-         0.0388, 0.1118, 0.0253, 0.0388, 0.0830, 0.0765, 0.0252],
-        [0.0404, 0.0638, 0.1048, 0.0488, 0.0405, 0.0627, 0.0552, 0.0819, 0.1012,
-         0.0278, 0.1506, 0.0332, 0.0278, 0.0683, 0.0780, 0.0151],
-        [0.0562, 0.0669, 0.1226, 0.0653, 0.0472, 0.0836, 0.0645, 0.0585, 0.0737,
-         0.0452, 0.0802, 0.0299, 0.0452, 0.0716, 0.0631, 0.0263],
-        [0.0302, 0.0515, 0.1184, 0.0465, 0.0275, 0.0820, 0.0600, 0.0609, 0.0946,
-         0.0300, 0.1830, 0.0257, 0.0300, 0.0718, 0.0721, 0.0157],
-        [0.0357, 0.0577, 0.1171, 0.0602, 0.0313, 0.0674, 0.0605, 0.0823, 0.0831,
-         0.0254, 0.1717, 0.0224, 0.0254, 0.0709, 0.0738, 0.0152],
-        [0.0562, 0.0669, 0.1226, 0.0653, 0.0472, 0.0836, 0.0645, 0.0585, 0.0737,
-         0.0452, 0.0802, 0.0299, 0.0452, 0.0716, 0.0631, 0.0263],
-        [0.0518, 0.0611, 0.0980, 0.0612, 0.0418, 0.0742, 0.0663, 0.0627, 0.0741,
-         0.0346, 0.1389, 0.0393, 0.0346, 0.0680, 0.0725, 0.0209],
-        [0.0428, 0.0702, 0.0891, 0.0532, 0.0372, 0.0740, 0.0594, 0.0667, 0.0798,
-         0.0416, 0.1256, 0.0336, 0.0416, 0.0769, 0.0864, 0.0220],
-        [0.0379, 0.0630, 0.1014, 0.0639, 0.0332, 0.0671, 0.0666, 0.0842, 0.0891,
-         0.0328, 0.1395, 0.0311, 0.0328, 0.0688, 0.0699, 0.0188]])
+[[0.04722849 0.07158465 0.1239503  0.06069973 0.03766436 0.06535169
+ 0.05926182 0.06112227 0.10030259 0.02959902 0.1162398  0.03496619
+ 0.02959902 0.07131729 0.07139521 0.01971755]
+[0.03482145 0.06065954 0.12956272 0.0483286  0.0270513  0.05602562
+ 0.04875833 0.07631543 0.10559405 0.02339428 0.1874662  0.02710295
+ 0.02339428 0.06430016 0.07797381 0.00925124]
+[0.04123864 0.05447159 0.10559016 0.05089707 0.03544462 0.06703698
+ 0.06519097 0.07917517 0.0833837  0.03567276 0.1478819  0.03001328
+ 0.03567276 0.07911012 0.07181525 0.01740499]
+[0.05404361 0.06889745 0.10655825 0.05968086 0.04167392 0.08448054
+ 0.06843527 0.07048686 0.08270541 0.03566246 0.10579211 0.03629426
+ 0.03566246 0.06287138 0.06561657 0.02113854]
+[0.04278015 0.05870395 0.11047213 0.04564916 0.02841993 0.05959125
+ 0.05306303 0.07122321 0.0836979  0.03314862 0.1920021  0.03129826
+ 0.03314862 0.07124364 0.07145007 0.014108  ]
+[0.03864458 0.06104252 0.1166342  0.05345131 0.03403488 0.06307799
+ 0.04546897 0.08198827 0.08227083 0.02784187 0.18545747 0.02333051
+ 0.02784187 0.07244695 0.06994573 0.01652204]
+[0.0396333  0.0747806  0.10277315 0.04933115 0.0357098  0.07129385
+ 0.05859914 0.08989637 0.07960487 0.02884921 0.14474311 0.02502321
+ 0.02884921 0.07635464 0.07914767 0.01541078]
+[0.04702532 0.05807272 0.11342369 0.05450881 0.04587744 0.06543509
+ 0.06890515 0.06817183 0.07913838 0.03881229 0.11183625 0.02527166
+ 0.03881229 0.08296195 0.07652384 0.02522329]
+[0.04042364 0.06378544 0.10476729 0.04883569 0.04054016 0.06274505
+ 0.05517145 0.08193363 0.10119378 0.02777548 0.15055475 0.0332047
+ 0.02777548 0.06825116 0.07798465 0.01505757]
+[0.05621878 0.06694474 0.12258834 0.06532003 0.04718056 0.0836247
+ 0.06453    0.05846249 0.07371007 0.04516288 0.08018544 0.02990852
+ 0.04516288 0.07156304 0.06309759 0.02633989]
+[0.03017193 0.05146655 0.11844641 0.04650796 0.02754314 0.08195139
+ 0.06003837 0.06092997 0.09463938 0.03004014 0.18303886 0.02566818
+ 0.03004014 0.071757   0.0720867  0.0156739 ]
+[0.03566231 0.05767932 0.11713499 0.06015943 0.03129072 0.06739386
+ 0.06046769 0.08227972 0.08311679 0.02535281 0.17169666 0.02242049
+ 0.02535281 0.07093205 0.07382204 0.01523832]
+[0.05621878 0.06694474 0.12258834 0.06532003 0.04718056 0.0836247
+ 0.06453    0.05846249 0.07371007 0.04516288 0.08018544 0.02990852
+ 0.04516288 0.07156304 0.06309759 0.02633989]
+[0.05179518 0.06112007 0.09795679 0.06118226 0.04178675 0.07424411
+ 0.06631894 0.06270871 0.07407156 0.03459994 0.1388671  0.03933471
+ 0.03459994 0.06800073 0.0724701  0.0209431 ]
+[0.0428264  0.07022351 0.08906329 0.05316512 0.03717079 0.07396452
+ 0.05942561 0.06668358 0.07977178 0.04158496 0.1255972  0.033601
+ 0.04158496 0.07694562 0.08641107 0.02198061]
+[0.03787274 0.06302917 0.10136262 0.06387991 0.03321556 0.06714368
+ 0.06659486 0.08421494 0.08905431 0.03282198 0.13949993 0.03107605
+ 0.03282198 0.06876567 0.06989181 0.01875478]]

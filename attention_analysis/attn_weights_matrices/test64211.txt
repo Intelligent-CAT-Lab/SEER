@@ -1,23 +1,23 @@
 64211
 Test: public void test209() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test209"); com.fasterxml.jackson.core.util.BufferRecycler bufferRecycler0 = new com.fasterxml.jackson.core.util.BufferRecycler(); com.fasterxml.jackson.core.util.TextBuffer textBuffer1 = new com.fasterxml.jackson.core.util.TextBuffer(bufferRecycler0); java.lang.Object obj2 = null; com.fasterxml.jackson.core.io.IOContext iOContext4 = new com.fasterxml.jackson.core.io.IOContext(bufferRecycler0, obj2, false); char[] charArray6 = iOContext4.allocNameCopyBuffer(10); boolean boolean7 = iOContext4.isResourceManaged(); java.io.Reader reader9 = null; com.fasterxml.jackson.core.ObjectCodec objectCodec10 = null; com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer charsToNameCanonicalizer11 = com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer.createRoot(); charsToNameCanonicalizer11.release(); com.fasterxml.jackson.core.util.BufferRecycler bufferRecycler13 = new com.fasterxml.jackson.core.util.BufferRecycler(); com.fasterxml.jackson.core.util.TextBuffer textBuffer14 = new com.fasterxml.jackson.core.util.TextBuffer(bufferRecycler13); char[] charArray15 = textBuffer14.getCurrentSegment(); char[] charArray16 = textBuffer14.contentsAsArray(); textBuffer14.ensureNotShared(); com.fasterxml.jackson.core.ObjectCodec objectCodec18 = null; com.fasterxml.jackson.core.JsonFactory jsonFactory19 = new com.fasterxml.jackson.core.JsonFactory(objectCodec18); java.lang.Class<? extends com.fasterxml.jackson.core.FormatFeature> wildcardClass20 = jsonFactory19.getFormatWriteFeatureType(); java.lang.String str21 = jsonFactory19.getFormatName(); java.io.Writer writer22 = null; com.fasterxml.jackson.core.JsonGenerator jsonGenerator23 = jsonFactory19.createGenerator(writer22); com.fasterxml.jackson.core.io.SerializedString serializedString25 = new com.fasterxml.jackson.core.io.SerializedString(""); com.fasterxml.jackson.core.io.SerializedString serializedString27 = new com.fasterxml.jackson.core.io.SerializedString(""); byte[] byteArray28 = serializedString27.asQuotedUTF8(); int int30 = serializedString25.appendQuotedUTF8(byteArray28, 10); char[] charArray36 = new char[] { 'a', '#', '4', 'a', 'a' }; int int38 = serializedString25.appendQuoted(charArray36, 1); com.fasterxml.jackson.core.util.BufferRecycler bufferRecycler39 = new com.fasterxml.jackson.core.util.BufferRecycler(); com.fasterxml.jackson.core.util.TextBuffer textBuffer40 = new com.fasterxml.jackson.core.util.TextBuffer(bufferRecycler39); int int41 = textBuffer40.size(); char[] charArray42 = textBuffer40.getCurrentSegment(); int int44 = serializedString25.appendQuoted(charArray42, (int) (byte) 1); jsonGenerator23.writeString(charArray42, 0, 34); textBuffer14.resetWithCopy(charArray42, 10, 0); com.fasterxml.jackson.core.json.ReaderBasedJsonParser readerBasedJsonParser54 = new com.fasterxml.jackson.core.json.ReaderBasedJsonParser(iOContext4, 116, reader9, objectCodec10, charsToNameCanonicalizer11, charArray42, 0, 34, true); char char56 = readerBasedJsonParser54.getNextChar("hi!"); com.fasterxml.jackson.core.JsonLocation jsonLocation57 = readerBasedJsonParser54.getTokenLocation(); readerBasedJsonParser54.overrideCurrentName("hi!"); try { readerBasedJsonParser54._skipString(); } catch (com.fasterxml.jackson.core.JsonParseException e) { } }
 Code: public JsonLocation getTokenLocation(){final Object src = _ioContext.getSourceReference();return new JsonLocation(src,-1L, getTokenCharacterOffset(),getTokenLineNr(),getTokenColumnNr());}
-tensor([[0.0666, 0.0563, 0.1028, 0.0522, 0.2948, 0.0444, 0.1376, 0.0309, 0.0750,
-         0.1395],
-        [0.0512, 0.0752, 0.0990, 0.0483, 0.2805, 0.0576, 0.1242, 0.0341, 0.0848,
-         0.1450],
-        [0.0532, 0.0709, 0.1039, 0.0451, 0.3160, 0.0508, 0.1059, 0.0274, 0.0753,
-         0.1516],
-        [0.0631, 0.0789, 0.0775, 0.0409, 0.3143, 0.0499, 0.1116, 0.0262, 0.0800,
-         0.1575],
-        [0.0569, 0.0691, 0.0871, 0.0546, 0.2721, 0.0440, 0.1214, 0.0313, 0.0942,
-         0.1694],
-        [0.0880, 0.0674, 0.0957, 0.0596, 0.2040, 0.0760, 0.1490, 0.0420, 0.0844,
-         0.1340],
-        [0.0691, 0.0802, 0.0890, 0.0572, 0.2592, 0.0467, 0.1392, 0.0392, 0.0840,
-         0.1361],
-        [0.0630, 0.0840, 0.0922, 0.0481, 0.2790, 0.0474, 0.1446, 0.0369, 0.0799,
-         0.1249],
-        [0.0537, 0.0610, 0.1013, 0.0430, 0.3316, 0.0400, 0.1112, 0.0270, 0.0787,
-         0.1525],
-        [0.0626, 0.0586, 0.0929, 0.0358, 0.3276, 0.0427, 0.1440, 0.0272, 0.0670,
-         0.1418]])
+[[0.06657451 0.0562662  0.1028221  0.05221037 0.29479322 0.04438134
+ 0.13763617 0.0308822  0.07498351 0.13945037]
+[0.0511916  0.07523139 0.09897681 0.04833575 0.28054714 0.057592
+ 0.12415562 0.03414045 0.08480039 0.14502883]
+[0.05315806 0.0709452  0.10387725 0.04506658 0.31599632 0.05077423
+ 0.10591017 0.02741119 0.07526175 0.15159917]
+[0.06311914 0.07888946 0.07750535 0.04087884 0.31431675 0.04989723
+ 0.11161386 0.02622109 0.08004092 0.15751736]
+[0.05686822 0.06911641 0.08711492 0.05458416 0.2720548  0.04395508
+ 0.12137032 0.03133928 0.09423456 0.16936222]
+[0.08795736 0.06736554 0.0956535  0.0596304  0.20402375 0.07595082
+ 0.14904061 0.04197781 0.08437204 0.13402818]
+[0.0690541  0.0801814  0.08898541 0.0572411  0.25922728 0.04672785
+ 0.13921899 0.03922648 0.08403635 0.13610102]
+[0.06303406 0.08398812 0.09224401 0.04811998 0.27895874 0.04741586
+ 0.14463402 0.03687068 0.07987088 0.12486356]
+[0.0537215  0.06097837 0.10132777 0.04304593 0.33155918 0.03999348
+ 0.11120333 0.02698138 0.07865472 0.15253437]
+[0.06257579 0.0585647  0.09287979 0.03575835 0.32756418 0.04265764
+ 0.14402252 0.02718933 0.06700528 0.14178243]]

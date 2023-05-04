@@ -1,0 +1,8 @@
+152659
+Test: public void test8() throws Throwable { Locale locale0 = Locale.GERMANY; FloatLocaleConverter floatLocaleConverter0 = new FloatLocaleConverter(locale0, (String) null, false); }
+Code: public FloatLocaleConverter() { this(false); }
+[[0.2061047  0.28586978 0.22157155 0.2102887  0.07616527]
+[0.16364151 0.28100383 0.2158623  0.26299953 0.07649285]
+[0.1850321  0.26617992 0.2441767  0.21000952 0.09460175]
+[0.19595356 0.32538077 0.20428325 0.20206916 0.07231329]
+[0.15159984 0.29847294 0.3031843  0.17733392 0.06940896]]

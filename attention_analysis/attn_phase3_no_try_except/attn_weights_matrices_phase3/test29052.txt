@@ -1,0 +1,9 @@
+29052
+Test: public void test9() throws Throwable { Vector2D.Unit vector2D_Unit0 = Vector2D.Unit.MINUS_X; Precision.DoubleEquivalence precision_DoubleEquivalence0 = mock(Precision.DoubleEquivalence.class, new ViolatedAssumptionAnswer()); Line line0 = mock(Line.class, new ViolatedAssumptionAnswer()); doReturn(precision_DoubleEquivalence0).when(line0).getPrecision(); LineSpanningSubset lineSpanningSubset0 = new LineSpanningSubset(line0); Precision.DoubleEquivalence precision_DoubleEquivalence1 = lineSpanningSubset0.getPrecision(); Line line1 = new Line(vector2D_Unit0, 1371.34089052, precision_DoubleEquivalence1); Ray ray0 = line1.rayFrom((Vector2D) vector2D_Unit0); LineConvexSubset lineConvexSubset0 = ray0.reverse(); double double0 = lineConvexSubset0.getSubspaceEnd(); }
+Code: public abstract double getSubspaceEnd(); /** {@inheritDoc}
+[[0.13621908 0.06304611 0.23378983 0.18898167 0.18898165 0.18898165]
+[0.13061717 0.05357753 0.18898894 0.20893879 0.20893878 0.20893878]
+[0.11255268 0.06147959 0.23592088 0.19668227 0.19668227 0.19668227]
+[0.12031308 0.0692689  0.22187668 0.19618043 0.19618045 0.19618045]
+[0.12031308 0.0692689  0.22187668 0.19618043 0.19618045 0.19618045]
+[0.12031308 0.0692689  0.22187668 0.19618043 0.19618045 0.19618045]]

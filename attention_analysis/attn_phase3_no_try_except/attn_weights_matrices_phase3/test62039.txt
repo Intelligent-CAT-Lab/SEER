@@ -1,0 +1,17 @@
+62039
+Test: public void test6() throws Throwable { LinkedHashSet<Object> linkedHashSet0 = new LinkedHashSet<Object>(); LinkedList<Object> linkedList0 = new LinkedList<Object>(linkedHashSet0); DateTimeFormatterBuilder.Composite dateTimeFormatterBuilder_Composite0 = new DateTimeFormatterBuilder.Composite(linkedList0); DateTimePrinter dateTimePrinter0 = InternalPrinterDateTimePrinter.of(dateTimeFormatterBuilder_Composite0); DateTimeParser dateTimeParser0 = InternalParserDateTimeParser.of(dateTimeFormatterBuilder_Composite0); DateTimeFormatter dateTimeFormatter0 = new DateTimeFormatter(dateTimePrinter0, dateTimeParser0); DateTimeFormatter dateTimeFormatter1 = dateTimeFormatter0.withDefaultYear(0); DateTimeFormatter dateTimeFormatter2 = dateTimeFormatter1.withZoneUTC(); }
+Code: public DateTimeFormatter withZoneUTC() { return withZone(DateTimeZone.UTC); }
+[[0.11640793 0.21986324 0.16149354 0.16103925 0.1288306  0.16149354
+ 0.05087192]
+[0.11014736 0.20376627 0.17840269 0.16586053 0.11290114 0.17840269
+ 0.05051926]
+[0.09472392 0.25612912 0.15484361 0.16816024 0.11544331 0.15484363
+ 0.05585622]
+[0.11224385 0.21871045 0.1426377  0.19034547 0.12788627 0.1426377
+ 0.06553859]
+[0.0844792  0.24536406 0.16666938 0.16872142 0.1220393  0.1666694
+ 0.04605718]
+[0.09472392 0.25612912 0.15484361 0.16816024 0.11544331 0.15484363
+ 0.05585622]
+[0.07852471 0.19502296 0.14435107 0.21623917 0.17567328 0.14435107
+ 0.04583781]]

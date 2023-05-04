@@ -1,11 +1,19 @@
 69044
 Test: public void test39() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest0.test39"); org.jsoup.nodes.DocumentType documentType3 = new org.jsoup.nodes.DocumentType("[]", "#text", ""); org.jsoup.nodes.Node node6 = documentType3.attr("", "PUBLIC"); org.jsoup.helper.W3CDom w3CDom7 = new org.jsoup.helper.W3CDom(); org.jsoup.nodes.Document document10 = org.jsoup.parser.Parser.parse("hi!", ""); org.jsoup.nodes.Document.OutputSettings outputSettings11 = document10.outputSettings(); java.util.List<org.jsoup.nodes.Node> nodeList12 = document10.siblingNodes(); org.jsoup.nodes.Document.QuirksMode quirksMode13 = document10.quirksMode(); org.w3c.dom.Document document14 = w3CDom7.fromJsoup(document10); org.jsoup.helper.W3CDom.W3CBuilder w3CBuilder15 = new org.jsoup.helper.W3CDom.W3CBuilder(document14); org.jsoup.select.NodeTraversor nodeTraversor16 = new org.jsoup.select.NodeTraversor((org.jsoup.select.NodeVisitor) w3CBuilder15); org.jsoup.nodes.Node node17 = documentType3.traverse((org.jsoup.select.NodeVisitor) w3CBuilder15); org.jsoup.select.Evaluator.ContainsData containsData20 = new org.jsoup.select.Evaluator.ContainsData("hi!"); org.jsoup.nodes.Document document23 = org.jsoup.parser.Parser.parse("hi!", ""); org.jsoup.nodes.Element element25 = document23.prependElement("hi!"); org.jsoup.nodes.Document document28 = org.jsoup.parser.Parser.parse("hi!", ""); org.jsoup.nodes.Element element30 = document28.prependElement("hi!"); boolean boolean31 = containsData20.matches(element25, (org.jsoup.nodes.Element) document28); org.jsoup.select.Elements elements33 = element25.getElementsByIndexEquals((int) (byte) 10); org.jsoup.parser.ParseErrorList parseErrorList35 = null; java.util.List<org.jsoup.nodes.Node> nodeList36 = org.jsoup.parser.Parser.parseFragment("", element25, "", parseErrorList35); org.jsoup.nodes.Node node37 = element25.parent(); org.jsoup.select.Elements elements38 = element25.parents(); java.lang.String str39 = element25.val(); boolean boolean40 = element25.hasParent(); try { w3CBuilder15.head((org.jsoup.nodes.Node) element25, (int) (byte) 0); } catch (org.w3c.dom.DOMException e) { } }
 Code: public W3CBuilder(Document doc) { this.doc = doc; }
-tensor([[0.1562, 0.1694, 0.0932, 0.1537, 0.1713, 0.0948, 0.1067, 0.0546],
-        [0.1515, 0.1703, 0.0781, 0.1677, 0.1754, 0.1092, 0.1072, 0.0406],
-        [0.1309, 0.1532, 0.0811, 0.1715, 0.1804, 0.1082, 0.1296, 0.0452],
-        [0.1390, 0.1460, 0.0895, 0.1633, 0.1522, 0.1130, 0.1299, 0.0672],
-        [0.1172, 0.1586, 0.0795, 0.1869, 0.1408, 0.1203, 0.1412, 0.0556],
-        [0.1473, 0.1768, 0.0798, 0.1459, 0.1518, 0.1162, 0.1149, 0.0673],
-        [0.1553, 0.1620, 0.0730, 0.1803, 0.1786, 0.0904, 0.1193, 0.0410],
-        [0.1283, 0.1336, 0.0844, 0.1979, 0.1707, 0.1017, 0.1346, 0.0489]])
+[[0.15621896 0.1693879  0.09321    0.15372857 0.17130174 0.09481299
+ 0.10671955 0.05462031]
+[0.15154168 0.17032161 0.07809113 0.16766149 0.17535065 0.10917001
+ 0.10724337 0.04062007]
+[0.13085899 0.15323283 0.08111815 0.17150886 0.18039817 0.10815731
+ 0.12957156 0.04515414]
+[0.13896929 0.14596723 0.08950289 0.16331916 0.1521734  0.11297156
+ 0.12992008 0.06717632]
+[0.1171668  0.15863805 0.07948855 0.18686955 0.14076772 0.12026523
+ 0.14123785 0.05556626]
+[0.14727235 0.17683552 0.07976791 0.14593299 0.15179361 0.11623225
+ 0.11490472 0.06726065]
+[0.15530513 0.16203323 0.07299259 0.18031152 0.17855978 0.09040791
+ 0.11934663 0.04104322]
+[0.12829855 0.13358603 0.08439192 0.19785184 0.17065677 0.10169124
+ 0.1345911  0.04893254]]

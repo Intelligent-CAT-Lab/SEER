@@ -1,0 +1,17 @@
+63124
+Test: public void test214() throws Throwable { JSONObject jSONObject0 = new JSONObject(); JSONArray jSONArray0 = new JSONArray(); ArrayList<Byte> arrayList0 = new ArrayList<Byte>(); JSONArray jSONArray1 = jSONArray0.put(1774, (Collection<?>) arrayList0); long long0 = jSONArray0.optLong(574); Number number0 = jSONArray1.optNumber(815); JSONArray jSONArray2 = jSONArray1.put(2438, (Collection<?>) arrayList0); JSONArray jSONArray3 = jSONArray0.put(true); int int0 = jSONArray0.length(); MockFile mockFile0 = new MockFile("|", "|"); MockPrintWriter mockPrintWriter0 = new MockPrintWriter(mockFile0); Object[] objectArray0 = new Object[9]; objectArray0[0] = (Object) mockPrintWriter0; objectArray0[1] = (Object) jSONObject0; objectArray0[2] = (Object) jSONArray2; objectArray0[3] = (Object) mockFile0; objectArray0[4] = (Object) mockPrintWriter0; objectArray0[5] = (Object) mockPrintWriter0; objectArray0[6] = (Object) mockFile0; objectArray0[7] = (Object) null; objectArray0[8] = (Object) arrayList0; PrintWriter printWriter0 = mockPrintWriter0.format("|", objectArray0); Writer writer0 = jSONArray2.write((Writer) printWriter0, 2191, (-2290)); }
+Code: public boolean isEmpty() { return this.myArrayList.isEmpty(); }
+[[0.10820153 0.26929402 0.16225758 0.14478612 0.11914322 0.15010406
+ 0.04621344]
+[0.06808552 0.35426494 0.13323367 0.17004558 0.11217175 0.13036571
+ 0.03183284]
+[0.08101472 0.32540357 0.14270507 0.16329432 0.11519144 0.12554851
+ 0.04684233]
+[0.10828055 0.2379888  0.15146804 0.1746069  0.12454908 0.1416231
+ 0.06148356]
+[0.07083954 0.35605597 0.15021072 0.14271888 0.10212281 0.13915457
+ 0.03889754]
+[0.08707795 0.3213563  0.15009099 0.14297509 0.10581847 0.14444515
+ 0.04823611]
+[0.07519423 0.26516983 0.12696025 0.18778597 0.16264868 0.14156732
+ 0.04067369]]

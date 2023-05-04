@@ -1,0 +1,17 @@
+141377
+Test: public void test21() throws Throwable { CacheElement<String, Object> cacheElement0 = new CacheElement<String, Object>("[CacheElement: cacheName [ExV_qS!], key [3X], val [-1], attr [[ IS_LATERAL = true, IS_SPOOL = true, IS_REMOTE = true, IS_ETERNAL = true, MaxLifeSeconds = -1, IdleTime = -1, CreateTime = 1392409281320, LastAccessTime = 1392409281320, getTimeToLiveSeconds() = -1, createTime = 1392409281320 ]]", "ExV_qS!", "[CacheElement: cacheName [ExV_qS!], key [3X], val [-1], attr [[ IS_LATERAL = true, IS_SPOOL = true, IS_REMOTE = true, IS_ETERNAL = true, MaxLifeSeconds = -1, IdleTime = -1, CreateTime = 1392409281320, LastAccessTime = 1392409281320, getTimeToLiveSeconds() = -1, createTime = 1392409281320 ]]"); PurgatoryElement<String, Object> purgatoryElement0 = new PurgatoryElement<String, Object>(cacheElement0); String string0 = purgatoryElement0.getKey(); }
+Code: public K getKey() { return cacheElement.getKey(); }
+[[0.13056019 0.18107246 0.20186593 0.1234482  0.13743243 0.18107246
+ 0.04454831]
+[0.11083297 0.19266611 0.18886161 0.1332391  0.13339971 0.19266614
+ 0.04833443]
+[0.0875461  0.19316067 0.20865542 0.15292025 0.13744506 0.19316065
+ 0.02711178]
+[0.12088893 0.1744535  0.16649157 0.15830305 0.14383934 0.1744535
+ 0.06157017]
+[0.08879213 0.2027567  0.21104714 0.12088721 0.13795659 0.20275672
+ 0.03580352]
+[0.11083297 0.19266611 0.18886161 0.1332391  0.13339971 0.19266614
+ 0.04833443]
+[0.08594997 0.17392066 0.22093967 0.14474374 0.16570726 0.17392065
+ 0.03481808]]

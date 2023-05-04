@@ -1,9 +1,9 @@
 17706
 Test: public void testAnnotationInExternStubs5() throws Exception { String externs = "function externObj5(){}\n" + "\n" + "externObj5.prototype.propWithAnnotatedStubAfter = function(s) {};\n" + "\n" + "externObj5.prototype.propWithAnnotatedStubAfter;\n"; List<String> expected = ImmutableList.<String>of(); testSame(externs, "o.prototype.propWithAnnotatedStubAfter", TypeValidator.DUP_VAR_DECLARATION, false); noSideEffectCalls.clear(); }
 Code: protected void clear() { entries.clear(); }
-tensor([[0.2218, 0.0964, 0.2030, 0.2190, 0.2152, 0.0445],
-        [0.2160, 0.0945, 0.1530, 0.2088, 0.2657, 0.0621],
-        [0.2101, 0.1139, 0.2044, 0.2010, 0.2075, 0.0631],
-        [0.2440, 0.1152, 0.1461, 0.2243, 0.1936, 0.0768],
-        [0.2165, 0.0873, 0.2008, 0.2240, 0.2188, 0.0526],
-        [0.2179, 0.0920, 0.1835, 0.2564, 0.1951, 0.0551]])
+[[0.22181784 0.0963807  0.20304155 0.21903178 0.2152234  0.0445047 ]
+[0.21596608 0.09446368 0.15299074 0.2087698  0.2657431  0.06206658]
+[0.2101298  0.11393091 0.20442036 0.20096287 0.20745535 0.06310072]
+[0.24401474 0.11518429 0.14606832 0.22429714 0.19364531 0.07679019]
+[0.2164892  0.08731517 0.20084262 0.2240058  0.21876581 0.05258135]
+[0.21785225 0.09204977 0.18348986 0.2564213  0.19509748 0.05508937]]

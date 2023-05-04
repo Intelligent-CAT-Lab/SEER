@@ -1,0 +1,2 @@
+131294
+Test: public void test103() throws Throwable { Complex complex0 = Complex.ofCartesian(0.0, 0.0); complex0.acosh(); }

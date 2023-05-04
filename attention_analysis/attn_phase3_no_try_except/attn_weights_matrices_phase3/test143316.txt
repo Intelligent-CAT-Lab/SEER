@@ -1,0 +1,17 @@
+143316
+Test: public void test0() throws Throwable { RemoteCacheRequest<Object, Integer> remoteCacheRequest0 = new RemoteCacheRequest<Object, Integer>(); RemoteCacheRequest<Object, Object> remoteCacheRequest1 = new RemoteCacheRequest<Object, Object>(); LinkedHashSet<Object> linkedHashSet0 = new LinkedHashSet<Object>(); remoteCacheRequest0.setKey(linkedHashSet0); linkedHashSet0.add(remoteCacheRequest0); remoteCacheRequest0.setKeySet(linkedHashSet0); remoteCacheRequest1.getRequestType(); remoteCacheRequest1.setKey(remoteCacheRequest0); RemoteCacheRequest<Integer, Object> remoteCacheRequest2 = new RemoteCacheRequest<Integer, Object>(); Integer integer0 = new Integer(0); remoteCacheRequest2.setKey(integer0); RemoteCacheRequest<Object, String> remoteCacheRequest3 = new RemoteCacheRequest<Object, String>(); remoteCacheRequest3.setCacheName(""); remoteCacheRequest0.setRequesterId(0); String string0 = ""; remoteCacheRequest3.setPattern(""); String string1 = remoteCacheRequest0.toString(); RemoteCacheRequest<Integer, String> remoteCacheRequest4 = new RemoteCacheRequest<Integer, String>(); String string2 = "\n Key = ["; int int0 = 81; Integer integer1 = new Integer(int0); ElementAttributes elementAttributes0 = new ElementAttributes(); CacheElement<Integer, String> cacheElement0 = new CacheElement<Integer, String>(string2, integer1, string1, elementAttributes0); cacheElement0.getElementAttributes(); remoteCacheRequest4.setCacheElement(cacheElement0); LinkedHashSet<Integer> linkedHashSet1 = new LinkedHashSet<Integer>(); remoteCacheRequest4.setKeySet(linkedHashSet1); remoteCacheRequest4.getPattern(); remoteCacheRequest1.setPattern(string0); remoteCacheRequest1.getCacheElement(); remoteCacheRequest4.getCacheElement(); RemoteCacheRequest<String, Object> remoteCacheRequest5 = new RemoteCacheRequest<String, Object>(); remoteCacheRequest5.getKeySet(); remoteCacheRequest2.getPattern(); long long0 = (-1L); remoteCacheRequest3.setRequesterId(long0); RemoteCacheRequest<String, String> remoteCacheRequest6 = new RemoteCacheRequest<String, String>(); remoteCacheRequest6.getCacheName(); }
+Code: public String getCacheName() { return cacheName; }
+[[0.12830108 0.1666011  0.17797421 0.15782064 0.1395634  0.17797421
+ 0.05176535]
+[0.12820424 0.14977588 0.1834282  0.1802996  0.12852609 0.18342823
+ 0.04633773]
+[0.10518022 0.1933394  0.1756843  0.16600226 0.12763993 0.1756843
+ 0.0564696 ]
+[0.11900765 0.17346033 0.15602481 0.19107194 0.13699669 0.15602481
+ 0.06741381]
+[0.08912516 0.20455416 0.18036592 0.1687272  0.13034222 0.18036592
+ 0.04651939]
+[0.10518022 0.1933394  0.1756843  0.16600226 0.12763993 0.1756843
+ 0.0564696 ]
+[0.08551911 0.15674725 0.16242397 0.20538047 0.18261436 0.16242395
+ 0.04489082]]

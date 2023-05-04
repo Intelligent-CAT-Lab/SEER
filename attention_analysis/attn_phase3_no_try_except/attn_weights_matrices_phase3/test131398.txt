@@ -1,0 +1,23 @@
+131398
+Test: public void test6() throws Throwable { Comparator<Object> comparator0 = (Comparator<Object>) mock(Comparator.class, new ViolatedAssumptionAnswer()); PriorityQueue<String> priorityQueue0 = new PriorityQueue<String>(comparator0); FluentIterable<String> fluentIterable0 = FluentIterable.of((Iterable<String>) priorityQueue0); int int0 = (-3624); Integer integer0 = new Integer((-3624)); Predicate<Object> predicate0 = IdentityPredicate.identityPredicate((Object) integer0); NotPredicate<Object> notPredicate0 = new NotPredicate<Object>(predicate0); FluentIterable<String> fluentIterable1 = fluentIterable0.filter(notPredicate0); Comparator<Object> comparator1 = (Comparator<Object>) mock(Comparator.class, new ViolatedAssumptionAnswer()); NullIsTruePredicate<Object> nullIsTruePredicate0 = new NullIsTruePredicate<Object>(notPredicate0); notPredicate0.evaluate(nullIsTruePredicate0); FluentIterable<String> fluentIterable2 = fluentIterable1.collate((Iterable<? extends String>) fluentIterable0, (Comparator<? super String>) comparator1); fluentIterable2.size(); FluentIterable<Predicate<Object>> fluentIterable3 = FluentIterable.empty(); // Undeclared exception!  fluentIterable3.skip((-2211L));   }
+Code: public FluentIterable<E> skip(final long elementsToSkip) { return of(IterableUtils.skippingIterable(iterable, elementsToSkip)); }
+[[0.08033643 0.1114468  0.1114468  0.13359885 0.1114468  0.10642575
+ 0.08832771 0.1114468  0.11144681 0.03407719]
+[0.06934211 0.11412877 0.11412877 0.11706999 0.11412877 0.11880857
+ 0.08439636 0.11412877 0.1141288  0.03973907]
+[0.06934211 0.11412877 0.11412877 0.11706999 0.11412877 0.11880857
+ 0.08439636 0.11412877 0.1141288  0.03973907]
+[0.05945628 0.10993513 0.10993513 0.12098734 0.10993513 0.14730516
+ 0.08782405 0.10993513 0.10993513 0.03475158]
+[0.06934211 0.11412877 0.11412877 0.11706999 0.11412877 0.11880857
+ 0.08439636 0.11412877 0.1141288  0.03973907]
+[0.08149444 0.10258101 0.10258101 0.12462835 0.10258101 0.1403992
+ 0.0925642  0.10258101 0.10258102 0.04800875]
+[0.05685022 0.1125404  0.1125404  0.15460502 0.1125404  0.11276251
+ 0.08225988 0.1125404  0.11254042 0.03082032]
+[0.06934211 0.11412877 0.11412877 0.11706999 0.11412877 0.11880857
+ 0.08439636 0.11412877 0.1141288  0.03973907]
+[0.06934212 0.11412877 0.11412877 0.11706999 0.11412877 0.11880858
+ 0.08439636 0.11412877 0.11412878 0.03973908]
+[0.05741107 0.10507184 0.10507184 0.09326044 0.10507184 0.16078977
+ 0.12921682 0.10507184 0.10507186 0.03396266]]

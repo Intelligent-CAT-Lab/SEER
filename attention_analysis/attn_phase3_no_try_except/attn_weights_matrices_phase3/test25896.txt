@@ -1,0 +1,9 @@
+25896
+Test: public void test5() throws Throwable { Vector1D.Unit vector1D_Unit0 = Vector1D.Unit.PLUS; AffineTransformMatrix1D affineTransformMatrix1D0 = AffineTransformMatrix1D.createTranslation((Vector1D) vector1D_Unit0); double double0 = affineTransformMatrix1D0.determinant(); }
+Code: public abstract double determinant(); /** {@inheritDoc}
+[[0.13621908 0.06304611 0.23378983 0.18898167 0.18898165 0.18898165]
+[0.13061717 0.05357753 0.18898894 0.20893879 0.20893878 0.20893878]
+[0.11255268 0.06147959 0.23592088 0.19668227 0.19668227 0.19668227]
+[0.12031308 0.0692689  0.22187668 0.19618043 0.19618045 0.19618045]
+[0.12031308 0.0692689  0.22187668 0.19618043 0.19618045 0.19618045]
+[0.12031308 0.0692689  0.22187668 0.19618043 0.19618045 0.19618045]]

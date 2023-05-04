@@ -1,0 +1,23 @@
+131575
+Test: public void test2() throws Throwable { Predicate<Object>[] predicateArray0 = (Predicate<Object>[]) Array.newInstance(Predicate.class, 0); AnyPredicate<Object> anyPredicate0 = new AnyPredicate<Object>(predicateArray0); NotPredicate<Object> notPredicate0 = new NotPredicate<Object>(anyPredicate0); HashMap<Predicate<Object>, Closure<Object>> hashMap0 = new HashMap<Predicate<Object>, Closure<Object>>(); Closure<Object> closure0 = SwitchClosure.switchClosure((Map<Predicate<Object>, Closure<Object>>) hashMap0); Closure<Object> closure1 = WhileClosure.whileClosure((Predicate<? super Object>) notPredicate0, (Closure<? super Object>) closure0, true); ClosureTransformer<Predicate<Object>> closureTransformer0 = new ClosureTransformer<Predicate<Object>>(closure1); // Undeclared exception! closureTransformer0.transform(notPredicate0); }
+Code: public T transform(final T input) { iClosure.execute(input); return input; }
+[[0.08787149 0.05736388 0.12190201 0.05736388 0.18049651 0.11870755
+ 0.12190201 0.09689632 0.11971974 0.03777658]
+[0.07760365 0.04477289 0.12539542 0.04477289 0.21149495 0.12513584
+ 0.12539542 0.09051745 0.12020425 0.03470726]
+[0.06989606 0.04587034 0.1156306  0.04587034 0.237911   0.11649527
+ 0.1156306  0.08498447 0.12852901 0.03918232]
+[0.07760365 0.04477289 0.12539542 0.04477289 0.21149495 0.12513584
+ 0.12539542 0.09051745 0.12020425 0.03470726]
+[0.06047716 0.04614852 0.10330002 0.04614852 0.2416052  0.16130072
+ 0.10330002 0.10625346 0.0979839  0.0334825 ]
+[0.08357298 0.04456854 0.10897986 0.04456854 0.2041075  0.13549927
+ 0.10897986 0.09603335 0.12609415 0.04759595]
+[0.06989606 0.04587034 0.1156306  0.04587034 0.237911   0.11649527
+ 0.1156306  0.08498447 0.12852901 0.03918232]
+[0.06398389 0.03567495 0.1262755  0.03567495 0.25823942 0.12770359
+ 0.1262755  0.09244616 0.09886161 0.03486443]
+[0.08847035 0.04619902 0.11794557 0.04619902 0.20107415 0.13067839
+ 0.11794557 0.08831604 0.1168     0.04637188]
+[0.06207745 0.04373725 0.11633122 0.04373725 0.17771192 0.15815485
+ 0.11633122 0.1351801  0.11263812 0.03410065]]

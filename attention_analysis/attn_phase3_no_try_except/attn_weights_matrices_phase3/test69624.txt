@@ -1,0 +1,21 @@
+69624
+Test: public void test7027() throws Throwable { ArrayDeque<SQLTransactionRollbackException> arrayDeque0 = new ArrayDeque<SQLTransactionRollbackException>(); ArrayDeque<SQLTransactionRollbackException> arrayDeque1 = arrayDeque0.clone(); JSONArray jSONArray0 = new JSONArray((Iterable<?>) arrayDeque1); int int0 = 11; boolean boolean0 = jSONArray0.optBoolean(11, true); int int1 = jSONArray0.optInt((-583), 11); JSONArray jSONArray1 = jSONArray0.put(11, 0.0F); JSONTokener jSONTokener0 = new JSONTokener("Y1fzc;/\"HpT+Zr"); JSONException jSONException0 = jSONTokener0.syntaxError("number"); SQLTransactionRollbackException sQLTransactionRollbackException0 = new SQLTransactionRollbackException("Y1fzc;/\"HpT+Zr", jSONException0); boolean boolean1 = arrayDeque0.offer(sQLTransactionRollbackException0); double double0 = jSONArray1.optDouble(0); }
+Code: public double optDouble(int index) { return this.optDouble(index, Double.NaN); }
+[[0.06626111 0.11463819 0.09191836 0.24529067 0.08523138 0.07253757
+ 0.09191836 0.20465516 0.0275492 ]
+[0.05037703 0.10588288 0.08821017 0.19339256 0.09974145 0.07999525
+ 0.08821017 0.26881513 0.0253754 ]
+[0.05895572 0.10959536 0.09733035 0.19040227 0.09937464 0.07171185
+ 0.09733035 0.24195164 0.03334778]
+[0.06019159 0.09389471 0.09461828 0.19515666 0.10402296 0.07759452
+ 0.09461828 0.24862356 0.03127944]
+[0.07489497 0.10141259 0.09871858 0.19584548 0.11906411 0.08637059
+ 0.09871858 0.18277799 0.04219709]
+[0.04769329 0.09981068 0.09315722 0.20089068 0.09717089 0.06856895
+ 0.09315722 0.27312088 0.0264302 ]
+[0.05895572 0.10959536 0.09733035 0.19040227 0.09937464 0.07171185
+ 0.09733035 0.24195164 0.03334778]
+[0.04276203 0.1001447  0.07605074 0.27985778 0.07918555 0.0764621
+ 0.07605074 0.24728057 0.02220574]
+[0.04934295 0.10599372 0.09508504 0.2374287  0.11059193 0.10307895
+ 0.09508504 0.17881328 0.02458043]]

@@ -1,0 +1,21 @@
+144896
+Test: public void test3() throws Throwable { SoftReferenceMemoryCache<CacheElement<Object, Object>, Object> softReferenceMemoryCache0 = new SoftReferenceMemoryCache<CacheElement<Object, Object>, Object>(); CacheElement<Object, Object> cacheElement0 = new CacheElement<Object, Object>("?'7q- :pz9mWf_!Pf", "?'7q- :pz9mWf_!Pf", "?'7q- :pz9mWf_!Pf"); ElementAttributes elementAttributes0 = new ElementAttributes(); CacheElement<CacheElement<Object, Object>, Object> cacheElement1 = new CacheElement<CacheElement<Object, Object>, Object>("?'7q- :pz9mWf_!Pf", cacheElement0, cacheElement0, elementAttributes0); MemoryElementDescriptor<CacheElement<Object, Object>, Object> memoryElementDescriptor0 = new MemoryElementDescriptor<CacheElement<Object, Object>, Object>(cacheElement1); // Undeclared exception!  softReferenceMemoryCache0.lockedRemoveElement(memoryElementDescriptor0);   }
+Code: protected void lockedRemoveElement(final MemoryElementDescriptor<K, V> me) { strongReferences.remove(me.getCacheElement()); }
+[[0.11445799 0.05943682 0.10304981 0.10304981 0.10304981 0.23774347
+ 0.14718135 0.10304981 0.0289811 ]
+[0.12515706 0.05232365 0.1031339  0.1031339  0.1031339  0.26224992
+ 0.11378412 0.1031339  0.03394967]
+[0.13992526 0.06070914 0.10674117 0.10674117 0.10674117 0.22408311
+ 0.11114387 0.10674117 0.03717394]
+[0.13992526 0.06070914 0.10674117 0.10674117 0.10674117 0.22408311
+ 0.11114387 0.10674117 0.03717394]
+[0.13992526 0.06070914 0.10674117 0.10674117 0.10674117 0.22408311
+ 0.11114387 0.10674117 0.03717394]
+[0.15414545 0.05682433 0.09746045 0.09746045 0.09746045 0.23395608
+ 0.13484375 0.09746045 0.03038862]
+[0.14022763 0.06915788 0.09662779 0.09662779 0.09662779 0.21959667
+ 0.13787982 0.09662779 0.04662687]
+[0.13992526 0.06070914 0.10674117 0.10674117 0.10674117 0.22408311
+ 0.11114387 0.10674117 0.03717394]
+[0.11778259 0.05623712 0.10471021 0.10471021 0.10471021 0.1983914
+ 0.1727046  0.10471021 0.03604343]]

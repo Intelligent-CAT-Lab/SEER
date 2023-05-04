@@ -1,11 +1,19 @@
 69572
 Test: public void test711() throws Throwable { if (debug) System.out.format("%n%s%n", "RegressionTest1.test711"); org.jsoup.select.Evaluator.TagEndsWith tagEndsWith1 = new org.jsoup.select.Evaluator.TagEndsWith("hi!"); org.jsoup.select.Evaluator.Tag tag3 = new org.jsoup.select.Evaluator.Tag("#data"); org.jsoup.nodes.Document document6 = org.jsoup.parser.Parser.parseBodyFragment("PUBLIC", "hi!"); org.jsoup.nodes.Attributes attributes7 = document6.attributes(); java.lang.String str8 = document6.text(); org.jsoup.nodes.Node node9 = document6.parentNode; boolean boolean10 = org.jsoup.nodes.Element.preserveWhitespace((org.jsoup.nodes.Node) document6); org.jsoup.nodes.Element element11 = document6.nextElementSibling(); org.jsoup.nodes.Document document13 = new org.jsoup.nodes.Document(""); int int14 = document13.childNodeSize(); org.jsoup.nodes.Element element17 = document13.attr("#document", "PUBLIC"); org.jsoup.nodes.Element element20 = document13.attr(":lt(0)", false); org.jsoup.nodes.Document document22 = new org.jsoup.nodes.Document(""); org.jsoup.nodes.Document document24 = new org.jsoup.nodes.Document(""); document22.reparentChild((org.jsoup.nodes.Node) document24); java.util.List<org.jsoup.nodes.Node> nodeList26 = document24.ensureChildNodes(); element20.childNodes = nodeList26; boolean boolean28 = tag3.matches((org.jsoup.nodes.Element) document6, element20); org.jsoup.nodes.Document document30 = new org.jsoup.nodes.Document(""); java.lang.String str31 = document30.nodeName(); boolean boolean32 = document30.updateMetaCharsetElement(); org.jsoup.nodes.Element element34 = document30.prependText("[]"); org.jsoup.nodes.Document document36 = new org.jsoup.nodes.Document(""); int int37 = document36.childNodeSize(); org.jsoup.nodes.Element element40 = document36.attr("#document", "PUBLIC"); org.jsoup.nodes.Document document41 = document36.ownerDocument(); org.jsoup.nodes.Document document42 = document41.ownerDocument(); org.jsoup.nodes.Element element43 = document41.empty(); element34.setParentNode((org.jsoup.nodes.Node) element43); boolean boolean45 = tagEndsWith1.matches(element20, element43); }
 Code: protected List<Node> ensureChildNodes(){if (childNodes == EMPTY_NODES) {;}return childNodes;}
-tensor([[0.0972, 0.1595, 0.1100, 0.0969, 0.1081, 0.0976, 0.2999, 0.0310],
-        [0.0958, 0.1392, 0.1049, 0.1019, 0.1142, 0.0924, 0.3099, 0.0417],
-        [0.1236, 0.1514, 0.1295, 0.0992, 0.0946, 0.0993, 0.2671, 0.0354],
-        [0.0975, 0.1409, 0.1542, 0.0907, 0.1087, 0.1007, 0.2708, 0.0364],
-        [0.0770, 0.1370, 0.1574, 0.0747, 0.1144, 0.0827, 0.3382, 0.0186],
-        [0.1301, 0.1573, 0.1210, 0.0924, 0.0923, 0.1041, 0.2699, 0.0330],
-        [0.0985, 0.1610, 0.1194, 0.0760, 0.0983, 0.1156, 0.2931, 0.0380],
-        [0.1019, 0.1307, 0.1331, 0.0725, 0.1477, 0.0922, 0.2920, 0.0299]])
+[[0.0971633  0.15946548 0.10996765 0.09690151 0.10806549 0.09755405
+ 0.29985464 0.03102791]
+[0.09576171 0.1392289  0.10489529 0.10190119 0.11416908 0.09239535
+ 0.30994314 0.04170542]
+[0.12360942 0.15137681 0.12950428 0.09917395 0.09462272 0.09925196
+ 0.26709536 0.0353655 ]
+[0.09747463 0.14086643 0.15423562 0.0907429  0.10867554 0.10074966
+ 0.27084732 0.03640797]
+[0.07701622 0.13697243 0.15742567 0.07466485 0.11436699 0.08273804
+ 0.33818835 0.01862744]
+[0.13006002 0.15729177 0.12095536 0.09242603 0.09228036 0.10407505
+ 0.26992247 0.03298898]
+[0.09852183 0.16103497 0.11942981 0.07596994 0.09831826 0.11558376
+ 0.2931323  0.03800907]
+[0.10193145 0.13066486 0.13310087 0.0724795  0.14771792 0.09219351
+ 0.29202244 0.02988946]]

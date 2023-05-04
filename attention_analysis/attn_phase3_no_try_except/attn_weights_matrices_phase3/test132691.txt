@@ -1,0 +1,9 @@
+132691
+Test: public void test0() throws Throwable { Integer integer0 = new Integer(3119); DeleteCommand<Integer> deleteCommand0 = new DeleteCommand<Integer>(integer0); CommandVisitor<Integer> commandVisitor0 = (CommandVisitor<Integer>) mock(CommandVisitor.class, new ViolatedAssumptionAnswer()); deleteCommand0.accept(commandVisitor0); }
+Code: public abstract void accept(CommandVisitor<T> visitor); }
+[[0.18405145 0.08043543 0.14799353 0.25532037 0.25532037 0.07687885]
+[0.17133722 0.06824705 0.13483176 0.27611345 0.27611342 0.07335711]
+[0.14407945 0.0963931  0.12866595 0.2754669  0.2754669  0.07992772]
+[0.15876088 0.08475666 0.14065945 0.26561442 0.26561442 0.08459412]
+[0.15876088 0.08475666 0.14065945 0.26561442 0.26561442 0.08459412]
+[0.14457113 0.10568184 0.14030218 0.259512   0.259512   0.09042085]]

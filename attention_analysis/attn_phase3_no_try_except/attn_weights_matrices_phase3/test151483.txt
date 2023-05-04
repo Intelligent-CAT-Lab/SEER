@@ -1,0 +1,7 @@
+151483
+Test: public void test15() throws Throwable { BeanMap beanMap0 = new BeanMap(); Transformer transformer0 = NOPTransformer.getInstance(); TransformerPredicate transformerPredicate0 = new TransformerPredicate(transformer0); PredicateTransformer predicateTransformer0 = new PredicateTransformer(transformerPredicate0); Object object0 = beanMap0.getOrDefault(predicateTransformer0, (Object) null); }
+Code: public BeanMap() { }
+[[0.26360175 0.36561108 0.27517086 0.09561627]
+[0.22469527 0.38783675 0.285387   0.102081  ]
+[0.23549548 0.34202406 0.30348468 0.11899572]
+[0.18661417 0.3696179  0.36045745 0.08331049]]

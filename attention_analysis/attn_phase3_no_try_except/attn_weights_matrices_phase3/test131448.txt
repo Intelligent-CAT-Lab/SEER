@@ -1,0 +1,9 @@
+131448
+Test: public void test5() throws Throwable { HashMap<String, String> hashMap0 = new HashMap<String, String>(); hashMap0.put("1KQ@=Q]6eSm)R-p]", "1KQ@=Q]6eSm)R-p]"); EntrySetMapIterator<String, String> entrySetMapIterator0 = new EntrySetMapIterator<String, String>(hashMap0); entrySetMapIterator0.next(); hashMap0.put("org.apache.commons.collections4.bidimap.TreeBidiMap$InverseViewMapIterator", "1KQ@=Q]6eSm)R-p]"); AbstractMapIteratorDecorator<String, String> abstractMapIteratorDecorator0 = new AbstractMapIteratorDecorator<String, String>(entrySetMapIterator0); // Undeclared exception!  abstractMapIteratorDecorator0.remove();   }
+Code: public void remove() { iterator.remove(); }
+[[0.18029106 0.1453397  0.19870372 0.23647025 0.1632379  0.07595742]
+[0.1489453  0.12520888 0.19306715 0.23758477 0.22198482 0.0732091 ]
+[0.13126664 0.08496322 0.23044255 0.32314718 0.18794319 0.04223719]
+[0.15813138 0.1367989  0.22792816 0.24063809 0.14948508 0.08701835]
+[0.14827946 0.13945062 0.20692885 0.2345595  0.20808965 0.0626919 ]
+[0.12832358 0.1161584  0.19199073 0.30087355 0.19651386 0.06613991]]

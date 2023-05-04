@@ -1,0 +1,8 @@
+163089
+Test: public void test1771() throws Throwable { LinkedBlockingDeque<String> linkedBlockingDeque0 = new LinkedBlockingDeque<String>(false); String string0 = "defaultValue"; linkedBlockingDeque0.putLast("defaultValue"); Stream<String> stream0 = linkedBlockingDeque0.stream(); String string1 = linkedBlockingDeque0.take(); int int0 = 7; LinkedBlockingDeque<Object> linkedBlockingDeque1 = new LinkedBlockingDeque<Object>(7); Duration duration0 = Duration.ofMinutes(7); }
+Code: public LinkedBlockingDeque() { this(Integer.MAX_VALUE); }
+[[0.18877485 0.2618447  0.21511179 0.2618447  0.07242395]
+[0.15826353 0.2686846  0.22581923 0.2686846  0.07854807]
+[0.17396262 0.23986343 0.2528699  0.23986343 0.09344059]
+[0.15826353 0.2686846  0.22581923 0.2686846  0.07854807]
+[0.13051036 0.24960408 0.30344182 0.24960408 0.06683967]]

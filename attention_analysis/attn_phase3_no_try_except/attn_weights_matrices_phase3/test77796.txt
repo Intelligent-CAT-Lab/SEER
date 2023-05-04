@@ -1,0 +1,6 @@
+77796
+Test: public void test6() throws Throwable { ICONST iCONST0 = null;  iCONST0 = new ICONST((-1887));   }
+Code: ICONST() { }
+[[0.5234282  0.34890088 0.12767084]
+[0.46439818 0.38162568 0.15397614]
+[0.48506725 0.4157069  0.09922581]]

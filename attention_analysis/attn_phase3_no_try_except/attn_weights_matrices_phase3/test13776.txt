@@ -1,0 +1,17 @@
+13776
+Test: public void test4() throws Throwable { ContextedRuntimeException contextedRuntimeException0 = new ContextedRuntimeException(); ContextedRuntimeException contextedRuntimeException1 = contextedRuntimeException0.addContextValue("org.apache.commons.lang3.exception.ContextedRuntimeException", "org.apache.commons.lang3.exception.ContextedRuntimeException"); Set<String> set0 = contextedRuntimeException1.getContextLabels(); }
+Code: public Set<String> getContextLabels() { return exceptionContext.getContextLabels(); }
+[[0.12724571 0.17769226 0.17650722 0.15337126 0.1380262  0.17650722
+ 0.05065008]
+[0.11399274 0.1450986  0.18697847 0.19346109 0.13444766 0.18697849
+ 0.03904299]
+[0.11260204 0.149537   0.19062534 0.16364984 0.13627538 0.19062535
+ 0.05668506]
+[0.12406699 0.14040345 0.1681075  0.18697615 0.14441755 0.1681075
+ 0.06792085]
+[0.09460031 0.15688804 0.19930673 0.1630033  0.14111042 0.19930676
+ 0.04578441]
+[0.11260204 0.149537   0.19062534 0.16364984 0.13627538 0.19062535
+ 0.05668506]
+[0.08758339 0.1489172  0.16829875 0.1990522  0.18376002 0.16829874
+ 0.04408972]]
