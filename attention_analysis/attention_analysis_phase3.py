@@ -46,7 +46,7 @@ def main(args):
 
     vocab = load_dict('vocab_phase2.json')
 
-    f = open('../real_data_gen/zip/phase3_no_try_except/phase3_no_try_except.json') #used for phase3
+    f = open('../real_data_gen/triplets/no_comments/triplets.json') #used for phase3
     data = json.load(f)
 
     for key in data.keys():
